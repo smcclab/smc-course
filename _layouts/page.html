@@ -1,0 +1,56 @@
+---
+layout: default
+---
+{% assign base = '' %}
+{% assign urlsize = page.url | size | minus: 1 %}
+{% assign urlend = page.url | slice: urlsize,1  %}
+{% if urlend == "/" %}
+  {% assign depth = page.url | split: '/' | size  %}
+{% else %}
+  {% assign depth = page.url | split: '/' | size | minus: 1 %}
+{% endif %}
+{% if depth <= 1 %}
+  {% assign base = '.' %}
+{% else %}
+  {% assign base = '..' %}
+{% endif %}
+{% for i in (3..depth) %}
+  {% assign base = base | append: '/..' %}
+{% endfor %}
+
+<article class="post">
+
+<div class="doublewide">
+  {% if page.attachments %}
+  <div class="right narrow nopadtop">
+				<div class="box-header-uni small"><h2>Attachments</h2></div>
+				<div class="box-solid-uni small">
+					<ul class="linklist">
+            {% for attachment in page.attachments %}
+              <li><a href="{{ attachment.path | prepend: base }}">{{ attachment.name }}</a></li>
+            {% endfor %}
+					</ul>
+				</div>
+			</div>
+  {% endif %}
+
+  {% if page.title %}
+    {% unless page.hide_heading %}
+    {% if page.show_date %}
+      <div class="dateblock-line">
+        <div class="day">{{ page.date | date: "%-d" }}</div>
+        <div class="month">{{ page.date | date: "%b" }}</div>
+        <div class="year">{{ page.date | date: "%Y" }}</div>
+        {% if page.show_time %}<div class="time onlysmall">{{ page.date | date: "%R" }}</div>{% endif %}
+      </div>
+      <div class="datetext">{%else%}<div>{% endif %}
+        {% if page.show_time %}<p class="onlybig right small" style="color:#666">Posted {{ page.date | date: "%r" }}</p>{% endif %}
+        <h2 class="post-title" itemprop="name headline">{{ page.title }}</h2>
+      </div>
+    {% endunless %}
+  {% endif %}
+  <div class="post-content" style="clear:both">
+    {{ content }}
+  </div>
+  </div>
+</article>

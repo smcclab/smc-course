@@ -1,0 +1,158 @@
+
+ul#results-container {
+    list-style: none;
+    font-size: 12px;
+    background-color: white;
+    position: relative;
+    border-left: 1px solid #dedede;
+    box-shadow: 2px 3px 2px #dedede;
+    padding: 0px;
+    margin: 0px 10px;
+    float: left;
+    postion: relative;
+    width:178px;
+    top: -2px;
+}
+
+ul#results-container {
+  > li {
+    border-bottom: 1px solid #dedede;
+    padding: 2px;
+  }
+}
+
+.post-content {
+  padding-top: 12px;
+}
+
+#tab-wrap {
+  clear:both;
+  background:#666;
+  padding-top:4px;
+}
+
+@media only screen and (max-width: 959px) {
+.search-menu {
+  border: 0px !important;
+}
+.search-box {
+  display:block !important;
+  input.search-query {
+        width: 99% !important;
+  }
+}
+}
+.search-box {
+  input {
+    width:175px !important;
+  }
+}
+.onlysmall {
+    display: none !important;
+}
+.onlybig {
+    display: block !important;
+}
+
+.tabs-nav-processed {
+  li {
+    background-color: #666 !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .onlysmall {
+      display: block !important;
+  }
+  .onlybig {
+    display: none !important;
+  }
+
+  #homebutton {
+    background: white !important;
+    a {
+    background: URL('https://style.anu.edu.au/_anu/4/images/buttons/home-white.png') #666 !important;
+    background-position: center 3px !important;
+    background-repeat: no-repeat !important;
+    width: 14px;
+      span {
+        display: none;
+      }
+    }
+    a:hover {
+      background: URL('https://style.anu.edu.au/_anu/4/images/buttons/home-black.png') #d1f0f0 !important;
+      opacity: 0.5;
+      background-position: center 3px !important;
+      background-repeat: no-repeat !important;
+    }
+    a.tabs-select {
+    width: 14px;
+    background: URL('https://style.anu.edu.au/_anu/4/images/buttons/home-black.png') white !important;
+    opacity: 0.5;
+    background-position: center 3px !important;
+    background-repeat: no-repeat !important;
+    span {
+        display: none;
+    }
+  }
+}
+}
+
+
+header.site-header {
+  border-bottom:0px;
+}
+
+ul#results-container a {
+    background-color: transparent;
+}
+
+ul#results-container a:hover {
+    color: black;
+}
+
+.highlight {
+  padding: 10px 20px;
+  background: #eee;
+  width: 100%;
+
+   pre {
+    line-height: 1.25em;
+  }
+  table {
+    width: 100%;
+    border: 0px;
+    .lineno {
+      margin-right: 15px;
+      color: #666;
+    }
+    tr, td {
+      border: 0px;
+      padding: 0px;
+    }
+    margin: 0px;
+    border: 0px !important;
+    font-size: 11px;
+    line-height: 1.25em;
+  }
+}
+table {
+  width: 90%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  border: #d3e3e5 1px solid !important;
+  th {
+    color: #4C6E78;
+    border: #d3e3e5 1px solid;
+    background-color: #F7F9F9;
+  }
+  td {
+    border: #d3e3e5 1px solid;
+  }
+}
+#rssbox {
+  padding:0px;
+  float:right;
+  height:16px;
+  width: 16px;
+}

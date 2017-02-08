@@ -1,0 +1,59 @@
+# Jekyll (http://jekyllrb.com/) uses the information in this file to
+# figure out how to generate your website
+
+###############
+# course info #
+###############
+
+# course name
+title: Long Title
+
+# course name
+course_code: Short Title
+
+# the subpath of your site (replace COMPXXXX)
+baseurl: ""
+
+# the base hostname & protocol for your site
+url: ""
+
+# Put your name and email in here
+page_contact: Lecturer Name
+page_contact_email: lecturer.name@anu.edu.au
+
+# These are for the standard ANU Footer
+responsible_officer: Head of School
+responsible_officer_email: head.cs@cecs.anu.edu.au
+
+##################
+# build settings #
+##################
+
+# files/folders to exclude from the build process
+exclude: ["README.md"]
+
+markdown: kramdown
+
+gems:
+  - jekyll-last-modified-at
+
+# This is how many news items to show in the menu on the homepage
+newscount: 3
+
+# This sets the default layout for all the pages
+defaults:
+  - scope:
+      path: "" # empty string for all files
+    values:
+      layout: page
+  - scope:
+      path: "_posts"
+    values:
+      show_date: true
+      show_time: true
+
+# collections (set navbar: true to add a tab in the navbar)
+collections:
+
+# populates the menu with links to related sites
+related_sites:

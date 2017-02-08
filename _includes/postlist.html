@@ -1,0 +1,5 @@
+<ul class="post-list">
+  {% for post in site.[page.collection] %}
+   {% include postitem.html post=post last=forloop.last hidedate=include.hidedate showtime=include.showtime%}
+  {% endfor %}
+</ul>
