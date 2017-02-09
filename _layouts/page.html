@@ -12,7 +12,13 @@ layout: default
 <p>Attachments</p>
 <ul>
 {% for attachment in page.attachments %}
-<li><a href="{{ attachment.path | prepend: relativeurl }}">{{ attachment.name }}</a></li>
+  {% assign path = ""}
+  {% if attachment.path contains "http://" or attachment.path contains "https://" %}
+    {% assign path = attachment.path }
+  {% else %}
+    {% assign path = attachment.path | prepend: relativeurl %}
+  {% endif %}
+  <li><a href="{{ path }}">{{ attachment.name }}</a></li>
 {% endfor %}
 </ul>
 </div>
