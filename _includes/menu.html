@@ -39,7 +39,7 @@
 <div id="menu" role="navigation">
 <div class="narrow">
 	<div class="search-box">
-	  <p>Search {{ site.course_code }}</p>
+	  <p>Search {{ site.short_title }}</p>
 		<form>
 		<input autocomplete="off" type="text" class="search-query" id="search-input" placeholder="{{site.data.strings.search_placeholder_text}}">
 	  </form>
@@ -62,7 +62,7 @@
 <!-- Start of Menu 1-->
 {% unless collection_filtered_names contains current[1] %}
 	<div class="menu-flat menu-main">
-    <p>{{ site.course_code }}</p>
+    <p>{{ site.short_title }}</p>
     <ul id="nav-1">
 	        {% for my_page in site.pages %}
 	          {% if my_page.title %}

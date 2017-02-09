@@ -9,7 +9,7 @@
 title: Long Title
 
 # course name
-course_code: Short Title
+short_title: Short Title
 
 # the subpath of your site (replace COMPXXXX)
 baseurl: ""
