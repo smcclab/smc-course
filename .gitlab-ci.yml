@@ -1,0 +1,12 @@
+image: benswift/anucs-jekyll
+
+pages:
+  stage: deploy
+  script:
+    - jekyll build -d public
+  artifacts:
+    expire_in: 1 day
+    paths:
+    - public
+  only:
+    - master
