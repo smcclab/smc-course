@@ -83,7 +83,11 @@
 					{% if collection.docs.size > 1 or collection.links %}
 					<div class="menu-flat menu-main">
           <ul id="nav-{{ forloop.index + 2 }}">
-          <p>{{ collection.label }}</p>
+						{% assign displayname = collection.label %}
+						{% if collection.displayname %}
+						{% assign displayname = collection.displayname %}
+						{% endif %}
+          <p>{{ displayname }}</p>
 					{% for doc in collection.docs  %}
 						{% unless doc.hidden %}
 						<li><a href="{{ doc.url | prepend: relativeurl }}" {% if page.url == doc.url %}class="selected"{% endif %}>{{ doc.title }}</a>
