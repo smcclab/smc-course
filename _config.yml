@@ -39,6 +39,9 @@ markdown: kramdown
 gems:
   - jekyll-last-modified-at
 
+kramwdown:
+  parse_block_html: true
+
 # This is how many news items to show in the menu on the homepage
 newscount: 3
 
