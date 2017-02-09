@@ -58,7 +58,7 @@
 		</script>
 	</div>
 
-
+{% assign related_page_links = [] %}
 <!-- Start of Menu 1-->
 {% unless collection_filtered_names contains current[1] %}
 	<div class="menu-flat menu-main">
@@ -94,9 +94,7 @@
 						{% endunless %}
 					{% endfor %}
 					{% if collection.links %}
-						{% for related_site in collection.links %}
-						<li><a href="{{ related_site.url }}"> {{ related_site.name }}</a>
-						{% endfor %}
+						{% assign related_page_links = collection.links %}
 					{% endif %}
           </ul>
         </div>
@@ -126,12 +124,15 @@
 					</div>
 					{% endif %}
 
-					{% if site.related_sites %}
+					{% if site.related_sites or related_page_links %}
 					<div class="menu-flat menu-main" style="border-top: 3px solid #ACC0C6;">
 					<ul id="nav-10">
 						<p>related sites</p>
 						{% for related_site in site.related_sites %}
 						<li><a href="{{ related_site.url }}">{{ related_site.name }}</a>
+						{% endfor %}
+						{% for related_site in related_page_links %}
+						<li><a href="{{ related_site.url }}"> {{ related_site.name }}</a>
 						{% endfor %}
 					</ul>
 					</div>
