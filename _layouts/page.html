@@ -14,7 +14,7 @@ layout: default
 {% for attachment in page.attachments %}
   {% assign path = "" %}
   {% if attachment.path contains "http://" or attachment.path contains "https://" %}
-    {% assign path = attachment.path }
+    {% assign path = attachment.path %}
   {% else %}
     {% assign path = attachment.path | prepend: relativeurl %}
   {% endif %}
