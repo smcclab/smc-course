@@ -4,7 +4,7 @@
 {% unless post.hidden %}
 <li>
   <a href="{{ post.url | prepend: relativeurl }}">
-<div class="clear">
+<div class="clear postitem">
   {% unless include.hidedate %}
   <div class="dateblock-line">
     <div class="day">{{ post.date | date: "%-d" }}</div>
@@ -13,21 +13,21 @@
     {% if include.showtime %}<div class="time onlysmall">{{ post.date | date: "%R" }}</div>{% endif %}
   </div>
   <div class="datetext">
+  {% else %}
+  <div class="datetext" style="padding-left:0px;">
   {% endunless %}
   {% if include.showtime %}<p class="onlybig right small" style="color:#666">Posted {{ post.date | date: "%r" }}</p>{% endif %}
     <h3>
       <a class="post-link" href="{{ post.url | prepend: relativeurl }}">{{ post.title }}</a>
     </h3>
-    <p class="small">
     {% if post.summary %}
-      {{ post.summary }}
+      <p>{{ post.summary }}</p>
     {% else %}
       {% unless post.categories contains "campus_only" %}
       {{ post.excerpt }}
       {% endunless %}
     {% endif %}
-    </p>
-  {% unless include.hidedate %}</div>{% endunless %}
+  </div>
 </div>
 </a>
 </li>

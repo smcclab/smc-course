@@ -80,7 +80,7 @@
 				{% endunless %}
           {% for collection in site.collections %}
 					{% if collection.label == current[1] %}
-					{% if collection.docs.size > 1 %}
+					{% if collection.docs.size > 1 or collection.links %}
 					<div class="menu-flat menu-main">
           <ul id="nav-{{ forloop.index + 2 }}">
           <p>{{ collection.label }}</p>
@@ -89,6 +89,11 @@
 						<li><a href="{{ doc.url | prepend: relativeurl }}" {% if page.url == doc.url %}class="selected"{% endif %}>{{ doc.title }}</a>
 						{% endunless %}
 					{% endfor %}
+					{% if collection.links %}
+						{% for related_site in collection.links %}
+						<li><a href="{{ related_site.url }}"> {{ related_site.name }}</a>
+						{% endfor %}
+					{% endif %}
           </ul>
         </div>
 				{% endif %}
