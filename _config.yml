@@ -25,6 +25,8 @@ page_contact_email: lecturer.name@anu.edu.au
 responsible_officer: Head of School
 responsible_officer_email: head.cs@cecs.anu.edu.au
 
+gitlab_auth: false
+
 ##################
 # build settings #
 ##################

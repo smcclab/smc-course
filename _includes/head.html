@@ -29,12 +29,13 @@
 <script type="text/javascript"
         src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
+{% if site.gitlab_auth == true %}
 <script language="javascript">
  jQuery( document ).ready(function() {
    jQuery.get( "/pages/auth/status", function( data ) {
      jQuery("#bnr-low").html( data );
    });
   });
-
 </script>
+{% endif %}
 </head>
