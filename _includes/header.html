@@ -48,9 +48,13 @@
 				{% assign collection_filtered = site.collections | where:	"navbar","true" | sort: "display-order" %}
 				{% assign collection_filtered_names = collection_filtered | map: "label" %}
 				<li id=homebutton><a href="{{ relativeurl }}/" {% unless collection_filtered_names contains current[1] %}class="active-trail active tabs-select"{% endunless %}><span>{{ site.course_code }}</span></a>
-		  			{% for collection in collection_filtered %}
-      <li><a href="{{ collection.label | prepend: '/' | prepend: relativeurl }}" {% if current[1] == collection.label %}class="active-trail active tabs-select"{% endif %}>{{ collection.label | capitalize }}</a></li>
-			{% endfor %}
+					{% for collection in collection_filtered %}
+						{% assign displayname = collection.label | capitalize %}
+						{% if collection.displayname %}
+						{% assign displayname = collection.displayname %}
+						{% endif %}
+	      <li><a href="{{ collection.label | prepend: '/' | prepend: relativeurl }}" {% if current[1] == collection.label %}class="active-trail active tabs-select"{% endif %}>{{ displayname }}</a></li>
+				{% endfor %}
       </ul>
 	</div>
 	<div style="clear:both;"></div>
