@@ -67,11 +67,7 @@
 	        {% for my_page in site.pages %}
 	          {% if my_page.title %}
 						{% unless my_page.hidden %}
-            {% if page.url == my_page.url %}
-              <li><a href="{{ my_page.url | prepend: relativeurl }}" class="selected">{{ my_page.title }}</a></li>
-              {% else %}
-   			  <li><a href="{{ my_page.url | prepend: relativeurl }}">{{ my_page.title }}</a></li>
-	          {% endif %}
+              <li><a href="{{ my_page.url | prepend: relativeurl }}" {% if page.url == my_page.url %}class="selected"{% endif %}>{{ my_page.title }}</a></li>
 						{% endunless %}
 	          {% endif %}
 	        {% endfor %}
@@ -90,7 +86,7 @@
           <p>{{ displayname }}</p>
 					{% for doc in collection.docs  %}
 						{% unless doc.hidden %}
-						<li><a href="{{ doc.url | prepend: relativeurl }}" {% if page.url == doc.url %}class="selected"{% endif %}>{{ doc.title }}</a>
+						<li><a href="{{ doc.url | prepend: relativeurl }}" {% if page.url contains doc.url %}class="selected"{% endif %}>{{ doc.title }}</a>
 						{% endunless %}
 					{% endfor %}
 					{% if collection.links %}
