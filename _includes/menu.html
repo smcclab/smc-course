@@ -64,10 +64,24 @@
 	<div class="menu-flat menu-main">
     <p>{{ site.short_title }}</p>
     <ul id="nav-1">
-	        {% for my_page in site.pages %}
-	          {% if my_page.title %}
-						{% unless my_page.hidden %}
-              <li><a href="{{ my_page.url | prepend: relativeurl }}" {% if page.url == my_page.url %}class="selected"{% endif %}>{{ my_page.title }}</a></li>
+	        {% for doc in site.pages %}
+	          {% if doc.title %}
+						{% unless doc.hidden %}
+						{% assign urldepth = doc.url | split: '/' | size %}
+						{% if urldepth >= 3 %}
+							{% assign parentpage = doc.url | split: '/' | slice: 1,1 %}
+							{% assign pageparent = page.url | split: '/' | slice: 1,1 %}
+						{% endif %}
+						{% assign pagename = page.url | split: '/' | slice: -1,1 %}
+						{% if parentpage %}
+							{%if pagename == parentpage or parentpage == pageparent %}
+							<script> jQuery("#parentof-{{parentpage}}").after('<ul><li><a href="{{ doc.url | prepend: relativeurl }}" class="{% if page.url == doc.url %}selected{% endif %}">{{ doc.title }}</a></li></ul>');
+							jQuery("#parentof-{{parentpage}}").removeClass("parent"); jQuery("#parentof-{{parentpage}}").addClass("trail");
+							</script>
+						{% endif %}
+						{% else %}
+						<li><a href="{{ doc.url | prepend: relativeurl }}" class="{% if page.url == doc.url %}selected{% endif %} {% if doc.parentof %}parent{% endif %}" {% if doc.parentof %}id="parentof-{{doc.parentof}}"{%endif%}>{{ doc.title }}</a></li>
+						{% endif %}
 						{% endunless %}
 	          {% endif %}
 	        {% endfor %}
