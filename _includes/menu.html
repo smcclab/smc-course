@@ -101,7 +101,8 @@
 					{% for doc in collection.docs  %}
 						{% unless doc.hidden %}
 						{% assign urldepth = doc.url | split: '/' | size %}
-						{% if urldepth >= 4 %}
+						{% assign rootdepth = collection.permalink | split: '/' | size %}
+						{% if urldepth > rootdepth %}
 							{% assign parentpage = doc.url | split: '/' | slice: 2,1 %}
 							{% assign pageparent = page.url | split: '/' | slice: 2,1 %}
 						{% endif %}

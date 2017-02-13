@@ -53,7 +53,7 @@
 						{% if collection.displayname %}
 						{% assign displayname = collection.displayname %}
 						{% endif %}
-	      <li><a href="{{ collection.label | prepend: '/' | prepend: relativeurl }}" {% if current[1] == collection.label %}class="active-trail active tabs-select"{% endif %}>{{ displayname }}</a></li>
+	      <li><a href="{{ collection.permalink | remove: ':path/' | prepend: relativeurl }}" {% if current[1] == collection.label %}class="active-trail active tabs-select"{% endif %}>{{ displayname }}</a></li>
 				{% endfor %}
       </ul>
 	</div>
