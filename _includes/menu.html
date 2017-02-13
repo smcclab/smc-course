@@ -86,7 +86,21 @@
           <p>{{ displayname }}</p>
 					{% for doc in collection.docs  %}
 						{% unless doc.hidden %}
-						<li><a href="{{ doc.url | prepend: relativeurl }}" {% if page.url contains doc.url %}class="selected"{% endif %}>{{ doc.title }}</a>
+						{% assign urldepth = doc.url | split: '/' | size %}
+						{% if urldepth >= 4 %}
+							{% assign parentpage = doc.url | split: '/' | slice: 2,1 %}
+							{% assign pageparent = page.url | split: '/' | slice: 2,1 %}
+						{% endif %}
+						{% assign pagename = page.url | split: '/' | slice: -1,1 %}
+						{% if parentpage %}
+							{%if pagename == parentpage or parentpage == pageparent %}
+							<script> jQuery("#parentof-{{parentpage}}").after('<ul><li><a href="{{ doc.url | prepend: relativeurl }}" class="{% if page.url == doc.url %}selected{% endif %}">{{ doc.title }}</a></li></ul>');
+							jQuery("#parentof-{{parentpage}}").removeClass("parent"); jQuery("#parentof-{{parentpage}}").addClass("trail");
+							</script>
+						{% endif %}
+						{% else %}
+						<li><a href="{{ doc.url | prepend: relativeurl }}" class="{% if page.url == doc.url %}selected{% endif %} {% if doc.parentof %}parent{% endif %}" {% if doc.parentof %}id="parentof-{{doc.parentof}}"{%endif%}>{{ doc.title }}</a></li>
+						{% endif %}
 						{% endunless %}
 					{% endfor %}
 					{% if collection.links %}
