@@ -60,7 +60,7 @@
 
 {% assign related_page_links = [] %}
 <!-- Start of Menu 1-->
-{% unless collection_filtered_names contains current[1] %}
+{% unless collection_filtered_names contains current[1] and site.globalmenu != true %}
 	<div class="menu-flat menu-main">
     <p>{{ site.short_title }}</p>
     <ul id="nav-1">
@@ -109,12 +109,12 @@
 						{% assign pagename = page.url | split: '/' | slice: -1,1 %}
 						{% if parentpage %}
 							{%if pagename == parentpage or parentpage == pageparent %}
-							<script> jQuery("#parentof-{{parentpage}}-ul").before('<ul><li><a href="{{ doc.url | prepend: relativeurl }}" class="{% if page.url == doc.url %}selected{% endif %}">{{ doc.title }}</a></li></ul>');
+							<script> jQuery("#parentof-{{parentpage}}").after('<ul><li><a href="{{ doc.url | prepend: relativeurl }}" class="{% if page.url == doc.url %}selected{% endif %}">{{ doc.title }}</a></li></ul>');
 							jQuery("#parentof-{{parentpage}}").removeClass("parent"); jQuery("#parentof-{{parentpage}}").addClass("trail");
 							</script>
 						{% endif %}
 						{% else %}
-						<li><a href="{{ doc.url | prepend: relativeurl }}" class="{% if page.url == doc.url %}selected{% endif %} {% if doc.parentof %}parent{% endif %}" {% if doc.parentof %}id="parentof-{{doc.parentof}}"{%endif%}>{{ doc.title }}</a> {% if doc.parentof %}<span id="parentof-{{doc.parentof}}-ul"></span>{%endif%}</li>
+						<li><a href="{{ doc.url | prepend: relativeurl }}" class="{% if page.url == doc.url %}selected{% endif %} {% if doc.parentof %}parent{% endif %}" {% if doc.parentof %}id="parentof-{{doc.parentof}}"{%endif%}>{{ doc.title }}</a></li>
 						{% endif %}
 						{% endunless %}
 					{% endfor %}
@@ -138,7 +138,7 @@
 								<li><a href="{{ doc.url | prepend: relativeurl }}" {% if page.url == doc.url %}class="selected"{% endif %}><span style="color: #666">{{ doc.date | date: "%-d %b" }}</span> | {{ doc.title }}</a>
 								{% else %}
 								{% if page.url == doc.url %}
-								<li><a href="{{ doc.url | prepend: relativeurl }}" class="selected"><span style="color: #666">{{ doc.date | date: "%-d %b" }}</span> | {{ doc.title }}</a>
+								<li><a href="{{ doc.url | prepend: relativeurl }}" class="selected"><span style="color: #666">{{ doc.date | date: "%-d %b" }}</span> | {{ link.title }}</a>
 								{% endif %}
 								{% endif %}
 							{% endfor %}
