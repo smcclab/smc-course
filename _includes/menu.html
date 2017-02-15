@@ -89,7 +89,7 @@
    </div>
 				{% endunless %}
           {% for collection in site.collections %}
-					{% if collection.label == current[1] %}
+					{% if collection.label == current[1] or site.globalmenu == true%}
 					{% if collection.docs.size > 1 or collection.links %}
 					<div class="menu-flat menu-main">
           <ul id="nav-{{ forloop.index + 2 }}">
@@ -105,9 +105,12 @@
 						{% if urldepth > rootdepth %}
 							{% assign parentpage = doc.url | split: '/' | slice: 2,1 %}
 							{% assign pageparent = page.url | split: '/' | slice: 2,1 %}
+						{% else %}
+							{% assign parentpage = "" %}
+							{% assign pageparent = "" %}
 						{% endif %}
 						{% assign pagename = page.url | split: '/' | slice: -1,1 %}
-						{% if parentpage %}
+						{% if parentpage != "" %}
 							{%if pagename == parentpage or parentpage == pageparent %}
 							<script> jQuery("#parentof-{{parentpage}}").after('<ul><li><a href="{{ doc.url | prepend: relativeurl }}" class="{% if page.url == doc.url %}selected{% endif %}">{{ doc.title }}</a></li></ul>');
 							jQuery("#parentof-{{parentpage}}").removeClass("parent"); jQuery("#parentof-{{parentpage}}").addClass("trail");
