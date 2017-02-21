@@ -1,6 +1,11 @@
 /**
  * Site header
  */
+ @media only screen and (max-width: 959px) {
+   #markdown-toc {
+   display:none;
+  }
+ }
 
  .menuheader {
    a {
