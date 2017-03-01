@@ -80,7 +80,13 @@
 							</script>
 						{% endif %}
 						{% else %}
-						<li><a href="{{ doc.url | prepend: relativeurl }}" class="{% if page.url == doc.url %}selected{% endif %} {% if doc.parentof %}parent{% endif %}" {% if doc.parentof %}id="parentof-{{doc.parentof}}"{%endif%}>{{ doc.title }}</a></li>
+						<li>
+						{% if doc.external_url %}
+						<a href="{{ doc.external_url }}"
+						{% else %}
+						<a href="{{ doc.url | prepend: relativeurl }}"
+						{% endif %}
+						class="{% if page.url == doc.url %}selected{% endif %} {% if doc.parentof %}parent{% endif %}" {% if doc.parentof %}id="parentof-{{doc.parentof}}"{%endif%}>{{ doc.title }}</a></li>
 						{% endif %}
 						{% endunless %}
 	          {% endif %}
@@ -117,7 +123,13 @@
 							</script>
 						{% endif %}
 						{% else %}
-						<li><a href="{{ doc.url | prepend: relativeurl }}" class="{% if page.url == doc.url %}selected{% endif %} {% if doc.parentof %}parent{% endif %}" {% if doc.parentof %}id="parentof-{{doc.parentof}}"{%endif%}>{{ doc.title }}</a></li>
+						<li>
+						{% if doc.external_url %}
+						<a href="{{ doc.external_url }}"
+						{% else %}
+						<a href="{{ doc.url | prepend: relativeurl }}"
+						{% endif %}
+						class="{% if page.url == doc.url %}selected{% endif %} {% if doc.parentof %}parent{% endif %}" {% if doc.parentof %}id="parentof-{{doc.parentof}}"{%endif%}>{{ doc.title }}</a></li>
 						{% endif %}
 						{% endunless %}
 					{% endfor %}
