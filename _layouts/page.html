@@ -9,8 +9,8 @@ layout: default
   {% if page.attachments %}
   <div class="right narrow nopadtop nopadbottom">
   <div class="box-solid-uni small menu-flat menu-main" style="border-top: 3px solid #ACC0C6;" markdown="1">
-<p>Attachments</p>
-<ul>
+<p style="cursor:pointer;" onclick="slideDownFadeOutToggle('#attachments');return false;">Attachments</p>
+<ul id="attachments">
 {% for attachment in page.attachments %}
   {% assign path = "" %}
   {% if attachment.path contains "http://" or attachment.path contains "https://" %}
