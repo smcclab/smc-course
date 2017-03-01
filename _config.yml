@@ -35,6 +35,7 @@ gitlab_auth: false
 exclude: ["README.md"]
 
 markdown: kramdown
+highlighter: none
 
 gems:
   - jekyll-last-modified-at

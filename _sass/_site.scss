@@ -111,30 +111,6 @@ ul#results-container a:hover {
     color: black;
 }
 
-.highlight {
-  padding: 10px 20px;
-  background: #eee;
-
-   pre {
-    line-height: 1.25em;
-  }
-  table {
-    width: 100%;
-    border: 0px;
-    .lineno {
-      margin-right: 15px;
-      color: #666;
-    }
-    tr, td {
-      border: 0px;
-      padding: 0px;
-    }
-    margin: 0px;
-    border: 0px !important;
-    font-size: 11px;
-    line-height: 1.25em;
-  }
-}
 table {
   width: 90%;
   margin-left: auto !important;
