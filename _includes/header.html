@@ -47,7 +47,7 @@
 				{% assign current = page.url | downcase | split: '/' %}
 				{% assign collection_filtered = site.collections | where:	"navbar","true" | sort: "display-order" %}
 				{% assign collection_filtered_names = collection_filtered | map: "label" %}
-				<li id=homebutton><a href="{{ relativeurl }}/" {% unless collection_filtered_names contains current[1] %}class="active-trail active tabs-select"{% endunless %}><span>{{ site.short_title }}</span></a>
+				<li id=homebutton><a href="{{ relativeurl }}/" {% unless collection_filtered_names contains current[1] or page.name == "404.md"%}class="active-trail active tabs-select"{% endunless %}><span>{{ site.short_title }}</span></a>
 					{% for collection in collection_filtered %}
 						{% assign displayname = collection.label | capitalize %}
 						{% if collection.displayname %}

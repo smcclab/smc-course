@@ -61,6 +61,7 @@
 {% assign related_page_links = [] %}
 <!-- Start of Menu 1-->
 {% unless collection_filtered_names contains current[1] and site.globalmenu != true %}
+  {% if page.name != "404.md" %}
 	<div class="menu-flat menu-main">
     <p>{{ site.short_title }}</p>
     <ul id="nav-1">
@@ -93,6 +94,7 @@
 	        {% endfor %}
      </ul>
    </div>
+	 {% endif %}
 				{% endunless %}
           {% for collection in site.collections %}
 					{% if collection.label == current[1] or site.globalmenu == true%}

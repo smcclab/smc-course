@@ -1,16 +1,20 @@
-{% assign relativeurl = '' %}
-{% assign urlsize = page.url | size | minus: 1 %}
-{% assign urlend = page.url | slice: urlsize,1  %}
-{% if urlend == "/" %}
-  {% assign depth = page.url | split: '/' | size  %}
+{% if page.linkstyle == "absolute" %}
+  {% assign relativeurl = site.baseurl %}
 {% else %}
-  {% assign depth = page.url | split: '/' | size | minus: 1 %}
+  {% assign relativeurl = '' %}
+  {% assign urlsize = page.url | size | minus: 1 %}
+  {% assign urlend = page.url | slice: urlsize,1  %}
+  {% if urlend == "/" %}
+    {% assign depth = page.url | split: '/' | size  %}
+  {% else %}
+    {% assign depth = page.url | split: '/' | size | minus: 1 %}
+  {% endif %}
+  {% if depth <= 1 %}
+    {% assign relativeurl = '.' %}
+  {% else %}
+    {% assign relativeurl = '..' %}
+  {% endif %}
+  {% for i in (3..depth) %}
+    {% assign relativeurl = relativeurl | append: '/..' %}
+  {% endfor %}
 {% endif %}
-{% if depth <= 1 %}
-  {% assign relativeurl = '.' %}
-{% else %}
-  {% assign relativeurl = '..' %}
-{% endif %}
-{% for i in (3..depth) %}
-  {% assign relativeurl = relativeurl | append: '/..' %}
-{% endfor %}
