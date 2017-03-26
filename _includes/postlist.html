@@ -1,5 +1,10 @@
 <ul class="post-list">
-  {% for post in site.[page.collection] %}
+  {% if include.reverse %}
+    {% assign post_list = site.[page.collection] | reverse %}
+  {% else %}
+    {% assign post_list = site.[page.collection] %}
+  {% endif %}
+  {% for post in post_list %}
     {% if include.filter == null or post.url contains include.filter %}
       {% if post.url != page.url %}
         {% include postitem.html post=post last=forloop.last hidedate=include.hidedate showtime=include.showtime %}

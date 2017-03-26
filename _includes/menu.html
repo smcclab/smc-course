@@ -106,7 +106,12 @@
 						{% assign displayname = collection.displayname %}
 						{% endif %}
           <p>{{ displayname }}</p>
-					{% for doc in collection.docs  %}
+					{% if collection.reverse %}
+						{% assign doc_list = collection.docs | reverse %}
+					{% else %}
+						{% assign doc_list = collection.docs  %}
+					{% endif %}
+					{% for doc in doc_list  %}
 						{% unless doc.hidden %}
 						{% assign urldepth = doc.url | split: '/' | size %}
 						{% assign rootdepth = collection.permalink | split: '/' | size %}
