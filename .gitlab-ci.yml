@@ -1,4 +1,4 @@
-image: benswift/anucs-jekyll
+image: anucecsit/gitlab-pages:1.0.1
 
 page-deploy:
   stage: deploy
