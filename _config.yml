@@ -32,13 +32,18 @@ gitlab_auth: false
 ##################
 
 # files/folders to exclude from the build process
-exclude: ["README.md"]
+exclude: ["README.md", "Gemfile"]
 
 markdown: kramdown
 highlighter: none
 
 gems:
   - jekyll-last-modified-at
+
+theme: jekyll-theme-anu-cecs
+
+sass:
+  style: compressed
 
 kramwdown:
   parse_block_html: true

@@ -1,12 +1,7 @@
 image: benswift/anucs-jekyll
 
-pages:
+page-deploy:
   stage: deploy
   script:
-    - jekyll build -d public
-  artifacts:
-    expire_in: 1 day
-    paths:
-    - public
-  only:
-    - master
+    - bundle install
+    - jekyll build -d /srv/gitlab-ce-pages/staging/$CI_BUILD_ID/$CI_BUILD_REF_NAME/$CI_PROJECT_PATH
