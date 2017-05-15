@@ -1,6 +1,8 @@
 image: anucecsit/gitlab-pages:1.0.1
 
 page-deploy:
+  tags:
+  - Pages
   stage: deploy
   script:
     - bundle install
