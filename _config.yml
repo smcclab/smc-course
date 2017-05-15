@@ -67,6 +67,8 @@ permalink: /:categories/:year/:month/:day/:title/
 
 globalmenu: false
 
+gitlab_auth: false
+
 # collections (set navbar: true to add a tab in the navbar)
 collections:
 
