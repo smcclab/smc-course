@@ -4,8 +4,4 @@ hidden: true
 permalink: /news/
 ---
 
-<ul class="post-list">
-  {% for post in site.posts %}
-   {% include postitem.html post=post last=forloop.last showtime=true %}
-  {% endfor %}
-</ul>
+{% include postlist.html collection="posts" showtime=true %}

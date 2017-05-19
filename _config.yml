@@ -60,6 +60,7 @@ defaults:
   - scope:
       path: "_posts"
     values:
+      categories: news
       show_date: true
       show_time: true
 
