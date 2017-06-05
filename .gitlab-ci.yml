@@ -6,4 +6,4 @@ page-deploy:
   stage: deploy
   script:
     - bundle install
-    - jekyll build -d /srv/gitlab-ce-pages/staging/$CI_BUILD_ID/$CI_BUILD_REF_NAME/$CI_PROJECT_PATH
+    - bundle exec jekyll build -d /srv/gitlab-ce-pages/staging/$CI_BUILD_ID/$CI_BUILD_REF_NAME/$CI_PROJECT_PATH
