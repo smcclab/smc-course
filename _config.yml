@@ -66,9 +66,10 @@ defaults:
 
 permalink: /:categories/:year/:month/:day/:title/
 
+navbar: true
 globalmenu: false
-
 gitlab_auth: false
+#piwik_siteid: x
 
 # collections (set navbar: true to add a tab in the navbar)
 collections:
