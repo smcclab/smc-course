@@ -36,7 +36,14 @@ markdown: kramdown
 highlighter: none
 
 gems:
-  - jekyll-last-modified-at
+  - jekyll-plugin-anu-cecs
+
+assets:
+  sources:
+    - _assets/
+  assets:
+    - "*.png"
+    - "*.jpg"
 
 theme: jekyll-theme-anu-cecs
 
@@ -67,6 +74,7 @@ permalink: /:categories/:year/:month/:day/:title/
 navbar: true
 globalmenu: false
 gitlab_auth: false
+search: true
 #piwik_siteid: x
 
 # collections (set navbar: true to add a tab in the navbar)

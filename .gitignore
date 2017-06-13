@@ -4,3 +4,4 @@ Gemfile.lock
 /.jekyll-metadata
 /public/
 /.ruby-version
+/.asset-cache
