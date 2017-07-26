@@ -75,6 +75,8 @@ navbar: true
 globalmenu: false
 gitlab_auth: false
 search: true
+future: true
+style: cecs
 #piwik_siteid: x
 
 # collections (set navbar: true to add a tab in the navbar)
