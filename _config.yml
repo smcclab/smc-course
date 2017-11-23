@@ -79,6 +79,8 @@ future: true
 breadcrumbs: true
 style: cecs
 #piwik_siteid: x
+tablesorter: .tablesorter
+charts: true
 
 # collections (set navbar: true to add a tab in the navbar)
 collections:
