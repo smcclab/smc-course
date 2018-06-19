@@ -33,7 +33,7 @@ responsible_officer_email: head.cs@cecs.anu.edu.au
 exclude: ["README.md", "Gemfile"]
 
 markdown: kramdown
-highlighter: none
+highlighter: highlight.js
 
 plugins:
   - jekyll-plugin-anu-cecs
