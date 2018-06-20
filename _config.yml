@@ -1,23 +1,29 @@
 # Jekyll (http://jekyllrb.com/) uses the information in this file to
 # figure out how to generate your website
 
-###############
-# Site Info #
-###############
+# for more info on these configuration variables (and more) see
+# https://jekyllrb.com/docs/configuration/
 
-# Site Name
+# this is a YAML file - for more info on YAML syntax then Ansible's docs have a
+# decent explanation: http://docs.ansible.com/ansible/latest/YAMLSyntax.html
+
+#############
+# Site Info #
+#############
+
+# site name (in words, e.g. the full course name)
 title: Long Title
 
-# Short Site name (eg. COMPXXXX)
+# short site name (e.g. COMPXXXX)
 short_title: Short Title
 
-# Final the subpath of your site (/courses/COMPXXXX)
+# sub-path of your site (/courses/COMPXXXX)
 baseurl: ""
 
-# the base hostname & protocol for your site (Generally Leave blank)
+# the base hostname & protocol for your site (generally leave as-is)
 url: ""
 
-# Put your name and email in here
+# your name and email in here
 page_contact: Lecturer Name
 page_contact_email: lecturer.name@anu.edu.au
 
@@ -30,13 +36,18 @@ responsible_officer_email: head.cs@cecs.anu.edu.au
 ##################
 
 # files/folders to exclude from the build process
-exclude: ["README.md", "Gemfile"]
+exclude:
+  - README.md
+  - Gemfile
 
+# which markdown processor and syntax highlighter to use
 markdown: kramdown
 highlighter: highlight.js
 
 plugins:
   - jekyll-plugin-anu-cecs
+
+theme: jekyll-theme-anu-cecs
 
 assets:
   sources:
@@ -44,27 +55,25 @@ assets:
   assets:
     - "*.png"
     - "*.jpg"
-
-theme: jekyll-theme-anu-cecs
+    - "*.jpeg"
 
 sass:
   style: compressed
 
-kramwdown:
-  parse_block_html: true
-
-# This is how many news items to show in the menu on the homepage
+# number of news items to show in the menu on the homepage
 newscount: 3
 
-# This sets the default layout for all the pages
-defaults:
-  - scope:
-      path: "" # empty string for all files
-    values:
+# default layouts for different pages
+defaults: 
+  - 
+    scope: 
+      path: ""
+    values: 
       layout: page
-  - scope:
-      path: "_posts"
-    values:
+  - 
+    scope: 
+      path: _posts
+    values: 
       categories: news
       show_date: true
       show_time: true
@@ -78,12 +87,12 @@ search: true
 future: true
 breadcrumbs: true
 style: cecs
-#piwik_siteid: x
+# piwik_siteid: x
 tablesorter: .tablesorter
 charts: true
 
 # collections (set navbar: true to add a tab in the navbar)
 collections:
 
-# populates the menu with links to related sites
+# populate the menu with links to related sites
 related_sites:
