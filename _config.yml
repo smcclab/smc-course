@@ -44,9 +44,6 @@ exclude:
 markdown: kramdown
 highlighter: highlight.js
 
-plugins:
-  - jekyll-plugin-anu-cecs
-
 theme: jekyll-theme-anu-cecs
 
 assets:
