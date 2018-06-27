@@ -1,7 +1,126 @@
-# ANU CECS Themed Jekyll Page Builder
+# ANU CECS Course Website Template
 
-If you want to get started straight away use the [Quick Start Guide](https://gitlab.cecs.anu.edu.au/pages/docs/gitlab-pages/quickstart/).
+This is an opinionated "course in a box" template for using the CECS-themed
+[Jekyll](https://jekyllrb.com/docs/home/) template for your course website.
 
-Or have a look over the complete documentation [here](https://gitlab.cecs.anu.edu.au/pages/docs/gitlab-pages/)
+You don't have to use it, and even if you want to use it you can tweak it to
+your heart's content. But it's here because sometimes it's nice to have the
+batteries included (just ask Guido).
 
-For instructions on setting up a Local Development Environment go [here](https://gitlab.cecs.anu.edu.au/pages/docs/gitlab-pages/localdevelopment/)
+## So what is Jekyll, exactly?
+
+To quote the [Jekyll docs](https://jekyllrb.com/docs/home/):
+
+> Jekyll is a simple, blog-aware, static site generator. It takes a template
+> directory containing raw text files in various formats, runs it through a
+> converter (like Markdown) and our Liquid renderer, and spits out a complete,
+> ready-to-publish static website suitable for serving with your favorite web
+> server. Jekyll also happens to be the engine behind GitHub Pages, which means
+> you can use Jekyll to host your project’s page, blog, or website from GitHub’s
+> servers for free.
+
+## Why would I, a CECS academic, want to use this?
+
+If you've ever struggled with Wattle and wanted to focus on writing good content
+rather than futzing with the wysiwyg[^wysiwyg] Wattle/Moodle interface, using this
+template gives you the ability to:
+
+- write content as markdown (`.md`) files which are automatically transformed
+  into nice-looking content which uses the ANU CS style sheet (so it looks nice
+  and is consistent with the branding guidelines)
+
+- keep your content under (`git`) version control, with all the record-keeping
+  and collaboration superpowers that entails
+
+- use the full power of HTML/CSS/js to create and style your content how you
+  like (although this is not just for web gurus---it looks great out of the box,
+  adding anything extra is purely optional)
+
+- use sane defaults so you can **concentrate on writing good content**, but is
+  *very* customisable if you want to explore
+
+[^wysiwyg]: what you see is what you get
+
+## So what's the workflow?
+
+Once you've got everything [set up](#how-do-i-get-set-up), then the workflow is:
+
+1. write your content (labs, assignments, upload files, etc) in markdown or HTML
+   in the appropriate files in this directory
+
+2. preview the content by running the `bundle exec jekyll serve --livereload` at
+   the command line in this top-level directory (i.e. the same directory this
+   `README.md` is in)
+
+3. when you're happy with it, commit and `git push` your changes up to
+   GitLab---a script will automatically update your site and the changes will be
+   visible to everyone at `https://cs.anu.edu.au/courses/compXXXX` within about
+   a minute
+
+## How do I get set up? {#how-do-i-get-set-up}
+
+There are a couple of things you need to (just once) at the start:
+
+1. clone this repository to your local machine (where you plan on writing the
+   course content)
+
+2. set up your ruby environment (on Windows/Linux/macOS) and install the
+   relevant gems (packages) by running `bundle install` at the command line in
+   this directory
+
+At this point, you can start to write and preview the site in a web browser on
+your local machine. However, to actually push the site "live" so that students
+(and everyone) can see it, then there's one more step:
+
+3. talk to [Dave at the CECS helpdesk](mailto:helpdesk@cecs.anu.edu.au) to flick
+   a couple of switches in the system to get you started with a live website
+
+## What skills will I need to have a good time with this stuff?
+
+- basic `git` (ability to add, commit & push files)
+- the ability to write markdown files (in any text editor you like)
+
+## Ok then, what skills *won't* I need?
+
+- advanced `git`
+- javascript
+- HTML
+- CSS
+
+Obviously if you've got any of those skills that's great---but they're not
+necessary.
+
+## How can I get help?
+
+For more information & help, visit the official documentation site at
+<https://cs.anu.edu.au/pages/docs/gitlab-pages/>.
+
+If you have questions, contact [Ben Swift](mailto:ben.swift@anu.edu.au) or
+[David Guest](mailto:david.guest@anu.edu.au).
+
+## Can it do *x*? 
+
+Maybe---ask Dave or Ben.
+
+## Who's using this setup currently?
+
+Quite a few courses in RSCS are now building their course websites this way (if
+you're not on this list but you *are* using it too, then let Ben know so he can
+add you!).
+
+- COMP1100/1130
+- COMP1110/1140
+- COMP1720
+- COMP2100
+- COMP2300
+- COMP2420
+- TechLauncher
+- Chris Browne's course in Engineering
+
+Because different courses have different requirements for their websites, these
+websites aren't all the same. It's still up to you as convenor to decide how to
+structure your page.
+
+However, if you have a look at any of those course websites and see something
+you like, then I'm sure the convenor will be happy for you to use it on your
+site as well---we're a pretty caring and sharing bunch in general.
