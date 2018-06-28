@@ -64,9 +64,9 @@ There are a couple of things you need to (just once) at the start:
 1. clone this repository to your local machine (where you plan on writing the
    course content)
 
-2. set up your ruby environment (on Windows/Linux/macOS) and install the
-   relevant gems (packages) by running `bundle install` at the command line in
-   this directory
+2. set up your [ruby environment](https://www.ruby-lang.org/en/downloads/) (on
+   Windows/Linux/macOS) and install the relevant gems (packages) by running
+   `bundle install` at the command line in this directory
 
 At this point, you can start to write and preview the site in a web browser on
 your local machine. However, to actually push the site "live" so that students
@@ -77,8 +77,10 @@ your local machine. However, to actually push the site "live" so that students
 
 ## What skills will I need to have a good time with this stuff?
 
-- basic `git` (ability to add, commit & push files)
+- *very* basic command line ability (almost none---and you can just copy-paste
+  the few required commands without understanding them if you like)
 - the ability to write markdown files (in any text editor you like)
+- basic `git` (ability to add, commit & push files)
 
 ## Ok then, what skills *won't* I need?
 
@@ -87,8 +89,8 @@ your local machine. However, to actually push the site "live" so that students
 - HTML
 - CSS
 
-Obviously if you've got any of those skills that's great---but they're not
-necessary.
+If you've got any of those skills that's great---and you can use them---but
+they're not necessary.
 
 ## How can I get help?
 
@@ -97,6 +99,17 @@ For more information & help, visit the official documentation site at
 
 If you have questions, contact [Ben Swift](mailto:ben.swift@anu.edu.au) or
 [David Guest](mailto:david.guest@anu.edu.au).
+
+## What doesn't it do that Wattle does do?
+
+This is just for creating and distributing the course content, it's not a
+platform for submitting assignments or co-ordinating marks & feedback with
+your tutors.
+
+There are other ways to do that stuff (many folks are using GitLab for that
+these days) or you could keep doing that through Wattle. But this Jekyll site by
+default is just for displaying your content (it's a [static web
+site](https://en.wikipedia.org/wiki/Static_web_page), after all).
 
 ## Can it do *x*? 
 
