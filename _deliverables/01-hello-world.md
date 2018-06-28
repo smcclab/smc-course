@@ -1,5 +1,5 @@
 ---
-title: Assignment 1
+title: "Assignment 1: Hello World"
 summary: Hello, World!
 layout: page
 ---
