@@ -90,6 +90,21 @@ charts: true
 
 # collections (set navbar: true to add a tab in the navbar)
 collections:
+  lectures:
+    navbar: true
+    output: true
+    display-order: 1
+    permalink: /lectures/:path/
+  labs:
+    navbar: true
+    output: true
+    display-order: 2
+    permalink: /labs/:path/
+  deliverables:
+    navbar: true
+    output: true
+    display-order: 3
+    permalink: /deliverables/:path/
 
 # populate the menu with links to related sites
 related_sites:
