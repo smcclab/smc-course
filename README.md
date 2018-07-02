@@ -185,6 +185,14 @@ access to it there. If you wanna be super cautious, get them to make changes on
 their own fork and then submit a merge request, or you can just give them push
 access.
 
+## Which markdown parser is this using?
+
+By default this template uses
+[Kramdown](https://kramdown.gettalong.org/syntax.html) (see the `markdown:
+kramdown` key in `_config.yml`). So those docs are the ultimate reference if you
+want to do specific things in your markdown files and you're wondering about the
+right syntax.
+
 ## Where can I find more information?
 
 The [Jekyll docs](https://jekyllrb.com/docs/home/) really are the best place to
