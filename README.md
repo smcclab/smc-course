@@ -7,6 +7,8 @@ You don't have to use it, and even if you want to use it you can tweak it to
 your heart's content. But it's here because sometimes it's nice to have the
 batteries included (just ask Guido).
 
+The rest of this README is structured as an FAQ.
+
 ## So what is Jekyll, exactly?
 
 To quote the [Jekyll docs](https://jekyllrb.com/docs/home/):
@@ -25,9 +27,9 @@ If you've ever struggled with Wattle and wanted to focus on writing good content
 rather than futzing with the wysiwyg[^wysiwyg] Wattle/Moodle interface, using this
 template gives you the ability to:
 
-- write content as markdown (`.md`) files which are automatically transformed
-  into nice-looking content which uses the ANU CS style sheet (so it looks nice
-  and is consistent with the branding guidelines)
+- write content as [markdown](http://commonmark.org/help/) (`.md`) files which
+  are automatically transformed into nice-looking content which uses the ANU CS
+  style sheet (so it looks nice and is consistent with the branding guidelines)
 
 - keep your content under (`git`) version control, with all the record-keeping
   and collaboration superpowers that entails
@@ -41,21 +43,29 @@ template gives you the ability to:
 
 [^wysiwyg]: what you see is what you get
 
-## So what's the workflow?
+## So what's the workflow for developing my course website?
 
 Once you've got everything [set up](#how-do-i-get-set-up), then the workflow is:
 
-1. write your content (labs, assignments, upload files, etc) in markdown or HTML
-   in the appropriate files in this directory
+1. write your content (labs, assignments, upload files, etc) in
+   [markdown](http://commonmark.org/help/) or
+   [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) files in this
+   directory (inc. in subfolders)
 
-2. preview the content by running the `bundle exec jekyll serve --livereload` at
-   the command line in this top-level directory (i.e. the same directory this
-   `README.md` is in)
+2. build the site by running the `bundle exec jekyll serve --livereload` at the
+   command line in this top-level directory---this also starts a local webserver
+   so you can preview the site on your local machine[^serve]
 
-3. when you're happy with it, commit and `git push` your changes up to
+3. open up the preview site in your web browser (the server address will be
+   printed to the terminal where you've run the `bundle exec jekyll serve`
+   command, probably something like `http://127.0.0.1:4000/`)
+
+4. when you're happy with it, commit and `git push` your changes up to
    GitLab---a script will automatically update your site and the changes will be
    visible to everyone at `https://cs.anu.edu.au/courses/compXXXX` within about
    a minute
+
+[^serve]: if you don't want to run the preview server, you can just `bundle exec jekyll build`
 
 ## How do I get set up? {#how-do-i-get-set-up}
 
@@ -113,7 +123,8 @@ site](https://en.wikipedia.org/wiki/Static_web_page), after all).
 
 ## Can it do *x*? 
 
-Maybe---ask Dave or Ben.
+Maybe---ask [Dave](mailto:david.guest@anu.edu.au) or
+[Ben](mailto:ben.swift@anu.edu.au).
 
 ## Who's using this setup currently?
 
@@ -137,3 +148,53 @@ structure your page.
 However, if you have a look at any of those course websites and see something
 you like, then I'm sure the convenor will be happy for you to use it on your
 site as well---we're a pretty caring and sharing bunch in general.
+
+## Can I programattically generate parts of one (or more) of my pages?
+
+Yes, if you want to do this (e.g. populating a list by looping over data in an
+array) then you might want to look at the docs for the [liquid
+templating](https://shopify.github.io/liquid/basics/introduction/) language,
+which [Jekyll uses](https://jekyllrb.com/docs/templates/) for this stuff. For
+actually getting the data into the system, look at Jekyll [data
+files](https://jekyllrb.com/docs/datafiles/).
+
+Obviously you could also have some other tool generate the md source file
+external to Jekyll, but then you don't get the nice auto-regeneration and
+livereload stuff.
+
+## Copy-pasting similar bits of content/markup sucks---can I define them once and use them anywhere?
+
+Again, yes! [Jekyll includes](https://jekyllrb.com/docs/includes/) are the way
+to handle this, and you can even pass arguments (for more
+[DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)-y goodness).
+
+## If I want to make CSS tweaks, where do I put them?
+
+Anything you put in `_sass/custom.scss` will be applied to your site.
+
+## Do I have to stick with this structure (lectures/labs/deliverables)?
+
+Nope. You can see the configuration for those "default"
+[collections](https://jekyllrb.com/docs/collections/) in the `_config.yml` file,
+but you can add/remove/change them however you like. It's your website.
+
+## I want e.g. my tutors to write some lab content, how can I give them access?
+
+This is just a git repo (probably hosted at GitLab) so you can just give them
+access to it there. If you wanna be super cautious, get them to make changes on
+their own fork and then submit a merge request, or you can just give them push
+access.
+
+## Where can I find more information?
+
+The [Jekyll docs](https://jekyllrb.com/docs/home/) really are the best place to
+start, including understanding how the `jekyll` tool takes your folder of md and
+html files and turns them into a website (e.g. what the [snippets of yaml at the
+top of each file](https://jekyllrb.com/docs/front-matter/) mean).
+  
+## Can I speed up the initial build step?
+
+If you're having trouble with the `bundle exec jekyll serve` being slow (e.g. if
+you've got lots of files in your website) then you can try the `--incremental`
+option (which can help, but sometimes the cache can get out of whack and needs
+to be blown away)
