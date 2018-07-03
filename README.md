@@ -85,6 +85,20 @@ your local machine. However, to actually push the site "live" so that students
 3. talk to [Dave at the CECS helpdesk](mailto:helpdesk@cecs.anu.edu.au) to flick
    a couple of switches in the system to get you started with a live website
 
+## What files in this repo will I *need* to touch?
+
+- the `_config.yml` file in this directory
+- the lectures in the `_lectures` subdirectory
+- the labs in the `_labs` subdirectory
+- the assignments in the `_deliverables` subdirectory
+- the resources in the `_resources` subdirectory (or just delete that folder)
+- the `01-policies.md`, `02-outline.md` and `03-getting-help.md` files in the
+  top-level directory
+
+You can touch anything/everything if you like, but the idea of this template is
+that you don't have to. You can start with those files (writing good content for
+your course) and mess with other stuff as necessary.
+
 ## What skills will I need to have a good time with this stuff?
 
 - *very* basic command line ability (almost none---and you can just copy-paste
@@ -109,6 +123,10 @@ For more information & help, visit the official documentation site at
 
 If you have questions, contact [Ben Swift](mailto:ben.swift@anu.edu.au) or
 [David Guest](mailto:david.guest@anu.edu.au).
+
+## Can I automatically import my existing Wattle site into this template?
+
+No, sorry.
 
 ## What doesn't it do that Wattle does do?
 
