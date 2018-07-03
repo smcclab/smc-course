@@ -41,7 +41,7 @@ And even some ARMv7 assembly code:
 mov r3, #0xAB
 ```
 
-## Part 2
+## Images
 
 Sometimes you want to add images to your content.
 
@@ -58,3 +58,40 @@ css in `_sass/_custom.scss`, and the bottom `style` example shows how you can
 just write the css styling information directly.
 
 [^attr]: If you don't know what that means, don't stress.
+
+## Callout boxes
+
+You might want to highlight important information, warnings or other parts of
+your content. There are some scss helpers in `_sass/_custom.scss` to help you
+out. Here's how to use them:
+
+{:.error-box}
+
+This is an error box.
+
+{:.warn-box}
+
+This is a warning box.
+
+{:.info-box}
+
+This is an info box.
+
+{:.success-box}
+
+This is a success box.
+
+<div class="info-box" markdown="1" style="margin-bottom: 20px;">
+
+If you want more than a single paragraph, you'll need to wrap it in a `<div>`
+element like so---make sure the `markdown=1` attribute is set if you want to
+still write markdown inside the div.
+
+And here's the second paragraph. It includes a list:
+- one
+- two
+- three
+
+Wow.
+
+</div>
