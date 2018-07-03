@@ -22,7 +22,7 @@ in your course.
 | Wednesday | 11am-2pm | CSIT N114 | wed11am |
 
 If you want to include a list of the lab (title & summary) then use the
-following `_postlist.html_` include, otherwise just remove the line (the lab
+following `_postlist.html` include, otherwise just remove the line (the lab
 content will still be accessible via the sidebar).
 
 {% include postlist.html hidedate=false showtime=false %}
