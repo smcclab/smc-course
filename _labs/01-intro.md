@@ -54,7 +54,7 @@ Sometimes you want to add images to your content.
 Note the use of the key:value `class` and `style` attributes---this will pass
 these attributes through to the `<img>` tag in the output. You can use the ANU
 stylesheet stuff (that's where the `center` style comes from) or write your own
-css in `_sass/custom.scss`, and the bottom `style` example shows how you can
+css in `_sass/_custom.scss`, and the bottom `style` example shows how you can
 just write the css styling information directly.
 
 [^attr]: If you don't know what that means, don't stress.
