@@ -116,6 +116,14 @@ your course) and mess with other stuff as necessary.
 If you've got any of those skills that's great---and you can use them---but
 they're not necessary.
 
+## So what am I supposed to do with the "template" content in e.g. `_labs/01-hello-world.md`?
+
+There's some stuff in there (especially in `01-hello-world.md`) which shows you
+how you can style/structure your content (headings, lists, images, etc.). The
+idea is that you add your own files with your own course content and then delete
+the template content (although you can always keep it around in a branch if you
+want to refer to it).
+
 ## How can I get help?
 
 For more information & help, visit the official documentation site at
