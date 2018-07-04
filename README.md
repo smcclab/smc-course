@@ -71,18 +71,26 @@ Once you've got everything [set up](#how-do-i-get-set-up), then the workflow is:
 
 There are a couple of things you need to (just once) at the start:
 
-1. clone this repository to your local machine (where you plan on writing the
-   course content)
+1. fork this repository to the place where you're going to actually host your
+   site's content (usually this is at
+   <https://gitlab.cecs.anu.edu.au/courses/compXXXX>, but for the moment you can
+   just fork it to your `uXXXXXXX` account---you can always transfer the
+   ownership later)
 
-2. set up your [ruby environment](https://www.ruby-lang.org/en/downloads/) (on
+2. clone the newly-created project to your local machine
+
+3. set up your [ruby environment](https://www.ruby-lang.org/en/downloads/) (on
    Windows/Linux/macOS) and install the relevant gems (packages) by running
    `bundle install` at the command line in this directory
 
-At this point, you can start to write and preview the site in a web browser on
-your local machine. However, to actually push the site "live" so that students
-(and everyone) can see it, then there's one more step:
+At this point, you can start to [write and
+preview](#so-whats-the-workflow-for-developing-my-course-website) the site in a
+web browser on your local machine.
 
-3. talk to [Dave at the CECS helpdesk](mailto:helpdesk@cecs.anu.edu.au) to flick
+To push the site "live" so that students (and everyone) can see it (e.g. at
+<https://cs.anu.edu.au/courses/compXXXX/>), then there's one more step required:
+
+4. talk to [Dave at the CECS helpdesk](mailto:helpdesk@cecs.anu.edu.au) to flick
    a couple of switches in the system to get you started with a live website
 
 ## What files in this repo will I *need* to touch?
@@ -147,7 +155,7 @@ these days) or you could keep doing that through Wattle. But this Jekyll site by
 default is just for displaying your content (it's a [static web
 site](https://en.wikipedia.org/wiki/Static_web_page), after all).
 
-## Can it do *x*? 
+## Can it do *x*?
 
 Maybe---ask [Dave](mailto:david.guest@anu.edu.au) or
 [Ben](mailto:ben.swift@anu.edu.au).
@@ -225,7 +233,7 @@ The [Jekyll docs](https://jekyllrb.com/docs/home/) really are the best place to
 start, including understanding how the `jekyll` tool takes your folder of md and
 html files and turns them into a website (e.g. what the [snippets of yaml at the
 top of each file](https://jekyllrb.com/docs/front-matter/) mean).
-  
+
 ## Can I speed up the initial build step?
 
 If you're having trouble with the `bundle exec jekyll serve` being slow (e.g. if
