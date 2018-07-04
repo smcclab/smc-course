@@ -199,8 +199,8 @@ site as well---we're a pretty caring and sharing bunch in general.
 
 Yes, the template supports
 [MathJax](https://docs.mathjax.org/en/latest/tex.html) (v2.7.1) so you can use
-you can use math-mode markup in your `*.md` files inside *double* dollar signs,
-e.g. $$x = 3$$. It doesn't cover [all of
+math-mode markup in your `*.md` files inside *double* dollar signs, e.g. $$x =
+3$$. It doesn't cover [all of
 LaTeX](https://docs.mathjax.org/en/latest/tex.html#differences), but if you're
 doing that stuff you probably aren't having a great time in Wattle anyway (and
 should probably typeset your nice maths-y pdfs and allow students to download
