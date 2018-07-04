@@ -113,7 +113,7 @@ Once you've got everything [set up](#how-do-i-get-set-up), then the workflow is:
 - the assignments in the `_deliverables` subdirectory
 - the resources in the `_resources` subdirectory (or just delete that folder)
 - the `01-policies.md`, `02-outline.md` and `03-getting-help.md` files in the
-  top-level directory
+  top-level directory (or delete them)
 
 You can touch anything/everything if you like, but the idea of this template is
 that you don't have to. You can start with those files (writing good content for
