@@ -67,7 +67,7 @@ Once you've got everything [set up](#how-do-i-get-set-up), then the workflow is:
 
 [^serve]: if you don't want to run the preview server, you can just `bundle exec jekyll build`
 
-## How do I get set up? {#how-do-i-get-set-up}
+## How do I get set up?
 
 There are a couple of things you need to (just once) at the start:
 
