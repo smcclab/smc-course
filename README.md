@@ -43,30 +43,6 @@ template gives you the ability to:
 
 [^wysiwyg]: what you see is what you get
 
-## So what's the workflow for developing my course website?
-
-Once you've got everything [set up](#how-do-i-get-set-up), then the workflow is:
-
-1. write your content (labs, assignments, upload files, etc) in
-   [markdown](http://commonmark.org/help/) or
-   [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) files in this
-   directory (inc. in subfolders)
-
-2. build the site by running the `bundle exec jekyll serve --livereload` at the
-   command line in this top-level directory---this also starts a local webserver
-   so you can preview the site on your local machine[^serve]
-
-3. open up the preview site in your web browser (the server address will be
-   printed to the terminal where you've run the `bundle exec jekyll serve`
-   command, probably something like `http://127.0.0.1:4000/`)
-
-4. when you're happy with it, commit and `git push` your changes up to
-   GitLab---a script will automatically update your site and the changes will be
-   visible to everyone at `https://cs.anu.edu.au/courses/compXXXX` within about
-   a minute
-
-[^serve]: if you don't want to run the preview server, you can just `bundle exec jekyll build`
-
 ## How do I get set up?
 
 There are a couple of things you need to (just once) at the start:
@@ -92,6 +68,30 @@ To push the site "live" so that students (and everyone) can see it (e.g. at
 
 4. talk to [Dave at the CECS helpdesk](mailto:helpdesk@cecs.anu.edu.au) to flick
    a couple of switches in the system to get you started with a live website
+
+## So what's the workflow for developing my course website?
+
+Once you've got everything [set up](#how-do-i-get-set-up), then the workflow is:
+
+1. write your content (labs, assignments, upload files, etc) in
+   [markdown](http://commonmark.org/help/) or
+   [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) files in this
+   directory (inc. in subfolders)
+
+2. build the site by running the `bundle exec jekyll serve --livereload` at the
+   command line in this top-level directory---this also starts a local webserver
+   so you can preview the site on your local machine[^serve]
+
+3. open up the preview site in your web browser (the server address will be
+   printed to the terminal where you've run the `bundle exec jekyll serve`
+   command, probably something like `http://127.0.0.1:4000/`)
+
+4. when you're happy with it, commit and `git push` your changes up to
+   GitLab---a script will automatically update your site and the changes will be
+   visible to everyone at `https://cs.anu.edu.au/courses/compXXXX` within about
+   a minute
+
+[^serve]: if you don't want to run the preview server, you can just `bundle exec jekyll build`
 
 ## What files in this repo will I *need* to touch?
 
