@@ -229,7 +229,7 @@ to handle this, and you can even pass arguments (for more
 
 Anything you put in `_sass/custom.scss` will be applied to your site.
 
-## Do I have to stick with this structure (lectures/labs/deliverables)?
+## Do I have to stick with this structure (lectures/labs/deliverables/resources)?
 
 Nope. You can see the configuration for those "default"
 [collections](https://jekyllrb.com/docs/collections/) in the `_config.yml` file,
