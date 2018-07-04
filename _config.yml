@@ -108,7 +108,7 @@ collections:
   resources:
     navbar: true
     output: true
-    display-order: 3
+    display-order: 4
     permalink: /resources/:path/
 
 # populate the menu with links to related sites
