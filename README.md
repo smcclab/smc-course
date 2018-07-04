@@ -21,6 +21,10 @@ To quote the [Jekyll docs](https://jekyllrb.com/docs/home/):
 > you can use Jekyll to host your project’s page, blog, or website from GitHub’s
 > servers for free.
 
+## Do I have to use this for my course website?
+
+No.
+
 ## Why would I, a CECS academic, want to use this?
 
 If you've ever struggled with Wattle and wanted to focus on writing good content
@@ -34,14 +38,23 @@ template gives you the ability to:
 - keep your content under (`git`) version control, with all the record-keeping
   and collaboration superpowers that entails
 
+- easily share content between courses without having to copy-paste things from
+  fiddly Wattle text boxes
+
 - use the full power of HTML/CSS/js to create and style your content how you
-  like (although this is not just for web gurus---it looks great out of the box,
-  adding anything extra is purely optional)
+  like (although this template isn't just for web gurus---it looks good out of
+  the box, adding anything extra is purely optional)
 
 - use sane defaults so you can **concentrate on writing good content**, but is
   *very* customisable if you want to explore
 
-[^wysiwyg]: what you see is what you get
+- live inside Emacs when developing your course[^emacs]
+
+[^wysiwyg]: "what you see is what you get"
+
+[^emacs]:
+    Just to be clear; **nobody** is forcing you to do that. I think there's a UN
+    convention against that or something.
 
 ## How do I get set up?
 
