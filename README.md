@@ -165,12 +165,12 @@ Quite a few courses in RSCS are now building their course websites this way (if
 you're not on this list but you *are* using it too, then let Ben know so he can
 add you!).
 
-- COMP1100/1130
-- COMP1110/1140
-- COMP1720
-- COMP2100
-- COMP2300
-- COMP2420
+- [COMP1100/1130](https://cs.anu.edu.au/courses/comp1100/)
+- [COMP1110/1140](https://cs.anu.edu.au/courses/comp1110/)
+- [COMP1720](https://cs.anu.edu.au/courses/comp1720/)
+- [COMP2100](https://cs.anu.edu.au/courses/comp2100/)
+- [COMP2300](https://cs.anu.edu.au/courses/comp2300/)
+- [COMP2420](https://cs.anu.edu.au/courses/comp2420/)
 - TechLauncher
 - Chris Browne's course in Engineering
 
