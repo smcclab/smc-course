@@ -215,7 +215,7 @@ which [Jekyll uses](https://jekyllrb.com/docs/templates/) for this stuff. For
 actually getting the data into the system, look at Jekyll [data
 files](https://jekyllrb.com/docs/datafiles/).
 
-Obviously you could also have some other tool generate the md source file
+Obviously you could also have some other tool generate the markdown source file
 external to Jekyll, but then you don't get the nice auto-regeneration and
 livereload stuff.
 
