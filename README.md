@@ -47,11 +47,10 @@ template gives you the ability to:
 
 There are a couple of things you need to (just once) at the start:
 
-1. fork this repository to the place where you're going to actually host your
-   site's content (usually this is at
-   <https://gitlab.cecs.anu.edu.au/courses/compXXXX>, but for the moment you can
-   just fork it to your `uXXXXXXX` account---you can always transfer the
-   ownership later)
+1. send an [email to the helpdesk](mailto:helpdesk@cecs.anu.edu.au) with the
+   subject "New Jekyll Course website for COMPXXXX" (inserting your course code,
+   obviously) so they can create a fork of this repo for you at
+   <https://gitlab.cecs.anu.edu.au/courses/compXXXX>
 
 2. clone the newly-created project to your local machine
 
