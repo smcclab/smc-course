@@ -65,7 +65,8 @@ There are a couple of things you need to (just once) at the start:
    obviously) so they can create a fork of this repo for you at
    <https://gitlab.cecs.anu.edu.au/courses/compXXXX>
 
-2. clone the newly-created project to your local machine
+2. once they've done that for you, clone the newly-created project to your local
+   machine
 
 3. set up your [ruby environment](https://www.ruby-lang.org/en/downloads/) (on
    Windows/Linux/macOS) and install the relevant gems (packages) by running
