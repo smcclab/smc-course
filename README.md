@@ -78,8 +78,8 @@ web browser on your local machine.
 To push the site "live" so that students (and everyone) can see it (e.g. at
 <https://cs.anu.edu.au/courses/compXXXX/>), then there's one more step required:
 
-4. talk to [Dave at the CECS helpdesk](mailto:helpdesk@cecs.anu.edu.au) to flick
-   a couple of switches in the system to get you started with a live website
+4. talk to [the CECS helpdesk](mailto:helpdesk@cecs.anu.edu.au) to flick a
+   couple of switches in the system to get you started with a live website
 
 ## So what's the workflow for developing my course website?
 
@@ -169,8 +169,7 @@ site](https://en.wikipedia.org/wiki/Static_web_page), after all).
 
 ## Can it do *x*?
 
-Maybe---ask [Dave](mailto:david.guest@anu.edu.au) or
-[Ben](mailto:ben.swift@anu.edu.au).
+Maybe---ask [Ben](mailto:ben.swift@anu.edu.au).
 
 ## Who's using this setup currently?
 
@@ -198,9 +197,9 @@ site as well---we're a pretty caring and sharing bunch in general.
 ## Can I have maths in my markdown files?
 
 Yes, the template supports
-[MathJax](https://docs.mathjax.org/en/latest/tex.html) (v2.7.1) so you can use
-math-mode markup in your `*.md` files inside *double* dollar signs, e.g. $$x =
-3$$. It doesn't cover [all of
+[MathJax](https://docs.mathjax.org/en/latest/tex.html) so you can use math-mode
+markup in your `*.md` files inside *double* dollar signs, e.g. $$x = 3$$. It
+doesn't cover [all of
 LaTeX](https://docs.mathjax.org/en/latest/tex.html#differences), but if you're
 doing that stuff you probably aren't having a great time in Wattle anyway (and
 should probably typeset your nice maths-y pdfs and allow students to download
