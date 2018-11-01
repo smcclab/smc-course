@@ -1,4 +1,4 @@
-image: anucecsit/gitlab-pages:1.3.9
+image: anucecsit/gitlab-pages:1.3.10
 
 page-build:
   tags:
