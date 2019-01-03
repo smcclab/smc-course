@@ -13,10 +13,10 @@ on making the most of them.
 
 These aren't specific to {{ site.short_title }}, but they might be useful to know:
 
-- **Monday 30 July** - deadline to add semester 2 courses via ISIS
-- **Friday 31 August** - semester 2 census date
-- **Friday 5 October** - deadline to drop semester 2 courses without failure (WD)
-- **Thursday 29 November** - semester 2 results released
+- **Monday DD of MM** - deadline to add semester X courses via ISIS
+- **Friday DD of MM** - semester X census date
+- **Friday DD of MM** - deadline to drop semester X courses without failure (WD)
+- **Thursday DD of MM** - semester X results released
 
 Check out the [university
 calendar](http://www.anu.edu.au/directories/university-calendar) for a full list
@@ -28,7 +28,7 @@ Here are a few more places you can go and people you can talk to.
 
 #### Course reps
 
-In S1 the course reps are:
+The course reps for {{ site.short_title}} are:
 
 - **Jon Snow**: [u1234567@anu.edu.au](mailto:u1234567@anu.edu.au)
 - **The Queen of Hearts**: [u7654321@anu.edu.au](mailto:u7654321@anu.edu.au)
