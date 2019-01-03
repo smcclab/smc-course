@@ -36,9 +36,11 @@ responsible_officer_email: head.cs@cecs.anu.edu.au
 ##################
 
 # files/folders to exclude from the build process
+# these ones are already excluded by default anyway, but they're here as an example
 exclude:
   - README.md
   - Gemfile
+  - Gemfile.lock
 
 # which markdown processor and syntax highlighter to use
 markdown: kramdown
@@ -49,10 +51,6 @@ theme: jekyll-theme-anu-cecs
 assets:
   sources:
     - _assets/
-  assets:
-    - "*.png"
-    - "*.jpg"
-    - "*.jpeg"
 
 sass:
   style: compressed
@@ -112,4 +110,13 @@ collections:
     permalink: /resources/:path/
 
 # populate the menu with links to related sites
+# (feel free to delete the existing ones as well)
 related_sites:
+  - name: CS Homepage
+    url: https://cs.anu.edu.au
+  - name: GitLab
+    url: https://gitlab.cecs.anu.edu.au
+  - name: Streams
+    url: https://cs.anu.edu.au/streams
+  - name: Current students
+    url: http://www.anu.edu.au/study
