@@ -3,9 +3,10 @@ title: FAQ
 summary: Some questions which come up, well... frequently
 permalink: /resources/faq/
 layout: page
+layout: default
 ---
 
-{% include toc %}
+{% include toc.html %}
 
 In addition to this FAQ page, this course has a dedicated [help
 page]({{site.baseurl}}{% link 03-getting-help.md %}).

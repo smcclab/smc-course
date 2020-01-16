@@ -11,25 +11,41 @@
 # Site Info #
 #############
 
-# site name (in words, e.g. the full course name)
-title: Long Title
-
-# short site name (e.g. COMPXXXX)
-short_title: Short Title
-
 # sub-path of your site (/courses/COMPXXXX)
 baseurl: ""
 
 # the base hostname & protocol for your site (generally leave as-is)
 url: ""
 
-# your name and email in here
-page_contact: Lecturer Name
-page_contact_email: lecturer.name@anu.edu.au
+#######################
+# Theme Configuration #
+#######################
+jekyll-theme-cecs:
+  # site name (in words, e.g. the full course name)
+  title: Long Title
 
-# These are for the standard ANU Footer
-responsible_officer: Head of School
-responsible_officer_email: head.cs@cecs.anu.edu.au
+  # short site name (e.g. COMPXXXX)
+  short_title: Short Title
+
+  # your name and email in here
+  page_contact: Lecturer Name
+  page_contact_email: lecturer.name@anu.edu.au
+
+  # These are for the standard ANU Footer
+  responsible_officer: Head of School
+  responsible_officer_email: head.cs@cecs.anu.edu.au
+
+  # populate the menu with links to related sites
+  # (feel free to delete the existing ones as well)
+  related_sites:
+    - name: CS Homepage
+      url: https://cs.anu.edu.au
+    - name: GitLab
+      url: https://gitlab.cecs.anu.edu.au
+    - name: Streams
+      url: https://cs.anu.edu.au/streams
+    - name: Current students
+      url: http://www.anu.edu.au/study
 
 ##################
 # build settings #
@@ -46,7 +62,10 @@ exclude:
 markdown: kramdown
 highlighter: highlight.js
 
-theme: jekyll-theme-anu-cecs
+theme: jekyll-theme-cecs
+
+plugins:
+  - jekyll-plugins-cecs
 
 assets:
   sources:
@@ -64,7 +83,7 @@ defaults:
     scope: 
       path: ""
     values: 
-      layout: page
+      layout: default
   - 
     scope: 
       path: _posts
@@ -86,37 +105,25 @@ style: cecs
 tablesorter: .tablesorter
 charts: true
 
-# collections (set navbar: true to add a tab in the navbar)
 collections:
   lectures:
-    navbar: true
+    show_in_navbar: true
     output: true
     display-order: 1
     permalink: /lectures/:path/
   labs:
-    navbar: true
+    show_in_navbar: true
     output: true
     display-order: 2
     permalink: /labs/:path/
   deliverables:
-    navbar: true
+    show_in_navbar: true
+    output: true
     output: true
     display-order: 3
     permalink: /deliverables/:path/
   resources:
-    navbar: true
+    show_in_navbar: true
     output: true
     display-order: 4
     permalink: /resources/:path/
-
-# populate the menu with links to related sites
-# (feel free to delete the existing ones as well)
-related_sites:
-  - name: CS Homepage
-    url: https://cs.anu.edu.au
-  - name: GitLab
-    url: https://gitlab.cecs.anu.edu.au
-  - name: Streams
-    url: https://cs.anu.edu.au/streams
-  - name: Current students
-    url: http://www.anu.edu.au/study

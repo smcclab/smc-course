@@ -2,6 +2,7 @@
 title: "Week 1: Introduction"
 summary: Getting the hang of things...
 layout: page
+layout: default
 ---
 
 Welcome to the {{site.title}} labs.
@@ -45,11 +46,13 @@ mov r3, #0xAB
 
 Sometimes you want to add images to your content.
 
+{% comment %}
 {% asset labs/hen.jpg alt='a hen. cluck!' %}
 
 {% asset labs/hen.jpg alt='a hen. centered.' class='center' %}
 
 {% asset labs/hen.jpg alt='the same hen, but full-width' style='width:100%;' %}
+{% endcomment %}
 
 Note the use of the key:value `class` and `style` attributes---this will pass
 these attributes through to the `<img>` tag in the output. You can use the ANU

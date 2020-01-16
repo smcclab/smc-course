@@ -1,8 +1,8 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 3.8.0"
+gem "jekyll", "~> 4.0.0"
 
 group :jekyll_plugins do
-  gem "jekyll-plugin-anu-cecs", :git => "https://gitlab.cecs.anu.edu.au/cecstlweb/jekyll-plugin-anu-cecs.git", :tag => "1.3.5"
-  gem "jekyll-theme-anu-cecs", :git => "https://gitlab.cecs.anu.edu.au/cecstlweb/jekyll-theme-anu-cecs.git", :tag => "1.3.9"
+  gem "jekyll-theme-cecs", :path => "../jekyll-theme-cecs"
+  gem "jekyll-plugins-cecs", :path => "../jekyll-plugins-cecs"
 end

@@ -2,9 +2,10 @@
 title: "Assignment 1: Hello World"
 summary: Hello, World!
 layout: page
+layout: default
 ---
 
-{% include toc %}
+{% include toc.html %}
 
 ## Outline
 

@@ -1,6 +1,7 @@
 ---
 title: Outline
 layout: page
+layout: default
 permalink: /outline/
 hide_heading: true
 ---

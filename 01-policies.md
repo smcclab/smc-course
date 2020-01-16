@@ -3,7 +3,9 @@ title: Policies
 permalink: /policies/
 ---
 
+{% comment %}
 {% include toc %}
+{% endcomment %}
 
 ### Communication {#communication}
 

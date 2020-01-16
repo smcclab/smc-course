@@ -1,10 +1,13 @@
 ---
 title: Getting help
 layout: page
+layout: default
 permalink: /help/
 ---
 
+{% comment %}
 {% include toc %}
+{% endcomment %}
 
 There are heaps of avenues for getting help in this course---here are four tips
 on making the most of them.
