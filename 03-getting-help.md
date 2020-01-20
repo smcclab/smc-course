@@ -5,9 +5,7 @@ layout: default
 permalink: /help/
 ---
 
-{% comment %}
-{% include toc %}
-{% endcomment %}
+{% include toc.html %}
 
 There are heaps of avenues for getting help in this course---here are four tips
 on making the most of them.

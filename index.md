@@ -1,5 +1,5 @@
 ---
 title: Home
-hidden: true
+hidden_in_sidebar: true
 tags: home
 ---

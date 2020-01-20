@@ -1,7 +1,6 @@
 ---
 title: "Week 1: Introduction"
 summary: Getting the hang of things...
-layout: page
 layout: default
 ---
 
