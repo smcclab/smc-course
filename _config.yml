@@ -35,6 +35,14 @@ cecs:
   responsible_officer: Head of School
   responsible_officer_email: head.cs@cecs.anu.edu.au
 
+  # Configuration for the "News" sidebar which shows up if your site has any posts.
+  news:
+    sidebar_length: 3 # how many posts to show in the sidebar
+    view_more_url: '/news' # where to point people who want to see the rest of the posts
+
+  news: true
+  news_sidebar_length: 3
+
   # populate the menu with links to related sites
   # (feel free to delete the existing ones as well)
   related_sites:
@@ -46,64 +54,6 @@ cecs:
       url: https://cs.anu.edu.au/streams
     - name: Current students
       url: http://www.anu.edu.au/study
-
-##################
-# build settings #
-##################
-
-# files/folders to exclude from the build process
-# these ones are already excluded by default anyway, but they're here as an example
-exclude:
-  - README.md
-  - Gemfile
-  - Gemfile.lock
-
-# which markdown processor and syntax highlighter to use
-markdown: kramdown
-highlighter: highlight.js
-
-theme: jekyll-theme-cecs
-
-plugins:
-  - jekyll-plugins-cecs
-
-assets:
-  sources:
-    - _assets/
-
-sass:
-  style: compressed
-
-# number of news items to show in the menu on the homepage
-newscount: 3
-
-# default layouts for different pages
-defaults: 
-  - 
-    scope: 
-      path: ""
-    values: 
-      layout: default
-  - 
-    scope: 
-      path: _posts
-    values: 
-      categories: news
-      show_date: true
-      show_time: true
-
-permalink: /:categories/:year/:month/:day/:title/
-
-navbar: true
-globalmenu: false
-gitlab_auth: false
-search: true
-future: true
-breadcrumbs: true
-style: cecs
-# piwik_siteid: x
-tablesorter: .tablesorter
-charts: true
 
 collections:
   lectures:
@@ -127,3 +77,50 @@ collections:
     output: true
     display-order: 4
     permalink: /resources/:path/
+
+##################
+# build settings #
+##################
+
+# files/folders to exclude from the build process
+# these ones are already excluded by default anyway, but they're here as an example
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+theme: jekyll-theme-cecs
+
+plugins:
+  - jekyll-plugins-cecs
+
+sass:
+  style: compressed
+
+# default layouts for different pages
+defaults: 
+  - 
+    scope: 
+      path: ""
+    values: 
+      layout: default
+  - 
+    scope: 
+      path: _posts
+    values: 
+      categories: news
+      show_date: true
+      show_time: true
+
+permalink: /:categories/:year/:month/:day/:title/
+
+# navbar: true
+# globalmenu: false
+# gitlab_auth: false
+# search: true
+# future: true
+# breadcrumbs: true
+# style: cecs
+# piwik_siteid: x
+# tablesorter: .tablesorter
+# charts: true
