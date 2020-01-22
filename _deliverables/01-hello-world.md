@@ -14,7 +14,7 @@ layout: default
 - **Submission:** submit your assignment according to the [instructions
   below](#submission-process)
 - **Policies:** for late policies, academic integrity policies, etc. see the
-  [policies page]({{site.baseurl}}{% link 01-policies.md %})
+  [policies page]({% link 01-policies.md %})
 
 ## Specification
 

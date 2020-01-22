@@ -14,7 +14,7 @@ latency.
 ### Assessment
 
 In {{ site.short_title }} you will be assessed on the following
-[deliverables]({{site.baseurl}}{% link _deliverables/index.md %}):
+[deliverables]({% link _deliverables/index.md %}):
 
 1. some [assignments](#assignments)
 2. a [mid-semester exam](#mid-semester-exam)

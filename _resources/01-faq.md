@@ -9,7 +9,7 @@ layout: default
 {% include toc.html %}
 
 In addition to this FAQ page, this course has a dedicated [help
-page]({{site.baseurl}}{% link 03-getting-help.md %}).
+page]({% link 03-getting-help.md %}).
 
 The FAQ entries you have up for your course will obviously depend on the course,
 so I haven't included any template ones here.
