@@ -93,6 +93,7 @@ theme: jekyll-theme-cecs
 
 plugins:
   - jekyll-plugins-cecs
+  - jekyll-feed
 
 sass:
   style: compressed
