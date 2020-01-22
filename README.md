@@ -82,6 +82,35 @@ To push the site "live" so that students (and everyone) can see it (e.g. at
 4. talk to [the CECS helpdesk](mailto:helpdesk@cecs.anu.edu.au) to flick a
    couple of switches in the system to get you started with a live website
 
+## I'm upgrading from a previous version of the CECS Jekyll template---what do I need to know?
+
+As of Jan 2020 there's a new version of the `jekyll-theme-cecs` gem. The gem is
+designed to work with Jekyll v4 ([released Aug
+2019](ohttps://jekyllrb.com/news/2019/08/20/jekyll-4-0-0-released/)), which was
+necessary because the old sass gem was EOL'd (and gives much faster build times,
+fixes vulnerabilities, etc).
+
+There's a full [upgrade guide](https://jekyllrb.com/docs/upgrading/3-to-4/), but
+if you're just copying your course content files from an old (Jekyll v3) project
+to a new one (e.g. the new course-in-a-box) then probably the only things to
+know are:
+
+The `post_url` and `link` tags now incorporate the `relative_url` filter and
+therefore automatically prepends your site's baseurl to the post's url value. So
+you'll need to change all instances of the `post_url` (or `tag`) usage as following:
+
+```diff
+- {{ site.baseurl }}/{% post_url 2018-03-20-hello-world.markdown %}
++ {% post_url 2018-03-20-hello-world.markdown %}
+```
+
+or
+
+```diff
+- {{ site.baseurl }}/{% link _deliverables/assignment-1.md %}
++ {% link _deliverables/assignment-1.md %}
+```
+
 ## So what's the workflow for developing my course website?
 
 Once you've got everything [set up](#how-do-i-get-set-up), then the workflow is:
