@@ -40,9 +40,6 @@ cecs:
     sidebar_length: 3 # how many posts to show in the sidebar
     view_more_url: '/news' # where to point people who want to see the rest of the posts
 
-  news: true
-  news_sidebar_length: 3
-
   # populate the menu with links to related sites
   # (feel free to delete the existing ones as well)
   related_sites:
@@ -100,20 +97,16 @@ sass:
 
 # default layouts for different pages
 defaults: 
-  - 
-    scope: 
+  - scope:
       path: ""
     values: 
       layout: default
-  - 
-    scope: 
+  - scope: 
       path: _posts
     values: 
       categories: news
       show_date: true
       show_time: true
-
-permalink: /:categories/:year/:month/:day/:title/
 
 # navbar: true
 # globalmenu: false
