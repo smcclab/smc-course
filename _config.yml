@@ -20,7 +20,7 @@ url: ""
 #######################
 # Theme Configuration #
 #######################
-jekyll-theme-cecs:
+cecs:
   # site name (in words, e.g. the full course name)
   title: Long Title
 
