@@ -1,7 +1,5 @@
 ---
-title: LENS toolkit
-permalink: /lens/tools/
-hidden: false
+title: Tools 
 ---
 
 {:.info-box}

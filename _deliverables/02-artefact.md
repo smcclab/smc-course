@@ -38,7 +38,7 @@ The criteria for this mark are:
 
 Your LENS artefact will be assessed based on the two representations
 above. The marking criteria (based on the [course learning
-outcomes]({{site.baseurl}}{% link _lens/01-outline.md %})) are:
+outcomes]({% link 02-outline.md %}))) are:
 
 - sophistication with regards to **fundamental aspects of music
   computing** including digital synthesis, algorithmic composition and

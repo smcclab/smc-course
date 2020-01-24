@@ -34,7 +34,7 @@ the end of the semester.
 
 If you think this is the course for you, get in touch with [Ben
 Swift](mailto:ben.swift@anu.edu.au) to register your interest, and check out the
-[course structure]({{site.baseurl}}{% link _lens/01-outline.md %}).
+[course structure]({% link 02-outline.md %}).
 
 {:.warn-box}
 
@@ -44,9 +44,8 @@ year (esp. with regard to the schedule of deliverables), but the main concepts
 covered will be very similar this year, so feel free to look around and get a
 head start 😁
 
-- [Course Outline, Dates, and Deliverables]({{site.baseurl}}{% link
-  _lens/01-outline.md %})
-- [Tools, tips and resources]({{site.baseurl}}{% link _lens/02-lenstools.md %})
+- [Course Outline, Dates, and Deliverables]({% link 02-outline.md %})
+- [Tools, tips and resources]({% link 02-lenstools.md %})
 
 ### FAQ
 

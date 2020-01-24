@@ -1,9 +1,5 @@
 ---
 title: LENS Lab Equipment
-permalink: /lens/equipment/
-hidden: true
-hide_heading: true
-published: true
 ---
 
 ## Equipment
