@@ -1,0 +1,40 @@
+// nice callout boxes
+// colours follow the anu style guide: http://webpublishing.anu.edu.au/web-style-guide/style-sampler.php
+$errorColour: #f00;
+$warnColour: #fc3;
+$infoColour: #3498db;
+$successColour: #2ecc71;
+
+@mixin lab-content-box ($heading, $colour){
+    padding: 10px;
+
+    &::before {
+        background: $colour;
+        color: #fff;
+        padding-left: 1em;
+        content: $heading;
+        display: block;
+        font-weight: 900;
+        margin-bottom: 1em;
+    }
+}
+
+#content {
+    .error-box {
+        @include lab-content-box("error", $errorColour);
+        background: lighten($errorColour, 30%);
+    }
+    .warn-box {
+        @include lab-content-box("warning", $warnColour);
+        background: lighten($warnColour, 20%);
+    }
+    .info-box {
+        @include lab-content-box("info", $infoColour);
+        background: lighten($infoColour, 30%);
+    }
+    .success-box {
+        @include lab-content-box("success", $successColour);
+        background: lighten($successColour, 25%);
+    }
+}
+
