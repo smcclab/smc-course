@@ -22,14 +22,14 @@ url: ""
 #######################
 cecs:
   # site name (in words, e.g. the full course name)
-  title: Long Title
+  title: Laptop Ensemble
 
   # short site name (e.g. COMPXXXX)
-  short_title: Short Title
+  short_title: LENS
 
   # your name and email in here
-  page_contact: Lecturer Name
-  page_contact_email: lecturer.name@anu.edu.au
+  page_contact: Ben Swift 
+  page_contact_email: ben.swift@anu.edu.au
 
   # These are for the standard ANU Footer
   responsible_officer: Head of School

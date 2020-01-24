@@ -1,46 +1,15 @@
 ---
 title: Lectures
 permalink: /lectures/
-hidden: true
+hidden_in_sidebar: true
 ---
 
-Link to your slides here: ppt, pdf, HTML---it's up to you how you put them
-together. If I told you had to do it a specific way you'd ignore me anyway.
+Here's links to the lectures for LENS' Project Course. 
 
-If you put your slides in the top-level `_assets/` folder then you can use the 
-link like this (although you can use whatever directory structure you like):
+Tutorial and example code/patches are provided on Charles' Github repo ([repo link](https://github.com/cpmpercussion/ComputerMusicIntro), [direct download zip](https://github.com/cpmpercussion/ComputerMusicIntro/archive/master.zip))
 
-- [Week 1 slides]({{ 'assets/lectures/compXXXX-week-1.pdf' | relative_url }})
-
-Although if the slides are hosted somewhere else, you can just point to
-them---it's a link, after all.
-
-You can also do segmentation, etc. Create a structure which works for your
-content.
-
-## Week 2
-
-Alternatively you can write your slides in Markdown and have them hosted on your coursepage automatically using [reveal.js](https://revealjs.com/).
-
-- [Week 2 slides (reveal.js demo)](week-one)
-
-To do this, create a new page and set the layout to 'reveal'.
-
-```
-title: Lecture Title
-layout: reveal
-```
-
-From there you can write Markdown as you wish, with each instance of either a `<section>`, `<h1>`, or `<h2>` tag (or, naturaly, `#` and `##`) creating a new slide.
-
-```
-...
-
-# This is the first slide
-
-this is content on the first slide
-
-## this is the second slide
-
-# This is a new topic, so it has a big header (third slide)
-```
+- Week 1: Welcome to LENS ([slides]({{site.baseurl}}/lens/1-welcome))
+- Week 2: Digital Synthesis in Pure Data ([slides]({{site.baseurl}}/lens/2-synth))
+- Week 3: Algorithmic Composition in Pure Data ([slides]({{site.baseurl}}/lens/3-algocomp))
+- Week 4: Computer Music Interfaces and Ensembles ([slides]({{site.baseurl}}/lens/4-interfaces))
+- Week 5: Live Coding ([slides]({{site.baseurl}}/lens/5-livecode))

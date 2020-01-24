@@ -1,8 +1,6 @@
 ---
 title: "Digital Synthesis with Pure Data"
 layout: reveal
-hidden: false
-permalink: /lens/2-synth/
 ---
 
 

@@ -1,10 +1,8 @@
 ---
 title: "Welcome to LENS 2019"
-layout: reveal
-hidden: false
 permalink: /lens/1-welcome/
+layout: reveal
 ---
-
 
 <h1 id="title" class="center">{{ page.title }}</h1>
 <p>Ben Swift, Alec Hunter and Charles Martin</p>

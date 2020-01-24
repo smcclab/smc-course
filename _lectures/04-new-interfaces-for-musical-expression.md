@@ -1,7 +1,6 @@
 ---
 title: "New Interfaces for Musical Expression"
 layout: reveal
-hidden: false
 permalink: /lens/4-interfaces/
 ---
 
@@ -49,7 +48,7 @@ Image Copyright SENNHEISER / PHILIP PEINE
 - ...new kinds of musicianship...
 - ...and new kinds of music?
 
-<img src="{{ '/assets/nimes/nimes.jpg' | relative_url }}" style="width:100%" />
+<img src="{{ '/assets/nimes/nime.jpg' | relative_url }}" style="width:100%" />
 
 ## Typical NIME workflow...
 
@@ -57,7 +56,7 @@ Image Copyright SENNHEISER / PHILIP PEINE
 
 ## MIDI
 
-<img src="{{ '/assets/nimes/Synth_rack_Choking_Sun_Studio.png' | relative_url }}" style="width:25%; float:right" />
+<img src="{{ '/assets/nimes/Synth_rack_Choking_Sun_Studio.jpg' | relative_url }}" style="width:25%; float:right" />
 
 - "Musical Instrument Digital Interface" (1981)
 - A way to send musical "instructions" to a synthesiser.
