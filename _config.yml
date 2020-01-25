@@ -40,6 +40,9 @@ cecs:
     sidebar_length: 3 # how many posts to show in the sidebar
     view_more_url: '/news' # where to point people who want to see the rest of the posts
 
+  # include a CC (BY-NC-SA 4.0) licence in the site footer
+  cc_license: true
+
   # populate the menu with links to related sites
   # (feel free to delete the existing ones as well)
   related_sites:
