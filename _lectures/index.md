@@ -4,12 +4,37 @@ permalink: /lectures/
 hidden_in_sidebar: true
 ---
 
-Here's links to the lectures for LENS' Project Course. 
+Here's links to the weekly "lecture" content. However, this isn't an in-person
+lecture; it's a flipped course. So you need to read & watch the content each
+week, then submit your weekly
 
-Tutorial and example code/patches are provided on Charles' Github repo ([repo link](https://github.com/cpmpercussion/ComputerMusicIntro), [direct download zip](https://github.com/cpmpercussion/ComputerMusicIntro/archive/master.zip))
+## Weekly topic schedule
 
-- Week 1: Welcome to LENS ([slides]({{site.baseurl}}/lens/1-welcome))
-- Week 2: Digital Synthesis in Pure Data ([slides]({{site.baseurl}}/lens/2-synth))
-- Week 3: Algorithmic Composition in Pure Data ([slides]({{site.baseurl}}/lens/3-algocomp))
-- Week 4: Computer Music Interfaces and Ensembles ([slides]({{site.baseurl}}/lens/4-interfaces))
-- Week 5: Live Coding ([slides]({{site.baseurl}}/lens/5-livecode))
+Each week's content will have:
+
+- videos to watch
+- code to read
+- other material stuff to read
+- a description of the "creative stimulus" challenge for that week's [AV
+  diary]({% link _deliverables/01-audiovisual-diary.md %}) entry
+
+{:.warn-box}
+
+**Note**: actual content isn't up yet, but it will be before the start of
+Semester 1---stay tuned.
+
+### Week 1: hello sine
+### Week 2: synthesis I
+### Week 3: sampling I
+### Week 4: envelopes & note structure
+### Week 5: controllers
+### Week 6: algorithmic composition I
+
+_mid-sem break_
+
+### Week 7: ensemble interaction
+### Week 8: synthesis II
+### Week 9: sampling II
+### Week 10: algorithmic composition II
+### Week 11: performance & staging
+### Week 12: final performances

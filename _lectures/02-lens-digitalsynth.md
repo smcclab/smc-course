@@ -1,6 +1,7 @@
 ---
 title: "Digital Synthesis with Pure Data"
 layout: reveal
+hidden: true
 ---
 
 

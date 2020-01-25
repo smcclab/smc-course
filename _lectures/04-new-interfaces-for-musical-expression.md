@@ -2,6 +2,7 @@
 title: "New Interfaces for Musical Expression"
 layout: reveal
 permalink: /lens/4-interfaces/
+hidden: true
 ---
 
 

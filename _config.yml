@@ -61,16 +61,11 @@ collections:
     output: true
     display-order: 1
     permalink: /lectures/:path/
-  lens:
-    show_in_navbar: true
-    output: true
-    display-order: 5
-    permalink: /lens/:path/
-  labs:
+  workshops:
     show_in_navbar: true
     output: true
     display-order: 2
-    permalink: /labs/:path/
+    permalink: /workshops/:path/
   deliverables:
     show_in_navbar: true
     output: true

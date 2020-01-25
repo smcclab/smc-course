@@ -1,37 +1,36 @@
 ---
 title: Outline
-layout: page
-layout: default
 permalink: /outline/
-hide_heading: true
 ---
 
-## {{ site.short_title }}: Course title
+## Learning outcomes {#learning-outcomes}
 
-You should copy this from [programs and courses](https://programsandcourses.anu.edu.au/).
+Upon successful completion of this course, students will be able to:
 
-## Learning Outcomes {#learning-outcomes}
+1. Describe & apply **fundamental aspects of music computing** including
+   digital synthesis, algorithmic composition, and musical interface design.
 
-You should copy this from [programs and courses](https://programsandcourses.anu.edu.au/).
+2. Demonstrate knowledge and understanding of **design and performance
+   issues** around computer music interfaces.
 
-## Semester 2 2018 details
+3. **Critically examine** computer music systems and laptop ensemble performances.
+
+4. **Produce** a computer musical instrument, composition or interactive
+   media work and **present it in concert**.
+
+5. Demonstrate **collaboration skills** with a laptop ensemble including
+   being able to provide **design feedback** and **critical self-reflection**.
+
+## Semester 1 2020 details
 
 - **Mode of Delivery:** on-campus
 - **Prerequisites:**
   - *{{ site.short_title }}*
-- **Incompatible Courses:** None
-- **Course Convener:** {{ site.page_contact }}
-- **Phone:** 6125 XXXX
-- **Email:** {{ site.page_contact_email }}
-- **Research Interests:** things
-- **Lecturers:** {{ site.page_contact }}
+- **Incompatible Courses:** none
+- **Course Convener:** Ben Swift
+- **Phone:** 6125 7027
+- **Email:** <ben.swift@anu.edu.au>
+- **Research Interests:** livecoding (especially musical livecoding), code/creativity/culture, HCI/human-centred computing, critical design
+- **Lecturers:** Ben Swift, Alec Hunter
 - **Tutors:**
-  - list
-  - your
-  - tutors
-  - here
-  - when
-  - you've
-  - figured
-  - them
-  - out
+  - [Abi Thomas](mailto:abigail.thomas@anu.edu.au)

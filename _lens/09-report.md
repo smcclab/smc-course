@@ -74,7 +74,7 @@ might do next.
 
 Your report will be assessed entirely based on the provided (pdf) document. The
 marking criteria (based on the [course learning outcomes]({{site.baseurl}}{%
-link _lens/01-outline.md %})) are:
+link 02-outline.md %})) are:
 
 - understanding of **fundamental aspects of music computing** including digital
   synthesis, algorithmic composition and musical interface design
@@ -100,7 +100,7 @@ link _lens/01-outline.md %})) are:
   as producing an excellent LENS artefact.
 
 - **Do** look again at the [course outline]({{site.baseurl}}{% link
-  _lens/01-outline.md %}). The learning outcomes are how we assess your work.
+  02-outline.md %}). The learning outcomes are how we assess your work.
 
 - **Do** make sure you examine your decisions and the outcomes carefully, ask
   why again ([see five whys](https://en.wikipedia.org/wiki/Five_Whys)).

@@ -33,20 +33,15 @@ able to commit to weekly classes and music-making deliverables and a concert at
 the end of the semester.
 
 If you think this is the course for you, get in touch with [Ben
-Swift](mailto:ben.swift@anu.edu.au) to register your interest, and check out the
-[course structure]({{site.baseurl}}{% link _lens/01-outline.md %}).
+Swift](mailto:ben.swift@anu.edu.au) to register your interest.
 
 {:.warn-box}
 
-Note: these links still point to the 2019 course materials---they'll be updated
-as the 2020 semester approaches. There will be a couple of small changes this
-year (esp. with regard to the schedule of deliverables), but the main concepts
-covered will be very similar this year, so feel free to look around and get a
-head start 😁
-
-- [Course Outline, Dates, and Deliverables]({{site.baseurl}}{% link
-  _lens/01-outline.md %})
-- [Tools, tips and resources]({{site.baseurl}}{% link _lens/02-lenstools.md %})
+Note: some of these links still point to the 2019 course materials---they'll be
+updated as the 2020 semester approaches. There will be a couple of small changes
+this year (esp. with regard to the schedule of deliverables), but the main
+concepts covered will be very similar this year, so feel free to look around and
+get a head start 😁
 
 ### FAQ
 
@@ -66,11 +61,8 @@ Laptop Ensemble links:
 You can see more vids of the ensemble at work on their [YouTube
 channel](https://www.youtube.com/channel/UCIU6SqIS02GJlnLOPqlwmpA).
 
-To keep up-to-date about upcoming gigs, check the [news]({{site.baseurl}}{% link
-news.html %}) page.
-
 #### Do I have to be a livecoder to take part?
-
+/
 No! If you're in any way interested in code/technology & music and want to use
 this opportunity to build your skills in a supportive creative community,
 there's never been a better time to do it.

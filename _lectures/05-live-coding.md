@@ -1,18 +1,9 @@
 ---
 title: "Live Coding"
 layout: default
-hidden: false
 permalink: /lens/5-livecode/
+hidden: true
 ---
-
-<!-- 
-<h1 id="title" class="center">{{ page.title }}</h1>
-<p>Charles Martin</p>
-<p><em>July, 2019</em></p>
-<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-  <img src="{{ 'assets/by-nc-sa.svg' | relative_url }}" style="height:1em; margin-left:0;">
-</a>
--->
 
 ## Live Coding
 

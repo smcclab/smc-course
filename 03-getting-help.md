@@ -1,7 +1,5 @@
 ---
 title: Getting help
-layout: page
-layout: default
 permalink: /help/
 ---
 
@@ -10,29 +8,15 @@ permalink: /help/
 There are heaps of avenues for getting help in this course---here are four tips
 on making the most of them.
 
-### Important dates {#important-dates}
-
-These aren't specific to {{ site.short_title }}, but they might be useful to know:
-
-- **Monday DD of MM** - deadline to add semester X courses via ISIS
-- **Friday DD of MM** - semester X census date
-- **Friday DD of MM** - deadline to drop semester X courses without failure (WD)
-- **Thursday DD of MM** - semester X results released
-
-Check out the [university
-calendar](http://www.anu.edu.au/directories/university-calendar) for a full list
-of all the dates you need to know about.
-
 ### Helpful contact info
 
 Here are a few more places you can go and people you can talk to.
 
 #### Course reps
 
-The course reps for {{ site.short_title}} are:
+The course reps for this course are:
 
-- **Jon Snow**: [u1234567@anu.edu.au](mailto:u1234567@anu.edu.au)
-- **The Queen of Hearts**: [u7654321@anu.edu.au](mailto:u7654321@anu.edu.au)
+- TBC
 
 You can get in touch with them at any time with feedback about the course, and
 you'll be anonymous (I won't know *who* gave the feedback).

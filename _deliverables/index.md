@@ -1,11 +1,12 @@
 ---
 title: Deliverables
-permalink: /deliverables/
 hidden_in_sidebar: true
 ---
 
-Put whatever general information you like here. Any specific deliverables
-(assignments, exams, quizzes, portfolios, etc.) should be new files in this
-`_deliverables` subdirectory---at the `01-hello-world.md` file as an example.
+| Deliverable                    | Due Date                                  | Weighting       |
+|--------------------------------|-------------------------------------------|-----------------|
+| Workshop portfolio             | end week 5 (wk 2-5) & end week 9 (wk 6-9) | 15% + 15% = 30% |
+| Masterclass & performance plan | first week of term 2                      | 10% + 10% = 20% |
+| LENS Performance               | end of week 12                            | 50%             |
 
 {% include postlist.html posts=site.deliverables %}

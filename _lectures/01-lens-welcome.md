@@ -2,6 +2,7 @@
 title: "Welcome to LENS 2019"
 permalink: /lens/1-welcome/
 layout: reveal
+hidden: true
 ---
 
 <h1 id="title" class="center">{{ page.title }}</h1>

@@ -1,8 +1,8 @@
 ---
 title: "Algorithmic Composition with Pure Data"
 layout: reveal
-hidden: false
 permalink: /lens/3-algocomp/
+hidden: true
 ---
 
 <h1 id="title" class="center">{{ page.title }}</h1>
