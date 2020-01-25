@@ -1,6 +1,7 @@
 ---
 title: Deliverables
 permalink: /deliverables/
+hidden: true
 ---
 
 | Deliverable                    | Due Date                                  | Weighting       |

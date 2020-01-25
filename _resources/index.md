@@ -1,6 +1,7 @@
 ---
 title: Resources
 permalink: /resources/
+hidden: true
 ---
 
 If you have any problems/suggestions for these resources pages (or you want to
