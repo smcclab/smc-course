@@ -1,8 +1,13 @@
 ---
-title: LENS Lab Equipment
+title: LENS lab equipment
+permalink: /resources/equipment/
 ---
 
-## Equipment
+Here's a list of all the gear that we have to share---if you'd like to use any
+of it in the course then let Ben know and we can discuss how to give you access
+to it.
+
+## Audio
 
 - Mixer: Yamaha MG10XU
 - Headphone distribution amplifier: Behringer HA8000, 8 channels
@@ -10,33 +15,15 @@ title: LENS Lab Equipment
 - 6x Audio Technica M20x headphones
 - 5x Behringer U-Phoria UM2 audio interfaces 
 
-## Cables
+### Cables
 
 - 3x stereo TRS jack to jack 3m cables 
 - 4x stereo 3.5mm TRS to dual TRS jack adapaters.
 
-## HDMI Mixer
+## Video
 
-- 2x HD
+- Roland V-1HD video mixer
 
-## Need to Get
+### Cables
 
-- Long HDMI cables
-- Pelican cases
-
-
-### Video
-
-- projector
-- portable screen
-
-### Loudspeakers
-
-- [Hemisphere Speakers? Isolobe Audio](http://isobelaudio.com/ordering/)
-- Good monitors for moving around? [Genelec 8000
-  series.](https://www.genelec.com/studio-monitors/classic-studio-monitors-subwoofers)
-- Small PA speakers? [Yamaha
-  DBR10](https://www.storedj.com.au/yamaha-dbr10-powered-10-pa-speaker)?
-  [QSC CP
-  series?](https://www.qsc.com/live-sound/products/loudspeakers/powered-loudspeakers/cp-series/)
-
+- 1x 10m HDMI cable

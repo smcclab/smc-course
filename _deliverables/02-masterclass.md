@@ -30,7 +30,7 @@ Your masterclass submission must include:
 
 - a 60 second (+/- 5s) video (with sound, obviously) of computer music work exploring that week's theme
 
-- all files (e.g. pd patch files, Extempore source code files, sound files &
+- all files (e.g. Pd patch files, Extempore source code files, sound files &
   other assets) required to re-produce your submission
 
 ## Submission process {#submission-process}
