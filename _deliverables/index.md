@@ -1,5 +1,6 @@
 ---
 title: Deliverables
+permalink: /deliverables/
 hidden_in_sidebar: true
 ---
 

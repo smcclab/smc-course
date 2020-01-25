@@ -1,5 +1,6 @@
 ---
 title: Workshops
+permalink: /workshops/
 hidden_in_sidebar: true
 ---
 
