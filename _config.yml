@@ -59,22 +59,22 @@ collections:
   lectures:
     show_in_navbar: true
     output: true
-    display-order: 1
+    display_order: 1
     permalink: /lectures/:path/
   workshops:
     show_in_navbar: true
     output: true
-    display-order: 2
+    display_order: 2
     permalink: /workshops/:path/
   deliverables:
     show_in_navbar: true
     output: true
-    display-order: 3
+    display_order: 3
     permalink: /deliverables/:path/
   resources:
     show_in_navbar: true
     output: true
-    display-order: 4
+    display_order: 4
     permalink: /resources/:path/
 
 ##################
