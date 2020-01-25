@@ -74,7 +74,6 @@ collections:
   deliverables:
     show_in_navbar: true
     output: true
-    output: true
     display-order: 3
     permalink: /deliverables/:path/
   resources:
