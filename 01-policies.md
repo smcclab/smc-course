@@ -13,24 +13,8 @@ latency.
 
 ### Assessment
 
-In {{ site.short_title }} you will be assessed on the following
-[deliverables]({% link _deliverables/index.md %}):
-
-1. some [assignments](#assignments)
-2. a [mid-semester exam](#mid-semester-exam)
-3. a [final exam](#final-exam)
-
-#### Assignments {#assignments}
-
-Some info about your assignments here.
-
-#### Mid-semester exam {#mid-sem-exam}
-
-Some info about your mid-sem here.
-
-#### Final exam {#final-exam}
-
-Some info about your mid-sem here, including any hurdle requirements.
+All assessment items are listed on the [deliverables page]({% link
+_deliverables/index.md %}).
 
 ### Final marks and grades {#final-marks-and-grades}
 
@@ -100,7 +84,7 @@ At the ANU [we take academic integrity
 seriously](http://academichonesty.anu.edu.au/). There are several different
 aspects to academic integrity, and [several different types of academic
 misconduct](https://services.anu.edu.au/education-support/academic-integrity/determining-a-breach).
-In COMP2300/6300 all the ANU academic integrity rules apply.
+In LENS all the ANU academic integrity rules apply.
 
 - All your submitted work is assumed to be entirely your own work. Besides
   forbidding any direct copies, this also means that no part of your submission
