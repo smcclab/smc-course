@@ -1,7 +1,6 @@
 ---
 title: Workshops
 permalink: /workshops/
-hidden_in_sidebar: true
 ---
 
 The primary weekly contact hours are the Tuesday 3pm-5pm workshop (in [Marie

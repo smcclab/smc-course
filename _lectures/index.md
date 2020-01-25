@@ -1,7 +1,6 @@
 ---
 title: Lectures
 permalink: /lectures/
-hidden_in_sidebar: true
 ---
 
 Here's links to the weekly "lecture" content. However, this isn't an in-person
