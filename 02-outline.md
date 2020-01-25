@@ -25,7 +25,7 @@ Upon successful completion of this course, students will be able to:
 
 - **Mode of Delivery:** on-campus
 - **Prerequisites:**
-  - *{{ site.short_title }}*
+  - none (although enrolment requires a permission code from the convenor)
 - **Incompatible Courses:** none
 - **Course Convener:** Ben Swift
 - **Phone:** 6125 7027
