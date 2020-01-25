@@ -5,6 +5,10 @@ permalink: /resources/faq/
 hidden: true
 ---
 
+{:.info-box}
+This is the course FAQ---we'll update it as the semester goes along and more
+questions get asked.
+
 {% include toc.html %}
 
 ### What's LENS?
