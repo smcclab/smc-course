@@ -7,7 +7,7 @@ hidden_in_sidebar: true
 | Deliverable                    | Due Date                                  | Weighting       |
 |--------------------------------|-------------------------------------------|-----------------|
 | Workshop portfolio             | end week 5 (wk 2-5) & end week 9 (wk 6-9) | 15% + 15% = 30% |
-| Masterclass & performance plan | first week of term 2                      | 10% + 10% = 20% |
-| LENS Performance               | end of week 12                            | 50%             |
+| Masterclass & performance plan | week 7                                    | 10% + 10% = 20% |
+| LENS Performance               | end of semester                           | 50%             |
 
 {% include postlist.html posts=site.deliverables %}
