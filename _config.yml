@@ -105,14 +105,3 @@ defaults:
       categories: news
       show_date: true
       show_time: true
-
-# navbar: true
-# globalmenu: false
-# gitlab_auth: false
-# search: true
-# future: true
-# breadcrumbs: true
-# style: cecs
-# piwik_siteid: x
-# tablesorter: .tablesorter
-# charts: true
