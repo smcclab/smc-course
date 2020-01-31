@@ -4,13 +4,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="{{ '/assets/vendor/reveal.js/css/reveal.css' | relative_url }}">
-    <link rel="stylesheet" type="text/css" href="{{ '/assets/vendor/reveal.js/css/theme/white.css' | relative_url }}">
+    <link rel="stylesheet" type="text/css" href="{% link assets/vendor/reveal.js/css/reveal.css %}">
+    <link rel="stylesheet" type="text/css" href="{% link /assets/vendor/reveal.js/css/theme/white.css %}">
   </head>
   <body>
     {{ content | revealify }}
 
-    <script src="{{'/assets/vendor/reveal.js/js/reveal.js' | relative_url }}"></script>
+    <script src="{% link assets/vendor/reveal.js/js/reveal.js %}"></script>
     <script>
 // this is the reveal config
 Reveal.initialize({
