@@ -1,5 +1,6 @@
 ---
 title: LENS performance
+summary: This is it - your chance to make some noise.
 permalink: /deliverables/lens-performance/
 ---
 

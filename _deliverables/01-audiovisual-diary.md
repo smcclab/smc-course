@@ -1,5 +1,6 @@
 ---
 title: Weekly audiovisual diary
+summary: Your opportunity to make stuff for inspo and discussion in class.
 permalink: /deliverables/audiovisual-diary/
 ---
 
