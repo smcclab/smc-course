@@ -2,7 +2,6 @@
 title: FAQ
 summary: Some questions which come up, well... frequently
 permalink: /resources/faq/
-hidden: true
 ---
 
 {:.info-box}
