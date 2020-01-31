@@ -1,5 +1,6 @@
 ---
 title: ANU Laptop Ensemble (LENS)
+hidden: true
 ---
 
 ![LENS Banner]({% link assets/facebook-banner.png %})
