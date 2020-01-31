@@ -9,7 +9,7 @@ hidden: true
 <p>Ben Swift, Alec Hunter and Charles Martin</p>
 <p><em>July 25, 2019</em></p>
 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-  <img src="{{ 'assets/by-nc-sa.svg' | relative_url }}" style="height:1em; margin-left:0;">
+  <img src="{% link assets/by-nc-sa.svg %}" style="height:1em; margin-left:0;">
 </a>
 
 ---

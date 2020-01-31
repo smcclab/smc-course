@@ -2,7 +2,7 @@
 title: ANU Laptop Ensemble (LENS)
 ---
 
-![LENS Banner]({{ 'assets/facebook-banner.png' | relative_url }})
+![LENS Banner]({% link assets/facebook-banner.png %})
 
 {:.info-box}
 

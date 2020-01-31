@@ -9,7 +9,7 @@ hidden: true
 <p>Charles Martin</p>
 <p><em>July, 2019</em></p>
 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-  <img src="{{ 'assets/by-nc-sa.svg' | relative_url }}" style="height:1em; margin-left:0;">
+  <img src="{% link assets/by-nc-sa.svg %}" style="height:1em; margin-left:0;">
 </a>
 
 ---
@@ -203,13 +203,13 @@ You might want to try the `metro` object to generate a sequence of "bangs" to ke
 
 You can use `readsf~` to open and play back a sound file. Is that enough??
 
-![pd-soundfile-open]({{ '/assets/digital-synthesis/pd-soundfile-open.png' | relative_url }})
+![pd-soundfile-open]({% link /assets/digital-synthesis/pd-soundfile-open.png %})
 
 ---
 
 ### More fun to "perform" with a sound file
 
-<img src="{{ '/assets/digital-synthesis/pd-soundfile-perform.png' | relative_url }}" style="width:50%; float: right;" />
+<img src="{% link /assets/digital-synthesis/pd-soundfile-perform.png %}" style="width:50%; float: right;" />
 
 1. load file into a "table" with `soundfiler`
 2. set up a `tabread4~` object to access the table
@@ -220,7 +220,7 @@ You can use `readsf~` to open and play back a sound file. Is that enough??
 
 ### Wavetables
 
-<img src="{{ '/assets/digital-synthesis/pd-wavetable.png' | relative_url }}" style="width:90%;" />
+<img src="{% link /assets/digital-synthesis/pd-wavetable.png %}" style="width:90%;" />
 
 `tabosc4~` scrolls through a table at a certain frequency.
 
@@ -228,7 +228,7 @@ You can use `readsf~` to open and play back a sound file. Is that enough??
 
 ### Grains of Audio
 
-<img src="{{ '/assets/digital-synthesis/pd-grains.png' | relative_url }}" style="width:50%; float: right;" />
+<img src="{% link /assets/digital-synthesis/pd-grains.png %}" style="width:50%; float: right;" />
 
 Try just reading a bit of a soundfile over and over to make a continuous sound.
 
@@ -248,7 +248,7 @@ Check out the help "Browser" in Pd's help menu to see all the cool patches the c
 
 ### Reverb?
 
-<img src="{{ '/assets/digital-synthesis/pd-reverb.png' | relative_url }}" style="width:50%; float: right;" />
+<img src="{% link /assets/digital-synthesis/pd-reverb.png %}" style="width:50%; float: right;" />
 
 What's reverb?
 
@@ -258,7 +258,7 @@ Can we simulate it?
 
 ### Distortion?
 
-<img src="{{ '/assets/digital-synthesis/pd-distortion.png' | relative_url }}" style="width:50%; float: right;" />
+<img src="{% link /assets/digital-synthesis/pd-distortion.png %}" style="width:50%; float: right;" />
 
 Distortion is when a signal is "clipped" resulting in _undesirable_ extra sounds.
 
@@ -273,7 +273,7 @@ Are they really undesirable?
 
 ### Compression?
 
-<img src="{{ '/assets/digital-synthesis/pd-compression.png' | relative_url }}" style="width:50%; float: right;" />
+<img src="{% link /assets/digital-synthesis/pd-compression.png %}" style="width:50%; float: right;" />
 
 A compressor turns down the volume if a signal rises above a threshold.
 

@@ -22,7 +22,7 @@ kindof like a weekly vlog, except that you don't have to say "like and
 subscribe" at the end.
 
 In this course each week you'll learn about a particular computer music concept
-(through our [flipped lectures]({% link _lectures/index.md %})), and the lecture
+(through our [flipped lectures]({% link _workshops/index.md %})), and the lecture
 content will include a particular "creative stimulus" for you to respond to in
 your AV diary entry.
 
