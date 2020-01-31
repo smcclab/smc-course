@@ -12,7 +12,7 @@
 #############
 
 # sub-path of your site (/courses/COMPXXXX)
-baseurl: ""
+baseurl: "/courses/comp2710-lens"
 
 # the base hostname & protocol for your site (generally leave as-is)
 url: ""
