@@ -8,12 +8,14 @@ hidden: true
 {:.info-box}
 
 **LENS is running in Semester 1, 2020** as a course in computer music making and
- laptop performance. It is open to students in music, art, computer science, and
- elsewhere around the ANU. Check out the info on this course website (including
- the [FAQ]({% link _resources/01-faq.md %})) and get in touch with with [Ben
- Swift](mailto:ben.swift@anu.edu.au), [Alec
- Hunter](mailto:alexander.hunter@anu.edu.au), or [Charles
- Martin](mailto:charles.martin@anu.edu.au) to join up!
+laptop performance. It is open to students in music, art, computer science, and
+elsewhere around the ANU. You'll need a permission code to enrol, so check out
+the info on this course website (including the [FAQ]({% link
+_resources/01-faq.md %})) to see and understand what you're getting yourself in
+for, then get in touch with [Ben Swift](mailto:ben.swift@anu.edu.au) (if you
+want a COMP permission code) or [Alec
+Hunter](mailto:alexander.hunter@anu.edu.au) (if you want a MUSI permission code)
+to join up.
 
 ## LENS Semester 1, 2020
 
