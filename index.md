@@ -30,13 +30,11 @@ a **computer musical instrument**, **composition**, or **interactive media
 work** to present in concert at the end of the course.
 
 This course is open to students in computer science, music, art, and elsewhere
-at ANU. You should have a strong interest in making music using computers,
+at ANU. You should have a strong interest in making music using computers, a
 willingness to learn new approaches to music and computer programming, and be
-able to commit to weekly classes and music-making deliverables and a concert at
-the end of the semester.
-
-If you think this is the course for you, get in touch with [Ben
-Swift](mailto:ben.swift@anu.edu.au) to register your interest.
+must be able to attend the [weekly workshop session]({% link _workshops/index.md
+%}) perform at the [end-of-semester LENS concert]({% link
+_deliverables/03-lens-performance.md %}).
 
 {:.warn-box}
 
