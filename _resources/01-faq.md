@@ -64,7 +64,7 @@ there'll be some extra reading (and noise-making!) to do to stay on top of
 things, but if you're willing to put in the work it shouldn't be an
 un-manageable workload.
 
-## I'm a musician (or programmer) and I'm worried that I don't have the required programming (or music) skills---will I be ok?
+### I'm a musician (or programmer) and I'm worried that I don't have the required programming (or music) skills---will I be ok?
 
 Even after reading the previous two answers you still might be worried. And
 everyone's different, so it's hard to give a definitive answer to this question.
