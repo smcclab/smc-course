@@ -64,6 +64,29 @@ there'll be some extra reading (and noise-making!) to do to stay on top of
 things, but if you're willing to put in the work it shouldn't be an
 un-manageable workload.
 
+## I'm a musician (or programmer) and I'm worried that I don't have the required programming (or music) skills---will I be ok?
+
+Even after reading the previous two answers you still might be worried. And
+everyone's different, so it's hard to give a definitive answer to this question.
+Still, one key question to ask yourself is do you _like_ the thing you're
+worried about not having the required skills in, and do you want to learn more
+about it?
+
+If you're a muso, do you _like_ thinking about patterns, structure &
+"compositional rules"? Do you want to learn more about programming and computers
+and use them in your creative practice?
+
+If you're a programmer, do you _like_ music? Do you like thinking about patterns
+in art & music and always wondered if that structure could be expressed in a
+computer program? Do you want to learn how to use your computing & logic skills
+to create music?
+
+If the answers to these questions are yes, then I think you'll be fine. You'll
+be motivated to learn the things you don't know already, and you might surprise
+yourself about how much you enjoy learning about how to put computers to work in
+making your own music. Imagine actually enjoying & being motivated to learn
+something---who'd have thought that uni could be like that 😜?
+
 ### What does this course look like, week-to-week? {#what-does-this-course-look-like-week-to-week}
 
 Each week, you'll:
