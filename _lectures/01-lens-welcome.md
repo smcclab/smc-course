@@ -22,6 +22,7 @@ Learning to create new music with laptop computers.
 
 Learning to make computer music in a group.
 
+{% comment %}
 {% include slides/background-image.html image="talks/acmc-2019/lens-soundscapes-3.jpg" %}
 
 {% include slides/background-image.html image="talks/acmc-2019/lens-open-day-alex-rohan.jpg" %}
@@ -37,7 +38,6 @@ Learning to make computer music in a group.
 {% include slides/background-image.html image="talks/intro/raspi-duo.jpg" %}
 
 {% include slides/background-image.html image="talks/acmc-2019/lens-soundscapes-2.jpg" %}
-
 
 {% include slides/impact.html %}
 
@@ -69,6 +69,7 @@ who are we?
 
 how is this going to work?
 
+{% endcomment %}
 ---
 
 ### Step 1:

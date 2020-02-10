@@ -209,7 +209,7 @@ You can use `readsf~` to open and play back a sound file. Is that enough??
 
 ### More fun to "perform" with a sound file
 
-<img src="{% link /assets/digital-synthesis/pd-soundfile-perform.png %}" style="width:50%; float: right;" />
+![]({% link /assets/digital-synthesis/pd-soundfile-perform.png %}){: style="width:50%; float: right;" }
 
 1. load file into a "table" with `soundfiler`
 2. set up a `tabread4~` object to access the table
@@ -220,7 +220,7 @@ You can use `readsf~` to open and play back a sound file. Is that enough??
 
 ### Wavetables
 
-<img src="{% link /assets/digital-synthesis/pd-wavetable.png %}" style="width:90%;" />
+![]({% link /assets/digital-synthesis/pd-wavetable.png %}){: style="width:90%;" }
 
 `tabosc4~` scrolls through a table at a certain frequency.
 
@@ -228,7 +228,7 @@ You can use `readsf~` to open and play back a sound file. Is that enough??
 
 ### Grains of Audio
 
-<img src="{% link /assets/digital-synthesis/pd-grains.png %}" style="width:50%; float: right;" />
+![]({% link /assets/digital-synthesis/pd-grains.png %}){: style="width:50%; float: right;" }
 
 Try just reading a bit of a soundfile over and over to make a continuous sound.
 
@@ -248,7 +248,7 @@ Check out the help "Browser" in Pd's help menu to see all the cool patches the c
 
 ### Reverb?
 
-<img src="{% link /assets/digital-synthesis/pd-reverb.png %}" style="width:50%; float: right;" />
+![]({% link /assets/digital-synthesis/pd-reverb.png %}){: style="width:50%; float: right;" }
 
 What's reverb?
 
@@ -258,7 +258,7 @@ Can we simulate it?
 
 ### Distortion?
 
-<img src="{% link /assets/digital-synthesis/pd-distortion.png %}" style="width:50%; float: right;" />
+![]({% link /assets/digital-synthesis/pd-distortion.png %}){: style="width:50%; float: right;" }
 
 Distortion is when a signal is "clipped" resulting in _undesirable_ extra sounds.
 
@@ -273,7 +273,7 @@ Are they really undesirable?
 
 ### Compression?
 
-<img src="{% link /assets/digital-synthesis/pd-compression.png %}" style="width:50%; float: right;" />
+![]({% link /assets/digital-synthesis/pd-compression.png %}){: style="width:50%; float: right;" }
 
 A compressor turns down the volume if a signal rises above a threshold.
 

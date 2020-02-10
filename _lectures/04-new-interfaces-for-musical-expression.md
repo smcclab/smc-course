@@ -49,15 +49,15 @@ Image Copyright SENNHEISER / PHILIP PEINE
 - ...new kinds of musicianship...
 - ...and new kinds of music?
 
-<img src="{% link /assets/nimes/nime.jpg %}" style="width:100%" />
+![]({% link /assets/nimes/nime.jpg %}){: style="width:100%" }
 
 ## Typical NIME workflow...
 
-<img src="{% link /assets/nimes/nime-workflow.png %}" style="width:100%" />
+![]({% link /assets/nimes/nime-workflow.png %}){: style="width:100%" }
 
 ## MIDI
 
-<img src="{% link /assets/nimes/Synth_rack_Choking_Sun_Studio.jpg %}" style="width:25%; float:right" />
+![]({% link /assets/nimes/Synth_rack_Choking_Sun_Studio.jpg %}){: style="width:25%; float:right" }
 
 - "Musical Instrument Digital Interface" (1981)
 - A way to send musical "instructions" to a synthesiser.
@@ -71,11 +71,11 @@ Image Copyright SENNHEISER / PHILIP PEINE
 - Status byte has a "status" (4 bits) and (usually) a channel or address (4 bits)
 - Data byte is a `0` followed by a 7 bit number.
 
-<img src="{% link /assets/nimes/midi-message.png %}" style="width:100%;" />
+![]({% link /assets/nimes/midi-message.png %}){: style="width:100%;" }
            
 ## MIDI in Pd
 
-<img src="{% link /assets/nimes/midi-in-pd.png %}" style="width:50%; float: right;" />
+![]({% link /assets/nimes/midi-in-pd.png %}){: style="width:50%; float: right;" }
 
 
 - Note-on and -off: `notein`, `noteout`
@@ -83,17 +83,17 @@ Image Copyright SENNHEISER / PHILIP PEINE
 
 ## Receiving from controllers...
 
-<img src="{% link /assets/nimes/korg-controller-pd.png %}" style="width:100%;" />
+![]({% link /assets/nimes/korg-controller-pd.png %}){: style="width:100%;" }
 
 ## Making MIDI notes
 
-<img src="{% link /assets/nimes/makenote-pd.png %}" style="width:100%; float: right;" />
+![]({% link /assets/nimes/makenote-pd.png %}){: style="width:100%; float: right;" }
 
 `makenote` can handle timing for notes with duration
 
 ## A bit about lists...
 
-<img src="{% link /assets/nimes/list-packing-pd.png %}" style="width:25%; float: right;" />
+![]({% link /assets/nimes/list-packing-pd.png %}){: style="width:25%; float: right;" }
 
 
 - messages in Pd can contain multiple values (as you know!)
@@ -102,7 +102,7 @@ Image Copyright SENNHEISER / PHILIP PEINE
 - there's a bit of weirdness about this.
 
 ## Advanced list packing...
-<img src="{% link /assets/nimes/list-packing-pd2.png %}" style="width:30%; float: right;" />
+![]({% link /assets/nimes/list-packing-pd2.png %}){: style="width:30%; float: right;" }
 
 Use `list append` and `list prepend` to add items to a list.
 
@@ -115,7 +115,7 @@ Good way to accumulate an envelope message, or all the parameters for a synth no
 - normally UDP messages...
 - one message can have many pieces of data, both numbers and text
 
-<img src="{% link /assets/nimes/osc-message-structure.png %}" style="width:100%;" />
+![]({% link /assets/nimes/osc-message-structure.png %}){: style="width:100%;" }
 
 ## Sending and receiving OSC in Pd.
 
@@ -123,11 +123,11 @@ Good way to accumulate an envelope message, or all the parameters for a synth no
 - address chunks and all arguments end up in a list: up to you to do
   what you want with them.
   
-<img src="{% link /assets/nimes/osc-in-pd.png %}" style="width:60%;" />
+![]({% link /assets/nimes/osc-in-pd.png %}){: style="width:60%;" }
 
 ## Connecting interfaces
 
-<img src="{% link /assets/nimes/in2change-setup.jpg %}" style="width:50%; float: right;" />
+![]({% link /assets/nimes/in2change-setup.jpg %}){: style="width:50%; float: right;" }
 
 - most commercial interfaces use MIDI over _USB_
 - some fancy things use MIDI over _Bluetooth_
@@ -136,7 +136,7 @@ Good way to accumulate an envelope message, or all the parameters for a synth no
 
 ## Connecting ensembles...
 
-<img src="{% link /assets/nimes/LPN-vs-EDA.png %}" style="width:50%;" />
+![]({% link /assets/nimes/LPN-vs-EDA.png %}){: style="width:50%;" }
 
 ## Local connections
 
@@ -155,7 +155,7 @@ Need to use local router or wired connections...
 
 ## Interfacing with audio...
 
-<img src="{% link /assets/nimes/fiddle-bonk-pd.png %}" style="width:50%; float: right;" />
+![]({% link /assets/nimes/fiddle-bonk-pd.png %}){: style="width:50%; float: right;" }
 
 - easy way to get some NOISE into your system, try interfacing with audio.
 - pitch detection: `fiddle`
@@ -164,8 +164,8 @@ Need to use local router or wired connections...
 
 ## Ensemble Feedback Instruments?
 
-<img src="{% link /assets/nimes/ensemble-feedback-diagram.png %}" style="width:60%; float: right;" />
-<img src="{% link /assets/nimes/ensemble-feedback-instruments.png %}" style="width:60%; float: right;" />
+![]({% link /assets/nimes/ensemble-feedback-diagram.png %}){: style="width:60%; float: right;" }
+![]({% link /assets/nimes/ensemble-feedback-instruments.png %}){: style="width:60%; float: right;" }
 
 Cite: Ensemble Feedback Instruments, Rosli et al., NIME 2015.
 
