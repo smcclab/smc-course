@@ -53,7 +53,7 @@ who are we?
 
 {% include slides/background-image.html image="talks/acmc-2019/alec-hunter.jpg" heading="Alec Hunter" %}
 
-[ANU School of Music](http://music.cass.anu.edu.au/people/dr-alexander-hunter)
+[ANU School of Music](https://music.cass.anu.edu.au/people/dr-alexander-hunter)
 
 [Performer, composer](https://alexanderhunter.co.uk/)
 

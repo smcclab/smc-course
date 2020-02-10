@@ -35,7 +35,7 @@ you'll be anonymous (I won't know *who* gave the feedback).
 
 (02) 6125 2444
 
-<http://anusa.com.au>
+<https://anusa.com.au>
 
 #### ANU Computer Science Students' Association
 
@@ -58,9 +58,9 @@ these websites, but here's a list of various tools/repositories of information
 to help you in your studies at the ANU.
 
 - [ISIS](https://isis.anu.edu.au/) 
-- [Timetable](http://timetable.anu.edu.au/)
-- [Libraries](http://anulib.anu.edu.au/)
-- [Programs & Courses](http://programsandcourses.anu.edu.au/course/{{ site.short_title }}) 
+- [Timetable](https://timetable.anu.edu.au/)
+- [Libraries](https://anulib.anu.edu.au/)
+- [Programs & Courses](https://programsandcourses.anu.edu.au/course/{{ site.short_title }}) 
 - [Academic Skills & Learning Centre](https://academicskills.anu.edu.au/)
-- [University Counselling Centre](http://counselling.anu.edu.au/)
-- [ANU Rules and Policies](http://www.anu.edu.au/about/governance/legislation)
+- [University Counselling Centre](https://counselling.anu.edu.au/)
+- [ANU Rules and Policies](https://www.anu.edu.au/about/governance/legislation)

@@ -31,7 +31,7 @@ If you've ever struggled with Wattle and wanted to focus on writing good content
 rather than futzing with the wysiwyg[^wysiwyg] Wattle/Moodle interface, using this
 template gives you the ability to:
 
-- write content as [markdown](http://commonmark.org/help/) (`.md`) files which
+- write content as [markdown](https://commonmark.org/help/) (`.md`) files which
   are automatically transformed into nice-looking content which uses the ANU CS
   style sheet (so it looks nice and is consistent with the branding guidelines)
 
@@ -116,7 +116,7 @@ or
 Once you've got everything [set up](#how-do-i-get-set-up), then the workflow is:
 
 1. write your content (labs, assignments, upload files, etc) in
-   [markdown](http://commonmark.org/help/) or
+   [markdown](https://commonmark.org/help/) or
    [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) files in this
    directory (inc. in subfolders)
 

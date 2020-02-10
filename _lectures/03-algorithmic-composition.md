@@ -129,7 +129,7 @@ Want some extra tools?
   Library](https://www.oxfordhandbooks.com/view/10.1093/oxfordhb/9780190226992.001.0001/oxfordhb-9780190226992))
 - D. Herremans, C.-H. Chuan, and E. Chew. A functional taxonomy of
   music generation systems. ACM Comput. Surv., 50(5):69:1–69:30,
-  Sept. 2017. [DOI:10.1145/3108242](http://doi.acm.org/10.1145/3108242)
+  Sept. 2017. [DOI:10.1145/3108242](https://doi.acm.org/10.1145/3108242)
 - [Getting Starting with Algorithmic Composition: Donya
   Quick](http://donyaquick.com/algorithmic-composing-advice/)
 - [Wolfram Tones](http://tones.wolfram.com)

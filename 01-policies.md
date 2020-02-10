@@ -72,7 +72,7 @@ relevant ANU Policy (see section
 > according to the Assessment Rules.
 
 As with any ANU course, you are able to apply for [special assessment
-consideration](http://www.anu.edu.au/students/program-administration/assessments-exams/special-assessment-consideration).
+consideration](https://www.anu.edu.au/students/program-administration/assessments-exams/special-assessment-consideration).
 
 ### Supplementary assessment {#supplementary-assessment}
 
@@ -81,7 +81,7 @@ If you receive a PX grade you are eligible for supplementary assessment...
 ### Academic integrity {#academic-integrity}
 
 At the ANU [we take academic integrity
-seriously](http://academichonesty.anu.edu.au/). There are several different
+seriously](https://academichonesty.anu.edu.au/). There are several different
 aspects to academic integrity, and [several different types of academic
 misconduct](https://services.anu.edu.au/education-support/academic-integrity/determining-a-breach).
 In LENS all the ANU academic integrity rules apply.

@@ -1,11 +1,11 @@
-# Jekyll (http://jekyllrb.com/) uses the information in this file to
+# Jekyll (https://jekyllrb.com/) uses the information in this file to
 # figure out how to generate your website
 
 # for more info on these configuration variables (and more) see
 # https://jekyllrb.com/docs/configuration/
 
 # this is a YAML file - for more info on YAML syntax then Ansible's docs have a
-# decent explanation: http://docs.ansible.com/ansible/latest/YAMLSyntax.html
+# decent explanation: https://docs.ansible.com/ansible/latest/YAMLSyntax.html
 
 #############
 # Site Info #
@@ -53,7 +53,7 @@ cecs:
     - name: Streams
       url: https://cs.anu.edu.au/streams
     - name: Current students
-      url: http://www.anu.edu.au/study
+      url: https://www.anu.edu.au/study
 
 collections:
   lectures:
