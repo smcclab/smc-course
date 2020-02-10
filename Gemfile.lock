@@ -11,7 +11,7 @@ GIT
 
 GIT
   remote: https://gitlab.cecs.anu.edu.au/lucy/jekyll-theme-cecs.git
-  revision: c7ecbbab47853e836cbe92956773c916aa9801b5
+  revision: 9e731dd3764cbdff57d26e5afce3d3770313df65
   branch: master
   specs:
     jekyll-theme-cecs (2.0.0.beta)
