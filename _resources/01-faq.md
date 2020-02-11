@@ -120,6 +120,14 @@ week](https://policies.anu.edu.au/ppl/document/ANUP_000691). I'm sure you can do
 the maths as to how much work you'll need to put in each week to stay on top of
 things 😉
 
+### What music software will we be using in the course?
+
+In this course you'll learn to use both [Pure Data
+(Pd)](http://msp.ucsd.edu/software.html) and
+[Extempore](https://extemporelang.github.io) for music-making. Which one you use
+for your final performance is up to you; you'll get to decide what fits your
+creative purposes best as the semester progresses.
+
 ### I wanna be a part of this---what's the next step?
 
 Just send [Ben an email](mailto:ben.swift@anu.edu.au) (as described above) and
