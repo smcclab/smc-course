@@ -40,3 +40,8 @@ _deliverables/03-lens-performance.md %}).
 
 Note: a few of the links on this website still point to the 2019 course
 materials---they'll be updated as the 2020 semester approaches.
+
+## Important Links:
+
+- [Wattle Site](https://wattlecourses.anu.edu.au/course/view.php?id=30596): This is where you'll submit your weekly creative works and assessments.
+- [Forum]()
