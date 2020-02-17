@@ -133,6 +133,16 @@ creative purposes best as the semester progresses.
 Just send [Ben an email](mailto:ben.swift@anu.edu.au) (as described above) and
 he can begin the process of giving you a permission code.
 
+### What's with the Wattle site for this course? {#wattle-site-for-this-course}
+
+All the course content will be on this website (<{% link _deliverables/index.md
+%}>), however we've created a special LENS Wattle site which you'll use to
+submit your weekly [AV Diary entries]({% link
+_deliverables/01-audiovisual-diary.md %}). Since this is a cross-campus course
+(with COMP and MUSI students) we have to enrol you in that Wattle site manually,
+and we'll do that asap, but you're not missing out on any content while you
+wait.
+
 ### I want to be part of the laptop ensemble in S1 2020, how can I start practising?
 
 Apart from having a look at the material on this course website, the best way is
