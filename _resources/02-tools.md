@@ -4,7 +4,7 @@ summary: What tools (software & hardware) do you need to take part in LENS? Let'
 permalink: /resources/tools/
 ---
 
-{% include slides/toc.html %}
+{% include toc.html %}
 
 ## Laptop
 
