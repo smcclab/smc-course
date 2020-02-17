@@ -133,7 +133,7 @@ creative purposes best as the semester progresses.
 Just send [Ben an email](mailto:ben.swift@anu.edu.au) (as described above) and
 he can begin the process of giving you a permission code.
 
-### I want to be part of the laptop ensemble in S1 2020, how can I start practicing?
+### I want to be part of the laptop ensemble in S1 2020, how can I start practising?
 
 Apart from having a look at the material on this course website, the best way is
 to install some computer music software and start messing around. Many of the
