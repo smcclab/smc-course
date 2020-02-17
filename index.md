@@ -35,8 +35,3 @@ willingness to learn new approaches to music and computer programming, and be
 must be able to attend the [weekly workshop session]({% link _workshops/index.md
 %}) perform at the [end-of-semester LENS concert]({% link
 _deliverables/03-lens-performance.md %}).
-
-{:.warn-box}
-
-Note: a few of the links on this website still point to the 2019 course
-materials---they'll be updated as the 2020 semester approaches.
