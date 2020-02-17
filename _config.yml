@@ -46,12 +46,12 @@ cecs:
   # populate the menu with links to related sites
   # (feel free to delete the existing ones as well)
   related_sites:
+    - name: Wattle
+      url: https://wattlecourses.anu.edu.au/course/view.php?id=30596
     - name: CS Homepage
       url: https://cs.anu.edu.au
-    - name: GitLab
-      url: https://gitlab.cecs.anu.edu.au
-    - name: Streams
-      url: https://cs.anu.edu.au/streams
+    - name: Music Homepage
+      url: https://music.cass.anu.edu.au
     - name: Current students
       url: https://www.anu.edu.au/study
 
