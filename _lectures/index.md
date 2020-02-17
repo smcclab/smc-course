@@ -20,8 +20,8 @@ Each week's content will have:
 
 {:.warn-box}
 
-**Note**: actual content isn't up yet, but it will be before the start of
-Semester 1---stay tuned.
+**Note**: the content will go up here over the course of the semester---stay
+tuned.
 
 ### Week 1: hello sine
 
