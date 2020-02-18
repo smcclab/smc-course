@@ -7,8 +7,9 @@ hidden: true
 Half of your assessment for this course is based on your analysis & reflection
 on the key computer music concepts presented in the course, as demonstrated
 through your [portfolio]({% link _deliverables/01-audiovisual-diary.md %}) (30%)
-and your in-class presentation (20%). The other half is based on your final
-artefact/performance at the end of semester.
+and your [in-class presentation]({% link _deliverables/02-masterclass.md %})
+(20%). The other half is based on your [final artefact/performance]({% link
+_deliverables/03-lens-performance.md %}) at the end of semester.
 
 | Deliverable                                                              | Due Date        |       Weighting |
 |--------------------------------------------------------------------------|-----------------|-----------------|
