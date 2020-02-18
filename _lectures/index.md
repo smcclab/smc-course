@@ -39,9 +39,7 @@ tuned.
 
 ### Week 6: algorithmic composition I
 
-{:style="line-height:3; background:#eee;"}
-
-_mid-sem break_
+<p style="line-height:3; background:#eee;"><em>mid-sem break</em></p>
 
 ### Week 7: ensemble interaction
 
