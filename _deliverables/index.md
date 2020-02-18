@@ -10,10 +10,10 @@ through your [portfolio]({% link _deliverables/01-audiovisual-diary.md %}) (30%)
 and your in-class presentation (20%). The other half is based on your final
 artefact/performance at the end of semester.
 
-| Deliverable                                                              | Due Date        | Weighting       |
+| Deliverable                                                              | Due Date        |       Weighting |
 |--------------------------------------------------------------------------|-----------------|-----------------|
 | [Portfolio reflection]({% link _deliverables/01-audiovisual-diary.md %}) | week 5 & week 9 | 15% + 15% = 30% |
-| [Masterclass presentation]({% link _deliverables/02-masterclass.md %})   | week 7          | 10% + 10% = 20% |
-| [LENS Performance]({% link _deliverables/03-lens-performance.md %})      | week 12         | 50%             |
+| [Masterclass presentation]({% link _deliverables/02-masterclass.md %})   | week 7          |             20% |
+| [LENS Performance]({% link _deliverables/03-lens-performance.md %})      | week 12         |             50% |
 
 {% include postlist.html posts=site.deliverables %}
