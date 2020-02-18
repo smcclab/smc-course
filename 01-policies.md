@@ -55,7 +55,9 @@ final grade of NCN, which means a failure due to non-completion.
 
 ### Late penalties
 
-The late pentalies for this course are...
+This course follows the [CASS
+policy](https://cass.anu.edu.au/current-students/coursework-policy-and-guidelines/late-submissions-and-extensions)
+of applying a 5% penalty for every day (or part thereof).
 
 ### Extensions {#extensions}
 
