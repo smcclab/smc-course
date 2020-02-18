@@ -13,6 +13,8 @@ permalink: /deliverables/audiovisual-diary/
 - **Policies:** for late policies, academic integrity policies, etc. see the
   [policies page]({% link 01-policies.md %})
 
+{% include toc.html %}
+
 ## Description
 
 Your audiovisual (AV) diary is a way to try things, keep track of ideas and

@@ -15,6 +15,8 @@ permalink: /deliverables/masterclass/
 - **Policies:** for late policies, academic integrity policies, etc. see the
   [policies page]({% link 01-policies.md %})
 
+{% include toc.html %}
+
 ## Description
 
 In the Week 7 workshop session you will give a masterclass to the rest of the
@@ -37,12 +39,7 @@ You must submit your document by the start (i.e. before 3pm) of the Week 7
 Tuesday workshop timeslot. In this timeslot every student will deliver their
 masterclass to the rest of the LENS cohort.
 
-## Marking Criteria {#marking}
-
-Each component (in-class presentation and document) is worth 10%, for a total of
-20% of the course grade.
-
-## Marking Criteria {#marking}
+## Marking criteria {#marking}
 
 Your proposal will be assessed entirely based on the provided (pdf) document. The
 marking criteria (based on the [course learning outcomes]({% link 02-outline.md %})) are:

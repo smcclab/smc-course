@@ -13,6 +13,8 @@ permalink: /deliverables/lens-performance/
 - **Policies:** for late policies, academic integrity policies, etc. see the
   [policies page]({% link 01-policies.md %})
 
+{% include toc.html %}
+
 ## Description
 
 At the end of semester your **LENS performance** will be assessed in terms of
@@ -58,6 +60,6 @@ outcomes]({{site.baseurl}}{% link 02-outline.md %})) are:
 - **presentation and communication** of your LENS artefact through
   performance materials
 
-As you can see the final performance and collaboration with other
-LENSers are important aspects of the assessment, so don't neglect
-these parts when developing your artefact.
+As you can see the final performance and collaboration with other LENSers are
+important aspects of the assessment, so don't neglect these parts when
+developing your artefact.
