@@ -16,6 +16,8 @@ diary video]({% link _deliverables/01-audiovisual-diary.md %}).
 
 The general schedule/timeline for each workshop is:
 
+{:style="width:100%; margin-bottom:2em;"}
+
 |  time |                                                                                             |
 |-------|---------------------------------------------------------------------------------------------|
 | 14:45 | chance for pre-class questions (outside [MR 3.02](https://www.anu.edu.au/maps#show=108136)) |

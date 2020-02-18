@@ -11,6 +11,8 @@ and your [in-class presentation]({% link _deliverables/02-masterclass.md %})
 (20%). The other half is based on your [final artefact/performance]({% link
 _deliverables/03-lens-performance.md %}) at the end of semester.
 
+{:style="width:100%; margin-bottom:2em;"}
+
 | Deliverable                                                              | Due Date        |       Weighting |
 |--------------------------------------------------------------------------|-----------------|-----------------|
 | [Portfolio reflection]({% link _deliverables/01-audiovisual-diary.md %}) | week 5 & week 9 | 15% + 15% = 30% |
