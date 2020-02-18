@@ -16,9 +16,8 @@ permalink: /deliverables/audiovisual-diary/
 ## Description
 
 Your audiovisual (AV) diary is a way to try things, keep track of ideas and
-generally develop your creative practice through a series of videos. It's kindof
-like a weekly vlog, except that you don't have to say "like and subscribe" at
-the end.
+generally develop your creative practice through a series of videos. It's like a
+weekly vlog, except that you don't have to say "like and subscribe" at the end.
 
 In this course each week you'll learn about a particular computer music concept
 (through our [flipped lectures]({% link _workshops/index.md %})), and the
