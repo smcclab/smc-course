@@ -8,6 +8,8 @@ Here's links to the weekly "lecture" content. However, this isn't an in-person
 lecture; it's a flipped course. So you need to read & watch the content each
 week, then submit your weekly
 
+{% include toc.html %}
+
 ## Weekly topic schedule
 
 Each week's content will have:
@@ -18,14 +20,13 @@ Each week's content will have:
 - a description of the "creative stimulus" challenge for that week's [AV
   diary]({% link _deliverables/01-audiovisual-diary.md %}) entry
 
-{:.warn-box}
+{:.info-box}
 
 **Note**: the content will go up here over the course of the semester---stay
 tuned.
 
 ### Week 1: hello sine
 
-- **Workshop**
 - getting started with Pd (Charles) ([YouTube](https://youtu.be/AC7-MpwIZ8w))
 
 ### Week 2: synthesis I
@@ -38,11 +39,9 @@ tuned.
 
 ### Week 6: algorithmic composition I
 
----
+{:style="line-height:3; background:#eee;"}
 
 _mid-sem break_
-
----
 
 ### Week 7: ensemble interaction
 
