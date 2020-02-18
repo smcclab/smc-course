@@ -7,9 +7,24 @@ permalink: /policies/
 
 ### Communication {#communication}
 
-You should clearly state the communication policy for your course here. Which
-channel(s) (email/Piazza/Wattle, etc.) and set some expectations about reply
-latency.
+Any communication in this course will happen over one of two channels:
+
+1. your ANU email address
+2. the course slack channel (you will be added to this in this in the week 1 lecture)
+
+You are expected to check both of these channels regularly (you can set up
+notifications if it helps). "I didn't see the message" is never an acceptable
+excuse for e.g. missing assessment deadlines.
+
+Since this is a co-badged course (COMP2710 and MUSI2205), if you have specific
+questions about your course enrolment then you need to direct them to the
+correct convenor: [Ben](mailto:ben.swift@anu.edu.au) for COMP and
+[Alec](mailto:alexander.hunter@anu.edu.au) for MUSI (although if you're unsure
+you can just copy the other one in).
+
+For course-content related stuff, you'll get a much faster & better response on
+the slack channel---and that way other students can benefit from your questions
+as well.
 
 ### Assessment
 
@@ -18,13 +33,9 @@ _deliverables/index.md %}).
 
 ### Final marks and grades {#final-marks-and-grades}
 
-To pass the course, you must satisfy **all** of these criteria:
-
-1. score **at least 50** overall
-2. pass the hurdles...
-
-Your final mark will be the total of your marks on the individual assessment
-items with the additional caveat that your mark may be scaled by the examiners'
+To pass the course, you must score **at least 50** for your final mark. Your
+final mark will be the total of your marks on the individual assessment items
+with the additional caveat that your mark may be scaled by the examiners'
 conference to provide your overall course mark and grade.
 
 If your final mark is less than 50 but greater than or equal to 45 then you will
@@ -42,17 +53,15 @@ If your final mark is less than 45 you will fail this course with a grade of N
 If you enrol, but don't participate in the course at all you will fail with a
 final grade of NCN, which means a failure due to non-completion.
 
-### Feedback
-
-Marks and feedback for will be released through...
-
 ### Late penalties
 
 The late pentalies for this course are...
 
 ### Extensions {#extensions}
 
-The extensions policy is...
+If you've got a good reason, there is the possibility of getting an extension on
+your deadlines if you let the convenor know **at least one week out** from any
+deadline.
 
 ### Appeals {#appeals}
 
@@ -76,7 +85,9 @@ consideration](https://www.anu.edu.au/students/program-administration/assessment
 
 ### Supplementary assessment {#supplementary-assessment}
 
-If you receive a PX grade you are eligible for supplementary assessment...
+If you receive a PX grade you are eligible for supplementary assessment. The
+course convenor will contact you after final S1 grades are released with more
+information about the timing & nature of this assessment.
 
 ### Academic integrity {#academic-integrity}
 
@@ -121,5 +132,11 @@ misconduct issues.
 
 ### Software: the "own machine" policy {#own-machine-policy}
 
-The software policy is... (can you use your own machine, what help is/isn't
-available in labs, etc.)
+This course requires making music on a laptop, and so you'll need to have a
+laptop and [install some software]({% link _resources/02-tools.md %}#software)
+on it. If you have any trouble with getting the software installed & working on
+your machine then there will be heaps of opportunities to fix any problems
+(especially early in the course). However, it's your responsibility to make sure
+that the software works and that these issues are sorted out---"something went
+wrong with my software setup" is never an acceptable excuse for missing a
+submission deadline, and the usual late penalties apply.
