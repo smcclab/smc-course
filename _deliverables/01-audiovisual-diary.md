@@ -80,9 +80,14 @@ week 5 and the end of week 9.
 
 ## Marking criteria {#marking}
 
-Your portfolio will be assessed entirely based on the provided (pdf) document. The
-marking criteria (based on the [course learning outcomes]({% link 02-outline.md
-%})) are:
+{:.info-box}
+
+This only applies to the reflective portfolio submissions---your weekly videos
+don't receive individual marks.
+
+Each stage of your portfolio will be assessed entirely based on the submitted
+(pdf) document. The marking criteria (based on the [course learning outcomes]({%
+link 02-outline.md %})) are:
 
 - understanding of **fundamental aspects of music computing** including digital
   synthesis, algorithmic composition and musical interface design
