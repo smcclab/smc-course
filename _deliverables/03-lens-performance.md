@@ -33,9 +33,9 @@ There are two representations of your LENS performance:
 2. **Performance of your artefact** at the LENS final concert (we will record
    the concert).
 
-## Marking criteria
+## Marking criteria {#marking}
 
-We will assess your LENS performacnes from the two representations above. The
+We will assess your LENS performances from the two representations above. The
 criteria for this mark are:
 
 Your LENS artefact will be assessed based on the two representations

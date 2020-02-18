@@ -4,9 +4,6 @@ summary: Show the rest of the LENS what you're working on for your end-of-semest
 permalink: /deliverables/masterclass/
 ---
 
-
-
-
 {% include toc.html %}
 
 ## Outline
@@ -29,10 +26,9 @@ assessment criteria.
 
 Your masterclass submission must include:
 
-- a 60 second (+/- 5s) video (with sound, obviously) of computer music work exploring that week's theme
+- a **500-word PDF document** describing your proposed LENS performance and how it will address the assessment criteria.
+- your **slides** from the workshop session.
 
-- all files (e.g. Pd patch files, Extempore source code files, sound files &
-  other assets) required to re-produce your submission
 
 ## Submission process {#submission-process}
 
@@ -40,7 +36,24 @@ You must submit your document by the start (i.e. before 3pm) of the Week 7
 Tuesday workshop timeslot. In this timeslot every student will deliver their
 masterclass to the rest of the LENS cohort.
 
-## Marking {#marking}
+## Marking Criteria {#marking}
 
 Each component (in-class presentation and document) is worth 10%, for a total of
 20% of the course grade.
+
+## Marking Criteria {#marking}
+
+Your proposal will be assessed entirely based on the provided (pdf) document. The
+marking criteria (based on the [course learning outcomes]({% link 02-outline.md %})) are:
+
+- understanding of **fundamental aspects of music computing** including digital
+  synthesis, algorithmic composition and musical interface design
+
+- understanding of **design and performance issues** around computer music
+  interfaces
+
+- understanding of **collaborative performance** with computer music interfaces
+
+- **critical examination and self-reflection** of your proposal
+
+- **presentation and communication** of your proposed work
