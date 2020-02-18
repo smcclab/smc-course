@@ -4,8 +4,6 @@ summary: Show the rest of the LENS what you're working on for your end-of-semest
 permalink: /deliverables/masterclass/
 ---
 
-{% include toc.html %}
-
 ## Outline
 
 - **Due date:** Week 7 Tuesday
