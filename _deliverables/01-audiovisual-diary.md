@@ -15,10 +15,8 @@ permalink: /deliverables/audiovisual-diary/
 
 ## Description
 
-A visual diary is a way for artists to try things, keep track of ideas and
-for use in future projects, and just generally develop their creative practice.
-In this course you'll do something similar, except because it's a computer music
-course you won't scribble in a notebook, you'll make a series of videos. It's
+Your audiovisual diary is a way to try things, keep track of ideas and
+ generally develop your creative practice through a series of videos. It's
 kindof like a weekly vlog, except that you don't have to say "like and
 subscribe" at the end.
 
@@ -34,8 +32,6 @@ _workshops/index.md %})_.
 
 ## Specification
 
-<!-- TODO: Specification doesn't refer to the document -->
-
 Each week's submission must include:
 
 - a 60 second (+/- 5s) video (with sound, obviously) of computer music work exploring that week's theme
@@ -43,20 +39,20 @@ Each week's submission must include:
 - all files (e.g. Pd patch files, Extempore source code files, sound files &
   other assets) required to re-produce your submission
 
+- a 200-word reflection on your work
+
 Even though you need to submit something every week, you won't receive a mark
 each week. Instead, you'll be marked through two AV diary portfolio submissions:
 
-- at the end of week 5 (for AV diary entries 2--5) worth 15% of total mark
-- at the end of week 9 (for AV diary entries 6--9) worth 15% of total mark
+- an 800-word document at the end of week 5 (for AV diary entries 2--5) worth 15% of total mark
 
-Each submission must include the four videos and files associated with your
-submission (which you'll have done anyway) and a 800-word (max) document explaining how
-each AV diary entry explored the theme & creative criteria for that week.
+- an 800-word document at the end of week 9 (for AV diary entries 6--9) worth 15% of total mark
+
+Each submission must include an 800-word (max) document of your combined (and edited) reflections, explaining how each AV diary entry explored the theme and creative criteria for that week and reflecting on the collaborative sessions. Include figures, screen captures, and code excerpts in your documents as necessary.
 
 ## Submission process {#submission-process}
 
-You'll submit your 60s video and associated files (as a single zip file) through
-Wattle by Monday 9pm every week (from weeks 2--9 inclusive).
+You'll submit your 60s video and associated files (as a single zip file) through Wattle by Monday 9pm every week (from weeks 2--9 inclusive).
 
 Submit your two 800-word documents through wattle at the end of week 5 and the end of week 9.
 
