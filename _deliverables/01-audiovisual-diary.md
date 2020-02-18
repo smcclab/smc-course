@@ -31,6 +31,14 @@ _workshops/index.md %})_.
 
 ## Specification
 
+{:.info-box}
+
+Just a heads up: the spec & submission instructions for your AV diary are in two
+parts---the weekly video part, and "reflective portfolio" part (due in weeks 5 &
+9 only).
+
+### Weekly videos
+
 Each week's submission must include:
 
 - a 60 second (+/- 5s) video (with sound, obviously) of computer music work
@@ -40,6 +48,8 @@ Each week's submission must include:
   other assets) required to re-produce your submission
 
 - a 200-word reflection on your work
+
+### Reflective portfolio
 
 Even though you need to submit something every week, you won't receive a mark
 each week. Instead, you'll be marked through two AV diary portfolio submissions:
@@ -58,15 +68,19 @@ necessary.
 
 ## Submission process {#submission-process}
 
+### Weekly videos
+
 You'll submit your 60s video and associated files (as a single zip file) through
 Wattle by Monday 9pm every week (from weeks 2--9 inclusive).
 
-Submit your two 800-word documents through wattle at the end of week 5 and the
-end of week 9.
+### Reflective portfolio
 
-## Marking Criteria {#marking}
+Submit your two 800-word documents (in pdf format) through Wattle at the end of
+week 5 and the end of week 9.
 
-Your report will be assessed entirely based on the provided (pdf) document. The
+## Marking criteria {#marking}
+
+Your portfolio will be assessed entirely based on the provided (pdf) document. The
 marking criteria (based on the [course learning outcomes]({% link 02-outline.md
 %})) are:
 
@@ -82,9 +96,3 @@ marking criteria (based on the [course learning outcomes]({% link 02-outline.md
 
 - **presentation and communication** of your intention, process, and evaluation
   through your audiovisual diary entries
-
-We are looking for reports that demonstrate a sophisticated understanding of
-music computing as well as a critical examination of the process of developing a
-LENS artefact. As with any other piece of academic writing we expect a
-high-quality document with clarity of expression favoured over quantity of
-words.
