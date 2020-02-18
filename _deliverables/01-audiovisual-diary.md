@@ -4,6 +4,8 @@ summary: Your opportunity to make stuff for inspo and discussion in class.
 permalink: /deliverables/audiovisual-diary/
 ---
 
+{% include toc.html %}
+
 ## Outline
 
 - **Due date:** weekly (from weeks 2--9 inclusive)
@@ -12,8 +14,6 @@ permalink: /deliverables/audiovisual-diary/
   below](#submission-process)
 - **Policies:** for late policies, academic integrity policies, etc. see the
   [policies page]({% link 01-policies.md %})
-
-{% include toc.html %}
 
 ## Description
 

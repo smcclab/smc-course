@@ -4,6 +4,8 @@ summary: Show the rest of the LENS what you're working on for your end-of-semest
 permalink: /deliverables/masterclass/
 ---
 
+{% include toc.html %}
+
 ## Outline
 
 - **Due date:** Week 7 Tuesday
@@ -12,8 +14,6 @@ permalink: /deliverables/masterclass/
   below](#submission-process)
 - **Policies:** for late policies, academic integrity policies, etc. see the
   [policies page]({% link 01-policies.md %})
-
-{% include toc.html %}
 
 ## Description
 

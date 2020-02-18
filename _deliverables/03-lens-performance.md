@@ -4,6 +4,8 @@ summary: This is it - your chance to make some noise.
 permalink: /deliverables/lens-performance/
 ---
 
+{% include toc.html %}
+
 ## Outline
 
 - **Due date:** End-of-semester concert (date TBC)
@@ -12,8 +14,6 @@ permalink: /deliverables/lens-performance/
   below](#submission-process)
 - **Policies:** for late policies, academic integrity policies, etc. see the
   [policies page]({% link 01-policies.md %})
-
-{% include toc.html %}
 
 ## Description
 
