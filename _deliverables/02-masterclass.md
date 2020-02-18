@@ -26,9 +26,10 @@ assessment criteria.
 
 Your masterclass submission must include:
 
-- a **500-word PDF document** describing your proposed LENS performance and how it will address the assessment criteria.
+- a **500-word PDF document** describing your proposed LENS performance and how
+  it will address the assessment criteria
 
-- your **slides** from the workshop session.
+- your **slides** from the workshop session
 
 ## Submission process {#submission-process}
 
