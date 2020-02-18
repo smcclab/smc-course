@@ -15,8 +15,10 @@ whatever you like for now, I'll clean it up before the students see it.
 - List manipulation <https://www.youtube.com/watch?v=UIk0Td6l9SY&list=PL12DC9A161D8DC5DC&index=18&t=0s>
 - Visuals <https://www.youtube.com/watch?v=fh64EFJM9WU&list=PL12DC9A161D8DC5DC&index=33&t=0s>
 
+
 ### Week 2: synthesis I
 
+- getting started with Pd (Charles) ([YouTube](https://youtu.be/AC7-MpwIZ8w))
 - Volume control <https://www.youtube.com/watch?v=3S0zArnj2II>
 - Midi notes <https://www.youtube.com/watch?v=27r4JgPbiJE>
 
@@ -37,7 +39,7 @@ whatever you like for now, I'll clean it up before the students see it.
 
 - Metro <https://www.youtube.com/watch?v=7ucJoMEjqZI>
 - Basic randomness <https://www.youtube.com/watch?v=s0V6hw2nt_I>
-- Scheduling <https://www.youtube.com/watch?v=99gWIedP_78&list=PLJI9bpWaH1z1QzuDorPpoedPSUGgwzDS_&index=46&t=0s>
+- Scheduling <https://youtu.be/99gWIedP_78>
 - Sequencing <https://www.youtube.com/watch?v=L5Z-R80lz0Q>
 
 ### Week 7: ensemble interaction

@@ -25,6 +25,8 @@ tuned.
 
 ### Week 1: hello sine
 
+- getting started with Pd (Charles) ([YouTube](https://youtu.be/AC7-MpwIZ8w))
+
 ### Week 2: synthesis I
 
 ### Week 3: sampling I
