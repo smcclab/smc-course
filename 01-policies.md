@@ -32,6 +32,11 @@ All assessment items are listed on the [deliverables page]({% link
 _deliverables/index.md %}).
 
 ### Final marks and grades {#final-marks-and-grades}
+## Feedback
+
+You will receive marks & feedback for all assessment items within two weeks of
+the submission deadline.
+
 
 To pass the course, you must score **at least 50** for your final mark. Your
 final mark will be the total of your marks on the individual assessment items
