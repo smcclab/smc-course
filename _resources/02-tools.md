@@ -26,7 +26,7 @@ and [MIDI controllers](https://www.soundonsound.com/reviews/novation-impulse-49)
 for LENS students to use in class or borrow if you need to. Let us know if you
 have a good use case for these!
 
-## Computer music software
+## Computer music software {#software}
 
 Learning the basics of computer music programming is a core part of this course.
 There are two primary computer music software environments we'll use in the LENS
