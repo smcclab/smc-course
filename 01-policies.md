@@ -5,7 +5,7 @@ permalink: /policies/
 
 {% include toc.html %}
 
-### Communication {#communication}
+## Communication {#communication}
 
 Any communication in this course will happen over one of two channels:
 
@@ -26,17 +26,17 @@ For course-content related stuff, you'll get a much faster & better response on
 the slack channel---and that way other students can benefit from your questions
 as well.
 
-### Assessment
+## Assessment
 
 All assessment items are listed on the [deliverables page]({% link
 _deliverables/index.md %}).
 
-### Final marks and grades {#final-marks-and-grades}
 ## Feedback
 
 You will receive marks & feedback for all assessment items within two weeks of
 the submission deadline.
 
+## Final marks and grades {#final-marks-and-grades}
 
 To pass the course, you must score **at least 50** for your final mark. Your
 final mark will be the total of your marks on the individual assessment items
@@ -58,19 +58,19 @@ If your final mark is less than 45 you will fail this course with a grade of N
 If you enrol, but don't participate in the course at all you will fail with a
 final grade of NCN, which means a failure due to non-completion.
 
-### Late penalties
+## Late penalties
 
 This course follows the [CASS
 policy](https://cass.anu.edu.au/current-students/coursework-policy-and-guidelines/late-submissions-and-extensions)
 of applying a 5% penalty for every day (or part thereof).
 
-### Extensions {#extensions}
+## Extensions {#extensions}
 
 If you've got a good reason, there is the possibility of getting an extension on
 your deadlines if you let the convenor know **at least one week out** from any
 deadline.
 
-### Appeals {#appeals}
+## Appeals {#appeals}
 
 From the date that your marks for any assessment item are released
 electronically you have a period of two weeks in which to appeal your mark.
@@ -90,13 +90,13 @@ relevant ANU Policy (see section
 As with any ANU course, you are able to apply for [special assessment
 consideration](https://www.anu.edu.au/students/program-administration/assessments-exams/special-assessment-consideration).
 
-### Supplementary assessment {#supplementary-assessment}
+## Supplementary assessment {#supplementary-assessment}
 
 If you receive a PX grade you are eligible for supplementary assessment. The
 course convenor will contact you after final S1 grades are released with more
 information about the timing & nature of this assessment.
 
-### Academic integrity {#academic-integrity}
+## Academic integrity {#academic-integrity}
 
 At the ANU [we take academic integrity
 seriously](https://academichonesty.anu.edu.au/). There are several different
@@ -137,7 +137,7 @@ enjoy being a part of it any more than you do. Please help to make this a course
 which focuses entirely on the learning process and not on policing academic
 misconduct issues.
 
-### Software: the "own machine" policy {#own-machine-policy}
+## Software: the "own machine" policy {#own-machine-policy}
 
 This course requires making music on a laptop, and so you'll need to have a
 laptop and [install some software]({% link _resources/02-tools.md %}#software)
