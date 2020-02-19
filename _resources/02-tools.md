@@ -33,7 +33,7 @@ There are two primary computer music software environments we'll use in the LENS
 course [Pure Data (Pd)](https://puredata.info) and
 [Extempore](https://extemporelang.github.io).
 
-### Pure Data (Pd)
+### Pure Data (Pd) {#pure-data}
 
 {:.info-box}
 
@@ -82,7 +82,7 @@ version of "vanilla" Pd for your platform (as shown in the screenshot).
   understanding the use of these thins in a LENS context, so we won't cover the
   more maths-y stuff in this course.
 
-### Extempore
+### Extempore {#extempore}
 
 {:.info-box}
 
@@ -111,7 +111,7 @@ documentation website, (for example to learn to make music with the [Extempore
 pattern
 language](https://extemporelang.github.io/docs/guides/pattern-language/)).
 
-## Hardware
+## Hardware {#hardware}
 
 {:.info-box}
 
@@ -149,7 +149,7 @@ Here's a few things we like that you might like to look at:
   LPD8](https://www.storedj.com.au/akai-lpd8-ultra-portable-pad-controller-w-8-pads)
   gives you knobs and pads, but not sliders.
 
-## Other books
+## Other books {#other-books}
 
 There are other computer music languages & software packages as well, and you're
 always welcome to mess around with whatever creative tools you like. However,
