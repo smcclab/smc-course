@@ -29,10 +29,15 @@ Each week's content will have a mix of:
 **Note**: for week 1, you don't have to submit an AV diary entry before the
 [week 1 workshop timeslot]({% link _workshops/index.md %}). tuned. However, if
 you do want to do something to prepare for the course, head to the tools page
-and install Pd on your laptop.
+for [instructions on how to install Pd on your laptop]({% link
+_resources/02-tools.md %}#pure-data).
 
+### Pre-reading/watching
 
+- [installing Pd on your laptop]({% link _resources/02-tools.md %}#pure-data)
 - getting started with Pd (Charles) ([YouTube](https://youtu.be/AC7-MpwIZ8w))
+- [Stanford Laptop Orchestra | Twilight (2013)](https://www.youtube.com/watch?v=chA-4GRCb-I)
+- [Princeton Laptop Orchestra | Interference (2019)](https://www.youtube.com/watch?v=C-5P3hXuGfs)
 
 ### Week 2: synthesis I
 
