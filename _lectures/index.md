@@ -26,9 +26,10 @@ Each week's content will have a mix of:
 
 {:.info-box}
 
-**Note**: for week 1, you don't have to submit an AV diary entry
-before the [week 1 workshop timeslot]({% link _workshops/index.md %}).
-tuned.
+**Note**: for week 1, you don't have to submit an AV diary entry before the
+[week 1 workshop timeslot]({% link _workshops/index.md %}). tuned. However, if
+you do want to do something to prepare for the course, head to the tools page
+and install Pd on your laptop.
 
 
 - getting started with Pd (Charles) ([YouTube](https://youtu.be/AC7-MpwIZ8w))
