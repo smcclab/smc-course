@@ -6,26 +6,30 @@ hidden: true
 
 Here's links to the weekly "lecture" content. However, this isn't an in-person
 lecture; it's a flipped course. So you need to read & watch the content each
-week, then submit your weekly
+week, then submit your [weekly AV diary entry]({% link
+_deliverables/01-audiovisual-diary.md %}) before the [workshop]({% link
+_workshops/index.md %}) timeslot.
 
 {% include toc.html %}
 
 ## Weekly topic schedule
 
-Each week's content will have:
+Each week's content will have a mix of:
 
 - videos to watch
 - code to read
-- other material stuff to read
+- other reading material (papers, blog posts, etc.)
 - a description of the "creative stimulus" challenge for that week's [AV
   diary]({% link _deliverables/01-audiovisual-diary.md %}) entry
 
+### Week 1: hello sine
+
 {:.info-box}
 
-**Note**: the content will go up here over the course of the semester---stay
+**Note**: for week 1, you don't have to submit an AV diary entry
+before the [week 1 workshop timeslot]({% link _workshops/index.md %}).
 tuned.
 
-### Week 1: hello sine
 
 - getting started with Pd (Charles) ([YouTube](https://youtu.be/AC7-MpwIZ8w))
 

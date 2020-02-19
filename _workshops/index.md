@@ -30,6 +30,6 @@ You can see that this is really not a "sit and listen" experience; the second
 half of each workshop will involve you breaking into small groups and jamming
 away, then presenting back to the class at the end.
 
-So you'll need to bring your laptop with the relevant software installed (let us
-know if that's an issue and we'll be able to help you out with a loaner laptop
-for the semester).
+So you'll need to bring your laptop with the [relevant software installed]({%
+link _resources/02-tools.md %}) (let us know if that's an issue and we'll be
+able to help you out with a loaner laptop for the semester).

@@ -30,56 +30,86 @@ have a good use case for these!
 
 Learning the basics of computer music programming is a core part of this course.
 There are two primary computer music software environments we'll use in the LENS
-course.
+course [Pure Data (Pd)](https://puredata.info) and
+[Extempore](https://extemporelang.github.io).
 
-- [Pure Data (Pd)](https://puredata.info): a visual computer music environment
-  (hot tip--> also runs on Android/iOS phones and tablets and on Raspberry Pi!)
-- [Extempore](https://extemporelang.github.io): a text-based computer music
-  environment (partly developed by [Ben](https://benswift.me) & others at ANU!)
-  
-Both are freely available and work on Windows, macOS & Linux.
+### Pure Data (Pd)
 
-There are other computer music languages & software packages as well, and you're
-always welcome to mess around with whatever creative tools you like. However,
-for the LENS curriculum we'll cover those two, and you're also expected to use
-one or the other as the foundation for your final [LENS performance]({% link
-_deliverables/03-lens-performance.md %}).
-  
-### Pd resources
+{:.info-box}
 
-Charles has written a series of introductory examples to Pure Data:
-[ComputerMusicIntro
-examples](https://github.com/cpmpercussion/ComputerMusicIntro)
+We'll be installing & using Pd on our laptops from week 1, so if you want to get
+a head start you could even download & install it now.
 
-You can also find lots of great Pd examples in the [rjlib
-library](https://github.com/rjdj/rjlib/)
+Pd is a visual computer music environment. It's just a regular piece of software
+which runs on your computer, although there are also versions which run on
+Android/iOS phones and tablets and even on Raspberry Pi!
 
-### Extempore resources
+Pd is freely available and works on Windows, macOS & Linux. To install it, go to
+the [Pd downloads page](https://puredata.info/downloads) and get the latest
+version of "vanilla" Pd for your platform (as shown in the screenshot).
 
-If you're new to Extempore, start with the
-[Quickstart](https://extemporelang.github.io/docs/overview/quickstart/) page in
-Extempore's online documentation, and go from there (e.g. to
-[here](https://extemporelang.github.io/docs/guides/pattern-language/)).
+![download box on the Pd website](resources/pd-download-box.png)
 
-As far as example code goes, Extempore comes with a bunch of example code (it's
-in the `examples/` folder). One cool place to start is the
-`examples/sharedsystem` folder.
+#### Example code/patches
 
-## Books
+- All of the built-in Pd objects come with an example patch which explains how
+  to use them. You can access this help browser using the `Help > Browser...`
+  menu.
 
-### Pd
+- Charles has written a series of introductory examples to Pure Data:
+  [ComputerMusicIntro
+  examples](https://github.com/cpmpercussion/ComputerMusicIntro)
 
-- Kreidler, J. Programming Electronic Music in Pd (2013) [http://www.pd-tutorial.com](http://www.pd-tutorial.com) (free online)
-- Puckette, M. Theory and Technique of Electronic Music (2007) [http://msp.ucsd.edu/techniques.htm](http://msp.ucsd.edu/techniques.htm) (free online)
+- You can also find lots of great Pd examples in the [rjlib
+  library](https://github.com/rjdj/rjlib/)
+
+#### Books
+
+- _Kreidler, J._ [Programming Electronic Music in
+  Pd](http://www.pd-tutorial.com) (2013). This book is freely available online,
+  and is a good "from the ground up" introduction to how to make music in Pd.
+  Some of the screenshots are a bit out of date, but since Pd hasn't changed
+  very much since it was written the actual content is still quite current and
+  useful.
+
+- _Puckette, M._ [Theory and Technique of Electronic
+  Music](http://msp.ucsd.edu/techniques.htm) (2007). This is a book by the
+  creator of Pd, and even though it uses Pd for all the examples it's really a
+  more general book about how computer music works. It covers a bunch of the
+  mathematical & signal processing foundations of the techniques you'll learn in
+  the course, and if you're into that sort of thing then you might enjoy this
+  book. However, in this course understanding the maths is less important than
+  understanding the use of these thins in a LENS context, so we won't cover the
+  more maths-y stuff in this course.
 
 ### Extempore
 
-- [Extempore Documentation](https://extemporelang.github.io/docs/) (free online)
+{:.info-box}
 
-- Collins, N. Supercollider Tutorial [http://composerprogrammer.com/teaching/supercollider/sctutorial/tutorial.html#chapter1](http://composerprogrammer.com/teaching/supercollider/sctutorial/tutorial.html#chapter1) (free online)
-- Müller, M. Fundamentals of Music Processing. Springer International Publishing, Switzerland (2015) [DOI:10.1007/978-3-319-21945-5](https://link.springer.com/book/10.1007/978-3-319-21945-5)
-- Dean, R.T. and McLean, A. The Oxford Handbook of Algorithmic Music. Oxford University Press, (2018) [DOI:10.1093/oxfordhb/9780190226992.001.0001](https://www.oxfordhandbooks.com/view/10.1093/oxfordhb/9780190226992.001.0001/oxfordhb-9780190226992) (available on ANU network)
-- Rowe, R. Interactive Music Systems: Machine Listening and Composing. The MIT Press (1993) [(free online)](https://wp.nyu.edu/robert_rowe/text/interactive-music-systems-1993/chapter-1-interactive-music-systems/)
+We'll be installing & using Extempore on our laptops from week 3, but
+again---there's nothing stopping you getting started sooner!
+
+[Extempore](https://extemporelang.github.io) is a text-based computer music
+environment (partly developed by [Ben](https://benswift.me) & others at ANU!).
+You might have seen Ben use it in his
+[livecoding](https://benswift.me/livecoding/), but you can use it for "offline"
+music-making as well.
+
+#### Books
+
+If you're new to Extempore, start with the
+[Quickstart](https://extemporelang.github.io/docs/overview/quickstart/) page in
+Extempore's online documentation, which includes instructions on how to install
+it on your laptop. Like Pd, Extempore is free & works on Windows, macOS & Linux.
+
+#### Example code
+
+As far as example code goes, Extempore comes with a bunch of example code (it's
+in the `examples/` folder). One cool place to start is the
+`examples/sharedsystem` folder. You can also read around the Extempore
+documentation website, (for example to learn to make music with the [Extempore
+pattern
+language](https://extemporelang.github.io/docs/guides/pattern-language/)).
 
 ## Hardware
 
@@ -118,3 +148,27 @@ Here's a few things we like that you might like to look at:
   or Extempore. The [Akai
   LPD8](https://www.storedj.com.au/akai-lpd8-ultra-portable-pad-controller-w-8-pads)
   gives you knobs and pads, but not sliders.
+
+## Other books
+
+There are other computer music languages & software packages as well, and you're
+always welcome to mess around with whatever creative tools you like. However,
+for the LENS curriculum we'll cover those two, and you're also expected to use
+one or the other as the foundation for your final [LENS performance]({% link
+_deliverables/03-lens-performance.md %}). Still, if you're keen to explore
+further here area a few good options.
+
+- _Collins, N._ [Supercollider
+  Tutorial](http://composerprogrammer.com/teaching/supercollider/sctutorial/tutorial.html#chapter1)
+  (free online)
+
+- _Müller, M._ [Fundamentals of Music Processing](https://link.springer.com/book/10.1007/978-3-319-21945-5). Springer International Publishing, Switzerland (2015)
+
+- _Dean, R.T. and McLean, A._ [The Oxford Handbook of Algorithmic
+  Music](https://www.oxfordhandbooks.com/view/10.1093/oxfordhb/9780190226992.001.0001/oxfordhb-9780190226992).
+  Oxford University Press, (2018) (not free for everyone, but available to ANU
+  students on the ANU network)
+
+- _Rowe, R._ [Interactive Music Systems: Machine Listening and
+  Composing](https://wp.nyu.edu/robert_rowe/text/interactive-music-systems-1993/chapter-1-interactive-music-systems/).
+  The MIT Press (1993) (free online)
