@@ -45,7 +45,7 @@ LENS concert at the end of the course.
 ### Assessment
 
 - AV diary portfolio (30%)
-- Masterclass & performance plan (20%)
+- Project plan (20%)
 - LENS performance (50%)
 
 ### Meeting Dates

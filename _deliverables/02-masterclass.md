@@ -1,7 +1,7 @@
 ---
-title: Masterclass & performance plan
+title: Performance plan
 summary: Show the rest of the LENS what you're working on for your end-of-semester performance.
-permalink: /deliverables/masterclass/
+permalink: /deliverables/plan/
 ---
 
 {% include toc.html %}
@@ -17,14 +17,13 @@ permalink: /deliverables/masterclass/
 
 ## Description
 
-In the Week 7 workshop session you will give a masterclass to the rest of the
-LENS cohort describing your plan for your final LENS performance, and also
-submit a document describing your LENS performance and how it will address the
-assessment criteria.
+In the Week 7 workshop session you will give an in-class presentation describing
+your plan for your final LENS performance, and also submit a document describing
+your LENS performance and how it will address the assessment criteria.
 
 ## Specification
 
-Your masterclass submission must include:
+Your submission must include:
 
 - a **500-word PDF document** describing your proposed LENS performance and how
   it will address the assessment criteria
