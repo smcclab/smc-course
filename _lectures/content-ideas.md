@@ -45,6 +45,7 @@ whatever you like for now, I'll clean it up before the students see it.
 ### Week 7: ensemble interaction
 
 - Improv conducting ft Charles <https://www.youtube.com/watch?v=VS_6-fvHBg0>
+- Some Earle Brown-style conducting: <https://www.youtube.com/watch?v=Z-fhsveg2lw&list=PLnRoOVbpGXfbaD0DqWfjJB4Hs63FuldY->
 
 ### Week 8: synthesis II
 
