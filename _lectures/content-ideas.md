@@ -24,8 +24,11 @@ whatever you like for now, I'll clean it up before the students see it.
 
 ### Week 3: sampling I
 
+- Pierre Henry documentary <https://www.youtube.com/watch?v=Zsb1w-3iFa8>
+- Alvin Lucier's I am Sitting in a Room <https://www.youtube.com/watch?v=fAxHlLK3Oyk>
 - Sampling (a tad long) <https://www.youtube.com/watch?v=boX0v54SqtU>
 - Using sound files <https://www.youtube.com/watch?v=XKAk61zsyb8>
+- Sampling documentary <https://youtu.be/-HZOdRaeXmA>
 
 ### Week 4: envelopes & note structure
 
@@ -41,6 +44,7 @@ whatever you like for now, I'll clean it up before the students see it.
 - Basic randomness <https://www.youtube.com/watch?v=s0V6hw2nt_I>
 - Scheduling <https://youtu.be/99gWIedP_78>
 - Sequencing <https://www.youtube.com/watch?v=L5Z-R80lz0Q>
+- Online I-Ching <http://anarchicharmony.org/IChing/ic.cfm>
 
 ### Week 7: ensemble interaction
 
