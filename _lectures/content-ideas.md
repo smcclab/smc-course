@@ -15,7 +15,6 @@ whatever you like for now, I'll clean it up before the students see it.
 - List manipulation <https://www.youtube.com/watch?v=UIk0Td6l9SY&list=PL12DC9A161D8DC5DC&index=18&t=0s>
 - Visuals <https://www.youtube.com/watch?v=fh64EFJM9WU&list=PL12DC9A161D8DC5DC&index=33&t=0s>
 
-
 ### Week 2: synthesis I
 
 - getting started with Pd (Charles) ([YouTube](https://youtu.be/AC7-MpwIZ8w))
@@ -37,6 +36,7 @@ whatever you like for now, I'll clean it up before the students see it.
 ### Week 5: controllers
 
 - adc~ mic <https://www.youtube.com/watch?v=po2_Cml2ooo>
+- Playtronica controller demo <https://www.youtube.com/watch?v=XjJESgZGjqs>
 
 ### Week 6: algorithmic composition I
 
@@ -44,6 +44,8 @@ whatever you like for now, I'll clean it up before the students see it.
 - Basic randomness <https://www.youtube.com/watch?v=s0V6hw2nt_I>
 - Scheduling <https://youtu.be/99gWIedP_78>
 - Sequencing <https://www.youtube.com/watch?v=L5Z-R80lz0Q>
+- Clapping Music <https://www.youtube.com/watch?v=lzkOFJMI5i8>
+- Cage and the I-Ching <https://www.youtube.com/watch?v=uyjOnqzjqpc>
 - Online I-Ching <http://anarchicharmony.org/IChing/ic.cfm>
 
 ### Week 7: ensemble interaction
@@ -62,11 +64,16 @@ whatever you like for now, I'll clean it up before the students see it.
 
 ### Week 9: sampling II
 
+- Something really great and interesting will go here... 
+
 ### Week 10: algorithmic composition II
 
 - Cool data-to-sound demo <https://www.youtube.com/watch?v=qSn_5ahHuXU>
 - Explanation of markov chains <https://www.youtube.com/watch?v=LzJiUYQXF58>
 
 ### Week 11: performance & staging
+
+- Stanford's 'Aura' <https://www.youtube.com/watch?v=MT7x8EYyxQ0>
+- Stanford's 'Twilight' <https://www.youtube.com/watch?v=chA-4GRCb-I>
 
 ### Week 12: final performances
