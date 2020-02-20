@@ -8,10 +8,11 @@ permalink: /deliverables/audiovisual-diary/
 
 ## Outline
 
-- **Due date:** weekly (from weeks 2--9 inclusive)
+- **Due date:** 60s video submissions due weekly in weeks 2--9 (inclusive),
+  portfolio submissions due in week 5 & week 9
 - **Mark weighting:** 30% total (see [below](#marking))
-- **Submission:** submit your assignment according to the [instructions
-  below](#submission-process)
+- **Submission:** submit your videos & portfolio submissions according to the
+  [instructions below](#submission-process)
 - **Policies:** for late policies, academic integrity policies, etc. see the
   [policies page]({% link 01-policies.md %})
 
@@ -36,8 +37,7 @@ _workshops/index.md %})_.
 {:.info-box}
 
 Just a heads up: the spec & submission instructions for your AV diary are in two
-parts---the weekly video part, and "reflective portfolio" part (due in weeks 5 &
-9 only).
+parts---the weekly video part, and portfolio part (due in weeks 5 & 9 only).
 
 ### Weekly videos
 
@@ -51,16 +51,14 @@ Each week's submission must include:
 
 - a 200-word reflection on your work
 
-### Reflective portfolio
+### Portfolio
 
 Even though you need to submit something every week, you won't receive a mark
-each week. Instead, you'll be marked through two AV diary portfolio submissions:
+each week. Instead, you'll be marked through two "portfolio" submissions:
 
-- an 800-word document at the end of week 5 (for AV diary entries 2--5) worth
-  15% of your total mark
+- a document (portfolio 1) at the end of week 5 which covers AV diary entries 2--5
 
-- an 800-word document at the end of week 9 (for AV diary entries 6--9) worth
-  15% of your total mark
+- a document (portfolio 2) at the end of week 9 which covers AV diary entries 6--9
 
 Each submission must include an 800-word (max) document of your combined (and
 edited) reflections, explaining how each AV diary entry explored the theme and
@@ -75,7 +73,7 @@ necessary.
 You'll submit your 60s video and associated files (as a single zip file) through
 Wattle by Monday 9pm every week (from weeks 2--9 inclusive).
 
-### Reflective portfolio
+### Portfolio
 
 Submit your two 800-word documents (in pdf format) through Wattle at the end of
 week 5 and the end of week 9.
