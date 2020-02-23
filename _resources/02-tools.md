@@ -135,9 +135,9 @@ Here are a few suggestions:
 You don't _need_ to buy anything to take this course, but if you _want_ to buy
 something, we understand, computer music gear is _fun!_
 
-Here's a few things we like that you might like to look at:
+Here are a few things you might like to look at:
 
-- **Some nice headphones.** You can get _great_ headphones from between
+- Some **nice headphones**. You can get _great_ headphones from between
   $50-$150, for a cheaper option we like [Audio
   Technica](https://www.audio-technica.com/cms/headphones/2d52765b7d84656c/index.html)
   and for a more expensive option, have a look at [Sony
@@ -145,21 +145,23 @@ Here's a few things we like that you might like to look at:
   or [BeyerDynamic DT770
   pro](https://www.storedj.com.au/search?ProductSearch=BEY-DT770PRO8).
 
-- **An audio interface.** If you only need two outputs, you might be fine with
-  the headphone output on your laptop. External audio interfaces connect to your
-  computer over USB and give you more audio inputs and outputs with higher
-  quality and nicer connections. They sometimes have better audio drivers and
-  provide a smoother audio experience (particularly in Windows). There are lots
-  of great audio interfaces with 2 microphone inputs and 2 line outputs for
-  about $200 (e.g., [PreSonus AudioBox
+- An **audio interface** for your laptop. If you only need two outputs, you
+  might be fine with the headphone output on your laptop. External audio
+  interfaces connect to your computer over USB and give you more audio inputs
+  and outputs with higher quality sound and more (physical) connector options.
+  They sometimes have better audio drivers and provide a smoother audio
+  experience (particularly in Windows). There are lots of great audio interfaces
+  with 2 microphone inputs and 2 line outputs for about $200 (e.g., [PreSonus
+  AudioBox
   USB96](https://www.storedj.com.au/presonus-audiobox-usb96-audio-and-midi-interface-w-studio-one-artist-and-studio-magic-black)).
   You can get more expensive interfaces if you want that have more [inputs and
   outputs](https://www.storedj.com.au/presonus-studio-1824c-18x20-192khz-usb-c-audio-interface-w-studio-one-artist-daw)
   if you want, but these are more useful if you're setting up a small studio,
   not for laptop ensemble :-)
 
-- **MIDI Controllers.** It's often more fun to control music with your hands,
-  not with a keyboard and mouse (unless you're a live coder)! We like the [Korg
+- A **hardware MIDI Controller**. It's often more fun to control music with
+  your hands rather than with a keyboard and mouse (unless you're a live coder)!
+  We like the [Korg
   NanoKontrol](https://www.storedj.com.au/search?ProductSearch=KOR-NANOKONT2BK)
   which gives you some knobs and sliders for about $100 and works nicely with Pd
   or Extempore. The [Akai
