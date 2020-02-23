@@ -39,8 +39,8 @@ submission]({% link _deliverables/01-audiovisual-diary.md %}) on Monday of week
 
 - [installing Pd on your laptop]({% link _resources/02-tools.md %}#pure-data)
 - getting started with Pd (Charles) ([YouTube](https://youtu.be/AC7-MpwIZ8w))
-- [Stanford Laptop Orchestra | Twilight (2013)](https://www.youtube.com/watch?v=chA-4GRCb-I)
-- [Princeton Laptop Orchestra | Interference (2019)](https://www.youtube.com/watch?v=C-5P3hXuGfs)
+- [Stanford Laptop Orchestra - Twilight (2013)](https://www.youtube.com/watch?v=chA-4GRCb-I)
+- [Princeton Laptop Orchestra - Interference (2019)](https://www.youtube.com/watch?v=C-5P3hXuGfs)
 
 ### Week 2: synthesis I
 
