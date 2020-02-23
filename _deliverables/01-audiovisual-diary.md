@@ -13,7 +13,7 @@ permalink: /deliverables/audiovisual-diary/
   - portfolio submissions due in week 5 & week 9
 - **Mark weighting:** 30% total (see [below](#marking))
 - **Submission:** submit your videos & portfolio submissions according to the
-  [instructions below](#submission-process)
+  instructions below
 - **Policies:** for late policies, academic integrity policies, etc. see the
   [policies page]({% link 01-policies.md %})
 
@@ -33,14 +33,14 @@ though---we're going to listen to, play with & discuss the things that you and
 your classmates have made _during the [workshop timeslot]({% link
 _workshops/index.md %})_.
 
-## Specification
+## Weekly videos
 
 {:.info-box}
 
-Just a heads up: the spec & submission instructions for your AV diary are in two
-parts---the weekly video part, and portfolio part (due in weeks 5 & 9 only).
+Remember: the specification & submission instructions for your AV diary are in
+two parts---this information relates to the weekly video part.
 
-### Weekly videos
+### Specification
 
 Each week's submission must include:
 
@@ -52,10 +52,23 @@ Each week's submission must include:
 
 - a 200-word reflection on your work
 
-### Portfolio
+## Submission process
 
-Even though you need to submit something every week, you won't receive a mark
-each week. Instead, you'll be marked through two "portfolio" submissions:
+You'll submit your 60s video and associated files (as a single zip file) through
+Wattle by Monday 9pm every week (from weeks 2--9 inclusive).
+
+## Portfolio
+
+{:.info-box}
+
+Remember: the specification & submission instructions for your AV diary are in
+two parts---this information relates to the portfolio part (due in weeks 5 & 9
+only).
+
+### Specification
+
+Even though you submit something every week, you won't receive a mark each week.
+Instead, you'll be marked through two "portfolio" submissions:
 
 - a document (portfolio 1) at the end of week 5 which covers AV diary entries 2--5
 
@@ -67,24 +80,12 @@ creative criteria for that week and reflecting on the collaborative sessions.
 Include figures, screen captures, and code excerpts in your documents as
 necessary.
 
-## Submission process {#submission-process}
-
-### Weekly videos
-
-You'll submit your 60s video and associated files (as a single zip file) through
-Wattle by Monday 9pm every week (from weeks 2--9 inclusive).
-
-### Portfolio
+## Submission process
 
 Submit your two 800-word documents (in pdf format) through Wattle at the end of
 week 5 and the end of week 9.
 
-## Marking criteria {#marking}
-
-{:.info-box}
-
-This only applies to the reflective portfolio submissions---your weekly videos
-don't receive individual marks.
+### Marking criteria {#marking}
 
 Each stage of your portfolio will be assessed entirely based on the submitted
 (pdf) document. The marking criteria (based on the [course learning outcomes]({%
