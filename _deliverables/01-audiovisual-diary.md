@@ -9,8 +9,8 @@ permalink: /deliverables/audiovisual-diary/
 ## Outline
 
 - **Due date:** 
-  - 60sec video submissions due weekly in weeks 2--9 (inclusive)
-  - portfolio submissions due in week 5 & week 9
+  - 60sec video submissions due 9pm every Monday in weeks 2--9
+  - portfolio submissions due March 29 (week 5) & May 10 (week 9)
 - **Mark weighting:** 30% total (see [below](#marking))
 - **Submission:** submit your videos & portfolio submissions according to the
   instructions below
@@ -79,11 +79,11 @@ only).
 Even though you submit something every week, you won't receive a mark each week.
 Instead, you'll be marked through two "portfolio" submissions:
 
-- an 800-word pdf document (filename `portfolio-1.pdf`) at the end of week 5
-  which covers AV diary entries 2--5
+- an 800-word pdf document (filename `portfolio-1.pdf`) due on March 29 (end of
+  week 5) which covers AV diary entries 2--5
 
-- an 800-word pdf document (filename `portfolio-2.pdf`) at the end of week 9
-  which covers AV diary entries 6--9
+- an 800-word pdf document (filename `portfolio-2.pdf`) due on May 10 (end of
+  week 9) which covers AV diary entries 6--9
 
 Each document must articulate your combined (and edited) reflections on your AV
 diary submissions for the specified weeks, explaining how each one explored the
@@ -95,8 +95,8 @@ submissions](#weekly-videos).
 
 ### Submission process
 
-Submit each document (in pdf format) through Wattle at the end of week 5 and the
-end of week 9.
+Submit each document (in pdf format) through Wattle by 11:59pm on the due date
+(March 29/May 10).
 
 ### Marking criteria {#marking}
 
