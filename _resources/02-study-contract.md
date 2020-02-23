@@ -1,20 +1,24 @@
 ---
-title: LENS Course Study Contract
+title: Independent Study Contract
 permalink: /resources/study-contract/
 published: false
 ---
 
-# Independent Study Contract
-
 ## Section A (Students and Supervisors)
 
-| UID                |                                    |
-| Name               |                                    |
-| Project Supervisor | Ben Swift                          |
-| Course Supervisor  | Ben Swift                          |
-| Course Title       | COMP2710 Laptop Ensemble (6 units) |
-| Course units       | 6 units                            |
-| Semester           | Semester 1, 2020                   |
+- **Student UID**:
+
+- **Student name**:
+
+- **Project supervisor**: Ben Swift
+
+- **Course supervisor**: Ben Swift
+
+- **Course title**: COMP2710 Laptop Ensemble
+
+- **Course units**: 6 units
+
+- **Semester**: Semester 1, 2020
 
 ### Learning Objectives
 
@@ -45,7 +49,7 @@ LENS concert at the end of the course.
 
 ### Assessment
 
-| Project component  | mark | due                                | marker         |
+|                    | mark | due date                           | marker         |
 |--------------------|------|------------------------------------|----------------|
 | AV diary portfolio |  30% | Mar 29 (stage 1), May 10 (stage 2) | Charles Martin |
 | Performance plan   |  20% | Apr 20                             | Charles Martin |
@@ -60,9 +64,9 @@ LENS concert at the end of the course.
 
 I agree to fulfil the above-defined contract:
 
-_Name_: <span style="text-decoration: underline; white-space: pre;">                   </span>
-_Date_: <span style="text-decoration: underline; white-space: pre;">                   </span>
-_Signature_: <span style="text-decoration: underline; white-space: pre;">                   </span>
+- _Name_:
+- _Date_:
+- _Signature_:
 
 ## Section B
 
@@ -73,13 +77,12 @@ student's academic record and believe the student can fulfil this contract. If I
 have nominated an examiner above, I have obtained their consent (via signature
 below or attached email).
 
-_Name_: **Dr Ben Swift**
-_Date_: **25 Feb 2020**
-_Signature_: <span style="text-decoration: underline; white-space: pre;">                   </span>
+- _Name_: **Dr Ben Swift**
+- _Date_: **25 Feb 2020**
+- _Signature_:
 
 ### Examiner
 
-_Name_: **Dr Charles Martin**
-_Date_: **25 Feb 2020**
-_Signature_: <span style="text-decoration: underline; white-space: pre;">                   </span>
-
+- _Name_: **Dr Charles Martin**
+- _Date_: **25 Feb 2020**
+- _Signature_:
