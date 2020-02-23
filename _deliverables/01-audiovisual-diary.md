@@ -44,13 +44,22 @@ two parts---this information relates to the weekly video part.
 
 Each week's submission must include:
 
-- a 60 second video (with sound) of your own computer music exploring the week's
-  theme
+- a 60 second video of your own work exploring the week's theme, which
+  - has the filename `week-N.mp4` or `week-N.mkv` (with `N` replaced by the week
+    number)
+  - is 1920x1080 (full HD) resolution
+  - has sound (obviously!)
+  - uses one of the [computer music software environments we're covering in this
+    course]({% link _resources/02-tools.md %}#software) (i.e. Pd or Extempore)
+  - uses a video and audio codec which is supported by
+    [ffmpeg](https://ffmpeg.org)
 
 - all files (e.g. Pd patch files, Extempore source code files, sound files &
-  other assets) required to re-produce your submission
+  other assets) required to re-produce your submission (in a subfolder called
+  `materials`)
 
-- a 200-word reflection on your work
+- a 200-word reflection on your work (as a pdf file called
+  `week-N-reflection.pdf`)
 
 ### Submission process
 
@@ -70,21 +79,24 @@ only).
 Even though you submit something every week, you won't receive a mark each week.
 Instead, you'll be marked through two "portfolio" submissions:
 
-- a document (portfolio 1) at the end of week 5 which covers AV diary entries 2--5
+- an 800-word pdf document (filename `portfolio-1.pdf`) at the end of week 5
+  which covers AV diary entries 2--5
 
-- a document (portfolio 2) at the end of week 9 which covers AV diary entries 6--9
+- an 800-word pdf document (filename `portfolio-2.pdf`) at the end of week 9
+  which covers AV diary entries 6--9
 
-Each submission must include an 800-word (max) document of your combined (and
-edited) reflections, explaining how each AV diary entry explored the theme and
-creative criteria for that week and reflecting on the collaborative sessions.
-Include figures, screenshots, and code excerpts in your documents as necessary.
-You do not need to re-submit the videos---we have them already from your [weekly
+Each document must articulate your combined (and edited) reflections on your AV
+diary submissions for the specified weeks, explaining how each one explored the
+theme and creative criteria for that week. You should also discuss and reflect
+on the collaborative sessions within the workshop timeslot. Include figures,
+screenshots, and code excerpts in your documents as necessary. You do not need
+to re-submit the videos---we have them already from your [weekly
 submissions](#weekly-videos).
 
 ### Submission process
 
-Submit your two 800-word documents (in pdf format) through Wattle at the end of
-week 5 and the end of week 9.
+Submit each document (in pdf format) through Wattle at the end of week 5 and the
+end of week 9.
 
 ### Marking criteria {#marking}
 
