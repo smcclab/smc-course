@@ -52,7 +52,7 @@ Each week's submission must include:
 
 - a 200-word reflection on your work
 
-## Submission process
+### Submission process
 
 You'll submit your 60s video and associated files (as a single zip file) through
 Wattle by Monday 9pm every week (from weeks 2--9 inclusive).
@@ -80,7 +80,7 @@ creative criteria for that week and reflecting on the collaborative sessions.
 Include figures, screen captures, and code excerpts in your documents as
 necessary.
 
-## Submission process
+### Submission process
 
 Submit your two 800-word documents (in pdf format) through Wattle at the end of
 week 5 and the end of week 9.
