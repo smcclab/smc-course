@@ -4,6 +4,7 @@ $errorColour: #f00;
 $warnColour: #fc3;
 $infoColour: #3498db;
 $successColour: #2ecc71;
+$provocationColour: #e84393;
 
 @mixin lab-content-box ($heading, $colour){
     padding: 10px;
@@ -35,6 +36,10 @@ $successColour: #2ecc71;
     .success-box {
         @include lab-content-box("success", $successColour);
         background: lighten($successColour, 25%);
+    }
+    .diary-provocation-box {
+        @include lab-content-box("AV diary provocation", $provocationColour);
+        background: lighten($provocationColour, 20%);
     }
 }
 

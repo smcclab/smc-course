@@ -29,14 +29,28 @@ whatever you like for now, I'll clean it up before the students see it.
 - Using sound files <https://www.youtube.com/watch?v=XKAk61zsyb8>
 - Sampling documentary <https://youtu.be/-HZOdRaeXmA>
 
+#### provocations
+
+- create a melody with unpitched sonic material
+- make something with a bunch of found sounds that we provide (perhaps recorded
+  from the week before?)
+
 ### Week 4: envelopes & note structure
 
 - Envelopes <https://www.youtube.com/watch?v=gqpvIwYko3o>
+
+#### provocations
+
+- keep everything else constant, just let the envelope evolve over time
 
 ### Week 5: controllers
 
 - adc~ mic <https://www.youtube.com/watch?v=po2_Cml2ooo>
 - Playtronica controller demo <https://www.youtube.com/watch?v=XjJESgZGjqs>
+
+### provocations
+
+- make your use of the controller as exaggerated (to the audience) as possible
 
 ### Week 6: algorithmic composition I
 
