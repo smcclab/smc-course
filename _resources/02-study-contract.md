@@ -8,25 +8,26 @@ published: false
 
 ### SECTION A (Students and Supervisors)
 
-UID: 
-
-Name:
-
-Project Supervisor: Ben Swift
-
-Course Supervisor: Ben Swift
-
-Course Title: COMP2710 Laptop Ensemble (6 units), Semester 1, 2020
+| UID                |                                    |
+| Name               |                                    |
+| Project Supervisor | Ben Swift                          |
+| Course Supervisor  | Ben Swift                          |
+| Course Title       | COMP2710 Laptop Ensemble (6 units) |
+| Course units       | 6 units                            |
+| Semester           | Semester 1, 2020                   |
 
 ### Learning Objectives
 
-1. Describe & apply fundamental aspects of music computing including
-   digital synthesis, algorithmic composition, and musical interface design.
+1. Describe & apply fundamental aspects of music computing including digital
+   synthesis, algorithmic composition, and musical interface design.
+
 2. Critically examine computer music systems and laptop ensemble performances.
-3. Produce a computer musical instrument, composition or interactive
-   media work and present it in concert.
-4. Demonstrate collaboration skills with a laptop ensemble including
-   being able to provide design feedback and critical self-reflection.
+
+3. Produce a computer musical instrument, composition or interactive media work
+   and present it in concert.
+
+4. Demonstrate collaboration skills with a laptop ensemble including being able
+   to provide design feedback and critical self-reflection.
 
 ### Project Description
 
@@ -50,8 +51,8 @@ LENS concert at the end of the course.
 
 ### Meeting Dates
 
-- Weekly LENS workshop sessions
-- Final concert at end of week 12
+- weekly LENS workshop sessions (every Tuesday 3pm--5pm in Marie Reay 3.02)
+- final LENS concert (Friday )
 
 ### Student Declaration:
 
