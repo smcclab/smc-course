@@ -8,8 +8,9 @@ permalink: /deliverables/audiovisual-diary/
 
 ## Outline
 
-- **Due date:** 60s video submissions due weekly in weeks 2--9 (inclusive),
-  portfolio submissions due in week 5 & week 9
+- **Due date:** 
+  - 60s video submissions due weekly in weeks 2--9 (inclusive)
+  - portfolio submissions due in week 5 & week 9
 - **Mark weighting:** 30% total (see [below](#marking))
 - **Submission:** submit your videos & portfolio submissions according to the
   [instructions below](#submission-process)
