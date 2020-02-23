@@ -9,7 +9,7 @@ permalink: /deliverables/audiovisual-diary/
 ## Outline
 
 - **Due date:** 
-  - 60s video submissions due weekly in weeks 2--9 (inclusive)
+  - 60sec video submissions due weekly in weeks 2--9 (inclusive)
   - portfolio submissions due in week 5 & week 9
 - **Mark weighting:** 30% total (see [below](#marking))
 - **Submission:** submit your videos & portfolio submissions according to the
@@ -54,7 +54,7 @@ Each week's submission must include:
 
 ### Submission process
 
-You must submit your 60s video and associated files as a **single zip file**
+You must submit your 60sec video and associated files as a **single zip file**
 through Wattle by Monday 9pm every week (from weeks 2--9 inclusive).
 
 ## Portfolio {#portfolio}
