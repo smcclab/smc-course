@@ -111,6 +111,23 @@ documentation website, (for example to learn to make music with the [Extempore
 pattern
 language](https://extemporelang.github.io/docs/guides/pattern-language/)).
 
+### Screen recording software {#screen-recording-software}
+
+Recording videos of your work is a crucial part of this course, you'll be doing
+it every week for your [AV diary submission]({% link
+_deliverables/01-audiovisual-diary.md %}#weekly-videos).
+
+In this course you get to decide which screen recording software you'll use, as
+long as it produces videos in a format which can be processed by
+[ffmpeg](https://ffmpeg.org).
+
+Here are a few suggestions:
+
+- OBS (free, macOS/Windows/Linux)
+- QuickTime Player (free, macOS only)
+- Camtasia (paid, macOS/Windows)
+- Screenflow (paid, macOS only)
+
 ## Hardware {#hardware}
 
 {:.info-box}
