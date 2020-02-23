@@ -33,7 +33,7 @@ though---we're going to listen to, play with & discuss the things that you and
 your classmates have made _during the [workshop timeslot]({% link
 _workshops/index.md %})_.
 
-## Weekly videos
+## Weekly videos {#weekly-videos}
 
 {:.info-box}
 
@@ -44,8 +44,8 @@ two parts---this information relates to the weekly video part.
 
 Each week's submission must include:
 
-- a 60 second (+/- 5s) video (with sound, obviously) of computer music work
-  exploring that week's theme
+- a 60 second video (with sound) of your own computer music exploring the week's
+  theme
 
 - all files (e.g. Pd patch files, Extempore source code files, sound files &
   other assets) required to re-produce your submission
@@ -54,10 +54,10 @@ Each week's submission must include:
 
 ### Submission process
 
-You'll submit your 60s video and associated files (as a single zip file) through
-Wattle by Monday 9pm every week (from weeks 2--9 inclusive).
+You must submit your 60s video and associated files as a **single zip file**
+through Wattle by Monday 9pm every week (from weeks 2--9 inclusive).
 
-## Portfolio
+## Portfolio {#portfolio}
 
 {:.info-box}
 
@@ -77,8 +77,9 @@ Instead, you'll be marked through two "portfolio" submissions:
 Each submission must include an 800-word (max) document of your combined (and
 edited) reflections, explaining how each AV diary entry explored the theme and
 creative criteria for that week and reflecting on the collaborative sessions.
-Include figures, screen captures, and code excerpts in your documents as
-necessary.
+Include figures, screenshots, and code excerpts in your documents as necessary.
+You do not need to re-submit the videos---we have them already from your [weekly
+submissions](#weekly-videos).
 
 ### Submission process
 
@@ -87,9 +88,9 @@ week 5 and the end of week 9.
 
 ### Marking criteria {#marking}
 
-Each stage of your portfolio will be assessed entirely based on the submitted
-(pdf) document. The marking criteria (based on the [course learning outcomes]({%
-link 02-outline.md %})) are:
+Each stage of your portfolio is worth 15% of your total mark, and will be
+assessed entirely based on the submitted (pdf) document. The marking criteria
+(based on the [course learning outcomes]({% link 02-outline.md %})) are:
 
 - understanding of **fundamental aspects of music computing** including digital
   synthesis, algorithmic composition and musical interface design
