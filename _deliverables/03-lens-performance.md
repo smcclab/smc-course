@@ -8,7 +8,7 @@ permalink: /deliverables/lens-performance/
 
 ## Outline
 
-- **Due date:** End-of-semester concert (date TBC)
+- **Due date:** Friday May 29 (TBC---subject to venue availability)
 - **Mark weighting:** 50%
 - **Submission:** submit your assignment according to the [instructions
   below](#submission-process)
@@ -18,7 +18,9 @@ permalink: /deliverables/lens-performance/
 ## Description
 
 At the end of semester your **LENS performance** will be assessed in terms of
-quality of the artefact itself and through a live performance.
+quality of the artefact itself and through a live performance. This is the
+culmination of your hard work in the LENS course, and it won't be a dry, boring
+exam---it'll be a live gig that you can invite your friends to.
 
 We are looking for performances (and associated artefacts) that are
 sophisticated in terms of fundamental aspects of music computing, have a high
@@ -29,20 +31,17 @@ collaboration during performance.
 
 There are two representations of your LENS performance:
 
-1. Your **performance materials** (zip file of patches, code, scores,
-   instructions, etc -- everything needed to produce your performance).
+1. the **performance materials** (zip file of patches, code, scores,
+   instructions, etc---everything needed to produce your performance)
 
-2. **Performance of your artefact** at the LENS final concert (we will record
-   the concert).
+2. the **ensemble performance of your artefact** at the LENS final concert (we
+   will record the concert)
 
 ## Marking criteria {#marking}
 
-We will assess your LENS performances from the two representations above. The
-criteria for this mark are:
-
-Your LENS artefact will be assessed based on the two representations
-above. The marking criteria (based on the [course learning
-outcomes]({{site.baseurl}}{% link 02-outline.md %})) are:
+Your LENS artefact will be assessed based on the two representations above. The
+marking criteria (based on the [course learning outcomes]({{site.baseurl}}{%
+link 02-outline.md %})) are:
 
 - sophistication with regards to **fundamental aspects of music
   computing** including digital synthesis, algorithmic composition and
@@ -60,6 +59,5 @@ outcomes]({{site.baseurl}}{% link 02-outline.md %})) are:
 - **presentation and communication** of your LENS artefact through
   performance materials
 
-As you can see the final performance and collaboration with other LENSers are
-important aspects of the assessment, so don't neglect these parts when
-developing your artefact.
+The final performance and collaboration with other LENSers are important aspects
+of the assessment, so don't neglect these parts when developing your artefact.
