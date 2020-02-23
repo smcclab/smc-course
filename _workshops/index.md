@@ -24,7 +24,8 @@ The general schedule/timeline for each workshop is:
 | 15:10 | listen to that week's AV diary submissions                                                  |
 | 15:30 | crit discussion                                                                             |
 | 15:50 | small group jam activity                                                                    |
-| 16:30 | group performances                                                                          |
+| 16:20 | group performances                                                                          |
+| 16:40 | discussion, feedback, questions on notice                                                   |
 
 You can see that this is really not a "sit and listen" experience; the second
 half of each workshop will involve you breaking into small groups and jamming
