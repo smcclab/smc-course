@@ -19,8 +19,8 @@ Each week's content will have a mix of:
 - videos to watch
 - code to read
 - other reading material (papers, blog posts, etc.)
-- a description of the "creative stimulus" challenge for that week's [AV
-  diary]({% link _deliverables/01-audiovisual-diary.md %}) entry
+- a description of the "creative provocation" for that week's [AV diary]({% link
+  _deliverables/01-audiovisual-diary.md %}) entry
 
 ### Week 1: hello sine
 

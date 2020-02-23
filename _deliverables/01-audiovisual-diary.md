@@ -25,8 +25,8 @@ weekly vlog, except that you don't have to say "like and subscribe" at the end.
 
 In this course each week you'll learn about a particular computer music concept
 (through our [flipped lectures]({% link _workshops/index.md %})), and the
-lecture content will include a particular "creative stimulus" for you to respond
-to in your AV diary entry.
+lecture content will include a particular "creative provocation" for you to
+respond to in your AV diary entry.
 
 The videos you'll produce aren't just dumb "box-ticking" deliverables,
 though---we're going to listen to, play with & discuss the things that you and
@@ -58,8 +58,8 @@ Each week's submission must include:
   other assets) required to re-produce your submission (in a subfolder called
   `materials`)
 
-- a 200-word reflection on your work (as a pdf file called
-  `week-N-reflection.pdf`)
+- a 200-word reflection on how your work responds to the weekly provocation (as
+  a pdf file called `week-N-reflection.pdf`)
 
 ### Submission process
 
