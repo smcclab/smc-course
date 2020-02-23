@@ -123,10 +123,23 @@ long as it produces videos in a format which can be processed by
 
 Here are a few suggestions:
 
-- OBS (free, macOS/Windows/Linux)
-- QuickTime Player (free, macOS only)
-- Camtasia (paid, macOS/Windows)
-- Screenflow (paid, macOS only)
+- [OBS](https://obsproject.com) (free, macOS/Windows/Linux)
+- [QuickTime
+  Player](https://support.apple.com/en-au/guide/quicktime-player/qtp97b08e666/mac)
+  (free, macOS only)
+- [Camtasia](https://www.techsmith.com/video-editor.html) (paid, macOS/Windows)
+- [Screenflow](Screenflow) (paid, macOS only)
+
+A few more tips:
+
+1. Some of these tools also have basic video editing features---which you'll
+   probably need if you want to trim your videos to time, cut & stitch separate
+   parts of the video together, etc. However, OBS doesn't really do that, so if
+   you want to use OBS (which is great at what it does) you'll need something to
+   edit the videos as well.
+
+2. When you're recording, make sure it's capturing the direct audio output as
+   well (which can sometimes be a bit tricky).
 
 ## Hardware {#hardware}
 
