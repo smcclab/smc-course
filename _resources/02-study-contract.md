@@ -4,9 +4,9 @@ permalink: /resources/study-contract/
 published: false
 ---
 
-## Independent Study Contract
+# Independent Study Contract
 
-### SECTION A (Students and Supervisors)
+## Section A (Students and Supervisors)
 
 | UID                |                                    |
 | Name               |                                    |
@@ -45,18 +45,41 @@ LENS concert at the end of the course.
 
 ### Assessment
 
-- AV diary portfolio (30%)
-- Performance plan (20%)
-- LENS performance (50%)
+| Project component  | mark | due                                | marker         |
+|--------------------|------|------------------------------------|----------------|
+| AV diary portfolio |  30% | Mar 29 (stage 1), May 10 (stage 2) | Charles Martin |
+| Performance plan   |  20% | Apr 20                             | Charles Martin |
+| LENS performance   |  50% | May 29                             | Ben Swift      |
 
 ### Meeting Dates
 
 - weekly LENS workshop sessions (every Tuesday 3pm--5pm in Marie Reay 3.02)
-- final LENS concert (Friday )
+- final LENS concert (Friday May 29, subject to venue availability)
 
-### Student Declaration:
+### Student Declaration
 
-I agree to the above defined contract.
+I agree to fulfil the above-defined contract:
 
 _Name_: <span style="text-decoration: underline; white-space: pre;">                   </span>
 _Date_: <span style="text-decoration: underline; white-space: pre;">                   </span>
+_Signature_: <span style="text-decoration: underline; white-space: pre;">                   </span>
+
+## Section B
+
+### Supervisor
+
+I am willing to supervise and support this proposal. I have checked the
+student's academic record and believe the student can fulfil this contract. If I
+have nominated an examiner above, I have obtained their consent (via signature
+below or attached email).
+
+_Name_: **Dr Ben Swift**
+_Date_: **25 Feb 2020**
+_Signature_: <span style="text-decoration: underline; white-space: pre;">                   </span>
+
+### Examiner
+
+_Name_: **Dr Charles Martin**
+_Date_: **25 Feb 2020**
+_Signature_: <span style="text-decoration: underline; white-space: pre;">                   </span>
+
