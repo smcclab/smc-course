@@ -37,6 +37,9 @@ There are two representations of your LENS performance:
 2. the **ensemble performance of your artefact** at the LENS final concert (we
    will record the concert)
 
+The final performance and collaboration with other LENSers are important aspects
+of the assessment, so don't neglect these parts when developing your artefact.
+
 ## Marking criteria {#marking}
 
 Your LENS artefact will be assessed based on the two representations above. The
@@ -59,6 +62,3 @@ link 02-outline.md %})) are:
 
 - presentation and communication of your LENS artefact through performance
   materials
-
-The final performance and collaboration with other LENSers are important aspects
-of the assessment, so don't neglect these parts when developing your artefact.
