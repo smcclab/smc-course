@@ -57,8 +57,8 @@ LENS concert at the end of the course.
 
 ### Meeting Dates
 
-- weekly LENS workshop sessions (every Tuesday 3pm--5pm in Marie Reay 3.02)
-- final LENS concert (Friday May 29, subject to venue availability)
+1. weekly LENS workshop sessions (every Tuesday 3pm--5pm in Marie Reay 3.02)
+2. final LENS concert (Friday May 29, subject to venue availability)
 
 ### Student Declaration
 
