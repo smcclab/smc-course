@@ -43,21 +43,22 @@ Your LENS artefact will be assessed based on the two representations above. The
 marking criteria (based on the [course learning outcomes]({{site.baseurl}}{%
 link 02-outline.md %})) are:
 
-- sophistication with regards to **fundamental aspects of music
-  computing** including digital synthesis, algorithmic composition and
-  musical interface design
+- technical quality & ambition of your artefact/performance with regards to the
+  fundamental aspects of music computing covered in this course, including
+  digital synthesis, algorithmic composition and musical interface design
 
-- overall **design/composition quality**
-
-- potential for **expression** during live performance, i.e., level of
+- demonstrated potential for expression during live performance, i.e. level of
   creative control made available to the performers
 
-- potential for **collaboration** with other LENS members
+- demonstrated potential for collaboration with other ensemble members
 
-- **live performance** with your LENS artefact during the concert
+- the staging and performance of your LENS artefact during the concert
+  (including from an audience perspective)
 
-- **presentation and communication** of your LENS artefact through
-  performance materials
+- overall design/composition quality
+
+- presentation and communication of your LENS artefact through performance
+  materials
 
 The final performance and collaboration with other LENSers are important aspects
 of the assessment, so don't neglect these parts when developing your artefact.

@@ -45,17 +45,17 @@ timeslot]({% link _workshops/index.md %}) the following day (Tuesday April 21).
 
 ## Marking criteria {#marking}
 
-Your proposal will be assessed entirely based on the provided (pdf) document. The
-marking criteria (based on the [course learning outcomes]({% link 02-outline.md %})) are:
+Your proposal will be assessed entirely based on the provided (pdf) document.
+The marking criteria (based on the [course learning outcomes]({% link
+02-outline.md %})) are:
 
-- understanding of **fundamental aspects of music computing** including digital
-  synthesis, algorithmic composition and musical interface design
+- technical quality & ambition of your artefact/performance with regards to the
+  fundamental aspects of music computing covered in this course
 
-- understanding of **design and performance issues** around computer music
-  interfaces
+- understanding and engagement with the design and performance challenges around
+  computer music interfaces
 
-- understanding of **collaborative performance** with computer music interfaces
+- scope for collaborative ensemble interaction in your performance
 
-- **critical examination and self-reflection** of your proposal
-
-- **presentation and communication** of your proposed work
+- clarity of communication (words, visual aids, demos) in your in-class
+  presentation

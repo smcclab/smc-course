@@ -40,7 +40,7 @@ _workshops/index.md %})_.
 Remember: the specification & submission instructions for your AV diary are in
 two parts---this information relates to the weekly video part.
 
-### Specification
+### Specification {#weekly-videos-spec}
 
 Each week's submission must include:
 
@@ -61,7 +61,7 @@ Each week's submission must include:
 - a 200-word reflection on how your work responds to the weekly provocation (as
   a pdf file called `week-N-reflection.pdf`)
 
-### Submission process
+### Submission process {#weekly-videos-submission-process}
 
 You must submit your 60sec video and associated files as a **single zip file**
 through Wattle by Monday 9pm every week (from weeks 2--9 inclusive).
@@ -74,7 +74,7 @@ Remember: the specification & submission instructions for your AV diary are in
 two parts---this information relates to the portfolio part (due in weeks 5 & 9
 only).
 
-### Specification
+### Specification {#portfolio-spec}
 
 Even though you submit something every week, you won't receive a mark each week.
 Instead, you'll be marked through two "portfolio" submissions:
@@ -104,15 +104,16 @@ Each stage of your portfolio is worth 15% of your total mark, and will be
 assessed entirely based on the submitted (pdf) document. The marking criteria
 (based on the [course learning outcomes]({% link 02-outline.md %})) are:
 
-- understanding of **fundamental aspects of music computing** including digital
-  synthesis, algorithmic composition and musical interface design
+- demonstration of the **fundamental aspects of music computing** covered in the
+  course including digital synthesis, algorithmic composition and musical
+  interface design
 
-- understanding of **design and performance issues** around computer music
-  interfaces
+- engagement with the weekly provocations, including critical examination and
+  self-reflection on how they shaped your AV diary submissions
 
-- understanding of **collaborative performance** with computer music interfaces
+- clarity of communication, overall narrative structure of the portfolio (i.e.
+  does it read like a cohesive document, or just like 4x 200-word reflections
+  copy-pasted together?)
 
-- **critical examination and self-reflection** on your audiovisual diary entries
-
-- **presentation and communication** of your intention, process, and evaluation
-  through your audiovisual diary entries
+- adherence to the [spec](#weekly-videos-spec) & [submission
+  deadlines](#weekly-videos-submission-deadlines) for the weekly videos
