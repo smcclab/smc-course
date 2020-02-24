@@ -139,7 +139,10 @@ A few more tips:
    edit the videos as well.
 
 2. When you're recording, make sure it's capturing the direct audio output as
-   well (which can sometimes be a bit tricky).
+   well (which can sometimes be a bit tricky). With OBS on macOS, this can be
+   tricky---you might need to use something like
+   [BlackHole](https://github.com/ExistentialAudio/BlackHole) to route the audio
+   into OBS so that it records properly.
 
 ## Hardware {#hardware}
 
