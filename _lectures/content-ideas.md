@@ -20,6 +20,7 @@ whatever you like for now, I'll clean it up before the students see it.
 - getting started with Pd (Charles) ([YouTube](https://youtu.be/AC7-MpwIZ8w))
 - Volume control <https://www.youtube.com/watch?v=3S0zArnj2II>
 - Midi notes <https://www.youtube.com/watch?v=27r4JgPbiJE>
+- Folder of PD and computer music and synthesis resources <https://www.dropbox.com/sh/q2drp5nx2mu0tyc/AABSlmkC31JrehP5z19EHhQXa?dl=0>
 
 ### Week 3: sampling I
 
