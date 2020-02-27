@@ -48,6 +48,18 @@ submission]({% link _deliverables/01-audiovisual-diary.md %}) on Monday of week
 
 what does a conversation between waveforms sound like?
 
+### Pre-reading/watching
+
+In addition to the week 1 stuff above (which is still relevant) here's a quick
+video with some tips about sound-making.
+
+{% include video.html video="lecture-recordings/2019/week-2-hello-sine" %}
+
+Here are the links that I mention at the end of the video:
+
+- [Programming Electronic Music in Pd](http://www.pd-tutorial.com/english/index.html)
+- [Charles' examples](https://github.com/cpmpercussion/ComputerMusicIntro)
+
 ### Week 3: sampling I
 
 ### Week 4: envelopes & note structure
