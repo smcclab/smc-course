@@ -1,7 +1,7 @@
 ---
 title: "Welcome to LENS 2019"
-permalink: /lens/1-welcome/
 layout: reveal
+permalink: /lectures/welcome/
 hidden: true
 ---
 

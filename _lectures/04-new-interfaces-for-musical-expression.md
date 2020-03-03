@@ -1,7 +1,7 @@
 ---
 title: "New Interfaces for Musical Expression"
 layout: reveal
-permalink: /lens/4-interfaces/
+permalink: /lectures/new-interfaces-for-musical-expression/
 hidden: true
 ---
 

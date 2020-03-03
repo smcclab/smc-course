@@ -1,7 +1,7 @@
 ---
 title: "Algorithmic Composition with Pure Data"
 layout: reveal
-permalink: /lens/3-algocomp/
+permalink: /lectures/algorithmic-composition/
 hidden: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Digital Synthesis with Pure Data"
 layout: reveal
-permalink: /lens/2-digitalsynth-pd/
+permalink: /lectures/digital-synthesis/
 hidden: true
 ---
 
