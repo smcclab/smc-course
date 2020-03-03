@@ -61,6 +61,18 @@ Each week's submission must include:
 - a 200-word reflection on how your work responds to the weekly provocation (as
   a pdf file called `week-N-reflection.pdf`)
 
+In other words, the structure of your folder (before you zip it up and submit
+it) should look something like this:
+
+```
+.
+├── materials
+│   ├── my-story.pd
+│   └── childhood-sound.wav
+├── week-3-reflection.pdf
+└── week-3.mp4
+```
+
 ### Submission process {#weekly-videos-submission-process}
 
 You must submit your 60sec video and associated files as a **single zip file**
