@@ -62,6 +62,10 @@ Here are the links that I mention at the end of the video:
 
 ### Week 3: sampling I
 
+{:.diary-provocation-box}
+
+tell us something about yourself through sampled sounds
+
 ### Week 4: envelopes & note structure
 
 ### Week 5: controllers
