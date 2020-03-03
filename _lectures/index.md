@@ -66,6 +66,11 @@ Here are the links that I mention at the end of the video:
 
 tell us something about yourself through sampled sounds
 
+### Pre-reading/watching
+
+- [Charles' Pd examples (from no. 11
+  onwards)](https://github.com/cpmpercussion/ComputerMusicIntro)
+
 ### Week 4: envelopes & note structure
 
 ### Week 5: controllers
