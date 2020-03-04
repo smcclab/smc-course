@@ -75,6 +75,7 @@ tell us something about yourself through sampled sounds
 - [Documentary on sampling](https://www.youtube.com/watch?v=-HZOdRaeXmA)
 - [Composer Katie Gately talks about her practice](https://youtu.be/b0ztmM1tpeE)
 - [A short documentary exploring new frontiers in field recordings. Featuring Nabihah Iqbal, Equiknoxx, Lawrence English, Lonelady, David Chatton Barker, Félicia](https://www.youtube.com/watch?v=esfUwg1-xrI)
+- [Alvin Lucier: I am sitting in a room (super famous live sample-based piece)](https://www.youtube.com/watch?v=fAxHlLK3Oyk)
 
 ### Week 4: envelopes & note structure
 
