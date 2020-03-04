@@ -11,7 +11,7 @@ GIT
 
 GIT
   remote: https://gitlab.cecs.anu.edu.au/lucy/jekyll-theme-cecs.git
-  revision: dc6fcff21a3ebada9e6e1d2ac6d77097c979f3d5
+  revision: 733f14fe349538a0615a5bb13c32aa5f97114ced
   branch: master
   specs:
     jekyll-theme-cecs (2.0.0.beta)
@@ -65,7 +65,7 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
     mini_portile2 (2.4.0)
-    nokogiri (1.10.8)
+    nokogiri (1.10.9)
       mini_portile2 (~> 2.4.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
