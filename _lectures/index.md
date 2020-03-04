@@ -59,6 +59,7 @@ tell us something about yourself through sampled sounds
 
 - [Charles' Pd examples (from no. 11
   onwards)](https://github.com/cpmpercussion/ComputerMusicIntro)
+- [Section 3.4 of the _Programming Electronic Music in Pd_ book](http://www.pd-tutorial.com/english/ch03s04.html)
 - [A guide to Pierre Schaeffer, the founder of Musique Concrete and sampling](https://www.factmag.com/2016/02/23/pierre-schaeffer-guide/)
 - [Great documentary on Pierre Henry, one of the founding fathers of sampling and Musique Concrete](https://youtu.be/Zsb1w-3iFa8)
 - [Documentary on sampling](https://www.youtube.com/watch?v=-HZOdRaeXmA)
