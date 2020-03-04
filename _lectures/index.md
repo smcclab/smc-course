@@ -24,17 +24,6 @@ Each week's content will have a mix of:
 
 ### Week 1: hello sine
 
-{:.info-box}
-
-**Note**: for week 1, you don't have to submit an AV diary entry before the
-[week 1 workshop timeslot]({% link _workshops/index.md %}). However, if you do
-want to do something to prepare for the course, head to the tools page for
-[instructions on how to install Pd on your laptop]({% link
-_resources/02-tools.md %}#pure-data)---maybe even try making a screen recording
-just to check that you've got everything set up ready for your first [AV diary
-submission]({% link _deliverables/01-audiovisual-diary.md %}) on Monday of week
-2.
-
 ### Pre-reading/watching
 
 - [installing Pd on your laptop]({% link _resources/02-tools.md %}#pure-data)
