@@ -4,9 +4,9 @@ permalink: /lectures/
 hidden: true
 ---
 
-Here's links to the weekly "lecture" content. However, this isn't an in-person
-lecture; it's a flipped course. So you need to read & watch the content each
-week, then submit your [weekly AV diary entry]({% link
+Here the weekly "lecture" content. However, this isn't an in-person lecture;
+it's a flipped course. So you need to read & watch the content each week, then
+submit your [weekly AV diary entry]({% link
 _deliverables/01-audiovisual-diary.md %}) before the [workshop]({% link
 _workshops/index.md %}) timeslot.
 
