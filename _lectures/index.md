@@ -69,7 +69,7 @@ tell us something about yourself through sampled sounds
 
 {:.diary-provocation-box}
 
-what does a conversation between waveforms sound like?
+make something your parents would _hate_
 
 ### Week 5: controllers
 
