@@ -29,7 +29,7 @@ Each week's content will have a mix of:
 - [Stanford Laptop Orchestra - Twilight (2013)](https://www.youtube.com/watch?v=chA-4GRCb-I)
 - [Princeton Laptop Orchestra - Interference (2019)](https://www.youtube.com/watch?v=C-5P3hXuGfs)
 
-### Week 2: synthesis I
+### Week 2: synthesis 1
 
 {:.diary-provocation-box}
 
@@ -47,7 +47,7 @@ Here are the links that I mention at the end of the video:
 - [Programming Electronic Music in Pd](http://www.pd-tutorial.com/english/index.html)
 - [Charles' examples](https://github.com/cpmpercussion/ComputerMusicIntro)
 
-### Week 3: sampling I
+### Week 3: sampling 1
 
 {:.diary-provocation-box}
 
@@ -67,19 +67,23 @@ tell us something about yourself through sampled sounds
 
 ### Week 4: envelopes & note structure
 
+{:.diary-provocation-box}
+
+what does a conversation between waveforms sound like?
+
 ### Week 5: controllers
 
-### Week 6: algorithmic composition I
+### Week 6: algorithmic composition 1
 
 <p style="line-height:3; background:#eee;"><em>mid-sem break</em></p>
 
 ### Week 7: ensemble interaction
 
-### Week 8: synthesis II
+### Week 8: synthesis 2
 
-### Week 9: sampling II
+### Week 9: sampling 2
 
-### Week 10: algorithmic composition II
+### Week 10: algorithmic composition 2
 
 ### Week 11: performance & staging
 
