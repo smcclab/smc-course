@@ -1,6 +1,7 @@
 ---
 title: "Week 4: envelopes & note structure"
 summary: shaping sound in the short (and long) term
+hidden: true
 ---
 
 {:.diary-provocation-box}
