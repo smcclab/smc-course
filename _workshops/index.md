@@ -12,7 +12,7 @@ Before you attend the workshop you must have read the corresponding [lecture
 material]({% link _workshops/index.md %}) and have submitted your weekly [AV
 diary video]({% link _deliverables/01-audiovisual-diary.md %}).
 
-## Workshop schedule
+### Workshop schedule
 
 The general schedule/timeline for each workshop is:
 
