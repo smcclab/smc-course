@@ -6,7 +6,7 @@ permalink: /deliverables/plan/
 
 {% include toc.html %}
 
-## Outline
+### Outline
 
 - **Due date:** 9pm Monday April 20
 - **Mark weighting:** 20%
@@ -15,13 +15,13 @@ permalink: /deliverables/plan/
 - **Policies:** for late policies, academic integrity policies, etc. see the
   [policies page]({% link 01-policies.md %})
 
-## Description
+### Description
 
 In the week 7 workshop session you will give an in-class presentation describing
 your plan for your final LENS performance, and also submit a document describing
 your LENS performance and how it will address the assessment criteria.
 
-## Specification
+### Specification
 
 Your submission must include:
 
@@ -36,14 +36,14 @@ a 10 minute in-class presentation, you may have slides and a live demo if you
 wish (although you must submit these ahead of time---see
 [below](#submission-process)).
 
-## Submission process {#submission-process}
+### Submission process {#submission-process}
 
 You must submit your document, slides and associated files as a **single zip
 file** through Wattle by 9pm on Monday April 20 (week 7). All students will
 present their work to the rest of the LENS cohort during the week 7 [workshop
 timeslot]({% link _workshops/index.md %}) the following day (Tuesday April 21).
 
-## Marking criteria {#marking}
+### Marking criteria {#marking}
 
 Your proposal will be assessed entirely based on the provided (pdf) document.
 The marking criteria (based on the [course learning outcomes]({% link

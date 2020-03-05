@@ -12,8 +12,6 @@ _workshops/index.md %}) timeslot.
 
 {% include toc.html %}
 
-## Weekly topic schedule
-
 Each week's content will have a mix of:
 
 - videos to watch
@@ -24,7 +22,7 @@ Each week's content will have a mix of:
 
 ### Week 1: hello sine
 
-### Pre-reading/watching
+#### Pre-reading/watching
 
 - [installing Pd on your laptop]({% link _resources/02-tools.md %}#pure-data)
 - getting started with Pd (Charles) ([YouTube](https://youtu.be/AC7-MpwIZ8w))
@@ -37,7 +35,7 @@ Each week's content will have a mix of:
 
 what does a conversation between waveforms sound like?
 
-### Pre-reading/watching
+#### Pre-reading/watching
 
 In addition to the week 1 stuff above (which is still relevant) here's a quick
 video with some tips about sound-making.
@@ -55,7 +53,7 @@ Here are the links that I mention at the end of the video:
 
 tell us something about yourself through sampled sounds
 
-### Pre-reading/watching
+#### Pre-reading/watching
 
 - [Charles' Pd examples (from no. 11
   onwards)](https://github.com/cpmpercussion/ComputerMusicIntro)

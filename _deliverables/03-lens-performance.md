@@ -6,7 +6,7 @@ permalink: /deliverables/lens-performance/
 
 {% include toc.html %}
 
-## Outline
+### Outline
 
 - **Due date:** Friday May 29 (TBC---subject to venue availability)
 - **Mark weighting:** 50%
@@ -15,7 +15,7 @@ permalink: /deliverables/lens-performance/
 - **Policies:** for late policies, academic integrity policies, etc. see the
   [policies page]({% link 01-policies.md %})
 
-## Description
+### Description
 
 At the end of semester your **LENS performance** will be assessed in terms of
 quality of the artefact itself and through a live performance. This is the
@@ -27,7 +27,7 @@ sophisticated in terms of fundamental aspects of music computing, have a high
 design/compositional quality, and that allow a high level of expression and
 collaboration during performance.
 
-## Specification
+### Specification
 
 There are two representations of your LENS performance:
 
@@ -40,7 +40,7 @@ There are two representations of your LENS performance:
 The final performance and collaboration with other LENSers are important aspects
 of the assessment, so don't neglect these parts when developing your artefact.
 
-## Marking criteria {#marking}
+### Marking criteria {#marking}
 
 Your LENS artefact will be assessed based on the two representations above. The
 marking criteria (based on the [course learning outcomes]({{site.baseurl}}{%

@@ -17,7 +17,7 @@ want a COMP permission code) or [Alec
 Hunter](mailto:alexander.hunter@anu.edu.au) (if you want a MUSI permission code)
 to join up.
 
-## LENS Semester 1, 2020
+### LENS Semester 1, 2020
 
 Do you want to make music with your computer? Do you want create new kinds of
 musical instruments? Do you want to be a part of a laptop band? **This is the

@@ -3,7 +3,7 @@ title: Outline
 permalink: /outline/
 ---
 
-## Learning outcomes {#learning-outcomes}
+### Learning outcomes {#learning-outcomes}
 
 Upon successful completion of this course, students will be able to:
 
@@ -21,7 +21,7 @@ Upon successful completion of this course, students will be able to:
 5. Demonstrate **collaboration skills** with a laptop ensemble including
    being able to provide **design feedback** and **critical self-reflection**.
 
-## Semester 1 2020 details
+### Semester 1 2020 details
 
 - **Mode of Delivery:** on-campus
 - **Prerequisites:**

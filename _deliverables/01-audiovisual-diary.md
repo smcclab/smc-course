@@ -6,7 +6,7 @@ permalink: /deliverables/audiovisual-diary/
 
 {% include toc.html %}
 
-## Outline
+### Outline
 
 - **Due date:** 
   - 60sec video submissions due 9pm every Monday in weeks 2--9
@@ -17,7 +17,7 @@ permalink: /deliverables/audiovisual-diary/
 - **Policies:** for late policies, academic integrity policies, etc. see the
   [policies page]({% link 01-policies.md %})
 
-## Description
+### Description
 
 Your audiovisual (AV) diary is a way to try things, keep track of ideas and
 generally develop your creative practice through a series of videos. It's like a
@@ -33,14 +33,14 @@ though---we're going to listen to, play with & discuss the things that you and
 your classmates have made _during the [workshop timeslot]({% link
 _workshops/index.md %})_.
 
-## Weekly videos {#weekly-videos}
+### Weekly videos {#weekly-videos}
 
 {:.info-box}
 
 Remember: the specification & submission instructions for your AV diary are in
 two parts---this information relates to the weekly video part.
 
-### Specification {#weekly-videos-spec}
+#### Specification {#weekly-videos-spec}
 
 Each week's submission must include:
 
@@ -73,12 +73,12 @@ it) should look something like this:
 └── week-3.mp4
 ```
 
-### Submission process {#weekly-videos-submission-process}
+#### Submission process {#weekly-videos-submission-process}
 
 You must submit your 60sec video and associated files as a **single zip file**
 through Wattle by Monday 9pm every week (from weeks 2--9 inclusive).
 
-## Portfolio {#portfolio}
+### Portfolio {#portfolio}
 
 {:.info-box}
 
@@ -86,7 +86,7 @@ Remember: the specification & submission instructions for your AV diary are in
 two parts---this information relates to the portfolio part (due in weeks 5 & 9
 only).
 
-### Specification {#portfolio-spec}
+#### Specification {#portfolio-spec}
 
 Even though you submit something every week, you won't receive a mark each week.
 Instead, you'll be marked through two "portfolio" submissions:
@@ -105,12 +105,12 @@ screenshots, and code excerpts in your documents as necessary. You do not need
 to re-submit the videos---we have them already from your [weekly
 submissions](#weekly-videos).
 
-### Submission process
+#### Submission process
 
 Submit each document (in pdf format) through Wattle by 11:59pm on the due date
 (March 29/May 10).
 
-### Marking criteria {#marking}
+#### Marking criteria {#marking}
 
 Each stage of your portfolio is worth 15% of your total mark, and will be
 assessed entirely based on the submitted (pdf) document. The marking criteria
