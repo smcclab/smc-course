@@ -24,9 +24,9 @@ generally develop your creative practice through a series of videos. It's like a
 weekly vlog, except that you don't have to say "like and subscribe" at the end.
 
 In this course each week you'll learn about a particular computer music concept
-(through our [flipped lectures]({% link _lectures/index.md %})), and the lecture
-content will include a particular "creative provocation" for you to respond to
-in your AV diary entry.
+(through our [flipped lectures]({% link _workshops/index.md %})), and the
+lecture content will include a particular "creative provocation" for you to
+respond to in your AV diary entry.
 
 The videos you'll produce aren't just dumb "box-ticking" deliverables,
 though---we're going to listen to, play with & discuss the things that you and
