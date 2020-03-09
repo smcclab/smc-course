@@ -24,9 +24,9 @@ generally develop your creative practice through a series of videos. It's like a
 weekly vlog, except that you don't have to say "like and subscribe" at the end.
 
 In this course each week you'll learn about a particular computer music concept
-(through our [flipped lectures]({% link _workshops/index.md %})), and the
-lecture content will include a particular "creative provocation" for you to
-respond to in your AV diary entry.
+(through our [flipped lectures]({% link _lectures/index.md %})), and the lecture
+content will include a particular "creative provocation" for you to respond to
+in your AV diary entry.
 
 The videos you'll produce aren't just dumb "box-ticking" deliverables,
 though---we're going to listen to, play with & discuss the things that you and
@@ -46,7 +46,7 @@ Each week's submission must include:
 
 - a 60 second video of your own work exploring the week's theme, which
   - has the filename `week-N.mp4` or `week-N.mkv` (with `N` replaced by the week
-    number)
+    number of the submission date, so the first submission is `week-2`)
   - is 1920x1080 (full HD) resolution
   - has sound (obviously!)
   - uses one of the [computer music software environments we're covering in this
@@ -77,6 +77,23 @@ it) should look something like this:
 
 You must submit your 60sec video and associated files as a **single zip file**
 through Wattle by Monday 9pm every week (from weeks 2--9 inclusive).
+
+#### Tips on making a good weekly video
+
+1. small & focussed is ok---you don't have to build a huge thing every week
+
+2. think deeply about the provocation: brainstorm 10 ideas, try out 3 of them,
+   pick the best 1 (this will help with the "small & focussed" aspect as well)
+
+3. you don't have to record it all in one take---you can record several
+   screencasts and cut together the best bits
+
+4. think about the layout of your patch (font size, object positions, comments,
+   etc.) to make sure it's going to be interesting _viewing_ (as well as
+   listening)
+
+5. if you saw something interesting in a classmate's video the previous week,
+   ask them (on Slack) how they did it
 
 ### Portfolio {#portfolio}
 
