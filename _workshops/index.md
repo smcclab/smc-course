@@ -8,13 +8,11 @@ The primary weekly contact hours are the Tuesday 3pm-5pm workshop (in [Marie
 Reay 3.02](https://www.anu.edu.au/maps#show=108136))---if you're enrolled in the
 class, you need to be there every week.
 
-Before you attend the workshop you must have read the corresponding [lecture
-material]({% link _workshops/index.md %}) and have submitted your weekly [AV
-diary video]({% link _deliverables/01-audiovisual-diary.md %}).
+_Before_ you attend the workshop you must have read the corresponding lecture
+material (see below) and have submitted your weekly [AV diary video]({% link
+_deliverables/01-audiovisual-diary.md %}).
 
-### Workshop schedule
-
-The general schedule/timeline for each workshop is:
+The timeline for each workshop is:
 
 {:style="width:100%; margin-bottom:2em;"}
 
@@ -27,10 +25,14 @@ The general schedule/timeline for each workshop is:
 | 16:20 | group performances                                                                          |
 | 16:40 | discussion, feedback, questions on notice                                                   |
 
-You can see that this is really not a "sit and listen" experience; the second
-half of each workshop will involve you breaking into small groups and jamming
-away, then presenting back to the class at the end.
+### Weekly content
 
-So you'll need to bring your laptop with the [relevant software installed]({%
-link _resources/02-tools.md %}) (let us know if that's an issue and we'll be
-able to help you out with a loaner laptop for the semester).
+Each week's content includes:
+
+- a description of the "creative provocation" for that week's [AV diary]({% link
+  _deliverables/01-audiovisual-diary.md %}) entry
+- videos to watch
+- code to read
+- other reading material (papers, blog posts, etc.)
+
+{% include postlist.html posts=site.lectures show_date=false %}

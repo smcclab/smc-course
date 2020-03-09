@@ -56,21 +56,17 @@ cecs:
       url: https://www.anu.edu.au/study
 
 collections:
-  lectures:
-    output: true
-    display_order: 1
-    permalink: /lectures/:path/
   workshops:
     output: true
-    display_order: 2
+    display_order: 1
     permalink: /workshops/:path/
   deliverables:
     output: true
-    display_order: 3
+    display_order: 2
     permalink: /deliverables/:path/
   resources:
     output: true
-    display_order: 4
+    display_order: 3
     permalink: /resources/:path/
 
 ##################
