@@ -35,4 +35,4 @@ Each week's content includes:
 - code to read
 - other reading material (papers, blog posts, etc.)
 
-{% include postlist.html posts=site.workshops show_date=false %}
+{% include postlist.html posts=site.workshops %}
