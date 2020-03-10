@@ -4,6 +4,8 @@ permalink: /workshops/
 hidden: true
 ---
 
+## {{ page.title }}
+
 The primary weekly contact hours are the Tuesday 3pm-5pm workshop (in [Marie
 Reay 3.02](https://www.anu.edu.au/maps#show=108136))---if you're enrolled in the
 class, you need to be there every week.

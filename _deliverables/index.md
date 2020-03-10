@@ -4,6 +4,8 @@ permalink: /deliverables/
 hidden: true
 ---
 
+## {{ page.title }}
+
 Half of your assessment for this course is based on your analysis & reflection
 on the key computer music concepts presented in the course, as demonstrated
 through your [portfolio]({% link _deliverables/01-audiovisual-diary.md %}) (30%)
