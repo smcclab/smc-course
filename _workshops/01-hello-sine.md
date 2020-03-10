@@ -14,7 +14,7 @@ started ahead of time.
 ### Inspiration
 
 And, just for inspo, have a look at some of the most famous Laptop Orchestras
-(_LOrk_s) in the world.
+(<em>LOrk</em>s) in the world.
 
 - [Stanford Laptop Orchestra - Twilight (2013)](https://www.youtube.com/watch?v=chA-4GRCb-I)
 - [Princeton Laptop Orchestra - Interference (2019)](https://www.youtube.com/watch?v=C-5P3hXuGfs)
