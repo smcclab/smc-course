@@ -1,5 +1,5 @@
 ---
-title: Tools 
+title: Tools
 summary: What tools (software & hardware) do you need to take part in LENS? Let's take a look.
 permalink: /resources/tools/
 ---
