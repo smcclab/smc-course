@@ -26,7 +26,6 @@ signal and hearing what those transformations sound like.
     That [Synthesizer wikipedia page](https://en.wikipedia.org/wiki/Synthesizer)
     has several links to these fundamental techniques in the opening paragraph.
 
-
 ### Goals for this week
 
 1. to learn what an oscillator _sounds_ like
