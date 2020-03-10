@@ -38,7 +38,7 @@ whatever you like for now, I'll clean it up before the students see it.
 
 ### Week 4: envelopes & note structure
 
-- Envelopes <https://www.youtube.com/watch?v=gqpvIwYko3o>
+- [PureData tutorials - rich synthesis (2) - simple envelopes](https://www.youtube.com/watch?v=gqpvIwYko3o)
 
 #### provocations
 
