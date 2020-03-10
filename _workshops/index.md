@@ -14,6 +14,14 @@ _Before_ you attend the workshop you must have read the corresponding lecture
 material (see below) and have submitted your weekly [AV diary video]({% link
 _deliverables/01-audiovisual-diary.md %}).
 
+Each week's content includes:
+
+- a description of the "creative provocation" for that week's [AV diary]({% link
+  _deliverables/01-audiovisual-diary.md %}) entry
+- videos to watch
+- code to read
+- other reading material (papers, blog posts, etc.)
+
 The timeline for each workshop is:
 
 {:style="width:100%; margin-bottom:2em;"}
@@ -26,15 +34,5 @@ The timeline for each workshop is:
 | 15:50 | small group jam activity                                                                    |
 | 16:20 | group performances                                                                          |
 | 16:40 | discussion, feedback, questions on notice                                                   |
-
-### Weekly content
-
-Each week's content includes:
-
-- a description of the "creative provocation" for that week's [AV diary]({% link
-  _deliverables/01-audiovisual-diary.md %}) entry
-- videos to watch
-- code to read
-- other reading material (papers, blog posts, etc.)
 
 {% include postlist.html posts=site.workshops %}
