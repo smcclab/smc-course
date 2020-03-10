@@ -6,8 +6,12 @@ summary: your first beeps and boops
 Not much pre-reading for week 1, but here are some links if you want to get
 started ahead of time.
 
+### Pd resources
+
 - [installing Pd on your laptop]({% link _resources/02-tools.md %}#pure-data)
 - getting started with Pd (Charles) ([YouTube](https://youtu.be/AC7-MpwIZ8w))
+
+### Inspiration
 
 And, just for inspo, have a look at some of the most famous Laptop Orchestras
 (_LOrk_s) in the world.

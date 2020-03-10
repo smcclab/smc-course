@@ -6,8 +6,10 @@ summary: so what types of beeps and boops can we make, actually?
 {:.diary-provocation-box}
 what does a conversation between waveforms sound like?
 
-In addition to the week 1 stuff above (which is still relevant) here's a quick
-video with some tips about sound-making.
+In addition to the [week 1 stuff]({% link _workshops/01-hello-sine.md %}) (which
+is still relevant) here's a quick video with some tips about sound-making.
+
+### Pd resources
 
 {% include video.html video="lecture-recordings/2019/week-2-hello-sine" %}
 

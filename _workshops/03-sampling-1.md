@@ -9,7 +9,14 @@ tell us something about yourself through sampled sounds
 Working with samples is really fun and has a huge range of possibilities, so here
 are a few thoughts to get you started.
 
-### Why use found sounds, sampling and field recordings? 
+### Pd resources
+
+- [Charles' Pd examples (from no. 11 onwards)](https://github.com/cpmpercussion/ComputerMusicIntro)
+- [Section 3.4 of the _Programming Electronic Music in Pd_ book](http://www.pd-tutorial.com/english/ch03s04.html)
+
+### Theory
+
+#### Why use found sounds, sampling and field recordings?
 
 - Introduce new and dynamic melodic/sonic and rhythmic material
 - Create a sense of space/place
@@ -17,7 +24,7 @@ are a few thoughts to get you started.
 - Inject meaning via speech or recognisable sounds 
 - Intertextual references and postmodern juxtapositions 
 
-### Sampling started(?) with _Musique Concrète_
+#### Sampling started(?) with _Musique Concrète_
 
 - Two main composers at the start of the movement: Pierre Schaeffer
 (1910-'95) and Pierre Henry (b. 1927)
@@ -28,7 +35,7 @@ physical objects
 records! No tape yet in France. The piano sounds were supplied by
 composer/pianist, Pierre Boulez, and it was premiered via radio 
 
-### Things to consider when using samples:
+#### Things to consider when using samples:
 
 - What is your sample, and what kind(s) of meaning does it have: In its
 original context, Out of context 
@@ -36,7 +43,7 @@ original context, Out of context
 - Do you want to preserve some of the original meaning (keep it recognisable)
 or strip the clip of its meaning (usually short samples)?
 
-### Content/copyright
+#### Content/copyright
 
 - In this course (and maybe even in your own practice), go for it
 - In general, in an academic context, where there is no money flowing, use
@@ -47,7 +54,7 @@ this/these sound/s 'other' an individual or group? (2) Consent; Feel free
 to record in public spaces. If you can make out specific voices and/or names,
 get consent.
  
-### Think about variables/parameters 
+#### Think about variables/parameters
 
 - Pitch: You can usually get 4 MIDI notes (semitones) in either direction
 before the sample starts to have too many artefacts/get weird (which might be
@@ -60,7 +67,7 @@ random selections
 mirror images as a compositional tool? E.g. Maybe the user/performer can
 control which direction the sample is played in.
 
-### Three examples of ways to control samples in an electronic music context 
+#### Three examples of ways to control samples in an electronic music context
 
 - Automated and sequenced---think of drum machines (doesn't have to be a
 'regular' beat)
@@ -70,7 +77,7 @@ MIDI saxophone
 - Played 'as is'---maybe there is a field recording that acts as a
 backdrop for the rest of the sounds in your composition 
 
-### Some things you might consider when choosing a sample
+#### Some things you might consider when choosing a sample
 
 - Are you coming from a musical or extramusical starting point? (1) I want a
 particular kind of sound---e.g. short, sharp, unpitched attack, (2) I want a
@@ -81,11 +88,8 @@ up, radio ad, etc.)
 try to get rid of it, or work with it? 
 - Would it be easier to synthesise the sound I want? 
 
-### More links
+#### What else can I read/watch to learn more about this stuff?
 
-- [Charles' Pd examples (from no. 11
-  onwards)](https://github.com/cpmpercussion/ComputerMusicIntro)
-- [Section 3.4 of the _Programming Electronic Music in Pd_ book](http://www.pd-tutorial.com/english/ch03s04.html)
 - [A guide to Pierre Schaeffer, the founder of Musique Concrete and sampling](https://www.factmag.com/2016/02/23/pierre-schaeffer-guide/)
 - [Great documentary on Pierre Henry, one of the founding fathers of sampling and Musique Concrete](https://youtu.be/Zsb1w-3iFa8)
 - [Documentary on sampling](https://www.youtube.com/watch?v=-HZOdRaeXmA)
