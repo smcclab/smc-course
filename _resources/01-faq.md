@@ -16,6 +16,10 @@ The laptop is a legit musical/visual instrument, and the ANU Laptop Ensemble
 (LENS; _est. 2018_) exists to explore different ways to use this instrument in a
 group performance.
 
+More concretely, LENS is a course in computer music making and laptop
+performance open to ANU students in music, art, computer science, and anywhere
+on campus you can take a COMP2xxx or MUSI2xxx elective.
+
 Laptop Ensemble links:
 
 - [Youtube Channel](https://www.youtube.com/channel/UCIU6SqIS02GJlnLOPqlwmpA)
@@ -130,8 +134,11 @@ creative purposes best as the semester progresses.
 
 ### I wanna be a part of this---what's the next step?
 
-Just send [Ben an email](mailto:ben.swift@anu.edu.au) (as described above) and
-he can begin the process of giving you a permission code.
+You'll need a permission code to enrol, so check out the info on this course
+website (including this FAQ) to understand what you're getting yourself in for,
+then get in touch with [Ben Swift](mailto:ben.swift@anu.edu.au) (if you want a
+COMP permission code) or [Alec Hunter](mailto:alexander.hunter@anu.edu.au) (if
+you want a MUSI permission code) to join up.
 
 ### What's with the Wattle site for this course? {#wattle-site-for-this-course}
 
