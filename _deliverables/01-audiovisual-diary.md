@@ -73,6 +73,11 @@ it) should look something like this:
 └── week-3.mp4
 ```
 
+Note: if you're _not_ willing to share your patch files & other materials with
+other LENSers, let [Ben](mailto:ben.swift@anu.edu.au) know asap. The default
+will be that everyone's patch files will be shared (just within this LENS
+cohort).
+
 #### Submission process {#weekly-videos-submission-process}
 
 You must submit your 60sec video and associated files as a **single zip file**
