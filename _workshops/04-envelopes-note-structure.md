@@ -6,36 +6,54 @@ summary: shaping sound in the short (and long) term
 {:.diary-provocation-box}
 the long and the short of it is...
 
+The past two weeks of workshops have shown several different ways to create
+sound "sources"; single oscillators, more complex networks of oscillators &
+filters, soundfile playback objects, noise sources, etc. In building your
+patches for performance, you've even found several different ways to shape the
+relative trajectories of these sound sources over time; such as multiplying
+signals with slider values.
+
+This week, we look at
+[envelopes](https://en.wikipedia.org/wiki/Envelope_(music))---the more general
+term for this type of "sound event shaping". Envelopes are a key part of taking
+the "raw signals" you've been generating so far and shaping them into more
+structured and recognisable musical elements like notes, bars, choruses, and
+movements.
+
+![]({{site.baseurl}}/assets/digital-synthesis/envelope-sound.png){:style="width:100%;"}
+
+### Goals for this week
+
+1. be able to control the sound sources in your patch in a reliable & repeatable
+   manner
+
+2. to explore how different envelope parameters can be used from a compositional
+   perspective
+
 ### Pd resources
 
 - [Charles' Pd examples (start with
   `11-EnvelopeGenerator.pd`)](https://github.com/cpmpercussion/ComputerMusicIntro)
 - [PureData tutorials - rich synthesis (2) - simple
   envelopes](https://www.youtube.com/watch?v=gqpvIwYko3o)
-- the Pd help for the `line~` & `vline~` objects
+- the Pd help for the `line~` & `vline~` objects, as well as the `bang` and
+  `metro` objects for triggering your envelopes
+  
+![]({{site.baseurl}}/assets/digital-synthesis/pd-using-vline.png){:style="width:100%;"}
 
-### Theory
+### Things to think about
 
-Notes need a dynamic shape over time, right?
+- does an envelope have to control the _amplitude_ of a sound source? or can it
+  control other things? can envelopes control other envelopes?
 
-![]({{site.baseurl}}/assets/digital-synthesis/envelope-sound.png){:style="width:95%;"}
+- when is an ADSR (attack-decay-sustain-release) envelope the right choice, and
+  when do you want a different type of envelope?
 
-Combining `vline~` and `*~` turns the sound up and down to shape a note.
+- can you take a patch (or part of a patch) that you've made in a previous week
+  and add an envelope to it? you might want to try the `metro` object to
+  generate a sequence of "bangs" to keep triggering your envelope generator
 
-![]({{site.baseurl}}/assets/digital-synthesis/pd-envelope.png)
-
-Here's a `vline` envelope
-
-![]({{site.baseurl}}/assets/digital-synthesis/pd-using-vline.png){:style="width:80%;"}
-
-#### Exercise:
-
-Take one of the sound generation things (e.g. a synth or a sampler) that you've
-made in a previous week and add an envelope to it. You might want to try the
-`metro` object to generate a sequence of "bangs" to keep triggering your
-envelope generator.
-
-#### Further reading
-
-- [ADSR Envelopes: How to Build The Perfect
+- for some further reading, [look on teh
+  Googlez](https://www.google.com/search?hl=en&q=adsr%20envelope), e.g. [ADSR
+  Envelopes: How to Build The Perfect
   Sound](https://blog.landr.com/adsr-envelopes-infographic/)
