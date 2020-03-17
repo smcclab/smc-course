@@ -1,5 +1,5 @@
 ---
-title: "Week 7: ensemble interaction"
+title: "Week 7: controllers"
 hidden: true
 ---
 
