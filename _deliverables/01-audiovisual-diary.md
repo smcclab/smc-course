@@ -46,7 +46,7 @@ Each week's submission must include:
 
 - a 60 second video of your own work exploring the week's theme, which
   - has the filename `week-N.mp4` or `week-N.mkv` (with `N` replaced by the week
-    number of the submission date, so the first submission is `week-2`)
+    number of the submission date, so the _first_ submission is `week-2`)
   - is 1920x1080 (full HD) resolution
   - has sound (obviously!)
   - uses one of the [computer music software environments we're covering in this
@@ -69,8 +69,8 @@ it) should look something like this:
 ├── materials
 │   ├── my-story.pd
 │   └── childhood-sound.wav
-├── week-3-reflection.pdf
-└── week-3.mp4
+├── week-N-reflection.pdf
+└── week-N.mp4
 ```
 
 Note: if you're _not_ willing to share your patch files & other materials with
