@@ -8,7 +8,7 @@ permalink: /deliverables/lens-performance/
 
 ### Outline
 
-- **Due date:** Friday May 29 (TBC---subject to venue availability)
+- **Due date:** Friday June 5 (TBC---subject to venue availability)
 - **Mark weighting:** 50%
 - **Submission:** submit your assignment according to the [instructions
   below](#submission-process)

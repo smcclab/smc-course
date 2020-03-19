@@ -7,6 +7,15 @@ hidden: true
 
 ![LENS Banner]({% link assets/facebook-banner.png %})
 
+{:.info-box}
+
+Note: the week of Monday March 23 (which _would_ have been week 5) is now a
+teaching break, because #covid19. So now week 5 starts on March 30, then there's
+the 2-week teaching break as usual, then week 6 starts on April 20 and we'll
+have a 7-week second half of the semester. I've updated all the assessment
+submission dates on this website accordingly. I know it's confusing---soz---so
+if you have any questions hit us up on slack.
+
 ### ANU Laptop Ensemble, Semester 1 2020
 
 Do you want to make music with your computer? Do you want create new kinds of
