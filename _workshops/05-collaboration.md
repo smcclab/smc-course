@@ -48,3 +48,11 @@ look.
 
 - does the "going online" factor (and social isolation, etc.) change the type of
   music you're going to make in this course? why/how/why not?
+
+- have a look at collaborative "parlour games" like [layer
+  tennis](http://www.layertennis.com) or [exquisite
+  corpse](https://en.wikipedia.org/wiki/Exquisite_corpse)---can you think of
+  ways to adapt them for a LENS context?
+
+- what's the collaborative songwriting process of your favourite bands (or art
+  collectives), and are there ideas you can poach from them?
