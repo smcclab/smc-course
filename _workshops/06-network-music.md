@@ -7,6 +7,15 @@ pick your favourite work of networked musicmaking, think about why in particular
 
 ### Goals for this week
 
+1. explore the history (and present) of networked music to see what artists have
+   been doing when they're connected together
+
+2. have _at least one _ network jam session with some of your LENS classmates
+
+3. start thinking about the fact that your final performance will be
+   livestreamed over the network, and what that might mean for the type of piece
+   you'll build/compose
+
 ### Resources
 
 You've got a bunch of Pd stuff under your belt by now---so just keep on
