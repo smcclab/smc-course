@@ -2,15 +2,22 @@
 title: "Week 6: network music"
 ---
 
-Network connections are used to connect musicians together from different locations, to connect devices together in one studio, and to connect different pieces of software on one computer. This week you'll explore how to use networks in your laptop music making.
+Network connections are used to connect musicians together from different
+locations, to connect devices together in one studio, and to connect different
+pieces of software on one computer. This week you'll explore how to use networks
+in your laptop music making.
 
 {:.diary-provocation-box}
-Pick a computer music work or system that uses networks, think about what the network part does to make it compelling and then make something of your own which takes that idea even further
+
+Pick a computer music work or system that uses networks, think about what the
+network part does to make it compelling and then make something of your own
+which takes that idea even further
 
 ### Goals for this week
 
 1. explore the history (and present) of networked music to see what artists have
-   been doing when they're connected together. find out about systems for sending musical data over networks.
+   been doing when they're connected together. find out about systems for
+   sending musical data over networks.
 
 2. have _at least one_ network music making session with some of your LENS classmates
 
@@ -24,11 +31,15 @@ Pick a computer music work or system that uses networks, think about what the ne
 
 #### Open Sound Control 
 
-- Andrew Johnston: [Pure Data and Open Sound Control](https://youtu.be/TTd57stEr_g)
-- Pure Data: 23 Open Sound Control 1 [YouTube: cheetomoskeeto
-](https://youtu.be/rxHIJx-O3iU)
+- Andrew Johnston: [Pure Data and Open Sound
+  Control](https://youtu.be/TTd57stEr_g)
+- Pure Data: 23 Open Sound Control 1 [YouTube:
+  cheetomoskeeto](https://youtu.be/rxHIJx-O3iU)
 
-N.B. Pd didn't have OSC built in until fairly recently (v0.46), look at the `oscformat` and `oscparse` objects which need `netsend` and `netreceive` to work. Older videos will show how to import special libraries for OSC --- not needed anymore!
+N.B. Pd didn't have OSC built in until fairly recently (v0.46), look at the
+`oscformat` and `oscparse` objects which need `netsend` and `netreceive` to
+work. Older videos will show how to import special libraries for OSC --- not
+needed anymore!
 
 #### Audio over networks
 
@@ -45,7 +56,8 @@ network musicmaking---login details are:
 ### Things to think about
 
 - this week is an "individual" AV diary week, you're allowed to have
-  collaborators as part of your work (e.g., Ben _feat._ Charles), you could also have a network music piece that doesn't involve other players.
+  collaborators as part of your work (e.g., Ben _feat._ Charles), you could also
+  have a network music piece that doesn't involve other players.
 
 - what does networked music even mean? did it exist before computers? when
   looking for famous examples, how far back can you go? if you find anything
