@@ -4,7 +4,7 @@ summary: shaping sound in the short (and long) term
 ---
 
 {:.diary-provocation-box}
-the long and the short of it is...
+**Solo AVD**: the long and the short of it is...
 
 The past two weeks of workshops have shown several different ways to create
 sound "sources"; single oscillators, more complex networks of oscillators &

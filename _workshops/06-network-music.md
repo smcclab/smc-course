@@ -1,5 +1,6 @@
 ---
 title: "Week 6: network music"
+summary: musical collaboration over computer networks
 ---
 
 Network connections are used to connect musicians together from different
@@ -9,9 +10,9 @@ in your laptop music making.
 
 {:.diary-provocation-box}
 
-Pick a computer music work or system that uses networks, think about what the
-network part does to make it compelling and then make something of your own
-which takes that idea even further
+**Solo AVD**: pick a computer music work or system that uses networks, think
+about what the network part does to make it compelling and then make something
+of your own which takes that idea even further
 
 ### Goals for this week
 
