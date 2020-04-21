@@ -32,9 +32,9 @@ questions, hit us up on slack**.
 #### Quickstart
 
 The best way to get started with Extmpore is to follow the
-[Quickstart](https://splice.com/blog/euclidean-rhythms/); it'll help you
-download & install Extempore and also a text editor (VSCode) which you'll need
-to write Extempore code.
+[Quickstart](https://extemporelang.github.io/docs/overview/quickstart/); it'll
+help you download & install Extempore and also a text editor (VSCode) which
+you'll need to write Extempore code.
 
 After that's all working, all you need to do is create a new `.xtm` file, start
 & connect Extempore (as you learned to do in the _Quickstart_ guide) and you're
