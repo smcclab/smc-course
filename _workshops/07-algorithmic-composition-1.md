@@ -68,3 +68,4 @@ worry if you don't understand everything about it at first.
 - [The Concert Programmer](https://www.youtube.com/watch?v=yY1FSsUV-8c)
 - [Oxford Handbook of Algorithmic Music (available through ANU library)](https://virtual.anu.edu.au/login/?url=https://www.oxfordhandbooks.com/view/10.1093/oxfordhb/9780190226992.001.0001/oxfordhb-9780190226992)
 - [Algorithmic Composition: Computational Thinking in Music (Michael Edwards)](https://cacm.acm.org/magazines/2011/7/109891-algorithmic-composition/fulltext)
+- [Algorithmic Composition - Cambridge Companion to Electronic Music (Karlheinz Essl)](https://www-cambridge-org.virtual.anu.edu.au/core/books/cambridge-companion-to-electronic-music/algorithmic-composition/5390BDB514BF6EDABD6DA031A6395407)
