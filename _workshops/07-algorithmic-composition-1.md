@@ -5,8 +5,8 @@ hidden: true
 ---
 
 {:.diary-provocation-box}
-**Solo AVD**: what is it that's going to make _your_ [LENS Performance]({% link
-_deliverables/03-lens-performance.md %}) stand out from the crowd?
+**Solo AVD**: which aspects of music should be controlled by an algorithm, and
+what should be controlled by a musician?
 
 ### Goals for this week
 
@@ -138,9 +138,3 @@ algorithmic composition:
   [week 1]({% link _workshops/01-hello-sine.md %}), it's still worth doing the
   Extempore set up stuff ASAP, just in case you have installation issues (we're
   really keen to help, but you need to give us enough time to help you out)
-
-<<<<<<< variant A
-### References
-
->>>>>>> variant B
-======= end
