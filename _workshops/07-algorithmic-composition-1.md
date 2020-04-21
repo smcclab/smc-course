@@ -1,7 +1,6 @@
 ---
 title: "Week 7: algorithmic composition 1"
 summary: triggering events in pitch & time using algorithmic processes
-hidden: true
 ---
 
 {:.diary-provocation-box}
