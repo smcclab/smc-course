@@ -59,3 +59,10 @@ worry if you don't understand everything about it at first.
   [week 1]({% link _workshops/01-hello-sine.md %}), it's still worth doing the
   Extempore set up stuff ASAP, just in case you have installation issues (we're
   really keen to help, but you need to give us enough time to help you out)
+
+### References
+
+- [Brief History of Algorithmic Composition (John A. Maurer)](https://ccrma.stanford.edu/~blackrse/algorithm.html)
+- [Getting Starting with Algorithmic Composition: Donya
+  Quick](http://donyaquick.com/algorithmic-composing-advice/)
+- [The Concert Programmer](https://www.youtube.com/watch?v=yY1FSsUV-8c)
