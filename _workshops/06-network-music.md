@@ -29,6 +29,7 @@ of your own which takes that idea even further
 ### Resources
 
 - Network Music Making [YouTube: charles](https://youtu.be/1J7EAu5g5zw)
+- [Network Music (Cambridge Companion to Electronic Music)](https://www-cambridge-org.virtual.anu.edu.au/core/services/aop-cambridge-core/content/view/C2A04A1DAE6EDE05909CF97DFEAD8B86/9781316459874c8_p138-153_CBO.pdf/network_music.pdf)
 
 #### Open Sound Control 
 

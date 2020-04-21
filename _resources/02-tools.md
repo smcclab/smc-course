@@ -82,6 +82,9 @@ version of "vanilla" Pd for your platform (as shown in the screenshot).
   understanding the use of these thins in a LENS context, so we won't cover the
   more maths-y stuff in this course.
 
+- [Cambridge Companion to Electronic Music](https://www-cambridge-org.virtual.anu.edu.au/core/books/cambridge-companion-to-electronic-music/51F366EA55DAE2CBCCB191E2D8349C9F) (available through ANU library online). A great resource that covers all the concepts in this course with chapters written by current computer music composers and researchers.
+
+
 ##### Extempore {#extempore}
 
 {:.info-box}

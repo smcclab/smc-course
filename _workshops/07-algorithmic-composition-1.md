@@ -66,3 +66,5 @@ worry if you don't understand everything about it at first.
 - [Getting Starting with Algorithmic Composition: Donya
   Quick](http://donyaquick.com/algorithmic-composing-advice/)
 - [The Concert Programmer](https://www.youtube.com/watch?v=yY1FSsUV-8c)
+- [Oxford Handbook of Algorithmic Music (available through ANU library)](https://virtual.anu.edu.au/login/?url=https://www.oxfordhandbooks.com/view/10.1093/oxfordhb/9780190226992.001.0001/oxfordhb-9780190226992)
+- [Algorithmic Composition: Computational Thinking in Music (Michael Edwards)](https://cacm.acm.org/magazines/2011/7/109891-algorithmic-composition/fulltext)
