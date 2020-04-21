@@ -26,46 +26,121 @@ _deliverables/03-lens-performance.md %}) stand out from the crowd?
 
 Wow, lots of new stuff this week. But don't be overwhelmed---we'll guide you
 through some example code which will (hopefully) be fun to play with, and don't
-worry if you don't understand everything about it at first.
+worry if you don't understand everything about it at first. And **if you have
+questions, hit us up on slack**.
 
-#### Theory: algorithmic harmony
+#### Quickstart
 
-- pre-reqs <https://en.wikipedia.org/wiki/Pitch_class>
+The best way to get started with Extmpore is to follow the
+[Quickstart](https://splice.com/blog/euclidean-rhythms/); it'll help you
+download & install Extempore and also a text editor (VSCode) which you'll need
+to write Extempore code.
 
-##### Examples
+After that's all working, all you need to do is create a new `.xtm` file, start
+& connect Extempore (as you learned to do in the _Quickstart_ guide) and you're
+off and racing.
 
-- random multinomial
-- markov chains
-- <https://generative.fm/about>
+#### Background
 
-#### Theory: algorithmic rhythm
+There are a couple of maths-y/music-y pre-reqs which you've probably already
+seen before, but are often helpful in algorithmic composition:
 
-- pre-reqs time division of beats
+- [pitch classes](https://en.wikipedia.org/wiki/Pitch_class) provide a way to
+  think about which notes fit with which other notes (scales, intervals, chords)
 
-##### Examples
+- [modular arithmetic](https://en.wikipedia.org/wiki/Modular_arithmetic) is
+  handy for both rhythmic and harmonic (pitch) algorithms
 
-- modulo-arithmetic ftw
-- Euclidean rhythms
+#### Launch points
+
+Extempore (like Pd) can do lots of things, and the best way to learn is probably
+to dive in and start making noise. Here's a good place to start:
+
+- The [Extempore Pattern
+  Language](https://extemporelang.github.io/docs/guides/pattern-language/), as
+  well as looking at all the covers in the `examples/sharedsystem/covers/`
+  directory
+
+After that, what you do (and what parts of the documentation & sample code are
+relevant) will depend on what you're trying to do. A few potential "launch
+points":
+
+- The pattern language isn't the only way to make loops in Extempore---you can
+  also use regular Scheme code and a design pattern called [temporal
+  recursion](https://extemporelang.github.io/docs/overview/time/), and check out
+  e.g. [the fmsynth example](examples/core/fmsynth.xtm) or the [electrofunk
+  example](examples/external/electrofunk.xtm)
+
+- If you're more interested in making algorithmic beats & rhythms, then the
+  Extempore sharedsystem loads up a sampler which has some drum samples in it
+  (an 808 in bank 3 and an acoustic kit in bank 4)---have a look at the
+  [sampler](https://extemporelang.github.io/docs/guides/sampler/) guide and
+  maybe even load in and trigger your _own_ samples
+
+- Extempore has a few different ways of generating random numbers; what do you
+  think the differences between these random calls:
+  - `(random)`
+  - `(random 10 100)`
+  - `(pc:random 60 72 '(0 2 3 5 7))` (for that one you need to `(sys:load
+    "libs/core/pc_ivl.xtm")` first)
+
+Seriously, though, if you've got an idea and are wondering about how to make it
+happen then hit us up on slack and we can probably point you in the right direction.
+
+### Examples & further reading
+
+Not necessarily Extempore-related, but a few more places to get ideas for
+algorithmic composition:
+
+- [Brief History of Algorithmic Composition (John A.
+  Maurer)](https://ccrma.stanford.edu/~blackrse/algorithm.html)
+
+- [Getting Starting with Algorithmic Composition: Donya
+  Quick](http://donyaquick.com/algorithmic-composing-advice/)
+
+- [The Concert Programmer](https://www.youtube.com/watch?v=yY1FSsUV-8c)
+
+- Check out [Ben's livecoding sets](https://benswift.me/livecoding/index.html)
+  and ask him to explain anything you have questions about
+
+- D. Herremans, C.-H. Chuan, and E. Chew. A functional taxonomy of music
+  generation systems. ACM Comput. Surv., 50(5):69:1–69:30, Sept. 2017.
+  [DOI:10.1145/3108242](https://doi.acm.org/10.1145/3108242)
+
+- [Oxford Handbook of Algorithmic Music (available through ANU
+  library)](https://virtual.anu.edu.au/login/?url=https://www.oxfordhandbooks.com/view/10.1093/oxfordhb/9780190226992.001.0001/oxfordhb-9780190226992)
+
+- [Algorithmic Composition: Computational Thinking in Music (Michael
+  Edwards)](https://cacm.acm.org/magazines/2011/7/109891-algorithmic-composition/fulltext)
+
+- [Algorithmic Composition - Cambridge Companion to Electronic Music (Karlheinz
+  Essl)](https://www-cambridge-org.virtual.anu.edu.au/core/books/cambridge-companion-to-electronic-music/algorithmic-composition/5390BDB514BF6EDABD6DA031A6395407)
+
+- [Euclidean rhythms](https://splice.com/blog/euclidean-rhythms/) (note that
+  Extempore has a `euclid` function for generating Euclidean rhythms)
+
+- <https://generative.fm/> is a super-cool website full of
+  generative/algorithmic compositions
+
+- evolutionary algorithms for music composition (e.g.,
+  [darwintunes](http://darwintunes.org), [evolutionary music
+  slides](http://igm.rit.edu/~jabics/EvoMusic/BilesEvoMusicSlides.pdf))
+
+- AI/ML composition (e.g., [Magenta project](https://magenta.tensorflow.org))
 
 ### Things to think about
 
 - there _is_ still an AV diary entry due this week, even though this week's
   workshop slot will actually be filled by your [performance plan
-  presentations]({% link _deliverables/02-plan.md %}) - but it's assumed that
-  the week's AV diary entry will be somehow related to your performance plan
-  (e.g. a demo or exploration of one of the main ideas of the system/instrument)
+  presentations]({% link _deliverables/02-plan.md %})
   
 - even though you're more sophisticated computer musicians than you were in
   [week 1]({% link _workshops/01-hello-sine.md %}), it's still worth doing the
   Extempore set up stuff ASAP, just in case you have installation issues (we're
   really keen to help, but you need to give us enough time to help you out)
 
+<<<<<<< variant A
 ### References
 
-- [Brief History of Algorithmic Composition (John A. Maurer)](https://ccrma.stanford.edu/~blackrse/algorithm.html)
-- [Getting Starting with Algorithmic Composition: Donya
-  Quick](http://donyaquick.com/algorithmic-composing-advice/)
-- [The Concert Programmer](https://www.youtube.com/watch?v=yY1FSsUV-8c)
-- [Oxford Handbook of Algorithmic Music (available through ANU library)](https://virtual.anu.edu.au/login/?url=https://www.oxfordhandbooks.com/view/10.1093/oxfordhb/9780190226992.001.0001/oxfordhb-9780190226992)
-- [Algorithmic Composition: Computational Thinking in Music (Michael Edwards)](https://cacm.acm.org/magazines/2011/7/109891-algorithmic-composition/fulltext)
-- [Algorithmic Composition - Cambridge Companion to Electronic Music (Karlheinz Essl)](https://www-cambridge-org.virtual.anu.edu.au/core/books/cambridge-companion-to-electronic-music/algorithmic-composition/5390BDB514BF6EDABD6DA031A6395407)
+>>>>>>> variant B
+======= end
