@@ -127,6 +127,9 @@ algorithmic composition:
 
 - AI/ML composition (e.g., [Magenta project](https://magenta.tensorflow.org))
 
+- cool algorithmic artists: [Renick Bell](http://renickbell.net), [kindohm/Mike
+  Hodnick](http://kindohm.com), [William Fields](https://williamfields.com)
+
 ### Things to think about
 
 - there _is_ still an AV diary entry due this week, even though this week's
