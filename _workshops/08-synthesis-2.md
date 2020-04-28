@@ -3,10 +3,7 @@ title: "Week 8: synthesis 2"
 ---
 
 {:.diary-provocation-box}
-**Group AVD**: "Perfection is achieved, not when there is nothing more to add,
-but when there is nothing left to take away." _[Antoine de
-Saint-Exupéry](https://en.wikipedia.org/wiki/Antoine_de_Saint-Exupéry), Airman's
-Odyssey_
+**Group AVD**: "start big, then take things away until you can hear it working"
 
 ### Goals for this week
 
