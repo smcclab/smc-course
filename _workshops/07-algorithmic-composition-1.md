@@ -132,10 +132,6 @@ algorithmic composition:
 
 ### Things to think about
 
-- there _is_ still an AV diary entry due this week, even though this week's
-  workshop slot will actually be filled by your [performance plan
-  presentations]({% link _deliverables/02-plan.md %})
-  
 - even though you're more sophisticated computer musicians than you were in
   [week 1]({% link _workshops/01-hello-sine.md %}), it's still worth doing the
   Extempore set up stuff ASAP, just in case you have installation issues (we're
