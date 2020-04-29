@@ -20,12 +20,24 @@ permalink: /deliverables/lens-performance/
 At the end of semester your **LENS performance** will be assessed in terms of
 quality of the artefact itself and through a live performance. This is the
 culmination of your hard work in the LENS course, and it won't be a dry, boring
-exam---it'll be a live gig that you can invite your friends to.
+exam---it'll be a ~~live gig that you can invite your friends to~~ video that
+you watch at home, alone, in your pyjamas (just like everything else at the
+moment [#pandemiclife](https://www.instagram.com/explore/tags/pandemiclife/)).
 
 We are looking for performances (and associated artefacts) that are
 sophisticated in terms of fundamental aspects of music computing, have a high
 design/compositional quality, and that allow a high level of expression and
 collaboration during performance.
+
+{:.info-box}
+
+Due to the covid19 rules around gatherings, we can't get together for a bangin'
+gig at the end of semester. So your final performance will be a video stream
+instead of a live show. You _can_ stream it **live**, or you can pre-record your
+performance video. Either way, we'll still advertise a timeslot for the stream,
+so you can still invite your friends to tune in. It's still a performance,
+though---so you still need to think about staging, making things interesting for
+the audience, what you'll present on the screen, etc.
 
 ### Specification
 
@@ -34,11 +46,20 @@ There are two representations of your LENS performance:
 1. the **performance materials** (zip file of patches, code, scores,
    instructions, etc---everything needed to produce your performance)
 
-2. the **ensemble performance of your artefact** at the LENS final concert (we
-   will record the concert)
+2. the **ensemble performance of your artefact** at the LENS final concert
 
 The final performance and collaboration with other LENSers are important aspects
 of the assessment, so don't neglect these parts when developing your artefact.
+
+{:.info-box}
+
+A note on collaboration: your performance must include meaningful
+collaboration/interaction with at least one other LENS member. Since the final
+performances now no longer need to be live (see box above) the interaction
+similarly doesn't have to be "live"---it could be more like the group AVD
+entries---but you still need to make it clear how your performance/artefact
+allows for deep & engaging collaboration (and how you'll communicate this
+collaboration to the audience as well).
 
 ### Marking criteria {#marking}
 
