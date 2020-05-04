@@ -67,8 +67,8 @@ points":
 - The pattern language isn't the only way to make loops in Extempore---you can
   also use regular Scheme code and a design pattern called [temporal
   recursion](https://extemporelang.github.io/docs/overview/time/), and check out
-  e.g. [the fmsynth example](examples/core/fmsynth.xtm) or the [electrofunk
-  example](examples/external/electrofunk.xtm)
+  e.g. the fmsynth example (`examples/core/fmsynth.xtm`) or the electrofunk
+  example (`examples/external/electrofunk.xtm`)
 
 - If you're more interested in making algorithmic beats & rhythms, then the
   Extempore sharedsystem loads up a sampler which has some drum samples in it
