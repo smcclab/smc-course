@@ -17,7 +17,7 @@ permalink: /deliverables/plan/
 
 ### Description
 
-In the week 7 workshop session you will give an in-class presentation describing
+In the week 8 workshop session you will give an in-class presentation describing
 your plan for your final LENS performance, and also submit a document describing
 your LENS performance and how it will address the assessment criteria.
 
