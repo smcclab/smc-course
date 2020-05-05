@@ -19,7 +19,7 @@ diary submission ([week-5]({% link _workshops/05-collaboration.md %}))
 ### Extempore resources
 
 The sharedsystem setup process that you've been using for the [last couple]({%
-link _workshops/08-algorithmic-composition-1.md %}) [of weeks]({% link
+link _workshops/07-algorithmic-composition-1.md %}) [of weeks]({% link
 _workshops/08-synthesis-2.md %}) creates one sampler (called `samp1`) which
 contains:
 
