@@ -1,5 +1,6 @@
 ---
 title: "Week 8: synthesis 2"
+summary: configuring and playing an analogue modular synth with code
 ---
 
 {:.diary-provocation-box}
