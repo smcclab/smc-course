@@ -39,7 +39,7 @@ the pattern language you could try:
 ;; play slot 60 (middle C) from bank 1, i.e. the mf piano
 (play samp1 @1 60 dur 1)
 
-;; play slot 60 (middle C) from either bank 1, 2, or 3
+;; play slot 60 (middle C) from either bank 0, 1, or 2
 (play samp1 @1 60 dur (random 3))
 ```
 
