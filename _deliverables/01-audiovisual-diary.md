@@ -127,11 +127,16 @@ Instead, you'll be marked through two "portfolio" submissions:
 
 Each document must articulate your combined (and edited) reflections on your AV
 diary submissions for the specified weeks, explaining how each one explored the
-theme and creative criteria for that week. You should also discuss and reflect
-on the collaborative sessions within the workshop timeslot. Include figures,
-screenshots, and code excerpts in your documents as necessary. You do not need
-to re-submit the videos---we have them already from your [weekly
-submissions](#weekly-videos).
+theme and creative criteria for that week. Include figures, screenshots, and
+code excerpts in your documents as necessary. You do not need to re-submit the
+videos---we have them already from your [weekly submissions](#weekly-videos).
+
+The purpose of this portfolio is to tell a story about how you (both as an
+individual and a group member) have explored the key music computing concepts
+through your AVD submissions. Don't just give us a week-by-week description of
+what you submitted each week---draw out "common threads", tell us why you chose
+to respond to the provocations in the way you did, and show us your development
+as a LENS member and computer musician through these AVD submissions.
 
 #### Submission process
 
