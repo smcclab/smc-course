@@ -8,7 +8,10 @@ permalink: /deliverables/lens-performance/
 
 ### Outline
 
-- **Due date:** Friday June 5 (TBC---subject to venue availability)
+- **Due dates:**
+  - Thursday June 11 9pm (final videos due)
+  - Friday June 12 8pm (the gig---live on YouTube)
+  - Wednesday June 17 12am (artefact materials due)
 - **Mark weighting:** 50%
 - **Submission:** submit your assignment according to the [instructions
   below](#submission-process)
