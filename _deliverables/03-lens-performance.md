@@ -86,3 +86,9 @@ link 02-outline.md %})) are:
 
 - presentation and communication of your LENS artefact through performance
   materials
+
+### FAQ
+
+#### How many other LENS member's pieces do I have to perform on?
+
+You need to help out with _at least one_ other LENS performance.
