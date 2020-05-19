@@ -12,3 +12,5 @@ hidden: true
 
 2. to get an idea of what works & what doesn't (while there's still time to make
    fixes)
+
+<!-- NOTE: This week was previously called "performance & staging" -->

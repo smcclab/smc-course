@@ -13,3 +13,5 @@ explorations as answers to your questions.
 
 1. to gain insight into the thought/creative process of different computer
    musicians (e.g. your lecturers, LENS classmates)
+
+<!-- NOTE: This week was previously called "algocomp2" -->
