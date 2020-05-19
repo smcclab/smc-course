@@ -1,21 +1,15 @@
 ---
-title: "Week 10: algorithmic composition 2"
-hidden: true
+title: "Week 10: I'm a computer musician, AMA"
 ---
 
 {:.diary-provocation-box}
 **No AVD**: your AV diary entries are all done 😁
 
+This week's workshop session will be an extended
+[AMA](https://en.wikipedia.org/wiki/R/IAmA), potentially with live musical
+explorations as answers to your questions.
+
 ### Goals for this week
 
-1. to watch Ben do his thing and have more of an idea about what's going on than
-   at the beginning of this course
-
-2. to consider how the balance of human & algorithmic control works in a
-   livecoding context (and how that balance might differ from other computer
-   music contexts)
-
-### Extempore resources
-
-No new resources this week, although Ben will upload all his code & patch files
-after the workshop.
+1. to gain insight into the thought/creative process of different computer
+   musicians (e.g. your lecturers, LENS classmates)

@@ -1,5 +1,5 @@
 ---
-title: "Week 11: performance & staging"
+title: "Week 11: final performance demo day"
 hidden: true
 ---
 
@@ -8,14 +8,7 @@ hidden: true
 
 ### Goals for this week
 
-1. to watch Charles do his thing and think about staging in a computer music
-   context
+1. to put a rocket under everyone to get _something_ working 😉
 
-2. reflecting on what performance & staging practice means in an all-online
-   streamed performance, write up some stage directions for your final
-   performance
-
-### Extempore resources
-
-No new Pd/Extempore resources this week, although Charles will add some links to
-his work.
+2. to get an idea of what works & what doesn't (while there's still time to make
+   fixes)
