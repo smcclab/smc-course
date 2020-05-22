@@ -47,26 +47,31 @@ the audience, what you'll present on the screen, etc.
 There are two representations of your LENS performance:
 
 1. the **performance materials** (zip file of patches, code, scores,
-   instructions, etc---everything needed to produce your performance)
+   instructions, etc---everything needed to produce your performance, including
+   a `README.md` file explaining how to get it up and running)
 
 2. the **ensemble performance of your artefact** at the LENS final concert
 
 The final performance and collaboration with other LENSers are important aspects
 of the assessment, so don't neglect these parts when developing your artefact.
 
-{:.info-box}
+### Submission process {#submission-process}
 
-A note on collaboration: your performance must include meaningful
-collaboration/interaction with at least one other LENS member. Since the final
-performances now no longer need to be live (see box above) the interaction
-similarly doesn't have to be "live"---it could be more like the group AVD
-entries---but you still need to make it clear how your performance/artefact
-allows for deep & engaging collaboration (and how you'll communicate this
-collaboration to the audience as well).
+The submission for the final performance is in three parts.
+
+- **Thursday June 11 9pm**: submit your "backup" video through Wattle (same
+  [resolution & format requirements]({% link
+  _deliverables/01-audiovisual-diary.md %}#weekly-videos-spec) as per the weekly
+  diary videos)
+
+- **Friday June 12 8pm**: (the gig---live on YouTube, exact setup details TBC)
+
+- **Wednesday June 17 12am**: artefact materials due through Wattle (as a single
+  zipfile)
 
 ### Marking criteria {#marking}
 
-Your LENS artefact will be assessed based on the two representations above. The
+Your LENS artefact will be assessed based on the representations above. The
 marking criteria (based on the [course learning outcomes]({{site.baseurl}}{%
 link 02-outline.md %})) are:
 
@@ -79,8 +84,8 @@ link 02-outline.md %})) are:
 
 - demonstrated potential for collaboration with other ensemble members
 
-- the staging and performance of your LENS artefact during the concert
-  (including from an audience perspective)
+- the staging and performance of your LENS artefact during the live-streamed
+  concert (including from an audience perspective)
 
 - overall design/composition quality
 
@@ -89,6 +94,16 @@ link 02-outline.md %})) are:
 
 ### FAQ
 
+#### How many other ensemble members does my piece need to include?
+
+Your performance must include meaningful collaboration/interaction with at least
+one other LENS member. Since the final performances now no longer need to be
+live (see box above) the interaction similarly doesn't have to be "live"---it
+could be more like the group AVD entries---but you still need to make it clear
+how your performance/artefact allows for deep & engaging collaboration (and how
+you'll communicate this collaboration to the audience as well).
+
 #### How many other LENS member's pieces do I have to perform on?
 
 You need to help out with _at least one_ other LENS performance.
+
