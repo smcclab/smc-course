@@ -20,7 +20,7 @@ permalink: /deliverables/lens-performance/
 {:.info-box}
 
 The actual "gig" will be streamed on YouTube on Friday June 12 8pm. However, to
-minimize the chances (and stresses) of technical issues, your _final performance
+minimise the chances (and stresses) of technical issues, your _final performance
 video_ is due on Thursday June 11 at 9pm. This is the video which will go out as
 your performance in the live stream. For more details, see the [FAQ
 below](#faq).
