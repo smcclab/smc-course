@@ -9,14 +9,21 @@ permalink: /deliverables/lens-performance/
 ### Outline
 
 - **Due dates:**
-  - Thursday June 11 9pm (final videos due)
-  - Friday June 12 8pm (the gig---live on YouTube)
+  - Thursday June 11 9pm (final performance video)
   - Wednesday June 17 12am (artefact materials due)
 - **Mark weighting:** 50%
 - **Submission:** submit your assignment according to the [instructions
   below](#submission-process)
 - **Policies:** for late policies, academic integrity policies, etc. see the
   [policies page]({% link 01-policies.md %})
+
+{:.info-box}
+
+The actual "gig" will be streamed on YouTube on Friday June 12 8pm. However, to
+minimize the chances (and stresses) of technical issues, your _final performance
+video_ is due on Thursday June 11 at 9pm. This is the video which will go out as
+your performance in the live stream. For more details, see the [FAQ
+below](#faq).
 
 ### Description
 
@@ -92,7 +99,7 @@ link 02-outline.md %})) are:
 - presentation and communication of your LENS artefact through performance
   materials
 
-### FAQ
+### FAQ {#faq}
 
 #### How many other ensemble members does my piece need to include?
 
