@@ -58,7 +58,7 @@ If your final mark is less than 45 you will fail this course with a grade of N
 If you enrol, but don't participate in the course at all you will fail with a
 final grade of NCN, which means a failure due to non-completion.
 
-### Late penalties
+### Late penalties {#late-penalties}
 
 This course follows the [CASS
 policy](https://cass.anu.edu.au/current-students/coursework-policy-and-guidelines/late-submissions-and-extensions)
