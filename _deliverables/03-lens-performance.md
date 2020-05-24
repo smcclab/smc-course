@@ -91,8 +91,8 @@ link 02-outline.md %})) are:
 
 - demonstrated potential for collaboration with other ensemble members
 
-- the staging and performance of your LENS artefact during the live-streamed
-  concert (including from an audience perspective)
+- the staging and performance of your LENS artefact as part of a streaming gig
+  on YouTube (including from an audience perspective)
 
 - overall design/composition quality
 
@@ -100,6 +100,27 @@ link 02-outline.md %})) are:
   materials
 
 ### FAQ {#faq}
+
+#### So do I have to do a live stream on the night of the gig or not?
+
+As per the info box above, we decided that the best way to do this is to have
+you submit your final videos ahead of time, and we'll stream these videos out on
+YouTube on Friday June 12.
+
+#### Can I do any post-production on my video?
+
+Yes, in fact it's never been a requirement that you do the
+performance/collaboration part of your performance "live". You should think
+about how you're going to "stage" the video (including showcasing the ensemble
+collaboration between members). Think about your audience; how are you going to
+put on a show for them?
+
+Remember, the criteria for this performance aren't _just_ about the performance,
+we also mark (and care about) the artefact itself. So you can't not actually
+have a working artefact and fake it all in post. But you can e.g. include
+multiple video streams, and you can cut things together to best show off your
+performance & artefact. This is now an online gig, and you can lean in to the
+affordances of that medium.
 
 #### How many other ensemble members does my piece need to include?
 
@@ -114,3 +135,21 @@ you'll communicate this collaboration to the audience as well).
 
 You need to help out with _at least one_ other LENS performance.
 
+#### What are the late penalties for this deliverable?
+
+This is a tricky one---since the gig stream goes out ~24h after the final video
+deadline, if you submit your final performance late then it won't be part of the
+"Final LENS S1 2020 gig" stream. Which obviously is not ideal, since the whole
+course has been building up to that gig.
+
+Since the CASS late penalty of 5% per day [applies in this course]({% link
+01-policies.md %}#late-penalties), We _could_ have counted backwards 20 days and
+set the due date such that the "100% late penalty" day happens on the day of the
+gig. That would put the final video submission deadline on Saturday, May 23
+(which has already passed). So that's obviously not a good approach.
+
+So instead, we'll apply the standard course late policy, but remember that one
+of the marking criteria is about "the staging and performance of your LENS
+artefact as part of a streaming gig on YouTube (including from an audience
+perspective)", so obviously if you don't submit something in time to participate
+in the streaming gig then then you won't score highly on that criteria.
