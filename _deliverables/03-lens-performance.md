@@ -137,19 +137,10 @@ You need to help out with _at least one_ other LENS performance.
 
 #### What are the late penalties for this deliverable?
 
-This is a tricky one---since the gig stream goes out ~24h after the final video
-deadline, if you submit your final performance late then it won't be part of the
-"Final LENS S1 2020 gig" stream. Which obviously is not ideal, since the whole
-course has been building up to that gig.
+The CASS late penalty of 5% per day [applies in this course]({% link
+01-policies.md %}#late-penalties), as stated on the policies page.
 
-Since the CASS late penalty of 5% per day [applies in this course]({% link
-01-policies.md %}#late-penalties), We _could_ have counted backwards 20 days and
-set the due date such that the "100% late penalty" day happens on the day of the
-gig. That would put the final video submission deadline on Saturday, May 23
-(which has already passed). So that's obviously not a good approach.
-
-So instead, we'll apply the standard course late policy, but remember that one
-of the marking criteria is about "the staging and performance of your LENS
-artefact as part of a streaming gig on YouTube (including from an audience
-perspective)", so obviously if you don't submit something in time to participate
-in the streaming gig then then you won't score highly on that criteria.
+Remember, though, that gig stream goes out ~24h after the final video deadline,
+so if you submit your final performance late then it won't be part of the "Final
+LENS S1 2020 gig" stream. Which obviously is not ideal, since the whole course
+has been building up to that gig.
