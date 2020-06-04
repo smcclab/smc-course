@@ -3,6 +3,8 @@ title: ANU Laptop Ensemble (LENS)
 hidden: true
 ---
 
+![LENS final gig livestream: 8pm June 12]({% link assets/final-gig-poster.jpg %}){:style="width:100%;"}
+
 ## LENS
 
 ![LENS Banner]({% link assets/facebook-banner.png %})
