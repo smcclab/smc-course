@@ -30,6 +30,12 @@ Laptop Ensemble links:
 You can see more vids of the ensemble at work on their [YouTube
 channel](https://www.youtube.com/channel/UCIU6SqIS02GJlnLOPqlwmpA).
 
+### Who's in charge of all this?
+
+The current LENS artistic directors are [Dr. Ben Swift](https://benswift.me),
+[Dr. Alec Hunter](https://www.alexanderhunter.com.au) and [Dr. Charles
+Martin](https://charlesmartin.com.au).
+
 ### Do I have to be a livecoder to take part?
 
 No! If you're in any way interested in code/technology & music and want to use
