@@ -9,14 +9,20 @@ hidden: true
 
 ![LENS Banner]({% link assets/facebook-banner.png %})
 
-{:.info-box}
+<div class="info-box" markdown="1" style="margin: 20px 0;">
 
-Note: the week of Monday March 23 (which _would_ have been week 5) is now a
-teaching break, because #covid19. So now week 5 starts on March 30, then there's
-the 2-week teaching break as usual, then week 6 starts on April 20 and we'll
-have a 7-week second half of the semester. I've updated all the assessment
-submission dates on this website accordingly. I know it's confusing---soz---so
-if you have any questions hit us up on slack.
+This is the LENS course website; the course last ran in Semester 1 2020 and is
+now all finished for the year. Congrats to the LENS'20 cohort for their
+fantastic work during a pretty topsy-turvy semester.
+
+There will be an encore streaming of the final LENS concert at **8pm on Saturday
+July 4** as part of the [2020 Australasian Computer Music Conference
+(ACMC'20)](https://acmc2020.com/). If you're attending ACMC'20 and you've landed
+on this website, then welcome---feel free to look around. If you're a current
+(or future) ANU student then you'll be able to take this course when it runs
+again in 2021.
+
+</div>
 
 ### ANU Laptop Ensemble, Semester 1 2020
 
