@@ -3,17 +3,11 @@ title: ANU Laptop Ensemble (LENS)
 hidden: true
 ---
 
-![LENS final gig livestream: 8pm June 12]({% link assets/final-gig-poster.jpg %}){:style="width:100%;"}
-
-## LENS
-
-![LENS Banner]({% link assets/facebook-banner.png %})
-
 <div class="info-box" markdown="1" style="margin: 20px 0;">
 
-This is the LENS course website; the course last ran in Semester 1 2020 and is
-now all finished for the year. Congrats to the LENS'20 cohort for their
-fantastic work during a pretty topsy-turvy semester.
+This is the _LENS: ANU Laptop Ensemble_ course website. The course last ran in
+Semester 1 2020 and is now all finished for the year---congrats to the LENS'20
+cohort for their fantastic work during a pretty topsy-turvy semester.
 
 There will be an encore streaming of the final LENS concert at **8pm on Saturday
 July 4** as part of the [2020 Australasian Computer Music Conference
@@ -23,6 +17,12 @@ on this website, then welcome---feel free to look around. If you're a current
 again in 2021.
 
 </div>
+
+## LENS
+
+![LENS final gig livestream: 8pm June 12]({% link assets/final-gig-poster.jpg %}){:style="width:100%;"}
+
+![LENS Banner]({% link assets/facebook-banner.png %})
 
 ### ANU Laptop Ensemble, Semester 1 2020
 
