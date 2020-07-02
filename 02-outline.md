@@ -31,6 +31,6 @@ Upon successful completion of this course, students will be able to:
 - **Phone:** 6125 7027
 - **Email:** <ben.swift@anu.edu.au>
 - **Research Interests:** livecoding (especially musical livecoding), code/creativity/culture, HCI/human-centred computing, critical design
-- **Lecturers:** Ben Swift, Alec Hunter
+- **Lecturers:** Ben Swift, Alec Hunter, Charles Martin
 - **Tutors:**
   - [Abi Thomas](mailto:abigail.thomas@anu.edu.au)
