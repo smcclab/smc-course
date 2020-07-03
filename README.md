@@ -291,4 +291,4 @@ top of each file](https://jekyllrb.com/docs/front-matter/) mean).
 If you're having trouble with the `bundle exec jekyll serve` being slow (e.g. if
 you've got lots of files in your website) then you can try the `--incremental`
 option (which can help, but sometimes the cache can get out of whack and needs
-to be blown away)
+to be blown away) 
