@@ -9,12 +9,9 @@ This is the _LENS: ANU Laptop Ensemble_ course website. The course last ran in
 Semester 1 2020 and is now all finished for the year---congrats to the LENS'20
 cohort for their fantastic work during a pretty topsy-turvy semester.
 
-There will be an encore streaming of the final LENS concert at **8pm on Saturday
-July 4** as part of the [2020 Australasian Computer Music Conference
-(ACMC'20)](https://acmc2020.com/). If you're attending ACMC'20 and you've landed
-on this website, then welcome---feel free to look around. If you're a current
-(or future) ANU student then you'll be able to take this course when it runs
-again in 2021.
+**The course will next run in Semester 2, 2021**. In the meantime, you can
+always watch the amazing work done by previous ensemble members on the [LENS
+YouTube Channel](https://www.youtube.com/channel/UCIU6SqIS02GJlnLOPqlwmpA).
 
 </div>
 
