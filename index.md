@@ -6,12 +6,17 @@ hidden: true
 <div class="info-box" markdown="1" style="margin: 20px 0;">
 
 This is the _LENS: ANU Laptop Ensemble_ course website. The course last ran in
-Semester 1 2020 and is now all finished for the year---congrats to the LENS'20
-cohort for their fantastic work during a pretty topsy-turvy semester.
+Semester 1 2020---congrats to the LENS'20 cohort for their fantastic work during
+a pretty [topsy-turvy
+semester](https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert/coronavirus-covid-19-current-situation-and-case-numbers).
 
-**The course will next run in Semester 2, 2021**. In the meantime, you can
-always watch the amazing work done by previous ensemble members on the [LENS
-YouTube Channel](https://www.youtube.com/channel/UCIU6SqIS02GJlnLOPqlwmpA).
+**The course will next run in Semester 1, 2021**. If you'd like to participate,
+then [email Ben](mailto:ben.swift@anu.edu.au) ASAP to register your interest. In
+the meantime, you can always watch the amazing work done by previous ensemble
+members on the [LENS YouTube
+Channel](https://www.youtube.com/channel/UCIU6SqIS02GJlnLOPqlwmpA). Some of the
+information on this website might change as the semester approaches, but the
+general shape of the course will be the same as in previous years.
 
 </div>
 
@@ -21,7 +26,7 @@ YouTube Channel](https://www.youtube.com/channel/UCIU6SqIS02GJlnLOPqlwmpA).
 
 ![LENS Banner]({% link assets/facebook-banner.png %})
 
-### ANU Laptop Ensemble, Semester 1 2020
+### ANU Laptop Ensemble, Semester 2 2020
 
 Do you want to make music with your computer? Do you want create new kinds of
 musical instruments? Do you want to be a part of a laptop band? **This is the
