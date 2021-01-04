@@ -70,7 +70,7 @@ banks, slots & samplers).
 - you can still incorporate some [synth]({% link _workshops/08-synthesis-2.md
   %}) material alongside your sampled sounds---ask your classmates if they're
   willing to share their patches (or look in the
-  [lens-materials](https://gitlab.cecs.anu.edu.au/laptop-ensemble/2020/lens-materials)
+  [lens-materials](https://gitlab.cecs.anu.edu.au/laptop-ensemble/2021/lens-materials)
   repo)
 
 - what are the _roles_ in a group AVD collaboration, anyway? are there any new

@@ -9,8 +9,8 @@ Here are a few more places you can go and people you can talk to.
 
 The course reps for this course are:
 
-- Albert
-- Clare
+- TBC
+- TBC
 
 You can get in touch with them at any time with feedback about the course, and
 you'll be anonymous (I won't know *who* gave the feedback).

@@ -136,8 +136,8 @@ In addition, over the course of the semester you'll:
 
 ### What are the time commitments for the LENS course?
 
-The primary weekly contact hours are the Tuesday 3pm-5pm workshop (in [Marie
-Reay 3.02](https://www.anu.edu.au/maps#show=108136))---if you're enrolled in the
+The primary weekly contact hours are the 2hr [workshop session]({% link
+_workshops/index.md %}) (day/time/location TBC). If you're enrolled in the
 class, you need to be there every week.
 
 Outside of that workshop, the class will be delivered in "flipped" mode; we'll
@@ -175,7 +175,7 @@ _deliverables/01-audiovisual-diary.md %}). Since this is a cross-campus course
 and we'll do that asap, but you're not missing out on any content while you
 wait.
 
-### I want to be part of the laptop ensemble in S1 2020, how can I start practising?
+### I want to be part of the laptop ensemble in S1 2021, how can I start practising?
 
 Apart from having a look at the material on this course website, the best way is
 to install some computer music software and start messing around. Many of the

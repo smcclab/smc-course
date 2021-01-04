@@ -23,7 +23,7 @@ course will be the same as in previous years.
 
 ![LENS Banner]({% link assets/facebook-banner.png %})
 
-### ANU Laptop Ensemble, Semester 2 2020
+### ANU Laptop Ensemble, Semester 2 2021
 
 Do you want to make music with your computer? Do you want create new kinds of
 musical instruments? Do you want to be a part of a laptop band? **This is the

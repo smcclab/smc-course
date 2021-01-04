@@ -18,7 +18,7 @@ published: false
 
 - **Course units**: 6 units
 
-- **Semester**: Semester 1, 2020
+- **Semester**: Semester 1, 2021
 
 ### Learning Objectives
 
@@ -49,16 +49,16 @@ LENS concert at the end of the course.
 
 ### Assessment
 
-|                    | mark | due date                           | marker         |
-|--------------------|------|------------------------------------|----------------|
-| AV diary portfolio |  30% | Mar 29 (stage 1), May 10 (stage 2) | Charles Martin |
-| Performance plan   |  20% | Apr 20                             | Charles Martin |
-| LENS performance   |  50% | May 29                             | Ben Swift      |
+|                    | mark | due date                               | marker         |
+|--------------------|------|----------------------------------------|----------------|
+| AV diary portfolio |  30% | ~~Mar 29~~ (stage 1), May 10 (stage 2) | Charles Martin |
+| Performance plan   |  20% | ~~Apr 20~~                             | Charles Martin |
+| LENS performance   |  50% | ~~May 29~~                             | Ben Swift      |
 
 ### Meeting Dates
 
-1. weekly LENS workshop sessions (every Tuesday 3pm--5pm in Marie Reay 3.02)
-2. final LENS concert (Friday May 29, subject to venue availability)
+1. weekly LENS workshop sessions (2hrs/week from weeks 1--12)
+2. final LENS concert (date TBC)
 
 ### Student Declaration
 
@@ -78,11 +78,11 @@ have nominated an examiner above, I have obtained their consent (via signature
 below or attached email).
 
 - _Name_: **Dr Ben Swift**
-- _Date_: **26 Feb 2020**
+- _Date_:
 - _Signature_:
 
 ### Examiner
 
-- _Name_: **Dr Charles Martin**
-- _Date_: **26 Feb 2020**
+- _Name_:
+- _Date_:
 - _Signature_:

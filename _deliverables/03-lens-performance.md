@@ -11,8 +11,8 @@ permalink: /deliverables/lens-performance/
 ### Outline
 
 - **Due dates:**
-  - Thursday June 11 9pm (final performance video)
-  - Wednesday June 17 12am (artefact materials due)
+  - ~~Thursday June 11 9pm~~ (final performance video)
+  - ~~Wednesday June 17 12am~~ (artefact materials due)
 - **Mark weighting:** 50%
 - **Submission:** submit your assignment according to the [instructions
   below](#submission-process)
@@ -21,35 +21,23 @@ permalink: /deliverables/lens-performance/
 
 {:.info-box}
 
-The actual "gig" will be streamed on YouTube on Friday June 12 8pm. However, to
-minimise the chances (and stresses) of technical issues, your _final performance
-video_ is due on Thursday June 11 at 9pm. This is the video which will go out as
-your performance in the live stream. For more details, see the [FAQ
-below](#faq).
+The actual "gig" will be streamed on YouTube on ~~Friday June 12 8pm~~. However,
+to minimise the chances (and stresses) of technical issues, your _final
+performance video_ is due on ~~Thursday June 11 at 9pm~~. This is the video
+which will go out as your performance in the live stream. For more details, see
+the [FAQ below](#faq).
 
 ### Description
 
 At the end of semester your **LENS performance** will be assessed in terms of
 quality of the artefact itself and through a live performance. This is the
 culmination of your hard work in the LENS course, and it won't be a dry, boring
-exam---it'll be a ~~live gig that you can invite your friends to~~ video that
-you watch at home, alone, in your pyjamas (just like everything else at the
-moment [#pandemiclife](https://www.instagram.com/explore/tags/pandemiclife/)).
+exam---it'll be a live gig that you can invite your friends to.
 
 We are looking for performances (and associated artefacts) that are
 sophisticated in terms of fundamental aspects of music computing, have a high
 design/compositional quality, and that allow a high level of expression and
 collaboration during performance.
-
-{:.info-box}
-
-Due to the covid19 rules around gatherings, we can't get together for a bangin'
-gig at the end of semester. So your final performance will be a video stream
-instead of a live show. You _can_ stream it **live**, or you can pre-record your
-performance video. Either way, we'll still advertise a timeslot for the stream,
-so you can still invite your friends to tune in. It's still a performance,
-though---so you still need to think about staging, making things interesting for
-the audience, what you'll present on the screen, etc.
 
 ### Specification
 
@@ -68,15 +56,15 @@ of the assessment, so don't neglect these parts when developing your artefact.
 
 The submission for the final performance is in three parts.
 
-- **Thursday June 11 9pm**: submit your "backup" video through Wattle (same
+- ~~**Thursday June 11 9pm**~~: submit your "backup" video through Wattle (same
   [resolution & format requirements]({% link
   _deliverables/01-audiovisual-diary.md %}#weekly-videos-spec) as per the weekly
   diary videos)
 
-- **Friday June 12 8pm**: (the gig---live on YouTube, exact setup details TBC)
+- ~~**Friday June 12 8pm**~~: (the gig---live on YouTube, exact setup details TBC)
 
-- **Wednesday June 17 12am**: artefact materials due through Wattle (as a single
-  zipfile)
+- ~~**Wednesday June 17 12am**~~: artefact materials due through Wattle (as a
+  single zipfile)
 
 ### Marking criteria {#marking}
 
@@ -144,5 +132,5 @@ The CASS late penalty of 5% per day [applies in this course]({% link
 
 Remember, though, that gig stream goes out ~24h after the final video deadline,
 so if you submit your final performance late then it won't be part of the "Final
-LENS S1 2020 gig" stream. Which obviously is not ideal, since the whole course
+LENS S1 2021 gig" stream. Which obviously is not ideal, since the whole course
 has been building up to that gig.
