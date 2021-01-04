@@ -4,8 +4,6 @@ summary: This is it - your chance to make some noise.
 permalink: /deliverables/lens-performance/
 ---
 
-![LENS final gig livestream: 8pm June 12]({% link assets/final-gig-poster.jpg %}){:style="width:100%;"}
-
 {% include toc.html %}
 
 ### Outline

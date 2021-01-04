@@ -19,8 +19,6 @@ course will be the same as in previous years.
 
 ## LENS
 
-![LENS final gig livestream: 8pm June 12]({% link assets/final-gig-poster.jpg %}){:style="width:100%;"}
-
 ![LENS Banner]({% link assets/facebook-banner.png %})
 
 ### ANU Laptop Ensemble, Semester 2 2021
