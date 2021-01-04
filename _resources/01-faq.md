@@ -99,8 +99,8 @@ something---who'd have thought that uni could be like that 😜?
 
 ### Who _shouldn't_ take this course?
 
-The LENS crew believe that computing (including creative computing) is
-[for](https://twitter.com/search?q=%23cs4all), and so no-one should rule
+In LENS believe that computing (including creative computing) is [for
+everyone](https://twitter.com/search?q=%23cs4all), and so no-one should rule
 themselves out because they think they're not "technical" enough to make music
 with computers.
 
