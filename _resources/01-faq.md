@@ -97,6 +97,25 @@ yourself about how much you enjoy learning about how to put computers to work in
 making your own music. Imagine actually enjoying & being motivated to learn
 something---who'd have thought that uni could be like that 😜?
 
+### Who _shouldn't_ take this course?
+
+The LENS crew believe that computing (including creative computing) is
+[for](https://twitter.com/search?q=%23cs4all), and so no-one should rule
+themselves out because they think they're not "technical" enough to make music
+with computers.
+
+Having said that, this isn't a standard CS course, so if you're expecting:
+
+- nice, "one right answer" assignments where you just write code to pass a bunch
+  of unit tests
+- a "closed" syllabus where everything you'll need to do well is a fact you can
+  memorise from the lecture slides
+- to work as a "lone wolf" without having to interact with your classmates (this
+  is an _ensemble_ after all)
+
+then this probably isn't the course for you. No hard feelings, but if you sign
+up for LENS then you've been warned!
+
 ### What does this course look like, week-to-week? {#what-does-this-course-look-like-week-to-week}
 
 Each week, you'll:
