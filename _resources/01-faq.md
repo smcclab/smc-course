@@ -36,6 +36,11 @@ The current LENS artistic directors are [Dr. Ben Swift](https://benswift.me),
 [Dr. Alec Hunter](https://www.alexanderhunter.com.au) and [Dr. Charles
 Martin](https://charlesmartin.com.au).
 
+### It's definitely running in Semester 1, right?
+
+Yep. At one stage last year (2020) it looked like the LENS class might get
+pushed to Semester 2, but for 2021 at least it'll be running in Semester 1.
+
 ### Do I have to be a livecoder to take part?
 
 No! If you're in any way interested in code/technology & music and want to use
