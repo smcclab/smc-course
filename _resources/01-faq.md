@@ -18,7 +18,7 @@ group performance.
 
 More concretely, LENS is a course in computer music making and laptop
 performance open to ANU students in music, art, computer science, and anywhere
-on campus you can take a COMP2xxx or MUSI2xxx elective.
+on campus you can take a COMP2xxx/6xxx or MUSI2xxx elective.
 
 Laptop Ensemble links:
 
@@ -49,15 +49,26 @@ there's never been a better time to do it.
 
 ### Which ANU course code does this course run under?
 
-This course can be taken as either
-[COMP2710](https://programsandcourses.anu.edu.au/2020/course/COMP2710) or
-[COMP2205](https://programsandcourses.anu.edu.au/2020/course/MUSI2205).
+This course runs under two computing course codes:
 
-### What's the deal with the dual course codes (COMP2710 and MUSI2205)?
+- [COMP2710](https://programsandcourses.anu.edu.au/2021/course/COMP2710)
+- [COMP6470](https://programsandcourses.anu.edu.au/2021/course/COMP6470)
 
-The course content & assessment is the same for both. We run it like this to
-make it easier for students from both the CS & the music side of things to fit
-it into their degree programs.
+and we also run the course for Music Project students:
+
+- [MUSI2205](https://programsandcourses.anu.edu.au/2021/course/MUSI2205).
+
+
+
+### What's the deal with the dual course codes (COMP2710, COMP6470, and MUSI2205)?
+
+The course content & assessment is the same for the undergraduate and
+masters versions of the course. The course is also available students
+from the School of Music or CASS who are also expected to complete the same
+assessments.
+
+We run it like this to make it easier for students from both the CS &
+the music side of things to fit it into their degree programs.
 
 ### What music background is required?
 
