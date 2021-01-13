@@ -10,7 +10,7 @@ permalink: /policies/
 Any communication in this course will happen over one of two channels:
 
 1. your ANU email address
-2. the course slack channel (you will be added to this in this in the week 1 lecture)
+2. the course Teams channel (you will be added to this in this in the week 1 lecture)
 
 You are expected to check both of these channels regularly (you can set up
 notifications if it helps). "I didn't see the message" is never an acceptable
@@ -23,7 +23,7 @@ correct convenor: [Ben](mailto:ben.swift@anu.edu.au) for COMP and
 you can just copy the other one in).
 
 For course-content related stuff, you'll get a much faster & better response on
-the slack channel---and that way other students can benefit from your questions
+the Teams channel---and that way other students can benefit from your questions
 as well.
 
 ### Assessment
@@ -60,7 +60,7 @@ final grade of NCN, which means a failure due to non-completion.
 
 ### Late penalties {#late-penalties}
 
-This course follows the [CASS
+This course follows the [ANU
 policy](https://cass.anu.edu.au/current-students/coursework-policy-and-guidelines/late-submissions-and-extensions)
 of applying a 5% penalty for every day (or part thereof).
 
