@@ -125,7 +125,7 @@ You need to help out with _at least one_ other LENS performance.
 
 #### What are the late penalties for this deliverable?
 
-The CASS late penalty of 5% per day [applies in this course]({% link
+The ANU late penalty of 5% per day [applies in this course]({% link
 01-policies.md %}#late-penalties), as stated on the policies page.
 
 Remember, though, that gig stream goes out ~24h after the final video deadline,

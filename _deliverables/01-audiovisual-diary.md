@@ -119,10 +119,10 @@ only).
 Even though you submit something every week, you won't receive a mark each week.
 Instead, you'll be marked through two "portfolio" submissions:
 
-- an 800-word pdf document (filename `portfolio-1.pdf`) due on ~~April 5~~ (end of
+- an 1000-word pdf document (filename `portfolio-1.pdf`) due on ~~April 5~~ (end of
   week 5) which covers AV diary entries 2--5
 
-- an 800-word pdf document (filename `portfolio-2.pdf`) due on ~~May 17~~ (end
+- an 1000-word pdf document (filename `portfolio-2.pdf`) due on ~~May 17~~ (end
   of week 9) which covers AV diary entries 6--9
 
 Each document must articulate your combined (and edited) reflections on your AV

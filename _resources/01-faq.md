@@ -25,7 +25,10 @@ Laptop Ensemble links:
 - [Youtube Channel](https://www.youtube.com/channel/UCIU6SqIS02GJlnLOPqlwmpA)
 - [Facebook Page](https://www.facebook.com/ANULaptopEnsemble/)
 
-{% include youtube.html id="J2rwZFJCmHY" %}
+{% include youtube.html id="24YMz90b6bo" %}
+
+<!-- 2018 brent/alex J2rwZFJCmHY -->
+<!-- 2020 supercut: https://youtu.be/24YMz90b6bo -->
 
 You can see more vids of the ensemble at work on their [YouTube
 channel](https://www.youtube.com/channel/UCIU6SqIS02GJlnLOPqlwmpA).

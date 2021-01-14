@@ -186,6 +186,10 @@ Here are a few things you might like to look at:
   or Extempore. The [Akai
   LPD8](https://www.storedj.com.au/akai-lpd8-ultra-portable-pad-controller-w-8-pads)
   gives you knobs and pads, but not sliders.
+  
+Here's what's not required for this class:
+  
+- **Expensive synthesisers, Ableton Live, Eurorack systems, etc.** Well all of this stuff is awesome and fun, but you can do a lot of learning and music making with just a laptop and a pair of headphones so stick with those for the moment!
 
 ### Other books {#other-books}
 

@@ -18,8 +18,8 @@ _deliverables/03-lens-performance.md %}) at the end of semester.
 | Deliverable                                                                              | Due                                | Weighting                      |
 |------------------------------------------------------------------------------------------|------------------------------------|--------------------------------|
 | [Weekly AV diary videos]({% link _deliverables/01-audiovisual-diary.md %}#weekly-videos) | 9pm every Monday in weeks 2--9     | 0%, but required for portfolio |
-| [AV diary portfolio]({% link _deliverables/01-audiovisual-diary.md %}#portfolio)         | April 5 (week 5) & May 17 (week 9) | 15% + 15% = 30%                |
-| [Performance plan]({% link _deliverables/02-plan.md %})                                  | 9pm Monday May 4                   | 20%                            |
-| [LENS performance]({% link _deliverables/03-lens-performance.md %}) | Friday June 12 (backup video due June 11) | 50% |
+| [AV diary portfolio]({% link _deliverables/01-audiovisual-diary.md %}#portfolio)         | Friday of week 5 & Friday of week 9 | 15% + 15% = 30%                |
+| [Performance plan]({% link _deliverables/02-plan.md %})                                  | 9pm Monday of week 8                   | 20%                            |
+| [LENS performance]({% link _deliverables/03-lens-performance.md %}) | Friday after week 12 | 50% |
 
 {% include postlist.html posts=site.deliverables %}
