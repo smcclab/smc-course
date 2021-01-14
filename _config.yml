@@ -64,9 +64,13 @@ collections:
     output: true
     display_order: 2
     permalink: /deliverables/:path/
-  resources:
+  lectures:
     output: true
     display_order: 3
+    permalink: /lectures/:path/
+  resources:
+    output: true
+    display_order: 4
     permalink: /resources/:path/
 
 ##################
