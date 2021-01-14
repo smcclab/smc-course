@@ -70,6 +70,10 @@ If you've got a good reason, there is the possibility of getting an extension on
 your deadlines if you let the convenor know **at least one week out** from any
 deadline.
 
+### Word limits {#word-limits}
+
+Max word count limits are provided for the written assessment tasks in this course and we expect you to stay within those limits. That said, if you can't quite fit what you want to say, you may exceed the word count by 10% before you start to lose marks.
+
 ### Appeals {#appeals}
 
 From the date that your marks for any assessment item are released
