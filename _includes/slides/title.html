@@ -1,0 +1,17 @@
+<section class="title-slide center">
+  <header>
+	<h1>{{ site.cecs.short_title }}</h1>
+	<p>{{ site.cecs.title }}</p>
+  </header>
+
+  <h2>{{ page.title }}</h2>
+
+  {% if page.lecturer %}
+  <p>{{page.lecturer}}</p>
+  {% endif %}
+  <p><em>Semester 1, 2021</em></p>
+
+  <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+	<img src="{% link assets/resources/by-nc-sa.svg %}" style="height:1.5rem; margin-left:0;">
+  </a>
+</section>
