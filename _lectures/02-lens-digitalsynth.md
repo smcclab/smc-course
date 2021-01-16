@@ -1,21 +1,13 @@
 ---
 title: "Digital Synthesis with Pure Data"
 layout: reveal
-permalink: /lectures/digital-synthesis/
-hidden: true
+permalink: /lectures/digital-synthesis-in-pd
+lecturer: Dr Charles Martin
 ---
 
+{% include slides/title.html %}
 
-<h1 id="title" class="center">{{ page.title }}</h1>
-<p>Charles Martin</p>
-<p><em>July, 2019</em></p>
-<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-  <img src="{% link assets/by-nc-sa.svg %}" style="height:1em; margin-left:0;">
-</a>
-
----
-
-### Pure Data (Pd)
+## Pure Data (Pd)
 
 Free tool for making computer music
 
@@ -25,11 +17,9 @@ Developed by Miller Puckette, maintained by MSP and the community ([download](ht
 
 {% include slides/background-image.html image="digital-synthesis/steve-harvey-unsplash.jpg" heading="patching to make sound" %}
 
----
+## Today's talk:
 
-### Today's workshop:
-
-Learning some basic synthesis techniques with Pd!
+Look at some basic synthesis techniques with Pd!
 
 Workshop Examples: [site](https://github.com/cpmpercussion/ComputerMusicIntro), [download zip](https://github.com/cpmpercussion/ComputerMusicIntro/archive/master.zip)
 
@@ -38,25 +28,19 @@ Workshop Examples: [site](https://github.com/cpmpercussion/ComputerMusicIntro), 
 - sound files and granular synthesis
 - effects!
 
----
-
-### Beyond Pd...
+## Beyond Pd...
 
 Fun note, you can use Pd patches in other projects using...
 
-[libpd](https://github.com/libpd) - just the internal parts of Pd as
+- [libpd](https://github.com/libpd) - just the internal parts of Pd as
 an embeddable library for other software.
-
-[pd-party](http://danomatika.com/code/pdparty) - an iOS app for performing with Pd patches
-
-[mobmuplat](http://danieliglesia.com/mobmuplat/) - an iOS/Android app
+- [pd-party](http://danomatika.com/code/pdparty) - an iOS app for performing with Pd patches
+- [mobmuplat](http://danieliglesia.com/mobmuplat/) - an iOS/Android app
 for performing with Pd Patches.
 
 ![](http://danieliglesia.com/mobmuplat/MMP_flow1.png)
 
----
-
-### Digital Sound
+## Digital Sound
 
 - Monty Montgomery (Xiph.org) [Youtube](https://xiph.org/video/vid2.shtml) [Original Video](https://xiph.org/video/vid2.shtml)
 - Technology Connections Nyquist-Shannon [Youtube](https://youtu.be/pWjdWCePgvA)

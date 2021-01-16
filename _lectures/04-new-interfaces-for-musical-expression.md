@@ -1,17 +1,11 @@
 ---
-title: "New Interfaces for Musical Expression"
+title: "Musical Interfaces in Pure Data"
 layout: reveal
-permalink: /lectures/new-interfaces-for-musical-expression/
-hidden: true
+permalink: /lectures/musical-interfaces-in-pd/
+lecturer: Dr Charles Martin
 ---
 
-
-<h1 id="title" class="center">{{ page.title }}</h1>
-<p>Charles Martin</p>
-<p><em>July, 2019</em></p>
-<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-  <img src="{% link assets/by-nc-sa.svg %}" style="height:1em; margin-left:0;">
-</a>
+{% include slides/title.html %}
 
 ## Today...
 
@@ -38,7 +32,8 @@ hidden: true
            
 {% include slides/background-image.html
            image="nimes/HEADER_Reshaping_Excellence_Imogen_Heap.jpg" %}
-Image Copyright SENNHEISER / PHILIP PEINE
+{% include slides/image-credit.html
+           author="SENNHEISER / PHILIP PEINE" %}
            
 {% include slides/background-image.html
            image="nimes/mad_interface.jpg"  %}

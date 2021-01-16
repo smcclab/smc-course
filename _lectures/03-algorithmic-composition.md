@@ -1,17 +1,11 @@
 ---
 title: "Algorithmic Composition with Pure Data"
 layout: reveal
-permalink: /lectures/algorithmic-composition/
-hidden: true
+permalink: /lectures/algorithmic-composition-in-pd/
+lecturer: Dr Charles Martin
 ---
 
-<h1 id="title" class="center">{{ page.title }}</h1>
-<p>Charles Martin</p>
-<p><em>July, 2019</em></p>
-<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-  <img src="{% link assets/by-nc-sa.svg %}" style="height:1em; margin-left:0;">
-</a>
-
+{% include slides/title.html %}
 
 ## What's this?
 

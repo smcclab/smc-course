@@ -1,49 +1,59 @@
 ---
-title: "Welcome to LENS 2019"
+title: "Welcome to LENS 2021"
 layout: reveal
-permalink: /lectures/welcome/
-hidden: true
+permalink: /lectures/welcome-to-lens/
+lecturer: Drs Ben Swift, Charles Martin, and Alec Hunter
 ---
 
-<h1 id="title" class="center">{{ page.title }}</h1>
-<p>Ben Swift, Alec Hunter and Charles Martin</p>
-<p><em>July 25, 2019</em></p>
-<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-  <img src="{% link assets/by-nc-sa.svg %}" style="height:1em; margin-left:0;">
-</a>
+{% include slides/title.html %}
 
----
-
-### LENS 2019
+## Laptop Ensemble: LENS
 
 Two big goals:
 
-Learning to create new music with laptop computers.
+Learning to create *new music* with *code* on laptop *computers*.
 
 Learning to make computer music in a group.
 
-{% comment %}
-{% include slides/background-image.html image="talks/acmc-2019/lens-soundscapes-3.jpg" %}
+{% include slides/background-image.html image="lectures/welcome/lens-soundscapes-3.jpg" %}
 
-{% include slides/background-image.html image="talks/acmc-2019/lens-open-day-alex-rohan.jpg" %}
+{% include slides/background-image.html image="lectures/welcome/lens-open-day-alex-rohan.jpg" %}
 
-{% include slides/background-image.html image="talks/acmc-2019/lens-open-day-brent-ushini.jpg" %}
+{% include slides/background-image.html image="lectures/welcome/lens-open-day-brent-ushini.jpg" %}
 
-{% include slides/background-image.html image="talks/intro/ems-workshop.jpg" %}
+{% include slides/background-image.html image="lectures/welcome/ems-workshop.jpg" %}
 
-{% include slides/background-image.html image="talks/intro/ems-workshop2.jpg" %}
+{% include slides/background-image.html image="lectures/welcome/ems-workshop2.jpg" %}
 
-{% include slides/background-image.html image="talks/intro/ipad-ensemble.jpg" %}
+{% include slides/background-image.html image="lectures/welcome/ipad-ensemble.jpg" %}
 
-{% include slides/background-image.html image="talks/intro/raspi-duo.jpg" %}
+{% include slides/background-image.html image="lectures/welcome/raspi-duo.jpg" %}
 
-{% include slides/background-image.html image="talks/acmc-2019/lens-soundscapes-2.jpg" %}
+{% include slides/background-image.html image="lectures/welcome/lens-soundscapes-2.jpg" %}
+
+## Learning outcomes...
+
+Some more fine-grained goals:
+
+1. Describe & apply **fundamental aspects of music computing** including
+   digital synthesis, algorithmic composition, and musical interface design.
+
+2. Demonstrate knowledge and understanding of **design and performance
+   issues** around computer music interfaces.
+
+3. **Critically examine** computer music systems and laptop ensemble performances.
+
+4. **Produce** a computer musical instrument, composition or interactive
+   media work and **present it in concert**.
+
+5. Demonstrate **collaboration skills** with a laptop ensemble including
+   being able to provide **design feedback** and **critical self-reflection**.
 
 {% include slides/impact.html %}
 
 who are we?
 
-{% include slides/background-image.html image="talks/acmc-2019/ben-smiths-sounscapes.jpg" heading="Ben Swift" %}
+{% include slides/background-image.html image="lectures/welcome/ben-smiths-sounscapes.jpg" heading="Ben Swift" %}
 
 [livecoder](https://benswift.me/livecoding/index.html)
 
@@ -51,13 +61,13 @@ who are we?
 
 [@benswift](https://twitter.com/benswift)
 
-{% include slides/background-image.html image="talks/acmc-2019/alec-hunter.jpg" heading="Alec Hunter" %}
+{% include slides/background-image.html image="lectures/welcome/alec-hunter.jpg" heading="Alec Hunter" %}
 
 [ANU School of Music](https://music.cass.anu.edu.au/people/dr-alexander-hunter)
 
 [Performer, composer](https://alexanderhunter.co.uk/)
 
-{% include slides/background-image.html image="talks/acmc-2019/charlesmartin-synth-profile.jpg" heading="Charles Martin" %}
+{% include slides/background-image.html image="lectures/welcome/charlesmartin-synth-profile.jpg" heading="Charles Martin" %}
 
 [Computer Musician, Percussionist]()
 
@@ -69,40 +79,25 @@ who are we?
 
 how is this going to work?
 
-{% endcomment %}
----
+## Step 1:
 
-### Step 1:
+Level up _music computing_ skills
 
+- A workshop each week.
 
-Level up music computing skills
+- Particularly focussed for the first 8 weeks of the course.
 
-Three workshops weeks with lab-style exercises and short lectures:
+- Learn about digital synthesis and computer music in *Pd*
 
-- digital synthesis
+- Then reinforce and extend your knowledge by live-coding in *extempore*
 
-- algorithmic composition
-
-- new interface design
-
----
-
-### Step 2:
+## Step 2:
 
 Work on a project.
 
 - Choose a main project to work on over the semester.
 
-- Develop a proposal/rationale for the midsemester break
-
-- Write a process diary every other week (for submission at end of
-  semester).
-  
-- Great to choose something **collaborative**.
-  
----
-
-### Step 3:
+## Step 3:
 
 Perform it!
 
@@ -116,24 +111,10 @@ Perform it!
 
 but first...
 
----
-
-### Enrolment
+## Enrolment
 
 - Who is enrolling?
 
 - Who needs a study contract?
 
 - Who needs a proposal?
-
----
-
-### Next steps
-
-Meetings:
-
-- Wednesday 4pm
-- Thursday 11am
-
-
-
