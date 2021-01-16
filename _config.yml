@@ -17,9 +17,11 @@ baseurl: "/courses/comp2710-lens"
 # the base hostname & protocol for your site (generally leave as-is)
 url: ""
 
-#######################
-# Theme Configuration #
-#######################
+# the default reveal theme used by the revealify plugin
+revealify:
+  theme: assets/reveal.js/anu.scss
+
+
 cecs:
   # site name (in words, e.g. the full course name)
   title: Laptop Ensemble
@@ -101,3 +103,9 @@ defaults:
       categories: news
       show_date: true
       show_time: true
+  -
+    scope:
+      path: _lectures
+    values:
+      layout: reveal
+
