@@ -57,10 +57,9 @@ This course runs under two computing course codes:
 - [COMP2710](https://programsandcourses.anu.edu.au/2021/course/COMP2710)
 - [COMP6470](https://programsandcourses.anu.edu.au/2021/course/COMP6470)
 
-and we also run the course for Music Project students:
+We also are able to accommodate Music Project (MUSI2205) students who have obtained agreement from the convenor of MUSI2205 to participate in laptop ensemble as their project.
 
 - [MUSI2205](https://programsandcourses.anu.edu.au/2021/course/MUSI2205).
-
 
 
 ### What's the deal with the dual course codes (COMP2710, COMP6470, and MUSI2205)?
@@ -178,21 +177,27 @@ creative purposes best as the semester progresses.
 
 ### I wanna be a part of this---what's the next step?
 
-You'll need a permission code to enrol, so check out the info on this course
-website (including this FAQ) to understand what you're getting yourself in for,
-then get in touch with [Ben Swift](mailto:ben.swift@anu.edu.au) (if you want a
-COMP permission code) or [Alec Hunter](mailto:alexander.hunter@anu.edu.au) (if
-you want a MUSI permission code) to join up.
+First, check out the info on this course website (including this FAQ)
+to understand how the course works and what we expect of you.
+
+If you are computer science student, get in touch with [Ben
+Swift](mailto:ben.swift@anu.edu.au) to obtain a COMP permission
+code.
+
+If you are a music student wanting to take laptop ensemble through
+MUSI2205, you should discuss this with the course convenor of MUSI2205
+and [Ben Swift](mailto:ben.swift@anu.edu.au) and then enrol in
+MUSI2205.
 
 ### What's with the Wattle site for this course? {#wattle-site-for-this-course}
 
-All the course content will be on this website (<{% link _deliverables/index.md
-%}>), however we've created a special LENS Wattle site which you'll use to
-submit your weekly [AV Diary entries]({% link
-_deliverables/01-audiovisual-diary.md %}). Since this is a cross-campus course
-(with COMP and MUSI students) we have to enrol you in that Wattle site manually,
-and we'll do that asap, but you're not missing out on any content while you
-wait.
+All the course content will be on this website (<{% link
+_deliverables/index.md %}>), however we've created a special LENS
+Wattle site which you'll use to submit your weekly [AV Diary
+entries]({% link _deliverables/01-audiovisual-diary.md %}). Since this
+is a cross-campus course (with COMP and MUSI students) we have to
+enrol you in that Wattle site manually, and we'll do that asap, but
+you're not missing out on any content while you wait.
 
 ### I want to be part of the laptop ensemble in S1 2021, how can I start practising?
 
