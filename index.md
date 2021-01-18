@@ -42,5 +42,5 @@ must be able to attend the [weekly workshop session]({% link _workshops/index.md
 %}) perform at the [end-of-semester LENS concert]({% link
 _deliverables/03-lens-performance.md %}).
 
-If you've got any questions (including [how to enrol]({% link _resources/01-faq.md#how-to-enrol %})), the [course FAQ]({% link _resources/01-faq.md %})
+If you've got any questions (including [how to enrol](resources/faq/#how-to-enrol)), the [course FAQ]({% link _resources/01-faq.md %})
 might answer them for you.

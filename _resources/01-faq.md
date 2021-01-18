@@ -51,9 +51,7 @@ This course runs under two computing course codes:
 - [COMP2710](https://programsandcourses.anu.edu.au/2021/course/COMP2710)
 - [COMP6470](https://programsandcourses.anu.edu.au/2021/course/COMP6470)
 
-We also are able to accommodate Music Project (MUSI2205) students who have obtained agreement from the convenor of MUSI2205 to participate in laptop ensemble as their project.
-
-- [MUSI2205](https://programsandcourses.anu.edu.au/2021/course/MUSI2205).
+We also are able to accommodate Music Project ([MUSI2205](https://programsandcourses.anu.edu.au/2021/course/MUSI2205)) students who have obtained agreement from the convenor of [MUSI2205](https://programsandcourses.anu.edu.au/2021/course/MUSI2205) to participate in laptop ensemble as their project.
 
 The course content & assessment is the same for the undergraduate and
 masters versions of the course. Students enrolling from the School of
@@ -185,7 +183,7 @@ _deliverables/01-audiovisual-diary.md %}).
 
 ### I want to start practising _right now_, what should I do?
 
-Feel free to install some [computer music software]({% _resources/02-tools.md %}) and start playing around with it, you can also browse our [lecture]({% _lectures/index.html %}) and [workshop]({% _workshops/index.html %}) material.
+Feel free to install some [computer music software]({% link _resources/02-tools.md %}) and start playing around with it, you can also browse our [lecture]({% link _lectures/index.md %}) and [workshop]({% link _workshops/index.md %}) material.
 
 ### I've got friends who are keen as well, what should I do?
 
