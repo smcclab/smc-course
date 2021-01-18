@@ -44,12 +44,6 @@ Martin](https://charlesmartin.com.au).
 Yep. At one stage last year (2020) it looked like the LENS class might get
 pushed to Semester 2, but for 2021 at least it'll be running in Semester 1.
 
-### Do I have to be a livecoder to take part?
-
-No! If you're in any way interested in code/technology & music and want to use
-this opportunity to build your skills in a supportive creative community,
-there's never been a better time to do it.
-
 ### Which ANU course code does this course run under?
 
 This course runs under two computing course codes:
@@ -61,31 +55,24 @@ We also are able to accommodate Music Project (MUSI2205) students who have obtai
 
 - [MUSI2205](https://programsandcourses.anu.edu.au/2021/course/MUSI2205).
 
-
-### What's the deal with the dual course codes (COMP2710, COMP6470, and MUSI2205)?
-
 The course content & assessment is the same for the undergraduate and
-masters versions of the course. The course is also available students
-from the School of Music or CASS who are also expected to complete the same
-assessments.
-
-We run it like this to make it easier for students from both the CS &
-the music side of things to fit it into their degree programs.
+masters versions of the course. Students enrolling from the School of
+Music or CASS are also expected to complete the same assessments.
 
 ### What music background is required?
 
 There are no specific music pre-requisites, and we will teach things from the
-ground up. Obviously, if you've never done anything with music/sound before then
+ground up. Although some music experience is useful, we use musical concepts that are not taught in a standard music curriculum.
+
+Obviously, if you've never done anything with music/sound before then
 there'll be some extra reading (and noise-making!) to do to stay on top of
 things, but if you're willing to put in the work it shouldn't be an
 un-manageable workload.
 
 ### What computing background is required?
 
-There are no specific computing/CS pre-requisites either. Again, we will teach
-things from the ground up (and since we're doing computer music, even if you've
-done a bunch of computing/programming you'll still be using tools & languages
-you've never seen before).
+There are no specific computing/CS pre-requisites either, we will teach
+things from the ground up. Although some computing experience is useful, we use programming concepts and languages that are not taught in a standard CS curriculum.
 
 Obviously, if you've never done anything with computing/programming before then
 there'll be some extra reading (and noise-making!) to do to stay on top of
@@ -119,7 +106,7 @@ something---who'd have thought that uni could be like that 😜?
 
 In LENS believe that computing (including creative computing) is [for
 everyone](https://twitter.com/search?q=%23cs4all), and so no-one should rule
-themselves out because they think they're not "technical" enough to make music
+themselves out because they think they're not "technical" or "musical" enough to make music
 with computers.
 
 Having said that, this isn't a standard CS course, so if you're expecting:
@@ -152,30 +139,30 @@ In addition, over the course of the semester you'll:
 - perform (live!) with your tool and ensemble classmates at the end-of-semeseter
   LENS concert
 
-### What are the time commitments for the LENS course?
+### What are the time commitments for LENS?
 
 The primary weekly contact hours are the 2hr [workshop session]({% link
 _workshops/index.md %}) (day/time/location TBC). If you're enrolled in the
 class, you need to be there every week.
 
-Outside of that workshop, the class will be delivered in "flipped" mode; we'll
-give you some stuff to read & videos to watch whenever you like, then you'll
-make something in response (as described
-[above](#what-does-this-course-look-like-week-to-week)). This is a standard
-6-unit course, so the [ANU expectation is around 130 hours of work per
-week](https://policies.anu.edu.au/ppl/document/ANUP_000691). I'm sure you can do
-the maths as to how much work you'll need to put in each week to stay on top of
-things 😉
+Outside of that workshop, the class will be delivered in "flipped"
+mode; we'll give you some reading material & videos to look at, then
+you'll create something in response (as described
+[above](#what-does-this-course-look-like-week-to-week)). 
+
+This is a standard 6-unit course, so the [ANU expectation is around
+130 hours of work over the semester](https://policies.anu.edu.au/ppl/document/ANUP_000691).
 
 ### What music software will we be using in the course?
 
 In this course you'll learn to use both [Pure Data
 (Pd)](http://msp.ucsd.edu/software.html) and
-[Extempore](https://extemporelang.github.io) for music-making. Which one you use
-for your final performance is up to you; you'll get to decide what fits your
-creative purposes best as the semester progresses.
+[Extempore](https://extemporelang.github.io) for music-making. Which
+one you use for your final performance is up to you; you'll get to
+decide what fits your creative purposes best as the semester
+progresses.
 
-### I wanna be a part of this---what's the next step?
+### How do I enrol in Laptop Ensemble? {#how-to-enrol}
 
 First, check out the info on this course website (including this FAQ)
 to understand how the course works and what we expect of you.
@@ -192,24 +179,16 @@ MUSI2205.
 ### What's with the Wattle site for this course? {#wattle-site-for-this-course}
 
 All the course content will be on this website (<{% link
-_deliverables/index.md %}>), however we've created a special LENS
-Wattle site which you'll use to submit your weekly [AV Diary
-entries]({% link _deliverables/01-audiovisual-diary.md %}). Since this
-is a cross-campus course (with COMP and MUSI students) we have to
-enrol you in that Wattle site manually, and we'll do that asap, but
-you're not missing out on any content while you wait.
+_deliverables/index.md %}>), however we've created a LENS Wattle site
+which you'll use to submit your weekly [AV Diary entries]({% link
+_deliverables/01-audiovisual-diary.md %}).
 
-### I want to be part of the laptop ensemble in S1 2021, how can I start practising?
+### I want to start practising _right now_, what should I do?
 
-Apart from having a look at the material on this course website, the best way is
-to install some computer music software and start messing around. Many of the
-software tools we use in this course are free, open-source and have decent
-tutorials and friendly communities, so there should be plenty of support for
-getting started. If you're really stuck, you can [get in touch with
-Ben](mailto:ben.swift@anu.edu.au) and he can probably give you some more
-suggestions based on your skills & interests.
+Feel free to install some [computer music software]({% _resources/02-tools.md %}) and start playing around with it, you can also browse our [lecture]({% _lectures/index.html %}) and [workshop]({% _workshops/index.html %}) material.
 
 ### I've got friends who are keen as well, what should I do?
 
-Tell them about it! Post it on Schmidtposting, hire a skywriting plane, I don't
-care---it's an open call. Be creative :)
+Tell them about it! Post the laptop ensemble website on
+Schmidtposting, hire a skywriting plane, I don't care---it's an open
+call. Be creative :)
