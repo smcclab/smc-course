@@ -1,6 +1,9 @@
 ---
-title: "Week 10: I'm a computer musician, AMA"
+title: "Week 10: interfaces 2"
 ---
+
+<!-- TODO: this one could be about interfaces---the first one could be about making -->
+<!-- widgets in Pd, this one could be about connecting software together (cf wekinator) -->
 
 {:.diary-provocation-box}
 **No AVD**: your AV diary entries are all done 😁
