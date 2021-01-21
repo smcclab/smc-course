@@ -1,5 +1,5 @@
 ---
-title: "Week 11: final performance practice"
+title: "Week 11: performance practice & stagecraft"
 hidden: true
 ---
 
@@ -10,9 +10,9 @@ hidden: true
 
 ### Goals for this week
 
-1. to put a rocket under everyone to get _something_ working 😉
+1. to submit the tech rider for your final performance
 
-2. to get an idea of what works & what doesn't (while there's still time to make
+2. to put a rocket under everyone to get _something_ working 😉
+
+3. to get an idea of what works & what doesn't (while there's still time to make
    fixes)
-
-<!-- NOTE: This week was previously called "performance & staging" -->

@@ -1,7 +1,6 @@
 ---
-title: "Week 12: final performances"
+title: "Week 12: special topics in LENS"
 hidden: true
 ---
 
-No content this week, just workshopping and Q&A for your [final performances]({%
-link _deliverables/03-lens-performance.md %}).
+TBC.
