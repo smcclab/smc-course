@@ -9,8 +9,7 @@ permalink: /deliverables/lens-performance/
 ### Outline
 
 - **Due dates:**
-  - ~~Thursday June 11 9pm~~ (final performance video)
-  - ~~Wednesday June 17 12am~~ (artefact materials due)
+  - Tuesday June 1 9pm
 - **Mark weighting:** 50%
 - **Submission:** submit your assignment according to the [instructions
   below](#submission-process)
