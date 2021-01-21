@@ -1,7 +1,6 @@
 ---
 title: "Algorithmic Composition with Pure Data"
 layout: reveal
-permalink: /lectures/algorithmic-composition-in-pd/
 lecturer: Dr Charles Martin
 ---
 

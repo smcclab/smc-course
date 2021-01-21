@@ -1,7 +1,6 @@
 ---
 title: "Digital Synthesis with Pure Data"
 layout: reveal
-permalink: /lectures/digital-synthesis-in-pd
 lecturer: Dr Charles Martin
 ---
 
