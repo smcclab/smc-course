@@ -4,7 +4,7 @@ summary: so what types of beeps and boops can we make, actually?
 ---
 
 {:.diary-provocation-box}
-**Solo AVD**: what does a conversation between waveforms sound like?
+**Solo AVD**: create a piece which has two perceptually distinct waveforms/sounds
 
 Synthesis is the process of generating musical signals "synthetically", i.e. by
 some process _other than_ hitting/plucking/rubbing a resonant body like a guitar

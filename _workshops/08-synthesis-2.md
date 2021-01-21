@@ -4,7 +4,7 @@ summary: configuring and playing an analogue modular synth with code
 ---
 
 {:.diary-provocation-box}
-**Group AVD**: "start big, then take things away until you can hear it working"
+**Group AVD**: start big, then "remove" things with filters & algorithms
 
 ### Goals for this week
 

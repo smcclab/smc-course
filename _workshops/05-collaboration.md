@@ -4,7 +4,8 @@ summary: making computer music with multiple computers & musicians
 ---
 
 {:.diary-provocation-box}
-**Group AVD**: what does a truly collaborative LENS workflow _sound_ like?
+**Group AVD**: create a piece where every member controls a different aspect of
+the sound
 
 You know things are getting real when [the cricket is
 cancelled](https://www.theguardian.com/world/live/2020/mar/17/australia-coronavirus-live-updates-nsw-victoria-qld-quarantine-self-isolate-update-woolworths-coles-shopping-schools-latest-news-update?page=with:block-5e7018be8f088d7575594a91#block-5e7018be8f088d7575594a91),

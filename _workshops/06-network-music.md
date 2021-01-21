@@ -1,7 +1,10 @@
 ---
-title: "Week 6: network music"
+title: "Week 6: interfaces"
 summary: musical collaboration over computer networks
 ---
+
+<!-- TODO: have an "interfaces" week (see [these slides from 2019]({% link -->
+<!-- _workshops/2019-slides/04-new-interfaces-for-musical-expression.md %})) -->
 
 Network connections are used to connect musicians together from different
 locations, to connect devices together in one studio, and to connect different
@@ -10,9 +13,8 @@ in your laptop music making.
 
 {:.diary-provocation-box}
 
-**Solo AVD**: pick a computer music work or system that uses networks, think
-about what the network part does to make it compelling and then make something
-of your own which takes that idea even further
+**Solo AVD**: pick someone else's patch/code from a previous workshop, put a
+new interface on it, and play something
 
 ### Goals for this week
 

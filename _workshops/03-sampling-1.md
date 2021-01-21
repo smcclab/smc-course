@@ -4,7 +4,8 @@ summary: working with pre-recorded sound material
 ---
 
 {:.diary-provocation-box}
-**Solo AVD**: tell us something about yourself through sampled sounds
+**Solo AVD**: create a piece using sampled sounds which says something about
+_you_
 
 If [synthesis]({% link _workshops/02-synthesis-1.md %}) is about creating sound
 [ex nihilo](https://www.wordnik.com/words/ex%20nihilo), sampling is about

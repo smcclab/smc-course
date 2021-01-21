@@ -4,8 +4,11 @@ summary: triggering events in pitch & time using algorithmic processes
 ---
 
 {:.diary-provocation-box}
-**Solo AVD**: which aspects of music should be controlled by an algorithm, and
-what should be controlled by a musician?
+**Solo AVD**: write a piece with three algorithmic parts: drums, bass and lead
+
+<!-- TODO: list a bunch of algos (euclid, iterating through lists of pitches - pc -->
+<!-- stuff, synthesis-level algo stuff as well as note-based stuff, -->
+<!-- cycles-within-cycles with cosr, 4-against-3, etc) -->
 
 ### Goals for this week
 
