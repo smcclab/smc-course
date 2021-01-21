@@ -8,7 +8,7 @@ permalink: /deliverables/plan/
 
 ### Outline
 
-- **Due date:** ~~9pm Monday May 4~~
+- **Due date:** Week 8 (exact time & date TBC)
 - **Mark weighting:** 20%
 - **Submission:** submit your assignment according to the [instructions
   below](#submission-process)
@@ -64,9 +64,9 @@ run of the technology, let us know on slack and we can arrange it).
 ### Submission process {#submission-process}
 
 You must submit your document, slides and associated files as a **single zip
-file** through Wattle by ~~9pm on Monday May 4~~ (week 8). All students will
-present their work to the rest of the LENS cohort during the week 8 [workshop
-timeslot]({% link _workshops/index.md %}) the following day (Tuesday May 5).
+file** through Wattle. All students will present their work to the rest of the
+LENS cohort during the week 8 [workshop timeslot]({% link _workshops/index.md
+%}) the following day.
 
 ### Marking criteria {#marking}
 

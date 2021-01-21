@@ -8,21 +8,12 @@ permalink: /deliverables/lens-performance/
 
 ### Outline
 
-- **Due dates:**
-  - Tuesday June 1 9pm
+- **Due date:** Tuesday June 1 (time TBC)
 - **Mark weighting:** 50%
 - **Submission:** submit your assignment according to the [instructions
   below](#submission-process)
 - **Policies:** for late policies, academic integrity policies, etc. see the
   [policies page]({% link 01-policies.md %})
-
-{:.info-box}
-
-The actual "gig" will be streamed on YouTube on ~~Friday June 12 8pm~~. However,
-to minimise the chances (and stresses) of technical issues, your _final
-performance video_ is due on ~~Thursday June 11 at 9pm~~. This is the video
-which will go out as your performance in the live stream. For more details, see
-the [FAQ below](#faq).
 
 ### Description
 
@@ -51,16 +42,11 @@ of the assessment, so don't neglect these parts when developing your artefact.
 
 ### Submission process {#submission-process}
 
-The submission for the final performance is in three parts.
+It's a live gig---we'll announce the time & venue details closer to the date.
 
-- ~~**Thursday June 11 9pm**~~: submit your "backup" video through Wattle (same
-  [resolution & format requirements]({% link
-  _deliverables/01-audiovisual-diary.md %}#weekly-videos-spec) as per the weekly
-  diary videos)
+- ~~**Tuesday June 1 9pm**~~: the gig---live on YouTube, exact setup details TBC
 
-- ~~**Friday June 12 8pm**~~: (the gig---live on YouTube, exact setup details TBC)
-
-- ~~**Wednesday June 17 12am**~~: artefact materials due through Wattle (as a
+- ~~**Tuesday June 8 11:59pm**~~: artefact materials due through Wattle (as a
   single zipfile)
 
 ### Marking criteria {#marking}
