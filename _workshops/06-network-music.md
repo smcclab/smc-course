@@ -3,8 +3,8 @@ title: "Week 6: interfaces"
 summary: musical collaboration over computer networks
 ---
 
-<!-- TODO: have an "interfaces" week (see [these slides from 2019]({% link -->
-<!-- _workshops/2019-slides/04-new-interfaces-for-musical-expression.md %})) -->
+<!-- TODO: have an "interfaces" week (see [Chuckles NIME slides from 2019]). -->
+<!-- TODO: change content to be about interfaces, not networking -->
 
 Network connections are used to connect musicians together from different
 locations, to connect devices together in one studio, and to connect different

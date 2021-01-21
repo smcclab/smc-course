@@ -6,10 +6,6 @@ summary: triggering events in pitch & time using algorithmic processes
 {:.diary-provocation-box}
 **Solo AVD**: write a piece with three algorithmic parts: drums, bass and lead
 
-<!-- TODO: list a bunch of algos (euclid, iterating through lists of pitches - pc -->
-<!-- stuff, synthesis-level algo stuff as well as note-based stuff, -->
-<!-- cycles-within-cycles with cosr, 4-against-3, etc) -->
-
 ### Goals for this week
 
 1. download, install & make a sound with **Extempore** (the [VSCode Quickstart
@@ -93,6 +89,10 @@ happen then hit us up on slack and we can probably point you in the right direct
 
 Not necessarily Extempore-related, but a few more places to get ideas for
 algorithmic composition:
+
+TODO: update list resources with Extempore examples for: euclid, iterating
+through lists of pitches - pc stuff, synthesis-level algo stuff as well as
+note-based stuff, cycles-within-cycles with cosr, 4-against-3, etc.
 
 - [Brief History of Algorithmic Composition (John A.
   Maurer)](https://ccrma.stanford.edu/~blackrse/algorithm.html)
