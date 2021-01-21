@@ -80,8 +80,8 @@ cohort).
 
 #### Submission process {#weekly-videos-submission-process}
 
-You must submit your 60sec video and associated files as a **single zip file**
-through Wattle by Monday 9pm every week (from weeks 2--9 inclusive).
+You must submit your 60sec video and associated files by Monday 9pm every week
+(from weeks 2--9 inclusive).
 
 #### Tips on making a good weekly video
 
@@ -134,7 +134,7 @@ as a LENS member and computer musician through these AVD submissions.
 
 #### Submission process
 
-Submit each document (in pdf format) through Wattle by 11:59pm on the due date.
+Submit each document (in pdf format) by 11:59pm on the due date.
 
 #### Marking criteria {#marking}
 

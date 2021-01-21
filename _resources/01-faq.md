@@ -174,12 +174,10 @@ MUSI2205, you should discuss this with the course convenor of MUSI2205
 and [Ben Swift](mailto:ben.swift@anu.edu.au) and then enrol in
 MUSI2205.
 
-### What's with the Wattle site for this course? {#wattle-site-for-this-course}
+### Do we use Wattle in this course? {#wattle-site-for-this-course}
 
-All the course content will be on this website (<{% link
-_deliverables/index.md %}>), however we've created a LENS Wattle site
-which you'll use to submit your weekly [AV Diary entries]({% link
-_deliverables/01-audiovisual-diary.md %}).
+We won't use Wattle in this course---all the course content will be on this
+website (<{% link _deliverables/index.md %}>).
 
 ### I want to start practising _right now_, what should I do?
 

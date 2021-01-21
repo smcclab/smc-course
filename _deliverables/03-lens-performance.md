@@ -46,8 +46,7 @@ It's a live gig---we'll announce the time & venue details closer to the date.
 
 - ~~**Tuesday June 1 9pm**~~: the gig---live on YouTube, exact setup details TBC
 
-- ~~**Tuesday June 8 11:59pm**~~: artefact materials due through Wattle (as a
-  single zipfile)
+- ~~**Tuesday June 8 11:59pm**~~: final artefact materials due
 
 ### Marking criteria {#marking}
 

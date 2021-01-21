@@ -63,10 +63,9 @@ run of the technology, let us know on slack and we can arrange it).
 
 ### Submission process {#submission-process}
 
-You must submit your document, slides and associated files as a **single zip
-file** through Wattle. All students will present their work to the rest of the
-LENS cohort during the week 8 [workshop timeslot]({% link _workshops/index.md
-%}) the following day.
+You must submit your document, slides and associated files through GitLab. All
+students will present their work to the rest of the LENS cohort during the week
+8 [workshop timeslot]({% link _workshops/index.md %}) the following day.
 
 ### Marking criteria {#marking}
 
