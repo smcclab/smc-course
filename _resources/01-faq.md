@@ -46,16 +46,21 @@ pushed to Semester 2, but for 2021 at least it'll be running in Semester 1.
 
 ### Which ANU course code does this course run under?
 
-This course runs under two computing course codes:
+You can take this course under the following (computing) course codes:
 
 - [COMP2710](https://programsandcourses.anu.edu.au/2021/course/COMP2710)
 - [COMP6470](https://programsandcourses.anu.edu.au/2021/course/COMP6470)
 
-We also are able to accommodate Music Project ([MUSI2205](https://programsandcourses.anu.edu.au/2021/course/MUSI2205)) students who have obtained agreement from the convenor of [MUSI2205](https://programsandcourses.anu.edu.au/2021/course/MUSI2205) to participate in laptop ensemble as their project.
+The course content & assessment is the same for the undergraduate (COMP2710) and
+masters (COMP6740) versions of the course.
 
-The course content & assessment is the same for the undergraduate and
-masters versions of the course. Students enrolling from the School of
-Music or CASS are also expected to complete the same assessments.
+We also are able to accommodate Music Project
+([MUSI2205](https://programsandcourses.anu.edu.au/2021/course/MUSI2205))
+students who have obtained agreement from the convenor of
+[MUSI2205](https://programsandcourses.anu.edu.au/2021/course/MUSI2205) to
+participate in laptop ensemble as their project. Students enrolling from the
+School of Music or CASS will complete the exact same assessment as the COMP
+students.
 
 ### What music background is required?
 
