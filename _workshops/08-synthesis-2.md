@@ -24,8 +24,8 @@ Extempore documentation website.
 ### Things to think about
 
 - there _is_ still an AV diary entry due this week, even though this week's
-  workshop slot will actually be filled by your [performance plan
-  presentations]({% link _deliverables/02-plan.md %})
+  workshop slot will actually be filled by your [LENS demo]({% link
+  _deliverables/02-demo-day.md %})
 
 - since Extempore's analogue synth is based around the exact same concepts as a
   hardware (or software) modular synth, have a look at some of the many YouTube

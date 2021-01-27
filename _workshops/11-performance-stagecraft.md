@@ -3,8 +3,6 @@ title: "Week 11: performance practice & stagecraft"
 hidden: true
 ---
 
-<!-- TODO maybe rename this file, if the preso is now going to be a demo day -->
-
 {:.diary-provocation-box}
 **No AVD**: your AV diary entries are all done 😁
 
