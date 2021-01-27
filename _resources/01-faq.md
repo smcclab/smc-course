@@ -142,6 +142,14 @@ In addition, over the course of the semester you'll:
 - perform (live!) with your tool and ensemble classmates at the end-of-semeseter
   LENS concert
 
+### Do I _have_ to do a live performance if I take this course?
+
+Yes, the [main course deliverable]({% link _deliverables/03-lens-performance.md
+%}) (worth 50% of the course mark) is to use the computer music
+instrument/system that you've built in a group performance alongside some of
+your LENS classmates. The "present it in concert" part of that is one of the
+course [learning outcomes]({% link 02-outline.md %}#learning-outcomes).
+
 ### What are the time commitments for LENS?
 
 The primary weekly contact hours are the 2hr [workshop session]({% link
