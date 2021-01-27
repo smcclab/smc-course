@@ -5,17 +5,13 @@ hidden: true
 
 <div class="info-box" markdown="1" style="margin: 20px 0;">
 
-This is the _LENS: ANU Laptop Ensemble_ course website. **The course
-will next run in Semester 1, 2021** under the course codes
-COMP2710/6740. If you'd like to participate, then [email
-Ben](mailto:ben.swift@anu.edu.au) ASAP to register your interest. In
-the meantime, you can always watch the amazing work done by previous
+This is the _LENS: ANU Laptop Ensemble_ course website. **The course is running
+in Semester 1, 2021** under the course codes COMP2710/6740. If you'd like to
+participate, then [email Ben](mailto:ben.swift@anu.edu.au) ASAP to register your
+interest. In the meantime, you can watch the amazing work done by previous
 ensemble members on the [LENS YouTube
-Channel](https://www.youtube.com/channel/UCIU6SqIS02GJlnLOPqlwmpA) and
-read the course [FAQ]({% link _resources/01-faq.md %}). Some of the
-information on this website will change as the semester approaches,
-but the general shape of the course will be the same as in previous
-years.
+Channel](https://www.youtube.com/channel/UCIU6SqIS02GJlnLOPqlwmpA) and read the
+course [FAQ]({% link _resources/01-faq.md %}).
 
 </div>
 
