@@ -164,6 +164,13 @@ you'll create something in response (as described
 This is a standard 6-unit course, so the [ANU expectation is around
 130 hours of work over the semester](https://policies.anu.edu.au/ppl/document/ANUP_000691).
 
+### Can I take this course if I'm a remote student?
+
+Many of our courses are now offered in remote mode (e.g. for students stuck
+overseas because of covid). Unfortunately, the nature of the LENS course means
+that it cannot be offered in remote mode---to participate you must be able to
+attend the workshop sessions in person.
+
 ### What music software will we be using in the course?
 
 In this course you'll learn to use both [Pure Data
