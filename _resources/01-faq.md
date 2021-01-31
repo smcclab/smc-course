@@ -186,13 +186,24 @@ First, check out the info on this course website (including this FAQ)
 to understand how the course works and what we expect of you.
 
 If you are computer science student, get in touch with [Ben
-Swift](mailto:ben.swift@anu.edu.au) to obtain a COMP permission
-code.
+Swift](mailto:ben.swift@anu.edu.au) to enrol.
 
 If you are a music student wanting to take laptop ensemble through
 MUSI2205, you should discuss this with the course convenor of MUSI2205
 and [Ben Swift](mailto:ben.swift@anu.edu.au) and then enrol in
 MUSI2205.
+
+{:.info-box}
+
+If you want to enrol in LENS as a MUSI2205 student, you still need to email Ben
+to register your interest.
+
+### Will I need a permission code?
+
+Yes. If you're enrolling in COMP2710 or 6740 then you will get a permission code
+in week 1 after you've signed the course Independent Study Contract. If you're
+enrolling in MUSI2205 you'll need to organise a permission code through your
+course convenor.
 
 ### Do we use Wattle in this course? {#wattle-site-for-this-course}
 
