@@ -30,13 +30,13 @@ The timeline for each workshop is:
 
 {:style="width:100%; margin-bottom:2em;"}
 
-|  time |                                            |
-|-------|--------------------------------------------|
-| 14:45 | chance for pre-class questions             |
-| 15:10 | listen to that week's AV diary submissions |
-| 15:30 | crit discussion                            |
-| 15:50 | small group jam activity                   |
-| 16:20 | group performances                         |
-| 16:40 | discussion, feedback, questions on notice  |
+| time |                                            |
+|------|--------------------------------------------|
+|      | chance for pre-class questions             |
+|      | listen to that week's AV diary submissions |
+|      | crit discussion                            |
+|      | small group jam activity                   |
+|      | group performances                         |
+|      | discussion, feedback, questions on notice  |
 
 {% include postlist.html posts=site.workshops %}
