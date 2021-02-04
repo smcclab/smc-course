@@ -8,11 +8,12 @@ hidden: true
 
 {:.info-box}
 
-The weekly workshop day/time/location hasn't been decided yet. We'll update the
-website ASAP once the details are confirmed.
+The weekly workshop timeslot is 3pm--5pm in the [Marie Reay
+6.02](https://www.anu.edu.au/maps#show=108136).
 
-The primary weekly contact hours are the 2hr workshop session (day/time/location
-TBC). If you're enrolled in the class, you need to be there every week.
+The primary weekly contact hours are the 2hr workshop session from 3pm--5pm in
+the [Marie Reay 6.02](https://www.anu.edu.au/maps#show=108136). If you're
+enrolled in the class, you must be there every week.
 
 _Before_ you attend the workshop you must have read the corresponding lecture
 material (see below) and have submitted your weekly [AV diary video]({% link
@@ -30,13 +31,13 @@ The timeline for each workshop is:
 
 {:style="width:100%; margin-bottom:2em;"}
 
-| time |                                            |
-|------|--------------------------------------------|
-|      | chance for pre-class questions             |
-|      | listen to that week's AV diary submissions |
-|      | crit discussion                            |
-|      | small group jam activity                   |
-|      | group performances                         |
-|      | discussion, feedback, questions on notice  |
+|  time |                                            |
+|-------|--------------------------------------------|
+| 14:45 | chance for pre-class questions             |
+| 15:10 | listen to that week's AV diary submissions |
+| 15:30 | crit discussion                            |
+| 15:50 | small group jam activity                   |
+| 16:20 | group performances                         |
+| 16:40 | discussion, feedback, questions on notice  |
 
 {% include postlist.html posts=site.workshops %}
