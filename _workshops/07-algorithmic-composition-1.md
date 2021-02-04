@@ -3,10 +3,13 @@ title: "Week 7: algorithmic composition 1"
 summary: triggering events in pitch & time using algorithmic processes
 ---
 
+# {{ page.title }}
+
 {:.diary-provocation-box}
+
 **Solo AVD**: write a piece with three algorithmic parts: drums, bass and lead
 
-### Goals for this week
+## Goals for this week
 
 1. download, install & make a sound with **Extempore** (the [VSCode Quickstart
    page](https://extemporelang.github.io/docs/overview/quickstart/) is probably
@@ -18,7 +21,7 @@ summary: triggering events in pitch & time using algorithmic processes
 
 3. create one (or more) simple algorithmic processes which generate music
 
-### Extempore resources
+## Extempore resources
 
 {:.info-box}
 
@@ -27,7 +30,7 @@ through some example code which will (hopefully) be fun to play with, and don't
 worry if you don't understand everything about it at first. And **if you have
 questions, hit us up on slack**.
 
-#### Quickstart
+### Quickstart
 
 The best way to get started with Extmpore is to follow the
 [Quickstart](https://extemporelang.github.io/docs/overview/quickstart/); it'll
@@ -38,7 +41,7 @@ After that's all working, all you need to do is create a new `.xtm` file, start
 & connect Extempore (as you learned to do in the _Quickstart_ guide) and you're
 off and racing.
 
-#### Background
+### Background
 
 There are a couple of maths-y/music-y pre-reqs which you've probably already
 seen before, but are often helpful in algorithmic composition:
@@ -49,7 +52,7 @@ seen before, but are often helpful in algorithmic composition:
 - [modular arithmetic](https://en.wikipedia.org/wiki/Modular_arithmetic) is
   handy for both rhythmic and harmonic (pitch) algorithms
 
-#### Launch points
+### Launch points
 
 Extempore (like Pd) can do lots of things, and the best way to learn is probably
 to dive in and start making noise. Here's a good place to start:

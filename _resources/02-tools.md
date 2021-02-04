@@ -4,9 +4,11 @@ summary: What tools (software & hardware) do you need to take part in LENS? Let'
 permalink: /resources/tools/
 ---
 
+# {{ page.title }}
+
 {% include toc.html %}
 
-### Laptop
+## Laptop
 
 LENS is a laptop ensemble, so if you have your own laptop and want to use that,
 then that's great. During classes (e.g. the [workshop sessions]({% link
@@ -26,14 +28,14 @@ and [MIDI controllers](https://www.soundonsound.com/reviews/novation-impulse-49)
 for LENS students to use in class or borrow if you need to. Let us know if you
 have a good use case for these!
 
-### Computer music software {#software}
+## Computer music software {#software}
 
 Learning the basics of computer music programming is a core part of this course.
 There are two primary computer music software environments we'll use in the LENS
 course [Pure Data (Pd)](https://puredata.info) and
 [Extempore](https://extemporelang.github.io).
 
-##### Pure Data (Pd) {#pure-data}
+### Pure Data (Pd) {#pure-data}
 
 {:.info-box}
 
@@ -50,7 +52,7 @@ version of "vanilla" Pd for your platform (as shown in the screenshot).
 
 ![download box on the Pd website]({% link assets/resources/pd-download-box.png %})
 
-###### Example code/patches
+#### Example code/patches
 
 - All of the built-in Pd objects come with an example patch which explains how
   to use them. You can access this help browser using the `Help > Browser...`
@@ -63,7 +65,7 @@ version of "vanilla" Pd for your platform (as shown in the screenshot).
 - You can also find lots of great Pd examples in the [rjlib
   library](https://github.com/rjdj/rjlib/)
 
-###### Books
+#### Books
 
 - _Kreidler, J._ [Programming Electronic Music in
   Pd](http://www.pd-tutorial.com) (2013). This book is freely available online,
@@ -84,8 +86,7 @@ version of "vanilla" Pd for your platform (as shown in the screenshot).
 
 - [Cambridge Companion to Electronic Music](https://www-cambridge-org.virtual.anu.edu.au/core/books/cambridge-companion-to-electronic-music/51F366EA55DAE2CBCCB191E2D8349C9F) (available through ANU library online). A great resource that covers all the concepts in this course with chapters written by current computer music composers and researchers.
 
-
-##### Extempore {#extempore}
+### Extempore {#extempore}
 
 {:.info-box}
 
@@ -98,14 +99,14 @@ You might have seen Ben use it in his
 [livecoding](https://benswift.me/livecoding/), but you can use it for "offline"
 music-making as well.
 
-###### Books
+#### Books
 
 If you're new to Extempore, start with the
 [Quickstart](https://extemporelang.github.io/docs/overview/quickstart/) page in
 Extempore's online documentation, which includes instructions on how to install
 it on your laptop. Like Pd, Extempore is free & works on Windows, macOS & Linux.
 
-###### Example code
+#### Example code
 
 As far as example code goes, Extempore comes with a bunch of example code (it's
 in the `examples/` folder). One cool place to start is the
@@ -114,7 +115,7 @@ documentation website, (for example to learn to make music with the [Extempore
 pattern
 language](https://extemporelang.github.io/docs/guides/pattern-language/)).
 
-##### Screen recording software {#screen-recording-software}
+## Screen recording software {#screen-recording-software}
 
 Recording videos of your work is a crucial part of this course, you'll be doing
 it every week for your [AV diary submission]({% link
@@ -147,7 +148,7 @@ A few more tips:
    [BlackHole](https://github.com/ExistentialAudio/BlackHole) to route the audio
    into OBS so that it records properly.
 
-### Hardware {#hardware}
+## Hardware {#hardware}
 
 {:.info-box}
 
@@ -191,7 +192,7 @@ Here's what's not required for this class:
   
 - **Expensive synthesisers, Ableton Live, Eurorack systems, etc.** Well all of this stuff is awesome and fun, but you can do a lot of learning and music making with just a laptop and a pair of headphones so stick with those for the moment!
 
-### Other books {#other-books}
+## Other books {#other-books}
 
 There are other computer music languages & software packages as well, and you're
 always welcome to mess around with whatever creative tools you like. However,

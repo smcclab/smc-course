@@ -4,7 +4,7 @@ permalink: /deliverables/
 hidden: true
 ---
 
-## {{ page.title }}
+# {{ page.title }}
 
 Half of your assessment for this course is based on your analysis & reflection
 on the key computer music concepts presented in the course, as demonstrated

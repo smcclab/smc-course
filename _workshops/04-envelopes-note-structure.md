@@ -3,7 +3,10 @@ title: "Week 4: envelopes & note structure"
 summary: shaping sound in the short (and long) term
 ---
 
+# {{ page.title }}
+
 {:.diary-provocation-box}
+
 **Solo AVD**: with a _single_ sound source, create a piece using envelopes
 
 The past two weeks of workshops have shown several different ways to create
@@ -22,7 +25,7 @@ movements.
 
 ![]({{site.baseurl}}/assets/digital-synthesis/envelope-sound.png){:style="width:100%;"}
 
-### Goals for this week
+## Goals for this week
 
 1. be able to control the sound sources in your patch in a reliable & repeatable
    manner
@@ -30,7 +33,7 @@ movements.
 2. to explore how different envelope parameters can be used from a compositional
    perspective
 
-### Pd resources
+## Pd resources
 
 - [Charles' Pd examples (start with
   `11-EnvelopeGenerator.pd`)](https://github.com/cpmpercussion/ComputerMusicIntro)
@@ -41,7 +44,7 @@ movements.
   
 ![]({{site.baseurl}}/assets/digital-synthesis/pd-using-vline.png){:style="width:100%;"}
 
-### Things to think about
+## Things to think about
 
 - does an envelope have to control the _amplitude_ of a sound source? or can it
   control other things? can envelopes control other envelopes?

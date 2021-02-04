@@ -6,6 +6,8 @@ summary: musical collaboration over computer networks
 <!-- TODO: have an "interfaces" week (see [Chuckles NIME slides from 2019]). -->
 <!-- TODO: change content to be about interfaces, not networking -->
 
+# {{ page.title }}
+
 Network connections are used to connect musicians together from different
 locations, to connect devices together in one studio, and to connect different
 pieces of software on one computer. This week you'll explore how to use networks
@@ -16,7 +18,7 @@ in your laptop music making.
 **Solo AVD**: pick someone else's patch/code from a previous workshop, put a
 new interface on it, and play something
 
-### Goals for this week
+## Goals for this week
 
 1. explore the history (and present) of networked music to see what artists have
    been doing when they're connected together. find out about systems for
@@ -28,12 +30,12 @@ new interface on it, and play something
    livestreamed over the network, and what that might mean for the type of piece
    you'll build/compose
 
-### Resources
+## Resources
 
 - Network Music Making [YouTube: charles](https://youtu.be/1J7EAu5g5zw)
 - [Network Music (Cambridge Companion to Electronic Music)](https://www-cambridge-org.virtual.anu.edu.au/core/services/aop-cambridge-core/content/view/C2A04A1DAE6EDE05909CF97DFEAD8B86/9781316459874c8_p138-153_CBO.pdf/network_music.pdf)
 
-#### Open Sound Control 
+### Open Sound Control
 
 - Andrew Johnston: [Pure Data and Open Sound
   Control](https://youtu.be/TTd57stEr_g)
@@ -45,7 +47,7 @@ N.B. Pd didn't have OSC built in until fairly recently (v0.46), look at the
 work. Older videos will show how to import special libraries for OSC --- not
 needed anymore!
 
-#### Audio over networks
+### Audio over networks
 
 - [JackTrip audio conference server](https://youtu.be/wcyqRHYo-xo)
 - [Remote setup for Live Music Performance using Jacktrip & Aseqnet](https://youtu.be/duoCM70vQ44)

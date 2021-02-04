@@ -3,8 +3,12 @@ title: "Week 2: synthesis 1"
 summary: so what types of beeps and boops can we make, actually?
 ---
 
+# {{ page.title }}
+
 {:.diary-provocation-box}
-**Solo AVD**: create a piece which has two perceptually distinct waveforms/sounds
+
+**Solo AVD**: create a piece which has two perceptually distinct
+waveforms/sounds
 
 Synthesis is the process of generating musical signals "synthetically", i.e. by
 some process _other than_ hitting/plucking/rubbing a resonant body like a guitar
@@ -26,7 +30,7 @@ signal and hearing what those transformations sound like.
     That [Synthesizer wikipedia page](https://en.wikipedia.org/wiki/Synthesizer)
     has several links to these fundamental techniques in the opening paragraph.
 
-### Goals for this week
+## Goals for this week
 
 1. to learn what an oscillator _sounds_ like
 
@@ -38,7 +42,7 @@ signal and hearing what those transformations sound like.
 3. to begin to understand how the different types of things in Pd (objects,
    numbers, messages) work together
 
-### Pd resources
+## Pd resources
 
 {% include video.html video="lecture-recordings/2019/week-2-hello-sine" %}
 
@@ -51,7 +55,7 @@ Here are the links that I mention at the end of the video:
   [tools page]({% link _resources/02-tools.md %}#other-books))
 - [Charles' examples](https://github.com/cpmpercussion/ComputerMusicIntro)
 
-### Things to think about
+## Things to think about
 
 - what does "low" or "high" frequency mean in the context of synthesis? what's
   the useful frequency range of an oscillator?

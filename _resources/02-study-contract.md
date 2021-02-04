@@ -4,6 +4,8 @@ permalink: /resources/study-contract/
 published: false
 ---
 
+# {{ page.title }}
+
 ## Section A (Students and Supervisors)
 
 - **Student UID**:

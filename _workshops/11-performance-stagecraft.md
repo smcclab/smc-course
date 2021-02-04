@@ -3,10 +3,13 @@ title: "Week 11: performance practice & stagecraft"
 hidden: true
 ---
 
+# {{ page.title }}
+
 {:.diary-provocation-box}
+
 **No AVD**: your AV diary entries are all done 😁
 
-### Goals for this week
+## Goals for this week
 
 1. to submit the tech rider for your final performance
 

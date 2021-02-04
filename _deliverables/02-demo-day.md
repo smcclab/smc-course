@@ -4,9 +4,11 @@ summary: Show the rest of the LENS what you're working on for your end-of-semest
 permalink: /deliverables/plan/
 ---
 
+# {{ page.title }}
+
 {% include toc.html %}
 
-### Outline
+## Outline
 
 - **Due date:** Week 8 (exact time & date TBC)
 - **Mark weighting:** 20%
@@ -15,7 +17,7 @@ permalink: /deliverables/plan/
 - **Policies:** for late policies, academic integrity policies, etc. see the
   [policies page]({% link 01-policies.md %})
 
-### Description
+## Description
 
 In the week 8 workshop session everyone will give an in-class demo of their
 work-in-progress (WIP) for the final LENS performance. It's not expected to be
@@ -46,7 +48,7 @@ timeslot to wander around and play with other people's LENS artefacts. Remember,
 you need at least one of your classmates to be involved as an ensemble
 member---this is a great chance to pitch to them!
 
-### Specification
+## Specification
 
 You must present your LENS artefact to the rest of the class in a 5 minute
 in-class demo, followed by 5 minutes of questions. You can bring your own
@@ -58,7 +60,7 @@ patch files/code/sounds/video assets associated with your demo.
 This demo should not be just a ppt presentation---this is expected to be a live
 demo, although you can show off your artefact in whatever way seems best to you.
 
-### Submission process {#submission-process}
+## Submission process {#submission-process}
 
 You must submit your artefact files through GitLab. All students will present
 their work to the rest of the LENS cohort during the week 8 [workshop
@@ -67,7 +69,7 @@ timeslot]({% link _workshops/index.md %}) the following day.
 This is an in-class presentation, if you do not attend you will be considered to
 have not submitted anything.
 
-### Marking criteria {#marking}
+## Marking criteria {#marking}
 
 Your demo will be assessed based the following marking criteria (based on the
 [course learning outcomes]({% link 02-outline.md %})):

@@ -3,7 +3,10 @@ title: "Week 5: (remote) collaboration"
 summary: making computer music with multiple computers & musicians
 ---
 
+# {{ page.title }}
+
 {:.diary-provocation-box}
+
 **Group AVD**: create a piece where every member controls a different aspect of
 the sound
 
@@ -22,7 +25,7 @@ As we discussed in the week 4 workshop, the groups (i.e. ensembles) you'll be
 working in this week have already been announced on the _#lensannounce_ channel
 on slack.
 
-### Goals for this week
+## Goals for this week
 
 1. with your group, design and carry out a collaboration workflow which allows
    you to deliver a 3min AV diary entry by the week 5 workshop slot (which will
@@ -33,13 +36,13 @@ on slack.
    assemblage that is a bunch of humans with laptops and internet connections
    more generally)
 
-### Pd resources
+## Pd resources
 
 Nothing new this week, but I've been updating all the content & links to
 previous weeks, so if you haven't gone back over them it might be worth taking a
 look.
 
-### Things to think about
+## Things to think about
 
 - how is your group going to meet & chat? if it's going to be online, then you
   should get it set up for your first discussion ASAP - if you need us to create

@@ -4,13 +4,16 @@ summary: Some questions which come up, well... frequently
 permalink: /resources/faq/
 ---
 
+# {{ page.title }}
+
 {:.info-box}
+
 This is the course FAQ---we'll update it as the semester goes along and more
 questions get asked.
 
 {% include toc.html %}
 
-### What's LENS?
+## What's LENS?
 
 The laptop is a legit musical/visual instrument, and the ANU Laptop Ensemble
 (LENS; _est. 2018_) exists to explore different ways to use this instrument in a
@@ -33,18 +36,18 @@ Laptop Ensemble links:
 You can see more vids of the ensemble at work on their [YouTube
 channel](https://www.youtube.com/channel/UCIU6SqIS02GJlnLOPqlwmpA).
 
-### Who's in charge of all this?
+## Who's in charge of all this?
 
 The current LENS artistic directors are [Dr. Ben Swift](https://benswift.me),
 [Dr. Alec Hunter](https://www.alexanderhunter.com.au) and [Dr. Charles
 Martin](https://charlesmartin.com.au).
 
-### It's definitely running in Semester 1, right?
+## It's definitely running in Semester 1, right?
 
 Yep. At one stage last year (2020) it looked like the LENS class might get
 pushed to Semester 2, but for 2021 at least it'll be running in Semester 1.
 
-### Which ANU course code does this course run under?
+## Which ANU course code does this course run under?
 
 You can take this course under the following (computing) course codes:
 
@@ -62,7 +65,7 @@ participate in laptop ensemble as their project. Students enrolling from the
 School of Music or CASS will complete the exact same assessment as the COMP
 students.
 
-### What music background is required?
+## What music background is required?
 
 There are no specific music pre-requisites, and we will teach things from the
 ground up. Although some music experience is useful, we use musical concepts that are not taught in a standard music curriculum.
@@ -72,7 +75,7 @@ there'll be some extra reading (and noise-making!) to do to stay on top of
 things, but if you're willing to put in the work it shouldn't be an
 un-manageable workload.
 
-### What computing background is required?
+## What computing background is required?
 
 There are no specific computing/CS pre-requisites either, we will teach
 things from the ground up. Although some computing experience is useful, we use programming concepts and languages that are not taught in a standard CS curriculum.
@@ -82,7 +85,7 @@ there'll be some extra reading (and noise-making!) to do to stay on top of
 things, but if you're willing to put in the work it shouldn't be an
 un-manageable workload.
 
-### I'm a musician (or programmer) and I'm worried that I don't have the required programming (or music) skills---will I be ok?
+## I'm a musician (or programmer) and I'm worried that I don't have the required programming (or music) skills---will I be ok?
 
 Even after reading the previous two answers you still might be worried. And
 everyone's different, so it's hard to give a definitive answer to this question.
@@ -105,7 +108,7 @@ yourself about how much you enjoy learning about how to put computers to work in
 making your own music. Imagine actually enjoying & being motivated to learn
 something---who'd have thought that uni could be like that 😜?
 
-### Who _shouldn't_ take this course?
+## Who _shouldn't_ take this course?
 
 In LENS believe that computing (including creative computing) is [for
 everyone](https://twitter.com/search?q=%23cs4all), and so no-one should rule
@@ -124,7 +127,7 @@ Having said that, this isn't a standard CS course, so if you're expecting:
 then this probably isn't the course for you. No hard feelings, but if you sign
 up for LENS then you've been warned!
 
-### What does this course look like, week-to-week? {#what-does-this-course-look-like-week-to-week}
+## What does this course look like, week-to-week? {#what-does-this-course-look-like-week-to-week}
 
 Each week, you'll:
 
@@ -142,7 +145,7 @@ In addition, over the course of the semester you'll:
 - perform (live!) with your tool and ensemble classmates at the end-of-semeseter
   LENS concert
 
-### Do I _have_ to do a live performance if I take this course?
+## Do I _have_ to do a live performance if I take this course?
 
 Yes, the [main course deliverable]({% link _deliverables/03-lens-performance.md
 %}) (worth 50% of the course mark) is to use the computer music
@@ -150,7 +153,7 @@ instrument/system that you've built in a group performance alongside some of
 your LENS classmates. The "present it in concert" part of that is one of the
 course [learning outcomes]({% link 02-outline.md %}#learning-outcomes).
 
-### What are the time commitments for LENS?
+## What are the time commitments for LENS?
 
 The primary weekly contact hours are the 2hr [workshop session]({% link
 _workshops/index.md %}) (day/time/location TBC). If you're enrolled in the
@@ -164,14 +167,14 @@ you'll create something in response (as described
 This is a standard 6-unit course, so the [ANU expectation is around
 130 hours of work over the semester](https://policies.anu.edu.au/ppl/document/ANUP_000691).
 
-### Can I take this course if I'm a remote student?
+## Can I take this course if I'm a remote student?
 
 Many of our courses are now offered in remote mode (e.g. for students stuck
 overseas because of covid). Unfortunately, the nature of the LENS course means
 that it cannot be offered in remote mode---to participate you must be able to
 attend the workshop sessions in person.
 
-### What music software will we be using in the course?
+## What music software will we be using in the course?
 
 In this course you'll learn to use both [Pure Data
 (Pd)](http://msp.ucsd.edu/software.html) and
@@ -180,7 +183,7 @@ one you use for your final performance is up to you; you'll get to
 decide what fits your creative purposes best as the semester
 progresses.
 
-### How do I enrol in Laptop Ensemble? {#how-to-enrol}
+## How do I enrol in Laptop Ensemble? {#how-to-enrol}
 
 First, check out the info on this course website (including this FAQ)
 to understand how the course works and what we expect of you.
@@ -198,23 +201,23 @@ MUSI2205.
 If you want to enrol in LENS as a MUSI2205 student, you still need to email Ben
 to register your interest.
 
-### Will I need a permission code?
+## Will I need a permission code?
 
 Yes. If you're enrolling in COMP2710 or 6740 then you will get a permission code
 in week 1 after you've signed the course Independent Study Contract. If you're
 enrolling in MUSI2205 you'll need to organise a permission code through your
 course convenor.
 
-### Do we use Wattle in this course? {#wattle-site-for-this-course}
+## Do we use Wattle in this course? {#wattle-site-for-this-course}
 
 We won't use Wattle in this course---all the course content will be on this
 website (<{% link _deliverables/index.md %}>).
 
-### I want to start practising _right now_, what should I do?
+## I want to start practising _right now_, what should I do?
 
 Feel free to install some [computer music software]({% link _resources/02-tools.md %}) and start playing around with it, you can also browse our [lecture]({% link _lectures/index.md %}) and [workshop]({% link _workshops/index.md %}) material.
 
-### I've got friends who are keen as well, what should I do?
+## I've got friends who are keen as well, what should I do?
 
 Tell them about it! Post the laptop ensemble website on
 Schmidtposting, hire a skywriting plane, I don't care---it's an open

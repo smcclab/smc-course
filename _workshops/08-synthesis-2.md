@@ -3,10 +3,13 @@ title: "Week 8: synthesis 2"
 summary: configuring and playing an analogue modular synth with code
 ---
 
+# {{ page.title }}
+
 {:.diary-provocation-box}
+
 **Group AVD**: start big, then "remove" things with filters & algorithms
 
-### Goals for this week
+## Goals for this week
 
 1. revisit the basic synthesis concepts we covered in [week 2]({% link
    _workshops/02-synthesis-1.md %}), this time in the concept of "modular
@@ -15,13 +18,13 @@ summary: configuring and playing an analogue modular synth with code
 2. begin to learn what the different synthesis "building blocks" (oscillators,
    filters, effects) _sound_ like in a musical sound design context
 
-### Extempore resources
+## Extempore resources
 
 The main course material this week is the [analogue synth
 guide](https://extemporelang.github.io/docs/guides/analogue-synth/) on the
 Extempore documentation website.
 
-### Things to think about
+## Things to think about
 
 - there _is_ still an AV diary entry due this week, even though this week's
   workshop slot will actually be filled by your [LENS demo]({% link

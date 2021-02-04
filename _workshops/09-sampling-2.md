@@ -3,13 +3,15 @@ title: "Week 9: sampling 2"
 summary: "manipulating & triggering playback of recorded sounds"
 ---
 
+# {{ page.title }}
+
 {:.diary-provocation-box}
 
 **Group AVD**: perform as a group where everyone is using the same algorithmic
 composition (code provided below) but with a sampler filled with their own
 sounds
 
-### Goals for this week
+## Goals for this week
 
 1. to be able to load in and play with recorded sounds in Extempore
 
@@ -17,7 +19,7 @@ sounds
    compositional possibilities of _manipulating_ pre-recorded sounds during
    playback
 
-### Extempore resources
+## Extempore resources
 
 The sharedsystem setup process that you've been using for the [last couple]({%
 link _workshops/07-algorithmic-composition-1.md %}) [of weeks]({% link
@@ -50,7 +52,7 @@ select the sample from (again, see [this
 guide](https://extemporelang.github.io/docs/guides/sampler/) for more info about
 banks, slots & samplers).
 
-### Things to think about
+## Things to think about
 
 - can you make something melodic with only unpitched[^pitched] sounds? how about
   making something that's primarily rhythmic with only pitched sounds?
