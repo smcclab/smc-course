@@ -202,12 +202,17 @@ MUSI2205.
 If you want to enrol in LENS as a MUSI2205 student, you still need to email Ben
 to register your interest.
 
-## Will I need a permission code?
+## Will I need a permission code? {#will-I-need-a-permission-code}
 
-Yes. If you're enrolling in COMP2710 or 6740 then you will get a permission code
-in week 1 after you've signed the course Independent Study Contract. If you're
-enrolling in MUSI2205 you'll need to organise a permission code through your
-course convenor.
+No, you don't need to get a permission code for the course ahead of time. If
+you're enrolling in COMP2710 or 6740 then all you have to do is turn up to the
+week 1 [workshop session]({% link _workshops/index.md %}), sign the study
+contract and then we'll enrol you in ISIS directly. This does mean that you
+won't be enrolled in the course on ISIS until week 1, but that's ok---all the
+course info you'll need is on this website.
+
+If you're enrolling in MUSI2205 you'll need to organise a permission code
+through your course convenor.
 
 ## Do we use Wattle in this course? {#wattle-site-for-this-course}
 
