@@ -68,7 +68,8 @@ students.
 ## What music background is required?
 
 There are no specific music pre-requisites, and we will teach things from the
-ground up. Although some music experience is useful, we use musical concepts that are not taught in a standard music curriculum.
+ground up. Although some music experience is useful, we use musical concepts
+that are not taught in a standard music curriculum.
 
 Obviously, if you've never done anything with music/sound before then
 there'll be some extra reading (and noise-making!) to do to stay on top of
@@ -77,15 +78,17 @@ un-manageable workload.
 
 ## What computing background is required?
 
-There are no specific computing/CS pre-requisites either, we will teach
-things from the ground up. Although some computing experience is useful, we use programming concepts and languages that are not taught in a standard CS curriculum.
+There are no specific computing/CS pre-requisites either, we will teach things
+from the ground up. Although some computing experience is useful, we use
+programming concepts and languages that are not taught in a standard CS
+curriculum.
 
 Obviously, if you've never done anything with computing/programming before then
 there'll be some extra reading (and noise-making!) to do to stay on top of
 things, but if you're willing to put in the work it shouldn't be an
 un-manageable workload.
 
-## I'm a musician (or programmer) and I'm worried that I don't have the required programming (or music) skills---will I be ok?
+## I'm a musician/programmer and I'm worried that I don't have the required programming/music skills---will I be ok?
 
 Even after reading the previous two answers you still might be worried. And
 everyone's different, so it's hard to give a definitive answer to this question.
