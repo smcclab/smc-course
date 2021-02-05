@@ -217,7 +217,7 @@ through your course convenor.
 ## Do we use Wattle in this course? {#wattle-site-for-this-course}
 
 We won't use Wattle in this course---all the course content will be on this
-website (<{% link _deliverables/index.md %}>).
+website.
 
 ## I want to start practising _right now_, what should I do?
 
