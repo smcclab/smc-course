@@ -1,7 +1,7 @@
 ---
 title: Independent Study Contract
 permalink: /resources/study-contract/
-published: false
+hidden: true
 ---
 
 # {{ page.title }}
