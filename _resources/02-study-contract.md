@@ -42,11 +42,11 @@ LENS concert at the end of the course.
 
 ### Assessment
 
-|                    | mark | due date                               | marker         |
-|--------------------|------|----------------------------------------|----------------|
-| AV diary portfolio |  30% | ~~Mar 29~~ (stage 1), May 10 (stage 2) | Charles Martin |
-| LENS demo          |  20% | ~~Apr 20~~                             | Charles Martin |
-| LENS performance   |  50% | ~~May 29~~                             | Ben Swift      |
+|                    | mark | due date                             | marker            |
+|--------------------|------|--------------------------------------|-------------------|
+| AV diary portfolio |  30% | Mar 26 (stage 1), April 30 (stage 2) | Ushini Attanayake |
+| LENS demo          |  20% | Week 8                               | Ben Swift         |
+| LENS performance   |  50% | June 1                               | Ben Swift         |
 
 ### Meeting Dates
 
