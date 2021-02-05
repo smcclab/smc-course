@@ -32,21 +32,7 @@ Learning to make computer music in a group.
 
 ## Learning outcomes...
 
-Some more fine-grained goals:
-
-1. Describe & apply **fundamental aspects of music computing** including
-   digital synthesis, algorithmic composition, and musical interface design.
-
-2. Demonstrate knowledge and understanding of **design and performance
-   issues** around computer music interfaces.
-
-3. **Critically examine** computer music systems and laptop ensemble performances.
-
-4. **Produce** a computer musical instrument, composition or interactive
-   media work and **present it in concert**.
-
-5. Demonstrate **collaboration skills** with a laptop ensemble including
-   being able to provide **design feedback** and **critical self-reflection**.
+{% include slides/learning-outcomes.md %}
 
 {% include slides/impact.html %}
 

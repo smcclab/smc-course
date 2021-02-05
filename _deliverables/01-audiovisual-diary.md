@@ -144,7 +144,7 @@ Each stage of your portfolio is worth 15% of your total mark, and will be
 assessed entirely based on the submitted (pdf) document. The marking criteria
 (based on the [course learning outcomes]({% link 02-outline.md %})) are:
 
-- demonstration of the **fundamental aspects of music computing** covered in the
+- demonstration of the **fundamental concepts in music computing** covered in the
   course including digital synthesis, algorithmic composition and musical
   interface design
 

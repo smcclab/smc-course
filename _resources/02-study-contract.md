@@ -22,18 +22,9 @@ published: false
 
 - **Semester**: Semester 1, 2021
 
-### Learning Objectives
+### Learning Outcomes
 
-1. Describe & apply fundamental aspects of music computing including digital
-   synthesis, algorithmic composition, and musical interface design.
-
-2. Critically examine computer music systems and laptop ensemble performances.
-
-3. Produce a computer musical instrument, composition or interactive media work
-   and present it in concert.
-
-4. Demonstrate collaboration skills with a laptop ensemble including being able
-   to provide design feedback and critical self-reflection.
+{% include slides/learning-outcomes.md %}
 
 ### Project Description
 

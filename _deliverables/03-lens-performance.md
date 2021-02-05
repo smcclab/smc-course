@@ -25,7 +25,7 @@ culmination of your hard work in the LENS course, and it won't be a dry, boring
 exam---it'll be a live gig that you can invite your friends to.
 
 We are looking for performances (and associated artefacts) that are
-sophisticated in terms of fundamental aspects of music computing, have a high
+sophisticated in terms of fundamental concepts in music computing, have a high
 design/compositional quality, and that allow a high level of expression and
 collaboration during performance.
 
@@ -57,7 +57,7 @@ marking criteria (based on the [course learning outcomes]({{site.baseurl}}{%
 link 02-outline.md %})) are:
 
 - technical quality & ambition of your artefact/performance with regards to the
-  fundamental aspects of music computing covered in this course, including
+  fundamental concepts in music computing covered in this course, including
   digital synthesis, algorithmic composition and musical interface design
 
 - demonstrated potential for expression during live performance, i.e. level of
