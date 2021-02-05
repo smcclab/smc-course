@@ -17,11 +17,12 @@ course [FAQ]({% link _resources/01-faq.md %}).
 
 </div>
 
-# LENS
 
 ![LENS Banner]({% link assets/facebook-banner.png %})
 
-## ANU Laptop Ensemble, Semester 2 2021
+# ANU Laptop Ensemble
+
+## Semester 2 2021
 
 Do you want to make music with your computer? Do you want create new kinds of
 musical instruments? Do you want to be a part of a laptop band? This is the
