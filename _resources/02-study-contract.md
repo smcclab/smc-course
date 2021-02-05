@@ -8,19 +8,46 @@ hidden: true
 
 ## Section A (Students and Supervisors)
 
-- **Student UID**:
+<style>
+.fillout-box {
+  table-layout: fixed;
+  line-height: 2;
+}
+</style>
 
-- **Student name**:
-
-- **Project supervisor**: Ben Swift
-
-- **Course supervisor**: Ben Swift
-
-- **Course title**: COMP2710 Laptop Ensemble
-
-- **Course units**: 6 units
-
-- **Semester**: Semester 1, 2021
+<table class="fillout-box">
+  <colgroup><col style="width: 25%;"><col></colgroup>
+  <tbody>
+    <tr>
+      <td><strong>Student UID</strong></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Student name</strong></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Project supervisor</strong></td>
+      <td>Ben Swift</td>
+    </tr>
+    <tr>
+      <td><strong>Course supervisor</strong></td>
+      <td>Ben Swift</td>
+    </tr>
+    <tr>
+      <td><strong>Course title</strong></td>
+      <td>COMP2710 Laptop Ensemble</td>
+    </tr>
+    <tr>
+      <td><strong>Course units</strong></td>
+      <td>6 units</td>
+    </tr>
+    <tr>
+      <td><strong>Semester</strong></td>
+      <td>Semester 1, 2021</td>
+    </tr>
+  </tbody>
+</table>
 
 ### Learning Outcomes
 
@@ -42,24 +69,38 @@ LENS concert at the end of the course.
 
 ### Assessment
 
-|                    | mark | due date                             | marker            |
-|--------------------|------|--------------------------------------|-------------------|
-| AV diary portfolio |  30% | Mar 26 (stage 1), April 30 (stage 2) | Ushini Attanayake |
-| LENS demo          |  20% | Week 8                               | Ben Swift         |
-| LENS performance   |  50% | June 1                               | Ben Swift         |
+|                                                                        | mark | due date                             | marker            |
+|------------------------------------------------------------------------|------|--------------------------------------|-------------------|
+| [AV diary portfolio]({% link _deliverables/01-audiovisual-diary.md %}) |  30% | Mar 26 (stage 1), April 30 (stage 2) | Ushini Attanayake |
+| [LENS demo]({% link _deliverables/02-demo-day.md %})                   |  20% | Week 8                               | Ben Swift         |
+| [LENS performance]({% link _deliverables/03-lens-performance.md %})    |  50% | June 1                               | Ben Swift         |
 
 ### Meeting Dates
 
-1. weekly LENS workshop sessions (2hrs/week from weeks 1--12)
-2. final LENS concert (date TBC)
+1. weekly LENS [workshop sessions]({% link _workshops/index.md %}) (2hrs/week
+   from weeks 1--12)
 
 ### Student Declaration
 
 I agree to fulfil the above-defined contract:
 
-- _Name_:
-- _Date_:
-- _Signature_:
+<table class="fillout-box">
+  <colgroup><col style="width: 25%;"><col></colgroup>
+  <tbody>
+    <tr>
+      <td><em>Name</em></td>
+      <td><strong>Dr Ben Swift</strong></td>
+    </tr>
+    <tr>
+      <td><em>Date</em></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><em>Signature</em></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 ## Section B
 
@@ -70,12 +111,40 @@ student's academic record and believe the student can fulfil this contract. If I
 have nominated an examiner above, I have obtained their consent (via signature
 below or attached email).
 
-- _Name_: **Dr Ben Swift**
-- _Date_:
-- _Signature_:
+<table class="fillout-box">
+  <colgroup><col style="width: 25%;"><col></colgroup>
+  <tbody>
+    <tr>
+      <td><em>Name</em></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><em>Date</em></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><em>Signature</em></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 ### Examiner
 
-- _Name_:
-- _Date_:
-- _Signature_:
+<table class="fillout-box">
+  <colgroup><col style="width: 25%;"><col></colgroup>
+  <tbody>
+    <tr>
+      <td><em>Name</em></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><em>Date</em></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><em>Signature</em></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
