@@ -119,8 +119,8 @@ Having said that, this isn't a standard CS course, so if you're expecting:
 
 - nice, "one right answer" assignments where you just write code to pass a bunch
   of unit tests
-- a "closed" syllabus where everything you'll need to do well is a fact you can
-  memorise from the lecture slides
+- a "closed" syllabus where everything you'll need to get a good grade is a fact
+  you can memorise from the lecture slides
 - to work as a "lone wolf" without having to interact with your classmates (this
   is an _ensemble_ after all)
 
