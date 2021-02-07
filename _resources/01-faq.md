@@ -196,9 +196,9 @@ If you are computer science student, get in touch with [Ben
 Swift](mailto:ben.swift@anu.edu.au) to enrol.
 
 If you are a music student wanting to take laptop ensemble through
-MUSI2205, you should discuss this with the course convenor of MUSI2205
-and [Ben Swift](mailto:ben.swift@anu.edu.au) and then enrol in
-MUSI2205.
+[MUSI2205](https://programsandcourses.anu.edu.au/2021/course/MUSI2205), you
+should discuss this with the course convenor of MUSI2205 and [Ben
+Swift](mailto:ben.swift@anu.edu.au) and then enrol in MUSI2205.
 
 {:.info-box}
 
