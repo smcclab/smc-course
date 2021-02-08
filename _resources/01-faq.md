@@ -8,8 +8,7 @@ permalink: /resources/faq/
 
 {:.info-box}
 
-This is the course FAQ---we'll update it as the semester goes along and more
-questions get asked.
+This is the course FAQ---we'll update it as the semester goes along.
 
 {% include toc.html %}
 
