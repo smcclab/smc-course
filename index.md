@@ -6,7 +6,7 @@ hidden: true
 <div class="info-box" markdown="1" style="margin: 20px 0;">
 
 This is the _LENS: ANU Laptop Ensemble_ course website. **The course is running
-in Semester 1, 2021** (the workshop timeslot is 3pm--5pm in the [Marie Reay
+in Semester 1, 2021** (the workshop timeslot is Thursday 3pm--5pm in the [Marie Reay
 6.02](https://www.anu.edu.au/maps#show=108136)) under the course codes
 COMP2710/6740. If you'd like to participate, then [email
 Ben](mailto:ben.swift@anu.edu.au) ASAP to register your interest. In the
