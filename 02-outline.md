@@ -3,11 +3,11 @@ title: Outline
 permalink: /outline/
 ---
 
-### Learning outcomes {#learning-outcomes}
+## Learning outcomes {#learning-outcomes}
 
 {% include slides/learning-outcomes.md %}
 
-### Semester 1 2021 details
+## Semester 1 2021 details
 
 - **Mode of Delivery:** on-campus
 - **Prerequisites:**
