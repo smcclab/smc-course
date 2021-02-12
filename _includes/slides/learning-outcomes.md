@@ -1,6 +1,6 @@
 Upon successful completion of this course, students will be able to:
 
-1. understand & apply fundamental concepts in music computing, including digital
+1. understand & apply fundamental concepts in computer music, including digital
    synthesis, algorithmic composition, and musical interface design
 
 2. describe the design and performance challenges associated with computer music
