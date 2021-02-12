@@ -18,4 +18,4 @@ permalink: /outline/
 - **Email:** <ben.swift@anu.edu.au>
 - **Research Interests:** livecoding (especially musical livecoding), code/creativity/culture, HCI/human-centred computing, critical design
 - **Lecturers:** Ben Swift
-<!-- - **Tutors:** -->
+- **Tutors:** Ushini Attanayake
