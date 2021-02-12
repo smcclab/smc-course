@@ -55,7 +55,7 @@ look.
   music you're going to make in this course? why/how/why not?
 
 - have a look at collaborative "parlour games" like [layer
-  tennis](http://www.layertennis.com) or [exquisite
+  tennis](https://www.layertennis.com) or [exquisite
   corpse](https://en.wikipedia.org/wiki/Exquisite_corpse)---can you think of
   ways to adapt them for a LENS context?
 

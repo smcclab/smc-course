@@ -61,7 +61,7 @@ whatever you like for now, I'll clean it up before the students see it.
 - Sequencing <https://www.youtube.com/watch?v=L5Z-R80lz0Q>
 - Clapping Music <https://www.youtube.com/watch?v=lzkOFJMI5i8>
 - Cage and the I-Ching <https://www.youtube.com/watch?v=uyjOnqzjqpc>
-- Online I-Ching <http://anarchicharmony.org/IChing/ic.cfm>
+- Online I-Ching <https://anarchicharmony.org/IChing/ic.cfm>
 
 ### Week 7: ensemble interaction
 

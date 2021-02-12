@@ -133,8 +133,8 @@ note-based stuff, cycles-within-cycles with cosr, 4-against-3, etc.
 
 - AI/ML composition (e.g., [Magenta project](https://magenta.tensorflow.org))
 
-- cool algorithmic artists: [Renick Bell](http://renickbell.net), [kindohm/Mike
-  Hodnick](http://kindohm.com), [William Fields](https://williamfields.com)
+- cool algorithmic artists: [Renick Bell](https://renickbell.net), [kindohm/Mike
+  Hodnick](https://kindohm.com), [William Fields](https://williamfields.com)
 
 ### Things to think about
 

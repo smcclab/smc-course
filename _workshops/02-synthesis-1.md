@@ -51,7 +51,7 @@ Here are the links that I mention at the end of the video:
 - most of [Charles' video from last week]({% link _workshops/01-hello-sine.md
   %}) is still relevant
 - the [Programming Electronic Music in
-  Pd](http://www.pd-tutorial.com/english/index.html) book (as mentioned on the
+  Pd](https://www.pd-tutorial.com/english/index.html) book (as mentioned on the
   [tools page]({% link _resources/02-tools.md %}#other-books))
 - [Charles' examples](https://github.com/cpmpercussion/ComputerMusicIntro)
 

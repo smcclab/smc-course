@@ -26,7 +26,7 @@ recording "real"[^real] sounds and playing them back.
 ## Pd resources
 
 - [Charles' Pd examples (from no. 11 onwards)](https://github.com/cpmpercussion/ComputerMusicIntro)
-- [Section 3.4 of the _Programming Electronic Music in Pd_ book](http://www.pd-tutorial.com/english/ch03s04.html)
+- [Section 3.4 of the _Programming Electronic Music in Pd_ book](https://www.pd-tutorial.com/english/ch03s04.html)
 
 ## Things to think about
 

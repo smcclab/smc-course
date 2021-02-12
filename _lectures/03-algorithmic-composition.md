@@ -97,7 +97,7 @@ Maybe try `c_markov.pd` in `rjlib`?
 - rule-based compositions
 - [functional programming for composition](https://functional-art.org)
 - evolutionary algorithms for music composition (e.g.,
-  [darwintunes](http://darwintunes.org), [evolutionary music slides](http://igm.rit.edu/~jabics/EvoMusic/BilesEvoMusicSlides.pdf))
+  [darwintunes](https://darwintunes.org), [evolutionary music slides](https://igm.rit.edu/~jabics/EvoMusic/BilesEvoMusicSlides.pdf))
 - AI/ML composition (e.g., [Magenta
   project](https://magenta.tensorflow.org))
   
@@ -124,5 +124,5 @@ Want some extra tools?
   music generation systems. ACM Comput. Surv., 50(5):69:1–69:30,
   Sept. 2017. [DOI:10.1145/3108242](https://doi.acm.org/10.1145/3108242)
 - [Getting Starting with Algorithmic Composition: Donya
-  Quick](http://donyaquick.com/algorithmic-composing-advice/)
-- [Wolfram Tones](http://tones.wolfram.com)
+  Quick](https://donyaquick.com/algorithmic-composing-advice/)
+- [Wolfram Tones](https://tones.wolfram.com)

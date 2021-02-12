@@ -33,11 +33,11 @@ Fun note, you can use Pd patches in other projects using...
 
 - [libpd](https://github.com/libpd) - just the internal parts of Pd as
 an embeddable library for other software.
-- [pd-party](http://danomatika.com/code/pdparty) - an iOS app for performing with Pd patches
-- [mobmuplat](http://danieliglesia.com/mobmuplat/) - an iOS/Android app
+- [pd-party](https://danomatika.com/code/pdparty) - an iOS app for performing with Pd patches
+- [mobmuplat](https://danieliglesia.com/mobmuplat/) - an iOS/Android app
 for performing with Pd Patches.
 
-![](http://danieliglesia.com/mobmuplat/MMP_flow1.png)
+![](https://danieliglesia.com/mobmuplat/MMP_flow1.png)
 
 ## Digital Sound
 
@@ -278,7 +278,7 @@ Workshop Examples: [site](https://github.com/cpmpercussion/ComputerMusicIntro), 
 Books:
 
 - [Programming Electronic Music in Pd - Johannes
-  Kreidler](http://www.pd-tutorial.com/english/index.html)
-- [Excerpt from Designing Sound by Andy Farnell](http://aspress.co.uk/ds/pdf/pd_intro.pdf)
+  Kreidler](https://www.pd-tutorial.com/english/index.html)
+- [Excerpt from Designing Sound by Andy Farnell](https://aspress.co.uk/ds/pdf/pd_intro.pdf)
 - [More tutorial links](https://puredata.info/docs/tutorials)
 - [RjLib patches](https://github.com/rjdj/rjlib)

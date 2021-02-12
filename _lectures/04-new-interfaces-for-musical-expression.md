@@ -165,7 +165,7 @@ Cite: Ensemble Feedback Instruments, Rosli et al., NIME 2015.
 
 ## Mobiles and Pd
 
-![mobmuplat](http://danieliglesia.com/mobmuplat/MMP_flow1.png){:style="width:60%;float:right;"}
+![mobmuplat](https://danieliglesia.com/mobmuplat/MMP_flow1.png){:style="width:60%;float:right;"}
 
 mobile devices already have a lot of sensors (touchscreen, accelerometer, microphone, etc).
 
@@ -179,9 +179,9 @@ You can use the MIDI keyboards, sound input, or anything else you might want.
 
 ## Real Composers
 
-[Margaret Schedel](http://www.schedel.net)
+[Margaret Schedel](https://www.schedel.net)
 
-[Tomie Hahn](http://www.arts.rpi.edu/~hahnt/interactive.html)
+[Tomie Hahn](https://www.arts.rpi.edu/~hahnt/interactive.html)
 
 Go find more!
 
