@@ -7,6 +7,10 @@ permalink: /outline/
 
 {% include slides/learning-outcomes.md %}
 
+## Rubric
+
+{% include slides/rubric.html %}
+
 ## Semester 1 2021 details
 
 - **Mode of Delivery:** on-campus
