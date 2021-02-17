@@ -231,6 +231,5 @@ _workshops/index.md %}) material.
 
 ## I've got friends who are keen as well, what should I do?
 
-Tell them about it! Post the laptop ensemble website on
-Schmidtposting, hire a skywriting plane, I don't care---it's an open
-call. Be creative :)
+Tell them about it! Post the laptop ensemble website on Schmidtposting, hire a
+skywriting plane, get a tattoo; I don't care. Be creative :)
