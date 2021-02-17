@@ -18,9 +18,9 @@ You are expected to check both of these channels regularly (you can set up
 notifications if it helps). "I didn't see the message" is never an acceptable
 excuse for e.g. missing assessment deadlines.
 
-Since this is a co-badged course (COMP2710 and MUSI2205), if you have specific
-questions about your course enrolment then you need to direct them to the
-correct convenor: [Ben](mailto:ben.swift@anu.edu.au) for COMP and
+Since this is a co-badged course (COMP2710/6740 and MUSI2205), if you have
+specific questions about your course enrolment then you need to direct them to
+the correct convenor: [Ben](mailto:ben.swift@anu.edu.au) for COMP and
 [Alec](mailto:alexander.hunter@anu.edu.au) for MUSI (although if you're unsure
 you can just copy the other one in).
 

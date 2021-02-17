@@ -23,7 +23,7 @@ but we'll still be continuing with things remotely from here.
 
 As we discussed in the week 4 workshop, the groups (i.e. ensembles) you'll be
 working in this week have already been announced on the _#lensannounce_ channel
-on slack.
+on Teams.
 
 ## Goals for this week
 
@@ -46,7 +46,7 @@ look.
 
 - how is your group going to meet & chat? if it's going to be online, then you
   should get it set up for your first discussion ASAP - if you need us to create
-  a separate slack channel for you then just ask
+  a separate Teams channel for you then just ask
 
 - which parts of the collaborative workflow need to be synchronous, and which
   parts could be async? do you want to collaborate sequentially, or in parallel?

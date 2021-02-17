@@ -6,9 +6,10 @@ summary: your first beeps and boops
 # {{ page.title }}
 
 There isn't much pre-reading for week 1, since the class hasn't really started
-yet. The main purpose of the first workshop is to get Pd up and running on
-everyone's laptop---because if you don't have that working then you won't be
-able to participate in this course.
+yet. The main purpose of the first workshop is to get [Pd]({% link
+_resources/02-tools.md %}#pure-data) up and running on everyone's
+laptop---because if you don't have that working then you won't be able to
+participate in this course.
 
 This first workshop is called "hello sine" because making [pure sine
 wave](https://en.wikipedia.org/wiki/Pure_tone) is pretty much the ["Hello,
@@ -23,6 +24,7 @@ music.
 ## Pd resources
 
 - [installing Pd on your laptop]({% link _resources/02-tools.md %}#pure-data)
+
 - getting started with Pd (Charles) ([YouTube](https://youtu.be/AC7-MpwIZ8w))
   (don't worry if you don't follow all of the stuff in this video---it includes
   a lot of the things we'll cover [next week]({% link
@@ -37,4 +39,4 @@ cool kids call them <em>LOrk</em>s) perform live.
 - [Princeton Laptop Orchestra - Interference (2019)](https://www.youtube.com/watch?v=C-5P3hXuGfs)
 
 If you find any more cool videos, drop them in the `#lensresources` channel on
-Slack.
+Teams.

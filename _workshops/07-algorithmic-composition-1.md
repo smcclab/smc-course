@@ -28,7 +28,7 @@ summary: triggering events in pitch & time using algorithmic processes
 Wow, lots of new stuff this week. But don't be overwhelmed---we'll guide you
 through some example code which will (hopefully) be fun to play with, and don't
 worry if you don't understand everything about it at first. And **if you have
-questions, hit us up on slack**.
+questions, hit us up on Teams**.
 
 ### Quickstart
 
@@ -86,7 +86,7 @@ points":
     "libs/core/pc_ivl.xtm")` first)
 
 Seriously, though, if you've got an idea and are wondering about how to make it
-happen then hit us up on slack and we can probably point you in the right direction.
+happen then hit us up on Teams and we can probably point you in the right direction.
 
 ### Examples & further reading
 
