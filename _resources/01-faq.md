@@ -191,10 +191,11 @@ progresses.
 First, check out the info on this course website (including this FAQ)
 to understand how the course works and what we expect of you.
 
-If you are computer science student, get in touch with [Ben
-Swift](mailto:ben.swift@anu.edu.au) to enrol.
+If you'd like to enrol under a COMP course code (note: open to _all_ ANU
+students---check with your program convenor to see how to fit it into your
+program) get in touch with [Ben Swift](mailto:ben.swift@anu.edu.au) to enrol.
 
-If you are a music student wanting to take laptop ensemble through
+If you are a music student and want to take laptop ensemble as
 [MUSI2205](https://programsandcourses.anu.edu.au/2021/course/MUSI2205), you
 should discuss this with the course convenor of MUSI2205 and [Ben
 Swift](mailto:ben.swift@anu.edu.au) and then enrol in MUSI2205.
