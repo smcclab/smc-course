@@ -32,6 +32,10 @@ Learning to make computer music in a group.
 
 ## Learning outcomes...
 
+<style>
+ol {font-size: 80%;} // to fit LOs on screen
+</style>
+
 {% include slides/learning-outcomes.md %}
 
 {% include slides/impact.html %}
