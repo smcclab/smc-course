@@ -6,14 +6,10 @@ hidden: true
 
 # {{ page.title }}
 
-{:.info-box}
-
-The weekly workshop timeslot is 3pm--5pm in the [Marie Reay
-6.02](https://www.anu.edu.au/maps#show=108136).
-
-The primary weekly contact hours are the 2hr workshop session from 3pm--5pm in
-the [Marie Reay 6.02](https://www.anu.edu.au/maps#show=108136). If you're
-enrolled in the class, you must be there every week.
+The primary weekly contact hours are the 2hr workshop session from **3pm--5pm
+Thursday** in [Marie Reay 6.02](https://www.anu.edu.au/maps#show=108136)---the
+["superfloor"](https://kambri.com.au/venues/superfloor/). If you're enrolled in
+the class, you must be there every week.
 
 _Before_ you attend the workshop you must have read the corresponding lecture
 material (see below) and have submitted your weekly [AV diary video]({% link
