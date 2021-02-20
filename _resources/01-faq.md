@@ -114,8 +114,8 @@ something---who'd have thought that uni could be like that 😜?
 
 In LENS believe that computing (including creative computing) is [for
 everyone](https://twitter.com/search?q=%23cs4all), and so no-one should rule
-themselves out because they think they're not "technical" or "musical" enough to make music
-with computers.
+themselves out because they think they're not "technical" or "musical" enough to
+make music with computers.
 
 Having said that, this isn't a standard CS course, so if you're expecting:
 
