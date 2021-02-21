@@ -155,20 +155,23 @@ instrument/system that you've built in a group performance alongside some of
 your LENS classmates. The "present it in concert" part of that is one of the
 course [learning outcomes]({% link 02-outline.md %}#learning-outcomes).
 
-## What are the time commitments for LENS?
+## What are the time commitments for LENS? {#what-are-the-time-commitments-for-lens}
 
 The primary weekly contact hours are the 2hr [workshop session]({% link
 _workshops/index.md %}) from 3pm--5pm in the [Marie Reay
 6.02](https://www.anu.edu.au/maps#show=108136). If you're enrolled in the class,
 you must be there every week.
 
-Outside of that workshop, the class will be delivered in "flipped"
-mode; we'll give you some reading material & videos to look at, then
-you'll create something in response (as described
-[above](#what-does-this-course-look-like-week-to-week)). 
+Outside of that workshop, the class will be delivered in "flipped" mode; we'll
+give you some reading material & videos to look at, then you'll create something
+in response (as described
+[above](#what-does-this-course-look-like-week-to-week)).
 
-This is a standard 6-unit course, so the [ANU expectation is around
-130 hours of work over the semester](https://policies.anu.edu.au/ppl/document/ANUP_000691).
+This is a standard 6-unit course, so the [ANU expectation is around 130 hours of
+work over the semester](https://policies.anu.edu.au/ppl/document/ANUP_000691)
+(around 11 hours/week, on average). This means that you need to make the time
+every week to read the workshop material in advance, think about which bits make
+sense and where you have questions, and make some noise.
 
 ## Can I take this course if I'm a remote student?
 
