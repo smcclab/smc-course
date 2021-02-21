@@ -55,6 +55,29 @@ Here are the links that I mention at the end of the video:
   [tools page]({% link _resources/02-tools.md %}#other-books))
 - [Charles' examples](https://github.com/cpmpercussion/ComputerMusicIntro)
 
+and a few more useful resources (not necessarily Pd-specific, and might be too )
+
+- [Music theory for nerds](https://eev.ee/blog/2016/09/15/music-theory-for-nerds/)
+
+- Toby Rush's [Music Theory for Musicians and Normal
+  People](https://tobyrush.com/theorypages/index.html) is a bunch of posters
+  which you could print out and put on your wall (spans everything from the
+  basics to intermediate/advanced stuff)
+
+- Lightnote's [How Music Works: Interactive Music Theory
+  Lessons](https://www.lightnote.co/music-theory/harmony) is, well, interactive
+  (which is nice)
+
+{:.info-box}
+
+There's _lots_ of info in the above resources, so don't feel like you understand
+it all at the end of LENS week 2. We include these links here because different
+people come to LENS from different places---some have done a bunch of
+coding/patching but don't know the music theory stuff, some are the other way
+round. This week the coding stuff is pretty simple (we're only in week 2, after
+all) but if you're not sure _what_ frequencies and wave shapes to use and why
+then we want to point you in good directions 😊
+
 ## Things to think about
 
 - what does "low" or "high" frequency mean in the context of synthesis? what's
