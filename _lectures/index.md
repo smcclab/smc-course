@@ -11,14 +11,17 @@ hidden: true
 
 {:.info-box}
 
-Laptop Ensemble doesn't have a set lecture time, as the lectures are
-pre-recorded and provided as links on the [Workshop]({% link _workshops/index.md
-%}) page. This page contains the slides and recordings so that you have them in
-one place.
+Laptop Ensemble is a "flipped mode" class (as [described in the FAQ]({% link
+_resources/01-faq.md %}#what-are-the-time-commitments-for-lens)). In fact, most
+of the course content is in the weekly [workshop]({% link _workshops/index.md
+%}) content---that's the stuff you'll need to read & do in advance. However,
+sometimes it makes sense to have lecture-style content (i.e.
+presentations/slides) and for LENS this stuff will be on this page.
 
-Here are the slides for some of the recorded lectures presented in Laptop
-Ensemble. Note that these slides do not exactly match up with the weeks and some
-are a bit out of date!
+{:.warn-box}
+
+Some of these slide decks haven't been updated yet for 2021---that'll happen
+ASAP.
 
 1. [Welcome to LENS]({% link _lectures/01-lens-welcome.md %})
 2. [Digital Synthesis with Pure Data]({% link _lectures/02-lens-digitalsynth.md %})
