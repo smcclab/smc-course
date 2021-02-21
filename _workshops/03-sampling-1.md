@@ -62,7 +62,7 @@ here are a few thoughts to get you started.
 
 ### Content/copyright
 
-- in this course (and maybe even in your own practice), go for it
+- in this course (and maybe even in your own practice), go for it!
 
 - in general, in an academic context, where there is no money flowing, use
   whatever you want, apart from:
