@@ -61,7 +61,8 @@ Each week's submission must include:
   `materials`)
 
 - a 200-word reflection on how your work responds to the weekly provocation (as
-  a pdf file called `week-N-reflection.pdf`)
+  a [markdown](https://www.markdownguide.org) file called
+  `week-N-reflection.md`)
 
 In other words, the structure of your folder (before you zip it up and submit
 it) should look something like this:
@@ -71,7 +72,7 @@ it) should look something like this:
 ├── materials
 │   ├── my-story.pd
 │   └── childhood-sound.wav
-├── week-N-reflection.pdf
+├── week-N-reflection.md
 └── week-N.mp4
 ```
 
@@ -115,11 +116,11 @@ only).
 Even though you submit something every week, you won't receive a mark each week.
 Instead, you'll be marked through two "portfolio" submissions:
 
-- an 1000-word pdf document (filename `portfolio-1.pdf`) due on March 26 (end of
-  week 5) which covers AV diary entries 2--5
+- an 1000-word document due on March 26 (end of week 5) which covers AV diary
+  entries 2--5
 
-- an 1000-word pdf document (filename `portfolio-2.pdf`) due on April 30 (end
-  of week 9) which covers AV diary entries 6--9
+- an 1000-word document due on April 30 (end of week 9) which covers AV diary
+  entries 6--9
 
 Each document must articulate your combined (and edited) reflections on your AV
 diary submissions for the specified weeks, explaining how each one explored the
@@ -136,12 +137,12 @@ as a LENS member and computer musician through these AVD submissions.
 
 ### Submission process
 
-Submit each document (in pdf format) by 11:59pm on the due date.
+Submit each document (in markdown or pdf format) by 11:59pm on the due date.
 
 ### Marking criteria {#marking}
 
 Each stage of your portfolio is worth 15% of your total mark, and will be
-assessed entirely based on the submitted (pdf) document. The marking criteria
+assessed entirely based on the submitted document. The marking criteria
 (based on the [course learning outcomes]({% link 02-outline.md %})) are:
 
 - demonstration of the **fundamental concepts in music computing** covered in the
