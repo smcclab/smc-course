@@ -29,7 +29,7 @@ on Teams.
 
 1. with your group, design and carry out a collaboration workflow which allows
    you to deliver a 3min AV diary entry by the week 5 workshop slot (which will
-   be Tuesday March 31, see note on [the frontpage]({% link index.md %}))
+   be Thursday March 25, see note on [the frontpage]({% link index.md %}))
 
 2. reflect on the affordances of the technology you're using in this course for
    computer music collaboration (both Pd specifically, and the socio-technical
