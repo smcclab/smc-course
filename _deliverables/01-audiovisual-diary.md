@@ -101,7 +101,7 @@ You must submit your 60sec video and associated files by Monday 9pm every week
    listening)
 
 5. if you saw something interesting in a classmate's video the previous week,
-   ask them (on Slack) how they did it
+   ask them (on Teams) how they did it
 
 ## Portfolio {#portfolio}
 
