@@ -103,6 +103,9 @@ You must submit your 60sec video and associated files by Monday 9pm every week
 5. if you saw something interesting in a classmate's video the previous week,
    ask them (on Teams) how they did it
 
+6. have a look at the ["screen recording software" section of the Tools page]({%
+   link _resources/02-tools.md %}#screen-recording-software).
+
 ## Portfolio {#portfolio}
 
 {:.info-box}
