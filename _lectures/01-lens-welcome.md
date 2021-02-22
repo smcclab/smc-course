@@ -8,11 +8,11 @@ lecturer: Drs Ben Swift, Charles Martin, and Alec Hunter
 
 ## Laptop Ensemble: LENS
 
-Two big goals:
+two big goals:
 
-Learning to create *new music* with *code* on laptop *computers*.
+1. learning to create *new music* with *code* on laptop *computers*
 
-Learning to make computer music in a group.
+2. learning to make computer music in a group
 
 {% include slides/background-image.html image="lectures/welcome/lens-soundscapes-3.jpg" %}
 
@@ -30,11 +30,7 @@ Learning to make computer music in a group.
 
 {% include slides/background-image.html image="lectures/welcome/lens-soundscapes-2.jpg" %}
 
-## Learning outcomes...
-
-<style>
-ol {font-size: 80%;} // to fit LOs on screen
-</style>
+## learning outcomes...
 
 {% include slides/learning-outcomes.md %}
 
@@ -58,7 +54,7 @@ who are we?
 
 {% include slides/background-image.html image="lectures/welcome/charlesmartin-synth-profile.jpg" heading="Charles Martin" %}
 
-[Computer Musician, Percussionist]()
+Computer Musician, Percussionist
 
 [ANU Research School of Computer Science](https://charlesmartin.com.au)
 
@@ -68,39 +64,48 @@ who are we?
 
 how is this going to work?
 
-## Step 1:
+## step 1
 
 Level up _music computing_ skills
 
-- A workshop each week.
+- a workshop each week
 
-- Particularly focussed for the first 8 weeks of the course.
+- learn about digital synthesis and computer music in
+  [Pd](https://puredata.info) (until week 6)
 
-- Learn about digital synthesis and computer music in *Pd*
+- then reinforce and extend your knowledge by live-coding in
+  [Extempore](https://extemporelang.github.io) (teaching break onwards)
 
-- Then reinforce and extend your knowledge by live-coding in *extempore*
+## step 2
 
-## Step 2:
+choose a project to work towards over the course of the semester
 
-Work on a project.
+build a computer music piece/instrument
 
-- Choose a main project to work on over the semester.
+## step 3
 
-## Step 3:
+perform it!
 
-Perform it!
+in the final LENS gig at the end of semester
 
-- Perform in our concert at the end of the semester.
+- play your own instrument/piece
 
-- Play your project
+- participate in other pieces/play other instruments
 
-- Participate in other pieces.
+## deliverables
+
+| Deliverable                                                                              | Due                                         | Weighting                      |
+|------------------------------------------------------------------------------------------|---------------------------------------------|--------------------------------|
+| [Weekly AV diary videos]({% link _deliverables/01-audiovisual-diary.md %}#weekly-videos) | 9pm every Monday in weeks 2--9              | 0%, but required for portfolio |
+| [AV diary portfolio]({% link _deliverables/01-audiovisual-diary.md %}#portfolio)         | Friday of week 5 (Mar 26) & week 9 (Apr 30) | 15% + 15% = 30%                |
+| [LENS demo day]({% link _deliverables/02-demo-day.md %})                     | Week 8 (exact date TBC)                     | 20%                            |
+| [LENS performance]({% link _deliverables/03-lens-performance.md %})                      | Tuesday June 1                              | 50%                            |
 
 {% include slides/impact.html %}
 
 but first...
 
-## Enrolment
+## enrolment
 
 - Who is enrolling?
 
