@@ -152,4 +152,5 @@ your machine then there will be heaps of opportunities to fix any problems
 (especially early in the course). However, it's your responsibility to make sure
 that the software works and that these issues are sorted out---"something went
 wrong with my software setup" is never an acceptable excuse for missing a
-submission deadline, and the usual late penalties apply.
+submission deadline or (especially!) flaking out of a concert performance, and
+the usual late penalties apply.
