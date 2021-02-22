@@ -11,7 +11,7 @@ permalink: /deliverables/audiovisual-diary/
 ## Outline
 
 - **Due date:** 
-  - 60sec video submissions due 11am every Thursday in weeks 2--9
+  - 60sec video submissions due (via GitLab) 11am every Thursday in weeks 2--9
   - portfolio submissions due March 26 (week 5) & April 30 (week 9)
 - **Mark weighting:** 30% total (see [below](#marking))
 - **Submission:** submit your videos & portfolio submissions according to the
@@ -42,6 +42,14 @@ _workshops/index.md %})_.
 Remember: the specification & submission instructions for your AV diary are in
 two parts---this information relates to the weekly video part.
 
+{:.warn-box}
+
+The "week numbering" for the diary entries can be a bit confusing, especially
+because it's a flipped class (where you create your video _ahead_ of the week's
+class). Just remember: in week _N_ you submit the diary entry for week _N_, e.g.
+in week 2 you'll submit your first AV diary video in response to the [week 2
+provocation](https://cs.anu.edu.au/courses/comp2710-lens/workshops/02-synthesis-1/).
+
 ### Specification {#weekly-videos-spec}
 
 Each week's submission must include:
@@ -64,17 +72,8 @@ Each week's submission must include:
   a [markdown](https://www.markdownguide.org) file called
   `week-N-reflection.md`)
 
-In other words, the structure of your folder (before you zip it up and submit
-it) should look something like this:
-
-```
-.
-├── materials
-│   ├── my-story.pd
-│   └── childhood-sound.wav
-├── week-N-reflection.md
-└── week-N.mp4
-```
+This might seem complicated, but we've created (blank) template files for you in
+the GitLab repo---you just need to modify them.
 
 Note: if you're _not_ willing to share your patch files & other materials with
 other LENSers, let [Ben](mailto:ben.swift@anu.edu.au) know asap. The default
@@ -85,6 +84,8 @@ cohort).
 
 You must submit your 60sec video and associated files by Monday 9pm every week
 (from weeks 2--9 inclusive).
+
+<!-- TODO note about GitLab -->
 
 ### Tips on making a good weekly video
 
@@ -111,8 +112,8 @@ You must submit your 60sec video and associated files by Monday 9pm every week
 {:.info-box}
 
 Remember: the specification & submission instructions for your AV diary are in
-two parts---this information relates to the portfolio part (due in weeks 5 & 9
-only).
+two parts---this information relates to the **portfolio** part (due in weeks 5 &
+9 only).
 
 ### Specification {#portfolio-spec}
 
@@ -140,7 +141,7 @@ as a LENS member and computer musician through these AVD submissions.
 
 ### Submission process
 
-Submit each document (in markdown or pdf format) by 11:59pm on the due date.
+Submit each document (in markdown or pdf format) by 9pm on the due date.
 
 ### Marking criteria {#marking}
 
