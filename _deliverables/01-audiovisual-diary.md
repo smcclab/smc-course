@@ -11,7 +11,7 @@ permalink: /deliverables/audiovisual-diary/
 ## Outline
 
 - **Due date:** 
-  - 60sec video submissions due 11am every Tuesday in weeks 2--9
+  - 60sec video submissions due 11am every Thursday in weeks 2--9
   - portfolio submissions due March 26 (week 5) & April 30 (week 9)
 - **Mark weighting:** 30% total (see [below](#marking))
 - **Submission:** submit your videos & portfolio submissions according to the
