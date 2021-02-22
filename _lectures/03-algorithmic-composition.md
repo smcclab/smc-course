@@ -1,6 +1,5 @@
 ---
 title: "Algorithmic Composition with Pure Data"
-layout: reveal
 lecturer: Dr Charles Martin
 ---
 

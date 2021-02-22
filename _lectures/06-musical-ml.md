@@ -1,6 +1,5 @@
 ---
 title: "Musical Machine Learning"
-layout: reveal
 lecturer: Dr Charles Martin
 ---
 

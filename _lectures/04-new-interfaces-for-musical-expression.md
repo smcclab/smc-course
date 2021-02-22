@@ -1,6 +1,5 @@
 ---
 title: "Musical Interfaces in Pure Data"
-layout: reveal
 lecturer: Dr Charles Martin
 ---
 

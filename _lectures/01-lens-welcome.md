@@ -1,6 +1,5 @@
 ---
 title: "Welcome to LENS 2021"
-layout: reveal
 lecturer: Drs Ben Swift, Charles Martin, and Alec Hunter
 ---
 
