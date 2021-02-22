@@ -83,9 +83,8 @@ cohort).
 ### Submission process {#weekly-videos-submission-process}
 
 You must submit your 60sec video and associated files by Monday 9pm every week
-(from weeks 2--9 inclusive).
-
-<!-- TODO note about GitLab -->
+(from weeks 2--9 inclusive) through
+[GitLab](https://gitlab.cecs.anu.edu.au/laptop-ensemble/2021/2021-av-diary-submissions).
 
 ### Tips on making a good weekly video
 
@@ -141,7 +140,9 @@ as a LENS member and computer musician through these AVD submissions.
 
 ### Submission process
 
-Submit each document (in markdown or pdf format) by 9pm on the due date.
+Submit each document (in markdown or pdf format) through
+[GitLab](https://gitlab.cecs.anu.edu.au/laptop-ensemble/2021/2021-av-diary-submissions)
+by 9pm on the due date.
 
 ### Marking criteria {#marking}
 
