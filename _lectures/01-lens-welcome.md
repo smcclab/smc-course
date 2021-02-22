@@ -32,6 +32,10 @@ two big goals:
 
 ## learning outcomes...
 
+<style>
+ol {font-size: 80%;} // to fit LOs on screen
+</style>
+
 {% include slides/learning-outcomes.md %}
 
 {% include slides/impact.html %}
@@ -101,14 +105,27 @@ in the final LENS gig at the end of semester
 | [LENS demo day]({% link _deliverables/02-demo-day.md %})                     | Week 8 (exact date TBC)                     | 20%                            |
 | [LENS performance]({% link _deliverables/03-lens-performance.md %})                      | Tuesday June 1                              | 50%                            |
 
+## AV diary videos
+
+look ahead to see the weekly provocations
+
+some solo, some in groups
+
+watching & discussing these is half of what we do in the workshop slot (apart
+from jamming)
+
+## expectations
+
+flipped---and we mean it! (more like a project course)
+
+what constitutes good work?
+
+read the [FAQ]({% link _resources/01-faq.md %}) one more time!
+
 {% include slides/impact.html %}
 
-but first...
+any questions?
 
 ## enrolment
 
-- Who is enrolling?
-
-- Who needs a study contract?
-
-- Who needs a proposal?
+let's all sign our study contracts
