@@ -38,5 +38,4 @@ cool kids call them <em>LOrk</em>s) perform live.
 - [Stanford Laptop Orchestra - Twilight (2013)](https://www.youtube.com/watch?v=chA-4GRCb-I)
 - [Princeton Laptop Orchestra - Interference (2019)](https://www.youtube.com/watch?v=C-5P3hXuGfs)
 
-If you find any more cool videos, drop them in the `#lensresources` channel on
-Teams.
+If you find any more cool videos, drop them in the `#inspo` channel on Teams.

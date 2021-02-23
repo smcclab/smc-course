@@ -67,4 +67,4 @@ network musicmaking---login details are:
 
 - what does networked music even mean? did it exist before computers? when
   looking for famous examples, how far back can you go? if you find anything
-  cool, drop a link in the #lensresources channel on Teams
+  cool, drop a link in the #inspo channel on Teams
