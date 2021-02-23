@@ -30,6 +30,10 @@ music.
   a lot of the things we'll cover [next week]({% link
   _workshops/02-synthesis-1.md %}) as well)
 
+{:.info-box}
+
+If you get stuck, try asking for help in the `#techsupport` channel on Teams.
+
 ## Things to think about
 
 Just for inspo, have a look at some of the most famous Laptop Orchestras (the

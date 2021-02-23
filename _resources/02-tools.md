@@ -11,7 +11,7 @@ permalink: /resources/tools/
 {:.info-box}
 
 If you're having trouble getting things working on your machine, remember that
-you can ask for help in the `#techsupport` channel on teams (if there's a
+you can ask for help in the `#techsupport` channel on Teams (if there's a
 deadline approaching make sure you don't leave it to the last minute).
 
 ## Laptop
