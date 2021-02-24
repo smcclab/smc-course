@@ -101,7 +101,7 @@ in the final LENS gig at the end of semester
 |------------------------------------------------------------------------------------------|---------------------------------------------|--------------------------------|
 | [Weekly AV diary videos]({% link _deliverables/01-audiovisual-diary.md %}#weekly-videos) | 9pm every Monday in weeks 2--9              | 0%, but required for portfolio |
 | [AV diary portfolio]({% link _deliverables/01-audiovisual-diary.md %}#portfolio)         | Friday of week 5 (Mar 26) & week 9 (Apr 30) | 15% + 15% = 30%                |
-| [LENS demo day]({% link _deliverables/02-demo-day.md %})                     | Week 8 (exact date TBC)                     | 20%                            |
+| [LENS demo day]({% link _deliverables/02-demo-day.md %})                                 | Thursday April 29 (week 8)                  | 20%                            |
 | [LENS performance]({% link _deliverables/03-lens-performance.md %})                      | Tuesday June 1                              | 50%                            |
 
 ## AV diary videos

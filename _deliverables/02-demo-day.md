@@ -10,7 +10,7 @@ permalink: /deliverables/plan/
 
 ## Outline
 
-- **Due date:** Week 8 (exact time & date TBC)
+- **Due date:** Thursday April 29, 3pm--7pm (week 8, note the later finish time)
 - **Mark weighting:** 20%
 - **Submission:** submit your assignment according to the [instructions
   below](#submission-process)
