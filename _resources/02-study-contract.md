@@ -95,7 +95,7 @@ I agree to fulfil the above-defined contract:
   <tbody>
     <tr>
       <td><em>Name</em></td>
-      <td><strong>Dr Ben Swift</strong></td>
+      <td></td>
     </tr>
     <tr>
       <td><em>Date</em></td>
@@ -122,7 +122,7 @@ below or attached email).
   <tbody>
     <tr>
       <td><em>Name</em></td>
-      <td></td>
+      <td><strong>Dr Ben Swift</strong></td>
     </tr>
     <tr>
       <td><em>Date</em></td>
@@ -142,7 +142,7 @@ below or attached email).
   <tbody>
     <tr>
       <td><em>Name</em></td>
-      <td></td>
+      <td><strong>Ushini Attanayake</strong></td>
     </tr>
     <tr>
       <td><em>Date</em></td>
