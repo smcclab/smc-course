@@ -4,9 +4,15 @@ permalink: /resources/study-contract/
 hidden: true
 ---
 
+<style>
+@media print {
+  :root { font-size: 120%; }
+}
+</style>
+
 # {{ page.title }}
 
-## Section A (Students and Supervisors)
+## Section A (Students and Supervisors) {#section-a}
 
 <style>
 .fillout-box {
@@ -102,7 +108,7 @@ I agree to fulfil the above-defined contract:
   </tbody>
 </table>
 
-## Section B
+## Section B {#section-b}
 
 ### Supervisor
 
