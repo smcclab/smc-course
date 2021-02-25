@@ -10,6 +10,8 @@ permalink: /resources/faq/
 
 This is the course FAQ---we'll update it as the semester goes along.
 
+{% include youtube.html id="24YMz90b6bo" %}
+
 {% include toc.html %}
 
 ## What's LENS?
@@ -26,8 +28,6 @@ Laptop Ensemble links:
 
 - [Youtube Channel](https://www.youtube.com/channel/UCIU6SqIS02GJlnLOPqlwmpA)
 - [Facebook Page](https://www.facebook.com/ANULaptopEnsemble/)
-
-{% include youtube.html id="24YMz90b6bo" %}
 
 <!-- 2018 brent/alex J2rwZFJCmHY -->
 <!-- 2020 supercut: https://youtu.be/24YMz90b6bo -->
