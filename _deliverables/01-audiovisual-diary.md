@@ -82,8 +82,8 @@ cohort).
 
 ### Submission process {#weekly-videos-submission-process}
 
-You must submit your 60sec video and associated files by Monday 9pm every week
-(from weeks 2--9 inclusive) through
+You must submit your 60sec video and associated files by Thursday 11am every
+week (from weeks 2--9 inclusive) through
 [GitLab](https://gitlab.cecs.anu.edu.au/laptop-ensemble/2021/2021-av-diary-submissions).
 
 ### Tips on making a good weekly video
