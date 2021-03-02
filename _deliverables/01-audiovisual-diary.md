@@ -103,7 +103,7 @@ ok---hit us up on Teams to ask questions, we'd love to help you out.
 
 #### How to add your video & reflection document & push it to GitLab
 
-{% include video.html video="lecture-recordings/2021/lens-add-av-diary-video-and-push.mp4" %}
+{% include video.html video="lecture-recordings/2021/lens-add-av-diary-video-and-push" %}
 
 ### Tips on making a good weekly video
 
