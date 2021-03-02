@@ -51,7 +51,7 @@ very end which don't apply this year (we're using Teams, not Slack; and and
 classes are Thursday, not Tuesday). But other than that the content is still
 as relevant as ever 🤣
 
-{% include video.html video="lecture-recordings/2019/week-2-hello-sine" %}
+{% include video.html video="lecture-recordings/2021/week-2-hello-sine" %}
 
 Here are the links that I mention at the end of the video:
 
