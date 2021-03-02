@@ -73,6 +73,23 @@ Each week's submission must include:
   a [markdown](https://www.markdownguide.org) file called
   `week-N-reflection.md`)
 
+It doesn't matter how the files are named in your `materials/` folder, but for
+the main video & reflection files you must name things exactly as requested,
+because otherwise they won't play nice with my scripts---and I've only got a
+couple of hours turnaround between the submission deadline and the weekly
+workshop in the afternoon.
+
+As an example, for week 2 your folder structure should look something like this:
+
+```plaintext
+├── week-2
+│   ├── materials
+│   │   ├── README.md
+│   │   └── week2-1.pd
+│   ├── week-2-refection.md
+│   └── week-2.mp4
+```
+
 This might seem complicated, but we've created (blank) template files for you in
 the GitLab repo---you just need to modify them.
 
