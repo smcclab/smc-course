@@ -55,8 +55,9 @@ provocation](https://cs.anu.edu.au/courses/comp2710-lens/workshops/02-synthesis-
 Each week's submission must include:
 
 - a 60 second video of your own work exploring the week's theme, which
-  - has the filename `week-N.mp4` or `week-N.mkv` (with `N` replaced by the week
-    number of the submission date, so the _first_ submission is `week-2`)
+  - has the filename `week-N.mp4`, `week-N.mov` or `week-N.mkv` (with `N`
+    replaced by the week number of the submission date, so the _first_
+    submission is `week-2`)
   - is 1920x1080 (full HD) resolution
   - has sound (obviously!)
   - uses one of the [computer music software environments we're covering in this
