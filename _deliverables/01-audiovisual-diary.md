@@ -87,6 +87,24 @@ You must submit your 60sec video and associated files by Thursday 11am every
 week (from weeks 2--9 inclusive) through
 [GitLab](https://gitlab.cecs.anu.edu.au/laptop-ensemble/2021/2021-av-diary-submissions).
 
+If you're familiar with git/GitLab, then you can do this however you like---as
+long as the video & reflection document is pushed to GitLab before the
+submission time.
+
+If you're new to this sort of thing, here are a couple of walkthrough videos of
+me using [VSCode](https://code.visualstudio.com) to edit the
+`week-2-reflection.md` file, commit the `week-2.mkv` video file and push it to
+GitLab. If there's any language in there that's not familiar that's completely
+ok---hit us up on Teams to ask questions, we'd love to help you out.
+
+#### How to fork the project
+
+{% include video.html video="lecture-recordings/2021/lens-fork-av-diary-project" %}
+
+#### How to add your video & reflection document & push it to GitLab
+
+{% include video.html video="lecture-recordings/2021/lens-add-av-diary-video-and-push.mp4" %}
+
 ### Tips on making a good weekly video
 
 1. small & focussed is ok---you don't have to build a huge thing every week
