@@ -104,7 +104,7 @@ You must submit your 60sec video and associated files by Thursday 11am every
 week (from weeks 2--9 inclusive) through
 [GitLab](https://gitlab.cecs.anu.edu.au/laptop-ensemble/2021/2021-av-diary-submissions).
 
-If you're familiar with git/GitLab, then you can do this however you like---as
+If you're familiar with git & GitLab, then you can do this however you like---as
 long as the video & reflection document is pushed to GitLab before the
 submission time.
 
