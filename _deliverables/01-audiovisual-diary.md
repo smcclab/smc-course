@@ -142,6 +142,19 @@ ok---hit us up on Teams to ask questions, we'd love to help you out.
 6. have a look at the ["screen recording software" section of the Tools page]({%
    link _resources/02-tools.md %}#screen-recording-software)
 
+### Tips on writing a good weekly reflection
+
+1. it's ok to mention the inspiration (either an abstract concept, or a specific
+   thing you saw/listened to) for your work
+
+2. don't spend too much time on the _what_ (we can watch the video for that),
+   talk more about the _why_
+
+3. discuss any particular challenges or tensions you felt between competing
+   ideas/priorities (if there were any)
+
+4. don't overthink it---it's only 200 words
+
 ## Portfolio {#portfolio}
 
 {:.info-box}
