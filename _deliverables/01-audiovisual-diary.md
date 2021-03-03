@@ -199,12 +199,12 @@ Each stage of your portfolio is worth 15% of your total mark, and will be
 assessed entirely based on the submitted document. The marking criteria
 (based on the [course learning outcomes]({% link 02-outline.md %})) are:
 
-- demonstration of the **fundamental concepts in music computing** covered in the
+- demonstration of the fundamental concepts in computer music covered in the
   course including digital synthesis, algorithmic composition and musical
   interface design
 
-- engagement with the weekly provocations, including critical examination and
-  self-reflection on how they shaped your AV diary submissions
+- engagement with the weekly provocations and specifically how they shaped your
+  AV diary submissions
 
 - clarity of communication, overall narrative structure of the portfolio (i.e.
   does it read like a cohesive document, or just like 4x 200-word reflections
