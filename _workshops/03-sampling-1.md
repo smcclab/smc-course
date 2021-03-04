@@ -43,20 +43,27 @@ here are a few thoughts to get you started.
 
 ### Sampling started(?) with _Musique Concrète_
 
-- two main composers at the start of the movement: Pierre Schaeffer (1910-'95)
-  and Pierre Henry (b. 1927)
-- defined by these composers as 'Real Music'---all their sounds are from
+- two main composers at the start of the movement: [Pierre
+  Schaeffer](https://en.wikipedia.org/wiki/Pierre_Schaeffer) (1910-1995) and
+  [Pierre Henry](https://en.wikipedia.org/wiki/Pierre_Henry) (b. 1927)
+
+- defined by these composers as **Real Music**™---all their sounds are from
   physical objects
+
 - this is music without the abstraction of notation
-- the first example is 'Cinq études de bruits' (1948), composed using vinyl
-  records! No tape yet in France. The piano sounds were supplied by
+
+- the first example is [_Cinq études de
+  bruits_](https://en.wikipedia.org/wiki/Cinq_études_de_bruits) (1948), composed
+  using vinyl records! No tape yet in France. The piano sounds were supplied by
   composer/pianist, Pierre Boulez, and it was premiered via radio
 
 ### Things to consider when using samples:
 
 - what is your sample, and what kind(s) of meaning does it have: in its original
   context? out of context?
+
 - what kind of meaning would you like it to have in its new context?
+
 - do you want to preserve some of the original meaning (keep it recognisable) or
   strip the clip of its meaning (usually short samples)?
 
@@ -93,17 +100,22 @@ here are a few thoughts to get you started.
 
 - automated and sequenced---think of drum machines (doesn't have to be a
   'regular' beat)
+
 - Mapped to different controls in a virtual instrument and manipulated live
   (maybe with a controller, when we get there)---think of an electric piano or
   MIDI saxophone
+
 - played 'as is'---maybe there is a field recording that acts as a backdrop for
   the rest of the sounds in your composition
 
 ### Some things you might consider when choosing a sample
 
 - are you coming from a musical or extramusical starting point?
-  1. I want a particular kind of sound---e.g. short, sharp, unpitched attack
-  2. I want a particular kind of feeling---e.g. warm, relaxed
+
+  1. I want a particular kind of sound, e.g. short, sharp, unpitched attack
+
+  2. I want a particular kind of feeling, e.g. warm, relaxed
+
   3. maybe you want some kind of message, and are using speech or a recognizable
      sound (orchestra tuning up, radio ad, etc.)
 
@@ -115,8 +127,13 @@ here are a few thoughts to get you started.
 ### What else can I read/watch to learn more about this stuff?
 
 - [A guide to Pierre Schaeffer, the founder of Musique Concrete and sampling](https://www.factmag.com/2016/02/23/pierre-schaeffer-guide/)
+
 - [Great documentary on Pierre Henry, one of the founding fathers of sampling and Musique Concrete](https://youtu.be/Zsb1w-3iFa8)
+
 - [Documentary on sampling](https://www.youtube.com/watch?v=-HZOdRaeXmA)
+
 - [Composer Katie Gately talks about her practice](https://youtu.be/b0ztmM1tpeE)
+
 - [A short documentary exploring new frontiers in field recordings. Featuring Nabihah Iqbal, Equiknoxx, Lawrence English, Lonelady, David Chatton Barker, Félicia](https://www.youtube.com/watch?v=esfUwg1-xrI)
+
 - [Alvin Lucier: I am sitting in a room (super famous live sample-based piece)](https://www.youtube.com/watch?v=fAxHlLK3Oyk)
