@@ -95,8 +95,9 @@ the GitLab repo---you just need to modify them.
 
 Note: if you're _not_ willing to share your patch files & other materials with
 other LENSers, let [Ben](mailto:ben.swift@anu.edu.au) know asap. The default
-will be that everyone's patch files will be shared (just within this LENS
-cohort).
+will be that [everyone's patch files will be
+shared](https://gitlab.cecs.anu.edu.au/laptop-ensemble/2021/2021-av-diary-materials)
+(just within this LENS cohort).
 
 ### Submission process {#weekly-videos-submission-process}
 
