@@ -42,7 +42,7 @@ signal and hearing what those transformations sound like.
 3. to begin to understand how the different types of things in Pd (objects,
    numbers, messages) work together
 
-## Pd resources
+## Pd resources {#pd-resources}
 
 {:.warn-box}
 

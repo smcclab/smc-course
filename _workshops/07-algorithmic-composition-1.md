@@ -25,10 +25,11 @@ summary: triggering events in pitch & time using algorithmic processes
 
 {:.info-box}
 
-Wow, lots of new stuff this week. But don't be overwhelmed---we'll guide you
-through some example code which will (hopefully) be fun to play with, and don't
-worry if you don't understand everything about it at first. And **if you have
-questions, hit us up on Teams**.
+Lots of new stuff this week, although because of the two week lecture-free
+period you actually have a bit longer to get on top of it. Don't be
+overwhelmed---we'll guide you through some example code which will (hopefully)
+be fun to play with, and don't worry if you don't understand everything about it
+at first. And **if you have questions, hit us up on Teams**.
 
 ### Quickstart
 
@@ -51,6 +52,11 @@ seen before, but are often helpful in algorithmic composition:
 
 - [modular arithmetic](https://en.wikipedia.org/wiki/Modular_arithmetic) is
   handy for both rhythmic and harmonic (pitch) algorithms
+
+- all the music theory crash course stuff [mentioned in week 1]({% link
+  _workshops/02-synthesis-1.md %}#pd-resources) will be helpful here as well,
+  especially because now you're working in a textual programming langugage you
+  might be interested in doing more "note-based" stuff
 
 ### Launch points
 
@@ -86,7 +92,8 @@ points":
     "libs/core/pc_ivl.xtm")` first)
 
 Seriously, though, if you've got an idea and are wondering about how to make it
-happen then hit us up on Teams and we can probably point you in the right direction.
+happen then hit us up on Teams and we can probably point you in the right
+direction.
 
 ### Examples & further reading
 
