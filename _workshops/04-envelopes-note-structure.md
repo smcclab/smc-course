@@ -23,7 +23,8 @@ the "raw signals" you've been generating so far and shaping them into more
 structured and recognisable musical elements like notes, bars, choruses, and
 movements.
 
-![]({{site.baseurl}}/assets/digital-synthesis/envelope-sound.png){:style="width:100%;"}
+![The effect of applying an envelope to a carrier
+wave.]({{site.baseurl}}/assets/digital-synthesis/envelope-sound.png){:style="width:100%;"}
 
 ## Goals for this week
 
@@ -42,7 +43,8 @@ movements.
 - the Pd help for the `line~` & `vline~` objects, as well as the `bang` and
   `metro` objects for triggering your envelopes
   
-![]({{site.baseurl}}/assets/digital-synthesis/pd-using-vline.png){:style="width:100%;"}
+![Anatomy of a vline
+message]({{site.baseurl}}/assets/digital-synthesis/pd-using-vline.png){:style="width:100%;"}
 
 ## Things to think about
 
