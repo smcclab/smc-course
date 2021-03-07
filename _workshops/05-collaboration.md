@@ -1,5 +1,5 @@
 ---
-title: "Week 5: (remote) collaboration"
+title: "Week 5: collaboration"
 summary: making computer music with multiple computers & musicians
 ---
 
@@ -17,9 +17,10 @@ but we'll still be continuing with things remotely from here.
 
 {:.info-box}
 
-As we discussed in the week 4 workshop, the groups (i.e. ensembles) you'll be
-working in this week have already been announced on the _#lensannounce_ channel
-on Teams.
+This is the first **group AV diary** (although you've been making music together
+in the ad-hoc workshop ensembles since week 2). We'll assign people into groups
+during the [week 4 workshop]({% link _workshops/04-envelopes-note-structure.md
+%}).
 
 ## Goals for this week
 
@@ -34,9 +35,9 @@ on Teams.
 
 ## Pd resources
 
-Nothing new this week, but I've been updating all the content & links to
-previous weeks, so if you haven't gone back over them it might be worth taking a
-look.
+Nothing new this week, but all the resources from previous workshops are still
+relevant---especially now that you're thinking about how to use them in an
+ensemble context.
 
 ## Things to think about
 
@@ -47,8 +48,8 @@ look.
 - which parts of the collaborative workflow need to be synchronous, and which
   parts could be async? do you want to collaborate sequentially, or in parallel?
 
-- does the "going online" factor (and social isolation, etc.) change the type of
-  music you're going to make in this course? why/how/why not?
+- do you think the "group AV diary" factor change will the type of music you're
+  going to make? if so, how & why?
 
 - have a look at collaborative "parlour games" like [layer
   tennis](https://www.layertennis.com) or [exquisite

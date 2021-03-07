@@ -24,37 +24,47 @@ new interface on it, and play something
    been doing when they're connected together. find out about systems for
    sending musical data over networks.
 
-2. have _at least one_ network music making session with some of your LENS classmates
-
-3. start thinking about the fact that your final performance will be
-   livestreamed over the network, and what that might mean for the type of piece
-   you'll build/compose
+2. have _at least one_ network music making session with some of your LENS
+   classmates
 
 ## Resources
 
 - Network Music Making [YouTube: charles](https://youtu.be/1J7EAu5g5zw)
 - [Network Music (Cambridge Companion to Electronic Music)](https://www-cambridge-org.virtual.anu.edu.au/core/services/aop-cambridge-core/content/view/C2A04A1DAE6EDE05909CF97DFEAD8B86/9781316459874c8_p138-153_CBO.pdf/network_music.pdf)
 
-### Open Sound Control
+### Open Sound Control (OSC)
 
 - Andrew Johnston: [Pure Data and Open Sound
   Control](https://youtu.be/TTd57stEr_g)
 - Pure Data: 23 Open Sound Control 1 [YouTube:
   cheetomoskeeto](https://youtu.be/rxHIJx-O3iU)
 
-N.B. Pd didn't have OSC built in until fairly recently (v0.46), look at the
+{:.info-box}
+
+Pd didn't have OSC built in until fairly recently (v0.46), look at the
 `oscformat` and `oscparse` objects which need `netsend` and `netreceive` to
 work. Older videos will show how to import special libraries for OSC --- not
 needed anymore!
 
 ### Audio over networks
 
-- [JackTrip audio conference server](https://youtu.be/wcyqRHYo-xo)
-- [Remote setup for Live Music Performance using Jacktrip & Aseqnet](https://youtu.be/duoCM70vQ44)
-- [Mumble open source voice chat server](https://www.mumble.info) - Mumble is fairly easy to set up for doing live audio linkups with a number of people, but we don't know how well it might work for music. It's designed for voice, so the quality might limit what we can do with it.
+- [SonoBus](https://sonobus.net) is an easy to use application for streaming
+  high-quality, low-latency peer-to-peer audio between devices over the internet
+  or a local network. I (Ben) haven't used it myself yet---I only found out
+  about it earlier this year---but it looks useful.
+
+- [JackTrip](https://www.jacktrip.org) is a bunch of tools for live performance
+  of music over the internet, including the [JackTrip audio conference
+  server](https://youtu.be/wcyqRHYo-xo) and instructions on a [remote setup for
+  Live Music Performance using Jacktrip & Aseqnet](https://youtu.be/duoCM70vQ44)
+
+- The [Mumble open source voice chat server](https://www.mumble.info) is fairly
+  easy to set up for doing live audio linkups with a number of people, but we
+  don't know how well it might work for music. It's designed for voice, so the
+  quality might limit what we can do with it.
 
 There's a LENS mumble server which is set up for you to explore synchronous
-network musicmaking---login details are: 
+network musicmaking---login details are:
 
 - host: `mb1.cheapmumble.com`
 - port: 2193
@@ -68,3 +78,12 @@ network musicmaking---login details are:
 - what does networked music even mean? did it exist before computers? when
   looking for famous examples, how far back can you go? if you find anything
   cool, drop a link in the #inspo channel on Teams
+
+- remember that you can send control messages over the network, or audio, or
+  both, or something else entirely---be creative
+
+- think about the specific network music context you're dealing with; is it lots
+  of musicians in the same room connected via ethernet to the LAN, or is it a
+  couple of musicians on opposite sides of the globe trying to improvise
+  together in real-time? Can you design your piece to minimise the challenges or
+  emphasise the opportunities provided by this specific networked context?
