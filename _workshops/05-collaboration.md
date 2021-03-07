@@ -10,10 +10,6 @@ summary: making computer music with multiple computers & musicians
 **Group AVD**: create a piece where every member controls a different aspect of
 the sound
 
-You know things are getting real when [the cricket is
-cancelled](https://www.theguardian.com/world/live/2020/mar/17/australia-coronavirus-live-updates-nsw-victoria-qld-quarantine-self-isolate-update-woolworths-coles-shopping-schools-latest-news-update?page=with:block-5e7018be8f088d7575594a91#block-5e7018be8f088d7575594a91),
-and so we at the ANU must soon follow suit.
-
 In this week's workshop session we're looking at **collaboration**, and working
 through the question of what going online means for a LENS course. This will be
 the last in-person workshop for a while (perhaps for the rest of the course),
