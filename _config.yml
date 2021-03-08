@@ -105,5 +105,5 @@ defaults:
     scope:
       path: _lectures
     values:
-      layout: reveal2
+      layout: reveal
 
