@@ -14,6 +14,14 @@ let segmentColours = [
   "#686de0"
 ];
 
+// from https://stackoverflow.com/a/12646864
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+}
+
 function makeWheel(labels, canvasId, radius, callbackFinished) {
   let canvasDiv = document.getElementById(canvasId);
 
@@ -34,6 +42,9 @@ function makeWheel(labels, canvasId, radius, callbackFinished) {
 
   // replace placeholder div with the actual canvas
   canvasDiv.replaceWith(canvas);
+
+  // shuffle the colours, just for fun
+  shuffleArray(segmentColours);
 
   // create the new winwheel - see Winwheel.js
   let wheel = new Winwheel({
