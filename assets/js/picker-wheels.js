@@ -40,7 +40,7 @@ function makeWheel(labels, canvasId, radius, callbackFinished) {
     canvasId: canvasId,
     numSegments: labels.length,
     outerRadius: radius * 0.99,
-    textFontSize: radius * 0.07,
+    textFontSize: radius * 0.1,
     textMargin: 0,
     segments: labels.map((t, i) => ({
       text: t,
