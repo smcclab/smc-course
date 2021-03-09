@@ -52,4 +52,4 @@ document.addEventListener("DOMContentLoaded", function(){
 
 </script>
 
-<ol id="group-list" style="font-size: 0.8rem; width:50%; float:right;"></ol>
+<ol id="group-list" style="font-size: 0.75rem; width:50%; float:right;"></ol>
