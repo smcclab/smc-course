@@ -159,7 +159,7 @@ course [learning outcomes]({% link 02-outline.md %}#learning-outcomes).
 
 The primary weekly contact hours are the 2hr [workshop session]({% link
 _workshops/index.md %}) from 3pm--5pm in the [Marie Reay
-6.02](https://www.anu.edu.au/maps#show=108136). If you're enrolled in the class,
+4.04](https://www.anu.edu.au/maps#show=108136). If you're enrolled in the class,
 you must be there every week.
 
 Outside of that workshop, the class will be delivered in "flipped" mode; we'll

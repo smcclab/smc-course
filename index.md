@@ -7,7 +7,7 @@ hidden: true
 
 This is the _LENS: ANU Laptop Ensemble_ course website. The course is running in
 Semester 1, 2021 (the workshop timeslot is Thursday 3pm--5pm in [Marie Reay
-6.02](https://www.anu.edu.au/maps#show=108136)). If you'd like to participate,
+4.04](https://www.anu.edu.au/maps#show=108136)). If you'd like to participate,
 then [email Ben](mailto:ben.swift@anu.edu.au) **before the first workshop** (3pm
 Thursday Feb 25) to register your interest (and read the ["how to enrol" FAQ
 entry]({% link _resources/01-faq.md %}#how-to-enrol) as well). In the meantime,
