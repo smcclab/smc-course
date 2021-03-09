@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function(){
     }
   }
 
-  let wheel = makeWheel(
+  let pickerWheel = makeWheel(
     [
       "Caleb",
       "George",
@@ -43,9 +43,10 @@ document.addEventListener("DOMContentLoaded", function(){
     "picker-wheel",
     Reveal.getConfig().width/6,
     (wheel, indicatedSegment) => {
-      let nameItem = document.createElement('li')
+      let nameItem = document.createElement('li');
       nameItem.innerHTML = indicatedSegment.text;
       groupList.appendChild(nameItem);
+      wheel.deleteSegment(wheel.getIndicatedSegmentNumber());
     });
 });
 
