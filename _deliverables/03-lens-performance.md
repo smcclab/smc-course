@@ -10,7 +10,7 @@ permalink: /deliverables/lens-performance/
 
 ## Outline
 
-- **Due date:** Tuesday June 1 (time TBC)
+- **Due date:** Tuesday June 1 7pm (time TBC)
 - **Mark weighting:** 50%
 - **Submission:** submit your assignment according to the [instructions
   below](#submission-process)
@@ -33,7 +33,7 @@ collaboration during performance.
 
 There are two representations of your LENS performance:
 
-1. the **performance materials** (zip file of patches, code, scores,
+1. the **performance materials** (GitLab repo with patches, code, scores,
    instructions, etc---everything needed to produce your performance, including
    a `README.md` file explaining how to get it up and running)
 
@@ -46,9 +46,9 @@ of the assessment, so don't neglect these parts when developing your artefact.
 
 It's a live gig---we'll announce the time & venue details closer to the date.
 
-- ~~**Tuesday June 1 9pm**~~: the gig---live on YouTube, exact setup details TBC
+- **Tuesday June 1 9pm**: the gig---venue TBC
 
-- ~~**Tuesday June 8 11:59pm**~~: final artefact materials due
+- **Tuesday June 8 11:59pm**: final artefact materials due through GitLab
 
 ## Marking criteria {#marking}
 
@@ -57,7 +57,7 @@ marking criteria (based on the [course learning outcomes]({{site.baseurl}}{%
 link 02-outline.md %})) are:
 
 - technical quality & ambition of your artefact/performance with regards to the
-  fundamental concepts in music computing covered in this course, including
+  fundamental concepts in computer music covered in this course, including
   digital synthesis, algorithmic composition and musical interface design
 
 - demonstrated potential for expression during live performance, i.e. level of
@@ -75,27 +75,6 @@ link 02-outline.md %})) are:
 
 ## FAQ {#faq}
 
-### So do I have to do a live stream on the night of the gig or not?
-
-As per the info box above, we decided that the best way to do this is to have
-you submit your final videos ahead of time, and we'll stream these videos out on
-YouTube on Friday June 12.
-
-### Can I do any post-production on my video?
-
-Yes, in fact it's never been a requirement that you do the
-performance/collaboration part of your performance "live". You should think
-about how you're going to "stage" the video (including showcasing the ensemble
-collaboration between members). Think about your audience; how are you going to
-put on a show for them?
-
-Remember, the criteria for this performance aren't _just_ about the performance,
-we also mark (and care about) the artefact itself. So you can't not actually
-have a working artefact and fake it all in post. But you can e.g. include
-multiple video streams, and you can cut things together to best show off your
-performance & artefact. This is now an online gig, and you can lean in to the
-affordances of that medium.
-
 ### How many other ensemble members does my piece need to include?
 
 Your performance must include meaningful collaboration/interaction with at least
@@ -108,13 +87,3 @@ you'll communicate this collaboration to the audience as well).
 ### How many other LENS member's pieces do I have to perform on?
 
 You need to help out with _at least one_ other LENS performance.
-
-### What are the late penalties for this deliverable?
-
-The ANU late penalty of 5% per day [applies in this course]({% link
-01-policies.md %}#late-penalties), as stated on the policies page.
-
-Remember, though, that gig stream goes out ~24h after the final video deadline,
-so if you submit your final performance late then it won't be part of the "Final
-LENS S1 2021 gig" stream. Which obviously is not ideal, since the whole course
-has been building up to that gig.
