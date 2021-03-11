@@ -32,7 +32,6 @@ document.addEventListener("DOMContentLoaded", function(){
       "George",
       "Chamith",
       "Max",
-      "Barclay",
       "Kai",
       "Mike",
       "Josh",
