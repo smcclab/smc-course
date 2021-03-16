@@ -204,6 +204,10 @@ assessed entirely based on the submitted document. The marking criteria
   course including digital synthesis, algorithmic composition and musical
   interface design
 
+- reflection on the design and performance challenges associated with computer
+  music interfaces (including ensemble performance aspects in the case of the
+  group AVDs)
+
 - engagement with the weekly provocations and specifically how they shaped your
   AV diary submissions
 
