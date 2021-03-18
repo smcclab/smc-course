@@ -54,17 +54,22 @@ for collaboration in your laptop music making.
   project](https://github.com/cpmpercussion/ComputerMusicIntro) has some cool
   patches for getting started with OSC, MIDI, etc.
 
-### Open Sound Control (OSC)
+### Open Sound Control (OSC) & Midi
 
 [OSC](https://en.wikipedia.org/wiki/Open_Sound_Control) is a great way to send
 messages (especially "control" messages) between different audio programming
 environments.
+
+Here are a couple of YouTube videos which explain things further:
 
 - Andrew Johnston's [Pure Data and Open Sound
   Control](https://youtu.be/TTd57stEr_g)
 
 - cheetomoskeeto's [Pure Data: 23 Open Sound Control
   1](https://youtu.be/rxHIJx-O3iU)
+
+For example code, look at the `3-new-interfaces/5-OSC-in-pd.pd` patch in the
+example repo.
 
 {:.info-box}
 
@@ -73,11 +78,12 @@ Pd didn't have OSC built in until fairly recently (v0.46), look at the
 work. Older videos will show how to import special libraries for OSC---not
 needed anymore!
 
-Here's a
-
 [MIDI](https://en.wikipedia.org/wiki/MIDI) is the other main standard for this
 stuff, which is a bit older & less flexible, but it's supported by _every_ piece
 of musical hardware under the sun.
+
+For example code, look at the `3-new-interfaces/1-MIDI-in-pd.pd` patch in the
+example repo.
 
 ### Audio over networks
 
