@@ -43,6 +43,11 @@ various types.
   (combined with your knowledge from last week) you can probably turn into an
   interface if you like
 
+- for a wild & wonderful tour of what's possible in the world of NIMEs, you can
+  check out the [NIME community website](https://www.nime.org), including the
+  [full archive of papers submitted to the NIME
+  conference](https://www.nime.org/archives/)
+
 ## Things to think about
 
 - what is an interface, exactly?
