@@ -50,6 +50,10 @@ for collaboration in your laptop music making.
 - [Network Music (Cambridge Companion to Electronic
   Music)](https://www-cambridge-org.virtual.anu.edu.au/core/services/aop-cambridge-core/content/view/C2A04A1DAE6EDE05909CF97DFEAD8B86/9781316459874c8_p138-153_CBO.pdf/network_music.pdf)
 
+- the [`3-new-interfaces` folder in the ComputerMusicIntro
+  project](https://github.com/cpmpercussion/ComputerMusicIntro) has some cool
+  patches for getting started with OSC, MIDI, etc.
+
 ### Open Sound Control (OSC)
 
 [OSC](https://en.wikipedia.org/wiki/Open_Sound_Control) is a great way to send
@@ -68,6 +72,8 @@ Pd didn't have OSC built in until fairly recently (v0.46), look at the
 `oscformat` and `oscparse` objects which need `netsend` and `netreceive` to
 work. Older videos will show how to import special libraries for OSC---not
 needed anymore!
+
+Here's a
 
 [MIDI](https://en.wikipedia.org/wiki/MIDI) is the other main standard for this
 stuff, which is a bit older & less flexible, but it's supported by _every_ piece
