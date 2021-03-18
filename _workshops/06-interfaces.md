@@ -21,12 +21,11 @@ put a new interface on it, and play something
 
 ## Goals for this week
 
-1. explore the history (and present) of networked music to see what artists have
-   been doing when they're connected together. find out about systems for
-   sending musical data over networks.
+1. build new kinds of instruments
 
-2. have _at least one_ collaborative music making session with some of your LENS
-   classmates
+2. imagine new kinds of musicianship
+
+3. make new kinds of music?
 
 ## Resources
 
@@ -51,6 +50,10 @@ various types.
 ## Things to think about
 
 - what is an interface, exactly?
+
+- imagine you're not going to be the one playing your instrument/interface...
+  what does virtuosity look like? how have you tried to design a low floor/high
+  ceiling? or do you have other design priorities?
 
 - _teaching_ soldering and that sort of thing is beyond the scope of this
   course, but if you're interested in hardware controllers and other things like
