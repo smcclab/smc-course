@@ -94,6 +94,12 @@ few different options as well.
   don't know how well it might work for music. It's designed for voice, so the
   quality might limit what we can do with it.
 
+{:.warn-box}
+
+Remember that your [first AV Diary portfolio]({% link
+_deliverables/01-audiovisual-diary.md %}#portfolio) is due at the end of this
+week.
+
 ## Things to think about
 
 - how is your group going to meet & chat? if it's going to be online, then you
