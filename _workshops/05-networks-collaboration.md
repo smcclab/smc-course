@@ -114,6 +114,9 @@ few different options as well.
   don't know how well it might work for music. It's designed for voice, so the
   quality might limit what we can do with it.
 
+- [JamRTC](https://github.com/lminiero/jamrtc) (pre-alpha) is an attempt to
+  create a simple prototype for doing jam sessions using WebRTC.
+
 {:.warn-box}
 
 Remember that your [first AV Diary portfolio]({% link
