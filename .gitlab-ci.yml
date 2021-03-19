@@ -1,4 +1,4 @@
-image: ruby:2.7.1
+image: ruby:3.0.0
 
 page-build:
   tags:
@@ -9,16 +9,6 @@ page-build:
     - bundle exec jekyll build -d /srv/gitlab-ce-pages/staging/$CI_PIPELINE_ID/$CI_BUILD_REF_NAME/$CI_PROJECT_PATH
   only:
     - master
-
-# page-test:
-#   tags:
-#     - Pages
-#   stage: test
-#   script:
-#     - htmlproofer --alt-ignore "/style.anu.edu.au/" --file-ignore "/404/" --assume-extension /srv/gitlab-ce-pages/staging/$CI_PIPELINE_ID/$CI_BUILD_REF_NAME/$CI_PROJECT_PATH
-#   only:
-#     - master
-#   allow_failure: true
 
 page-deploy:
   tags:
