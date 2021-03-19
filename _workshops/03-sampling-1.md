@@ -31,7 +31,8 @@ recording "real"[^real] sounds and playing them back.
 ## Things to think about
 
 Working with samples is really fun and has a huge range of possibilities, so
-here are a few thoughts to get you started.
+here are a few thoughts to get you started. This was a slide deck once upon a
+time, but I think it's still useful as a bunch of subheadings on a webpage.
 
 ### Why use found sounds, sampling and field recordings?
 
@@ -57,7 +58,7 @@ here are a few thoughts to get you started.
   using vinyl records! No tape yet in France. The piano sounds were supplied by
   composer/pianist, Pierre Boulez, and it was premiered via radio
 
-### Things to consider when using samples:
+### Things to consider when using samples
 
 - what is your sample, and what kind(s) of meaning does it have: in its original
   context? out of context?
@@ -83,15 +84,18 @@ here are a few thoughts to get you started.
   2. _consent_; feel free to record in public spaces, but if you can make out
      specific voices and/or names, get consent
  
-### Think about variables/parameters
+### Interesting variables/parameters
 
 - pitch: you can usually get 4 MIDI notes (semitones) in either direction before
   the sample starts to have too many artefacts/get weird (which might be cool!)
   think of the Ferris Bueller coughing piano...
+
 - amount of the sample being triggered: do you always want to hear the same
   section of the sample? maybe you reveal more of it over time? or less? or
   random selections?
-- effects? Is the sample(s) always affected in the same way
+
+- effects? Is the sample(s) always affected in the same way?
+
 - forwards or backwards: what does it sound like backwards? can you use these
   mirror images as a compositional tool? e.g. maybe the user/performer can
   control which direction the sample is played in
