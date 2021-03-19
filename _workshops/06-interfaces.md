@@ -11,7 +11,10 @@ performance). The field of _New Interfaces for Musical Expression_ (NIME) is a
 whole thing with its [own conference and everything](https://www.nime.org).
 
 This week we'll think more specifically about what it means to design a good
-interface for a LENS instrument.
+interface for a LENS instrument. In computing more generally, interface design
+(or UX, or Human-Computer Interaction) is a topic which many people have thought
+a lot about over many years. There's even a [course you can
+take](https://programsandcourses.anu.edu.au/course/COMP3900) on the subject.
 
 {:.diary-provocation-box}
 
@@ -21,18 +24,17 @@ put a new interface on it, and play something
 
 ## Goals for this week
 
-1. build new kinds of instruments
+1. think about what it means to make a **n**ew **i**nterface for **m**usical
+   **e**xpression
 
-2. imagine new kinds of musicianship
-
-3. make new kinds of music?
+2. 
 
 ## Resources
 
 Building on last week's [networks & collaboration workshop]({% link
-_workshops/05-networks-collaboration.md %}), we'll think about how to
-control the computer music systems we've been building through interfaces of
-various types.
+_workshops/05-networks-collaboration.md %}), we'll think about how to control
+the computer music systems we've been building through interfaces of various
+types.
 
 - like last week, the [`3-new-interfaces` folder in the ComputerMusicIntro
   project](https://github.com/cpmpercussion/ComputerMusicIntro) has some cool
@@ -49,13 +51,22 @@ various types.
 
 ## Things to think about
 
-- what is an interface, exactly?
+- what is an interface, exactly? thinking back over your previous Pd work (e.g.
+  your AV Diary submissions), is each part of your patch equally "interface-y"?
+  or are some parts of the patch more "interface-y" than others? was that a
+  deliberate choice, or did it just work out that way?
+
+- the "start with someone else's work" aspect of this week's provocation is
+  super important: you shouldn't have to spend any time this week doing the
+  actual "sound generation" work, you should be exclusively thinking about new
+  ways of controlling the noisemaking infrastructure that's already there
+
+- can computer programs be interfaces? what does the "I" in API stand for?
 
 - imagine you're not going to be the one playing your instrument/interface...
   what does virtuosity look like? how have you tried to design a low floor/high
   ceiling? or do you have other design priorities?
 
-- _teaching_ soldering and that sort of thing is beyond the scope of this
-  course, but if you're interested in hardware controllers and other things like
-  that then you can have a chat to us about how you might be able to incorporate
-  them (e.g. we do have a few midi controllers you could borrow)
+- since you're starting with someone else's work, think about what _they_ might
+  consider their patch's interface to be? can you do something with their patch
+  which might really surprise them?
