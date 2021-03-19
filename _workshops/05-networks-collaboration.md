@@ -28,6 +28,15 @@ locations, to connect devices together in one studio, and to connect different
 pieces of software on one computer. This week you'll explore how to use networks
 for collaboration in your laptop music making.
 
+One important concept is the that in terms of what you might send over the
+network, most data streams can be considered either "control" data or "signal"
+data. This [distinction is present in
+Pd](http://www.pd-tutorial.com/english/ch02.html#id409690), with the `~` suffix
+on signal objects and the "thin" vs "thick" cables. These different types of
+data streams require different tradeoffs (and therefore different tools) when
+sending them over the network, so this week's [Resources](#pd-resources) section
+has subsections for each type of data stream.
+
 ## Goals for this week
 
 1. explore the history (and present) of networked music to see what artists have
@@ -42,7 +51,7 @@ for collaboration in your laptop music making.
 3. with your group, design and carry out a collaboration workflow which allows
    you to deliver a **3min** AV diary entry by the week 5 workshop slot
 
-## Resources
+## Pd Resources {#pd-resources}
 
 - Charles' 2020 [presentation on network music
   making](https://youtu.be/1J7EAu5g5zw)
@@ -54,11 +63,10 @@ for collaboration in your laptop music making.
   project](https://github.com/cpmpercussion/ComputerMusicIntro) has some cool
   patches for getting started with OSC, MIDI, etc.
 
-### Open Sound Control (OSC) & Midi
+### Control data: Open Sound Control (OSC) & Midi
 
 [OSC](https://en.wikipedia.org/wiki/Open_Sound_Control) is a great way to send
-messages (especially "control" messages) between different audio programming
-environments.
+control messages between different audio programming environments.
 
 Here are a couple of YouTube videos which explain things further:
 
@@ -85,9 +93,9 @@ of musical hardware under the sun.
 For example code, look at the `3-new-interfaces/1-MIDI-in-pd.pd` patch in the
 example repo.
 
-### Audio over networks
+### Signal data: sending audio over the network
 
-If you want to send "audio" data (i.e. a stream of bits that's meant to be
+If you want to send audio signal data (i.e. a stream of bits that's meant to be
 interpreted as an audio signal and sent to a DAC at some stage) then there are
 few different options as well.
 
