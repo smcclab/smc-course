@@ -7,8 +7,8 @@ summary: making computer music with multiple computers & musicians
 
 {:.diary-provocation-box}
 
-**Group AVD**: create a piece where every member controls a different aspect of
-the sound
+**Group AVD**: create a 3min piece where every member controls a different
+aspect of the sound (note the longer duration for group AVDs)
 
 {:.info-box}
 

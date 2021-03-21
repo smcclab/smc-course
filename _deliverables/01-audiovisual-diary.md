@@ -11,7 +11,8 @@ permalink: /deliverables/audiovisual-diary/
 ## Outline
 
 - **Due date:** 
-  - 60sec video submissions due (via GitLab) 11am every Thursday in weeks 2--9
+  - 60sec (solo) or 180sec (group) video submissions due (via GitLab) 11am every
+    Thursday in weeks 2--9
   - portfolio submissions due March 26 (week 5) & April 30 (week 9)
 - **Mark weighting:** 30% total (see [below](#marking))
 - **Submission:** submit your videos & portfolio submissions according to the
@@ -101,8 +102,8 @@ shared](https://gitlab.cecs.anu.edu.au/laptop-ensemble/2021/2021-av-diary-materi
 
 ### Submission process {#weekly-videos-submission-process}
 
-You must submit your 60sec video and associated files by Thursday 11am every
-week (from weeks 2--9 inclusive) through
+You must submit your 60sec (or 180sec for group AVD weeks) video and associated
+files by Thursday 11am every week (from weeks 2--9 inclusive) through
 [GitLab](https://gitlab.cecs.anu.edu.au/laptop-ensemble/2021/2021-av-diary-submissions).
 
 If you're familiar with git & GitLab, then you can do this however you like---as
