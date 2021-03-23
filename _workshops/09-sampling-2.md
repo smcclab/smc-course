@@ -38,7 +38,7 @@ guide](https://extemporelang.github.io/docs/guides/sampler/), to access the
 samples in a given bank you need an additional argument to `play`, e.g. using
 the pattern language you could try:
 
-```scheme
+```extempore
 ;; play slot 60 (middle C) from bank 1, i.e. the mf piano
 (play samp1 @1 60 dur 1)
 
