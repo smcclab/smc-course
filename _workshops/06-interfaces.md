@@ -1,6 +1,6 @@
 ---
 title: "Week 6: interfaces"
-summary: musical collaboration over computer networks
+summary: Building interfaces for musical expression
 ---
 
 # {{ page.title }}
@@ -16,11 +16,25 @@ interface for a LENS instrument. In computing more generally, interface design
 a lot about over many years. There's even a [course you can
 take](https://programsandcourses.anu.edu.au/course/COMP3900) on the subject.
 
+Building on last week's [networks & collaboration workshop]({% link
+_workshops/05-networks-collaboration.md %}), we'll think about how to control
+the computer music systems we've been building through interfaces of various
+types. You've already been doing this from your very first audiovisual diary
+entry, and most of you have explored Pd's various bang/toggle/slider/radio/etc.
+objects. You can absolutely build an interface with those things, but this week
+you'll need to think more deeply about what it actually means to design an
+interface for your patches.
+
 {:.diary-provocation-box}
 
 **Solo AVD**: pick [someone else's patch/code from a previous
 workshop](https://gitlab.cecs.anu.edu.au/laptop-ensemble/2021/2021-av-diary-materials),
 put a new interface on it, and play something
+
+**Note**: the "start with someone else's work" aspect of this week's provocation
+is super important; you shouldn't have to spend any time this week doing the
+actual "sound generation" work, you should be exclusively thinking about new
+ways of controlling the noisemaking infrastructure that's already there.
 
 ## Goals for this week
 
@@ -30,11 +44,6 @@ put a new interface on it, and play something
    _**e**xpression_
 
 ## Resources
-
-Building on last week's [networks & collaboration workshop]({% link
-_workshops/05-networks-collaboration.md %}), we'll think about how to control
-the computer music systems we've been building through interfaces of various
-types.
 
 - like last week, the [`3-new-interfaces` folder in the ComputerMusicIntro
   project](https://github.com/cpmpercussion/ComputerMusicIntro) has some cool
@@ -56,16 +65,12 @@ types.
   or are some parts of the patch more "interface-y" than others? was that a
   deliberate choice, or did it just work out that way?
 
-- the "start with someone else's work" aspect of this week's provocation is
-  super important: you shouldn't have to spend any time this week doing the
-  actual "sound generation" work, you should be exclusively thinking about new
-  ways of controlling the noisemaking infrastructure that's already there
-
 - can computer programs be interfaces? what does the "I" in API stand for?
 
 - imagine you're not going to be the one playing your instrument/interface...
-  what does virtuosity look like? how have you tried to design a low floor/high
-  ceiling? or do you have other design priorities?
+  what does _expression_ or _virtuosity_ look like? how have you tried to design
+  for a low floor (easy to get started) and/or high ceiling (lots of room for
+  mastery)? or do you have other design priorities?
 
 - since you're starting with someone else's work, think about what _they_ might
   consider their patch's interface to be? can you do something with their patch
