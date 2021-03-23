@@ -24,10 +24,10 @@ put a new interface on it, and play something
 
 ## Goals for this week
 
-1. think about what it means to make a **n**ew **i**nterface for **m**usical
-   **e**xpression
+1. experiment with new ways of controlling your sound
 
-2. 
+2. think about what it means to make a **n**ew **i**nterface for **m**usical
+   _**e**xpression_
 
 ## Resources
 
