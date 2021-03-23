@@ -95,14 +95,17 @@ Seriously, though, if you've got an idea and are wondering about how to make it
 happen then hit us up on Teams and we can probably point you in the right
 direction.
 
-### Examples & further reading
+### Non-Extempore resources
 
-Not necessarily Extempore-related, but a few more places to get ideas for
-algorithmic composition:
+A few more places to get ideas for algorithmic composition:
+
+{% comment %}
 
 TODO: update list resources with Extempore examples for: euclid, iterating
 through lists of pitches - pc stuff, synthesis-level algo stuff as well as
 note-based stuff, cycles-within-cycles with cosr, 4-against-3, etc.
+
+{% endcomment %}
 
 - [Brief History of Algorithmic Composition (John A.
   Maurer)](https://ccrma.stanford.edu/~blackrse/algorithm.html)
@@ -143,7 +146,7 @@ note-based stuff, cycles-within-cycles with cosr, 4-against-3, etc.
 - cool algorithmic artists: [Renick Bell](https://renickbell.net), [kindohm/Mike
   Hodnick](https://kindohm.com), [William Fields](https://williamfields.com)
 
-### Things to think about
+## Things to think about
 
 - even though you're more sophisticated computer musicians than you were in
   [week 1]({% link _workshops/01-hello-sine.md %}), it's still worth doing the
