@@ -84,12 +84,23 @@ points":
   [sampler](https://extemporelang.github.io/docs/guides/sampler/) guide and
   maybe even load in and trigger your _own_ samples
 
-- Extempore has a few different ways of generating random numbers; what do you
-  think the differences between these random calls:
-  - `(random)`
-  - `(random 10 100)`
-  - `(pc:random 60 72 '(0 2 3 5 7))` (for that one you need to `(sys:load
-    "libs/core/pc_ivl.xtm")` first)
+- Extempore has a few different ways of generating random numbers; e.g. explore
+  the differences between these random calls:
+
+```extempore
+;; option 1
+(random)
+
+;; option 2
+(random 10 100)
+
+;; option 3
+(random '(60 63 64 67))
+
+;; option 4
+;; for this one you need to (sys:load "libs/core/pc_ivl.xtm") first
+(pc:random 60 72 '(0 2 3 5 7))
+```
 
 Seriously, though, if you've got an idea and are wondering about how to make it
 happen then hit us up on Teams and we can probably point you in the right
