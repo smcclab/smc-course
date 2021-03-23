@@ -12,7 +12,7 @@ GIT
 
 GIT
   remote: https://gitlab.cecs.anu.edu.au/lucy/jekyll-revealify-plugin.git
-  revision: 15805a0ed4815fcdad1e67e9bba09999bd0419e7
+  revision: 60302742dcf0e729b851db0f9f0672b27e4d3259
   branch: master
   specs:
     jekyll-revealify-plugin (2.0.0.beta)
@@ -21,7 +21,7 @@ GIT
 
 GIT
   remote: https://gitlab.cecs.anu.edu.au/lucy/jekyll-theme-cecs.git
-  revision: 6248dda2f414d039630dfd4e542c6ea40a95c70d
+  revision: 272fca0e754ac8cd6370baf0783d38dea7e89c25
   branch: master
   specs:
     jekyll-theme-cecs (2.0.0.beta)
@@ -75,20 +75,20 @@ GEM
       sassc (> 2.0.1, < 3.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    kramdown (2.3.0)
+    kramdown (2.3.1)
       rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     liquid (4.0.3)
-    listen (3.4.1)
+    listen (3.5.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
     mini_portile2 (2.5.0)
-    nokogiri (1.11.1)
+    nokogiri (1.11.2)
       mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
-    nokogumbo (2.0.4)
+    nokogumbo (2.0.5)
       nokogiri (~> 1.8, >= 1.8.4)
     parallel (1.20.1)
     pathutil (0.16.2)
