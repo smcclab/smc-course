@@ -25,7 +25,7 @@ Each week's content includes:
 
 The timeline for each workshop is:
 
-{:style="width:100%; margin-bottom:2em;"}
+{:style="margin-bottom:2em;"}
 
 | time  |                                            |
 | ----- | ------------------------------------------ |
