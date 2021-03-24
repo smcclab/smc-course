@@ -12,17 +12,16 @@ summary: configuring and playing an analogue modular synth with code
 ## Goals for this week
 
 1. revisit the basic synthesis concepts we covered in [week 2]({% link
-   _workshops/02-synthesis-1.md %}), this time in the concept of "modular
-   synthesis"
+   _workshops/02-synthesis-1.md %}), this time in the concept of "modular synthesis"
 
 2. begin to learn what the different synthesis "building blocks" (oscillators,
    filters, effects) _sound_ like in a musical sound design context
 
 ## Extempore resources
 
-The main course material this week is the [analogue synth
-guide](https://extemporelang.github.io/docs/guides/analogue-synth/) on the
-Extempore documentation website.
+The main course material this week is the
+[analogue synth guide](https://extemporelang.github.io/docs/guides/analogue-synth/)
+on the Extempore documentation website.
 
 ## Things to think about
 
@@ -50,5 +49,5 @@ Extempore documentation website.
   share their patches around (remember: it's a **group AVD** this week)
 
 - can you use any of the [algorithmic composition]({% link
-  _workshops/07-algorithmic-composition-1.md %}) concepts from last week to
-  algorithmically modify the synthesis parameters of your piece?
+  _workshops/07-algorithmic-composition-1.md %}) concepts from last week to algorithmically
+  modify the synthesis parameters of your piece?

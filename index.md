@@ -6,17 +6,17 @@ hidden: true
 <div class="info-box" markdown="1" style="margin: 20px 0;">
 
 This is the _LENS: ANU Laptop Ensemble_ course website. The course is running in
-Semester 1, 2021 (the workshop timeslot is Thursday 3pm--5pm in [Marie Reay
-4.04](https://www.anu.edu.au/maps#show=108136)). If you'd like to participate,
-then [email Ben](mailto:ben.swift@anu.edu.au) **before the first workshop** (3pm
-Thursday Feb 25) to register your interest (and read the ["how to enrol" FAQ
-entry]({% link _resources/01-faq.md %}#how-to-enrol) as well). In the meantime,
-you can watch the amazing work done by previous ensemble members on the [LENS
-YouTube Channel](https://www.youtube.com/channel/UCIU6SqIS02GJlnLOPqlwmpA) and
-read the course [FAQ]({% link _resources/01-faq.md %}).
+Semester 1, 2021 (the workshop timeslot is Thursday 3pm--5pm in
+[Marie Reay 4.04](https://www.anu.edu.au/maps#show=108136)). If you'd like to
+participate, then [email Ben](mailto:ben.swift@anu.edu.au) **before the first
+workshop** (3pm Thursday Feb 25) to register your interest (and read the ["how
+to enrol" FAQ entry]({% link _resources/01-faq.md %}#how-to-enrol) as well). In
+the meantime, you can watch the amazing work done by previous ensemble members
+on the
+[LENS YouTube Channel](https://www.youtube.com/channel/UCIU6SqIS02GJlnLOPqlwmpA)
+and read the course [FAQ]({% link _resources/01-faq.md %}).
 
 </div>
-
 
 ![LENS Banner]({% link assets/facebook-banner.png %})
 
@@ -41,6 +41,6 @@ must be able to attend the [weekly workshop session]({% link _workshops/index.md
 %}) perform at the [end-of-semester LENS concert]({% link
 _deliverables/03-lens-performance.md %}).
 
-If you've got any questions (including [how to
-enrol](resources/faq/#how-to-enrol)), the [course FAQ]({% link
+If you've got any questions (including
+[how to enrol](resources/faq/#how-to-enrol)), the [course FAQ]({% link
 _resources/01-faq.md %}) might answer them for you.

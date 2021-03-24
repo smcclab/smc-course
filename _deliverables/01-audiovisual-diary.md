@@ -10,7 +10,7 @@ permalink: /deliverables/audiovisual-diary/
 
 ## Outline
 
-- **Due date:** 
+- **Due date:**
   - 60sec (solo) or 180sec (group) video submissions due (via GitLab) 11am every
     Thursday in weeks 2--9
   - portfolio submissions due March 26 (week 5) & April 30 (week 9)
@@ -48,14 +48,15 @@ two parts---this information relates to the weekly video part.
 The "week numbering" for the diary entries can be a bit confusing, especially
 because it's a flipped class (where you create your video _ahead_ of the week's
 class). Just remember: in week _N_ you submit the diary entry for week _N_, e.g.
-in week 2 you'll submit your first AV diary video in response to the [week 2
-provocation](https://cs.anu.edu.au/courses/comp2710-lens/workshops/02-synthesis-1/).
+in week 2 you'll submit your first AV diary video in response to the
+[week 2 provocation](https://cs.anu.edu.au/courses/comp2710-lens/workshops/02-synthesis-1/).
 
 ### Specification {#weekly-videos-spec}
 
 Each week's submission must include:
 
 - a 60 second video of your own work exploring the week's theme, which
+
   - has the filename `week-N.mp4`, `week-N.mov` or `week-N.mkv` (with `N`
     replaced by the week number of the submission date, so the _first_
     submission is `week-2`)
@@ -96,8 +97,8 @@ the GitLab repo---you just need to modify them.
 
 Note: if you're _not_ willing to share your patch files & other materials with
 other LENSers, let [Ben](mailto:ben.swift@anu.edu.au) know asap. The default
-will be that [everyone's patch files will be
-shared](https://gitlab.cecs.anu.edu.au/laptop-ensemble/2021/2021-av-diary-materials)
+will be that
+[everyone's patch files will be shared](https://gitlab.cecs.anu.edu.au/laptop-ensemble/2021/2021-av-diary-materials)
 (just within this LENS cohort).
 
 ### Submission process {#weekly-videos-submission-process}
@@ -198,8 +199,8 @@ by 9pm on the due date.
 ### Marking criteria {#marking}
 
 Each stage of your portfolio is worth 15% of your total mark, and will be
-assessed entirely based on the submitted document. The marking criteria
-(based on the [course learning outcomes]({% link 02-outline.md %})) are:
+assessed entirely based on the submitted document. The marking criteria (based
+on the [course learning outcomes]({% link 02-outline.md %})) are:
 
 - demonstration of the fundamental concepts in computer music covered in the
   course including digital synthesis, algorithmic composition and musical
@@ -216,5 +217,6 @@ assessed entirely based on the submitted document. The marking criteria
   does it read like a cohesive document, or just like 4x 200-word reflections
   copy-pasted together?)
 
-- adherence to the [spec](#weekly-videos-spec) & [submission
-  deadlines](#weekly-videos-submission-deadlines) for the weekly videos
+- adherence to the [spec](#weekly-videos-spec) &
+  [submission deadlines](#weekly-videos-submission-deadlines) for the weekly
+  videos

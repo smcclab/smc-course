@@ -12,8 +12,8 @@ permalink: /deliverables/lens-performance/
 
 - **Due date:** Tuesday June 1 7pm (time TBC)
 - **Mark weighting:** 50%
-- **Submission:** submit your assignment according to the [instructions
-  below](#submission-process)
+- **Submission:** submit your assignment according to the
+  [instructions below](#submission-process)
 - **Policies:** for late policies, academic integrity policies, etc. see the
   [policies page]({% link 01-policies.md %})
 

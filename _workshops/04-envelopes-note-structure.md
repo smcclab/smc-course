@@ -17,7 +17,7 @@ relative trajectories of these sound sources over time; such as multiplying
 signals with slider values.
 
 This week, we look at
-[envelopes](https://en.wikipedia.org/wiki/Envelope_(music))---the more general
+[envelopes](<https://en.wikipedia.org/wiki/Envelope_(music)>)---the more general
 term for this type of "sound event shaping". Envelopes are a key part of taking
 the "raw signals" you've been generating so far and shaping them into more
 structured and recognisable musical elements like notes, bars, choruses, and
@@ -36,13 +36,11 @@ wave.]({{site.baseurl}}/assets/digital-synthesis/envelope-sound.png){:style="wid
 
 ## Pd resources
 
-- [Charles' Pd examples (start with
-  `11-EnvelopeGenerator.pd`)](https://github.com/cpmpercussion/ComputerMusicIntro)
-- [PureData tutorials - rich synthesis (2) - simple
-  envelopes](https://www.youtube.com/watch?v=gqpvIwYko3o)
+- [Charles' Pd examples (start with `11-EnvelopeGenerator.pd`)](https://github.com/cpmpercussion/ComputerMusicIntro)
+- [PureData tutorials - rich synthesis (2) - simple envelopes](https://www.youtube.com/watch?v=gqpvIwYko3o)
 - the Pd help for the `line~` & `vline~` objects, as well as the `bang` and
   `metro` objects for triggering your envelopes
-  
+
 ![Anatomy of a vline
 message]({{site.baseurl}}/assets/digital-synthesis/pd-using-vline.png){:style="width:100%;"}
 
@@ -58,7 +56,7 @@ message]({{site.baseurl}}/assets/digital-synthesis/pd-using-vline.png){:style="w
   and add an envelope to it? you might want to try the `metro` object to
   generate a sequence of "bangs" to keep triggering your envelope generator
 
-- for some further reading, [look on teh
-  Googlez](https://www.google.com/search?hl=en&q=adsr%20envelope), e.g. [ADSR
-  Envelopes: How to Build The Perfect
-  Sound](https://blog.landr.com/adsr-envelopes-infographic/)
+- for some further reading,
+  [look on teh Googlez](https://www.google.com/search?hl=en&q=adsr%20envelope),
+  e.g.
+  [ADSR Envelopes: How to Build The Perfect Sound](https://blog.landr.com/adsr-envelopes-infographic/)

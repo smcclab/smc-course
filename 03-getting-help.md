@@ -15,13 +15,13 @@ The course reps for this course are:
 - TBC
 
 You can get in touch with them at any time with feedback about the course, and
-you'll be anonymous (I won't know *who* gave the feedback).
+you'll be anonymous (I won't know _who_ gave the feedback).
 
 ## CECS Student Services
 
 (02) 6125 4450
 
-[studentadmin.cecs@anu.edu.au](mailto:studentadmin.cecs@anu.edu.au) 
+[studentadmin.cecs@anu.edu.au](mailto:studentadmin.cecs@anu.edu.au)
 
 ## CECS Student Experience team
 
@@ -53,10 +53,11 @@ If you've been studying at the ANU for a while you probably already know about
 these websites, but here's a list of various tools/repositories of information
 to help you in your studies at the ANU.
 
-- [ISIS](https://isis.anu.edu.au/) 
+- [ISIS](https://isis.anu.edu.au/)
 - [Timetable](https://timetable.anu.edu.au/)
 - [Libraries](https://anulib.anu.edu.au/)
-- [Programs & Courses](https://programsandcourses.anu.edu.au/course/{{ site.short_title }}) 
+- [Programs & Courses](https://programsandcourses.anu.edu.au/course/{{
+  site.short_title }})
 - [Academic Skills & Learning Centre](https://academicskills.anu.edu.au/)
 - [University Counselling Centre](https://counselling.anu.edu.au/)
 - [ANU Rules and Policies](https://www.anu.edu.au/about/governance/legislation)

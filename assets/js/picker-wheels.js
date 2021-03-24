@@ -11,7 +11,7 @@ let segmentColours = [
   "#c7ecee",
   "#7ed6df",
   "#e056fd",
-  "#686de0"
+  "#686de0",
 ];
 
 // from https://stackoverflow.com/a/12646864
@@ -55,14 +55,14 @@ function makeWheel(labels, canvasId, radius, callbackFinished) {
     textMargin: 0,
     segments: labels.map((t, i) => ({
       text: t,
-      fillStyle: segmentColours[i % segmentColours.length]
+      fillStyle: segmentColours[i % segmentColours.length],
     })),
     animation: {
       type: "spinToStop",
       duration: 3,
       spins: 5,
-      callbackFinished: callbackFinished
-    }
+      callbackFinished: callbackFinished,
+    },
   });
 
   // finally, set the click handler

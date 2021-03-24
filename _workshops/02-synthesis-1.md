@@ -48,8 +48,8 @@ signal and hearing what those transformations sound like.
 
 I recorded this video last year, so there are a couple of things I say at the
 very end which don't apply this year (we're using Teams, not Slack; and and
-classes are Thursday, not Tuesday). But other than that the content is still
-as relevant as ever 🤣
+classes are Thursday, not Tuesday). But other than that the content is still as
+relevant as ever 🤣
 
 {% include video.html video="lecture-recordings/2021/week-2-hello-sine" %}
 
@@ -57,23 +57,24 @@ Here are the links that I mention at the end of the video:
 
 - most of [Charles' video from last week]({% link _workshops/01-hello-sine.md
   %}) is still relevant
-- the [Programming Electronic Music in
-  Pd](https://www.pd-tutorial.com/english/index.html) book (as mentioned on the
-  [tools page]({% link _resources/02-tools.md %}#other-books))
+- the
+  [Programming Electronic Music in Pd](https://www.pd-tutorial.com/english/index.html)
+  book (as mentioned on the [tools
+  page]({% link _resources/02-tools.md %}#other-books))
 - [Charles' examples](https://github.com/cpmpercussion/ComputerMusicIntro)
 
 and a few more useful resources (not necessarily Pd-specific, and might be too )
 
 - [Music theory for nerds](https://eev.ee/blog/2016/09/15/music-theory-for-nerds/)
 
-- Toby Rush's [Music Theory for Musicians and Normal
-  People](https://tobyrush.com/theorypages/index.html) is a bunch of posters
-  which you could print out and put on your wall (spans everything from the
-  basics to intermediate/advanced stuff)
+- Toby Rush's
+  [Music Theory for Musicians and Normal People](https://tobyrush.com/theorypages/index.html)
+  is a bunch of posters which you could print out and put on your wall (spans
+  everything from the basics to intermediate/advanced stuff)
 
-- Lightnote's [How Music Works: Interactive Music Theory
-  Lessons](https://www.lightnote.co/music-theory/harmony) is, well, interactive
-  (which is nice)
+- Lightnote's
+  [How Music Works: Interactive Music Theory Lessons](https://www.lightnote.co/music-theory/harmony)
+  is, well, interactive (which is nice)
 
 {:.info-box}
 

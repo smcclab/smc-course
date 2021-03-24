@@ -13,22 +13,22 @@ whole thing with its [own conference and everything](https://www.nime.org).
 This week we'll think more specifically about what it means to design a good
 interface for a LENS instrument. In computing more generally, interface design
 (or UX, or Human-Computer Interaction) is a topic which many people have thought
-a lot about over many years. There's even a [course you can
-take](https://programsandcourses.anu.edu.au/course/COMP3900) on the subject.
+a lot about over many years. There's even a
+[course you can take](https://programsandcourses.anu.edu.au/course/COMP3900) on
+the subject.
 
 Building on last week's [networks & collaboration workshop]({% link
-_workshops/05-networks-collaboration.md %}), we'll think about how to control
-the computer music systems we've been building through interfaces of various
-types. You've already been doing this from your very first audiovisual diary
-entry, and most of you have explored Pd's various bang/toggle/slider/radio/etc.
-objects. You can absolutely build an interface with those things, but this week
-you'll need to think more deeply about what it actually means to design an
-interface for your patches.
+_workshops/05-networks-collaboration.md %}), we'll think about how to control the
+computer music systems we've been building through interfaces of various types. You've
+already been doing this from your very first audiovisual diary entry, and most of
+you have explored Pd's various bang/toggle/slider/radio/etc. objects. You can absolutely
+build an interface with those things, but this week you'll need to think more deeply
+about what it actually means to design an interface for your patches.
 
 {:.diary-provocation-box}
 
-**Solo AVD**: pick [someone else's patch/code from a previous
-workshop](https://gitlab.cecs.anu.edu.au/laptop-ensemble/2021/2021-av-diary-materials),
+**Solo AVD**: pick
+[someone else's patch/code from a previous workshop](https://gitlab.cecs.anu.edu.au/laptop-ensemble/2021/2021-av-diary-materials),
 put a new interface on it, and play something
 
 **Note**: the "start with someone else's work" aspect of this week's provocation
@@ -45,9 +45,9 @@ ways of controlling the noisemaking infrastructure that's already there.
 
 ## Resources
 
-- like last week, the [`3-new-interfaces` folder in the ComputerMusicIntro
-  project](https://github.com/cpmpercussion/ComputerMusicIntro) has some cool
-  patches for getting started with OSC, MIDI, etc.
+- like last week, the
+  [`3-new-interfaces` folder in the ComputerMusicIntro project](https://github.com/cpmpercussion/ComputerMusicIntro)
+  has some cool patches for getting started with OSC, MIDI, etc.
 
 - if you've got a smartphone, there are a bunch of configurable OSC apps which
   (combined with your knowledge from last week) you can probably turn into an
@@ -55,8 +55,7 @@ ways of controlling the noisemaking infrastructure that's already there.
 
 - for a wild & wonderful tour of what's possible in the world of NIMEs, you can
   check out the [NIME community website](https://www.nime.org), including the
-  [full archive of papers submitted to the NIME
-  conference](https://www.nime.org/archives/)
+  [full archive of papers submitted to the NIME conference](https://www.nime.org/archives/)
 
 ## Things to think about
 

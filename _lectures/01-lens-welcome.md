@@ -9,7 +9,7 @@ lecturer: Drs Ben Swift, Charles Martin, and Alec Hunter
 
 two big goals:
 
-1. learning to create *new music* with *code* on laptop *computers*
+1. learning to create _new music_ with _code_ on laptop _computers_
 
 2. learning to make computer music in a group
 
@@ -98,7 +98,7 @@ in the final LENS gig at the end of semester
 ## deliverables
 
 | Deliverable                                                                              | Due                                         | Weighting                      |
-|------------------------------------------------------------------------------------------|---------------------------------------------|--------------------------------|
+| ---------------------------------------------------------------------------------------- | ------------------------------------------- | ------------------------------ |
 | [Weekly AV diary videos]({% link _deliverables/01-audiovisual-diary.md %}#weekly-videos) | 11am every Thursday in weeks 2--9           | 0%, but required for portfolio |
 | [AV diary portfolio]({% link _deliverables/01-audiovisual-diary.md %}#portfolio)         | Friday of week 5 (Mar 26) & week 9 (Apr 30) | 15% + 15% = 30%                |
 | [LENS demo day]({% link _deliverables/02-demo-day.md %})                                 | Thursday April 29 (week 8)                  | 20%                            |

@@ -6,17 +6,22 @@ page-build:
   stage: build
   script:
     - bundle install
-    - bundle exec jekyll build -d /srv/gitlab-ce-pages/staging/$CI_PIPELINE_ID/$CI_BUILD_REF_NAME/$CI_PROJECT_PATH
+    - bundle exec jekyll build -d
+      /srv/gitlab-ce-pages/staging/$CI_PIPELINE_ID/$CI_BUILD_REF_NAME/$CI_PROJECT_PATH
   only:
     - master
 
 page-deploy:
   tags:
-  - Pages
+    - Pages
   stage: deploy
   script:
-    - mkdir -p /srv/gitlab-ce-pages/staging/$CI_BUILD_ID/$CI_BUILD_REF_NAME/`dirname $CI_PROJECT_PATH`
-    - mv /srv/gitlab-ce-pages/staging/$CI_PIPELINE_ID/$CI_BUILD_REF_NAME/$CI_PROJECT_PATH /srv/gitlab-ce-pages/staging/$CI_BUILD_ID/$CI_BUILD_REF_NAME/$CI_PROJECT_PATH
+    - mkdir -p
+      /srv/gitlab-ce-pages/staging/$CI_BUILD_ID/$CI_BUILD_REF_NAME/`dirname
+      $CI_PROJECT_PATH`
+    - mv
+      /srv/gitlab-ce-pages/staging/$CI_PIPELINE_ID/$CI_BUILD_REF_NAME/$CI_PROJECT_PATH
+      /srv/gitlab-ce-pages/staging/$CI_BUILD_ID/$CI_BUILD_REF_NAME/$CI_PROJECT_PATH
     - rm -rf /srv/gitlab-ce-pages/staging/$CI_PIPELINE_ID
   only:
     - master

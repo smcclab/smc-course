@@ -1,46 +1,28 @@
-{% assign slide = include.slide %}
-{% case slide %}
-{% when 'big-picture' %}
-{% assign theme_image = 'all-bigpicture.jpg' %}
-{% when 'feeling-lost' %}
-{% assign theme_image = 'all-lost.jpg' %}
-{% when 'live-demo' %}
-{% assign theme_image = 'all-demo.jpg' %}
-{% when 'quiz' %}
-{% assign theme_image = 'all-quiz.jpg' %}
-{% when 'quirks-of-history' %}
-{% assign theme_image = 'all-history.jpg' %}
-{% when 'questions' %}
-{% assign theme_image = 'all-questions.jpg' %}
-{% when 'further-reading-art' %}
-{% assign theme_image = 'all-reading.jpg' %}
-{% when 'further-reading-code' %}
-{% assign theme_image = 'all-reading.jpg' %}
-{% when 'todo' %}
-{% assign theme_image = 'all-todos.jpg' %}
-{% when 'story' %}
-{% assign theme_image = 'all-stage.jpg' %}
-{% when 'code-theory' %}
-{% assign theme_image = 'all-code.jpg' %}
-{% when 'art-theory' %}
-{% assign theme_image = 'all-art.jpg' %}
-{% when 'praxis' %}
-{% assign theme_image = 'all-demo.jpg' %}
-{% when 'denouement' %}
-{% assign theme_image = 'all-finale.jpg' %}
-{% else %}
-{% assign theme_image = 'none.jpg' %}
-{% endcase %}
-{% if include.heading %}
+{% assign slide = include.slide %} {% case slide %} {% when 'big-picture' %} {%
+assign theme_image = 'all-bigpicture.jpg' %} {% when 'feeling-lost' %} {% assign
+theme_image = 'all-lost.jpg' %} {% when 'live-demo' %} {% assign theme_image =
+'all-demo.jpg' %} {% when 'quiz' %} {% assign theme_image = 'all-quiz.jpg' %} {%
+when 'quirks-of-history' %} {% assign theme_image = 'all-history.jpg' %} {% when
+'questions' %} {% assign theme_image = 'all-questions.jpg' %} {% when
+'further-reading-art' %} {% assign theme_image = 'all-reading.jpg' %} {% when
+'further-reading-code' %} {% assign theme_image = 'all-reading.jpg' %} {% when
+'todo' %} {% assign theme_image = 'all-todos.jpg' %} {% when 'story' %} {%
+assign theme_image = 'all-stage.jpg' %} {% when 'code-theory' %} {% assign
+theme_image = 'all-code.jpg' %} {% when 'art-theory' %} {% assign theme_image =
+'all-art.jpg' %} {% when 'praxis' %} {% assign theme_image = 'all-demo.jpg' %}
+{% when 'denouement' %} {% assign theme_image = 'all-finale.jpg' %} {% else %}
+{% assign theme_image = 'none.jpg' %} {% endcase %} {% if include.heading %}
 <h2
   id="{{ include.id | default: slide }}"
   data-background-image="{% link assets/lectures/all/{{theme_image}} %}"
   data-background-size="cover"
->{{ include.heading }}</h2>
+>
+  {{ include.heading }}
+</h2>
 {% else %}
 <hr
   id="{{ include.id | default: slide }}"
   data-background-image="{% link assets/lectures/all/{{theme_image}} %}"
   data-background-size="cover"
->
+/>
 {% endif %}

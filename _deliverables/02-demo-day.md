@@ -1,6 +1,8 @@
 ---
 title: LENS demo
-summary: Show the rest of the LENS what you're working on for your end-of-semester performance.
+summary:
+  Show the rest of the LENS what you're working on for your end-of-semester
+  performance.
 permalink: /deliverables/plan/
 ---
 
@@ -12,8 +14,8 @@ permalink: /deliverables/plan/
 
 - **Due date:** Thursday April 29, 3pm--7pm (week 8, note the later finish time)
 - **Mark weighting:** 20%
-- **Submission:** submit your assignment according to the [instructions
-  below](#submission-process)
+- **Submission:** submit your assignment according to the
+  [instructions below](#submission-process)
 - **Policies:** for late policies, academic integrity policies, etc. see the
   [policies page]({% link 01-policies.md %})
 
@@ -37,8 +39,8 @@ material to sharpen your thinking).
 - is there a key idea or concept that's at the heart of your
   performance/artefact?
 
-- what's _unique_ about your performance/artefact---what is it that makes
-  yours stand out from the crowd?
+- what's _unique_ about your performance/artefact---what is it that makes yours
+  stand out from the crowd?
 
 - how are you going to make it a compelling overall _performance_ (including the
   visual aspect)?

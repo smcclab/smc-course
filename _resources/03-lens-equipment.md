@@ -16,11 +16,11 @@ to it.
 - Headphone distribution amplifier: Behringer HA8000, 8 channels
 - Rode NT-USB microphone
 - 6x Audio Technica M20x headphones
-- 5x Behringer U-Phoria UM2 audio interfaces 
+- 5x Behringer U-Phoria UM2 audio interfaces
 
 ### Cables
 
-- 3x stereo TRS jack to jack 3m cables 
+- 3x stereo TRS jack to jack 3m cables
 - 4x stereo 3.5mm TRS to dual TRS jack adapaters.
 
 ## Video

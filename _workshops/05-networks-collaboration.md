@@ -30,12 +30,12 @@ for collaboration in your laptop music making.
 
 One important concept is the that in terms of what you might send over the
 network, most data streams can be considered either "control" data or "signal"
-data. This [distinction is present in
-Pd](http://www.pd-tutorial.com/english/ch02.html#id409690), with the `~` suffix
-on signal objects and the "thin" vs "thick" cables. These different types of
-data streams require different tradeoffs (and therefore different tools) when
-sending them over the network, so this week's [Resources](#pd-resources) section
-has subsections for each type of data stream.
+data. This
+[distinction is present in Pd](http://www.pd-tutorial.com/english/ch02.html#id409690),
+with the `~` suffix on signal objects and the "thin" vs "thick" cables. These
+different types of data streams require different tradeoffs (and therefore
+different tools) when sending them over the network, so this week's
+[Resources](#pd-resources) section has subsections for each type of data stream.
 
 ## Goals for this week
 
@@ -53,15 +53,14 @@ has subsections for each type of data stream.
 
 ## Pd Resources {#pd-resources}
 
-- Charles' 2020 [presentation on network music
-  making](https://youtu.be/1J7EAu5g5zw)
+- Charles' 2020
+  [presentation on network music making](https://youtu.be/1J7EAu5g5zw)
 
-- [Network Music (Cambridge Companion to Electronic
-  Music)](https://www-cambridge-org.virtual.anu.edu.au/core/services/aop-cambridge-core/content/view/C2A04A1DAE6EDE05909CF97DFEAD8B86/9781316459874c8_p138-153_CBO.pdf/network_music.pdf)
+- [Network Music (Cambridge Companion to Electronic Music)](https://www-cambridge-org.virtual.anu.edu.au/core/services/aop-cambridge-core/content/view/C2A04A1DAE6EDE05909CF97DFEAD8B86/9781316459874c8_p138-153_CBO.pdf/network_music.pdf)
 
-- the [`3-new-interfaces` folder in the ComputerMusicIntro
-  project](https://github.com/cpmpercussion/ComputerMusicIntro) has some cool
-  patches for getting started with OSC, MIDI, etc.
+- the
+  [`3-new-interfaces` folder in the ComputerMusicIntro project](https://github.com/cpmpercussion/ComputerMusicIntro)
+  has some cool patches for getting started with OSC, MIDI, etc.
 
 ### Control data: Open Sound Control (OSC) & Midi
 
@@ -70,11 +69,11 @@ control messages between different audio programming environments.
 
 Here are a couple of YouTube videos which explain things further:
 
-- Andrew Johnston's [Pure Data and Open Sound
-  Control](https://youtu.be/TTd57stEr_g)
+- Andrew Johnston's
+  [Pure Data and Open Sound Control](https://youtu.be/TTd57stEr_g)
 
-- cheetomoskeeto's [Pure Data: 23 Open Sound Control
-  1](https://youtu.be/rxHIJx-O3iU)
+- cheetomoskeeto's
+  [Pure Data: 23 Open Sound Control 1](https://youtu.be/rxHIJx-O3iU)
 
 For example code, look at the `3-new-interfaces/5-OSC-in-pd.pd` patch in the
 example repo.
@@ -105,9 +104,10 @@ few different options as well.
   about it earlier this year---but it looks useful.
 
 - [JackTrip](https://www.jacktrip.org) is a bunch of tools for live performance
-  of music over the internet, including the [JackTrip audio conference
-  server](https://youtu.be/wcyqRHYo-xo) and instructions on a [remote setup for
-  Live Music Performance using Jacktrip & Aseqnet](https://youtu.be/duoCM70vQ44)
+  of music over the internet, including the
+  [JackTrip audio conference server](https://youtu.be/wcyqRHYo-xo) and
+  instructions on a
+  [remote setup for Live Music Performance using Jacktrip & Aseqnet](https://youtu.be/duoCM70vQ44)
 
 - The [Mumble open source voice chat server](https://www.mumble.info) is fairly
   easy to set up for doing live audio linkups with a number of people, but we
@@ -120,8 +120,7 @@ few different options as well.
 {:.warn-box}
 
 Remember that your [first AV Diary portfolio]({% link
-_deliverables/01-audiovisual-diary.md %}#portfolio) is due at the end of this
-week.
+_deliverables/01-audiovisual-diary.md %}#portfolio) is due at the end of this week.
 
 ## Things to think about
 
@@ -132,10 +131,10 @@ week.
 - which parts of the collaborative workflow need to be synchronous, and which
   parts could be async? do you want to collaborate sequentially, or in parallel?
 
-- have a look at collaborative "parlour games" like [layer
-  tennis](https://www.layertennis.com) or [exquisite
-  corpse](https://en.wikipedia.org/wiki/Exquisite_corpse)---can you think of
-  ways to adapt them for a LENS context?
+- have a look at collaborative "parlour games" like
+  [layer tennis](https://www.layertennis.com) or
+  [exquisite corpse](https://en.wikipedia.org/wiki/Exquisite_corpse)---can you
+  think of ways to adapt them for a LENS context?
 
 - what's the collaborative songwriting process of your favourite bands (or art
   collectives), and are there ideas you can poach from them?

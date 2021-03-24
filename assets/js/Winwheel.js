@@ -59,7 +59,7 @@ function Winwheel(options, drawWheel) {
     wheelImage: null, // Must be set to image data in order to use image to draw the wheel - drawMode must also be 'image'.
     imageDirection: "N", // Used when drawMode is segmentImage. Default is north, can also be (E)ast, (S)outh, (W)est.
     responsive: false, // If set to true the wheel will resize when the window first loads and also onResize.
-    scaleFactor: 1 // Set by the responsive function. Used in many calculations to scale the wheel.
+    scaleFactor: 1, // Set by the responsive function. Used in many calculations to scale the wheel.
   };
 
   // -----------------------------------------
@@ -259,7 +259,7 @@ function Winwheel(options, drawWheel) {
 // This function sorts out the segment sizes. Some segments may have set sizes, for the others what is left out of
 // 360 degrees is shared evenly. What this function actually does is set the start and end angle of the arcs.
 // ====================================================================================================================
-Winwheel.prototype.updateSegmentSizes = function() {
+Winwheel.prototype.updateSegmentSizes = function () {
   // If this object actually contains some segments
   if (this.segments) {
     // First add up the arc used for the segments where the size has been set.
@@ -307,7 +307,7 @@ Winwheel.prototype.updateSegmentSizes = function() {
 // ====================================================================================================================
 // This function clears the canvas. Will wipe anything else which happens to be drawn on it.
 // ====================================================================================================================
-Winwheel.prototype.clearCanvas = function() {
+Winwheel.prototype.clearCanvas = function () {
   if (this.ctx) {
     this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
   }
@@ -316,7 +316,7 @@ Winwheel.prototype.clearCanvas = function() {
 // ====================================================================================================================
 // This function draws / re-draws the wheel on the canvas therefore rendering any changes.
 // ====================================================================================================================
-Winwheel.prototype.draw = function(clearTheCanvas) {
+Winwheel.prototype.draw = function (clearTheCanvas) {
   // If have the canvas context.
   if (this.ctx) {
     // Clear the canvas, unless told not to.
@@ -387,7 +387,7 @@ Winwheel.prototype.draw = function(clearTheCanvas) {
 // ====================================================================================================================
 // Draws the pins around the outside of the wheel.
 // ====================================================================================================================
-Winwheel.prototype.drawPins = function() {
+Winwheel.prototype.drawPins = function () {
   if (this.pins && this.pins.number) {
     // Get scaled centerX and centerY to use in the code below so pins will draw responsively too.
     let centerX = this.centerX * this.scaleFactor;
@@ -453,7 +453,7 @@ Winwheel.prototype.drawPins = function() {
 // ====================================================================================================================
 // Draws a line from the center of the wheel to the outside at the angle where the code thinks the pointer is.
 // ====================================================================================================================
-Winwheel.prototype.drawPointerGuide = function() {
+Winwheel.prototype.drawPointerGuide = function () {
   // If have canvas context.
   if (this.ctx) {
     // Get scaled center x an y and also the outer radius.
@@ -485,7 +485,7 @@ Winwheel.prototype.drawPointerGuide = function() {
 // ====================================================================================================================
 // This function takes an image such as PNG and draws it on the canvas making its center at the centerX and center for the wheel.
 // ====================================================================================================================
-Winwheel.prototype.drawWheelImage = function() {
+Winwheel.prototype.drawWheelImage = function () {
   // Double check the wheelImage property of this class is not null. This does not actually detect that an image
   // source was set and actually loaded so might get error if this is not the case. This is why the initial call
   // to draw() should be done from a wheelImage.onload callback as detailed in example documentation.
@@ -526,7 +526,7 @@ Winwheel.prototype.drawWheelImage = function() {
 // ====================================================================================================================
 // This function draws the wheel on the canvas by rendering the image for each segment.
 // ====================================================================================================================
-Winwheel.prototype.drawSegmentImages = function() {
+Winwheel.prototype.drawSegmentImages = function () {
   // Again check have context in case this function was called directly and not via draw function.
   if (this.ctx) {
     // Get the centerX and centerY of the wheel adjusted with the scale factor.
@@ -640,7 +640,7 @@ Winwheel.prototype.drawSegmentImages = function() {
 // ====================================================================================================================
 // This function draws the wheel on the page by rendering the segments on the canvas.
 // ====================================================================================================================
-Winwheel.prototype.drawSegments = function() {
+Winwheel.prototype.drawSegments = function () {
   // Again check have context in case this function was called directly and not via draw function.
   if (this.ctx) {
     // Draw the segments if there is at least one in the segments array.
@@ -758,7 +758,7 @@ Winwheel.prototype.drawSegments = function() {
 // ====================================================================================================================
 // This draws the text on the segments using the specified text options.
 // ====================================================================================================================
-Winwheel.prototype.drawSegmentText = function() {
+Winwheel.prototype.drawSegmentText = function () {
   // Again only draw the text if have a canvas context.
   if (this.ctx) {
     // Declare variables to hold the values. These are populated either with the value for the specific segment,
@@ -1516,14 +1516,14 @@ Winwheel.prototype.drawSegmentText = function() {
 // ====================================================================================================================
 // Converts degrees to radians which is what is used when specifying the angles on HTML5 canvas arcs.
 // ====================================================================================================================
-Winwheel.prototype.degToRad = function(d) {
+Winwheel.prototype.degToRad = function (d) {
   return d * 0.0174532925199432957;
 };
 
 // ====================================================================================================================
 // This function sets the center location of the wheel, saves a function call to set x then y.
 // ====================================================================================================================
-Winwheel.prototype.setCenter = function(x, y) {
+Winwheel.prototype.setCenter = function (x, y) {
   this.centerX = x;
   this.centerY = y;
 };
@@ -1532,7 +1532,7 @@ Winwheel.prototype.setCenter = function(x, y) {
 // This function allows a segment to be added to the wheel. The position of the segment is optional,
 // if not specified the new segment will be added to the end of the wheel.
 // ====================================================================================================================
-Winwheel.prototype.addSegment = function(options, position) {
+Winwheel.prototype.addSegment = function (options, position) {
   // Create a new segment object passing the options in.
   let newSegment = new Segment(options);
 
@@ -1566,7 +1566,7 @@ Winwheel.prototype.addSegment = function(options, position) {
 // ====================================================================================================================
 // This function must be used if the canvasId is changed as we also need to get the context of the new canvas.
 // ====================================================================================================================
-Winwheel.prototype.setCanvasId = function(canvasId) {
+Winwheel.prototype.setCanvasId = function (canvasId) {
   if (canvasId) {
     this.canvasId = canvasId;
     this.canvas = document.getElementById(this.canvasId);
@@ -1585,7 +1585,7 @@ Winwheel.prototype.setCanvasId = function(canvasId) {
 // This function deletes the specified segment from the wheel by removing it from the segments array.
 // It then sorts out the other bits such as update of the numSegments.
 // ====================================================================================================================
-Winwheel.prototype.deleteSegment = function(position) {
+Winwheel.prototype.deleteSegment = function (position) {
   // There needs to be at least one segment in order for the wheel to draw, so only allow delete if there
   // is more than one segment currently left in the wheel.
 
@@ -1614,12 +1614,12 @@ Winwheel.prototype.deleteSegment = function(position) {
 // This function takes the x an the y of a mouse event, such as click or move, and converts the x and the y in to
 // co-ordinates on the canvas as the raw values are the x and the y from the top and left of the user's browser.
 // ====================================================================================================================
-Winwheel.prototype.windowToCanvas = function(x, y) {
+Winwheel.prototype.windowToCanvas = function (x, y) {
   let bbox = this.canvas.getBoundingClientRect();
 
   return {
     x: Math.floor(x - bbox.left * (this.canvas.width / bbox.width)),
-    y: Math.floor(y - bbox.top * (this.canvas.height / bbox.height))
+    y: Math.floor(y - bbox.top * (this.canvas.height / bbox.height)),
   };
 };
 
@@ -1627,7 +1627,7 @@ Winwheel.prototype.windowToCanvas = function(x, y) {
 // This function returns the segment object located at the specified x and y coordinates on the canvas.
 // It is used to allow things to be done with a segment clicked by the user, such as highlight, display or change some values, etc.
 // ====================================================================================================================
-Winwheel.prototype.getSegmentAt = function(x, y) {
+Winwheel.prototype.getSegmentAt = function (x, y) {
   let foundSegment = null;
 
   // Call function to return segment number.
@@ -1645,7 +1645,7 @@ Winwheel.prototype.getSegmentAt = function(x, y) {
 // Returns the number of the segment clicked instead of the segment object.
 // This does not work correctly if the canvas width or height is altered by CSS but does work correctly with the scale factor.
 // ====================================================================================================================
-Winwheel.prototype.getSegmentNumberAt = function(x, y) {
+Winwheel.prototype.getSegmentNumberAt = function (x, y) {
   // Call function above to convert the raw x and y from the user's browser to canvas coordinates
   // i.e. top and left is top and left of canvas, not top and left of the user's browser.
   let loc = this.windowToCanvas(x, y);
@@ -1767,7 +1767,7 @@ Winwheel.prototype.getSegmentNumberAt = function(x, y) {
 // ====================================================================================================================
 // Returns a reference to the segment that is at the location of the pointer on the wheel.
 // ====================================================================================================================
-Winwheel.prototype.getIndicatedSegment = function() {
+Winwheel.prototype.getIndicatedSegment = function () {
   // Call function below to work this out and return the prizeNumber.
   let prizeNumber = this.getIndicatedSegmentNumber();
 
@@ -1779,7 +1779,7 @@ Winwheel.prototype.getIndicatedSegment = function() {
 // Works out the segment currently pointed to by the pointer of the wheel. Normally called when the spinning has stopped
 // to work out the prize the user has won. Returns the number of the segment in the segments array.
 // ====================================================================================================================
-Winwheel.prototype.getIndicatedSegmentNumber = function() {
+Winwheel.prototype.getIndicatedSegmentNumber = function () {
   let indicatedPrize = 0;
   let rawAngle = this.getRotationPosition();
 
@@ -1809,7 +1809,7 @@ Winwheel.prototype.getIndicatedSegmentNumber = function() {
 // Works out what Pin around the wheel is considered the current one which is the one which just passed the pointer.
 // Used to work out if the pin has changed during the animation to tigger a sound.
 // ====================================================================================================================
-Winwheel.prototype.getCurrentPinNumber = function() {
+Winwheel.prototype.getCurrentPinNumber = function () {
   let currentPin = 0;
 
   if (this.pins) {
@@ -1857,7 +1857,7 @@ Winwheel.prototype.getCurrentPinNumber = function() {
 // ==================================================================================================================================================
 // Returns the rotation angle of the wheel corrected to 0-360 (i.e. removes all the multiples of 360).
 // ==================================================================================================================================================
-Winwheel.prototype.getRotationPosition = function() {
+Winwheel.prototype.getRotationPosition = function () {
   let rawAngle = this.rotationAngle; // Get current rotation angle of wheel.
 
   // If positive work out how many times past 360 this is and then take the floor of this off the rawAngle.
@@ -1887,7 +1887,7 @@ Winwheel.prototype.getRotationPosition = function() {
 // ==================================================================================================================================================
 // This function starts the wheel's animation by using the properties of the animation object of of the wheel to begin the a greensock tween.
 // ==================================================================================================================================================
-Winwheel.prototype.startAnimation = function() {
+Winwheel.prototype.startAnimation = function () {
   if (this.animation) {
     // Call function to compute the animation properties.
     this.computeAnimation();
@@ -1914,7 +1914,7 @@ Winwheel.prototype.startAnimation = function() {
 // ==================================================================================================================================================
 // Use same function which needs to be outside the class for the callback when it stops because is finished.
 // ==================================================================================================================================================
-Winwheel.prototype.stopAnimation = function(canCallback) {
+Winwheel.prototype.stopAnimation = function (canCallback) {
   // @TODO as part of multiwheel, need to work out how to stop the tween for a single wheel but allow others to continue.
 
   // We can kill the animation using our tween object.
@@ -1935,7 +1935,7 @@ Winwheel.prototype.stopAnimation = function(canCallback) {
 // ==================================================================================================================================================
 // Pause animation by telling tween to pause.
 // ==================================================================================================================================================
-Winwheel.prototype.pauseAnimation = function() {
+Winwheel.prototype.pauseAnimation = function () {
   if (this.tween) {
     this.tween.pause();
   }
@@ -1944,7 +1944,7 @@ Winwheel.prototype.pauseAnimation = function() {
 // ==================================================================================================================================================
 // Resume the animation by telling tween to continue playing it.
 // ==================================================================================================================================================
-Winwheel.prototype.resumeAnimation = function() {
+Winwheel.prototype.resumeAnimation = function () {
   if (this.tween) {
     this.tween.play();
   }
@@ -1955,7 +1955,7 @@ Winwheel.prototype.resumeAnimation = function() {
 // before it starts. This allows the developer to change the animation properties after the wheel has been created
 // and have the animation use the new values of the animation properties.
 // ====================================================================================================================
-Winwheel.prototype.computeAnimation = function() {
+Winwheel.prototype.computeAnimation = function () {
   if (this.animation) {
     // Set the animation parameters for the specified animation type including some sensible defaults if values have not been specified.
     if (this.animation.type == "spinOngoing") {
@@ -2085,7 +2085,7 @@ Winwheel.prototype.computeAnimation = function() {
 // Calculates and returns a random stop angle inside the specified segment number. Value will always be 1 degree inside
 // the start and end of the segment to avoid issue with the segment overlap.
 // ====================================================================================================================
-Winwheel.prototype.getRandomForSegment = function(segmentNumber) {
+Winwheel.prototype.getRandomForSegment = function (segmentNumber) {
   let stopAngle = 0;
 
   if (segmentNumber) {
@@ -2123,7 +2123,7 @@ function Pin(options) {
     strokeStyle: "black", // Line colour of the pins.
     lineWidth: 1, // Line width of the pins.
     margin: 3, // The space between outside edge of the wheel and the pins.
-    responsive: false // If set to true the diameter of the pin will resize when the wheel is responsive.
+    responsive: false, // If set to true the diameter of the pin will resize when the wheel is responsive.
   };
 
   // Now loop through the default options and create properties of this class set to the value for
@@ -2167,7 +2167,7 @@ function Animation(options) {
     callbackBefore: null, // Function to callback before the wheel is drawn each animation loop.
     callbackAfter: null, // Function to callback after the wheel is drawn each animation loop.
     callbackSound: null, // Function to callback if a sound should be triggered on change of segment or pin.
-    soundTrigger: "segment" // Sound trigger type. Default is segment which triggers when segment changes, can be pin if to trigger when pin passes the pointer.
+    soundTrigger: "segment", // Sound trigger type. Default is segment which triggers when segment changes, can be pin if to trigger when pin passes the pointer.
   };
 
   // Now loop through the default options and create properties of this class set to the value for
@@ -2214,7 +2214,7 @@ function Segment(options) {
     textLineWidth: null,
     image: null, // Name/path to the image
     imageDirection: null, // Direction of the image, can be set globally for the whole wheel.
-    imgData: null // Image object created here and loaded with image data.
+    imgData: null, // Image object created here and loaded with image data.
   };
 
   // Now loop through the default options and create properties of this class set to the value for
@@ -2247,7 +2247,7 @@ function Segment(options) {
 // ====================================================================================================================
 // Changes an image for a segment by setting a callback to render the wheel once the image has loaded.
 // ====================================================================================================================
-Segment.prototype.changeImage = function(image, imageDirection) {
+Segment.prototype.changeImage = function (image, imageDirection) {
   // Change image name, blank image data.
   this.image = image;
   this.imgData = null;
@@ -2272,7 +2272,7 @@ function PointerGuide(options) {
   let defaultOptions = {
     display: false,
     strokeStyle: "red",
-    lineWidth: 3
+    lineWidth: 3,
   };
 
   // Now loop through the default options and create properties of this class set to the value for

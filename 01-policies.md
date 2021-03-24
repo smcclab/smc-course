@@ -12,7 +12,8 @@ permalink: /policies/
 Any communication in this course will happen over one of two channels:
 
 1. your ANU email address
-2. the course Teams channel (you will be added to this in this in the week 1 lecture)
+2. the course Teams channel (you will be added to this in this in the week 1
+   lecture)
 
 You are expected to check both of these channels regularly (you can set up
 notifications if it helps). "I didn't see the message" is never an acceptable
@@ -46,14 +47,15 @@ with the additional caveat that your mark may be scaled by the examiners'
 conference to provide your overall course mark and grade.
 
 If your final mark is less than 50 but greater than or equal to 45 then you will
-receive a PX grade and be eligible for [supplementary
-assessment](#supplementary-assessment) to try and pass the course.
+receive a PX grade and be eligible for
+[supplementary assessment](#supplementary-assessment) to try and pass the
+course.
 
 If you fail one of the hurdles **and** if you get a final mark of 45 or greater
-then you will receive a PX grade and be eligible for [supplementary
-assessment](#supplementary-assessment) to try and pass the course. If you fail
-one of the hurdles and your final mark is lower that 45 you will fail with a
-final grade of NCN (as per the ANU rules).
+then you will receive a PX grade and be eligible for
+[supplementary assessment](#supplementary-assessment) to try and pass the
+course. If you fail one of the hurdles and your final mark is lower that 45 you
+will fail with a final grade of NCN (as per the ANU rules).
 
 If your final mark is less than 45 you will fail this course with a grade of N
 
@@ -62,8 +64,8 @@ final grade of NCN, which means a failure due to non-completion.
 
 ## Late penalties {#late-penalties}
 
-This course follows the [ANU
-policy](https://cass.anu.edu.au/current-students/coursework-policy-and-guidelines/late-submissions-and-extensions)
+This course follows the
+[ANU policy](https://cass.anu.edu.au/current-students/coursework-policy-and-guidelines/late-submissions-and-extensions)
 of applying a 5% penalty for every day (or part thereof).
 
 ## Extensions {#extensions}
@@ -74,7 +76,10 @@ deadline.
 
 ## Word limits {#word-limits}
 
-Max word count limits are provided for the written assessment tasks in this course and we expect you to stay within those limits. That said, if you can't quite fit what you want to say, you may exceed the word count by 10% before you start to lose marks.
+Max word count limits are provided for the written assessment tasks in this
+course and we expect you to stay within those limits. That said, if you can't
+quite fit what you want to say, you may exceed the word count by 10% before you
+start to lose marks.
 
 ## Appeals {#appeals}
 
@@ -82,9 +87,8 @@ From the date that your marks for any assessment item are released
 electronically you have a period of two weeks in which to appeal your mark.
 After this period your mark will be locked in.
 
-If you're unhappy with your mark for any assessment item, then [here's the
-relevant ANU Policy (see section
-61)](https://policies.anu.edu.au/ppl/document/ANUP_004603):
+If you're unhappy with your mark for any assessment item, then
+[here's the relevant ANU Policy (see section 61)](https://policies.anu.edu.au/ppl/document/ANUP_004603):
 
 > The University recognises the right of students to seek a review of, and to
 > appeal against, a result for an assessment task within a course, or their
@@ -93,8 +97,8 @@ relevant ANU Policy (see section
 > final grade is released. Appeals against assessment outcomes are conducted
 > according to the Assessment Rules.
 
-As with any ANU course, you are able to apply for [special assessment
-consideration](https://www.anu.edu.au/students/program-administration/assessments-exams/special-assessment-consideration).
+As with any ANU course, you are able to apply for
+[special assessment consideration](https://www.anu.edu.au/students/program-administration/assessments-exams/special-assessment-consideration).
 
 ## Supplementary assessment {#supplementary-assessment}
 
@@ -104,10 +108,10 @@ information about the timing & nature of this assessment.
 
 ## Academic integrity {#academic-integrity}
 
-At the ANU [we take academic integrity
-seriously](https://academichonesty.anu.edu.au/). There are several different
-aspects to academic integrity, and [several different types of academic
-misconduct](https://services.anu.edu.au/education-support/academic-integrity/determining-a-breach).
+At the ANU
+[we take academic integrity seriously](https://academichonesty.anu.edu.au/).
+There are several different aspects to academic integrity, and
+[several different types of academic misconduct](https://services.anu.edu.au/education-support/academic-integrity/determining-a-breach).
 In LENS all the ANU academic integrity rules apply.
 
 - All your submitted work is assumed to be entirely your own work. Besides

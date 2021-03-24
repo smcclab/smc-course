@@ -11,10 +11,10 @@ summary: triggering events in pitch & time using algorithmic processes
 
 ## Goals for this week
 
-1. download, install & make a sound with **Extempore** (the [VSCode Quickstart
-   page](https://extemporelang.github.io/docs/overview/quickstart/) is probably
-   a good place to start) (make sure you can get the sound out of Extempore and
-   into your video recording, too)
+1. download, install & make a sound with **Extempore** (the
+   [VSCode Quickstart page](https://extemporelang.github.io/docs/overview/quickstart/)
+   is probably a good place to start) (make sure you can get the sound out of
+   Extempore and into your video recording, too)
 
 2. see how musical events (pitch, velocity, duration) can be represented &
    manipulated in a textual computer music language
@@ -54,18 +54,18 @@ seen before, but are often helpful in algorithmic composition:
   handy for both rhythmic and harmonic (pitch) algorithms
 
 - all the music theory crash course stuff [mentioned in week 1]({% link
-  _workshops/02-synthesis-1.md %}#pd-resources) will be helpful here as well,
-  especially because now you're working in a textual programming langugage you
-  might be interested in doing more "note-based" stuff
+  _workshops/02-synthesis-1.md %}#pd-resources) will be helpful here as well, especially
+  because now you're working in a textual programming langugage you might be interested
+  in doing more "note-based" stuff
 
 ### Launch points
 
 Extempore (like Pd) can do lots of things, and the best way to learn is probably
 to dive in and start making noise. Here's a good place to start:
 
-- The [Extempore Pattern
-  Language](https://extemporelang.github.io/docs/guides/pattern-language/), as
-  well as looking at all the covers in the `examples/sharedsystem/covers/`
+- The
+  [Extempore Pattern Language](https://extemporelang.github.io/docs/guides/pattern-language/),
+  as well as looking at all the covers in the `examples/sharedsystem/covers/`
   directory
 
 After that, what you do (and what parts of the documentation & sample code are
@@ -73,10 +73,10 @@ relevant) will depend on what you're trying to do. A few potential "launch
 points":
 
 - The pattern language isn't the only way to make loops in Extempore---you can
-  also use regular Scheme code and a design pattern called [temporal
-  recursion](https://extemporelang.github.io/docs/overview/time/), and check out
-  e.g. the fmsynth example (`examples/core/fmsynth.xtm`) or the electrofunk
-  example (`examples/external/electrofunk.xtm`)
+  also use regular Scheme code and a design pattern called
+  [temporal recursion](https://extemporelang.github.io/docs/overview/time/), and
+  check out e.g. the fmsynth example (`examples/core/fmsynth.xtm`) or the
+  electrofunk example (`examples/external/electrofunk.xtm`)
 
 - If you're more interested in making algorithmic beats & rhythms, then the
   Extempore sharedsystem loads up a sampler which has some drum samples in it
@@ -118,11 +118,9 @@ note-based stuff, cycles-within-cycles with cosr, 4-against-3, etc.
 
 {% endcomment %}
 
-- [Brief History of Algorithmic Composition (John A.
-  Maurer)](https://ccrma.stanford.edu/~blackrse/algorithm.html)
+- [Brief History of Algorithmic Composition (John A. Maurer)](https://ccrma.stanford.edu/~blackrse/algorithm.html)
 
-- [Getting Starting with Algorithmic Composition: Donya
-  Quick](http://donyaquick.com/algorithmic-composing-advice/)
+- [Getting Starting with Algorithmic Composition: Donya Quick](http://donyaquick.com/algorithmic-composing-advice/)
 
 - [The Concert Programmer](https://www.youtube.com/watch?v=yY1FSsUV-8c)
 
@@ -133,14 +131,11 @@ note-based stuff, cycles-within-cycles with cosr, 4-against-3, etc.
   generation systems. ACM Comput. Surv., 50(5):69:1–69:30, Sept. 2017.
   [DOI:10.1145/3108242](https://doi.acm.org/10.1145/3108242)
 
-- [Oxford Handbook of Algorithmic Music (available through ANU
-  library)](https://virtual.anu.edu.au/login/?url=https://www.oxfordhandbooks.com/view/10.1093/oxfordhb/9780190226992.001.0001/oxfordhb-9780190226992)
+- [Oxford Handbook of Algorithmic Music (available through ANU library)](https://virtual.anu.edu.au/login/?url=https://www.oxfordhandbooks.com/view/10.1093/oxfordhb/9780190226992.001.0001/oxfordhb-9780190226992)
 
-- [Algorithmic Composition: Computational Thinking in Music (Michael
-  Edwards)](https://cacm.acm.org/magazines/2011/7/109891-algorithmic-composition/fulltext)
+- [Algorithmic Composition: Computational Thinking in Music (Michael Edwards)](https://cacm.acm.org/magazines/2011/7/109891-algorithmic-composition/fulltext)
 
-- [Algorithmic Composition - Cambridge Companion to Electronic Music (Karlheinz
-  Essl)](https://www-cambridge-org.virtual.anu.edu.au/core/books/cambridge-companion-to-electronic-music/algorithmic-composition/5390BDB514BF6EDABD6DA031A6395407)
+- [Algorithmic Composition - Cambridge Companion to Electronic Music (Karlheinz Essl)](https://www-cambridge-org.virtual.anu.edu.au/core/books/cambridge-companion-to-electronic-music/algorithmic-composition/5390BDB514BF6EDABD6DA031A6395407)
 
 - [Euclidean rhythms](https://splice.com/blog/euclidean-rhythms/) (note that
   Extempore has a `euclid` function for generating Euclidean rhythms)
@@ -149,13 +144,14 @@ note-based stuff, cycles-within-cycles with cosr, 4-against-3, etc.
   generative/algorithmic compositions
 
 - evolutionary algorithms for music composition (e.g.,
-  [darwintunes](http://darwintunes.org), [evolutionary music
-  slides](http://igm.rit.edu/~jabics/EvoMusic/BilesEvoMusicSlides.pdf))
+  [darwintunes](http://darwintunes.org),
+  [evolutionary music slides](http://igm.rit.edu/~jabics/EvoMusic/BilesEvoMusicSlides.pdf))
 
 - AI/ML composition (e.g., [Magenta project](https://magenta.tensorflow.org))
 
-- cool algorithmic artists: [Renick Bell](https://renickbell.net), [kindohm/Mike
-  Hodnick](https://kindohm.com), [William Fields](https://williamfields.com)
+- cool algorithmic artists: [Renick Bell](https://renickbell.net),
+  [kindohm/Mike Hodnick](https://kindohm.com),
+  [William Fields](https://williamfields.com)
 
 ## Things to think about
 

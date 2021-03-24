@@ -24,41 +24,34 @@ config: |
   }
 ---
 
-{% assign theme = "reveal.js/theme/white.css" %}
-
-{% if site.revealify.theme %}
-  {% assign theme = site.revealify.theme %}
-{% endif %}
-
-{% if layout.theme %}
-  {% assign theme = layout.theme %}
-{% endif %}
-
-{% if page.theme %}
-  {% assign theme = page.theme %}
-{% endif %}
+{% assign theme = "reveal.js/theme/white.css" %} {% if site.revealify.theme %}
+{% assign theme = site.revealify.theme %} {% endif %} {% if layout.theme %} {%
+assign theme = layout.theme %} {% endif %} {% if page.theme %} {% assign theme =
+page.theme %} {% endif %}
 
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
 
-    <link rel="stylesheet" type="text/css" href="{% link reveal.js/reveal.css %}">
-    <link rel="stylesheet" type="text/css" href="{% link {{ theme }} %}">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{% link reveal.js/reveal.css %}"
+    />
+    <link rel="stylesheet" type="text/css" href="{% link {{ theme }} %}" />
   </head>
   <body>
-    {{ content | revealify }}
-
-    {% for plugin in layout.plugins %}
+    {{ content | revealify }} {% for plugin in layout.plugins %}
     <script src="{% link {{ plugin }} %}"></script>
     {% endfor %}
 
     <script src="{% link reveal.js/reveal.js %}"></script>
     <script>
-// this is the reveal config
-Reveal.initialize(
-  {{ layout.config }}
-);
+      // this is the reveal config
+      Reveal.initialize(
+        {{ layout.config }}
+      );
     </script>
   </body>
 </html>

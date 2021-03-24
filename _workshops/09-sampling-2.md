@@ -33,10 +33,10 @@ contains:
 You can see how this is all set up in `examples/sharedsystem/audiosetup.xtm`
 (start looking at around line 30).
 
-As covered in the [sampler
-guide](https://extemporelang.github.io/docs/guides/sampler/), to access the
-samples in a given bank you need an additional argument to `play`, e.g. using
-the pattern language you could try:
+As covered in the
+[sampler guide](https://extemporelang.github.io/docs/guides/sampler/), to access
+the samples in a given bank you need an additional argument to `play`, e.g.
+using the pattern language you could try:
 
 ```extempore
 ;; play slot 60 (middle C) from bank 1, i.e. the mf piano
@@ -48,18 +48,18 @@ the pattern language you could try:
 
 Remember that the "bank" argument is a parameter just like all the others, so
 you can use whatever algorithmic process you like to determine which bank to
-select the sample from (again, see [this
-guide](https://extemporelang.github.io/docs/guides/sampler/) for more info about
-banks, slots & samplers).
+select the sample from (again, see
+[this guide](https://extemporelang.github.io/docs/guides/sampler/) for more info
+about banks, slots & samplers).
 
 ## Things to think about
 
 - can you make something melodic with only unpitched[^pitched] sounds? how about
   making something that's primarily rhythmic with only pitched sounds?
-  
+
 [^pitched]:
-    pitched vs unpitched isn't a binary, it's a [bit more complicated than
-    that](https://en.wikipedia.org/wiki/Pitch_(music)#Definite_and_indefinite_pitch),
+    pitched vs unpitched isn't a binary, it's a
+    [bit more complicated than that](<https://en.wikipedia.org/wiki/Pitch_(music)#Definite_and_indefinite_pitch>),
     but that doesn't make the distinction any less interesting as a creative
     prompt
 
@@ -71,9 +71,8 @@ banks, slots & samplers).
   constraint?
 
 - you can still incorporate some [synth]({% link _workshops/08-synthesis-2.md
-  %}) material alongside your sampled sounds---ask your classmates if they're
-  willing to share their patches (or look in the
-  [lens-materials](https://gitlab.cecs.anu.edu.au/laptop-ensemble/2021/lens-materials)
+  %}) material alongside your sampled sounds---ask your classmates if they're willing
+  to share their patches (or look in the [lens-materials](https://gitlab.cecs.anu.edu.au/laptop-ensemble/2021/lens-materials)
   repo)
 
 - what are the _roles_ in a group AVD collaboration, anyway? are there any new

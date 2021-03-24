@@ -32,14 +32,14 @@ Laptop Ensemble links:
 <!-- 2018 brent/alex J2rwZFJCmHY -->
 <!-- 2020 supercut: https://youtu.be/24YMz90b6bo -->
 
-You can see more vids of the ensemble at work on their [YouTube
-channel](https://www.youtube.com/channel/UCIU6SqIS02GJlnLOPqlwmpA).
+You can see more vids of the ensemble at work on their
+[YouTube channel](https://www.youtube.com/channel/UCIU6SqIS02GJlnLOPqlwmpA).
 
 ## Who's in charge of all this?
 
 The current LENS artistic directors are [Dr. Ben Swift](https://benswift.me),
-[Dr. Alec Hunter](https://www.alexanderhunter.com.au) and [Dr. Charles
-Martin](https://charlesmartin.com.au).
+[Dr. Alec Hunter](https://www.alexanderhunter.com.au) and
+[Dr. Charles Martin](https://charlesmartin.com.au).
 
 ## It's definitely running in Semester 1, right?
 
@@ -70,10 +70,9 @@ There are no specific music pre-requisites, and we will teach things from the
 ground up. Although some music experience is useful, we use musical concepts
 that are not taught in a standard music curriculum.
 
-Obviously, if you've never done anything with music/sound before then
-there'll be some extra reading (and noise-making!) to do to stay on top of
-things, but if you're willing to put in the work it shouldn't be an
-un-manageable workload.
+Obviously, if you've never done anything with music/sound before then there'll
+be some extra reading (and noise-making!) to do to stay on top of things, but if
+you're willing to put in the work it shouldn't be an un-manageable workload.
 
 ## What computing background is required?
 
@@ -112,10 +111,10 @@ something---who'd have thought that uni could be like that 😜?
 
 ## Who _shouldn't_ take this course?
 
-In LENS believe that computing (including creative computing) is [for
-everyone](https://twitter.com/search?q=%23cs4all), and so no-one should rule
-themselves out because they think they're not "technical" or "musical" enough to
-make music with computers.
+In LENS believe that computing (including creative computing) is
+[for everyone](https://twitter.com/search?q=%23cs4all), and so no-one should
+rule themselves out because they think they're not "technical" or "musical"
+enough to make music with computers.
 
 Having said that, this isn't a standard CS course, so if you're expecting:
 
@@ -135,11 +134,11 @@ Each week, you'll:
 
 - learn about a particular computer music concept (_in your own time_)
 - make & submit a creative response (through your [AV diary entry]({% link
-  _deliverables/01-audiovisual-diary.md %})) which explores that concept (_in
-  your own time_)
+  _deliverables/01-audiovisual-diary.md %})) which explores that concept (_in your
+  own time_)
 - listen to, play with & discuss the things that you and your classmates have
   made (_during the class workshop timeslot_)
-  
+
 In addition, over the course of the semester you'll:
 
 - create a software/hardware tool for making music in a laptop ensemble context
@@ -150,25 +149,23 @@ In addition, over the course of the semester you'll:
 ## Do I _have_ to do a live performance if I take this course?
 
 Yes, the [main course deliverable]({% link _deliverables/03-lens-performance.md
-%}) (worth 50% of the course mark) is to use the computer music
-instrument/system that you've built in a group performance alongside some of
-your LENS classmates. The "present it in concert" part of that is one of the
-course [learning outcomes]({% link 02-outline.md %}#learning-outcomes).
+%}) (worth 50% of the course mark) is to use the computer music instrument/system
+that you've built in a group performance alongside some of your LENS classmates.
+The "present it in concert" part of that is one of the course [learning outcomes]({% link 02-outline.md %}#learning-outcomes).
 
 ## What are the time commitments for LENS? {#what-are-the-time-commitments-for-lens}
 
 The primary weekly contact hours are the 2hr [workshop session]({% link
-_workshops/index.md %}) from 3pm--5pm in the [Marie Reay
-4.04](https://www.anu.edu.au/maps#show=108136). If you're enrolled in the class,
-you must be there every week.
+_workshops/index.md %}) from 3pm--5pm in the [Marie Reay 4.04](https://www.anu.edu.au/maps#show=108136).
+If you're enrolled in the class, you must be there every week.
 
 Outside of that workshop, the class will be delivered in "flipped" mode; we'll
 give you some reading material & videos to look at, then you'll create something
 in response (as described
 [above](#what-does-this-course-look-like-week-to-week)).
 
-This is a standard 6-unit course, so the [ANU expectation is around 130 hours of
-work over the semester](https://policies.anu.edu.au/ppl/document/ANUP_000691)
+This is a standard 6-unit course, so the
+[ANU expectation is around 130 hours of work over the semester](https://policies.anu.edu.au/ppl/document/ANUP_000691)
 (around 11 hours/week, on average). This means that you need to make the time
 every week to read the workshop material in advance, think about which bits make
 sense and where you have questions, and make some noise.
@@ -182,17 +179,16 @@ attend the workshop sessions in person.
 
 ## What music software will we be using in the course?
 
-In this course you'll learn to use both [Pure Data
-(Pd)](http://msp.ucsd.edu/software.html) and
-[Extempore](https://extemporelang.github.io) for music-making. Which
-one you use for your final performance is up to you; you'll get to
-decide what fits your creative purposes best as the semester
-progresses.
+In this course you'll learn to use both
+[Pure Data (Pd)](http://msp.ucsd.edu/software.html) and
+[Extempore](https://extemporelang.github.io) for music-making. Which one you use
+for your final performance is up to you; you'll get to decide what fits your
+creative purposes best as the semester progresses.
 
 ## How do I enrol in Laptop Ensemble? {#how-to-enrol}
 
-First, check out the info on this course website (including this FAQ)
-to understand how the course works and what we expect of you.
+First, check out the info on this course website (including this FAQ) to
+understand how the course works and what we expect of you.
 
 If you'd like to enrol under a COMP course code (note: open to _all_ ANU
 students---check with your program convenor to see how to fit it into your
@@ -200,8 +196,8 @@ program) get in touch with [Ben Swift](mailto:ben.swift@anu.edu.au) to enrol.
 
 If you are a music student and want to take laptop ensemble as
 [MUSI2205](https://programsandcourses.anu.edu.au/2021/course/MUSI2205), you
-should discuss this with the course convenor of MUSI2205 and [Ben
-Swift](mailto:ben.swift@anu.edu.au) and then enrol in MUSI2205.
+should discuss this with the course convenor of MUSI2205 and
+[Ben Swift](mailto:ben.swift@anu.edu.au) and then enrol in MUSI2205.
 
 {:.info-box}
 

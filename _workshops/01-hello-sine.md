@@ -7,14 +7,13 @@ summary: your first beeps and boops
 
 There isn't much pre-reading for week 1, since the class hasn't really started
 yet. The main purpose of the first workshop is to get [Pd]({% link
-_resources/02-tools.md %}#pure-data) up and running on everyone's
-laptop---because if you don't have that working then you won't be able to
-participate in this course.
+_resources/02-tools.md %}#pure-data) up and running on everyone's laptop---because
+if you don't have that working then you won't be able to participate in this course.
 
-This first workshop is called "hello sine" because making [pure sine
-wave](https://en.wikipedia.org/wiki/Pure_tone) is pretty much the ["Hello,
-World!"](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program) of computer
-music.
+This first workshop is called "hello sine" because making
+[pure sine wave](https://en.wikipedia.org/wiki/Pure_tone) is pretty much the
+["Hello, World!"](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program) of
+computer music.
 
 ## Goals for this week
 

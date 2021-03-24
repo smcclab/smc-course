@@ -39,24 +39,25 @@ time, but I think it's still useful as a bunch of subheadings on a webpage.
 - introduce new and dynamic melodic/sonic and rhythmic material
 - create a sense of space/place
 - build a context (maybe nostalgia)
-- inject meaning via speech or recognisable sounds 
+- inject meaning via speech or recognisable sounds
 - intertextual references and postmodern juxtapositions
 
 ### Sampling started(?) with _Musique Concrète_
 
-- two main composers at the start of the movement: [Pierre
-  Schaeffer](https://en.wikipedia.org/wiki/Pierre_Schaeffer) (1910-1995) and
-  [Pierre Henry](https://en.wikipedia.org/wiki/Pierre_Henry) (b. 1927)
+- two main composers at the start of the movement:
+  [Pierre Schaeffer](https://en.wikipedia.org/wiki/Pierre_Schaeffer) (1910-1995)
+  and [Pierre Henry](https://en.wikipedia.org/wiki/Pierre_Henry) (b. 1927)
 
 - defined by these composers as **Real Music**™---all their sounds are from
   physical objects
 
 - this is music without the abstraction of notation
 
-- the first example is [_Cinq études de
-  bruits_](https://en.wikipedia.org/wiki/Cinq_études_de_bruits) (1948), composed
-  using vinyl records! No tape yet in France. The piano sounds were supplied by
-  composer/pianist, Pierre Boulez, and it was premiered via radio
+- the first example is
+  [_Cinq études de bruits_](https://en.wikipedia.org/wiki/Cinq_études_de_bruits)
+  (1948), composed using vinyl records! No tape yet in France. The piano sounds
+  were supplied by composer/pianist, Pierre Boulez, and it was premiered via
+  radio
 
 ### Things to consider when using samples
 
@@ -77,13 +78,13 @@ time, but I think it's still useful as a bunch of subheadings on a webpage.
 
   1. _cultural appropriation_; is the material you're working with culturally
      sensitive? do you have the right/permission to take those sounds out of
-     context? what would [Edward
-     Said](https://en.wikipedia.org/wiki/Edward_Said) say? does your use of
-     this/these sound/s 'other' an individual or group?
+     context? what would
+     [Edward Said](https://en.wikipedia.org/wiki/Edward_Said) say? does your use
+     of this/these sound/s 'other' an individual or group?
 
   2. _consent_; feel free to record in public spaces, but if you can make out
      specific voices and/or names, get consent
- 
+
 ### Interesting variables/parameters
 
 - pitch: you can usually get 4 MIDI notes (semitones) in either direction before

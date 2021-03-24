@@ -20,6 +20,7 @@ permalink: /outline/
 - **Course Convener:** Ben Swift
 - **Phone:** 6125 7027
 - **Email:** <ben.swift@anu.edu.au>
-- **Research Interests:** livecoding (especially musical livecoding), code/creativity/culture, HCI/human-centred computing, critical design
+- **Research Interests:** livecoding (especially musical livecoding),
+  code/creativity/culture, HCI/human-centred computing, critical design
 - **Lecturers:** Ben Swift
 - **Tutors:** Ushini Attanayake

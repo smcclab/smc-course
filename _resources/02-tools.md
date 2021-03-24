@@ -1,6 +1,8 @@
 ---
 title: Tools
-summary: What tools (software & hardware) do you need to take part in LENS? Let's take a look.
+summary:
+  What tools (software & hardware) do you need to take part in LENS? Let's take
+  a look.
 permalink: /resources/tools/
 ---
 
@@ -18,18 +20,17 @@ deadline approaching make sure you don't leave it to the last minute).
 
 LENS is a laptop ensemble, so if you have your own laptop and want to use that,
 then that's great. During classes (e.g. the [workshop sessions]({% link
-_workshops/index.md %})) we expect you to bring your laptop (and charger), and
-some headphones.
+_workshops/index.md %})) we expect you to bring your laptop (and charger), and some
+headphones.
 
-If you don't have a laptop you can use, then [let Ben
-know](mailto:ben.swift@anu.edu.au). We want this class to be accessible to
-everyone, so if the "BYO laptop" thing is an issue we'll try our best to help
+If you don't have a laptop you can use, then
+[let Ben know](mailto:ben.swift@anu.edu.au). We want this class to be accessible
+to everyone, so if the "BYO laptop" thing is an issue we'll try our best to help
 you out with a loaner laptop for the semester.
 
 We also have a limited number of
 [headphones](https://www.audio-technica.com/cms/headphones/2d52765b7d84656c/index.html),
-[audio
-interfaces](https://www.behringer.com/Categories/Behringer/Computer-Audio/Interfaces/UM2/)),
+[audio interfaces](https://www.behringer.com/Categories/Behringer/Computer-Audio/Interfaces/UM2/)),
 and [MIDI controllers](https://www.soundonsound.com/reviews/novation-impulse-49)
 for LENS students to use in class or borrow if you need to. Let us know if you
 have a good use case for these!
@@ -65,32 +66,34 @@ version of "vanilla" Pd for your platform (as shown in the screenshot).
   menu.
 
 - Charles has written a series of introductory examples to Pure Data:
-  [ComputerMusicIntro
-  examples](https://github.com/cpmpercussion/ComputerMusicIntro)
+  [ComputerMusicIntro examples](https://github.com/cpmpercussion/ComputerMusicIntro)
 
-- You can also find lots of great Pd examples in the [rjlib
-  library](https://github.com/rjdj/rjlib/)
+- You can also find lots of great Pd examples in the
+  [rjlib library](https://github.com/rjdj/rjlib/)
 
 #### Books
 
-- _Kreidler, J._ [Programming Electronic Music in
-  Pd](http://www.pd-tutorial.com) (2013). This book is freely available online,
-  and is a good "from the ground up" introduction to how to make music in Pd.
-  Some of the screenshots are a bit out of date, but since Pd hasn't changed
-  very much since it was written the actual content is still quite current and
-  useful.
+- _Kreidler, J._
+  [Programming Electronic Music in Pd](http://www.pd-tutorial.com) (2013). This
+  book is freely available online, and is a good "from the ground up"
+  introduction to how to make music in Pd. Some of the screenshots are a bit out
+  of date, but since Pd hasn't changed very much since it was written the actual
+  content is still quite current and useful.
 
-- _Puckette, M._ [Theory and Technique of Electronic
-  Music](http://msp.ucsd.edu/techniques.htm) (2007). This is a book by the
-  creator of Pd, and even though it uses Pd for all the examples it's really a
-  more general book about how computer music works. It covers a bunch of the
-  mathematical & signal processing foundations of the techniques you'll learn in
-  the course, and if you're into that sort of thing then you might enjoy this
-  book. However, in this course understanding the maths is less important than
-  understanding the use of these thins in a LENS context, so we won't cover the
-  more maths-y stuff in this course.
+- _Puckette, M._
+  [Theory and Technique of Electronic Music](http://msp.ucsd.edu/techniques.htm)
+  (2007). This is a book by the creator of Pd, and even though it uses Pd for
+  all the examples it's really a more general book about how computer music
+  works. It covers a bunch of the mathematical & signal processing foundations
+  of the techniques you'll learn in the course, and if you're into that sort of
+  thing then you might enjoy this book. However, in this course understanding
+  the maths is less important than understanding the use of these thins in a
+  LENS context, so we won't cover the more maths-y stuff in this course.
 
-- [Cambridge Companion to Electronic Music](https://www-cambridge-org.virtual.anu.edu.au/core/books/cambridge-companion-to-electronic-music/51F366EA55DAE2CBCCB191E2D8349C9F) (available through ANU library online). A great resource that covers all the concepts in this course with chapters written by current computer music composers and researchers.
+- [Cambridge Companion to Electronic Music](https://www-cambridge-org.virtual.anu.edu.au/core/books/cambridge-companion-to-electronic-music/51F366EA55DAE2CBCCB191E2D8349C9F)
+  (available through ANU library online). A great resource that covers all the
+  concepts in this course with chapters written by current computer music
+  composers and researchers.
 
 ### Extempore {#extempore}
 
@@ -117,9 +120,8 @@ it on your laptop. Like Pd, Extempore is free & works on Windows, macOS & Linux.
 As far as example code goes, Extempore comes with a bunch of example code (it's
 in the `examples/` folder). One cool place to start is the
 `examples/sharedsystem` folder. You can also read around the Extempore
-documentation website, (for example to learn to make music with the [Extempore
-pattern
-language](https://extemporelang.github.io/docs/guides/pattern-language/)).
+documentation website, (for example to learn to make music with the
+[Extempore pattern language](https://extemporelang.github.io/docs/guides/pattern-language/)).
 
 ## Screen recording software {#screen-recording-software}
 
@@ -134,8 +136,7 @@ long as it produces videos in a format which can be processed by
 Here are a few suggestions:
 
 - [OBS](https://obsproject.com) (free, macOS/Windows/Linux)
-- [QuickTime
-  Player](https://support.apple.com/en-au/guide/quicktime-player/qtp97b08e666/mac)
+- [QuickTime Player](https://support.apple.com/en-au/guide/quicktime-player/qtp97b08e666/mac)
   (free, macOS only)
 - [Camtasia](https://www.techsmith.com/video-editor.html) (paid, macOS/Windows)
 - [Screenflow](Screenflow) (paid, macOS only)
@@ -164,12 +165,12 @@ something, we understand, computer music gear is _fun!_
 Here are a few things you might like to look at:
 
 - Some **nice headphones**. You can get _great_ headphones from between
-  $50-$150, for a cheaper option we like [Audio
-  Technica](https://www.audio-technica.com/cms/headphones/2d52765b7d84656c/index.html)
-  and for a more expensive option, have a look at [Sony
-  MDR-7506](https://www.storedj.com.au/sony-mdr-7506-stereo-professional-monitoring-headphones)
-  or [BeyerDynamic DT770
-  pro](https://www.storedj.com.au/search?ProductSearch=BEY-DT770PRO8).
+  $50-$150, for a cheaper option we like
+  [Audio Technica](https://www.audio-technica.com/cms/headphones/2d52765b7d84656c/index.html)
+  and for a more expensive option, have a look at
+  [Sony MDR-7506](https://www.storedj.com.au/sony-mdr-7506-stereo-professional-monitoring-headphones)
+  or
+  [BeyerDynamic DT770 pro](https://www.storedj.com.au/search?ProductSearch=BEY-DT770PRO8).
 
 - An **audio interface** for your laptop. If you only need two outputs, you
   might be fine with the headphone output on your laptop. External audio
@@ -177,26 +178,28 @@ Here are a few things you might like to look at:
   and outputs with higher quality sound and more (physical) connector options.
   They sometimes have better audio drivers and provide a smoother audio
   experience (particularly in Windows). There are lots of great audio interfaces
-  with 2 microphone inputs and 2 line outputs for about $200 (e.g., [PreSonus
-  AudioBox
-  USB96](https://www.storedj.com.au/presonus-audiobox-usb96-audio-and-midi-interface-w-studio-one-artist-and-studio-magic-black)).
-  You can get more expensive interfaces if you want that have more [inputs and
-  outputs](https://www.storedj.com.au/presonus-studio-1824c-18x20-192khz-usb-c-audio-interface-w-studio-one-artist-daw)
+  with 2 microphone inputs and 2 line outputs for about $200 (e.g.,
+  [PreSonus AudioBox USB96](https://www.storedj.com.au/presonus-audiobox-usb96-audio-and-midi-interface-w-studio-one-artist-and-studio-magic-black)).
+  You can get more expensive interfaces if you want that have more
+  [inputs and outputs](https://www.storedj.com.au/presonus-studio-1824c-18x20-192khz-usb-c-audio-interface-w-studio-one-artist-daw)
   if you want, but these are more useful if you're setting up a small studio,
   not for laptop ensemble :-)
 
-- A **hardware MIDI Controller**. It's often more fun to control music with
-  your hands rather than with a keyboard and mouse (unless you're a live coder)!
-  We like the [Korg
-  NanoKontrol](https://www.storedj.com.au/search?ProductSearch=KOR-NANOKONT2BK)
+- A **hardware MIDI Controller**. It's often more fun to control music with your
+  hands rather than with a keyboard and mouse (unless you're a live coder)! We
+  like the
+  [Korg NanoKontrol](https://www.storedj.com.au/search?ProductSearch=KOR-NANOKONT2BK)
   which gives you some knobs and sliders for about $100 and works nicely with Pd
-  or Extempore. The [Akai
-  LPD8](https://www.storedj.com.au/akai-lpd8-ultra-portable-pad-controller-w-8-pads)
+  or Extempore. The
+  [Akai LPD8](https://www.storedj.com.au/akai-lpd8-ultra-portable-pad-controller-w-8-pads)
   gives you knobs and pads, but not sliders.
-  
+
 Here's what's not required for this class:
-  
-- **Expensive synthesisers, Ableton Live, Eurorack systems, etc.** Well all of this stuff is awesome and fun, but you can do a lot of learning and music making with just a laptop and a pair of headphones so stick with those for the moment!
+
+- **Expensive synthesisers, Ableton Live, Eurorack systems, etc.** Well all of
+  this stuff is awesome and fun, but you can do a lot of learning and music
+  making with just a laptop and a pair of headphones so stick with those for the
+  moment!
 
 ## Other books {#other-books}
 
@@ -204,20 +207,22 @@ There are other computer music languages & software packages as well, and you're
 always welcome to mess around with whatever creative tools you like. However,
 for the LENS curriculum we'll cover those two, and you're also expected to use
 one or the other as the foundation for your final [LENS performance]({% link
-_deliverables/03-lens-performance.md %}). Still, if you're keen to explore
-further here area a few good options.
+_deliverables/03-lens-performance.md %}). Still, if you're keen to explore further
+here area a few good options.
 
-- _Collins, N._ [Supercollider
-  Tutorial](http://composerprogrammer.com/teaching/supercollider/sctutorial/tutorial.html#chapter1)
+- _Collins, N._
+  [Supercollider Tutorial](http://composerprogrammer.com/teaching/supercollider/sctutorial/tutorial.html#chapter1)
   (free online)
 
-- _Müller, M._ [Fundamentals of Music Processing](https://link.springer.com/book/10.1007/978-3-319-21945-5). Springer International Publishing, Switzerland (2015)
+- _Müller, M._
+  [Fundamentals of Music Processing](https://link.springer.com/book/10.1007/978-3-319-21945-5).
+  Springer International Publishing, Switzerland (2015)
 
-- _Dean, R.T. and McLean, A._ [The Oxford Handbook of Algorithmic
-  Music](https://www.oxfordhandbooks.com/view/10.1093/oxfordhb/9780190226992.001.0001/oxfordhb-9780190226992).
+- _Dean, R.T. and McLean, A._
+  [The Oxford Handbook of Algorithmic Music](https://www.oxfordhandbooks.com/view/10.1093/oxfordhb/9780190226992.001.0001/oxfordhb-9780190226992).
   Oxford University Press, (2018) (not free for everyone, but available to ANU
   students on the ANU network)
 
-- _Rowe, R._ [Interactive Music Systems: Machine Listening and
-  Composing](https://wp.nyu.edu/robert_rowe/text/interactive-music-systems-1993/chapter-1-interactive-music-systems/).
+- _Rowe, R._
+  [Interactive Music Systems: Machine Listening and Composing](https://wp.nyu.edu/robert_rowe/text/interactive-music-systems-1993/chapter-1-interactive-music-systems/).
   The MIT Press (1993) (free online)
