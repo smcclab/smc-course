@@ -13,7 +13,8 @@ permalink: /deliverables/audiovisual-diary/
 - **Due date:**
   - 60sec (solo) or 180sec (group) video submissions due (via GitLab) 11am every
     Thursday in weeks 2--9
-  - portfolio submissions due March 26 (week 5) & April 30 (week 9)
+  - portfolio submissions due ~~March 26~~ March 29 (beginning of week 6) &
+    April 30 (week 9)
 - **Mark weighting:** 30% total (see [below](#marking))
 - **Submission:** submit your videos & portfolio submissions according to the
   instructions below
@@ -163,16 +164,16 @@ ok---hit us up on Teams to ask questions, we'd love to help you out.
 {:.info-box}
 
 Remember: the specification & submission instructions for your AV diary are in
-two parts---this information relates to the **portfolio** part (due in weeks 5 &
-9 only).
+two parts---this information relates to the **portfolio** part (due in weeks
+~~5~~ 6 & 9 only).
 
 ### Specification {#portfolio-spec}
 
 Even though you submit something every week, you won't receive a mark each week.
 Instead, you'll be marked through two "portfolio" submissions:
 
-- an 1000-word document due on March 26 (end of week 5) which covers AV diary
-  entries 2--5
+- an 1000-word document due on ~~March 26~~ March 29 (beginning of week 6) which
+  covers AV diary entries 2--5
 
 - an 1000-word document due on April 30 (end of week 9) which covers AV diary
   entries 6--9
