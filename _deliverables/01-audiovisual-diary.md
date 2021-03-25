@@ -191,6 +191,10 @@ what you submitted each week---draw out "common threads", tell us why you chose
 to respond to the provocations in the way you did, and show us your development
 as a LENS member and computer musician through these AVD submissions.
 
+You can (and are encouraged to) include diagrams, screenshots, even links to
+videos, as long as they help you tell a coherent story (i.e. don't just dump a
+bunch of screenshots in there because it makes it look fancy).
+
 ### Submission process
 
 Submit each document (in markdown or pdf format) through
