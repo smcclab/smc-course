@@ -5,9 +5,9 @@ permalink: /group-picker-wheel/
 
 ## Group picker wheel
 
-<script src='{{ "/assets/js/TweenMax.min.js" | relative_url }}' type="text/javascript"></script>
-<script src='{{ "/assets/js/Winwheel.js" | relative_url }}' type="text/javascript"></script>
-<script src='{{ "/assets/js/picker-wheels.js" | relative_url }}' type="text/javascript"></script>
+<script src="{% link assets/js/TweenMax.min.js %}" type="text/javascript"></script>
+<script src="{% link assets/js/Winwheel.js %}" type="text/javascript"></script>
+<script src="{% link assets/js/picker-wheels.js %}" type="text/javascript"></script>
 
 <div id="picker-wheel-container" style="width:33.3333%; float:left;">
 <div style="font-size:2em; line-height:0.8; text-align:center;">⧨</div>
