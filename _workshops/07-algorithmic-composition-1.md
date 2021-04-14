@@ -137,8 +137,11 @@ note-based stuff, cycles-within-cycles with cosr, 4-against-3, etc.
 
 - [Algorithmic Composition - Cambridge Companion to Electronic Music (Karlheinz Essl)](https://www-cambridge-org.virtual.anu.edu.au/core/books/cambridge-companion-to-electronic-music/algorithmic-composition/5390BDB514BF6EDABD6DA031A6395407)
 
-- [Euclidean rhythms](https://splice.com/blog/euclidean-rhythms/) (note that
-  Extempore has a `euclid` function for generating Euclidean rhythms)
+- Euclidean rhythms; here's a [blog post
+  version](https://splice.com/blog/euclidean-rhythms/) and here's a [deep dive
+  academic
+  paper](https://www.sciencedirect.com/science/article/pii/S0925772108001156)
+  (note that Extempore has a `euclid` function for generating Euclidean rhythms)
 
 - <https://generative.fm/> is a super-cool website full of
   generative/algorithmic compositions
