@@ -146,6 +146,9 @@ note-based stuff, cycles-within-cycles with cosr, 4-against-3, etc.
 - <https://generative.fm/> is a super-cool website full of
   generative/algorithmic compositions
 
+- this [google sheet with various drum
+  patterns](https://docs.google.com/spreadsheets/d/19_3BxUMy3uy1Gb0V8Wc-TcG7q16Amfn6e8QVw4-HuD0/)
+
 - evolutionary algorithms for music composition (e.g.,
   [darwintunes](http://darwintunes.org),
   [evolutionary music slides](http://igm.rit.edu/~jabics/EvoMusic/BilesEvoMusicSlides.pdf))
