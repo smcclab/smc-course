@@ -19,7 +19,7 @@ _deliverables/03-lens-performance.md %}) at the end of semester.
 | ---------------------------------------------------------------------------------------- | ------------------------------------------- | ------------------------------ |
 | [Weekly AV diary videos]({% link _deliverables/01-audiovisual-diary.md %}#weekly-videos) | 11am every Thursday in weeks 2--9           | 0%, but required for portfolio |
 | [AV diary portfolio]({% link _deliverables/01-audiovisual-diary.md %}#portfolio)         | Monday of week 6 (Mar 29) & week 9 (Apr 30) | 15% + 15% = 30%                |
-| [LENS demo day]({% link _deliverables/02-demo-day.md %})                                 | Thursday April 29 (week 8)                  | 20%                            |
+| [LENS demo day]({% link _deliverables/02-demo-day.md %})                                 | Thursday May 6 (week 9)                  | 20%                            |
 | [LENS performance]({% link _deliverables/03-lens-performance.md %})                      | Tuesday June 1                              | 50%                            |
 
 {% include postlist.html posts=site.deliverables %}

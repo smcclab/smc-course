@@ -12,7 +12,7 @@ permalink: /deliverables/plan/
 
 ## Outline
 
-- **Due date:** Thursday April 29, 3pm--7pm (week 8, note the later finish time)
+- **Due date:** Thursday May 6, 3pm--7pm (week 9, note the later finish time)
 - **Mark weighting:** 20%
 - **Submission:** submit your assignment according to the
   [instructions below](#submission-process)
@@ -21,7 +21,7 @@ permalink: /deliverables/plan/
 
 ## Description
 
-In the week 8 workshop session everyone will give an in-class demo of their
+In the week 9 workshop session everyone will give an in-class demo of their
 work-in-progress (WIP) for the final LENS performance. It's not expected to be
 an "artistic performance" like the final performance will be, you're encouraged
 to talk through what it can do so far, how it will evolve as the final
