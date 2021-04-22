@@ -25,10 +25,6 @@ on the Extempore documentation website.
 
 ## Things to think about
 
-- there _is_ still an AV diary entry due this week, even though this week's
-  workshop slot will actually be filled by your [LENS demo]({% link
-  _deliverables/02-demo-day.md %})
-
 - since Extempore's analogue synth is based around the exact same concepts as a
   hardware (or software) modular synth, have a look at some of the many YouTube
   videos on patch design & modular synthesis and try and re-create that sound
@@ -49,5 +45,5 @@ on the Extempore documentation website.
   share their patches around (remember: it's a **group AVD** this week)
 
 - can you use any of the [algorithmic composition]({% link
-  _workshops/07-algorithmic-composition-1.md %}) concepts from last week to algorithmically
-  modify the synthesis parameters of your piece?
+  _workshops/07-algorithmic-composition-1.md %}) concepts from last week to
+  algorithmically modify the synthesis parameters of your piece?
