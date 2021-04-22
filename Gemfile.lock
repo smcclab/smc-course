@@ -12,7 +12,7 @@ GIT
 
 GIT
   remote: https://gitlab.cecs.anu.edu.au/lucy/jekyll-revealify-plugin.git
-  revision: 60302742dcf0e729b851db0f9f0672b27e4d3259
+  revision: 1de8999cbd16a2b01375d7a75484d31784e6642b
   branch: master
   specs:
     jekyll-revealify-plugin (2.0.0.beta)
@@ -21,7 +21,7 @@ GIT
 
 GIT
   remote: https://gitlab.cecs.anu.edu.au/lucy/jekyll-theme-cecs.git
-  revision: 3687da9bd67827b0f7ff6caf1b8eb5b45b86875a
+  revision: 01642f81eb4ef8c90d1f23dfa4ccf4b4a414e50f
   branch: master
   specs:
     jekyll-theme-cecs (2.0.0.beta)
