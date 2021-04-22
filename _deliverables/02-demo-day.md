@@ -54,22 +54,24 @@ member---this is a great chance to pitch to them!
 
 You must present your LENS artefact to the rest of the class in a 5 minute
 in-class demo, followed by 5 minutes of questions. You can bring your own
-laptop/other gear, and we will connect it to the PA (details TBC).
+laptop/other gear, and we will connect it to the PA (we'll discuss the "tech
+rider" stuff in the week 8 workshop).
 
-In addition to the demo, you must submit (the day before) all the necessary
-patch files/code/sounds/video assets associated with your demo.
+In addition to the demo, you must submit (by 9pm on Wednesday May 5---the day
+before the demo day) all the necessary patch files/code/sounds/video assets
+associated with your demo.
 
-This demo should not be just a ppt presentation---this is expected to be a live
-demo, although you can show off your artefact in whatever way seems best to you.
+This demo should not be a ppt presentation---this is expected to be a live demo,
+although you can show off your artefact in whatever way seems best to you.
 
 ## Submission process {#submission-process}
 
 You must submit your artefact files through GitLab. All students will present
-their work to the rest of the LENS cohort during the week 8 [workshop
+their work to the rest of the LENS cohort during the week 9 [workshop
 timeslot]({% link _workshops/index.md %}) the following day.
 
-This is an in-class presentation, if you do not attend you will be considered to
-have not submitted anything.
+This is like any in-class presentation---if you do not attend you will be
+considered to have not submitted anything.
 
 ## Marking criteria {#marking}
 

@@ -5,13 +5,17 @@ hidden: true
 
 # {{ page.title }}
 
+{% comment %}
+
 TODO: this one could be about interfaces---the first one could be about making
 widgets in Pd, this one could be about connecting software together (cf
 wekinator)
 
+{% endcomment %}
+
 {:.diary-provocation-box}
 
-**No AVD**: your AV diary entries are all done 😁
+**Solo AVD**: this is your final AVD entry
 
 This week's workshop session will be an extended
 [AMA](https://en.wikipedia.org/wiki/R/IAmA), potentially with live musical
