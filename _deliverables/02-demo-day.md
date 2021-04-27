@@ -87,3 +87,16 @@ Your demo will be assessed based the following marking criteria (based on the
 - scope for collaborative ensemble interaction in your performance
 
 - clarity of communication in your in-class demo presentation
+
+### Peer feedback
+
+Part of demo day is seeing what everyone else is working on and being able to
+give feedback & encouragement. To do this, everyone will fill out a short "peer
+feedback" sheet during the demo day (to be handed in at the end of the
+class---we'll distribute the feedback around).
+
+You're not marking your classmates---you don't give a mark, and the feedback
+isn't incorporated into everyone's grades for the demo day presentation. The
+purpose of the feedback is for you to help one another out in creating the best
+LENS performances you can, and perhaps to help you to reflect on what makes a
+compelling LENS performance.
