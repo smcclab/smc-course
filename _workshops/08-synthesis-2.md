@@ -25,6 +25,9 @@ AVD this week, because group)
    compositional possibilities of _manipulating_ pre-recorded sounds during
    playback
 
+4. discuss any special tech/setup requirements for the [demo day]({% link
+   _deliverables/02-demo-day.md %}) presentations
+
 ## Extempore resources
 
 ### Synthesis

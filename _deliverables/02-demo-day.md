@@ -81,9 +81,9 @@ Your demo will be assessed based the following marking criteria (based on the
 - technical quality & ambition of your artefact/performance with regards to the
   fundamental concepts in music computing covered in this course
 
-- understanding and engagement with the design and performance challenges around
-  computer music interfaces
+- understanding and engagement with the **design** and **performance**
+  challenges around computer music interfaces
 
 - scope for collaborative ensemble interaction in your performance
 
-- clarity of communication in your in-class presentation
+- clarity of communication in your in-class demo presentation
