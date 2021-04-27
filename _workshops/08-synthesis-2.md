@@ -82,8 +82,10 @@ banks, slots & samplers).
   things which change slowly over the course of a piece, etc... how can you vary
   different parameters at different timescales?
 
-- patch files can be saved & shared---ask your classmates if they're willing to
-  share their patches around (remember: it's a **group AVD** this week)
+- patch files can be saved & shared (with
+  `analogue-save-preset`/`analogue-load-preset`), so ask your classmates if
+  they're willing to share their patches around (remember: it's a **group AVD**
+  this week)
 
 - can you use any of the [algorithmic composition]({% link
   _workshops/07-algorithmic-composition-1.md %}) concepts from last week to
