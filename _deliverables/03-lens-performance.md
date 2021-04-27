@@ -10,7 +10,7 @@ permalink: /deliverables/lens-performance/
 
 ## Outline
 
-- **Due date:** Tuesday June 1 7pm (time TBC)
+- **Due date:** Sunday June 6 2:30pm-6pm (time TBC)
 - **Mark weighting:** 50%
 - **Submission:** submit your assignment according to the
   [instructions below](#submission-process)
@@ -44,11 +44,9 @@ of the assessment, so don't neglect these parts when developing your artefact.
 
 ## Submission process {#submission-process}
 
-It's a live gig---we'll announce the time & venue details closer to the date.
+- **Sunday June 6 2:30pm**: the gig @ Sideway
 
-- **Tuesday June 1 9pm**: the gig---venue TBC
-
-- **Tuesday June 8 11:59pm**: final artefact materials due through GitLab
+- **Sunday June 13 11:59pm**: final artefact materials due through GitLab
 
 ## Marking criteria {#marking}
 
