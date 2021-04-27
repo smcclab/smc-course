@@ -65,8 +65,8 @@ link 02-outline.md %})) are:
 
 - demonstrated potential for collaboration with other ensemble members
 
-- the staging and performance of your LENS artefact as part of a streaming gig
-  on YouTube (including from an audience perspective)
+- the staging and performance of your LENS artefact as part of your live
+  performance at the end-of-semester gig
 
 - overall design/composition quality
 
