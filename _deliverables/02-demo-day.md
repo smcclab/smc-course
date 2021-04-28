@@ -88,7 +88,7 @@ Your demo will be assessed based the following marking criteria (based on the
 
 - clarity of communication in your in-class demo presentation
 
-### Peer feedback
+### Peer feedback {#peer-feedback}
 
 Part of demo day is seeing what everyone else is working on and being able to
 give feedback & encouragement. To do this, everyone will fill out a short "peer
