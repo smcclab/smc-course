@@ -1,142 +1,256 @@
 ---
 title: LENS demo day feedback
-permalink: /assets/resources/demo-day-feedback-sheet/
 ---
 
-# {{ page.title }}
+# Caleb
 
-<style>
-#content h2 {
-  margin-top: 2rem;
-}
-#content h3 {
-  margin-top: 10rem;
-}
-</style>
+## project in one sentence/phrase
 
-## Caleb
+\vskip 4em
 
-_overall impressions_
+## what's the strongest part, and what's the thing which needs the most work?
 
-_what's the strongest part, and what's the thing which needs the most work?_
+\vskip 4em
+
+## comments on LOs
 
 ### technical quality & ambition of your artefact/performance with regards to the fundamental concepts in music computing covered in this course
 
+\vskip 4em
+
 ### understanding and engagement with the **design** and **performance** challenges around computer music interfaces
+
+\vskip 4em
 
 ### scope for collaborative ensemble interaction in your performance
 
+\vskip 4em
+
 ### clarity of communication in your in-class demo presentation
 
-## George
+\newpage
 
-_overall impressions_
+# George
 
-_what's the strongest part, and what's the thing which needs the most work?_
+## project in one sentence/phrase
+
+\vskip 4em
+
+## what's the strongest part, and what's the thing which needs the most work?
+
+\vskip 4em
+
+## comments on LOs
 
 ### technical quality & ambition of your artefact/performance with regards to the fundamental concepts in music computing covered in this course
 
+\vskip 4em
+
 ### understanding and engagement with the **design** and **performance** challenges around computer music interfaces
+
+\vskip 4em
 
 ### scope for collaborative ensemble interaction in your performance
 
+\vskip 4em
+
 ### clarity of communication in your in-class demo presentation
 
-## Chamith
+\newpage
 
-_overall impressions_
+# Chamith
 
-_what's the strongest part, and what's the thing which needs the most work?_
+## project in one sentence/phrase
+
+\vskip 4em
+
+## what's the strongest part, and what's the thing which needs the most work?
+
+\vskip 4em
+
+## comments on LOs
 
 ### technical quality & ambition of your artefact/performance with regards to the fundamental concepts in music computing covered in this course
 
+\vskip 4em
+
 ### understanding and engagement with the **design** and **performance** challenges around computer music interfaces
+
+\vskip 4em
 
 ### scope for collaborative ensemble interaction in your performance
 
+\vskip 4em
+
 ### clarity of communication in your in-class demo presentation
 
-## Max
+\newpage
 
-_overall impressions_
+# Max
 
-_what's the strongest part, and what's the thing which needs the most work?_
+## project in one sentence/phrase
+
+\vskip 4em
+
+## what's the strongest part, and what's the thing which needs the most work?
+
+\vskip 4em
+
+## comments on LOs
 
 ### technical quality & ambition of your artefact/performance with regards to the fundamental concepts in music computing covered in this course
 
+\vskip 4em
+
 ### understanding and engagement with the **design** and **performance** challenges around computer music interfaces
+
+\vskip 4em
 
 ### scope for collaborative ensemble interaction in your performance
 
+\vskip 4em
+
 ### clarity of communication in your in-class demo presentation
 
-## Kai
+\newpage
 
-_overall impressions_
+# Kai
 
-_what's the strongest part, and what's the thing which needs the most work?_
+## project in one sentence/phrase
+
+\vskip 4em
+
+## what's the strongest part, and what's the thing which needs the most work?
+
+\vskip 4em
+
+## comments on LOs
 
 ### technical quality & ambition of your artefact/performance with regards to the fundamental concepts in music computing covered in this course
 
+\vskip 4em
+
 ### understanding and engagement with the **design** and **performance** challenges around computer music interfaces
+
+\vskip 4em
 
 ### scope for collaborative ensemble interaction in your performance
 
+\vskip 4em
+
 ### clarity of communication in your in-class demo presentation
 
-## Mike
+\newpage
 
-_overall impressions_
+# Mike
 
-_what's the strongest part, and what's the thing which needs the most work?_
+## project in one sentence/phrase
+
+\vskip 4em
+
+## what's the strongest part, and what's the thing which needs the most work?
+
+\vskip 4em
+
+## comments on LOs
 
 ### technical quality & ambition of your artefact/performance with regards to the fundamental concepts in music computing covered in this course
 
+\vskip 4em
+
 ### understanding and engagement with the **design** and **performance** challenges around computer music interfaces
+
+\vskip 4em
 
 ### scope for collaborative ensemble interaction in your performance
 
+\vskip 4em
+
 ### clarity of communication in your in-class demo presentation
 
-## Josh
+\newpage
 
-_overall impressions_
+# Josh
 
-_what's the strongest part, and what's the thing which needs the most work?_
+## project in one sentence/phrase
+
+\vskip 4em
+
+## what's the strongest part, and what's the thing which needs the most work?
+
+\vskip 4em
+
+## comments on LOs
 
 ### technical quality & ambition of your artefact/performance with regards to the fundamental concepts in music computing covered in this course
 
+\vskip 4em
+
 ### understanding and engagement with the **design** and **performance** challenges around computer music interfaces
+
+\vskip 4em
 
 ### scope for collaborative ensemble interaction in your performance
 
+\vskip 4em
+
 ### clarity of communication in your in-class demo presentation
 
-## Rhys
+\newpage
 
-_overall impressions_
+# Rhys
 
-_what's the strongest part, and what's the thing which needs the most work?_
+## project in one sentence/phrase
+
+\vskip 4em
+
+## what's the strongest part, and what's the thing which needs the most work?
+
+\vskip 4em
+
+## comments on LOs
 
 ### technical quality & ambition of your artefact/performance with regards to the fundamental concepts in music computing covered in this course
 
+\vskip 4em
+
 ### understanding and engagement with the **design** and **performance** challenges around computer music interfaces
+
+\vskip 4em
 
 ### scope for collaborative ensemble interaction in your performance
 
+\vskip 4em
+
 ### clarity of communication in your in-class demo presentation
 
-## Obi
+\newpage
 
-_overall impressions_
+# Obi
 
-_what's the strongest part, and what's the thing which needs the most work?_
+## project in one sentence/phrase
+
+\vskip 4em
+
+## what's the strongest part, and what's the thing which needs the most work?
+
+\vskip 4em
+
+## comments on LOs
 
 ### technical quality & ambition of your artefact/performance with regards to the fundamental concepts in music computing covered in this course
 
+\vskip 4em
+
 ### understanding and engagement with the **design** and **performance** challenges around computer music interfaces
+
+\vskip 4em
 
 ### scope for collaborative ensemble interaction in your performance
 
+\vskip 4em
+
 ### clarity of communication in your in-class demo presentation
+
+\newpage
 
