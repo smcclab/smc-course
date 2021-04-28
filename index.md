@@ -9,7 +9,7 @@ hidden: true
 bar](https://sidewaybc.com) (18+ gig). Come along see what the LENS students
 have been up to this semester!**
 
-<div class="info-box" markdown="1" style="margin: 20px 0;">
+<div class="info-box" markdown="1">
 
 This is the _LENS: ANU Laptop Ensemble_ course website. The course is currently
 running, and you can see the LENS '21 students' work in progress through the
