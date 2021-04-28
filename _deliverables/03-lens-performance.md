@@ -54,19 +54,19 @@ Your LENS artefact will be assessed based on the representations above. The
 marking criteria (based on the [course learning outcomes]({{site.baseurl}}{%
 link 02-outline.md %})) are:
 
-- technical quality & ambition of your artefact/performance with regards to the
-  fundamental concepts in computer music covered in this course, including
-  digital synthesis, algorithmic composition and musical interface design
+- sophistication and ambition of your artefact/performance with regards to the
+  fundamental concepts in music computing covered in this course
 
-- demonstrated potential for expression during live performance, i.e. level of
+- technical quality of your artefact/performance (e.g. stability, level of
+  polish, absence of bugs/jankiness)
+
+- demonstrated capacity for expression during live performance, i.e. level of
   creative control made available to the performers
 
-- demonstrated potential for collaboration with other ensemble members
+- demonstrated capacity for collaboration with other ensemble members
 
 - the staging and performance of your LENS artefact as part of your live
   performance at the end-of-semester gig
-
-- overall design/composition quality
 
 - presentation and communication of your LENS artefact through performance
   materials
