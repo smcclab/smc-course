@@ -8,6 +8,8 @@ hidden: true
 bar](https://sidewaybc.com) (18+ gig). Come along see what the LENS students
 have been up to this semester!**
 
+![LENS Banner]({% link assets/facebook-banner.png %})
+
 <div class="info-box" markdown="1">
 
 This is the _LENS: ANU Laptop Ensemble_ course website. The course is currently
@@ -24,8 +26,6 @@ booking LENS for your next event, then [email Ben
 Swift](mailto:ben.swift@anu.edu.au).
 
 </div>
-
-![LENS Banner]({% link assets/facebook-banner.png %})
 
 # ANU Laptop Ensemble
 
