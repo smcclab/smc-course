@@ -1,5 +1,5 @@
 ---
-title: "Week 10: interfaces 2"
+title: "Week 10: making connections"
 hidden: true
 ---
 
