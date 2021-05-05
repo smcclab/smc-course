@@ -31,16 +31,43 @@ collaboration during performance.
 
 ## Specification
 
-There are two representations of your LENS performance:
+There are two representations of your LENS performance: the **ensemble
+performance** at the final gig, and the **performance materials** you'll submit
+through GitLab.
 
-1. the **performance materials** (GitLab repo with patches, code, scores,
-   instructions, etc---everything needed to produce your performance, including
-   a `README.md` file explaining how to get it up and running)
+### Ensemble performance
 
-2. the **ensemble performance of your artefact** at the LENS final concert
+Your set during the gig at sideway on June 6 is the primary representation of
+your performance. As described in the [marking criteria](#marking) this includes
+all aspects of the performance, from the beginning of your set right through to
+the end.
 
-The final performance and collaboration with other LENSers are important aspects
-of the assessment, so don't neglect these parts when developing your artefact.
+The minimum ensemble size is two---your performance must include meaningful
+collaboration/interaction with at least one other LENS member. You must
+participate in _at least one_ other LENS ensemble other than your own.
+
+We'll make a video & audio recording of the gig for archival purposes and also
+to put on the YouTube channel.
+
+### Performance materials
+
+Just like you've done every week as part of your [AVD submission]({% link
+_deliverables/01-audiovisual-diary.md %}), you must submit your **performance
+materials** through GitLab. This includes Pd patches, Extempore (& other) source
+code, asset files (e.g. samples), scores, instructions to ensemble members, etc.
+It must be in a `final-performance-materials` folder in your usual
+[AVD](https://gitlab.cecs.anu.edu.au/laptop-ensemble/2021/2021-av-diary-submissions/).
+
+You must include a `README.md` file explaining how to get everything up and
+running, with enough clarity & detail that one of your LENS classmates could
+(re)produce your performance. I've pushed up a [template `README.md` file to
+the](https://gitlab.cecs.anu.edu.au/laptop-ensemble/2021/2021-av-diary-submissions/-/blob/master/final-performance-materials/README.md)
+which is a good starting point.
+
+**Note**: you've all already forked that GitLab repo, so to get the updated
+final performance (you can either pull from the template repo again and merge
+the updates into your fork, or just create the `final-performance-materials`
+folder and copy in the `README.md` file manually).
 
 ## Submission process {#submission-process}
 
@@ -70,18 +97,3 @@ link 02-outline.md %})) are:
 
 - presentation and communication of your LENS artefact through performance
   materials
-
-## FAQ {#faq}
-
-### How many other ensemble members does my piece need to include?
-
-Your performance must include meaningful collaboration/interaction with at least
-one other LENS member. Since the final performances now no longer need to be
-live (see box above) the interaction similarly doesn't have to be "live"---it
-could be more like the group AVD entries---but you still need to make it clear
-how your performance/artefact allows for deep & engaging collaboration (and how
-you'll communicate this collaboration to the audience as well).
-
-### How many other LENS member's pieces do I have to perform on?
-
-You need to help out with _at least one_ other LENS performance.
