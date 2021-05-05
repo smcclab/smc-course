@@ -60,8 +60,8 @@ It must be in a `final-performance-materials` folder in your usual
 
 You must include a `README.md` file explaining how to get everything up and
 running, with enough clarity & detail that one of your LENS classmates could
-(re)produce your performance. I've pushed up a [template `README.md` file to
-the](https://gitlab.cecs.anu.edu.au/laptop-ensemble/2021/2021-av-diary-submissions/-/blob/master/final-performance-materials/README.md)
+(re)produce your performance. I've pushed up a [template `README.md` file to the
+repo](https://gitlab.cecs.anu.edu.au/laptop-ensemble/2021/2021-av-diary-submissions/-/blob/master/final-performance-materials/README.md)
 which is a good starting point.
 
 **Note**: you've all already forked that GitLab repo, so to get the updated
