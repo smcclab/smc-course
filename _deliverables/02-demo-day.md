@@ -12,7 +12,7 @@ permalink: /deliverables/plan/
 
 ## Outline
 
-- **Due date:** Thursday May 6, 3pm--7pm (week 9, note the later finish time)
+- **Due date:** Thursday May 6, 3pm--6pm (week 9, note the slightly later finish time)
 - **Mark weighting:** 20%
 - **Submission:** submit your assignment according to the
   [instructions below](#submission-process)
@@ -57,8 +57,8 @@ in-class demo, followed by 5 minutes of questions. You can bring your own
 laptop/other gear, and we will connect it to the PA (we'll discuss the "tech
 rider" stuff in the week 8 workshop).
 
-In addition to the demo, you must submit (by 9pm on Wednesday May 5---the day
-before the demo day) all the necessary patch files/code/sounds/video assets
+In addition to the demo, you must submit (by 11:59pm on Wednesday May 5---the
+day before the demo day) all the necessary patch files/code/sounds/video assets
 associated with your demo.
 
 This demo should not be a ppt presentation---this is expected to be a live demo,
@@ -79,7 +79,8 @@ Your demo will be assessed based the following marking criteria (based on the
 [course learning outcomes]({% link 02-outline.md %})):
 
 - technical quality & ambition of your artefact/performance with regards to the
-  fundamental concepts in music computing covered in this course
+  [fundamental concepts in music computing]({% link _workshops/index.md %})
+  covered in this course
 
 - understanding and engagement with the **design** and **performance**
   challenges around computer music interfaces
@@ -93,10 +94,9 @@ Your demo will be assessed based the following marking criteria (based on the
 Part of demo day is seeing what everyone else is working on and being able to
 give feedback & encouragement. To do this, everyone will fill out a short "peer
 feedback" sheet during the demo day (to be handed in at the end of the
-class---we'll distribute the feedback around).
+class---we'll collate the responses and make sure everyone gets their feedback).
 
-You're not marking your classmates---you don't give a mark, and the feedback
-isn't incorporated into everyone's grades for the demo day presentation. The
-purpose of the feedback is for you to help one another out in creating the best
-LENS performances you can, and perhaps to help you to reflect on what makes a
-compelling LENS performance.
+You're not grading your classmates---you don't give a mark, and the feedback you
+give isn't incorporated into the grades. The purpose of the feedback is for you
+to help one another out in creating the best LENS performances you can, and
+perhaps to help you to reflect on what makes a compelling LENS performance.
