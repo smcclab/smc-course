@@ -40,8 +40,8 @@ on the Extempore documentation website.
 
 The sharedsystem setup process that you've been using for the [last couple]({%
 link _workshops/07-algorithmic-composition-1.md %}) [of weeks]({% link
-_workshops/08-synthesis-2.md %}) creates one sampler (called `samp1`) which
-contains:
+_workshops/08-synthesis-and-sampling-2.md %}) creates one sampler (called
+`samp1`) which contains:
 
 - piano samples in banks `0`--`2`
 - TR808 drum samples in bank `3`
