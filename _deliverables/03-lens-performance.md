@@ -55,7 +55,8 @@ marking criteria (based on the [course learning outcomes]({{site.baseurl}}{%
 link 02-outline.md %})) are:
 
 - sophistication and ambition of your artefact/performance with regards to the
-  fundamental concepts in music computing covered in this course
+  fundamental concepts in music computing [covered in this course]({% link
+  _workshops/index.md %})
 
 - technical quality of your artefact/performance (e.g. stability, level of
   polish, absence of bugs/jankiness)
@@ -65,8 +66,7 @@ link 02-outline.md %})) are:
 
 - demonstrated capacity for collaboration with other ensemble members
 
-- the staging and performance of your LENS artefact as part of your live
-  performance at the end-of-semester gig
+- the staging and performance of your LENS artefact at the end-of-semester gig
 
 - presentation and communication of your LENS artefact through performance
   materials
