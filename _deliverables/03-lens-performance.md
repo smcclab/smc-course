@@ -64,10 +64,13 @@ running, with enough clarity & detail that one of your LENS classmates could
 repo](https://gitlab.cecs.anu.edu.au/laptop-ensemble/2021/2021-av-diary-submissions/-/blob/master/final-performance-materials/README.md)
 which is a good starting point.
 
-**Note**: you've all already forked that GitLab repo, so to get the updated
-final performance (you can either pull from the template repo again and merge
-the updates into your fork, or just create the `final-performance-materials`
-folder and copy in the `README.md` file manually).
+{:.info-box}
+
+You've all already forked [that GitLab
+repo](https://gitlab.cecs.anu.edu.au/laptop-ensemble/2021/2021-av-diary-submissions/),
+so to get the updated final performance (you can either pull from the template
+repo again and merge the updates into your fork, or just create the
+`final-performance-materials` folder and copy in the `README.md` file manually).
 
 ## Submission process {#submission-process}
 
