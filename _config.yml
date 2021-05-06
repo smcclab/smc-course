@@ -21,6 +21,10 @@ url: ""
 revealify:
   theme: assets/reveal.js/anu.scss
 
+markdown: kramdown
+kramdown:
+  toc_levels: "2,3"
+
 cecs:
   # site name (in words, e.g. the full course name)
   title: Laptop Ensemble
