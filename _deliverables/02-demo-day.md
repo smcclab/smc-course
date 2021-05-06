@@ -3,7 +3,7 @@ title: LENS demo
 summary:
   Show the rest of the LENS what you're working on for your end-of-semester
   performance.
-permalink: /deliverables/plan/
+permalink: /deliverables/demo-day/
 ---
 
 # {{ page.title }}
