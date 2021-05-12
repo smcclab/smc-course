@@ -173,10 +173,10 @@ two parts---this information relates to the **portfolio** part (due in weeks
 Even though you submit something every week, you won't receive a mark each week.
 Instead, you'll be marked through two "portfolio" submissions:
 
-- an 1000--1500 word document due on ~~March 26~~ March 29 (beginning of week 6)
+- a 1000--1500 word document due on ~~March 26~~ March 29 (beginning of week 6)
   which covers AV diary entries for weeks 2--5
 
-- an 1000--1500 word document due on May 14 (end of week 10) which covers AV
+- a 1000--1500 word document due on May 14 (end of week 10) which covers AV
   diary entries for weeks 6--10 (with no week 9 because demo day)
 
 Each document must articulate your combined (and edited) reflections on your AV
