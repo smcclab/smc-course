@@ -14,8 +14,8 @@ permalink: /deliverables/audiovisual-diary/
   - 60sec (solo) or 180sec (group) video submissions due (via GitLab) 11am every
     Thursday in weeks 2--8, 10 (no AVD in week 9 because [demo day]({% link
     _deliverables/02-demo-day.md %}))
-  - portfolio submissions due ~~March 26~~ March 29 (beginning of week 6) & May
-    14 (week 10)
+  - portfolio submissions due 9pm ~~March 26~~ March 29 (beginning of week 6) &
+    May 14 (week 10)
 - **Mark weighting:** 30% total (see [below](#marking))
 - **Submission:** submit your videos & portfolio submissions according to the
   instructions below
