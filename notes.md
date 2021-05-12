@@ -8,7 +8,11 @@ This file contains a bunch of notes that I (Ben) took along the way in 2021, and
 would be a good place to look if you're thinking of things to change when this
 class is taught in the future.
 
-## Deliverables
+- Might be worth making the workshop attendance requirements more explicit? Most
+  students are fine, but had one student this year who missed 3 I think (in most
+  cases letting me know, but still without med certs). Maybe you're allowed to
+  miss one with no penalty? But then the question is where does the penalty come
+  from?
 
 - AVD submissions were excellent as usual, and as usual it's a bummer when the
   quality of the portfolio doesn't reflect the quality of the portfolio submissions. Idea
