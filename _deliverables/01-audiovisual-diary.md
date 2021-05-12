@@ -177,7 +177,8 @@ Instead, you'll be marked through two "portfolio" submissions:
   which covers AV diary entries for weeks 2--5
 
 - a 1000--1500 word document due on May 14 (end of week 10) which covers AV
-  diary entries for weeks 6--10 (with no week 9 because demo day)
+  diary entries for weeks 6--10 (there was no week 9 AVD because of demo day,
+  but you can reflect on your demo day presentation in the portfolio)
 
 Each document must articulate your combined (and edited) reflections on your AV
 diary submissions for the specified weeks, explaining how each one explored the
