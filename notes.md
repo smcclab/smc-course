@@ -14,6 +14,9 @@ class is taught in the future.
   miss one with no penalty? But then the question is where does the penalty come
   from?
 
+- Next time, split the weekly AVD submissions and portfolio submission into
+  separate "deliverables" pages.
+
 - Be more explicit about the late penalties for missing the AVD submission
   deadline (maybe push it back to as close to the class timeslot is realistic to
   avoid any "it's ok if you miss the deadline, as long as it's in 30mins before
