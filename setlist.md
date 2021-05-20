@@ -1,6 +1,6 @@
 ---
 title: LENS '21 final gig setlist
-published: false
+hidden: true
 ---
 
 ## Setlist
