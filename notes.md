@@ -39,3 +39,17 @@ class is taught in the future.
 
 - Make sure you book the end-of-semester gig (in a cool venue) as early as
   possible.
+
+- I removed the lecture slides (revealify) from the website by:
+
+  1. changing the top-level folder from `_lectures` to `lectures`
+  2. removing the collection stuff from `_config.yml`
+  3. setting `published: false` in `lectures/index.md`
+  4. fixing al the broken links caused by steps 1--3
+
+  Note: this wasn't because the lectures were bad, it was mainly because we
+  didn't use them this year and the only (easy) way to remove the _Lectures_ tab
+  from the navbar was to remove the collection entirely (and students were
+  getting a bit confused). In addition, some of the lecture content was
+  incorporated in to the workshop pages anyway. Still, if we want to re-enable
+  those lecture slides in the future, we just need to reverse the steps above.

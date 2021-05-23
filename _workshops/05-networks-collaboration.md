@@ -14,7 +14,7 @@ aspect of the sound (note the longer duration for group AVDs)
 
 This is the first **group AV diary** (although you've been making music together
 in the ad-hoc workshop ensembles since week 2). As usual, we'll [spin the
-wheel]({% link _lectures/group-picker-wheel.md %}) to assign people into groups
+wheel]({% link lectures/group-picker-wheel.md %}) to assign people into groups
 during the [week 4 workshop]({% link _workshops/04-envelopes-note-structure.md
 %}).
 

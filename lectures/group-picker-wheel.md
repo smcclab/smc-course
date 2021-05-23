@@ -1,6 +1,7 @@
 ---
 title: LENS'21 group picker
 permalink: /group-picker-wheel/
+layout: reveal
 ---
 
 ## Group picker wheel

@@ -12,7 +12,7 @@ summary: "Practice & feedback for final performances"
 This week we'll have space in the workshop for you to practice your final LENS
 performances. Half the class will go this week, the other half the next week
 (the exact order will be determined by [spinning the wheel]({% link
-_lectures/group-picker-wheel.md %}), as usual).
+lectures/group-picker-wheel.md %}), as usual).
 
 After the performances we'll have a discussion about our works-in-progress in
 relation to the [marking criteria]({% link _deliverables/03-lens-performance.md

@@ -225,8 +225,7 @@ website.
 
 Feel free to install some [computer music software]({% link
 _resources/02-tools.md %}) and start playing around with it, you can also browse
-our [lecture]({% link _lectures/index.md %}) and [workshop]({% link
-_workshops/index.md %}) material.
+our [workshop]({% link _workshops/index.md %}) material.
 
 ## I've got friends who are keen as well, what should I do?
 

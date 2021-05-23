@@ -67,10 +67,6 @@ collections:
     output: true
     display_order: 2
     permalink: /deliverables/:path/
-  lectures:
-    output: true
-    display_order: 3
-    permalink: /lectures/:path/
   resources:
     output: true
     display_order: 4

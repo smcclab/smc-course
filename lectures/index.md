@@ -2,7 +2,7 @@
 title: Lectures
 layout: default
 permalink: /lectures/
-hidden: true
+published: false
 ---
 
 {% include toc.html %}
@@ -20,8 +20,8 @@ case it'll be on this page.
 
 {:.warn-box}
 
-Some of these slide decks haven't been updated yet for 2021---that'll happen
-ASAP.
+We didn't use these slides in 2021, although some of the content was
+incorporated into the weekly [workshop]({% link _workshops/index.md %}) content.
 
 1. [Welcome to LENS]({% link _lectures/01-lens-welcome.md %})
 2. [Digital Synthesis with Pure
