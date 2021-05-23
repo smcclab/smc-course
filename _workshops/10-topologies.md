@@ -1,5 +1,6 @@
 ---
 title: "Week 10: topologies"
+summary: "Thinking about the parts of your performance and how they fit together"
 ---
 
 # {{ page.title }}

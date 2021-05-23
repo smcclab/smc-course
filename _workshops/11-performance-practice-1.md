@@ -1,5 +1,6 @@
 ---
 title: "Week 11: performance practice I"
+summary: "Practice & feedback for final performances"
 ---
 
 # {{ page.title }}
