@@ -3,21 +3,36 @@ title: LENS '21 final gig
 permalink: /gig-setlist/
 layout: reveal
 hidden: true
+setlist:
+  - artist: Chamith
+    feat: Josh
+  - artist: Caleb
+    feat: Yichen/George/Mike/Obi
+  - artist: Max
+    feat: Cham
+  - artist: Josh
+    feat: Max
+  - artist: Kai
+    feat: Rhys/Mike
+  - artist: George
+    feat: Yichen/Caleb
+  - artist: Mike
+    feat: Kai
+  - artist: Rhys
+    feat: Kai
+  - artist: Obi
+    feat: Rhys/Mike
+  - artist: Yichen
+    feat: George/Caleb
 ---
 
-## Setlist
+{% include slides/title.html %}
 
-| artist         | feat.                  | energy | style      |
-|----------------|------------------------|--------|------------|
-| **Ben**        |                        | high   | beat-based |
-| **Chamith**    | Josh                   | low    | beat-based |
-| **Caleb**      | Yichen/George/Mike/Obi | low    | textural   |
-| **Max**        | Cham                   | low    | beat-based |
-| **Josho**      | Max                    | low    | beat-based |
-| _intermission_ |                        |        |            |
-| **Kai**        | Rhys/Mike              | high   | beat-based |
-| **George**     | Yichen/Caleb           | high   | beat-based |
-| **Rhys**       | Kai                    | high   | textural   |
-| **Obi**        | Rhys/Mike              | low    | textural   |
-| **Mike**       | Kai                    | low    | beat-based |
-| **Yichen**     | George/Caleb           | low    | textural   |
+## LENS '21 final gig setlist
+
+<table class="r-fit">
+{% for set in page.setlist %}
+<tr><td><strong>{{ set.artist }}</strong> feat. {{ set.feat }}</td></tr>
+{% endfor %}
+<table>
+
