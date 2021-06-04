@@ -34,5 +34,22 @@ setlist:
 {% for set in page.setlist %}
 <tr><td><strong>{{ set.artist }}</strong> feat. {{ set.feat }}</td></tr>
 {% endfor %}
-<table>
+</table>
 
+{% for set in page.setlist %}
+{% unless forloop.last %}
+
+<section class="center">
+
+<div class="r-fit-text">
+<p> <em>previous:</em> <strong>{{ page.setlist[forloop.index0].artist }}</strong> <em>feat.</em> {{ page.setlist[forloop.index0].feat }}</p>
+
+<p>&nbsp;</p>
+
+<p><em>up next:</em> <strong>{{ page.setlist[forloop.index].artist }}</strong> <em>feat.</em> {{ page.setlist[forloop.index].feat }} </p>
+</div>
+
+</section>
+
+{% endunless %}
+{% endfor %}
