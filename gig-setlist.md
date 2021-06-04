@@ -26,11 +26,11 @@ setlist:
     feat: George/Caleb
 ---
 
-{% include slides/title.html %}
+{% include slides/qrcode.html link="https://cs.anu.edu.au/courses/comp2710-lens/" showlink=true %}
 
 ## LENS '21 final gig setlist
 
-<table class="r-fit">
+<table class="r-fit-text">
 {% for set in page.setlist %}
 <tr><td><strong>{{ set.artist }}</strong> feat. {{ set.feat }}</td></tr>
 {% endfor %}
@@ -53,3 +53,5 @@ setlist:
 
 {% endunless %}
 {% endfor %}
+
+{% include slides/qrcode.html link="https://cs.anu.edu.au/courses/comp2710-lens/" showlink=true %}
