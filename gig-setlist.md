@@ -1,5 +1,7 @@
 ---
-title: LENS '21 final gig setlist
+title: LENS '21 final gig
+permalink: /gig-setlist/
+layout: reveal
 hidden: true
 ---
 
