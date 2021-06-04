@@ -28,7 +28,7 @@ setlist:
 
 {% include slides/qrcode.html link="https://cs.anu.edu.au/courses/comp2710-lens/" showlink=true %}
 
-## LENS '21 final gig setlist
+## LENS '21 setlist
 
 <table class="r-fit-text">
 {% for set in page.setlist %}
