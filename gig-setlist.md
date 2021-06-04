@@ -50,4 +50,4 @@ setlist:
 {% endunless %}
 {% endfor %}
 
-{% include slides/qrcode.html link="https://cs.anu.edu.au/courses/comp2710-lens/" showlink=true %}
+<!-- TODO put smoke gig video with LENS link -->
