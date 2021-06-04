@@ -39,15 +39,11 @@ setlist:
 {% for set in page.setlist %}
 {% unless forloop.last %}
 
-<section class="center">
+<section class="center" data-background-image="{{site.baseurl}}/assets/lens2021-final-gig-poster.jpg" data-background-size="contain" data-background-color="#d2d9f5" style="font-size: 1.4em;">
 
-<div class="r-fit-text">
-<p> <em>previous:</em> <strong>{{ page.setlist[forloop.index0].artist }}</strong> <em>feat.</em> {{ page.setlist[forloop.index0].feat }}</p>
+<p style="margin-bottom: 1em;"> <em>previous:</em>&nbsp;<strong>{{ page.setlist[forloop.index0].artist }}</strong>&nbsp;<em>feat.</em>&nbsp;{{ page.setlist[forloop.index0].feat }}</p>
 
-<p>&nbsp;</p>
-
-<p><em>up next:</em> <strong>{{ page.setlist[forloop.index].artist }}</strong> <em>feat.</em> {{ page.setlist[forloop.index].feat }} </p>
-</div>
+<p><em>up next:</em>&nbsp;<strong>{{ page.setlist[forloop.index].artist }}</strong>&nbsp;<em>feat.</em>&nbsp;{{ page.setlist[forloop.index].feat }} </p>
 
 </section>
 
