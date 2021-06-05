@@ -26,8 +26,6 @@ setlist:
     feat: George/Caleb
 ---
 
-{% include slides/qrcode.html link="https://cs.anu.edu.au/courses/comp2710-lens/" showlink=true %}
-
 <section data-background-color="black">
 <video class="r-stretch" data-autoplay controls src="{{site.baseurl}}/assets/resources/smoke.mp4"></video>
 </section>
@@ -82,4 +80,8 @@ setlist:
 {% endunless %}
 {% endfor %}
 
-<!-- TODO put smoke gig video with LENS link -->
+{% include slides/impact.html %}
+
+thanks.
+
+{% include slides/qrcode.html link="https://cs.anu.edu.au/courses/comp2710-lens/" showlink=true %}
