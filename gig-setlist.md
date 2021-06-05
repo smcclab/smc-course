@@ -30,7 +30,7 @@ setlist:
 
 ## LENS '21 setlist
 
-<table class="r-fit-text">
+<table class="r-stretch">
 {% for set in page.setlist %}
 <tr><td><strong>{{ set.artist }}</strong> feat. {{ set.feat }}</td></tr>
 {% endfor %}
@@ -39,9 +39,11 @@ setlist:
 {% for set in page.setlist %}
 {% unless forloop.last %}
 
-<section class="center" data-background-image="{{site.baseurl}}/assets/lens2021-final-gig-poster.jpg" data-background-size="contain" data-background-color="#d2d9f5" style="font-size: 1.4em;">
+<section style="color: white; font-size: 1.4em;" data-background-color="black">
 
-<p style="margin-bottom: 1em;"> <em>previous:</em>&nbsp;<strong>{{ page.setlist[forloop.index0].artist }}</strong>&nbsp;<em>feat.</em>&nbsp;{{ page.setlist[forloop.index0].feat }}</p>
+<video class="r-stretch" data-autoplay controls src="{{site.baseurl}}/assets/resources/lens-2020.mp4"></video>
+
+<p> <em>previous:</em>&nbsp;<strong>{{ page.setlist[forloop.index0].artist }}</strong>&nbsp;<em>feat.</em>&nbsp;{{ page.setlist[forloop.index0].feat }}</p>
 
 <p><em>up next:</em>&nbsp;<strong>{{ page.setlist[forloop.index].artist }}</strong>&nbsp;<em>feat.</em>&nbsp;{{ page.setlist[forloop.index].feat }} </p>
 
