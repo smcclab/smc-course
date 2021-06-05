@@ -28,6 +28,10 @@ setlist:
 
 {% include slides/qrcode.html link="https://cs.anu.edu.au/courses/comp2710-lens/" showlink=true %}
 
+<section data-background-color="black">
+<video class="r-stretch" data-autoplay controls src="{{site.baseurl}}/assets/resources/smoke.mp4"></video>
+</section>
+
 ## LENS '21 setlist
 
 <table class="r-stretch">
