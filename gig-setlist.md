@@ -36,31 +36,42 @@ setlist:
 {% endfor %}
 </table>
 
+<style>
+.upnext-box {
+  position: fixed;
+  bottom: 10vh;
+}
+.upnext-box {
+  font-size: 2em;
+}
+.upnext-box .desc {
+  font-style: italic;
+}
+.upnext-box .artist {
+  font-weight: 900;
+  color: white;
+  background-color: #222;
+  padding: 0.2em;
+  border-radius: 0.1em;
+}
+.upnext-box {
+  background-color: #ffffffaa;
+  padding: 0.2em 0.4em;
+  line-height: 2;
+}
+</style>
+
 {% for set in page.setlist %}
 {% unless forloop.last %}
 
 <section data-background-color="black">
 
-<style>
-.upnext-box {
-  font-size: 1.4em;
-  position: fixed;
-  bottom: 10vh;
-}
-.upnext-box p {
-  background-color: #ffffffaa;
-  display: table;
-  padding: 0.2em 0.4em;
-}
-</style>
-
 <video class="r-stretch" data-autoplay controls src="{{site.baseurl}}/assets/resources/lens-2020.mp4"></video>
 
-<div class="upnext-box">
-<p> <em>previous:</em>&nbsp;<strong>{{ page.setlist[forloop.index0].artist }}</strong>&nbsp;<em>feat.</em>&nbsp;{{ page.setlist[forloop.index0].feat }}</p>
-
-<p><em>up next:</em>&nbsp;<strong>{{ page.setlist[forloop.index].artist }}</strong>&nbsp;<em>feat.</em>&nbsp;{{ page.setlist[forloop.index].feat }} </p>
-</div>
+<p class="upnext-box">
+<span class="desc">next:</span> <span class="artist">{{page.setlist[forloop.index].artist}}</span><br>
+<span class="feat">feat.&nbsp;{{ page.setlist[forloop.index].feat }}</span>
+</p>
 
 </section>
 
