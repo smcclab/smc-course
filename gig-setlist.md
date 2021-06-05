@@ -39,13 +39,28 @@ setlist:
 {% for set in page.setlist %}
 {% unless forloop.last %}
 
-<section style="color: white; font-size: 1.4em;" data-background-color="black">
+<section data-background-color="black">
+
+<style>
+.upnext-box {
+  font-size: 1.4em;
+  position: fixed;
+  bottom: 10vh;
+}
+.upnext-box p {
+  background-color: #ffffffaa;
+  display: table;
+  padding: 0.2em 0.4em;
+}
+</style>
 
 <video class="r-stretch" data-autoplay controls src="{{site.baseurl}}/assets/resources/lens-2020.mp4"></video>
 
+<div class="upnext-box">
 <p> <em>previous:</em>&nbsp;<strong>{{ page.setlist[forloop.index0].artist }}</strong>&nbsp;<em>feat.</em>&nbsp;{{ page.setlist[forloop.index0].feat }}</p>
 
 <p><em>up next:</em>&nbsp;<strong>{{ page.setlist[forloop.index].artist }}</strong>&nbsp;<em>feat.</em>&nbsp;{{ page.setlist[forloop.index].feat }} </p>
+</div>
 
 </section>
 
