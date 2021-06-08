@@ -1,5 +1,5 @@
 ---
-title: "Week 11: performance practice I"
+title: "Week 11: performance practice 1"
 summary: "Practice & feedback for final performances"
 ---
 

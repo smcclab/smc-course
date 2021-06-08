@@ -1,5 +1,5 @@
 ---
-title: "Week 12: performance practice II"
+title: "Week 12: performance practice 2"
 summary: "Practice & feedback for final performances"
 ---
 
