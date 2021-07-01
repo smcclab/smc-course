@@ -4,18 +4,17 @@ hidden: true
 ---
 
 {:.info-box}
-**The 2021 LENS final gig is on Sunday June 6 2pm--6pm at [sideway music
-bar](https://sidewaybc.com) (18+ gig). Come along see what the LENS students
-have been up to this semester!**
+**The 2021 LENS final gig was on Sunday June 6 2pm--6pm at [sideway music
+bar](https://sidewaybc.com) (18+ gig). The gig video will be up on the
+[LENS](https://www.youtube.com/channel/UCIU6SqIS02GJlnLOPqlwmpA) ASAP.**
 
 ![LENS Banner]({% link assets/facebook-banner.png %})
 
 <div class="info-box" markdown="1">
 
-This is the _LENS: ANU Laptop Ensemble_ course website. The course is currently
-running, and you can see the LENS '21 students' work in progress through the
-[LENS Youtube
-Channel](https://www.youtube.com/channel/UCIU6SqIS02GJlnLOPqlwmpA).
+This is the _LENS: ANU Laptop Ensemble_ course website. The course has now
+finished for the year, and you can see the LENS '21 students' work on the [LENS
+Youtube Channel](https://www.youtube.com/channel/UCIU6SqIS02GJlnLOPqlwmpA).
 
 If you're an ANU student and you'd like to be part of LENS in the future, then
 bookmark this page and come back around January '22---the course will be
