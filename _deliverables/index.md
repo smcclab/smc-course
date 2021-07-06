@@ -4,8 +4,6 @@ permalink: /deliverables/
 hidden: true
 ---
 
-# {{ page.title }}
-
 Half of your assessment for this course is based on your analysis & reflection
 on the key computer music concepts presented in the course, as demonstrated
 through your [portfolio]({% link _deliverables/01-audiovisual-diary.md %}) (30%)
@@ -21,5 +19,3 @@ _deliverables/03-lens-performance.md %}) at the end of semester.
 | [AV diary portfolio]({% link _deliverables/01-audiovisual-diary.md %}#portfolio)         | Monday of week 6 (Mar 29) & week 10 (May 14) | 15% + 15% = 30%                |
 | [LENS demo day]({% link _deliverables/02-demo-day.md %})                                 | Thursday May 6 (week 9)                  | 20%                            |
 | [LENS performance]({% link _deliverables/03-lens-performance.md %})                      | Sunday June 6                              | 50%                            |
-
-{% include postlist.html posts=site.deliverables %}

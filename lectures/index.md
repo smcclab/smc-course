@@ -7,8 +7,6 @@ published: false
 
 {% include toc.html %}
 
-# {{ page.title }}
-
 {:.info-box}
 
 Laptop Ensemble is a "flipped mode" class (as [described in the FAQ]({% link

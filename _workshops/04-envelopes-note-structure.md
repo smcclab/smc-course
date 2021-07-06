@@ -3,8 +3,6 @@ title: "Week 4: envelopes & note structure"
 summary: shaping sound in the short (and long) term
 ---
 
-# {{ page.title }}
-
 {:.diary-provocation-box}
 
 **Solo AVD**: with a _single_ sound source, create a piece using envelopes

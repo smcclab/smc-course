@@ -6,8 +6,6 @@ summary:
 permalink: /deliverables/demo-day/
 ---
 
-# {{ page.title }}
-
 {% include toc.html %}
 
 ## Outline

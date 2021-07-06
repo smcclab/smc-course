@@ -4,8 +4,6 @@ summary: Your opportunity to make stuff for inspo and discussion in class.
 permalink: /deliverables/audiovisual-diary/
 ---
 
-# {{ page.title }}
-
 {% include toc.html %}
 
 ## Outline

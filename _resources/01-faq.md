@@ -4,8 +4,6 @@ summary: Some questions which come up, well... frequently
 permalink: /resources/faq/
 ---
 
-# {{ page.title }}
-
 {:.info-box}
 
 This is the course FAQ---we'll update it as the semester goes along.

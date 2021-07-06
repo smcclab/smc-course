@@ -3,8 +3,6 @@ title: "Week 1: hello sine"
 summary: your first beeps and boops
 ---
 
-# {{ page.title }}
-
 There isn't much pre-reading for week 1, since the class hasn't really started
 yet. The main purpose of the first workshop is to get [Pd]({% link
 _resources/02-tools.md %}#pure-data) up and running on everyone's laptop---because

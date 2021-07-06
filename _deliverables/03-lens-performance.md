@@ -4,8 +4,6 @@ summary: This is it - your chance to make some noise.
 permalink: /deliverables/lens-performance/
 ---
 
-# {{ page.title }}
-
 {% include toc.html %}
 
 ## Outline

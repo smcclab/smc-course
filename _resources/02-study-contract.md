@@ -10,8 +10,6 @@ hidden: true
 }
 </style>
 
-# {{ page.title }}
-
 ## Section A (Students and Supervisors) {#section-a}
 
 <style>

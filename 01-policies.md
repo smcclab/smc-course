@@ -3,8 +3,6 @@ title: Policies
 permalink: /policies/
 ---
 
-# {{ page.title }}
-
 {% include toc.html %}
 
 ## Communication {#communication}

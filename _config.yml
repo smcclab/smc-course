@@ -11,82 +11,35 @@
 # Site Info #
 #############
 
+title: Laptop Ensemble
+short_title: COMP2710/COMP6470
+
+description: Homepage of the ANU Laptop Ensemble
+url: https://cs.anu.edu.au
+date_format: "%b %-d, %Y"
 # sub-path of your site (/courses/COMPXXXX)
 baseurl: "/courses/comp2710-lens"
 
-# the base hostname & protocol for your site (generally leave as-is)
-url: ""
-
-# the default reveal theme used by the revealify plugin
-revealify:
-  theme: assets/reveal.js/anu.scss
-
-markdown: kramdown
-kramdown:
-  toc_levels: "2,3"
-
-cecs:
-  # site name (in words, e.g. the full course name)
-  title: Laptop Ensemble
-
-  # short site name (e.g. COMPXXXX)
-  short_title: COMP2710/COMP6470
-
-  # your name and email in here
-  page_contact: Ben Swift
-  page_contact_email: ben.swift@anu.edu.au
-
-  # These are for the standard ANU Footer
-  responsible_officer: Head of School
-  responsible_officer_email: head.cs@cecs.anu.edu.au
-
-  # Configuration for the "News" sidebar which shows up if your site has any posts.
-  news:
-    sidebar_length: 3 # how many posts to show in the sidebar
-    view_more_url: "/news" # where to point people who want to see the rest of the posts
-
-  # include a CC (BY-NC-SA 4.0) licence in the site footer
-  cc_license: true
-
-  # populate the menu with links to related sites
-  # (feel free to delete the existing ones as well)
-  related_sites:
-    - name: CS Homepage
-      url: https://cs.anu.edu.au
-    - name: Music Homepage
-      url: https://music.cass.anu.edu.au
-    - name: Current students
-      url: https://www.anu.edu.au/study
+theme: jekyll-theme-anu
 
 collections:
   workshops:
     output: true
-    display_order: 1
     permalink: /workshops/:path/
   deliverables:
     output: true
-    display_order: 2
     permalink: /deliverables/:path/
   resources:
     output: true
-    display_order: 4
     permalink: /resources/:path/
 
-##################
-# build settings #
-##################
-
-# files/folders to exclude from the build process
-# these ones are already excluded by default anyway, but they're here as an example
-exclude:
-  - README.md
-  - Gemfile
-  - Gemfile.lock
-
-theme: jekyll-theme-cecs
-
-sass:
-  style: compressed
+menu:
+  - name: Workshops
+    page: _workshops/index.md
+  - name: Deliverables
+    page: _deliverables/index.md
+  - name: Resources
+    page: _resources/index.md
 
 # default layouts for different pages
 defaults:
@@ -95,12 +48,17 @@ defaults:
     values:
       layout: default
   - scope:
-      path: _posts
-    values:
-      categories: news
-      show_date: true
-      show_time: true
-  - scope:
       path: _lectures
     values:
       layout: reveal
+
+# the default reveal theme used by the revealify plugin
+revealify:
+  theme: assets/reveal.js/anu.scss
+
+## moar Jekyll config
+markdown: kramdown
+kramdown:
+  toc_levels: "2,3"
+sass:
+  style: compressed

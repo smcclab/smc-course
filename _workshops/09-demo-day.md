@@ -3,8 +3,6 @@ title: "Week 9: demo day"
 summary: "Show the rest of the LENS what you're working on for your end-of-semester performance."
 ---
 
-# {{ page.title }}
-
 {:.diary-provocation-box}
 
 No AVD due this week, since it's demo day.

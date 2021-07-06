@@ -6,8 +6,6 @@ summary:
 permalink: /resources/tools/
 ---
 
-# {{ page.title }}
-
 {% include toc.html %}
 
 {:.info-box}

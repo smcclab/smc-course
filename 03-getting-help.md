@@ -3,8 +3,6 @@ title: Getting help
 permalink: /help/
 ---
 
-# {{ page.title }}
-
 Here are a few more places you can go and people you can talk to.
 
 ## Course reps

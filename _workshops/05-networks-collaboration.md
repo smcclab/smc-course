@@ -3,8 +3,6 @@ title: "Week 5: networks & collaboration"
 summary: making computer music with multiple computers & musicians
 ---
 
-# {{ page.title }}
-
 {:.diary-provocation-box}
 
 **Group AVD**: create a 3min piece where every member controls a different

@@ -4,8 +4,6 @@ permalink: /workshops/
 hidden: true
 ---
 
-# {{ page.title }}
-
 The primary weekly contact hours are the 2hr workshop session from **3pm--5pm
 Thursday** in [Marie Reay 4.04](https://www.anu.edu.au/maps#show=108136). If
 you're enrolled in the class, you must be there (in person) every week.
@@ -34,5 +32,3 @@ The timeline for each workshop is:
 | 15:50 | small group jam activity                   |
 | 16:20 | group performances                         |
 | 16:40 | discussion, feedback, questions on notice  |
-
-{% include postlist.html posts=site.workshops %}

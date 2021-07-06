@@ -3,8 +3,6 @@ title: "Week 6: interfaces"
 summary: Building interfaces for musical expression
 ---
 
-# {{ page.title }}
-
 You've implicitly been building interfaces every week (every Pd patch is an
 interface, and so is even a piece of live code that you interact with during a
 performance). The field of _New Interfaces for Musical Expression_ (NIME) is a

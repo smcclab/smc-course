@@ -3,8 +3,6 @@ title: "Week 7: algorithmic composition 1"
 summary: triggering events in pitch & time using algorithmic processes
 ---
 
-# {{ page.title }}
-
 {:.diary-provocation-box}
 
 **Solo AVD**: write a piece with three algorithmic parts: drums, bass and lead

@@ -3,8 +3,6 @@ title: "Week 10: topologies"
 summary: "Thinking about the parts of your performance and how they fit together"
 ---
 
-# {{ page.title }}
-
 {:.diary-provocation-box}
 
 **Solo AVD**: imitation is the sincerest form of flattery---do something in the
