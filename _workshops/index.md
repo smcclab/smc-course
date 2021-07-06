@@ -40,9 +40,8 @@ The timeline for each workshop is:
     {% assign title = workshop.title %}
     {% assign link_url = workshop.url | prepend: site.baseurl %}
     {% assign text = workshop.summary | strip_html %}
-    {% assign image_url = news.image_url | default: "/assets/images/placeholder1.jpeg" | prepend: site.baseurl %}
 
-    {% include card.html title=title link_url=link_url text=text tag=tag image_url=image_url image_alt="close-up of a circuit board" %}
+    {% include card.html title=title link_url=link_url text=text tag=tag %}
   {% endunless %}
 {% endfor %}
 </div>
