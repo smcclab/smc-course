@@ -32,3 +32,17 @@ The timeline for each workshop is:
 | 15:50 | small group jam activity                   |
 | 16:20 | group performances                         |
 | 16:40 | discussion, feedback, questions on notice  |
+
+<div class="grid grid--4">
+{% for workshop in site.workshops %}
+    {% unless workshop.hidden %}
+    {% assign tag = workshop.title | split: ":" | first %}
+    {% assign title = workshop.title %}
+    {% assign link_url = workshop.url | prepend: site.baseurl %}
+    {% assign text = workshop.summary | strip_html %}
+    {% assign image_url = news.image_url | default: "/assets/images/placeholder1.jpeg" | prepend: site.baseurl %}
+
+    {% include card.html title=title link_url=link_url text=text tag=tag image_url=image_url image_alt="close-up of a circuit board" %}
+  {% endunless %}
+{% endfor %}
+</div>
