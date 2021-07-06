@@ -33,15 +33,4 @@ The timeline for each workshop is:
 | 16:20 | group performances                         |
 | 16:40 | discussion, feedback, questions on notice  |
 
-<div class="grid grid--4">
-{% for workshop in site.workshops %}
-    {% unless workshop.hidden %}
-    {% assign tag = workshop.title | split: ":" | first %}
-    {% assign title = workshop.title %}
-    {% assign link_url = workshop.url | prepend: site.baseurl %}
-    {% assign text = workshop.summary | strip_html %}
-
-    {% include card.html title=title link_url=link_url text=text tag=tag %}
-  {% endunless %}
-{% endfor %}
-</div>
+{% include cardlist.html cards=site.workshops %}
