@@ -1,4 +1,35 @@
-image: benswift/jekyll-cecs-builder:0.1.0
+image: ruby:3.0.1
+
+variables:
+  STAGING_DIR: /srv/gitlab-ce-pages/staging
+
+# this step taken from https://docs.gitlab.com/ee/ci/ssh_keys/
+before_script:
+  ##
+  ## Install ssh-agent if not already installed, it is required by Docker.
+  ## (change apt-get to yum if you use an RPM-based image)
+  ##
+  - 'command -v ssh-agent >/dev/null || ( apt-get update -y && apt-get install openssh-client -y )'
+
+  ##
+  ## Run ssh-agent (inside the build environment)
+  ##
+  - eval $(ssh-agent -s)
+
+  ##
+  ## Add the SSH key stored in SSH_PRIVATE_KEY variable to the agent store
+  ## We're using tr to fix line endings which makes ed25519 keys work
+  ## without extra base64 encoding.
+  ## https://gitlab.com/gitlab-examples/ssh-private-key/issues/1#note_48526556
+  ##
+  - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
+
+  ##
+  ## Create the SSH directory and give it the right permissions
+  ##
+  - mkdir -p ~/.ssh
+  - chmod 700 ~/.ssh
+  - ssh-keyscan -t rsa gitlab.anu.edu.au >> ~/.ssh/known_hosts
 
 page-build:
   tags:
@@ -6,22 +37,18 @@ page-build:
   stage: build
   script:
     - bundle install
-    - bundle exec jekyll build -d
-      /srv/gitlab-ce-pages/staging/$CI_PIPELINE_ID/$CI_BUILD_REF_NAME/$CI_PROJECT_PATH
+    - bundle exec jekyll build -d $STAGING_DIR/$CI_PIPELINE_ID/$CI_BUILD_REF_NAME/$CI_PROJECT_PATH
   only:
     - master
 
 page-deploy:
   tags:
-    - Pages
+  - Pages
   stage: deploy
   script:
-    - mkdir -p
-      /srv/gitlab-ce-pages/staging/$CI_BUILD_ID/$CI_BUILD_REF_NAME/`dirname
-      $CI_PROJECT_PATH`
-    - mv
-      /srv/gitlab-ce-pages/staging/$CI_PIPELINE_ID/$CI_BUILD_REF_NAME/$CI_PROJECT_PATH
-      /srv/gitlab-ce-pages/staging/$CI_BUILD_ID/$CI_BUILD_REF_NAME/$CI_PROJECT_PATH
-    - rm -rf /srv/gitlab-ce-pages/staging/$CI_PIPELINE_ID
+    - mkdir -p $STAGING_DIR/$CI_BUILD_ID/$CI_BUILD_REF_NAME/`dirname $CI_PROJECT_PATH`
+    - mv $STAGING_DIR/$CI_PIPELINE_ID/$CI_BUILD_REF_NAME/$CI_PROJECT_PATH $STAGING_DIR/$CI_BUILD_ID/$CI_BUILD_REF_NAME/$CI_PROJECT_PATH
+    - rm -rf $STAGING_DIR/$CI_PIPELINE_ID
   only:
     - master
+
