@@ -3,12 +3,9 @@ title: ANU Laptop Ensemble (LENS)
 hidden: true
 ---
 
-{:.info-box}
 The 2021 LENS final gig was on Sunday June 6 2pm--6pm at [sideway music
-bar](https://sidewaybc.com). The gig video will be up on the
-[LENS](https://www.youtube.com/channel/UCIU6SqIS02GJlnLOPqlwmpA) ASAP.
-
-![LENS Banner]({% link assets/facebook-banner.png %})
+bar](https://sidewaybc.com). The gig video will be up on the [LENS YouTube
+channel](https://www.youtube.com/channel/UCIU6SqIS02GJlnLOPqlwmpA) ASAP.
 
 <div class="info-box" markdown="1">
 
