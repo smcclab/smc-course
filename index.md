@@ -1,20 +1,26 @@
 ---
 title: ANU Laptop Ensemble (LENS)
+banner: /assets/facebook-banner.png
 hidden: true
 ---
 
-The 2021 LENS final gig was on Sunday June 6 2pm--6pm at [sideway music
-bar](https://sidewaybc.com). The gig video will be up on the [LENS YouTube
-channel](https://www.youtube.com/channel/UCIU6SqIS02GJlnLOPqlwmpA) ASAP.
+<style>
+.highlight {
+  background-color: rgb(245, 237, 222);
+  border-left: 0.4em solid rgb(190, 131, 14);
+  padding: 1em 1em;
+  margin: 1em 0;
+}
+</style>
 
-<div class="info-box" markdown="1">
+<div class="highlight" markdown="1">
 
 This is the _LENS: ANU Laptop Ensemble_ course website. The course has now
 finished for the year, and you can see the LENS '21 students' work on the [LENS
 Youtube Channel](https://www.youtube.com/channel/UCIU6SqIS02GJlnLOPqlwmpA).
 
 If you're an ANU student and you'd like to be part of LENS in the future, then
-bookmark this page and come back around January '22---the course will be
+bookmark this page and come back around January 2022---the course will be
 starting up again in Semester 1 2022.
 
 If you've got other questions about the Laptop Ensemble, e.g. upcoming gigs or
@@ -22,10 +28,6 @@ booking LENS for your next event, then [email Ben
 Swift](mailto:ben.swift@anu.edu.au).
 
 </div>
-
-# ANU Laptop Ensemble
-
-## Semester 2 2021
 
 Do you want to make music with your computer? Do you want create new kinds of
 musical instruments? Do you want to be a part of a laptop band? This is the
