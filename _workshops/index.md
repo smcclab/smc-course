@@ -33,4 +33,6 @@ The timeline for each workshop is:
 | 16:20 | group performances                         |
 | 16:40 | discussion, feedback, questions on notice  |
 
+## Workshop content
+
 {% include cardlist.html cards=site.workshops %}
