@@ -1,6 +1,6 @@
 GIT
   remote: git@gitlab.anu.edu.au:website-neo/jekyll-plugins-anu.git
-  revision: 6c549a0f1fb177c690d62110e386a8b821a8ec11
+  revision: 5ecf765144b6ed2a0d4d7944c9dc3dc556e940a2
   branch: master
   specs:
     jekyll-plugins-anu (0.1.0)
@@ -11,7 +11,7 @@ GIT
 
 GIT
   remote: git@gitlab.anu.edu.au:website-neo/jekyll-theme-anu.git
-  revision: d381261774084ec15663dbb361f295199782ddf3
+  revision: 1a752329ee99062a5f44bb84ed3e4f70c6ab1e5c
   branch: master
   specs:
     jekyll-theme-anu (0.1.0)
