@@ -22,6 +22,14 @@ baseurl: "/courses/comp2710-lens"
 
 theme: jekyll-theme-anu
 
+contacts:
+  responsible_officer:
+    name: School Director
+    email: director.comp@anu.edu.au
+  page_contact:
+    name: CECS Webmaster
+    email: web.cecs@anu.edu.au
+
 collections:
   workshops:
     output: true
