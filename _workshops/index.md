@@ -24,7 +24,7 @@ The timeline for each workshop is:
 
 {:style="margin-bottom:2em;"}
 
-| time  |                                            |
+|  time | activity                                   |
 | ----- | ------------------------------------------ |
 | 14:45 | chance for pre-class questions             |
 | 15:10 | listen to that week's AV diary submissions |
