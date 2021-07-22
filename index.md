@@ -4,16 +4,7 @@ banner: /assets/facebook-banner.png
 hidden: true
 ---
 
-<style>
-.highlight {
-  background-color: rgb(245, 237, 222);
-  border-left: 0.4em solid rgb(190, 131, 14);
-  padding: 1em 1em;
-  margin: 1em 0;
-}
-</style>
-
-<div class="highlight" markdown="1">
+<div class="info-box" markdown="1">
 
 This is the _LENS: ANU Laptop Ensemble_ course website. The course has now
 finished for the year, and you can see the LENS '21 students' work in their
