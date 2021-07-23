@@ -20,4 +20,6 @@ _deliverables/03-lens-performance.md %}) at the end of semester.
 | [LENS demo day]({% link _deliverables/02-demo-day.md %})                                 | Thursday May 6 (week 9)                  | 20%                            |
 | [LENS performance]({% link _deliverables/03-lens-performance.md %})                      | Sunday June 6                              | 50%                            |
 
+## Deliverables
+
 {% include cardlist.html cards=site.deliverables %}
