@@ -64,6 +64,9 @@ defaults:
 revealify:
   theme: assets/reveal.js/anu.scss
 
+# show CC licence info in footer
+cc_licence: true
+
 ## moar Jekyll config
 markdown: kramdown
 kramdown:
