@@ -1,6 +1,6 @@
 GIT
   remote: git@gitlab.anu.edu.au:website-neo/jekyll-plugins-anu.git
-  revision: 4e3ddc07becc87fc0cb44a44cb0649bc0fd01439
+  revision: cd7eb7b1f64ba7e29ca605b3aab18dd65cff68bc
   branch: master
   specs:
     jekyll-plugins-anu (0.1.0)
@@ -11,7 +11,7 @@ GIT
 
 GIT
   remote: git@gitlab.anu.edu.au:website-neo/jekyll-theme-anu.git
-  revision: 33a3efce0b6eebacc56ef7e8bec5cd4968b3d096
+  revision: 95fffba4aa30cffec8043f89fd89ffef31622226
   branch: master
   specs:
     jekyll-theme-anu (0.1.0)
@@ -83,9 +83,9 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
-    mini_portile2 (2.5.3)
-    nokogiri (1.11.7)
-      mini_portile2 (~> 2.5.0)
+    mini_portile2 (2.6.1)
+    nokogiri (1.12.2)
+      mini_portile2 (~> 2.6.1)
       racc (~> 1.4)
     nokogumbo (2.0.5)
       nokogiri (~> 1.8, >= 1.8.4)
