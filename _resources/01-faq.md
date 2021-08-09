@@ -2,6 +2,7 @@
 title: FAQ
 summary: Some questions which come up, well... frequently
 permalink: /resources/faq/
+toc: true
 ---
 
 {:.info-box}
@@ -9,8 +10,6 @@ permalink: /resources/faq/
 This is the course FAQ---we'll update it as the semester goes along.
 
 {% include youtube.html id="24YMz90b6bo" %}
-
-{% include toc.html %}
 
 ## What's LENS?
 

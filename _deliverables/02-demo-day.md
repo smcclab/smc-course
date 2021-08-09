@@ -4,9 +4,8 @@ summary:
   Show the rest of the LENS what you're working on for your end-of-semester
   performance.
 permalink: /deliverables/demo-day/
+toc: true
 ---
-
-{% include toc.html %}
 
 ## Outline
 

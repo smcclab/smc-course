@@ -1,9 +1,8 @@
 ---
 title: Policies
 permalink: /policies/
+toc: true
 ---
-
-{% include toc.html %}
 
 ## Communication {#communication}
 

@@ -4,8 +4,6 @@ summary: What reference are suggested for Laptop Ensemble?
 permalink: /resources/bibliography/
 ---
 
-{% include toc.html %}
-
 This page has suggested reading to help support your learning. As a special
 topics course, you are expected to review the academic literature to help build
 your knowledge and understanding of sound and music computing.
