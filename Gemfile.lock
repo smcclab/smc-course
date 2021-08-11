@@ -19,10 +19,10 @@ GIT
 
 GIT
   remote: https://gitlab.cecs.anu.edu.au/lucy/jekyll-revealify-plugin.git
-  revision: 3d5d2ef6a5c59113af9f506563c5d87c26dc59da
+  revision: 97a900a3911f512b62b4460077ec180f51da3ce1
   branch: master
   specs:
-    jekyll-revealify-plugin (2.0.0.beta)
+    jekyll-revealify-plugin (2.1.0)
       jekyll
       nokogiri
 
@@ -84,7 +84,7 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
     mini_portile2 (2.6.1)
-    nokogiri (1.12.2)
+    nokogiri (1.12.3)
       mini_portile2 (~> 2.6.1)
       racc (~> 1.4)
     nokogumbo (2.0.5)
