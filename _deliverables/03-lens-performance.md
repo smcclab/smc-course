@@ -5,6 +5,9 @@ permalink: /deliverables/lens-performance/
 toc: true
 ---
 
+{:.warn-box}
+The due dates are all from S1 2021, although they will be similar next year.
+
 ## Outline
 
 - **Due date:** Sunday June 6 2pm-6pm at [sideway music bar](https://sidewaybc.com)

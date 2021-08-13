@@ -5,8 +5,7 @@ permalink: /resources/faq/
 toc: true
 ---
 
-{:.info-box}
-
+{:.warn-box}
 This is the course FAQ---we'll update it as the semester goes along.
 
 {% include youtube.html id="24YMz90b6bo" %}
@@ -26,9 +25,6 @@ Laptop Ensemble links:
 - [Youtube Channel](https://www.youtube.com/channel/UCIU6SqIS02GJlnLOPqlwmpA)
 - [Facebook Page](https://www.facebook.com/ANULaptopEnsemble/)
 
-<!-- 2018 brent/alex J2rwZFJCmHY -->
-<!-- 2020 supercut: https://youtu.be/24YMz90b6bo -->
-
 You can see more vids of the ensemble at work on their
 [YouTube channel](https://www.youtube.com/channel/UCIU6SqIS02GJlnLOPqlwmpA).
 
@@ -37,11 +33,6 @@ You can see more vids of the ensemble at work on their
 The current LENS artistic directors are [Dr. Ben Swift](https://benswift.me),
 [Dr. Alec Hunter](https://www.alexanderhunter.com.au) and
 [Dr. Charles Martin](https://charlesmartin.com.au).
-
-## It's definitely running in Semester 1, right?
-
-Yep. At one stage last year (2020) it looked like the LENS class might get
-pushed to Semester 2, but for 2021 at least it'll be running in Semester 1.
 
 ## Which ANU course code does this course run under?
 
@@ -139,7 +130,7 @@ Each week, you'll:
 In addition, over the course of the semester you'll:
 
 - create a software/hardware tool for making music in a laptop ensemble context
-- write a report explaining the design of your work
+- write a report reflecting on your design process
 - perform (live!) with your tool and ensemble classmates at the end-of-semeseter
   LENS concert
 

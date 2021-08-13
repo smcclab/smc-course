@@ -4,7 +4,7 @@ banner: /assets/facebook-banner.png
 hidden: true
 ---
 
-<div class="info-box" markdown="1">
+<div class="warn-box" markdown="1">
 
 This is the _LENS: ANU Laptop Ensemble_ course website. The course has now
 finished for the year, and you can see the LENS '21 students' work in their

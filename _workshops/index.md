@@ -4,6 +4,9 @@ permalink: /workshops/
 hidden: true
 ---
 
+{:.warn-box}
+The dates/times are all from S1 2021, although the content will be similar next year.
+
 The primary weekly contact hours are the 2hr workshop session from **3pm--5pm
 Thursday** in [Marie Reay 4.04](https://www.anu.edu.au/maps#show=108136). If
 you're enrolled in the class, you must be there (in person) every week.
