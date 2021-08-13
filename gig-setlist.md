@@ -13,7 +13,7 @@ setlist:
   - artist: Josh
     feat: Max
   - artist: Kai
-    feat: Rhys/Mike
+    feat: Rhys
   - artist: George
     feat: Yichen/Caleb
   - artist: Mike
@@ -21,7 +21,7 @@ setlist:
   - artist: Rhys
     feat: Kai
   - artist: Obi
-    feat: Rhys/Mike
+    feat: Rhys/Josh
   - artist: Yichen
     feat: George/Caleb
 ---
