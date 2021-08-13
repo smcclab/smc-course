@@ -23,6 +23,12 @@ Martin](mailto:charles.martin@anu.edu.au).
 
 </div>
 
+<div class="grid grid--3">
+{% anu_icon 003/49 %}
+{% anu_icon 006/23 %}
+{% anu_icon 006/41 %}
+</div>
+
 Do you want to make music with your computer? Do you want create new kinds of
 musical instruments? Do you want to be a part of a laptop band? This is the
 course for you!
