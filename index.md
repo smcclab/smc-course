@@ -8,8 +8,8 @@ hidden: true
 
 This is the _LENS: ANU Laptop Ensemble_ course website. The course has now
 finished for the year, and you can see the LENS '21 students' work in their
-[final gig video](https://www.youtube.com/watch?v=A0NG-T8y7gM) or elsewhere the
-[LENS Youtube
+[final gig video](https://www.youtube.com/watch?v=A0NG-T8y7gM) or elsewhere on
+the [LENS Youtube
 Channel](https://www.youtube.com/channel/UCIU6SqIS02GJlnLOPqlwmpA).
 
 If you're an ANU student and you'd like to be part of LENS in the future, then
