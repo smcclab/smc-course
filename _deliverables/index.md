@@ -4,6 +4,9 @@ permalink: /deliverables/
 hidden: true
 ---
 
+{:.warn-box}
+These due dates are all from S1 2021, although they will be similar next year.
+
 Half of your assessment for this course is based on your analysis & reflection
 on the key computer music concepts presented in the course, as demonstrated
 through your [portfolio]({% link _deliverables/01-audiovisual-diary.md %}) (30%)
