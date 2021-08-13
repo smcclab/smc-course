@@ -17,8 +17,9 @@ bookmark this page and come back around January 2022---the course will be
 starting up again in Semester 1 2022.
 
 If you've got other questions about the Laptop Ensemble, e.g. upcoming gigs or
-booking LENS for your next event, then [email Ben
-Swift](mailto:ben.swift@anu.edu.au).
+booking LENS for your next event, then email [Dr. Ben
+Swift](mailto:ben.swift@anu.edu.au) or [Dr. Charles
+Martin](mailto:charles.martin@anu.edu.au).
 
 </div>
 
