@@ -2,6 +2,7 @@
 title: ANU Laptop Ensemble (LENS)
 banner: /assets/facebook-banner.png
 hidden: true
+no_breadcrumb: true
 ---
 
 <div class="warn-box" markdown="1">
