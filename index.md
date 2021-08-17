@@ -1,11 +1,14 @@
 ---
-title: ANU Laptop Ensemble (LENS)
+title: LENS
+tagline: The ANU Laptop Ensemble
 banner: /assets/facebook-banner.png
 hidden: true
 no_breadcrumb: true
+layout: feature
 ---
 
-<div class="warn-box" markdown="1">
+<section>
+<div class="container" markdown="1">
 
 This is the _LENS: ANU Laptop Ensemble_ course website. The course has now
 finished for the year, and you can see the LENS '21 students' work in their
@@ -23,6 +26,10 @@ Swift](mailto:ben.swift@anu.edu.au) or [Dr. Charles
 Martin](mailto:charles.martin@anu.edu.au).
 
 </div>
+</section>
+
+<section>
+<div class="container" markdown="1">
 
 <div class="grid grid--3">
 {% anu_icon 003/49 %}
@@ -40,6 +47,12 @@ design**. You'll put these skills to use creating a **computer musical
 instrument**, **composition**, or **interactive media work** to perform---at a
 live gig---at the end of the course.
 
+</div>
+</section>
+
+<section>
+<div class="container" markdown="1">
+
 This course is open to students in computer science, music, art, and elsewhere
 at ANU. You should have a strong interest in making music using computers, a
 willingness to learn new approaches to music and computer programming, and be
@@ -50,3 +63,6 @@ _deliverables/03-lens-performance.md %}).
 If you've got any questions (including
 [how to enrol](resources/faq/#how-to-enrol)), the [course FAQ]({% link
 _resources/01-faq.md %}) might answer them for you.
+
+</div>
+</section>
