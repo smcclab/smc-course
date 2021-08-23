@@ -4,7 +4,6 @@ summary: configuring and playing an analogue modular synth with code
 ---
 
 {:.warn-box}
-
 **Group AVD**: start big, then "remove" things with filters & algorithms (3min
 AVD this week, because group)
 

@@ -6,7 +6,6 @@ published: false
 ---
 
 {:.info-box}
-
 Laptop Ensemble is a "flipped mode" class (as [described in the FAQ]({% link
 _resources/01-faq.md %}#what-are-the-time-commitments-for-lens)). Most of the course
 content is in the weekly [workshops]({% link _workshops/index.md

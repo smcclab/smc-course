@@ -4,7 +4,6 @@ summary: triggering events in pitch & time using algorithmic processes
 ---
 
 {:.warn-box}
-
 **Solo AVD**: write a piece with three algorithmic parts: drums, bass and lead
 
 ## Goals for this week

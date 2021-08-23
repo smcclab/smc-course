@@ -4,7 +4,6 @@ summary: "Thinking about the parts of your performance and how they fit together
 ---
 
 {:.warn-box}
-
 **Solo AVD**: imitation is the sincerest form of flattery---do something in the
 style of one of your classmates (you'll be assigned a specific classmate via
 Teams)

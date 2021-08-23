@@ -4,7 +4,6 @@ summary: working with pre-recorded sound material
 ---
 
 {:.warn-box}
-
 **Solo AVD**: create a piece using sampled sounds which says something about
 _you_
 

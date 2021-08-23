@@ -4,7 +4,6 @@ summary: "Show the rest of the LENS what you're working on for your end-of-semes
 ---
 
 {:.warn-box}
-
 No AVD due this week, since it's demo day.
 
 {:.info-box}

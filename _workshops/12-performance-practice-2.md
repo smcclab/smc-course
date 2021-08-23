@@ -4,7 +4,6 @@ summary: "Practice & feedback for final performances"
 ---
 
 {:.warn-box}
-
 **No AVD**: your AV diary entries are all done 😁
 
 This week we'll have space in the workshop for you to practice your final LENS

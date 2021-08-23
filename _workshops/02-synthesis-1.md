@@ -4,7 +4,6 @@ summary: so what types of beeps and boops can we make, actually?
 ---
 
 {:.warn-box}
-
 **Solo AVD**: create a piece which has two perceptually distinct
 waveforms/sounds
 
