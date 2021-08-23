@@ -10,16 +10,26 @@ to it.
 
 ## Audio
 
-- Mixer: Yamaha MG10XU
 - Headphone distribution amplifier: Behringer HA8000, 8 channels
 - Rode NT-USB microphone
+- 2x Shure SM58 microphone
 - 6x Audio Technica M20x headphones
 - 5x Behringer U-Phoria UM2 audio interfaces
+- Yamaha MG10XU 10-channel mixer
+- Behringer X32 rack digital mixer
+- Roland BA-330 Portable PA system
+
+## MIDI
+
+- 2x Behringer X-Touch mini MIDI controller
+- Nektar Pacer MIDI footswitch controller
 
 ### Cables
 
 - 3x stereo TRS jack to jack 3m cables
+- 2x stereo RCA cables
 - 4x stereo 3.5mm TRS to dual TRS jack adapaters.
+- 2x 10m XLR cables
 
 ## Video
 
