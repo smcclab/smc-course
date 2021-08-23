@@ -3,7 +3,7 @@ title: "Week 2: synthesis 1"
 summary: so what types of beeps and boops can we make, actually?
 ---
 
-{:.diary-provocation-box}
+{:.warn-box}
 
 **Solo AVD**: create a piece which has two perceptually distinct
 waveforms/sounds

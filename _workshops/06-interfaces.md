@@ -23,7 +23,7 @@ you have explored Pd's various bang/toggle/slider/radio/etc. objects. You can ab
 build an interface with those things, but this week you'll need to think more deeply
 about what it actually means to design an interface for your patches.
 
-{:.diary-provocation-box}
+{:.warn-box}
 
 **Solo AVD**: pick
 [someone else's patch/code from a previous workshop](https://gitlab.cecs.anu.edu.au/laptop-ensemble/2021/2021-av-diary-materials),

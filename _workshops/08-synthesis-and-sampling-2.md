@@ -3,7 +3,7 @@ title: "Week 8: synthesis & sampling 2"
 summary: configuring and playing an analogue modular synth with code
 ---
 
-{:.diary-provocation-box}
+{:.warn-box}
 
 **Group AVD**: start big, then "remove" things with filters & algorithms (3min
 AVD this week, because group)

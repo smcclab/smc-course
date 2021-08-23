@@ -3,7 +3,7 @@ title: "Week 12: performance practice 2"
 summary: "Practice & feedback for final performances"
 ---
 
-{:.diary-provocation-box}
+{:.warn-box}
 
 **No AVD**: your AV diary entries are all done 😁
 

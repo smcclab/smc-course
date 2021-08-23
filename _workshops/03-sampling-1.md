@@ -3,7 +3,7 @@ title: "Week 3: sampling 1"
 summary: working with pre-recorded sound material
 ---
 
-{:.diary-provocation-box}
+{:.warn-box}
 
 **Solo AVD**: create a piece using sampled sounds which says something about
 _you_
