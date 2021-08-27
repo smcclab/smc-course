@@ -27,8 +27,8 @@ contacts:
     name: School Director
     email: director.comp@anu.edu.au
   page_contact:
-    name: CECS Webmaster
-    email: web.cecs@anu.edu.au
+    name: Ben Swift
+    email: ben.swift@anu.edu.au
 
 collections:
   workshops:
