@@ -1,6 +1,6 @@
 GIT
   remote: git@gitlab.anu.edu.au:website-neo/jekyll-plugins-anu.git
-  revision: cd7eb7b1f64ba7e29ca605b3aab18dd65cff68bc
+  revision: 9327193675941797f25dffb906a6e34da120c06a
   branch: master
   specs:
     jekyll-plugins-anu (0.1.0)
@@ -11,7 +11,7 @@ GIT
 
 GIT
   remote: git@gitlab.anu.edu.au:website-neo/jekyll-theme-anu.git
-  revision: 6ab1913c491637c15533d26570cf1cce382c3063
+  revision: 686c18f88a2c71445e573f517e02baa201c5e801
   branch: master
   specs:
     jekyll-theme-anu (0.1.0)
@@ -79,12 +79,12 @@ GEM
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     liquid (4.0.3)
-    listen (3.6.0)
+    listen (3.7.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
     mini_portile2 (2.6.1)
-    nokogiri (1.12.3)
+    nokogiri (1.12.4)
       mini_portile2 (~> 2.6.1)
       racc (~> 1.4)
     nokogumbo (2.0.5)
