@@ -11,7 +11,7 @@ GIT
 
 GIT
   remote: git@gitlab.anu.edu.au:website-neo/jekyll-theme-anu.git
-  revision: 4657652dfef5ca11e2ec0cefecff90f048fb14d1
+  revision: c042dc964976d00760d2e806c8bc8911ebdcdf25
   branch: master
   specs:
     jekyll-theme-anu (0.1.0)
