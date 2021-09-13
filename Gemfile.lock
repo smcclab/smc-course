@@ -11,7 +11,7 @@ GIT
 
 GIT
   remote: git@gitlab.anu.edu.au:website-neo/jekyll-theme-anu.git
-  revision: c042dc964976d00760d2e806c8bc8911ebdcdf25
+  revision: 5e4bb6c9e121c63149c4f066d3dcd55c31b294b0
   branch: master
   specs:
     jekyll-theme-anu (0.1.0)
@@ -19,7 +19,7 @@ GIT
 
 GIT
   remote: https://gitlab.cecs.anu.edu.au/lucy/jekyll-revealify-plugin.git
-  revision: 97a900a3911f512b62b4460077ec180f51da3ce1
+  revision: b990f43a948e04f65e8b2770736ea84f42894d16
   branch: master
   specs:
     jekyll-revealify-plugin (2.1.0)
@@ -39,7 +39,7 @@ GEM
     ethon (0.14.0)
       ffi (>= 1.15.0)
     eventmachine (1.2.7)
-    ffi (1.15.3)
+    ffi (1.15.4)
     forwardable-extended (2.6.0)
     html-proofer (3.19.2)
       addressable (~> 2.3)
@@ -89,7 +89,7 @@ GEM
       racc (~> 1.4)
     nokogumbo (2.0.5)
       nokogiri (~> 1.8, >= 1.8.4)
-    parallel (1.20.1)
+    parallel (1.21.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (4.0.6)
