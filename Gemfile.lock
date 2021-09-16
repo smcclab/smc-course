@@ -1,6 +1,6 @@
 GIT
   remote: git@gitlab.anu.edu.au:website-neo/jekyll-plugins-anu.git
-  revision: 9327193675941797f25dffb906a6e34da120c06a
+  revision: dcf4c652d6dbe0e94f0c0c5573e2d1c71a06cb9f
   branch: master
   specs:
     jekyll-plugins-anu (0.1.0)
@@ -11,7 +11,7 @@ GIT
 
 GIT
   remote: git@gitlab.anu.edu.au:website-neo/jekyll-theme-anu.git
-  revision: 5e4bb6c9e121c63149c4f066d3dcd55c31b294b0
+  revision: c069434c1dc3453f7c057888fdb188d5c8153fe6
   branch: master
   specs:
     jekyll-theme-anu (0.1.0)
@@ -107,7 +107,7 @@ GEM
       unicode-display_width (~> 1.1, >= 1.1.1)
     typhoeus (1.4.0)
       ethon (>= 0.9.0)
-    unicode-display_width (1.7.0)
+    unicode-display_width (1.8.0)
     webrick (1.7.0)
     yell (2.2.2)
 
