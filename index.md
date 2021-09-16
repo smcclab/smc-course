@@ -11,14 +11,14 @@ layout: feature
 <div class="container" markdown="1">
 
 This is the _LENS: ANU Laptop Ensemble_ course website. The course has now
-finished for the year, and you can see the LENS '21 students' work in their
-[final gig video](https://www.youtube.com/watch?v=A0NG-T8y7gM) or elsewhere on
-the [LENS Youtube
+finished for the year, and you can see the LENS'21 performances in the [final
+gig video](https://www.youtube.com/watch?v=A0NG-T8y7gM) or elsewhere on the
+[LENS Youtube
 Channel](https://www.youtube.com/channel/UCIU6SqIS02GJlnLOPqlwmpA).
 
 If you're an ANU student and you'd like to be part of LENS in the future, then
-bookmark this page and come back around January 2022---the course will be
-starting up again in Semester 1 2022.
+bookmark this page and come back around June 2022---the course will be starting
+up again in Semester 2 2022 (note: not in Semester 1 as it ran in 2021).
 
 If you've got other questions about the Laptop Ensemble, e.g. upcoming gigs or
 booking LENS for your next event, then email [Dr. Ben
