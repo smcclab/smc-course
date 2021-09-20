@@ -1,5 +1,5 @@
 GIT
-  remote: git@gitlab.anu.edu.au:website-neo/jekyll-plugins-anu.git
+  remote: git@gitlab.anu.edu.au:jekyll-anu/jekyll-plugins-anu.git
   revision: dcf4c652d6dbe0e94f0c0c5573e2d1c71a06cb9f
   branch: master
   specs:
@@ -10,7 +10,7 @@ GIT
       jekyll-seo-tag
 
 GIT
-  remote: git@gitlab.anu.edu.au:website-neo/jekyll-revealify-plugin.git
+  remote: git@gitlab.anu.edu.au:jekyll-anu/jekyll-revealify-plugin.git
   revision: bf6ffd1132c749113c85204e6625899344bd5ec2
   branch: master
   specs:
@@ -19,7 +19,7 @@ GIT
       nokogiri
 
 GIT
-  remote: git@gitlab.anu.edu.au:website-neo/jekyll-theme-anu.git
+  remote: git@gitlab.anu.edu.au:jekyll-anu/jekyll-theme-anu.git
   revision: c069434c1dc3453f7c057888fdb188d5c8153fe6
   branch: master
   specs:
