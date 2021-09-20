@@ -10,21 +10,21 @@ GIT
       jekyll-seo-tag
 
 GIT
+  remote: git@gitlab.anu.edu.au:website-neo/jekyll-revealify-plugin.git
+  revision: bf6ffd1132c749113c85204e6625899344bd5ec2
+  branch: master
+  specs:
+    jekyll-revealify-plugin (2.1.0)
+      jekyll
+      nokogiri
+
+GIT
   remote: git@gitlab.anu.edu.au:website-neo/jekyll-theme-anu.git
   revision: c069434c1dc3453f7c057888fdb188d5c8153fe6
   branch: master
   specs:
     jekyll-theme-anu (0.1.0)
       jekyll
-
-GIT
-  remote: https://gitlab.cecs.anu.edu.au/lucy/jekyll-revealify-plugin.git
-  revision: b990f43a948e04f65e8b2770736ea84f42894d16
-  branch: master
-  specs:
-    jekyll-revealify-plugin (2.1.0)
-      jekyll
-      nokogiri
 
 GEM
   remote: https://rubygems.org/
