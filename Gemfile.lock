@@ -1,6 +1,6 @@
 GIT
   remote: git@gitlab.anu.edu.au:jekyll-anu/jekyll-plugins-anu.git
-  revision: dcf4c652d6dbe0e94f0c0c5573e2d1c71a06cb9f
+  revision: 5c4085588ff8b51b70fa8e54d8291165eaef7541
   branch: master
   specs:
     jekyll-plugins-anu (0.1.0)
@@ -20,7 +20,7 @@ GIT
 
 GIT
   remote: git@gitlab.anu.edu.au:jekyll-anu/jekyll-theme-anu.git
-  revision: c069434c1dc3453f7c057888fdb188d5c8153fe6
+  revision: f9e61c0967152fc0e4fdc29b40b540b595dba0bd
   branch: master
   specs:
     jekyll-theme-anu (0.1.0)
@@ -99,7 +99,7 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     rexml (3.2.5)
-    rouge (3.26.0)
+    rouge (3.26.1)
     safe_yaml (1.0.5)
     sassc (2.4.0)
       ffi (~> 1.9)
