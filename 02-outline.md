@@ -14,8 +14,7 @@ permalink: /outline/
 ## Semester 1 2021 details
 
 - **Mode of Delivery:** on-campus
-- **Prerequisites:**
-  - none (although enrolment requires a permission code from the convenor)
+- **Prerequisites:** none (although enrolment requires a permission code from the convenor)
 - **Incompatible Courses:** none
 - **Course Convener:** Ben Swift
 - **Phone:** 6125 7027
