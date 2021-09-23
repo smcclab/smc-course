@@ -2,6 +2,7 @@
 title: Workshops
 permalink: /workshops/
 hidden: true
+show_collection: true
 ---
 
 {:.warn-box}
@@ -35,7 +36,3 @@ The timeline for each workshop is:
 | 15:50 | small group jam activity                   |
 | 16:20 | group performances                         |
 | 16:40 | discussion, feedback, questions on notice  |
-
-## Workshop content
-
-{% include cardlist.html cards=site.workshops %}
