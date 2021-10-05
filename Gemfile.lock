@@ -20,7 +20,7 @@ GIT
 
 GIT
   remote: git@gitlab.anu.edu.au:jekyll-anu/jekyll-theme-anu.git
-  revision: f9e61c0967152fc0e4fdc29b40b540b595dba0bd
+  revision: e7dc4b6f5fa301dd69d0633068568fb3d4c792e7
   branch: master
   specs:
     jekyll-theme-anu (0.1.0)
@@ -52,7 +52,7 @@ GEM
     http_parser.rb (0.6.0)
     i18n (1.8.10)
       concurrent-ruby (~> 1.0)
-    jekyll (4.2.0)
+    jekyll (4.2.1)
       addressable (~> 2.4)
       colorator (~> 1.0)
       em-websocket (~> 0.5)
@@ -84,7 +84,7 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
     mini_portile2 (2.6.1)
-    nokogiri (1.12.4)
+    nokogiri (1.12.5)
       mini_portile2 (~> 2.6.1)
       racc (~> 1.4)
     nokogumbo (2.0.5)
