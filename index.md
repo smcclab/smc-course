@@ -6,13 +6,20 @@ no_breadcrumb: true
 layout: feature
 ---
 
-## The ANU Laptop Ensemble
+# The ANU Laptop Ensemble
 
-This is the _LENS: ANU Laptop Ensemble_ course website. The course has now
-finished for the year, and you can see the LENS'21 performances in the [final
-gig video](https://www.youtube.com/watch?v=A0NG-T8y7gM) or elsewhere on the
-[LENS Youtube
-Channel](https://www.youtube.com/channel/UCIU6SqIS02GJlnLOPqlwmpA).
+{: .lead .subtitle}
+
+Do you want to make music with your computer? Do you want create new kinds of
+musical instruments? Do you want to be a part of a laptop band? This is the
+course for you!
+
+{:.warn-box}
+
+The LENS course has now finished for the year, and you can see the LENS'21
+performances in the [final gig
+video](https://www.youtube.com/watch?v=A0NG-T8y7gM) or elsewhere on the [LENS
+Youtube Channel](https://www.youtube.com/channel/UCIU6SqIS02GJlnLOPqlwmpA).
 
 If you're an ANU student and you'd like to be part of LENS in the future, then
 bookmark this page and come back around June 2022---the course will be starting
@@ -31,10 +38,6 @@ Martin](mailto:charles.martin@anu.edu.au).
 {% anu_icon 006/41 %}
 </div>
 
-Do you want to make music with your computer? Do you want create new kinds of
-musical instruments? Do you want to be a part of a laptop band? This is the
-course for you!
-
 In this course you'll learn fundamental skills of music computing, including
 **digital synthesis**, **algorithmic composition**, and **musical interface
 design**. You'll put these skills to use creating a **computer musical
@@ -47,8 +50,6 @@ willingness to learn new approaches to music and computer programming, and be
 must be able to attend the [weekly workshop session]({% link _workshops/index.md
 %}) perform at the [end-of-semester LENS gig]({% link
 _deliverables/03-lens-performance.md %}).
-
-## Find out more
 
 If you've got any questions (including [how to
 enrol](resources/faq/#how-to-enrol)), the [course FAQ]({% link
