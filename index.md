@@ -26,11 +26,10 @@ Martin](mailto:charles.martin@anu.edu.au).
 
 {:.warn-box}
 
-The LENS course has now finished for the year, and you can see the LENS'21
+The LENS course (LENS'21) has finished for the year---check out the student's
 performances in the [final gig
-video](https://www.youtube.com/watch?v=A0NG-T8y7gM) below (or elsewhere on the
-[LENS Youtube
-Channel](https://www.youtube.com/channel/UCIU6SqIS02GJlnLOPqlwmpA)).
+video](https://www.youtube.com/watch?v=A0NG-T8y7gM) here (hot off the [LENS
+Youtube Channel](https://www.youtube.com/channel/UCIU6SqIS02GJlnLOPqlwmpA)).
 
 {% include youtube.html id="A0NG-T8y7gM" %}
 
