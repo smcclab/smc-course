@@ -14,13 +14,6 @@ Do you want to make music with your computer? Do you want create new kinds of
 musical instruments? Do you want to be a part of a laptop band? This is the
 course for you!
 
-{:.warn-box}
-
-The LENS course has now finished for the year, and you can see the LENS'21
-performances in the [final gig
-video](https://www.youtube.com/watch?v=A0NG-T8y7gM) or elsewhere on the [LENS
-Youtube Channel](https://www.youtube.com/channel/UCIU6SqIS02GJlnLOPqlwmpA).
-
 If you're an ANU student and you'd like to be part of LENS in the future, then
 bookmark this page and come back around June 2022---the course will be starting
 up again in Semester 2 2022 (note: not in Semester 1 as it ran in 2021).
@@ -29,6 +22,16 @@ If you've got other questions about the Laptop Ensemble, e.g. upcoming gigs or
 booking LENS for your next event, then email [Dr. Ben
 Swift](mailto:ben.swift@anu.edu.au) or [Dr. Charles
 Martin](mailto:charles.martin@anu.edu.au).
+
+{:.warn-box}
+
+The LENS course has now finished for the year, and you can see the LENS'21
+performances in the [final gig
+video](https://www.youtube.com/watch?v=A0NG-T8y7gM) below (or elsewhere on the
+[LENS Youtube
+Channel](https://www.youtube.com/channel/UCIU6SqIS02GJlnLOPqlwmpA)).
+
+{% include youtube.html id="A0NG-T8y7gM" %}
 
 ## Who is this for?
 
