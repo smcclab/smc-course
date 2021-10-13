@@ -1,6 +1,6 @@
 ---
 title: LENS
-banner: /assets/facebook-banner.png
+image: /assets/facebook-banner.png
 hidden: true
 no_breadcrumb: true
 layout: feature

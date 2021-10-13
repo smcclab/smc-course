@@ -1,6 +1,6 @@
 ---
 title: LENS @ ANU Open Day '21
-banner: /assets/facebook-banner.png
+image: /assets/facebook-banner.png
 hidden: true
 layout: feature
 no_breadcrumb: true
