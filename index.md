@@ -1,12 +1,11 @@
 ---
 title: LENS
+tagline: The ANU Laptop Ensemble
 image: /assets/facebook-banner.png
 hidden: true
 no_breadcrumb: true
 layout: feature
 ---
-
-# The ANU Laptop Ensemble
 
 {: .lead .subtitle}
 
