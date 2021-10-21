@@ -1,7 +1,9 @@
-image: ruby:3.0.1
+image: docker.io/anucecsit/anu-jekyll-build:latest
 
 variables:
   STAGING_DIR: /srv/gitlab-ce-pages/staging
+  BUILD_DIR: $STAGING_DIR/$CI_PIPELINE_ID/$CI_BUILD_REF_NAME/$CI_PROJECT_PATH
+  DEPLOY_DIR: $STAGING_DIR/$CI_BUILD_ID/$CI_BUILD_REF_NAME
 
 # this step taken from https://docs.gitlab.com/ee/ci/ssh_keys/
 before_script:
@@ -37,7 +39,7 @@ page-build:
   stage: build
   script:
     - bundle install
-    - bundle exec jekyll build -d $STAGING_DIR/$CI_PIPELINE_ID/$CI_BUILD_REF_NAME/$CI_PROJECT_PATH
+    - bundle exec jekyll build -d $BUILD_DIR
   only:
     - master
 
@@ -46,8 +48,8 @@ page-deploy:
   - Pages
   stage: deploy
   script:
-    - mkdir -p $STAGING_DIR/$CI_BUILD_ID/$CI_BUILD_REF_NAME/`dirname $CI_PROJECT_PATH`
-    - mv $STAGING_DIR/$CI_PIPELINE_ID/$CI_BUILD_REF_NAME/$CI_PROJECT_PATH $STAGING_DIR/$CI_BUILD_ID/$CI_BUILD_REF_NAME/$CI_PROJECT_PATH
+    - mkdir -p $DEPLOY_DIR/`dirname $CI_PROJECT_PATH`
+    - mv $BUILD_DIR $DEPLOY_DIR/$CI_PROJECT_PATH
     - rm -rf $STAGING_DIR/$CI_PIPELINE_ID
   only:
     - master
