@@ -21,7 +21,7 @@ GIT
 
 GIT
   remote: git@gitlab.anu.edu.au:jekyll-anu/jekyll-theme-anu.git
-  revision: 4344e21852bfea1b58c26c654f1fc4ad13e71a4c
+  revision: 468c0b9e75d03109c9f1138b9a3964f8408559b8
   branch: master
   specs:
     jekyll-theme-anu (0.1.0)
@@ -96,7 +96,7 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (4.0.6)
-    racc (1.5.2)
+    racc (1.6.0)
     rainbow (3.0.0)
     rb-fsevent (0.11.0)
     rb-inotify (0.10.1)
