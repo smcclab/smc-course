@@ -1,13 +1,12 @@
 GIT
   remote: git@gitlab.anu.edu.au:jekyll-anu/jekyll-plugins-anu.git
-  revision: e6264546de62b28029aff0ca1287ee0eed6005e2
+  revision: d4cff544427f383c260947dc1523d6fc7aa750f2
   branch: master
   specs:
     jekyll-plugins-anu (0.1.0)
       html-proofer
       jekyll
       jekyll-fontawesome-svg
-      jekyll-paginate-v2
       jekyll-seo-tag
 
 GIT
@@ -21,7 +20,7 @@ GIT
 
 GIT
   remote: git@gitlab.anu.edu.au:jekyll-anu/jekyll-theme-anu.git
-  revision: 468c0b9e75d03109c9f1138b9a3964f8408559b8
+  revision: f04df212fce1c1981fdc8200bec7188abdd9c81e
   branch: master
   specs:
     jekyll-theme-anu (0.1.0)
@@ -69,8 +68,6 @@ GEM
       safe_yaml (~> 1.0)
       terminal-table (~> 2.0)
     jekyll-fontawesome-svg (0.3.4)
-    jekyll-paginate-v2 (3.0.0)
-      jekyll (>= 3.0, < 5.0)
     jekyll-sass-converter (2.1.0)
       sassc (> 2.0.1, < 3.0)
     jekyll-seo-tag (2.7.1)
@@ -118,7 +115,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll (~> 4.1)
+  jekyll (~> 4.2)
   jekyll-plugins-anu!
   jekyll-revealify-plugin!
   jekyll-theme-anu!
