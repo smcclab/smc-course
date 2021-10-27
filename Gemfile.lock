@@ -1,9 +1,10 @@
 GIT
   remote: git@gitlab.anu.edu.au:jekyll-anu/jekyll-plugins-anu.git
-  revision: d4cff544427f383c260947dc1523d6fc7aa750f2
+  revision: 9a79bd52af9f7e06f6d26c4c024c9bdfa19a4a24
   branch: master
   specs:
     jekyll-plugins-anu (0.1.0)
+      classifier-reborn
       html-proofer
       jekyll
       jekyll-fontawesome-svg
@@ -11,7 +12,7 @@ GIT
 
 GIT
   remote: git@gitlab.anu.edu.au:jekyll-anu/jekyll-revealify-plugin.git
-  revision: bf6ffd1132c749113c85204e6625899344bd5ec2
+  revision: 808c4a4846b03f7d27ee9a7873b5594f2c42f734
   branch: master
   specs:
     jekyll-revealify-plugin (2.1.0)
@@ -20,7 +21,7 @@ GIT
 
 GIT
   remote: git@gitlab.anu.edu.au:jekyll-anu/jekyll-theme-anu.git
-  revision: f04df212fce1c1981fdc8200bec7188abdd9c81e
+  revision: 58f0ded8e016d47f4c139967de05c9f7b6f5ad33
   branch: master
   specs:
     jekyll-theme-anu (0.1.0)
@@ -31,6 +32,8 @@ GEM
   specs:
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
+    classifier-reborn (2.2.0)
+      fast-stemmer (~> 1.0)
     colorator (1.1.0)
     concurrent-ruby (1.1.9)
     em-websocket (0.5.2)
@@ -39,6 +42,7 @@ GEM
     ethon (0.15.0)
       ffi (>= 1.15.0)
     eventmachine (1.2.7)
+    fast-stemmer (1.0.2)
     ffi (1.15.4)
     forwardable-extended (2.6.0)
     html-proofer (3.19.2)
