@@ -6,7 +6,8 @@ show_collection: true
 ---
 
 {:.warn-box}
-These dates/times are all from S1 2021, although the content will be similar next year.
+These dates/times are all from S1 2021. The content will be similar in 2022 but
+the times won't be, because LENS'22 is scheduled to run in Semester 2.
 
 The primary weekly contact hours are the 2hr workshop session from **3pm--5pm
 Thursday** in [Marie Reay 4.04](https://www.anu.edu.au/maps#show=108136). If
