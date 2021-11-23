@@ -18,6 +18,7 @@ subbrand: ANU School of Computing
 description: Homepage of the ANU Laptop Ensemble
 url: https://cs.anu.edu.au
 date_format: "%b %-d, %Y"
+permalink: pretty
 # sub-path of your site (/courses/COMPXXXX)
 baseurl: "/courses/comp2710-lens"
 
