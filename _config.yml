@@ -75,3 +75,6 @@ kramdown:
   toc_levels: "2,3"
 sass:
   style: compressed
+
+# TODO need to fix the errors which come up, and then use this
+# jekyll_proofer: error
