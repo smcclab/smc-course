@@ -84,4 +84,4 @@ setlist:
 
 thanks.
 
-{% include slides/qrcode.html link="https://cs.anu.edu.au/courses/comp2710-lens/" showlink=true %}
+{% include slides/qrcode.html link="https://comp.anu.edu.au/courses/comp2710-lens/" showlink=true %}

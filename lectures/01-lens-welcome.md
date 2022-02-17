@@ -45,7 +45,7 @@ who are we?
 
 [livecoder](https://benswift.me/livecoding/index.html)
 
-[ANU Research School of Computer Science](https://cs.anu.edu.au/code-creativity-culture/)
+[ANU Research School of Computer Science](https://comp.anu.edu.au/code-creativity-culture/)
 
 [@benswift](https://twitter.com/benswift)
 

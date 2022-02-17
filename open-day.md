@@ -21,7 +21,7 @@ composition algorithms.
 ---
 
 LENS is a course that you can take at ANU (as either a
-[computing](https://cs.anu.edu.au), or a [music](https://music.cass.anu.edu.au)
+[computing](https://comp.anu.edu.au), or a [music](https://music.cass.anu.edu.au)
 student, or even as a cross-campus elective from anywhere else in the ANU). In
 fact, you're on the course website right now.
 

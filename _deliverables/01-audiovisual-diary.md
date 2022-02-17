@@ -48,7 +48,7 @@ The "week numbering" for the diary entries can be a bit confusing, especially
 because it's a flipped class (where you create your video _ahead_ of the week's
 class). Just remember: in week _N_ you submit the diary entry for week _N_, e.g.
 in week 2 you'll submit your first AV diary video in response to the
-[week 2 provocation](https://cs.anu.edu.au/courses/comp2710-lens/workshops/02-synthesis-1/).
+[week 2 provocation](https://comp.anu.edu.au/courses/comp2710-lens/workshops/02-synthesis-1/).
 
 ### Specification {#weekly-videos-spec}
 
