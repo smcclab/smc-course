@@ -15,7 +15,7 @@ class is taught in the future.
   from?
 
 - Next time, split the weekly AVD submissions and portfolio submission into
-  separate "deliverables" pages.
+  separate "assessments" pages.
 
 - Be more explicit about the late penalties for missing the AVD submission
   deadline (maybe push it back to as close to the class timeslot is realistic to

@@ -1,5 +1,6 @@
 ---
 published: false
+show_toc: true
 ---
 
 Hey---here's the place to put down ideas & links for interesting content. Write

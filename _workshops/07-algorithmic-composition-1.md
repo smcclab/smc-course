@@ -1,6 +1,7 @@
 ---
 title: "Week 7: algorithmic composition 1"
 summary: triggering events in pitch & time using algorithmic processes
+show_toc: true
 ---
 
 {:.warn-box}

@@ -28,7 +28,7 @@ fact, you're on the course website right now.
 If you'd like to know more about LENS, then you can check out the other parts of
 this website, e.g. the [main landing page]({% link index.md %}), the [workshop
 content]({% link _workshops/index.md %}) or even see what the [final project
-description]({% link _deliverables/03-lens-performance.md %}) looks like.
+description]({% link _assessments/03-lens-performance.md %}) looks like.
 
 If you'd like to see more videos of the LENS in action, then check out our
 [Youtube Channel](https://www.youtube.com/channel/UCIU6SqIS02GJlnLOPqlwmpA).

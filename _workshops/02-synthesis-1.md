@@ -1,6 +1,7 @@
 ---
 title: "Week 2: synthesis 1"
 summary: so what types of beeps and boops can we make, actually?
+show_toc: true
 ---
 
 {:.warn-box}

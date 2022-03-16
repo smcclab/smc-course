@@ -1,8 +1,8 @@
 ---
 title: Weekly audiovisual diary
 summary: Your opportunity to make stuff for inspo and discussion in class.
-permalink: /deliverables/audiovisual-diary/
-toc: true
+permalink: /assessments/audiovisual-diary/
+show_toc: true
 ---
 
 ## Outline
@@ -10,7 +10,7 @@ toc: true
 - **Due date:**
   - 60sec (solo) or 180sec (group) video submissions due (via GitLab) 11am every
     Thursday in weeks 2--8, 10 (no AVD in week 9 because [demo day]({% link
-    _deliverables/02-demo-day.md %}))
+    _assessments/02-demo-day.md %}))
   - portfolio submissions due 11:59pm ~~March 26~~ March 29 (beginning of week 6) &
     May 14 (week 10)
 - **Mark weighting:** 30% total (see [below](#marking))
@@ -30,7 +30,7 @@ In this course each week you'll learn about a particular computer music concept
 lecture content will include a particular "creative provocation" for you to
 respond to in your AV diary entry.
 
-The videos you'll produce aren't just dumb "box-ticking" deliverables,
+The videos you'll produce aren't just dumb "box-ticking" assessments,
 though---we're going to listen to, play with & discuss the things that you and
 your classmates have made _during the [workshop timeslot]({% link
 _workshops/index.md %})_.

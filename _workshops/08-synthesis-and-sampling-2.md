@@ -1,6 +1,7 @@
 ---
 title: "Week 8: synthesis & sampling 2"
 summary: configuring and playing an analogue modular synth with code
+show_toc: true
 ---
 
 {:.warn-box}
@@ -23,7 +24,7 @@ AVD this week, because group)
    playback
 
 4. discuss any special tech/setup requirements for the [demo day]({% link
-   _deliverables/02-demo-day.md %}) presentations
+   _assessments/02-demo-day.md %}) presentations
 
 ## Extempore resources
 

@@ -12,7 +12,7 @@
 #############
 
 title: Laptop Ensemble
-short_title: COMP2710/COMP6470
+short_title: COMP3710/COMP6470
 subbrand: ANU School of Computing
 
 description: Homepage of the ANU Laptop Ensemble
@@ -29,27 +29,39 @@ contacts:
     name: School Director
     email: director.comp@anu.edu.au
   page_contact:
-    name: Ben Swift
-    email: ben.swift@anu.edu.au
+    name: Charles Martin
+    email: charles.martin@anu.edu.au
 
 collections:
+  lectures:
+    output: true
+    permalink: /lectures/:path/
   workshops:
     output: true
     permalink: /workshops/:path/
-  deliverables:
+  assessments:
     output: true
-    permalink: /deliverables/:path/
+    permalink: /assessments/:path/
   resources:
     output: true
     permalink: /resources/:path/
 
 menu:
+  - name: Lectures
+    page: _lectures/index.md
   - name: Workshops
     page: _workshops/index.md
-  - name: Deliverables
-    page: _deliverables/index.md
+  - name: Assessments
+    page: _assessments/index.md
   - name: Resources
     page: _resources/index.md
+  - name: Policies
+    page: 01-policies.md
+  - name: Outline
+    page: 02-outline.md
+  - name: Help
+    page: 03-getting-help.md
+
 
 # default layouts for different pages
 defaults:
@@ -57,14 +69,21 @@ defaults:
       path: ""
     values:
       layout: default
-  - scope:
+      show_anchor_headings: true
+      image: assets/photos/2019-rehearsal-weitong.jpg
+  -
+    scope:
       path: _lectures
     values:
-      layout: reveal
+      layout: reveal2300
+      theme: assets/revealthemes/charles1720-dark.scss
+      no_title_slide: true
 
 # the default reveal theme used by the revealify plugin
 revealify:
-  theme: assets/reveal.js/anu.scss
+  theme: assets/revealthemes/charles1720-dark.scss
+
+
 
 # show CC license info in footer
 cc_license: true

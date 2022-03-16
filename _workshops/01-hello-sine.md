@@ -1,6 +1,7 @@
 ---
 title: "Week 1: hello sine"
 summary: your first beeps and boops
+show_toc: true
 ---
 
 There isn't much pre-reading for week 1, since the class hasn't really started

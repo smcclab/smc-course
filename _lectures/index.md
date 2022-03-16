@@ -2,7 +2,6 @@
 title: Lectures
 layout: default
 permalink: /lectures/
-published: false
 ---
 
 {:.info-box}

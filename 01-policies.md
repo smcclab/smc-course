@@ -28,8 +28,8 @@ as well.
 
 ## Assessment
 
-All assessment items are listed on the [deliverables page]({% link
-_deliverables/index.md %}).
+All assessment items are listed on the [assessments page]({% link
+_assessments/index.md %}).
 
 ## Feedback
 

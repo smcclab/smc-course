@@ -1,6 +1,7 @@
 ---
 title: "Week 6: interfaces"
 summary: Building interfaces for musical expression
+show_toc: true
 ---
 
 You've implicitly been building interfaces every week (every Pd patch is an

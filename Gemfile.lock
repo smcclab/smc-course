@@ -1,7 +1,7 @@
 GIT
-  remote: git@gitlab.anu.edu.au:jekyll-anu/jekyll-plugins-anu.git
-  revision: a686e2470d47dde3178f30bae08c2d2fbfd1acaa
-  branch: master
+  remote: git@gitlab.anu.edu.au:jekyll-anu/gems/jekyll-plugins-anu.git
+  revision: 3740206291754867c8dd8e21df3d35bf10fbce02
+  tag: v2.2.1
   specs:
     jekyll-plugins-anu (2.2.1)
       classifier-reborn
@@ -11,21 +11,20 @@ GIT
       jekyll-fontawesome-svg
       jekyll-seo-tag
       mini_racer
-      nokogiri
 
 GIT
-  remote: git@gitlab.anu.edu.au:jekyll-anu/jekyll-revealify-plugin.git
-  revision: 11de3d0f4f89816a3eb509b3c3611a9e2a3fae91
-  branch: master
+  remote: git@gitlab.anu.edu.au:jekyll-anu/gems/jekyll-revealify-plugin.git
+  revision: 808c4a4846b03f7d27ee9a7873b5594f2c42f734
+  ref: 808c4a48
   specs:
     jekyll-revealify-plugin (2.1.0)
       jekyll
       nokogiri
 
 GIT
-  remote: git@gitlab.anu.edu.au:jekyll-anu/jekyll-theme-anu.git
-  revision: 063d26b6957b9d59bd2e6c424d5478bac29a4965
-  branch: master
+  remote: git@gitlab.anu.edu.au:jekyll-anu/gems/jekyll-theme-anu.git
+  revision: daf6f76df20e3bf2d96001311b5165cd9a16cfa7
+  branch: v2.2.1
   specs:
     jekyll-theme-anu (2.2.1)
       jekyll
@@ -60,9 +59,9 @@ GEM
       typhoeus (~> 1.3)
       yell (~> 2.0)
     http_parser.rb (0.8.0)
-    i18n (1.9.1)
+    i18n (1.10.0)
       concurrent-ruby (~> 1.0)
-    jekyll (4.2.1)
+    jekyll (4.2.2)
       addressable (~> 2.4)
       colorator (~> 1.0)
       em-websocket (~> 0.5)
@@ -80,7 +79,7 @@ GEM
     jekyll-autoprefixer-re (1.0.2)
       autoprefixer-rails (~> 10.2.5.1)
     jekyll-fontawesome-svg (0.3.4)
-    jekyll-sass-converter (2.1.0)
+    jekyll-sass-converter (2.2.0)
       sassc (> 2.0.1, < 3.0)
     jekyll-seo-tag (2.8.0)
       jekyll (>= 3.8, < 5.0)
@@ -96,11 +95,11 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
-    mini_portile2 (2.7.1)
+    mini_portile2 (2.8.0)
     mini_racer (0.6.2)
       libv8-node (~> 16.10.0.0)
-    nokogiri (1.13.1)
-      mini_portile2 (~> 2.7.0)
+    nokogiri (1.13.3)
+      mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     parallel (1.21.0)
     pathutil (0.16.2)
@@ -135,4 +134,4 @@ DEPENDENCIES
   webrick
 
 BUNDLED WITH
-   2.2.15
+   2.2.32

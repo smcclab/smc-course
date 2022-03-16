@@ -4,7 +4,7 @@ summary:
   What tools (software & hardware) do you need to take part in LENS? Let's take
   a look.
 permalink: /resources/tools/
-toc: true
+show_toc: true
 ---
 
 {:.info-box}
@@ -124,7 +124,7 @@ documentation website, (for example to learn to make music with the
 
 Recording videos of your work is a crucial part of this course, you'll be doing
 it every week for your [AV diary submission]({% link
-_deliverables/01-audiovisual-diary.md %}#weekly-videos).
+_assessments/01-audiovisual-diary.md %}#weekly-videos).
 
 In this course you get to decide which screen recording software you'll use, as
 long as it produces videos in a format which can be processed by
@@ -204,7 +204,7 @@ There are other computer music languages & software packages as well, and you're
 always welcome to mess around with whatever creative tools you like. However,
 for the LENS curriculum we'll cover those two, and you're also expected to use
 one or the other as the foundation for your final [LENS performance]({% link
-_deliverables/03-lens-performance.md %}). Still, if you're keen to explore further
+_assessments/03-lens-performance.md %}). Still, if you're keen to explore further
 here area a few good options.
 
 - _Collins, N._

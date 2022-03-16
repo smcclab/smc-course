@@ -1,8 +1,8 @@
 ---
 title: LENS performance
 summary: This is it - your chance to make some noise.
-permalink: /deliverables/lens-performance/
-toc: true
+permalink: /assessments/lens-performance/
+show_toc: true
 ---
 
 ## Outline
@@ -49,7 +49,7 @@ to put on the YouTube channel.
 ### Performance materials
 
 Just like you've done every week as part of your [AVD submission]({% link
-_deliverables/01-audiovisual-diary.md %}), you must submit your **performance
+_assessments/01-audiovisual-diary.md %}), you must submit your **performance
 materials** through GitLab. This includes Pd patches, Extempore (& other) source
 code, asset files (e.g. samples), scores, instructions to ensemble members, etc.
 It must be in a `final-performance-materials` folder in your usual

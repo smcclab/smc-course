@@ -1,6 +1,7 @@
 ---
 title: "Week 4: envelopes & note structure"
 summary: shaping sound in the short (and long) term
+show_toc: true
 ---
 
 {:.warn-box}

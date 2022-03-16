@@ -1,6 +1,7 @@
 ---
 title: "Week 11: performance practice 1"
 summary: "Practice & feedback for final performances"
+show_toc: true
 ---
 
 {:.warn-box}
@@ -9,10 +10,10 @@ summary: "Practice & feedback for final performances"
 This week we'll have space in the workshop for you to practice your final LENS
 performances. Half the class will go this week, the other half the next week
 (the exact order will be determined by [spinning the wheel]({% link
-lectures/group-picker-wheel.md %}), as usual).
+_lectures/group-picker-wheel.md %}), as usual).
 
 After the performances we'll have a discussion about our works-in-progress in
-relation to the [marking criteria]({% link _deliverables/03-lens-performance.md
+relation to the [marking criteria]({% link _assessments/03-lens-performance.md
 %}#marking) for the final performances.
 
 ## Goals for this week

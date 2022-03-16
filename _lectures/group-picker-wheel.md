@@ -1,5 +1,5 @@
 ---
-title: LENS'21 group picker
+title: LENS group picker
 permalink: /group-picker-wheel/
 layout: reveal
 ---

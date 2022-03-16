@@ -2,7 +2,7 @@
 title: FAQ
 summary: Some questions which come up, well... frequently
 permalink: /resources/faq/
-toc: true
+show_toc: true
 ---
 
 {:.warn-box}
@@ -13,12 +13,12 @@ This is the course FAQ---we'll update it as the semester goes along.
 ## What's LENS?
 
 The laptop is a legit musical/visual instrument, and the ANU Laptop Ensemble
-(LENS; _est. 2018_) exists to explore different ways to use this instrument in a
+(LENS; est. 2018) exists to explore different ways to use this instrument in a
 group performance.
 
 More concretely, LENS is a course in computer music making and laptop
 performance open to ANU students in music, art, computer science, and anywhere
-on campus you can take a COMP2xxx/6xxx or MUSI2xxx elective.
+on campus you can take a COMP elective.
 
 Laptop Ensemble links:
 
@@ -30,27 +30,19 @@ You can see more vids of the ensemble at work on their
 
 ## Who's in charge of all this?
 
-The current LENS artistic directors are [Dr. Ben Swift](https://benswift.me),
-[Dr. Alec Hunter](https://www.alexanderhunter.com.au) and
-[Dr. Charles Martin](https://charlesmartin.com.au).
+The current LENS artistic directors are [Dr Ben Swift](https://benswift.me),
+[Dr Alec Hunter](https://www.alexanderhunter.com.au) and
+[Dr Charles Martin](https://charlesmartin.com.au).
 
 ## Which ANU course code does this course run under?
 
 You can take this course under the following (computing) course codes:
 
-- [COMP2710](https://programsandcourses.anu.edu.au/2021/course/COMP2710)
-- [COMP6470](https://programsandcourses.anu.edu.au/2021/course/COMP6470)
+- [COMP3710](https://programsandcourses.anu.edu.au/2022/course/COMP3710)
+- [COMP6470](https://programsandcourses.anu.edu.au/2022/course/COMP6470)
 
-The course content & assessment is the same for the undergraduate (COMP2710) and
+The course content & assessment is the same for the undergraduate (COMP3710) and
 masters (COMP6740) versions of the course.
-
-We also are able to accommodate Music Project
-([MUSI2205](https://programsandcourses.anu.edu.au/2021/course/MUSI2205))
-students who have obtained agreement from the convenor of
-[MUSI2205](https://programsandcourses.anu.edu.au/2021/course/MUSI2205) to
-participate in laptop ensemble as their project. Students enrolling from the
-School of Music or CASS will complete the exact same assessment as the COMP
-students.
 
 ## What music background is required?
 
@@ -74,9 +66,16 @@ there'll be some extra reading (and noise-making!) to do to stay on top of
 things, but if you're willing to put in the work it shouldn't be an
 un-manageable workload.
 
+## Are there any prerequisites?
+
+This course is pitched at a third year (3000) level and so in order to enrol we
+ask that you have completed at least one (6 unit) second year course in your
+discipline. If you don't meet this reuqirement but believe that you should be
+allowed to join in anyway, please get in touch to discuss it.
+
 ## I'm a musician/programmer and I'm worried that I don't have the required programming/music skills---will I be ok?
 
-Even after reading the previous two answers you still might be worried. And
+After reading the previous answers you still might be worried. And
 everyone's different, so it's hard to give a definitive answer to this question.
 Still, one key question to ask yourself is do you _like_ the thing you're
 worried about not having the required skills in, and do you want to learn more
@@ -122,7 +121,7 @@ Each week, you'll:
 
 - learn about a particular computer music concept (_in your own time_)
 - make & submit a creative response (through your [AV diary entry]({% link
-  _deliverables/01-audiovisual-diary.md %})) which explores that concept (_in your
+  _assessments/01-audiovisual-diary.md %})) which explores that concept (_in your
   own time_)
 - listen to, play with & discuss the things that you and your classmates have
   made (_during the class workshop timeslot_)
@@ -136,7 +135,7 @@ In addition, over the course of the semester you'll:
 
 ## Do I _have_ to do a live performance if I take this course?
 
-Yes, the [main course deliverable]({% link _deliverables/03-lens-performance.md
+Yes, the [main course assessment]({% link _assessments/03-lens-performance.md
 %}) (worth 50% of the course mark) is to use the computer music instrument/system
 that you've built in a group performance alongside some of your LENS classmates.
 The "present it in concert" part of that is one of the course [learning outcomes]({% link 02-outline.md %}#learning-outcomes).
@@ -160,10 +159,10 @@ sense and where you have questions, and make some noise.
 
 ## Can I take this course if I'm a remote student?
 
-Many of our courses are now offered in remote mode (e.g. for students stuck
-overseas because of covid). Unfortunately, the nature of the LENS course means
-that it cannot be offered in remote mode---to participate you must be able to
-attend the workshop sessions in person.
+Many of our courses are now offered to remote students or support dual
+delivery. Unfortunately, the nature of the LENS course means that it cannot be
+offered in remote mode---to participate you must be able to attend the workshop
+sessions in person.
 
 ## What music software will we be using in the course?
 
@@ -180,29 +179,16 @@ understand how the course works and what we expect of you.
 
 If you'd like to enrol under a COMP course code (note: open to _all_ ANU
 students---check with your program convenor to see how to fit it into your
-program) get in touch with [Ben Swift](mailto:ben.swift@anu.edu.au) to enrol.
-
-If you are a music student and want to take laptop ensemble as
-[MUSI2205](https://programsandcourses.anu.edu.au/2021/course/MUSI2205), you
-should discuss this with the course convenor of MUSI2205 and
-[Ben Swift](mailto:ben.swift@anu.edu.au) and then enrol in MUSI2205.
-
-{:.info-box}
-
-If you want to enrol in LENS as a MUSI2205 student, you still need to email Ben
-to register your interest.
+program) get in touch with [Charles Martin](mailto:charles.martin@anu.edu.au) to enrol.
 
 ## Will I need a permission code? {#will-I-need-a-permission-code}
 
 No, you don't need to get a permission code for the course ahead of time. If
-you're enrolling in COMP2710 or 6740 then all you have to do is turn up to the
+you're enrolling in COMP3710 or 6740 then all you have to do is turn up to the
 week 1 [workshop session]({% link _workshops/index.md %}), sign the study
 contract and then we'll enrol you in ISIS directly. This does mean that you
 won't be enrolled in the course on ISIS until week 1, but that's ok---all the
 course info you'll need is on this website.
-
-If you're enrolling in MUSI2205 you'll need to organise a permission code
-through your course convenor.
 
 ## Do we use Wattle in this course? {#wattle-site-for-this-course}
 
@@ -219,3 +205,5 @@ our [workshop]({% link _workshops/index.md %}) material.
 
 Tell them about it! Post the laptop ensemble website on Schmidtposting, hire a
 skywriting plane, get a tattoo; I don't care. Be creative :)
+
+

@@ -1,6 +1,6 @@
 ---
 title: "Welcome to LENS 2021"
-lecturer: Drs Ben Swift, Charles Martin, and Alec Hunter
+lecturer: Dr Charles Martin and Dr Alec Hunter
 ---
 
 {% include slides/title.html %}
@@ -95,14 +95,14 @@ in the final LENS gig at the end of semester
 
 - participate in other pieces/play other instruments
 
-## deliverables
+## assessments
 
 | Deliverable                                                                              | Due                                         | Weighting                      |
 | ---------------------------------------------------------------------------------------- | ------------------------------------------- | ------------------------------ |
-| [Weekly AV diary videos]({% link _deliverables/01-audiovisual-diary.md %}#weekly-videos) | 11am every Thursday in weeks 2--9           | 0%, but required for portfolio |
-| [AV diary portfolio]({% link _deliverables/01-audiovisual-diary.md %}#portfolio)         | Monday of week 6 (Mar 29) & week 9 (Apr 30) | 15% + 15% = 30%                |
-| [LENS demo day]({% link _deliverables/02-demo-day.md %})                                 | Thursday May 6 (week 9)                  | 20%                            |
-| [LENS performance]({% link _deliverables/03-lens-performance.md %})                      | Sunday June 6                              | 50%                            |
+| [Weekly AV diary videos]({% link _assessments/01-audiovisual-diary.md %}#weekly-videos) | 11am every Thursday in weeks 2--9           | 0%, but required for portfolio |
+| [AV diary portfolio]({% link _assessments/01-audiovisual-diary.md %}#portfolio)         | Monday of week 6 (Mar 29) & week 9 (Apr 30) | 15% + 15% = 30%                |
+| [LENS demo day]({% link _assessments/02-demo-day.md %})                                 | Thursday May 6 (week 9)                  | 20%                            |
+| [LENS performance]({% link _assessments/03-lens-performance.md %})                      | Sunday June 6                              | 50%                            |
 
 ## AV diary videos
 

@@ -2,6 +2,7 @@
 title: Bibliography
 summary: What reference are suggested for Laptop Ensemble?
 permalink: /resources/bibliography/
+show_toc: true
 ---
 
 This page has suggested reading to help support your learning. As a special

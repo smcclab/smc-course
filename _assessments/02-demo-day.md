@@ -3,8 +3,8 @@ title: LENS demo
 summary:
   Show the rest of the LENS what you're working on for your end-of-semester
   performance.
-permalink: /deliverables/demo-day/
-toc: true
+permalink: /assessments/demo-day/
+show_toc: true
 ---
 
 ## Outline
