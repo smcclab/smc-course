@@ -1,13 +1,20 @@
-<section class="title-slide center">
+<section class="title-slide center"
+data-background-color="0x000000"
+data-background-opacity="0.4"
+data-background-image="{% link assets/photos/2019-rehearsal-weitong.jpg %}"
+data-background-size="cover"
+>
   <header>
-    <h1>{{ site.cecs.short_title }}</h1>
-    <p>{{ site.cecs.title }}</p>
+        <h1>{{ site.short_title }}</h1>
+        <p>{{ site.title }}</p>
   </header>
 
   <h2>{{ page.title }}</h2>
 
   {% if page.lecturer %}
   <p>{{page.lecturer}}</p>
+  {% else %}
+  <p>Dr Charles Martin</p>
   {% endif %}
   <p><em>Semester 2, 2022</em></p>
 
