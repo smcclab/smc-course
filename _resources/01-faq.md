@@ -12,10 +12,6 @@ This is the course FAQ---we'll update it as the semester goes along.
 
 ## What's LENS?
 
-The laptop is a legit musical/visual instrument, and the ANU Laptop Ensemble
-(LENS; est. 2018) exists to explore different ways to use this instrument in a
-group performance.
-
 More concretely, LENS is a course in computer music making and laptop
 performance open to ANU students in music, art, computer science, and anywhere
 on campus you can take a COMP elective.
@@ -28,12 +24,6 @@ Laptop Ensemble links:
 You can see more vids of the ensemble at work on their
 [YouTube channel](https://www.youtube.com/channel/UCIU6SqIS02GJlnLOPqlwmpA).
 
-## Who's in charge of all this?
-
-The current LENS artistic directors are [Dr Ben Swift](https://benswift.me),
-[Dr Alec Hunter](https://www.alexanderhunter.com.au) and
-[Dr Charles Martin](https://charlesmartin.com.au).
-
 ## Which ANU course code does this course run under?
 
 You can take this course under the following (computing) course codes:
@@ -41,8 +31,22 @@ You can take this course under the following (computing) course codes:
 - [COMP3710](https://programsandcourses.anu.edu.au/2022/course/COMP3710)
 - [COMP6470](https://programsandcourses.anu.edu.au/2022/course/COMP6470)
 
-The course content & assessment is the same for the undergraduate (COMP3710) and
+The course content and assessment is the same for the undergraduate (COMP3710) and
 masters (COMP6740) versions of the course.
+
+## How do I enrol in Laptop Ensemble? {#how-to-enrol}
+
+Enrolment for ANU Laptop Ensemble is by permission code, and there are two steps:
+
+- Fill in the [expression of interest form
+  (link)](https://forms.office.com/r/UVJBTZfLVU), we will let you know when the
+  first LENS workshop is scheduled.
+
+- Show up in the first week and we will arrange a permission code for your
+  enrolment.
+
+If you've got questions about enrolling in Laptop Ensemble, get in touch with [Charles
+Martin](mailto:charles.martin@anu.edu.au).
 
 ## What music background is required?
 
@@ -69,8 +73,8 @@ un-manageable workload.
 ## Are there any prerequisites?
 
 This course is pitched at a third year (3000) level and so in order to enrol we
-ask that you have completed at least one (6 unit) second year course in your
-discipline. If you don't meet this reuqirement but believe that you should be
+ask that you have completed at least two (6 unit) second year (2000-level) course in your
+discipline. If you don't meet this requirement but believe that you should be
 allowed to join in anyway, please get in touch to discuss it.
 
 ## I'm a musician/programmer and I'm worried that I don't have the required programming/music skills---will I be ok?
@@ -142,9 +146,8 @@ The "present it in concert" part of that is one of the course [learning outcomes
 
 ## What are the time commitments for LENS? {#what-are-the-time-commitments-for-lens}
 
-The primary weekly contact hours are the 2hr [workshop session]({% link
-_workshops/index.md %}) from 3pm--5pm in the [Marie Reay 4.04](https://www.anu.edu.au/maps#show=108136).
-If you're enrolled in the class, you must be there every week.
+The primary weekly contact hours are the 2-hour [workshop session]({% link
+_workshops/index.md %}). If you're enrolled in the class, you must be there every week.
 
 Outside of that workshop, the class will be delivered in "flipped" mode; we'll
 give you some reading material & videos to look at, then you'll create something
@@ -159,51 +162,20 @@ sense and where you have questions, and make some noise.
 
 ## Can I take this course if I'm a remote student?
 
-Many of our courses are now offered to remote students or support dual
-delivery. Unfortunately, the nature of the LENS course means that it cannot be
-offered in remote mode---to participate you must be able to attend the workshop
-sessions in person.
+Unfortunately not, ANU Laptop Ensemble is only offered in-person on ANU campus.
 
 ## What music software will we be using in the course?
 
 In this course you'll learn to use both
 [Pure Data (Pd)](http://msp.ucsd.edu/software.html) and
-[Extempore](https://extemporelang.github.io) for music-making. Which one you use
+[SuperCollider](https://supercollider.github.io) for music-making. Which one you use
 for your final performance is up to you; you'll get to decide what fits your
 creative purposes best as the semester progresses.
-
-## How do I enrol in Laptop Ensemble? {#how-to-enrol}
-
-First, check out the info on this course website (including this FAQ) to
-understand how the course works and what we expect of you.
-
-If you'd like to enrol under a COMP course code (note: open to _all_ ANU
-students---check with your program convenor to see how to fit it into your
-program) get in touch with [Charles Martin](mailto:charles.martin@anu.edu.au) to enrol.
-
-## Will I need a permission code? {#will-I-need-a-permission-code}
-
-No, you don't need to get a permission code for the course ahead of time. If
-you're enrolling in COMP3710 or 6740 then all you have to do is turn up to the
-week 1 [workshop session]({% link _workshops/index.md %}), sign the study
-contract and then we'll enrol you in ISIS directly. This does mean that you
-won't be enrolled in the course on ISIS until week 1, but that's ok---all the
-course info you'll need is on this website.
-
-## Do we use Wattle in this course? {#wattle-site-for-this-course}
-
-We won't use Wattle in this course---all the course content will be on this
-website.
 
 ## I want to start practising _right now_, what should I do?
 
 Feel free to install some [computer music software]({% link
 _resources/02-tools.md %}) and start playing around with it, you can also browse
 our [workshop]({% link _workshops/index.md %}) material.
-
-## I've got friends who are keen as well, what should I do?
-
-Tell them about it! Post the laptop ensemble website on Schmidtposting, hire a
-skywriting plane, get a tattoo; I don't care. Be creative :)
 
 
