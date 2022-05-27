@@ -23,8 +23,8 @@ GIT
 
 GIT
   remote: git@gitlab.anu.edu.au:jekyll-anu/gems/jekyll-theme-anu.git
-  revision: daf6f76df20e3bf2d96001311b5165cd9a16cfa7
-  branch: v2.2.1
+  revision: a3e2ccc3a2ddf0d2d975017a20c17b7965f8c60f
+  branch: master
   specs:
     jekyll-theme-anu (2.2.1)
       jekyll
@@ -39,7 +39,7 @@ GEM
     classifier-reborn (2.2.0)
       fast-stemmer (~> 1.0)
     colorator (1.1.0)
-    concurrent-ruby (1.1.9)
+    concurrent-ruby (1.1.10)
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
@@ -85,7 +85,7 @@ GEM
       jekyll (>= 3.8, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    kramdown (2.3.1)
+    kramdown (2.3.2)
       rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
@@ -98,13 +98,13 @@ GEM
     mini_portile2 (2.8.0)
     mini_racer (0.6.2)
       libv8-node (~> 16.10.0.0)
-    nokogiri (1.13.3)
+    nokogiri (1.13.4)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
-    parallel (1.21.0)
+    parallel (1.22.1)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
-    public_suffix (4.0.6)
+    public_suffix (4.0.7)
     racc (1.6.0)
     rainbow (3.1.1)
     rb-fsevent (0.11.1)
