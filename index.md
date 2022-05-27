@@ -11,25 +11,47 @@ layout: feature
 
 {: .lead .subtitle}
 
-Do you want to make music with your computer? Do you want create new kinds of
-musical instruments? Do you want to be a part of a laptop band? This is the
-course for you!
+Do you want to create sound and music with your computer? Do you want to build
+new kinds of musical instruments? Do you want to be a part of a laptop band?
+This is the course for you! 
 
-If you're an ANU student and you'd like to be part of LENS in the future, then
-bookmark this page and come back around June 2022---the course will be starting
-up again in Semester 2 2022 (note: not in Semester 1 as it ran in 2021).
+This course is an introduction to the fundamental concepts of music computing,
+including digital synthesis, algorithmic composition, and musical interface
+design. Students will develop their knowledge by creating computer musical
+instruments in music programming languages and developing new computer music
+works to present in concert with an ensemble of other students. 
 
-If you've got other questions about the Laptop Ensemble, e.g. upcoming gigs or
-booking LENS for your next event, then email [Dr Ben
-Swift](mailto:ben.swift@anu.edu.au) or [Dr Charles
+Modern music technology exists at the forefront of computing practice and
+involves new live programming paradigms, human interface design, digital signal
+processing, networking, and machine learning. Students will gain experience in
+these concepts and learn how to conceptualise and realise new computer music
+instruments, compositions, and performances.
+
+## How to enrol
+
+ANU Laptop Ensemble runs as a "Special Topics" course in the ANU School of
+Computing. Two course codes are available:
+[COMP3710](https://programsandcourses.anu.edu.au/2022/course/comp3710) and
+[COMP6470](https://programsandcourses.anu.edu.au/2022/course/comp6470).
+
+Enrolment for ANU Laptop Ensemble is by permission code, and there are two steps:
+
+- Fill in the [expression of interest form
+  (link)](https://forms.office.com/r/UVJBTZfLVU), we will let you know when the
+  first LENS workshop is scheduled.
+
+- Show up in the first week and we will arrange a permission code for your
+  enrolment.
+
+If you've got questions about enrolling in Laptop Ensemble, get in touch with [Charles
 Martin](mailto:charles.martin@anu.edu.au).
 
-{:.warn-box}
+## What does the ANU Laptop Ensemble do?
 
-The LENS course (LENS'21) has finished for the year---check out the student's
-performances in the [final gig
-video](https://www.youtube.com/watch?v=A0NG-T8y7gM) here (hot off the [LENS
-Youtube Channel](https://www.youtube.com/channel/UCIU6SqIS02GJlnLOPqlwmpA)).
+The best way to see what we do is to watch the student's performances in the
+[final gig video](https://www.youtube.com/watch?v=A0NG-T8y7gM) here (hot off
+the [LENS Youtube
+Channel](https://www.youtube.com/channel/UCIU6SqIS02GJlnLOPqlwmpA)).
 
 {% include youtube.html id="A0NG-T8y7gM" %}
 

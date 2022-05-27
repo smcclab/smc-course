@@ -20,7 +20,7 @@ url: https://comp.anu.edu.au
 date_format: "%b %-d, %Y"
 permalink: pretty
 # sub-path of your site (/courses/COMPXXXX)
-baseurl: "/courses/comp2710-lens"
+baseurl: "/courses/laptop-ensemble"
 
 theme: jekyll-theme-anu
 
