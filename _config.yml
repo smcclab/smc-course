@@ -71,6 +71,7 @@ defaults:
       layout: default
       show_anchor_headings: true
       image: assets/photos/2019-rehearsal-weitong.jpg
+      image-tint: "medium"
   -
     scope:
       path: _lectures
