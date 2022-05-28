@@ -10,9 +10,25 @@ show_toc: true
 Laptop Ensemble is a "flipped mode" class (as [described in the FAQ]({% link
 _resources/01-faq.md %}#what-are-the-time-commitments-for-lens)). Most of the course
 content is in the weekly [workshops]({% link _workshops/index.md
-%})---that's the stuff you'll need to read & do in advance. However, sometimes
-it makes sense to have lecture-style presentations/slides, and when that's the
-case it'll be on this page.
+%})---that's the stuff you'll need to read & do in advance.
+
+There will be some lectures, but they will be pre-recorded so that you can watch them before the workshops.
+
+The course topics will be:
+
+- Computer music tools and digital audio
+- Digital synthesis
+- Sampling
+- Algorithmic composition
+- Musical interface design
+- Live coding
+- Networked computer music
+- Ensemble computer music performance
+- Music computing on microcontrollers
+- Machine learning and musical interfaces
+
+
+## Previous Lectures:
 
 1. [Welcome to LENS]({% link _lectures/01-lens-welcome.md %})
 2. [Digital Synthesis with Pure
