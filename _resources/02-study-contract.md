@@ -32,11 +32,11 @@ hidden: true
     </tr>
     <tr>
       <td><strong>Project supervisor</strong></td>
-      <td>Ben Swift</td>
+      <td>Charles Martin</td>
     </tr>
     <tr>
       <td><strong>Course supervisor</strong></td>
-      <td>Ben Swift</td>
+      <td>Charles Martin</td>
     </tr>
     <tr>
       <td><strong>Course title</strong></td>
@@ -48,7 +48,7 @@ hidden: true
     </tr>
     <tr>
       <td><strong>Semester</strong></td>
-      <td>Semester 1, 2021</td>
+      <td>Semester 2, 2022</td>
     </tr>
   </tbody>
 </table>
@@ -75,9 +75,9 @@ LENS concert at the end of the course.
 
 |                                                                        | mark | due date                             | marker            |
 | ---------------------------------------------------------------------- | ---- | ------------------------------------ | ----------------- |
-| [AV diary portfolio]({% link _assessments/01-audiovisual-diary.md %}) |  30% | Mar 26 (stage 1), April 30 (stage 2) | Ushini Attanayake |
-| [LENS demo]({% link _assessments/02-demo-day.md %})                   |  20% | Week ~~8~~ 9                         | Ushini Attanayake |
-| [LENS performance]({% link _assessments/03-lens-performance.md %})    |  50% | June 1                               | Ben Swift         |
+| [AV diary portfolio]({% link _assessments/01-audiovisual-diary.md %}) |  30% | Mar 26 (stage 1), April 30 (stage 2) | |
+| [LENS demo]({% link _assessments/02-demo-day.md %})                   |  20% | Week ~~8~~ 9                         | |
+| [LENS performance]({% link _assessments/03-lens-performance.md %})    |  50% | June 1                               | |
 
 ### Meeting Dates
 
@@ -120,7 +120,7 @@ below or attached email).
   <tbody>
     <tr>
       <td><em>Name</em></td>
-      <td><strong>Dr Ben Swift</strong></td>
+      <td><strong>Charles Martin</strong></td>
     </tr>
     <tr>
       <td><em>Date</em></td>
@@ -140,7 +140,7 @@ below or attached email).
   <tbody>
     <tr>
       <td><em>Name</em></td>
-      <td><strong>Ushini Attanayake</strong></td>
+      <td><strong></strong></td>
     </tr>
     <tr>
       <td><em>Date</em></td>

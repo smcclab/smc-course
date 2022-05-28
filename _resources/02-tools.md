@@ -21,7 +21,7 @@ _workshops/index.md %})) we expect you to bring your laptop (and charger), and s
 headphones.
 
 If you don't have a laptop you can use, then
-[let Ben know](mailto:ben.swift@anu.edu.au). We want this class to be accessible
+let us know. We want this class to be accessible
 to everyone, so if the "BYO laptop" thing is an issue we'll try our best to help
 you out with a loaner laptop for the semester.
 
@@ -68,42 +68,49 @@ version of "vanilla" Pd for your platform (as shown in the screenshot).
 - You can also find lots of great Pd examples in the
   [rjlib library](https://github.com/rjdj/rjlib/)
 
+- Nick Collins' [SuperCollider tutorial](https://composerprogrammer.com/teaching/supercollider/sctutorial/tutorial.html) has lots of good SuperCollider Examples.
+
 #### Books
 
-- _Kreidler, J._
-  [Programming Electronic Music in Pd](http://www.pd-tutorial.com) (2013). This
-  book is freely available online, and is a good "from the ground up"
-  introduction to how to make music in Pd. Some of the screenshots are a bit out
-  of date, but since Pd hasn't changed very much since it was written the actual
-  content is still quite current and useful.
+- _Kreidler, J._ [Programming Electronic Music in
+  Pd](http://www.pd-tutorial.com) (2013). This book is freely available online,
+  and is a good "from the ground up" introduction to how to make music in Pd.
+  Some of the screenshots are a bit out of date, but since Pd hasn't changed
+  very much since it was written the actual content is still quite current and
+  useful.
 
-- _Puckette, M._
-  [Theory and Technique of Electronic Music](http://msp.ucsd.edu/techniques.htm)
-  (2007). This is a book by the creator of Pd, and even though it uses Pd for
-  all the examples it's really a more general book about how computer music
-  works. It covers a bunch of the mathematical & signal processing foundations
-  of the techniques you'll learn in the course, and if you're into that sort of
-  thing then you might enjoy this book. However, in this course understanding
-  the maths is less important than understanding the use of these thins in a
-  LENS context, so we won't cover the more maths-y stuff in this course.
+- _Puckette, M._ [Theory and Technique of Electronic
+  Music](http://msp.ucsd.edu/techniques.htm) (2007). This is a book by the
+  creator of Pd, and even though it uses Pd for all the examples it's really a
+  more general book about how computer music works. It covers a bunch of the
+  mathematical & signal processing foundations of the techniques you'll learn
+  in the course, and if you're into that sort of thing then you might enjoy
+  this book. However, in this course understanding the maths is less important
+  than understanding the use of these thins in a LENS context, so we won't
+  cover the more maths-y stuff in this course.
 
-- [Cambridge Companion to Electronic Music](https://www-cambridge-org.virtual.anu.edu.au/core/books/cambridge-companion-to-electronic-music/51F366EA55DAE2CBCCB191E2D8349C9F)
+- [Cambridge Companion to Electronic
+  Music](https://www-cambridge-org.virtual.anu.edu.au/core/books/cambridge-companion-to-electronic-music/51F366EA55DAE2CBCCB191E2D8349C9F)
   (available through ANU library online). A great resource that covers all the
   concepts in this course with chapters written by current computer music
   composers and researchers.
+
+### SuperCollider {#supercollider}
+
+[SuperCollider](https://supercollider.github.io/) is a text-based computer music environment often used for live coding.
+
+It includes its own IDE (text editor) and help system, but you can also drive it from your editor of choice if you wish.
+
+We will be broadly following Nick Collins' [SuperCollider Tutorial](https://composerprogrammer.com/teaching/supercollider/sctutorial/tutorial.html) throughout the semester.
 
 ### Extempore {#extempore}
 
 {:.info-box}
 
-We'll be installing & using Extempore on our laptops from week 3, but
-again---there's nothing stopping you getting started sooner!
+Extempore was used in LENS in 2020 and 2021, but not in 2022, this section is for your information only :-)
 
 [Extempore](https://extemporelang.github.io) is a text-based computer music
-environment (partly developed by [Ben](https://benswift.me) & others at ANU!).
-You might have seen Ben use it in his
-[livecoding](https://benswift.me/livecoding/), but you can use it for "offline"
-music-making as well.
+environment (developed by Andrew Sorensen and [Ben Swift](https://benswift.me) at ANU!).
 
 #### Books
 

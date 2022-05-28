@@ -29,7 +29,6 @@ you) through the ANU library website.
 
 - _Sorensen, A., Swift, B., and Riddell,
   A._[The Many Meanings of Live Coding](https://benswift.me/assets/documents/preprints/sorensen_et_al_2014_the_many_meanings_of_live_coding.pdf)
-  _available through Ben's website_
 
 ## General Computer Music Books
 

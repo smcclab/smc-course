@@ -1,12 +1,12 @@
 ---
 title: LENS lab equipment
-summary: A list of gear that the c/c/c studio owns and you can use in class.
+summary: A list of gear that the LENS lab owns and you can use in class.
 permalink: /resources/equipment/
 show_toc: true
 ---
 
 Here's a list of all the gear that we have to share---if you'd like to use any
-of it in the course then let Ben know and we can discuss how to give you access
+of it in the course then let us know and we can discuss how to give you access
 to it.
 
 ## Audio
