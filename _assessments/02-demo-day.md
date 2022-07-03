@@ -18,48 +18,41 @@ show_toc: true
 
 ## Description
 
-In the week 9 workshop session everyone will give an in-class demo of their
-work-in-progress (WIP) for the final LENS performance. It's not expected to be
-an "artistic performance" like the final performance will be, you're encouraged
-to talk through what it can do so far, how it will evolve as the final
-performance approaches, and even raise open questions you have about the rest of
-the design process.
+The LENS demo is a work-in-progress demonstration of your final LENS
+performance conducted in-class during week 9. It's not expected to be an
+"artistic performance" like the final performance will be, you're encouraged to
+talk through what it can do so far, how it will evolve as the final performance
+approaches, and raise open questions you have about the rest of the design
+process.
 
 If you're not sure exactly what to cover in your demo, here are a few questions
-to help you get started (note: this is not a checklist---just some stimulus
-material to sharpen your thinking).
+to help you get started: 
 
-- are there any artists/pieces which you've used for inspiration? how will your
-  performance/artefact explore & extend the things in that work? (it's ok to
-  show short clips of these artists alongside your actual WIP demo)
+- What is the main idea of your performance? What makes it _unique_ to you?
 
-- is there a key idea or concept that's at the heart of your
-  performance/artefact?
+- How will your performance work technically? What tools are you using, what musical software have you already created and what do you still have to do?
 
-- what's _unique_ about your performance/artefact---what is it that makes yours
-  stand out from the crowd?
+- What is your performance going to sound like? Does it reflect a certain style of computer music or some other genre? What artists/pieces have you used for inspiration?
 
-- how are you going to make it a compelling overall _performance_ (including the
-  visual aspect)?
+- How will your performance be collaborative? What will you and the other performers do specifically?
 
-Once everyone has presented their demo, you'll have the rest of the workshop
-timeslot to wander around and play with other people's LENS artefacts. Remember,
-you need at least one of your classmates to be involved as an ensemble
-member---this is a great chance to pitch to them!
+The demo day is a great chance to recruit other LENSers to be in your ensemble. Make your demo something that is appealing to others! 
 
 ## Specification
 
-You must present your LENS artefact to the rest of the class in a 5 minute
-in-class demo, followed by 5 minutes of questions. You can bring your own
-laptop/other gear, and we will connect it to the PA (we'll discuss the "tech
-rider" stuff in the week 8 workshop).
+You must:
 
-In addition to the demo, you must submit (by 11:59pm on Wednesday May 5---the
-day before the demo day) all the necessary patch files/code/sounds/video assets
-associated with your demo.
+- present your LENS artefact in a 5 minute in-class demo (recorded)
+- answer questions for another 5 minutes
+- bring your own laptop and equipment (we will connect it to speakers)
+- Submit all of your demo materials (patches, code, sounds, video, etc) to GitLab by the start of the demo day class.
 
-This demo should not be a ppt presentation---this is expected to be a live demo,
-although you can show off your artefact in whatever way seems best to you.
+You should not:
+
+- Prepare a powerpoint presentation or slideshow; this is a live demo.
+- Only talk about what YOU will do in your performance; it's an ensemble performance.
+- Talk about sounds you will make in a digital audio workstation (e.g., Logic/Ableton); you are expected to primarily use tools and concepts we have learned in class.
+- Prepare to play for 15 minutes; you only get 5 minutes demo and 5 minutes questions.
 
 ## Submission process {#submission-process}
 

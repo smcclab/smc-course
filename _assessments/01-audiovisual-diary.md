@@ -8,11 +8,8 @@ show_toc: true
 ## Outline
 
 - **Due date:**
-  - 60sec (solo) or 180sec (group) video submissions due (via GitLab) 11am every
-    Thursday in weeks 2--8, 10 (no AVD in week 9 because [demo day]({% link
-    _assessments/02-demo-day.md %}))
-  - portfolio submissions due 11:59pm ~~March 26~~ March 29 (beginning of week 6) &
-    May 14 (week 10)
+  - 60sec (solo) or 180sec (group) video submissions due (via GitLab) by 8am Wednesday in weeks 2--8, 10)
+  - portfolio submissions due 11:59pm (beginning of week 6 & week 10)
 - **Mark weighting:** 30% total (see [below](#marking))
 - **Submission:** submit your videos & portfolio submissions according to the
   instructions below
@@ -62,11 +59,11 @@ Each week's submission must include:
   - is 1920x1080 (full HD) resolution
   - has sound (obviously!)
   - uses one of the [computer music software environments we're covering in this
-    course]({% link _resources/02-tools.md %}#software) (i.e. Pd or Extempore)
+    course]({% link _resources/02-tools.md %}#software)
   - uses a video and audio codec which is supported by
     [ffmpeg](https://ffmpeg.org)
 
-- all files (e.g. Pd patch files, Extempore source code files, sound files &
+- all files (e.g., patches, source code files, sound files &
   other assets) required to re-produce your submission (in a subfolder called
   `materials`)
 
@@ -108,8 +105,7 @@ If you're familiar with git & GitLab, then you can do this however you like---as
 long as the video & reflection document is pushed to GitLab before the
 submission time.
 
-If you're new to this sort of thing, here are a couple of walkthrough videos of
-me using [VSCode](https://code.visualstudio.com) to edit the
+If you're new to this sort of thing, here are a couple of walkthrough videos showing how to use [VSCode](https://code.visualstudio.com) to edit the
 `week-2-reflection.md` file, commit the `week-2.mkv` video file and push it to
 GitLab. If there's any language in there that's not familiar that's completely
 ok---hit us up on Teams to ask questions, we'd love to help you out.
@@ -137,7 +133,7 @@ ok---hit us up on Teams to ask questions, we'd love to help you out.
    listening)
 
 5. if you saw something interesting in a classmate's video the previous week,
-   ask them (on Teams) how they did it
+   ask them (on Teams) how they did it (yes, collaboration is ok as long as you cite your sources!)
 
 6. have a look at the ["screen recording software" section of the Tools page]({%
    link _resources/02-tools.md %}#screen-recording-software)
