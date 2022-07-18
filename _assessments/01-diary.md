@@ -8,13 +8,10 @@ show_toc: true
 ## Outline
 
 - **Due date:**
-  - 60sec (solo) or 180sec (group) video submissions due (via GitLab) by 8am Wednesday in weeks 2--8, 10)
-  - portfolio submissions due 11:59pm (beginning of week 6 & week 10)
-- **Mark weighting:** 30% total (see [below](#marking))
+- **Mark weighting:** 0% but required for portfolio
 - **Submission:** submit your videos & portfolio submissions according to the
   instructions below
-- **Policies:** for late policies, academic integrity policies, etc. see the
-  [policies page]({% link 01-policies.md %})
+- **Policies:** late submissions not accepted without an extension.
 
 ## Description
 
