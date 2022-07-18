@@ -54,7 +54,7 @@ Before this week's workshop, have a think about:
    emulating it
 
 2. to think about the parts of your [final performance]({% link
-   _assessments/03-lens-performance.md %}) and how they fit together
+   _assessments/04-lens-performance.md %}) and how they fit together
 
 ## Resources
 

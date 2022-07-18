@@ -124,8 +124,7 @@ up for LENS then you've been warned!
 Each week, you'll:
 
 - learn about a particular computer music concept (_in your own time_)
-- make & submit a creative response (through your [AV diary entry]({% link
-  _assessments/01-audiovisual-diary.md %})) which explores that concept (_in your
+- make & submit a creative response which explores that concept (_in your
   own time_)
 - listen to, play with & discuss the things that you and your classmates have
   made (_during the class workshop timeslot_)
@@ -139,8 +138,7 @@ In addition, over the course of the semester you'll:
 
 ## Do I _have_ to do a live performance if I take this course?
 
-Yes, the [main course assessment]({% link _assessments/03-lens-performance.md
-%}) (worth 50% of the course mark) is to use the computer music instrument/system
+Yes, the [main course assessment]() (worth 50% of the course mark) is to use the computer music instrument/system
 that you've built in a group performance alongside some of your LENS classmates.
 The "present it in concert" part of that is one of the course [learning outcomes]({% link 02-outline.md %}#learning-outcomes).
 

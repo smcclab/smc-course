@@ -9,7 +9,7 @@ show_toc: true
 
 ## Outline
 
-- **Due date:** Thursday May 6, 3pm--6pm (week 9, note the slightly later finish time)
+- **Due date:**  
 - **Mark weighting:** 20%
 - **Submission:** submit your assignment according to the
   [instructions below](#submission-process)

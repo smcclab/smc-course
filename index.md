@@ -74,7 +74,7 @@ at ANU. You should have a strong interest in making sound and music using comput
 willingness to learn new approaches to music and computer programming, and be
 must be able to attend the [weekly workshop session]({% link _workshops/index.md
 %}) perform at the [end-of-semester LENS gig]({% link
-_assessments/03-lens-performance.md %}).
+_assessments/04-lens-performance.md %}).
 
 If you've got any questions (including [how to
 enrol](resources/faq/#how-to-enrol)), the [course FAQ]({% link

@@ -5,8 +5,8 @@ show_toc: true
 ---
 
 {:.warn-box}
-**Group AVD**: start big, then "remove" things with filters & algorithms (3min
-AVD this week, because group)
+**Group Diary**: start big, then "remove" things with filters & algorithms (3min
+diary this week, because group)
 
 ## Goals for this week
 
@@ -23,8 +23,8 @@ AVD this week, because group)
    compositional possibilities of _manipulating_ pre-recorded sounds during
    playback
 
-4. discuss any special tech/setup requirements for the [demo day]({% link
-   _assessments/02-demo-day.md %}) presentations
+4. discuss any special tech/setup requirements for the [demo presentation]({% link
+   _assessments/03-demo-presentation.md %}) presentations
 
 ## Extempore resources
 
@@ -82,7 +82,7 @@ banks, slots & samplers).
 
 - patch files can be saved & shared (with
   `analogue-save-preset`/`analogue-load-preset`), so ask your classmates if
-  they're willing to share their patches around (remember: it's a **group AVD**
+  they're willing to share their patches around (remember: it's a **group diary**
   this week)
 
 - can you use any of the [algorithmic composition]({% link
@@ -105,7 +105,7 @@ banks, slots & samplers).
   offsets) from a single audio file? what does "composing" look like under this
   constraint?
 
-- what are the _roles_ in a group AVD collaboration, anyway? are there any new
+- what are the _roles_ in a group diary collaboration, anyway? are there any new
   roles in your group music-making which didn't even exist in your week 5
   collaboration?
 

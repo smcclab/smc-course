@@ -5,10 +5,10 @@ show_toc: true
 ---
 
 {:.warn-box}
-No AVD due this week, since it's demo day.
+No diary due this week, since it's demo day.
 
 {:.info-box}
 
 There's no new workshop content this week, since the workshop session will be
-taken up with your [demo day]({% link _assessments/02-demo-day.md %})
+taken up with your [demo]({% link _assessments/03-demo-presentation.md %})
 presentations (and maybe even impromptu jam sessions).

@@ -13,7 +13,7 @@ performances. Half the class will go this week, the other half the next week
 _lectures/group-picker-wheel.md %}), as usual).
 
 After the performances we'll have a discussion about our works-in-progress in
-relation to the [marking criteria]({% link _assessments/03-lens-performance.md
+relation to the [marking criteria]({% link _assessments/04-lens-performance.md
 %}#marking) for the final performances.
 
 ## Goals for this week

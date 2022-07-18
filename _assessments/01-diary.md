@@ -1,7 +1,7 @@
 ---
-title: Weekly audiovisual diary
-summary: Your opportunity to make stuff for inspo and discussion in class.
-permalink: /assessments/audiovisual-diary/
+title: Computer music diary
+summary: Develop your skills and discuss in class.
+permalink: /assessments/lens-diary/
 show_toc: true
 ---
 
@@ -18,14 +18,14 @@ show_toc: true
 
 ## Description
 
-Your audiovisual (AV) diary is a way to try things, keep track of ideas and
+Your computer music diary is a way to try things, keep track of ideas and
 generally develop your creative practice through a series of videos. It's like a
 weekly vlog, except that you don't have to say "like and subscribe" at the end.
 
 In this course each week you'll learn about a particular computer music concept
 (through our [flipped lectures]({% link _workshops/index.md %})), and the
 lecture content will include a particular "creative provocation" for you to
-respond to in your AV diary entry.
+respond to in your diary entry.
 
 The videos you'll produce aren't just dumb "box-ticking" assessments,
 though---we're going to listen to, play with & discuss the things that you and
@@ -36,7 +36,7 @@ _workshops/index.md %})_.
 
 {:.info-box}
 
-Remember: the specification & submission instructions for your AV diary are in
+Remember: the specification & submission instructions for your diary are in
 two parts---this information relates to the weekly video part.
 
 {:.warn-box}
@@ -44,7 +44,7 @@ two parts---this information relates to the weekly video part.
 The "week numbering" for the diary entries can be a bit confusing, especially
 because it's a flipped class (where you create your video _ahead_ of the week's
 class). Just remember: in week _N_ you submit the diary entry for week _N_, e.g.
-in week 2 you'll submit your first AV diary video in response to the
+in week 2 you'll submit your first diary video in response to the
 [week 2 provocation](https://comp.anu.edu.au/courses/comp2710-lens/workshops/02-synthesis-1/).
 
 ### Specification {#weekly-videos-spec}
@@ -97,7 +97,7 @@ everyone's patch files will be shared (just within this LENS cohort).
 
 ### Submission process {#weekly-videos-submission-process}
 
-You must submit your 60sec (or 180sec for group AVD weeks) video and associated
+You must submit your 60sec (or 180sec for group weeks) video and associated
 files by Thursday 11am every week (from weeks 2--9 inclusive) through
 [GitLab](https://gitlab.cecs.anu.edu.au/laptop-ensemble/2021/2021-av-diary-submissions).
 
@@ -151,70 +151,3 @@ ok---hit us up on Teams to ask questions, we'd love to help you out.
 
 4. don't overthink it---it's only 200 words
 
-## Portfolio {#portfolio}
-
-{:.info-box}
-
-Remember: the specification & submission instructions for your AV diary are in
-two parts---this information relates to the **portfolio** part (due in weeks
-~~5~~ 6 & 10 only).
-
-### Specification {#portfolio-spec}
-
-Even though you submit something every week, you won't receive a mark each week.
-Instead, you'll be marked through two "portfolio" submissions:
-
-- a 1000--1500 word document due on ~~March 26~~ March 29 (beginning of week 6)
-  which covers AV diary entries for weeks 2--5
-
-- a 1000--1500 word document due on May 14 (end of week 10) which covers AV
-  diary entries for weeks 6--10 (there was no week 9 AVD because of demo day,
-  but you can reflect on your demo day presentation in the portfolio)
-
-Each document must articulate your combined (and edited) reflections on your AV
-diary submissions for the specified weeks, explaining how each one explored the
-theme and creative criteria for that week. Include figures, screenshots, and
-code excerpts in your documents as necessary. You do not need to re-submit the
-videos---we have them already from your [weekly submissions](#weekly-videos).
-
-The purpose of this portfolio is to tell a story about how you (both as an
-individual and a group member) have explored the key music computing concepts
-through your AVD submissions. Don't just give us a week-by-week description of
-what you submitted each week---draw out "common threads", tell us why you chose
-to respond to the provocations in the way you did, and show us your development
-as a LENS member and computer musician through these AVD submissions.
-
-You can (and are encouraged to) include diagrams, screenshots, even links to
-videos, as long as they help you tell a coherent story (i.e. don't just dump a
-bunch of screenshots in there because it makes it look fancy).
-
-### Submission process
-
-Submit each document (in markdown or pdf format) through
-[GitLab](https://gitlab.cecs.anu.edu.au/laptop-ensemble/2021/2021-av-diary-submissions)
-by 11:59pm on the due date.
-
-### Marking criteria {#marking}
-
-Each stage of your portfolio is worth 15% of your total mark, and will be
-assessed entirely based on the submitted document. The marking criteria (based
-on the [course learning outcomes]({% link 02-outline.md %})) are:
-
-- demonstration of the fundamental concepts in computer music covered in the
-  course including digital synthesis, algorithmic composition and musical
-  interface design
-
-- reflection on the design and performance challenges associated with computer
-  music interfaces (including ensemble performance aspects in the case of the
-  group AVDs)
-
-- engagement with the weekly provocations and specifically how they shaped your
-  AV diary submissions
-
-- clarity of communication, overall narrative structure of the portfolio (i.e.
-  does it read like a cohesive document, or just like 4x 200-word reflections
-  copy-pasted together?)
-
-- adherence to the [spec](#weekly-videos-spec) &
-  [submission deadlines](#weekly-videos-submission-deadlines) for the weekly
-  videos

@@ -1,14 +1,14 @@
 Upon successful completion of this course, students will be able to:
 
-1.	Describe and apply the fundamental concepts of music computing
-	including digital synthesis, algorithmic composition, and musical
-	interface design.
-2.	Demonstrate knowledge of design and performance issues around computer
-	music interfaces.
-3.	Critically examine computer music systems and laptop ensemble
-	performances.
-4.	Create a computer musical instrument, composition or interactive sound
-	artwork and present it in concert.
-5.	Demonstrate collaboration skills with a laptop ensemble through design
-	feedback and critical self-reflection.
+ 
+1. Describe and apply fundamental concepts and recent developments in sound and
+   music computing.
 
+2. Apply collaboration skills with computer musicians through design feedback
+   and critical self-reflection.
+
+3. Critically examine computer music systems, interfaces and performances in
+   terms of recent developments in the field.
+
+4. Create a computer musical instrument, composition or interactive media work
+   that reflects recent developments in the field.

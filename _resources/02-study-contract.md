@@ -73,12 +73,6 @@ LENS concert at the end of the course.
 
 ### Assessment
 
-|                                                                        | mark | due date                             | marker            |
-| ---------------------------------------------------------------------- | ---- | ------------------------------------ | ----------------- |
-| [AV diary portfolio]({% link _assessments/01-audiovisual-diary.md %}) |  30% | Mar 26 (stage 1), April 30 (stage 2) | |
-| [LENS demo]({% link _assessments/02-demo-day.md %})                   |  20% | Week ~~8~~ 9                         | |
-| [LENS performance]({% link _assessments/03-lens-performance.md %})    |  50% | June 1                               | |
-
 ### Meeting Dates
 
 1. weekly LENS [workshop sessions]({% link _workshops/index.md %}) (2hrs/week

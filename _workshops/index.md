@@ -15,13 +15,11 @@ The weekly workshop sessions are the main teaching activity for Laptop Ensemble.
 - Where: [Birch Teaching Room 1.08](https://www.anu.edu.au/maps#show=28991)
 
 _Before_ you attend the workshop you must have read the corresponding lecture
-material (see below) and have submitted your weekly [AV diary video]({% link
-_assessments/01-audiovisual-diary.md %}).
-
+material (see below) and have submitted your weekly [diary entry]({% link _assessments/01-diary.md %}).
 Each week's content includes:
 
-- a description of the "creative provocation" for that week's [AV diary]({% link
-  _assessments/01-audiovisual-diary.md %}) entry
+- a description of the "creative provocation" for that week's [diary]({% link
+  _assessments/01-diary.md %}) entry
 - videos to watch
 - code to read
 - other reading material (papers, blog posts, etc.)
