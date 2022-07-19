@@ -95,7 +95,7 @@ everyone's patch files will be shared (just within this LENS cohort).
 ### Submission process {#weekly-videos-submission-process}
 
 You must submit your 60sec (or 180sec for group weeks) video and associated
-files by Thursday 11am every week (from weeks 2--9 inclusive) through
+files every week (from weeks 2--9 inclusive) through
 [GitLab](https://gitlab.cecs.anu.edu.au/laptop-ensemble/2021/2021-av-diary-submissions).
 
 If you're familiar with git & GitLab, then you can do this however you like---as
