@@ -34,14 +34,18 @@ Computing. Two course codes are available:
 [COMP3710](https://programsandcourses.anu.edu.au/2022/course/comp3710) and
 [COMP6470](https://programsandcourses.anu.edu.au/2022/course/comp6470).
 
+{:.warn-box} 
+Laptop Ensemble is now full! You may still fill in the expression of
+interest form below to get on a waiting list.
+
 Enrolment for ANU Laptop Ensemble is by permission code, and there are two steps:
 
-- Fill in the [expression of interest form
+- ~~Fill in the [expression of interest form
   (link)](https://forms.office.com/r/UVJBTZfLVU), we will let you know when the
-  first LENS workshop is scheduled.
+  first LENS workshop is scheduled.~~
 
-- Show up in the first week and we will arrange a permission code for your
-  enrolment.
+- ~~Show up in the first week and we will arrange a permission code for your
+  enrolment.~~
 
 If you've got questions about enrolling in Laptop Ensemble, get in touch with [Charles
 Martin](mailto:charles.martin@anu.edu.au).

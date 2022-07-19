@@ -141,7 +141,7 @@ academic integrity principles apply.
 
 In particular:
 
-> All ideas, code and content that is not created by you _must be referenced_.
+> All ideas, code and content that is not created by you must be referenced.
 
 You _are allowed_ to include material in your assignments from others where it
 fits with the specification, but you _must not_ pretend that you created it.

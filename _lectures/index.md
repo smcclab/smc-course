@@ -14,6 +14,8 @@ content is in the weekly [workshops]({% link _workshops/index.md
 
 There will be some lectures, but they will be pre-recorded so that you can watch them before the workshops.
 
+{% comment %}
+
 The course topics will be:
 
 - Computer music tools and digital audio
@@ -27,6 +29,8 @@ The course topics will be:
 - Music computing on microcontrollers
 - Machine learning and musical interfaces
 
+
+{% endcomment %}
 
 ## Previous Lectures:
 
