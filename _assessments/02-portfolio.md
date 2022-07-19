@@ -1,5 +1,5 @@
 ---
-title: Collate and critique your weekly work
+title: Portfolio
 summary: Develop your skills and discuss in class.
 permalink: /assessments/portfolio/
 show_toc: true
