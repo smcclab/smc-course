@@ -9,7 +9,7 @@ show_toc: true
 
 ## Outline
 
-- **Due date:**  
+- **Due date:** 5/10/2022, week 9  
 - **Mark weighting:** 20%
 - **Submission:** submit your assignment according to the
   [instructions below](#submission-process)
@@ -47,7 +47,7 @@ You must:
 - bring your own laptop and equipment (we will connect it to speakers)
 - Submit all of your demo materials (patches, code, sounds, video, etc) to GitLab by the start of the demo day class.
 
-You should not:
+You should **not**:
 
 - Prepare a powerpoint presentation or slideshow; this is a live demo.
 - Only talk about what YOU will do in your performance; it's an ensemble performance.

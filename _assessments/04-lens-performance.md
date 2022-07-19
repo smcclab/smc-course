@@ -45,11 +45,11 @@ to put on the YouTube channel.
 
 ### Performance materials
 
-You must submit your **performance
-materials** through GitLab. This includes patches and source
-code, asset files (e.g., samples), scores, instructions to ensemble members, etc.
-It must be in a `final-performance-materials` folder in your usual
-[diary repository](https://gitlab.cecs.anu.edu.au/laptop-ensemble/2021/2021-av-diary-submissions/).
+You must submit your **performance materials** through GitLab. This includes
+patches and source code, asset files (e.g., samples), scores, instructions to
+ensemble members, etc. It must be in a `final-performance-materials` folder in
+your usual [diary
+repository](https://gitlab.cecs.anu.edu.au/laptop-ensemble/2021/2021-av-diary-submissions/).
 
 You must include a `README.md` file explaining how to get everything up and
 running, with enough clarity & detail that one of your LENS classmates could
@@ -61,13 +61,12 @@ You've all already forked [that GitLab
 repo](https://gitlab.cecs.anu.edu.au/laptop-ensemble/2021/2021-av-diary-submissions/),
 so to get the updated final performance (you can either pull from the template
 repo again and merge the updates into your fork, or just create the
-`final-performance-materials` folder and copy in the `README.md` file manually).
+`final-performance-materials` folder and copy in the `README.md` file
+manually).
 
 ## Submission process {#submission-process}
 
 - TBA: LENS performance date and time
-
-- TBA + a few days: LENS performance materials. 
 
 ## Marking criteria {#marking}
 

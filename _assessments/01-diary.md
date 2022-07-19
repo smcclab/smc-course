@@ -7,7 +7,7 @@ show_toc: true
 
 ## Outline
 
-- **Due date:**
+- **Due date:**23:59 every Tuesday in weeks 2--8, 10 
 - **Mark weighting:** 0% but required for portfolio
 - **Submission:** submit your videos & portfolio submissions according to the
   instructions below
@@ -15,36 +15,20 @@ show_toc: true
 
 ## Description
 
-Your computer music diary is a way to try things, keep track of ideas and
-generally develop your creative practice through a series of videos. It's like a
-weekly vlog, except that you don't have to say "like and subscribe" at the end.
+Your computer music diary is a way to try out sound and music computing ideas and techniques through short videos and reflections that you create each week.
 
-In this course each week you'll learn about a particular computer music concept
-(through our [flipped lectures]({% link _workshops/index.md %})), and the
-lecture content will include a particular "creative provocation" for you to
-respond to in your diary entry.
+Each week you'll work through pre-reading, -watching, and -listening material in the workshops and respond to a creative provocation in your diary entry.
 
-The videos you'll produce aren't just dumb "box-ticking" assessments,
-though---we're going to listen to, play with & discuss the things that you and
-your classmates have made _during the [workshop timeslot]({% link
-_workshops/index.md %})_.
+The due date is set to the day before class and the very next day we will watch the videos in class together together to discuss the ideas you have explored.
 
-## Weekly videos {#weekly-videos}
+You can find the specific pre-workshop instructions on each workshop page under the heading "Pre-Workshop Tasks"
 
-{:.info-box}
-
-Remember: the specification & submission instructions for your diary are in
-two parts---this information relates to the weekly video part.
+The rest of this page is dedicated to the technical specification for your computer music diary submissions. Make sure you read this carefully and get set up in GitLab in week 1.
 
 {:.warn-box}
+Your computer music diary is the _main task_ you need to complete each week as preparation for your workshop. You will need to have completed it to participate in the workshop activities properly.
 
-The "week numbering" for the diary entries can be a bit confusing, especially
-because it's a flipped class (where you create your video _ahead_ of the week's
-class). Just remember: in week _N_ you submit the diary entry for week _N_, e.g.
-in week 2 you'll submit your first diary video in response to the
-[week 2 provocation](https://comp.anu.edu.au/courses/comp2710-lens/workshops/02-synthesis-1/).
-
-### Specification {#weekly-videos-spec}
+## Specification {#weekly-videos-spec}
 
 Each week's submission must include:
 
@@ -64,15 +48,15 @@ Each week's submission must include:
   other assets) required to re-produce your submission (in a subfolder called
   `materials`)
 
-- a 200-word reflection on how your work responds to the weekly provocation (as
+- a reflection (maximum: 200 words) on how your work responds to the weekly provocation (as
   a [markdown](https://www.markdownguide.org) file called
   `week-N-reflection.md`)
 
 It doesn't matter how the files are named in your `materials/` folder, but for
 the main video & reflection files you must name things exactly as requested
-(note the lowercase!) because otherwise they won't play nice with my
-scripts---and I've only got a couple of hours turnaround between the submission
-deadline and the weekly workshop in the afternoon.
+(note the lowercase!) because otherwise they won't play nice with our class scripts.
+
+## Example {#example}
 
 As an example, for week 2 your folder structure should look something like this:
 
@@ -81,7 +65,7 @@ As an example, for week 2 your folder structure should look something like this:
 │   ├── materials
 │   │   ├── README.md
 │   │   └── week-2.pd
-│   ├── week-2-refection.md
+│   ├── week-2-reflection.md
 │   └── week-2.mp4
 ```
 
@@ -92,10 +76,10 @@ Note: if you're _not_ willing to share your patch files & other materials with
 other LENSers, let the course convenor know asap. The default will be that
 everyone's patch files will be shared (just within this LENS cohort).
 
-### Submission process {#weekly-videos-submission-process}
+## Submission process {#weekly-videos-submission-process}
 
 You must submit your 60sec (or 180sec for group weeks) video and associated
-files every week (from weeks 2--9 inclusive) through
+files every week (from weeks 2--8 and 10) through
 [GitLab](https://gitlab.cecs.anu.edu.au/laptop-ensemble/2021/2021-av-diary-submissions).
 
 If you're familiar with git & GitLab, then you can do this however you like---as
@@ -107,15 +91,15 @@ If you're new to this sort of thing, here are a couple of walkthrough videos sho
 GitLab. If there's any language in there that's not familiar that's completely
 ok---hit us up on Teams to ask questions, we'd love to help you out.
 
-#### How to fork the project
+### How to fork the project
 
 {% include video.html video="lecture-recordings/2021/lens-fork-av-diary-project" %}
 
-#### How to add your video & reflection document & push it to GitLab
+### How to add your video & reflection document & push it to GitLab
 
 {% include video.html video="lecture-recordings/2021/lens-add-av-diary-video-and-push" %}
 
-### Tips on making a good weekly video
+## Tips on making a good weekly video
 
 1. small & focussed is ok---you don't have to build a huge thing every week
 
@@ -123,7 +107,7 @@ ok---hit us up on Teams to ask questions, we'd love to help you out.
    pick the best 1 (this will help with the "small & focussed" aspect as well)
 
 3. you don't have to record it all in one take---you can record several
-   screencasts and cut together the best bits
+   short parts and cut them together
 
 4. think about the layout of your patch (font size, object positions, comments,
    etc.) to make sure it's going to be interesting _viewing_ (as well as
@@ -137,14 +121,13 @@ ok---hit us up on Teams to ask questions, we'd love to help you out.
 
 ### Tips on writing a good weekly reflection
 
-1. it's ok to mention the inspiration (either an abstract concept, or a specific
-   thing you saw/listened to) for your work
+1. Briefly state _what_ you have done, but spend more time on _how_ you did it and _why_.
 
-2. don't spend too much time on the _what_ (we can watch the video for that),
-   talk more about the _why_
+2. it's ok to mention the inspiration (either an abstract concept, or a specific
+   thing you saw/listened to) for your work
 
 3. discuss any particular challenges or tensions you felt between competing
    ideas/priorities (if there were any)
 
-4. don't overthink it---it's only 200 words
+4. don't overthink it---maximum length is 200 words
 
