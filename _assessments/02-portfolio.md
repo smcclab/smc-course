@@ -71,7 +71,7 @@ Your whole Portfolio is actually a big PDF document generated from your weekly r
 
 {:.warn-box} 
 If you have missed any workshop reflections, you will need to go
-back and complete them to submit your portfolio. This task is fairly easy if
+back and complete them to submit your portfolio. This task is fairly straightforward if
 you work consistently each week.
 
 ### Submission process
