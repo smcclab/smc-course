@@ -59,8 +59,6 @@ menu:
     page: 01-policies.md
   - name: Outline
     page: 02-outline.md
-  - name: Help
-    page: 03-getting-help.md
 
 
 # default layouts for different pages

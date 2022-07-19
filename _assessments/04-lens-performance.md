@@ -7,7 +7,8 @@ show_toc: true
 
 ## Outline
 
-- **Due date:** 
+- **Performance Date:** TBA 
+- **Artefact Submission Date:** 23:59 14/11/2022
 - **Mark weighting:** 50%
 - **Submission:** submit your assignment according to the
   [instructions below](#submission-process)

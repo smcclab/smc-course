@@ -4,154 +4,175 @@ permalink: /policies/
 toc: true
 ---
 
+This page extends and gives further context to information on the class
+summaries provided on [Programs and
+Courses](https://programsandcourses.anu.edu.au), and the ANU policies that
+cover all courses and student conduct. 
+
+## Code of conduct {#code-of-conduct}
+
+Everyone in this course is responsible for:
+
+- Promoting an inclusive, collaborative learning environment.
+- Taking action when others do not.
+
+**We reject behaviour that strays into harassment, no matter how mild.**
+Harassment refers to offensive verbal or written comments in reference to
+gender, sexual orientation, disability, physical appearance, race, or religion;
+sexual images in public spaces; deliberate intimidation, stalking, following,
+harassing photography  or recording, sustained disruption of class meetings,
+inappropriate physical contact, and unwelcome sexual attention.
+
+If you feel someone is violating these principles (for example, with a joke
+that could be interpreted as sexist, racist, or exclusionary), **it is your
+responsibility to speak up!** If the behaviour persists, send a private message
+to your course convener to explain the situation. We will preserve your
+anonymity[^1].
+
+Note that you are also bound by the [ANU Student Code of
+Conduct](https://www.anu.edu.au/students/program-administration/program-management/student-code-of-conduct)
+during your time as an ANU student, in particular students are expected to:
+
+> actively participate in learning activities including all class time,
+> independent learning and assessments, and strive to seek depth, breadth and
+> challenge in their learning;
+
+[^1]: This code of conduct was adapted from the COMP1110 Code of Conduct, and originally developed by Evan Peck of Bucknell University. Portions of this code of conduct are adapted from Dr. Lorena A. Barba
+
 ## Communication {#communication}
 
 Any communication in this course will happen over one of two channels:
 
-1. your ANU email address
+1. your student email account
 2. the course Teams channel (you will be added to this in this in the week 1
    lecture)
 
-You are expected to check both of these channels regularly (you can set up
-notifications if it helps). "I didn't see the message" is never an acceptable
-excuse for e.g. missing assessment deadlines.
+If you need to ask a question about the course, here's how to do it:
 
-Since this is a co-badged course (COMP2710/6740 and MUSI2205), if you have
-specific questions about your course enrolment then you need to direct them to
-the correct convenor: [Ben](mailto:ben.swift@anu.edu.au) for COMP and
-[Alec](mailto:alexander.hunter@anu.edu.au) for MUSI (although if you're unsure
-you can just copy the other one in).
+- Ask on the Teams channel, and any of the course staff or students will be able to help you.
+- We prefer public posts, not direct messages. If you need to get a particular person's attention, `@` them in the main chat.
+- If you need help with a software problem, any assessment item, or just want to vent, see above, we're here for it :-)
+- Extensions are handled through a special website, see below.
+- If you need to get in touch with the course convenor directly to discuss a private matter (and it really is private): firstname.lastname@anu.edu.au
+- Disrespectful, harassing, or discriminatory posting or messaging this course is **not acceptable** and will not be tolerated (see the code of conduct).
 
-For course-content related stuff, you'll get a much faster & better response on
-the Teams channel---and that way other students can benefit from your questions
-as well.
+## Late Submissions {#late-submission}
 
-## Assessment
-
-All assessment items are listed on the [assessments page]({% link
-_assessments/index.md %}).
-
-## Feedback
-
-You will receive marks & feedback for all assessment items within two weeks of
-the submission deadline.
-
-## Final marks and grades {#final-marks-and-grades}
-
-To pass the course, you must score **at least 50** for your final mark. Your
-final mark will be the total of your marks on the individual assessment items
-with the additional caveat that your mark may be scaled by the examiners'
-conference to provide your overall course mark and grade.
-
-If your final mark is less than 50 but greater than or equal to 45 then you will
-receive a PX grade and be eligible for
-[supplementary assessment](#supplementary-assessment) to try and pass the
-course.
-
-If you fail one of the hurdles **and** if you get a final mark of 45 or greater
-then you will receive a PX grade and be eligible for
-[supplementary assessment](#supplementary-assessment) to try and pass the
-course. If you fail one of the hurdles and your final mark is lower that 45 you
-will fail with a final grade of NCN (as per the ANU rules).
-
-If your final mark is less than 45 you will fail this course with a grade of N
-
-If you enrol, but don't participate in the course at all you will fail with a
-final grade of NCN, which means a failure due to non-completion.
-
-## Late penalties {#late-penalties}
-
-This course follows the
-[ANU policy](https://cass.anu.edu.au/current-students/coursework-policy-and-guidelines/late-submissions-and-extensions)
-of applying a 5% penalty for every day (or part thereof).
+Late submissions for assessment tasks are not accepted without an extension.
 
 ## Extensions {#extensions}
 
-If you've got a good reason, there is the possibility of getting an extension on
-your deadlines if you let the convenor know **at least one week out** from any
-deadline.
+If you have any issues that would prevent you handing in work on time, please
+use the School of Computing Extension App. 
+
+- **In most cases it is easy to arrange a short extension**.
+
+The School of Computer Extension App has built in instructions to help you provide correct information.
+You will be asked to include your student number (UID), a short statement of
+your situation and when you think you can get the work completed.
+
+In the first instance, you do not need to provide documentation (e.g., a medical
+certificate or educational access plan), as this is **not required for a short
+extension**, but we may ask for it in some instances.
+
+Note that: 
+
+- If you receive an extension you may not receive feedback on your work at the same time as other students.
+- We do not process extensions every day, but will attend to your request within a few days. Do not send multiple messages.
+- Extensions of more than two weeks are not generally granted except in exceptional circumstances.
 
 ## Word limits {#word-limits}
 
 Max word count limits are provided for the written assessment tasks in this
-course and we expect you to stay within those limits. That said, if you can't
-quite fit what you want to say, you may exceed the word count by 10% before you
-start to lose marks.
+course and we expect you to stay within those limits. You won't lose marks
+until you exceed a word limit by more than 10%
+
+## Special Consideration and Deferred Assessment
+
+If you have any unexpected and unavoidable issues that has affected your
+performance in the course (e.g., sickness, or unexpected caring/work
+responsibilities during assessment tasks), please think about applying for
+[Special Assessment Consideration
+(link)](https://www.anu.edu.au/students/program-administration/assessments-exams/special-assessment-consideration)
+to document your issue.
+
+- Special Consideration is **not for extensions**. If you need an extension see above.
+
+Laptop Ensemble does not have exams so the procedures for Deferred Assessment do
+not apply in this course.
+
+If you are confused about how Special Consideration or Deferred Examinations
+work, have a look at the [quick guide
+(link)](https://www.anu.edu.au/files/resource/SCDE_Student_Quick_Guide.pdf).
 
 ## Appeals {#appeals}
 
 From the date that your marks for any assessment item are released
-electronically you have a period of two weeks in which to appeal your mark.
-After this period your mark will be locked in.
+electronically you have a period of two weeks in which to make an **informal
+appeal** of your mark to the course convenor.
 
-If you're unhappy with your mark for any assessment item, then
-[here's the relevant ANU Policy (see section 61)](https://policies.anu.edu.au/ppl/document/ANUP_004603):
+An **informal appeal** requires some explanation about why the original mark was
+not correct (e.g., the marker accidentally missed a particular aspect of your
+assignment).
 
-> The University recognises the right of students to seek a review of, and to
-> appeal against, a result for an assessment task within a course, or their
-> final result in a course. Appeals against a result for an individual
-> assessment task are considered as a component of the final grade, after the
-> final grade is released. Appeals against assessment outcomes are conducted
-> according to the Assessment Rules.
+You should submit an informal appeal in a private message to instructiors by email. Please include your student number (UID), a short statement
+of why you think your mark was not correct referring to the marking criteria
+for the assignment.
 
-As with any ANU course, you are able to apply for
-[special assessment consideration](https://www.anu.edu.au/students/program-administration/assessments-exams/special-assessment-consideration).
+If an informal appeal is denied by the course convenor, you may still make a
+formal appeal. This requires a convincing statement that your mark was
+incorrect given the stated marking criteria and assessment instructions. For
+the formal appeal procedure see the information
+[here](https://www.anu.edu.au/students/program-administration/assessments-exams/assessment-appeals).
 
 ## Supplementary assessment {#supplementary-assessment}
 
 If you receive a PX grade you are eligible for supplementary assessment. The
-course convenor will contact you after final S1 grades are released with more
-information about the timing & nature of this assessment.
+assessment item may be an assignment, a written exam or an oral exam. To pass
+this assessment item, you must demonstrate a "good" attainment of the learning
+outcomes, generally equivalent to a mark of 60/100.
+
 
 ## Academic integrity {#academic-integrity}
 
-At the ANU
-[we take academic integrity seriously](https://academichonesty.anu.edu.au/).
-There are several different aspects to academic integrity, and
-[several different types of academic misconduct](https://services.anu.edu.au/education-support/academic-integrity/determining-a-breach).
-In LENS all the ANU academic integrity rules apply.
+At the ANU [we take academic integrity
+seriously](http://academichonesty.anu.edu.au/). In Laptop Ensemble all the ANU
+academic integrity principles apply.
 
-- All your submitted work is assumed to be entirely your own work. Besides
-  forbidding any direct copies, this also means that no part of your submission
-  is inspired by, based on or a re-formulation of work by somebody else.
-  Re-formulating the work of somebody else is actually worse, because (in
-  addition to plagiarism) it shows a clear intent to deceive.
+In particular:
 
-- If your work has been inspired by something else (e.g. a classmate, or
-  something you found on the web) you must indicate this in the **statement of
-  originality** which you'll submit alongside every assignment (including the
-  major project). This gives you a place to clearly indicate your sources.
-  Obviously you will not receive the highest mark if all of your work comes from
-  somewhere else, but by indicating all sources clearly you won't be guilty of
-  academic misconduct. Failure to indicate any of your inspirations, sources, or
-  collaboration partners will be regarded as an intent to deceive.
+> All ideas, code and content that is not created by you _must be referenced_.
 
-You are expected to be able to explain and defend any submitted assessment item.
-The course convener can conduct or initiate an additional interview about any
-submitted assessment item for any student. If there is a significant discrepancy
-between the two forms of assessment (e.g. if you clearly don't understand the
-code that you submitted) it will be automatically treated as a case of suspected
-academic misconduct.
+You _are allowed_ to include material in your assignments from others where it
+fits with the specification, but you _must not_ pretend that you created it.
+See the ANU's [academic integrity best practices for
+learners](https://services.anu.edu.au/learning-teaching/academic-integrity/academic-integrity-best-practice-principles-for-learners)
+to understand more.
 
-These rules are not at odds with being resourceful and working
-collaboratively---you should discuss your work in this course with others taking
-the class. However, you must never misrepresent the work of others as your own.
+In this course we aim for a strong culture of collaborative learning on all
+assessment tasks, but you are assessed on your individual contribution.
+Referencing work that you have (legally) adapted from online sources or from a
+colleague is a basic act of respect in a network of peers.
 
-If you break any of these rules, it's very likely you'll get caught---we're
-pretty good at finding this stuff out. The consequences of plagiarism are **much
-worse than a bad mark on an assignment** and we (the lecturers and tutors) don't
-enjoy being a part of it any more than you do. Please help to make this a course
-which focuses entirely on the learning process and not on policing academic
-misconduct issues.
+As a basic measure, we expect everyone to have at least two references in each
+assessment showing that you are aware of the how to work
+independentently in a studio environment and acknowledge sources.
 
-## Software: the "own machine" policy {#own-machine-policy}
+If you act against the principles of academic integrity in this course, it's
+very likely you'll get caught. At a minimum, this could delay your completion
+of the course (and your graduation), and could have very serious consequences
+for your enrolment at ANU in serious cases. 
+
+## Laptop Policy {#own-machine-policy}
 
 This course requires making music on a laptop, and so you'll need to have a
 laptop and [install some software]({% link _resources/02-tools.md %}#software)
 on it. If you have any trouble with getting the software installed & working on
 your machine then there will be heaps of opportunities to fix any problems
-(especially early in the course). However, it's your responsibility to make sure
-that the software works and that these issues are sorted out---"something went
-wrong with my software setup" is never an acceptable excuse for missing a
-submission deadline or (especially!) flaking out of a concert performance, and
-the usual late penalties apply.
+(especially early in the course). However, it's your responsibility to make
+sure that the software works and that these issues are sorted out. 
+
+Software/hardware issues happen in performances (ask Charles for stories). You are
+expected be organised enough so that your setup is working and reliable before
+any assessment task is due.
+
