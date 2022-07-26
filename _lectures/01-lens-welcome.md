@@ -41,13 +41,13 @@ ol {font-size: 80%;} // to fit LOs on screen
 
 who are we?
 
-{% include slides/background-image.html image="lectures/welcome/ben-smiths-sounscapes.jpg" heading="Ben Swift" %}
+{% include slides/background-image.html image="lectures/welcome/charlesmartin-synth-profile.jpg" heading="Charles Martin" %}
 
-[livecoder](https://benswift.me/livecoding/index.html)
+Computer Musician, Percussionist
 
-[ANU Research School of Computer Science](https://comp.anu.edu.au/code-creativity-culture/)
+[ANU School of Computing](https://charlesmartin.com.au)
 
-[@benswift](https://twitter.com/benswift)
+[@cpmpercusssion](https://twitter.com/cpmpercussion)
 
 {% include slides/background-image.html image="lectures/welcome/alec-hunter.jpg" heading="Alec Hunter" %}
 
@@ -55,13 +55,13 @@ who are we?
 
 [Performer, composer](https://alexanderhunter.co.uk/)
 
-{% include slides/background-image.html image="lectures/welcome/charlesmartin-synth-profile.jpg" heading="Charles Martin" %}
+{% include slides/background-image.html image="lectures/welcome/ben-smiths-sounscapes.jpg" heading="Ben Swift" %}
 
-Computer Musician, Percussionist
+[livecoder](https://benswift.me/livecoding/index.html)
 
-[ANU Research School of Computer Science](https://charlesmartin.com.au)
+[ANU School of Cybernetics](hhttps://cybernetics.anu.edu.au/people/ben-swift)
 
-[@cpmpercusssion](https://twitter.com/cpmpercussion)
+[@benswift](https://twitter.com/benswift)
 
 {% include slides/impact.html %}
 
@@ -77,13 +77,13 @@ Level up _music computing_ skills
   [Pd](https://puredata.info) (until week 6)
 
 - then reinforce and extend your knowledge by live-coding in
-  [Extempore](https://extemporelang.github.io) (teaching break onwards)
+  [Gibber](https://gibber.cc) (teaching break onwards)
 
 ## step 2
 
-choose a project to work towards over the course of the semester
+choose a project to work towards the end of the semester
 
-build a computer music piece/instrument
+build a computer music piece/instrument (demo in week 9)
 
 ## step 3
 
@@ -97,11 +97,20 @@ in the final LENS gig at the end of semester
 
 ## assessments
 
-TBA
+| Assessment                                                         | Due                                        | Weighting          | LOs |
+| ------------------------------------------------------------------ | ------------------------------------------ | ------------------ | --- |
+| [Computer Music Diary]({% link _assessments/01-diary.md %})        | 23:59 every Tuesday in weeks 2--8, 10      | 0%, required for portfolio | NA |
+| [Portfolio 1]({% link _assessments/02-portfolio.md %})             | 23:59 29/8/2022 (Monday of week 6)               | 15%                | 1,2,3 |
+| [Demo Presentation]({% link _assessments/03-demo-presentation.md %})    | 5/10/2022 (week 9)                | 20%                | 1,3   |
+| [Portfolio 2]({% link _assessments/02-portfolio.md %})             | 23:59 17/10/2022 (Monday of week 11)             | 15%                | 1,2,3 |
+| [LENS performance]({% link _assessments/04-lens-performance.md %}) | Concert: TBA, Artefact: 14/11/2022         | 50%                | 2,3,4 |
 
-## AV diary videos
 
-look ahead to see the weekly provocations
+## computer music diary videos
+
+Look at the workshop content _before_ the workshop.
+
+Record a short piece of computer music folowing the weekly provocations
 
 some solo, some in groups
 
@@ -122,4 +131,4 @@ any questions?
 
 ## enrolment
 
-let's all sign our study contracts
+Should be done!

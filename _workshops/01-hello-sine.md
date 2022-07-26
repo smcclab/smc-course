@@ -14,10 +14,6 @@ computer music.
 There isn't much pre-reading for week 1, since the class hasn't really started
 yet.
 
-
-
-
-
 ## Goals for this week
 
 The main purpose of the first workshop is to get [Pd]({% link
@@ -26,6 +22,8 @@ if you don't have that working then you won't be able to participate in this cou
 
 1. to be able to make a noise with Pd
 2. to be able to make a screen recording (with sound!)
+3. fork and clone the workshop repository, install Visual Studio Code and Git.
+4. start making some ensemble music.
 
 ## Pd resources
 
@@ -49,3 +47,25 @@ cool kids call them <em>LOrk</em>s) perform live.
 - [Princeton Laptop Orchestra - Interference (2019)](https://www.youtube.com/watch?v=C-5P3hXuGfs)
 
 If you find any more cool videos, drop them in the `#inspo` channel on Teams.
+
+### Live coding
+
+- [A Live Coding Session With the Cloud and a Virtual Agent](http://nime2021.org/program/#/music/235)
+- [Yaxu (audio) + Rituals (visual) live coding @ babble after party, islington mill (future everything)](https://www.youtube.com/watch?v=fIuqDKzYBzc) by Alex McLean who created tidalcycle
+
+### Network performance
+
+- [Into the Abyss](http://nime2021.org/program/#/music/213)
+- [The TCP/Indeterminate Place quartet: a Global Hyperorgan Scenario](http://nime2021.org/program/#/music/87)
+
+### Ensemble:
+
+- [FaMLE (the MIT laptop ensemble) presents "360 Degrees of Separation"](https://www.youtube.com/watch?v=4BVhwT3e_Nw)
+- [Laptop Ensemble Final Presentations (Yale)](https://yalmust.yale.edu/laptop-ensemble-final-presentations-fall-2017A)
+- [Concordia Laptop Orchestra (CLOrk)](https://www.youtube.com/watch?v=HR2U_CmlLWU)
+
+### Others
+
+- [Birmingham Ensemble for Electroacoustic Research](https://www.birmingham.ac.uk/facilities/ea-studios/research/beer.aspxi)
+- [Space Pong - Michigan Mobile Phone Ensemble](https://www.youtube.com/watch?v=ejocScps1sk)
+- [Dublin Laptop Orchestra](https://www.alex-dowling.com/laptop-orchestra) (see video at bottom)

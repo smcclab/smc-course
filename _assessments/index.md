@@ -21,9 +21,9 @@ your final performance and artifact at the end of semester.
 | Assessment                                                         | Due                                        | Weighting          | LOs |
 | ------------------------------------------------------------------ | ------------------------------------------ | ------------------ | --- |
 | [Computer Music Diary]({% link _assessments/01-diary.md %})        | 23:59 every Tuesday in weeks 2--8, 10      | 0%, required for portfolio | NA |
-| [Portfolio 1]({% link _assessments/02-portfolio.md %})             | 29/8/2022 (Monday of week 6)               | 15%                | 1,2,3 |
+| [Portfolio 1]({% link _assessments/02-portfolio.md %})             | 23:59 29/8/2022 (Monday of week 6)               | 15%                | 1,2,3 |
 | [Demo Presentation]({% link _assessments/03-demo-presentation.md %})    | 5/10/2022 (week 9)                | 20%                | 1,3   |
-| [Portfolio 2]({% link _assessments/02-portfolio.md %})             | 17/10/2022 (Monday of week 11)             | 15%                | 1,2,3 |
+| [Portfolio 2]({% link _assessments/02-portfolio.md %})             | 23:59 17/10/2022 (Monday of week 11)             | 15%                | 1,2,3 |
 | [LENS performance]({% link _assessments/04-lens-performance.md %}) | Concert: TBA, Artefact: 14/11/2022         | 50%                | 2,3,4 |
 
 

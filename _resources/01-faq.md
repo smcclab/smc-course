@@ -165,15 +165,11 @@ Unfortunately not, ANU Laptop Ensemble is only offered in-person on ANU campus.
 ## What music software will we be using in the course?
 
 In this course you'll learn to use both
-[Pure Data (Pd)](http://msp.ucsd.edu/software.html) and
-[SuperCollider](https://supercollider.github.io) for music-making. Which one you use
+[Pure Data (Pd)](http://msp.ucsd.edu/software.html) and [Gibber](https://gibber.cc) for music-making. Which one you use
 for your final performance is up to you; you'll get to decide what fits your
 creative purposes best as the semester progresses.
 
-## I want to start practising _right now_, what should I do?
+## What style should I use for referencing?
 
-Feel free to install some [computer music software]({% link
-_resources/02-tools.md %}) and start playing around with it, you can also browse
-our [workshop]({% link _workshops/index.md %}) material.
-
+ACM style references are preferred: <https://www.acm.org/publications/authors/reference-formatting>
 

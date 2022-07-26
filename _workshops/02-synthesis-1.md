@@ -5,7 +5,7 @@ show_toc: true
 ---
 
 {:.warn-box}
-**Solo AVD**: create a piece which has two perceptually distinct
+**Solo Diary**: create a piece which has two perceptually distinct
 waveforms/sounds
 
 Synthesis is the process of generating musical signals "synthetically", i.e. by
@@ -42,24 +42,25 @@ signal and hearing what those transformations sound like.
 
 ## Pd resources {#pd-resources}
 
-{:.warn-box}
+Here's a video lecture about Pd to get you started with additive synthesis. 
 
-I recorded this video last year, so there are a couple of things I say at the
-very end which don't apply this year (we're using Teams, not Slack; and and
-classes are Thursday, not Tuesday). But other than that the content is still as
-relevant as ever 🤣
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AC7-MpwIZ8w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+Go through the slides (linked above) to
+
+{% comment %}
 {% include video.html video="lecture-recordings/2021/week-2-hello-sine" %}
+https://youtu.be/AC7-MpwIZ8w
+{% endcomment %}
 
-Here are the links that I mention at the end of the video:
+Here are some links:
 
-- most of [Charles' video from last week]({% link _workshops/01-hello-sine.md
-  %}) is still relevant
+- [Charles' slides about synthesis in Pd]({% link _lectures/02-lens-digitalsynth.md %}) (these slides actually cover weeks 1-4)
+- [Charles' examples from the video](https://github.com/cpmpercussion/ComputerMusicIntro)
 - the
   [Programming Electronic Music in Pd](https://www.pd-tutorial.com/english/index.html)
   book (as mentioned on the [tools
   page]({% link _resources/02-tools.md %}#other-books))
-- [Charles' examples](https://github.com/cpmpercussion/ComputerMusicIntro)
 
 and a few more useful resources (not necessarily Pd-specific, and might be too )
 
