@@ -35,9 +35,9 @@ Computing. Two course codes are available:
 [COMP6470](https://programsandcourses.anu.edu.au/2022/course/comp6470).
 
 {:.warn-box} 
-Laptop Ensemble is now full! You may still fill in the expression of
-interest form below to get on a waiting list.
+Laptop Ensemble is now full and applications have closed. Accepted applicants will receive a permission code from CECS Student Services.
 
+{% comment %}
 Enrolment for ANU Laptop Ensemble is by permission code, and there are two steps:
 
 - ~~Fill in the [expression of interest form
@@ -46,6 +46,7 @@ Enrolment for ANU Laptop Ensemble is by permission code, and there are two steps
 
 - ~~Show up in the first week and we will arrange a permission code for your
   enrolment.~~
+{% endcomment %}
 
 If you've got questions about enrolling in Laptop Ensemble, get in touch with [Charles
 Martin](mailto:charles.martin@anu.edu.au).
