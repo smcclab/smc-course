@@ -111,6 +111,12 @@ time, but I think it's still useful as a bunch of subheadings on a webpage.
 - played 'as is'---maybe there is a field recording that acts as a backdrop for
   the rest of the sounds in your composition
 
+### COOL ensemble performances using sampling:
+
+- [Birds Nest](https://www.youtube.com/watch?v=qdR5Rr_Ue2g&list=PLnRoOVbpGXfbd9kUZ04rlJccBT9cf89C4&index=2) and [Snow Music](https://www.youtube.com/watch?v=ctuR_0RiZPw&list=PLnRoOVbpGXfbd9kUZ04rlJccBT9cf89C4&index=3) by Ensemble Metatone
+  - [About their iPad systems here](https://dl.acm.org/doi/pdf/10.1145/2559206.2574805)
+- [Sparks](https://pouyahamidi.com/sparks-max-msp-composition-for-laptop-orchestra/) by CLOrk Laptop Orchestra
+
 ### Some things you might consider when choosing a sample
 
 - are you coming from a musical or extramusical starting point?
