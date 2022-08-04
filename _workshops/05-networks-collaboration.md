@@ -61,7 +61,7 @@ different tools) when sending them over the network, so this week's
   [`3-new-interfaces` folder in the ComputerMusicIntro project](https://github.com/cpmpercussion/ComputerMusicIntro)
   has some cool patches for getting started with OSC, MIDI, etc.
 
-### Control data: Open Sound Control (OSC) & Midi
+### Control data: Open Sound Control (OSC) & MIDI
 
 [OSC](https://en.wikipedia.org/wiki/Open_Sound_Control) is a great way to send
 control messages between different audio programming environments.
@@ -79,7 +79,7 @@ example repo.
 
 {:.info-box}
 
-Pd didn't have OSC built in until fairly recently (v0.46), look at the
+Pd didn't have OSC built in until relatively recently (v0.46), look at the
 `oscformat` and `oscparse` objects which need `netsend` and `netreceive` to
 work. Older videos will show how to import special libraries for OSC---not
 needed anymore!

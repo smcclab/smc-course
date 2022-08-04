@@ -26,7 +26,7 @@ about what it actually means to design an interface for your patches.
 
 {:.warn-box}
 
-**Solo AVD**: pick
+**Solo Diary**: pick
 [someone else's patch/code from a previous workshop](https://gitlab.cecs.anu.edu.au/laptop-ensemble/2021/2021-av-diary-materials),
 put a new interface on it, and play something
 

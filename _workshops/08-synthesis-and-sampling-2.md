@@ -5,8 +5,7 @@ show_toc: true
 ---
 
 {:.warn-box}
-**Group Diary**: start big, then "remove" things with filters & algorithms (3min
-diary this week, because group)
+**Group Diary**: start big, then "remove" things with filters & algorithms (3 minutes)
 
 ## Goals for this week
 

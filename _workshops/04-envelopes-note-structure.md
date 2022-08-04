@@ -5,7 +5,7 @@ show_toc: true
 ---
 
 {:.warn-box}
-**Solo AVD**: with a _single_ sound source, create a piece using envelopes
+**Solo Diary**: with a _single_ sound source, create a piece using envelopes
 
 The past two weeks of workshops have shown several different ways to create
 sound "sources"; single oscillators, more complex networks of oscillators &

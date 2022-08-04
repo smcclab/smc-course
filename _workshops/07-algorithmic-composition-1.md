@@ -5,7 +5,7 @@ show_toc: true
 ---
 
 {:.warn-box}
-**Solo AVD**: write a piece with three algorithmic parts: drums, bass and lead
+**Solo Diary**: write a piece with three algorithmic parts: drums, bass and lead
 
 ## Goals for this week
 

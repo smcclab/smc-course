@@ -5,35 +5,22 @@ show_toc: true
 ---
 
 {:.warn-box}
-**Solo AVD**: imitation is the sincerest form of flattery---do something in the
+**Solo Diary**: imitation is the sincerest form of flattery---do something in the
 style of one of your classmates (you'll be assigned a specific classmate via
 Teams)
 
 {:.info-box style="margin-bottom:2rem;"}
 
-This is the final AVD entry for the semester.
+This is the final diary entry for the semester.
 
-<span style="font-size:2rem;font-weight:900;">topology</span> (təˈpɒlədʒi)
+"Topology" is the way in which a set of _things_ is connected or arranged. In
+the context of computer music, we can imagine a performance involving
+connections between different performers, computers, interfaces, audience
+members, etc.
 
-_noun_
-
-1. the way in which constituent parts are interrelated or arranged: using
-   distances determined in this manner ignores existing road conditions and
-   topology that can potentially affect travel time and costs | the topology of
-   a computer network.
-
-2. _[mass noun]_ Mathematics the study of geometrical properties and spatial
-   relations unaffected by the continuous change of shape or size of figures.
-
-   - _[count noun]_ a family of open subsets of an abstract space such that the
-     union and the intersection of any two of them are members of the family,
-     and which includes the space itself and the empty set.
-
-(definition from the [Oxford English Dictionary](https://www.oed.com))
-
-There's no new content this week; instead we'll step back and think about the
-topology of a laptop ensemble performance (with a specific eye to your plans for
-your final performance).
+This week we'll zoom out and think about the topology of a laptop ensemble
+performance. We will particularly think about what the topology of your final
+performance is, and what you might be able to do to make it more interesting.
 
 Before this week's workshop, have a think about:
 
