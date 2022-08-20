@@ -139,10 +139,9 @@ long as it produces videos in a format which can be processed by
 Here are a few suggestions:
 
 - [OBS](https://obsproject.com) (free, macOS/Windows/Linux)
+- [Zoom](https://zoom.us) (free, macOS/windows/linux, you probably already have it)
 - [QuickTime Player](https://support.apple.com/en-au/guide/quicktime-player/qtp97b08e666/mac)
   (free, macOS only)
-- [Camtasia](https://www.techsmith.com/video-editor.html) (paid, macOS/Windows)
-- [Screenflow](Screenflow) (paid, macOS only)
 
 A few more tips:
 

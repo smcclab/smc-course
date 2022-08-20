@@ -9,18 +9,9 @@ show_toc: true
 **Group Diary**: create a 3min piece where every member controls a different
 aspect of the sound (note the longer duration for group diaries)
 
-{:.info-box}
+This is the first **group diary** and the first experience with your new "ensemble" of four or five people. Your main task this week is to start developing a way of working with your ensemble. Don't leave this to the last minute, working with people takes time.
 
-This is the first **group diary** (although you've been making music together
-in the ad-hoc workshop ensembles since week 2). As usual, we'll [spin the
-wheel]({% link _lectures/group-picker-wheel.md %}) to assign people into groups
-during the [week 4 workshop]({% link _workshops/04-envelopes-note-structure.md
-%}).
-
-In this week's workshop session we're looking at **networks & collaboration**.
-We've already been collaborating together (every week!) but only by sending all
-the individual audio streams to the mixing desk---not by communicating directly
-between laptops.
+This is a good time to start thinking about how you could use **networks** to assist with collaboration by sending information in between the individual laptops in a laptop ensemble. This could involve audio and video data (e.g., connecting via Zoom, Teams, or other tools) or _control_ data.
 
 Network connections are used to connect musicians together from different
 locations, to connect devices together in one studio, and to connect different
@@ -42,13 +33,10 @@ different tools) when sending them over the network, so this week's
    been doing when they're connected together, and find out about systems for
    sending musical data over networks
 
-2. reflect on the affordances of the technology you're using in this course for
-   computer music collaboration (both Pd specifically, and the socio-technical
-   assemblage that is a bunch of humans with laptops and internet connections
-   more generally)
-
-3. with your group, design and carry out a collaboration workflow which allows
+2. with your group, design and carry out a collaboration workflow which allows
    you to deliver a **3min** diary entry by the week 5 workshop slot
+
+N.B.: option two **could** involve using hi-tech network connections, **or** could involve lo-tech collaborative solutions, or could be in the middle. In any case you will have to use some creativity to develop a collaboration workflow that works for your group.
 
 ## Pd Resources {#pd-resources}
 
@@ -93,7 +81,7 @@ example repo.
 
 ### Signal data: sending audio over the network
 
-If you want to send audio signal data (i.e. a stream of bits that's meant to be
+If you want to send audio signal data (i.e., a stream of bits that's meant to be
 interpreted as an audio signal and sent to a DAC at some stage) then there are
 few different options as well.
 
