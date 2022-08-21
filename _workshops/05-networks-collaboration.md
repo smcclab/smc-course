@@ -87,8 +87,7 @@ few different options as well.
 
 - [SonoBus](https://sonobus.net) is an easy to use application for streaming
   high-quality, low-latency peer-to-peer audio between devices over the internet
-  or a local network. I (Ben) haven't used it myself yet---I only found out
-  about it earlier this year---but it looks useful.
+  or a local network. 
 
 - [JackTrip](https://www.jacktrip.org) is a bunch of tools for live performance
   of music over the internet, including the

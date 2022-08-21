@@ -48,8 +48,8 @@ Before this week's workshop, have a think about:
 This is mostly pointers to things we've already covered, but hopefully these are
 helpful reminders of the things you already know. Also, these are some good
 suggestions about ways to do things, but they're not iron-clad rules. If you're
-unsure about the best way to achieve your creative goals, discuss it with Ben &
-the rest of the LENS during the workshop slot.
+unsure about the best way to achieve your creative goals, discuss it with 
+the rest of your class during the workshop slot.
 
 ### Code
 

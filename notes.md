@@ -4,7 +4,7 @@ published: false
 
 # Notes
 
-This file contains a bunch of notes that I (Ben) took along the way in 2021, and
+This file contains a bunch of notes that Ben took along the way in 2021, and
 would be a good place to look if you're thinking of things to change when this
 class is taught in the future.
 
