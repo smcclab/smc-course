@@ -103,11 +103,6 @@ few different options as well.
 - [JamRTC](https://github.com/lminiero/jamrtc) (pre-alpha) is an attempt to
   create a simple prototype for doing jam sessions using WebRTC.
 
-{:.warn-box}
-
-Remember that your [first diary portfolio]({% link
-_assessments/01-diary.md %}#portfolio) is due at the end of this week.
-
 ## Things to think about
 
 - how is your group going to meet & chat? if it's going to be online, then you
