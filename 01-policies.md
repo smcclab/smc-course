@@ -62,8 +62,12 @@ Late submissions for assessment tasks are not accepted without an extension.
 
 ## Extensions {#extensions}
 
+<a class="button--outline"
+href="https://apps.powerapps.com/play/47a1ecd3-6c23-44d7-bf39-70e3ebab3dd2?tenantId=e37d725c-ab5c-4624-9ae5-f0533e486437">Link
+to the School of Computer Extension App</a>
+
 If you have any issues that would prevent you handing in work on time, please
-use the School of Computing Extension App. 
+use the School of [Computing Extension App](https://apps.powerapps.com/play/47a1ecd3-6c23-44d7-bf39-70e3ebab3dd2?tenantId=e37d725c-ab5c-4624-9ae5-f0533e486437). 
 
 - **In most cases it is easy to arrange a short extension**.
 
