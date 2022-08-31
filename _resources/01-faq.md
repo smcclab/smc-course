@@ -24,6 +24,7 @@ Laptop Ensemble links:
 You can see more vids of the ensemble at work on their
 [YouTube channel](https://www.youtube.com/channel/UCIU6SqIS02GJlnLOPqlwmpA).
 
+{% comment %}
 ## Which ANU course code does this course run under?
 
 You can take this course under the following (computing) course codes:
@@ -48,6 +49,32 @@ Enrolment for ANU Laptop Ensemble is by permission code, and there are two steps
 If you've got questions about enrolling in Laptop Ensemble, get in touch with [Charles
 Martin](mailto:charles.martin@anu.edu.au).
 
+## Are there any prerequisites?
+
+This course is pitched at a third year (3000) level and so in order to enrol we
+ask that you have completed at least two (6 unit) second year (2000-level) course in your
+discipline. If you don't meet this requirement but believe that you should be
+allowed to join in anyway, please get in touch to discuss it.
+{% endcomment %}
+
+## What reference format is used in this course? {#reference-format}
+
+We prefer ACM reference format: <https://www.acm.org/publications/authors/reference-formatting>
+
+Some example references are as follows:
+
+```
+# References
+
+1. Alice McGuffing. 2022. Ideas for creating the animated ripple effect
+2. Jerry Wang. 2022. Background Artwork (artwork.jpg)
+3. Howzit (StackOverflow user). 2018. p5js-image-array (CC BY-SA 2.5). Retrieved from: https://stackoverflow.com/questions/51233447/p5js-image-array
+4. p5 Reference. No Date. MouseWheel Example (CC BY-NC 4.0). Retrieved from: https://p5js.org/reference/#/p5.Element/mouseWheel
+5. Scott Bauer. 2004. Photo of Potatoes (Public Domain). Retrieved from: https://en.wikipedia.org/wiki/Potato#/media/File:Patates.jpg
+6. Aaron Wu. 2018. Boat Photo on Unsplash. Retrieved from: https://unsplash.com/photos/_8rjlHwN4uk
+7. Wikipedia. 2022. J M W Turner Article. Retrieved from: https://en.wikipedia.org/wiki/J._M._W._Turner
+```
+
 ## What music background is required?
 
 There are no specific music pre-requisites, and we will teach things from the
@@ -60,22 +87,9 @@ you're willing to put in the work it shouldn't be an un-manageable workload.
 
 ## What computing background is required?
 
-There are no specific computing/CS pre-requisites either, we will teach things
-from the ground up. Although some computing experience is useful, we use
-programming concepts and languages that are not taught in a standard CS
-curriculum.
-
-Obviously, if you've never done anything with computing/programming before then
-there'll be some extra reading (and noise-making!) to do to stay on top of
-things, but if you're willing to put in the work it shouldn't be an
-un-manageable workload.
-
-## Are there any prerequisites?
-
-This course is pitched at a third year (3000) level and so in order to enrol we
-ask that you have completed at least two (6 unit) second year (2000-level) course in your
-discipline. If you don't meet this requirement but believe that you should be
-allowed to join in anyway, please get in touch to discuss it.
+If you have a background outside of computing, we will teach things from the
+ground up. However, we recommend COMP1720 Art and Interaction Computing as an
+appropriate starting point for a creative computer journey.
 
 ## I'm a musician/programmer and I'm worried that I don't have the required programming/music skills---will I be ok?
 
@@ -114,7 +128,7 @@ Having said that, this isn't a standard CS course, so if you're expecting:
 - a "closed" syllabus where everything you'll need to get a good grade is a fact
   you can memorise from the lecture slides
 - to work as a "lone wolf" without having to interact with your classmates (this
-  is an _ensemble_ after all)
+  is a _collaborative_ course)
 
 then this probably isn't the course for you. No hard feelings, but if you sign
 up for LENS then you've been warned!
@@ -138,9 +152,10 @@ In addition, over the course of the semester you'll:
 
 ## Do I _have_ to do a live performance if I take this course?
 
-Yes, the [main course assessment]() (worth 50% of the course mark) is to use the computer music instrument/system
-that you've built in a group performance alongside some of your LENS classmates.
-The "present it in concert" part of that is one of the course [learning outcomes]({% link 02-outline.md %}#learning-outcomes).
+Yes, the main course assessment is to use the computer music instrument/system
+that you've built in a group performance alongside some of your LENS
+classmates. The "present it in concert" part of that is one of the course
+[learning outcomes]({% link 02-outline.md %}#learning-outcomes).
 
 ## What are the time commitments for LENS? {#what-are-the-time-commitments-for-lens}
 
@@ -152,24 +167,23 @@ give you some reading material & videos to look at, then you'll create something
 in response (as described
 [above](#what-does-this-course-look-like-week-to-week)).
 
-This is a standard 6-unit course, so the
-[ANU expectation is around 130 hours of work over the semester](https://policies.anu.edu.au/ppl/document/ANUP_000691)
-(around 11 hours/week, on average). This means that you need to make the time
-every week to read the workshop material in advance, think about which bits make
-sense and where you have questions, and make some noise.
+This is a standard 6-unit course, so the [ANU expectation is around 130 hours
+of work over the
+semester](https://policies.anu.edu.au/ppl/document/ANUP_000691) (around 11
+hours/week, on average). This means that you need to make the time every week
+to read the workshop material in advance, think about which bits make sense and
+where you have questions, and make some noise.
 
 ## Can I take this course if I'm a remote student?
 
-Unfortunately not, ANU Laptop Ensemble is only offered in-person on ANU campus.
+Unfortunately not, this course is only offered in-person on ANU campus.
 
 ## What music software will we be using in the course?
 
-In this course you'll learn to use both
-[Pure Data (Pd)](http://msp.ucsd.edu/software.html) and [Gibber](https://gibber.cc) for music-making. Which one you use
-for your final performance is up to you; you'll get to decide what fits your
-creative purposes best as the semester progresses.
+In this course you'll learn to use both:
 
-## What style should I use for referencing?
+- [Pure Data (Pd)](http://msp.ucsd.edu/software.html)
+- [Gibber](https://gibber.cc) 
 
-ACM style references are preferred: <https://www.acm.org/publications/authors/reference-formatting>
-
+Which one you use for your final performance is up to you; you'll get to decide
+what fits your creative purposes best as the semester progresses.

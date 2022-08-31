@@ -5,7 +5,7 @@ show_toc: true
 ---
 
 {:.warn-box}
-**No AVD**: your AV diary entries are all done 😁
+**No diary**: your diary entries are all done 😁
 
 This week we'll have space in the workshop for you to practice your final LENS
 performances. Half the class will go this week, the other half the next week
