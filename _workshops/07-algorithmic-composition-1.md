@@ -5,11 +5,15 @@ show_toc: true
 ---
 
 {:.warn-box}
-**Solo AVD**: write a piece with three algorithmic parts: drums, bass and lead
 
-## Goals for this week
+Guys, we are still updating the website for this week diary submission.
 
-1. download, install & make a sound with **Extempore** (the
+Before the content is up, you can checkout Gibber [here](https://charlesmartin.au/blog/2021/01/10/laptop-music-workshop).
+<!-- **Solo AVD**: write a piece with three algorithmic parts: drums, bass and lead -->
+
+<!-- ## Goals for this week -->
+
+<!-- 1. download, install & make a sound with **Extempore** (the
    [VSCode Quickstart page](https://extemporelang.github.io/docs/overview/quickstart/)
    is probably a good place to start) (make sure you can get the sound out of
    Extempore and into your video recording, too)
@@ -162,4 +166,4 @@ note-based stuff, cycles-within-cycles with cosr, 4-against-3, etc.
 - even though you're more sophisticated computer musicians than you were in
   [week 1]({% link _workshops/01-hello-sine.md %}), it's still worth doing the
   Extempore set up stuff ASAP, just in case you have installation issues (we're
-  really keen to help, but you need to give us enough time to help you out)
+  really keen to help, but you need to give us enough time to help you out) -->
