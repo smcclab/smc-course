@@ -61,7 +61,7 @@ Pd and Gibber are both great systems for musical expression but their design ten
 
 - Magnusson, Thor (2014) [Herding cats: observing live coding in the wild](http://sro.sussex.ac.uk/id/eprint/47039/1/comj_a_00216.pdf)
 
-- Shelly Knotts () [Algorithmic Interfaces for Collaborative Improvisation](http://users.sussex.ac.uk/~thm21/ICLI_proceedings/2016/Colloquium/137_ICLI2016_DC_ShellyKnotts.pdf)
+- Shelly Knotts (2016) [Algorithmic Interfaces for Collaborative Improvisation](http://users.sussex.ac.uk/~thm21/ICLI_proceedings/2016/Colloquium/137_ICLI2016_DC_ShellyKnotts.pdf)
 
 There are a couple of maths-y/music-y pre-reqs which you've probably already
 seen before, but are often helpful in algorithmic composition:
