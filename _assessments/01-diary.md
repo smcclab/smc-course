@@ -36,22 +36,10 @@ Each week's submission must include:
 
 - a 60 second video of your own work exploring the week's theme, which
   - has the filename `uid-week-N.[mp4,mov,mkv]`
-  - has been uploaded to the correct weekly channel on the [LENS Microsoft Stream Group](https://web.microsoftstream.com/group/576eed06-09b9-47a9-bb90-9c1ffb8cd5dd?view=channels)
+  - has been uploaded to the **Files** area on Teams, to the correct week folder.
   - has sound (obviously)
   - uses one of the [computer music software environments we're covering in this
     course]({% link _resources/02-tools.md %}#software)
-
-{% comment %}
-  - has the filename `week-N.mp4`, `week-N.mov` or `week-N.mkv` (with `N`
-    replaced by the week number of the submission date, so the _first_
-    submission is `week-2`)
-  - is 1920x1080 (full HD) resolution
-  - has sound (obviously!)
-  - uses one of the [computer music software environments we're covering in this
-    course]({% link _resources/02-tools.md %}#software)
-  - uses a video and audio codec which is supported by
-    [ffmpeg](https://ffmpeg.org)
-{% endcomment %}
 
 - all files (e.g., patches, source code files, sound files &
   other assets) required to re-produce your submission (in a subfolder called
@@ -63,11 +51,8 @@ Each week's submission must include:
 
 It doesn't matter how the files are named in your `materials/` folder, the reflection files are pre-created for you, so you can just add your text (in Markdown format).
 
-{% comment %}
-but for
-the main video & reflection files you must name things exactly as requested
-(note the lowercase!) because otherwise they won't play nice with our class scripts.
-{% endcomment %}
+It's a good idea to include a screenshot or a code snippet of the "main" thing you worked on this week in your reflection.
+
 
 ## Example {#example}
 
@@ -81,10 +66,6 @@ As an example, for week 2 your folder structure should look something like this:
 │   ├── week-2-reflection.md
 ```
 
-{% comment %}
-│   └── week-2.mp4
-{% endcomment %}
-
 This might seem complicated, but we've created (blank) template files for you in
 the GitLab repo---you just need to modify them.
 
@@ -93,7 +74,6 @@ other LENSers, let the course convenor know asap. The default will be that
 everyone's patch files will be shared (just within this LENS cohort).
 
 ## Submission process {#weekly-videos-submission-process}
-
 
 1. record your video (use [OBS Studio](https://obsproject.com), Zoom or Quicktime
 2. upload your 60sec (or 180sec for group weeks) video through Microsoft Stream to our group (see above)

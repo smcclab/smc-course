@@ -55,7 +55,6 @@ Don't just give us a week-by-week description of
 what you submitted---your reflections already do that.
 
 Include figures, screenshots, and code excerpts in your documents as necessary
-(don't go over the top; the insight is what counts). 
 
 Your portfolio submissions:
 
@@ -63,16 +62,23 @@ Your portfolio submissions:
 - **must** be a maximum of 1500 words + 10% acceptable buffer (i.e., reflections + discussion = no more than 1650 words)
 - **must** use examples from your diaries to support new reflections and insights
 - **must** include at least two references to external sources (in each portfolio). At least one reference must be to work produced by another student in the class.
-- **can** include diagrams, screenshots, links (put them in the media folder)
+- **can** include diagrams, screenshots, links (put them in same folder as the portfolio or relevant week)
 - **can** involve editing to tidy up your earlier reflections (don't go over 200 words on these), but doesn't have to.
 - **should not** be a straight up summary of what you did in your diaries. That's what the diaries are for. You need to dig deeper into your experiences and engage with your diaries to provide **new insights**.
+
+- **update, week 7**: Here's a few tips to make a better looking and more readable portfolio based on marking portfolio 1:
+  - We've updated the `.gitlab-ci` file, so have a look at the _new, nicer_ pdf.
+  - Please include a record of the "main thing" you did in each week's reflection either as a screenshot (if Pd) or a code listing (if Gibber). You can store images directly in any of the `week-N` or `portfolio-N` folders. The code won't count towards your word count.
+  - The PDF works best with headings starting from one-pound-sign-level (e.g., `# Heading`). I got this wrong in the template, please update.
+  - Please make sure URLs in your portfolio have angle brackets around them: `<http://example.com>` so that they work properly in the PDF.
+  - If you want to see expected formatting look at [Charles' sample repo](https://gitlab.cecs.anu.edu.au/u4110680/laptop-ensemble-2022-submissions/) and the [PDF file](https://gitlab.cecs.anu.edu.au/u4110680/laptop-ensemble-2022-submissions/-/jobs/3211703/artifacts/file/laptop-ensemble-2022-submissions-u4110680-portfolio-1.pdf).
 
 Your whole Portfolio is actually a big PDF document generated from your weekly reflections and portfolio discussion. We'll show you how to access this in the labs.
 
 {:.warn-box} 
 If you have missed any workshop reflections, you will need to go
-back and complete them to submit your portfolio. This task is fairly straightforward if
-you work consistently each week.
+back and complete them to submit your portfolio. This task is fairly
+straightforward if you work consistently each week.
 
 ### Submission process
 
@@ -88,14 +94,15 @@ Each stage of your portfolio is worth 15% of your total mark, and will be
 assessed based on the output PDF from your GitLab repository. The marking criteria (based
 on the [course learning outcomes]({% link 02-outline.md %})) are:
 
-- Sophistication of articulation and application of fundamental concepts in sound and music computing.
+- (50%) Sophistication of articulation and application of fundamental concepts in sound and music computing.
+- (20%) Sophistication of critical reflections obtained through collaboration.
+- (20%) Sophistication of critical examination of responses to computer music diary prompts.
+- (10%) Clarity of communication including adherence to submission formats and specifications for the diary and portfolio.
 
-- Sophistication of critical reflections obtained through collaboration.
+What we mark:
 
-- Sophistication of critical examination of responses to computer music diary prompts.
-
-- Clarity of communication including adherence to submission formats and specifications for the diary and portfolio.
-
+- Your mark is derived from the PDF document of your portfolio, exported from GitLab (make sure it looks nice and has screenshots/code listings).
+- To understand the context of your comments, we review the video of your diary entries (make sure they exist).
 
 ### Reference format {#reference-format}
 
@@ -108,10 +115,10 @@ Some example references are as follows:
 
 1. Alice McGuffing. 2022. Ideas for creating the animated ripple effect
 2. Jerry Wang. 2022. Background Artwork (artwork.jpg)
-3. Howzit (StackOverflow user). 2018. p5js-image-array (CC BY-SA 2.5). Retrieved from: https://stackoverflow.com/questions/51233447/p5js-image-array
-4. p5 Reference. No Date. MouseWheel Example (CC BY-NC 4.0). Retrieved from: https://p5js.org/reference/#/p5.Element/mouseWheel
-5. Scott Bauer. 2004. Photo of Potatoes (Public Domain). Retrieved from: https://en.wikipedia.org/wiki/Potato#/media/File:Patates.jpg
-6. Aaron Wu. 2018. Boat Photo on Unsplash. Retrieved from: https://unsplash.com/photos/_8rjlHwN4uk
-7. Wikipedia. 2022. J M W Turner Article. Retrieved from: https://en.wikipedia.org/wiki/J._M._W._Turner
+3. Howzit (StackOverflow user). 2018. p5js-image-array (CC BY-SA 2.5). Retrieved from: <https://stackoverflow.com/questions/51233447/p5js-image-array>
+4. p5 Reference. No Date. MouseWheel Example (CC BY-NC 4.0). Retrieved from: <https://p5js.org/reference/#/p5.Element/mouseWheel>
+5. Scott Bauer. 2004. Photo of Potatoes (Public Domain). Retrieved from: <https://en.wikipedia.org/wiki/Potato#/media/File:Patates.jpg>
+6. Aaron Wu. 2018. Boat Photo on Unsplash. Retrieved from: <https://unsplash.com/photos/_8rjlHwN4uk>
+7. Wikipedia. 2022. J M W Turner Article. Retrieved from: <https://en.wikipedia.org/wiki/J._M._W._Turner>
 ```
 
