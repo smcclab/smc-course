@@ -54,6 +54,19 @@ Pd and Gibber are both great systems for musical expression but their design ten
 
 - Gibber can do a lot of exciting stuff, but it's a bit experimental and the documentation is still in progress. Be gentle on it and yourself and if you can't work something out, ask on Teams.
 
+- Gibber works fine on the web (Chrome/Chromium preferred, then other modern browsers), but if you want to run it locally, you can clone the [github repository](https://github.com/gibber-cc/gibber), and use VSCode's live server. This is the preferred method for loading your own samples (next week).
+
+- Gibber's source code is a bit confusing. There are (at least) six important repositories:
+
+1. The [gibber playground](https://github.com/gibber-cc/gibber): Gibber's user interface.
+2. [gibber.audio.lib](https://github.com/charlieroberts/gibber.audio.lib)
+3. [gibber.graphics.lib](https://github.com/charlieroberts/gibber.graphics.lib)
+4. [gibber.core.lib](https://github.com/charlieroberts/gibber.graphics.lib)
+5. [gibberish](https://github.com/gibber-cc/gibberish): a "fast JavaScript DSP library". If you want to know where `Synth` or `Sampler` are defined, look here (actually look in `gibberish/js/instruments`).
+6. [genish](https://github.com/charlieroberts/genish.js): this is a lower-level DSP library for doing "per-sample audio processing" (inspired by the `gen~` object from Max/MSP). To understand why this is cool, look at the [genish tutorial](http://www.charlie-roberts.com/genish/tutorial/index.html).
+
+Why are there six repos? Gibber is provides much higher level musical tools than Pd as well as graphics. If we provided Pd, plus Gem (Pd's usual graphical sidekick), plus 5-6 externals, plus the `ComputerMusicIntro` repo, there would be a lot of code to get across as well!
+
 
 ## Background
 

@@ -29,7 +29,13 @@ It's another group week! Get organised early so that you can find a time to work
 
 ## Resources
 
-(TBA)
+- **Download and run Gibber from your computer**: Clone the [repo](https://github.com/gibber-cc/gibber), open in VSCode and use the Live Server Extension (ask on Teams if you haven't done this before).
+
+- **Look through the Sampler tutorial**: It's in the Gibber examples dropdown or [here](https://github.com/gibber-cc/gibber/blob/main/playground/examples/sampler.js)
+
+- **Look through the MonoSynth tutorial**: The `MonoSynth` object is a replica of "classic" Moog synths.
+
+- Actually just look through all the examples in Gibber's dropdown menu.
 
 
 ## Reading
