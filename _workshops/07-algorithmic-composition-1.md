@@ -58,10 +58,10 @@ Pd and Gibber are both great systems for musical expression but their design ten
 
 - Gibber's source code is a bit confusing. There are (at least) six important repositories:
 
-1. The [gibber playground](https://github.com/gibber-cc/gibber): Gibber's user interface.
-2. [gibber.audio.lib](https://github.com/charlieroberts/gibber.audio.lib)
-3. [gibber.graphics.lib](https://github.com/charlieroberts/gibber.graphics.lib)
-4. [gibber.core.lib](https://github.com/charlieroberts/gibber.graphics.lib)
+1. The [gibber playground](https://github.com/gibber-cc/gibber): Gibber's user interface, clone this repo to run Gibber locally.
+2. [gibber.audio.lib](https://github.com/charlieroberts/gibber.audio.lib): Audio components for Gibber, most of this wraps `gibberish` (see below), but it does include the [presets](https://github.com/charlieroberts/gibber.audio.lib/tree/main/js/presets).
+3. [gibber.graphics.lib](https://github.com/charlieroberts/gibber.graphics.lib): Graphics components for Gibber.
+4. [gibber.core.lib](https://github.com/charlieroberts/gibber.core.lib): A few shared objects and function for Gibber, mostly for sequencing. `euclid`, `seq`, and `tidal` are defined here.
 5. [gibberish](https://github.com/gibber-cc/gibberish): a "fast JavaScript DSP library". If you want to know where `Synth` or `Sampler` are defined, look here (actually look in `gibberish/js/instruments`).
 6. [genish](https://github.com/charlieroberts/genish.js): this is a lower-level DSP library for doing "per-sample audio processing" (inspired by the `gen~` object from Max/MSP). To understand why this is cool, look at the [genish tutorial](http://www.charlie-roberts.com/genish/tutorial/index.html).
 
