@@ -11,7 +11,7 @@ Teams)
 
 {:.info-box style="margin-bottom:2rem;"}
 
-This is the final diary entry for the semester.
+This is the final diary entry for the semester! 
 
 "Topology" is the way in which a set of _things_ is connected or arranged. In
 the context of computer music, we can imagine a performance involving
@@ -25,7 +25,7 @@ performance is, and what you might be able to do to make it more interesting.
 Before this week's workshop, have a think about:
 
 - **what are the components of your final gig topology?** this includes people
-  (your ensemble-mates, audience), software (Pd, Extempore, Processing, web
+  (your ensemble-mates, audience), software (Pd, Gibber, Processing, web
   things) hardware (laptops, midi controllers, Goon-a-trons) and the
   infrastructure required to connect them all
 
@@ -53,24 +53,22 @@ the rest of your class during the workshop slot.
 
 ### Code
 
-- if you want to collaboratively edit code (i.e. multiple cursors in the same
-  window) then [VSCode live
-  share](https://code.visualstudio.com/learn/collaboration/live-share) might be
-  a fun thing to try
+- most of you guys must have tried Gabber for a live collaborative music performance and know the joy and pain :)
 
-- as some folks have explored already, manually sharing code through a chat
+- alternatively, manually sharing code through a chat
   window (which is displayed to the audience) can be fine (great, even!) but
   still requires some careful thought
 
-### Data/control messages (software)
+### Data/control messages 
+
+#### Software
 
 - OSC (in [Pd]({% link _workshops/05-networks-collaboration.md %}#pd-resources),
-  [Extempore](https://github.com/digego/extempore/blob/eeed3fc6c19bfa247198c5a0ee3c3d04b66aae41/examples/core/osc_101.xtm),
   [js](https://github.com/colinbdclark/osc.js)) is probably going to be your
   best bet for sending data/control messages between pieces of software,
   _especially_ if you want to do it over a network
 
-### Data/control messages (software/hardware)
+#### Software/hardware
 
 - if you're trying to connect a piece of hardware (i.e. a MIDI controller) to a
   piece of software, then MIDI might be a good option if both "ends" of the
@@ -91,29 +89,28 @@ the rest of your class during the workshop slot.
 
 {:.info-box}
 
-I've had a few requests for me providing a LENS wireless router for the final
-gig---I'm looking into it and will let you know what the plan is ASAP.
+We can provider a wireless router for the final performance, please let us in advance ASAP if your piece requests a router.
 
 ### Video
 
 - video mixing can be done either in software (using
   [OBS](https://obsproject.com)) or hardware (using the LENS's
-  [V-1HD](https://code.visualstudio.com/learn/collaboration/live-share))
+  [ATEM Mini Extreme](https://www.blackmagicdesign.com/au/products/atemmini/techspecs/W-APS-17)
 
 ### Audio
 
 - as discussed in [week 5]({% link _workshops/05-networks-collaboration.md %})
   there are several ways to send audio over the network, but (as you _also_
-  figured out in putting together your week 5 AVD) some of them are hard to get
+  figured out in putting together your week 5 diary) some of them are hard to get
   working
 
 - we'll have a mixing desk at the gig, and if you want a line _in_ to your
   machine (e.g. a mixdown of the output of the other participants) then there
-  are ways to handle audio input in Pd/Extempore
+  are ways to handle audio input in Pd/Gibber
 
 ## Things to think about
 
-- you still get to exercise your own creative agency in your AVD---you get to
+- you still get to exercise your own creative agency in your diary---you get to
   select which specific aspect(s) of your classmates' work you'll try and pay
   homage to
 
