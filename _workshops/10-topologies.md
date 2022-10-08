@@ -5,7 +5,7 @@ show_toc: true
 ---
 
 {:.warn-box} 
-**Solo Diary**: Think about the _topology_ of your final performance and sketch out a minimum example of how different data sources can connect. You don't have to use multiple computers/performers in your sketch, just create multiple patches in Pd or code blocks in gibber and create a simple example of how information flows between them. If you're thinking of creating visuals as well as music, now is a good time to try out a first idea!
+**Solo Diary**: Think about the _topology_ of your final performance and sketch out a minimum example of how different data sources can connect. You don't have to use multiple computers/performers in your sketch, just create multiple patches in Pd or code blocks in gibber and create a simple 1-minute musical example of how information flows between them. If you're thinking of creating visuals as well as music, now is a good time to try out a first idea!
 
 {:.info-box style="margin-bottom:2rem;"}
 
@@ -35,8 +35,7 @@ Before this week's workshop, have a think about:
 
 ## Goals for this week
 
-1. to examine (and analyse) the work of other computer musicians with a view to
-   emulating it
+1. to think about how multiple performers in your piece will work together
 
 2. to think about the parts of your [final performance]({% link
    _assessments/04-lens-performance.md %}) and how they fit together
@@ -51,7 +50,7 @@ the rest of your class during the workshop slot.
 
 ### Code
 
-- most of you guys must have tried Gabber for a live collaborative music performance and know the joy and pain :)
+- most of you folks must have tried Gabber for a live collaborative music performance and know the joy and pain :)
 
 - alternatively, manually sharing code through a chat
   window (which is displayed to the audience) can be fine (great, even!) but
@@ -87,7 +86,7 @@ the rest of your class during the workshop slot.
 
 {:.info-box}
 
-We can provider a wireless router for the final performance, please let us in advance ASAP if your piece requests a router.
+We will provide a wireless + wired router for the final performance. You should make it clear in your technical rider whether your piece requires wired or wireless internet router.
 
 ### Video
 
@@ -104,7 +103,11 @@ We can provider a wireless router for the final performance, please let us in ad
   figured out in putting together your week 5 diary) some of them are hard to get
   working
 
-- we'll have a mixing desk at the gig, and if you want a line _in_ to your
+- we'll have a mixing desk at the gig and provide a 3.5mm audio connector for each performer.
+
+- audio from the HDMI inputs will also be mixed
+
+- if you want a line _in_ to your
   machine (e.g. a mixdown of the output of the other participants) then there
   are ways to handle audio input in Pd/Gibber
 
