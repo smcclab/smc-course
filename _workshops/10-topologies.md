@@ -4,10 +4,8 @@ summary: "Thinking about the parts of your performance and how they fit together
 show_toc: true
 ---
 
-{:.warn-box}
-**Solo Diary**: imitation is the sincerest form of flattery---do something in the
-style of one of your classmates (you'll be assigned a specific classmate via
-Teams)
+{:.warn-box} 
+**Solo Diary**: Think about the _topology_ of your final performance and sketch out a minimum example of how different data sources can connect. You don't have to use multiple computers/performers in your sketch, just create multiple patches in Pd or code blocks in gibber and create a simple example of how information flows between them. If you're thinking of creating visuals as well as music, now is a good time to try out a first idea!
 
 {:.info-box style="margin-bottom:2rem;"}
 
@@ -94,8 +92,10 @@ We can provider a wireless router for the final performance, please let us in ad
 ### Video
 
 - video mixing can be done either in software (using
-  [OBS](https://obsproject.com)) or hardware (using the LENS's
+  [OBS](https://obsproject.com)) or (by default) hardware (using the LENS's
   [ATEM Mini Extreme](https://www.blackmagicdesign.com/au/products/atemmini/techspecs/W-APS-17)
+
+- You are able to tell us how the video should appear, i.e., which video inputs should be displayed. The video mixing possibilities of the ATEM Mini Extreme are _pretty extreme_ (e.g., four inputs up in boxes and one input used as a background)
 
 ### Audio
 

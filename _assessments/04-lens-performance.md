@@ -46,7 +46,7 @@ Your ensemble performance:
 - **must** involve at least three LENS members (but hopefully all members of your group)
 - **must** be created with one of the computer music languages studied this semester
 - **must** be 5-7 minutes in length
-- **must** be presented at a LENS performance in the exam period (TBA)
+- **must** be presented at a LENS performance in the exam period
 
 We'll make a video & audio recording of the performances for archival purposes and also
 to put on the YouTube channel.
@@ -98,13 +98,12 @@ You need to provide whatever **adapters or cables** that are necessary to connec
 
 By default, we expect every member of the ensemble to connect their laptop to all of: _HDMI_, _3.5mm headphone jack_, and a power point and leave it plugged in for the duration of your setup, run through and performance.
 
-- We wil provide a big PA system and foldback speakers in the venue.
+- We will provide a big PA system and foldback speakers in the venue.
 - There will be technical support available at the performance (from our staff and and School of Music technical staff), support is limited to connectivity issues, not stability of your piece :-)
 - You will need to confirm the **order of works** in your group's concert and any special instructions for the **HDMI** and **audio** inputs by the week 12 workshop.
 
 {:.info}
 If you have trouble getting your laptop to output HDMI or audio over a 3.5mm headphone jack, please sort this out well before the final performance.
-
 
 ## Marking criteria {#marking}
 
@@ -137,10 +136,10 @@ Some example references are as follows:
 # References
 
 1. Alice McGuffing. 2022. Ideas for creating the animated ripple effect
-2. Jerry Wang. 2022. Background Artwork (artwork.jpg)
-3. Howzit (StackOverflow user). 2018. p5js-image-array (CC BY-SA 2.5). Retrieved from: https://stackoverflow.com/questions/51233447/p5js-image-array
-4. p5 Reference. No Date. MouseWheel Example (CC BY-NC 4.0). Retrieved from: https://p5js.org/reference/#/p5.Element/mouseWheel
-5. Scott Bauer. 2004. Photo of Potatoes (Public Domain). Retrieved from: https://en.wikipedia.org/wiki/Potato#/media/File:Patates.jpg
-6. Aaron Wu. 2018. Boat Photo on Unsplash. Retrieved from: https://unsplash.com/photos/_8rjlHwN4uk
-7. Wikipedia. 2022. J M W Turner Article. Retrieved from: https://en.wikipedia.org/wiki/J._M._W._Turner
+2. Jerry Wang. 2022. Background Artwork (`artwork.jpg`)
+3. Howzit (StackOverflow user). 2018. p5js-image-array (CC BY-SA 2.5). Retrieved from: <https://stackoverflow.com/questions/51233447/p5js-image-array>
+4. p5 Reference. No Date. MouseWheel Example (CC BY-NC 4.0). Retrieved from: <https://p5js.org/reference/#/p5.Element/mouseWheel>
+5. Scott Bauer. 2004. Photo of Potatoes (Public Domain). Retrieved from: <https://en.wikipedia.org/wiki/Potato#/media/File:Patates.jpg>
+6. Aaron Wu. 2018. Boat Photo on Unsplash. Retrieved from: <https://unsplash.com/photos/_8rjlHwN4uk>
+7. Wikipedia. 2022. J M W Turner Article. Retrieved from: <https://en.wikipedia.org/wiki/J._M._W._Turner>
 ```
