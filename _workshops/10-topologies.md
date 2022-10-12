@@ -125,3 +125,16 @@ We will provide a wireless + wired router for the final performance. You should 
 - how are the audience going to perceive what you're doing? are there flows of
   information you can add (or remove) from your topology to communicate more
   clearly with your audience?
+
+## In-Class Activity: Explaining your topology
+
+The goal of this activity is to clarify for yourself what roles everybody in your ensemble will play and to know what your job will be in each performance with your group.
+
+1. In 10 minutes, write down what everybody in your group is supposed to do in your piece (as far as you know today)---diagrams encouraged.
+
+2. Split into performance groups.
+
+3. Explain roles to everybody else in your performance group.
+
+4. Other people in the group: If it's not clear what you are supposed to do in each performance, ask for more details until you know!
+
