@@ -68,10 +68,12 @@ Your portfolio submissions:
 
 - **update, week 7**: Here's a few tips to make a better looking and more readable portfolio based on marking portfolio 1:
   - We've updated the `.gitlab-ci` file, so have a look at the _new, nicer_ pdf.
+  - We mark portfolios from your PDF and diary videos, don't assume we can dive into your repo and make sure your PDF loks the way you expect.
   - Please include a record of the "main thing" you did in each week's reflection either as a screenshot (if Pd) or a code listing (if Gibber). You can store images directly in any of the `week-N` or `portfolio-N` folders. The code won't count towards your word count.
   - The PDF works best with headings starting from one-pound-sign-level (e.g., `# Heading`). I got this wrong in the template, please update.
   - Please make sure URLs in your portfolio have angle brackets around them: `<http://example.com>` so that they work properly in the PDF.
   - If you want to see expected formatting look at [Charles' sample repo](https://gitlab.cecs.anu.edu.au/u4110680/laptop-ensemble-2022-submissions/) and the [PDF file](https://gitlab.cecs.anu.edu.au/u4110680/laptop-ensemble-2022-submissions/-/jobs/3211703/artifacts/file/laptop-ensemble-2022-submissions-u4110680-portfolio-1.pdf).
+
 
 Your whole Portfolio is actually a big PDF document generated from your weekly reflections and portfolio discussion. We'll show you how to access this in the labs.
 
