@@ -7,7 +7,7 @@ show_toc: true
 
 ## Outline
 
-- **Performance Dates:** TBA 
+- **Performance Dates:** 3 (11am, 3pm), 4 (11am, 3pm), 7 (3pm) November 2022 
 - **Artefact Submission Date:** 23:59 14/11/2022
 - **Mark weighting:** 50%
 - **Submission:** submit your assignment according to the
@@ -54,6 +54,8 @@ to put on the YouTube channel.
 {:.info}
 You will perform a concert with the members of your group. Each group member must present their own work and be prepared to participate in at least two other pieces. By default we expeect everybody in the group to be in everybody else's pieces.
 
+
+
 ### Performance materials
 
 You must submit your **performance materials** through GitLab in the `final-performance` folder in your submission repo
@@ -71,17 +73,34 @@ Please use good judgement about the size of media files you upload to GitLab. It
 
 ### Performance Times
 
+{% comment %}
 Performances will be scheduled as part of the ANU School of Music end of semester performances during the exam period (TBA), most likely during business hours. You will have a performance time with **your ensemble**.
 
 Multiple times will be available, each ensemble must work out a time that they are avialable to complete their performance. You should expect to require a 3-hour block: 1 hour technical setup, 1 hour run through, (up to) 1 hour performance. 
+{% endcomment %}
+
+| Date  | Time | Group        |
+|-------|------|--------------|
+| Nov 3 | 11am | Prophets     |
+| Nov 3 | 3pm  | Volcas       |
+| Nov 4 | 11am | Etherwaves   |
+| Nov 4 | 3pm  | 808 Cowbells |
+| Nov 7 | 3pm  | DX7s         |
+
+- Venue is Llewellyn Hall, ANU School of Music for all performances
+- 2 hours before performance time: You can access the venue to plug in, get comfy and make sure all sound and vision is working.
+- 1 hour before performance time: run-through in reverse order
+- We will start at 5-minutes after the performance time (in case audience arrives and wants to sit down etc)
 
 {:.info}
 Concert day is likely to be intense, try to get good sleep, eat properly, and bring a water bottle.
 
+{% comment %}
 The venue will be one of:
 
 - [Larry Sitsky Recital Room (LSRR)](https://services.anu.edu.au/campus-environment/facilities-maps/larry-sitsky-recital-room) - ANU School of Music, Building 100, Ground Floor.
 - [Big Band Room (BBR)](https://services.anu.edu.au/campus-environment/facilities-maps/big-band-room) - Peter Karmel Building 121, Ground Floor.
+{% endcomment %}
 
 {:.info}
 Your performance will be a public event! Feel free to advertise it, create a poster, and invite up to 100 of your best friends and foes.
@@ -93,6 +112,8 @@ We will provide for each laptop:
 - HDMI input
 - 3.5mm stereo (headphone) cable 
 - power point
+
+We will also provide a WiFi router with internet.
 
 You need to provide whatever **adapters or cables** that are necessary to connect _HDMI_ and a _3.5mm headphone jack_ to your computer, you should also bring your **power adapter**.
 
