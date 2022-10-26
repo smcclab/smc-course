@@ -132,6 +132,15 @@ Your LENS artefact will be assessed based on the representations above. The
 marking criteria (based on the [course learning outcomes]({{site.baseurl}}{%
 link 02-outline.md %})) are:
 
+- (50%) sophistication and ambition with regards to **sound and music computing concepts**
+
+- (20%) **technical quality** (e.g., stability, level of polish, absence of bugs/jankiness, staging)
+
+- (20%) demonstrated capacity for **expression** (creative control) and **collaboration** during live performance
+
+- (10%) presentation and communication through **performance materials**
+
+{% comment %}
 - sophistication and ambition of your artefact/performance with regards to the
   fundamental concepts in music computing covered in this course
 
@@ -145,7 +154,7 @@ link 02-outline.md %})) are:
 
 - presentation and communication of your LENS artefact through performance
   materials
-
+{% endcomment %}
 
 ### Reference format {#reference-format}
 
