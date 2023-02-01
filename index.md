@@ -58,6 +58,23 @@ The best way to see what we do is to watch previous student's performances in th
 
 {% include youtube.html id="5xd5vVD4920" %}
 
+## Getting Started
+
+If you have enrolled in SMC, or are thinking about it, and want to get started, here's what to do:
+
+1. Enrol in the course on ISIS and sign up for a [workshop]({% link
+   _workshops/index.md %}) on MyTimetable.
+2. Make sure you have a [laptop]({% link 01-policies.md %}#laptop) and commit to
+   attending all lectures and workshops.
+3. Read through the [tools]({% link _resources/02-tools.md %}) page and install
+   things on your laptop that you might need. Test them out and see if you can
+   make a sound.
+4. Have a look at the [references]({% link _resources/04-references.md %}) page
+   and browse through some of the readings to get a head start on
+   learning about sound and music computing.
+
+**Then show up in week 1 ready to make some computer music!**
+
 ## Who is this for?
 
 <div class="grid grid--3">
