@@ -2,6 +2,7 @@
 title: Policies
 permalink: /policies/
 toc: true
+ext_app_link: https://apps.powerapps.com/play/47a1ecd3-6c23-44d7-bf39-70e3ebab3dd2?tenantId=e37d725c-ab5c-4624-9ae5-f0533e486437
 ---
 
 This page extends and gives further context to information on the class
@@ -62,12 +63,11 @@ Late submissions for assessment tasks are not accepted without an extension.
 
 ## Extensions {#extensions}
 
-<a class="button--outline"
-href="https://apps.powerapps.com/play/47a1ecd3-6c23-44d7-bf39-70e3ebab3dd2?tenantId=e37d725c-ab5c-4624-9ae5-f0533e486437">Link
-to the School of Computer Extension App</a>
+<a class="button--outline" href="{{page.ext_app_link}}">Link to the School of
+Computing Extension App</a>
 
 If you have any issues that would prevent you handing in work on time, please
-use the School of [Computing Extension App](https://apps.powerapps.com/play/47a1ecd3-6c23-44d7-bf39-70e3ebab3dd2?tenantId=e37d725c-ab5c-4624-9ae5-f0533e486437). 
+use the School of [Computing Extension App]({{page.ext_app_link}}).
 
 - **In most cases it is easy to arrange a short extension**.
 
@@ -102,7 +102,7 @@ to document your issue.
 
 - Special Consideration is **not for extensions**. If you need an extension see above.
 
-Laptop Ensemble does not have exams so the procedures for Deferred Assessment do
+Sound and Music Computing does not have exams so the procedures for Deferred Assessment do
 not apply in this course.
 
 If you are confused about how Special Consideration or Deferred Examinations
@@ -140,7 +140,7 @@ outcomes, generally equivalent to a mark of 60/100.
 ## Academic integrity {#academic-integrity}
 
 At the ANU [we take academic integrity
-seriously](http://academichonesty.anu.edu.au/). In Laptop Ensemble all the ANU
+seriously](http://academichonesty.anu.edu.au/). In Sound and Music Computing all the ANU
 academic integrity principles apply.
 
 In particular:
@@ -159,7 +159,7 @@ Referencing work that you have (legally) adapted from online sources or from a
 colleague is a basic act of respect in a network of peers.
 
 As a basic measure, we expect everyone to have at least two references in each
-assessment showing that you are aware of the how to work
+assessment showing that you are aware of how to work
 independentently in a studio environment and acknowledge sources.
 
 If you act against the principles of academic integrity in this course, it's
@@ -171,12 +171,16 @@ for your enrolment at ANU in serious cases.
 
 This course requires making music on a laptop, and so you'll need to have a
 laptop and [install some software]({% link _resources/02-tools.md %}#software)
-on it. If you have any trouble with getting the software installed & working on
-your machine then there will be heaps of opportunities to fix any problems
-(especially early in the course). However, it's your responsibility to make
-sure that the software works and that these issues are sorted out. 
+on it. In general, any Apple or Windows laptop purchased in the last five years
+will be fine and many older laptops will also work very well. Laptops with
+Linux are also usually fine but can have some issues with audio[^2]. If you
+have any trouble with getting the software installed & working on your machine
+then there will be many opportunities to fix problems (especially early in the
+course). However, it's your responsibility to make sure that the software works
+and that these issues are sorted out. 
 
 Software/hardware issues happen in performances (ask Charles for stories). You are
 expected be organised enough so that your setup is working and reliable before
 any assessment task is due.
 
+[^2]: Linux audio is one of humankind's greatest intellectual challenges. As a Linux user in this course you have bravely signed up for your turn to face it.

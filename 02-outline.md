@@ -5,20 +5,24 @@ permalink: /outline/
 
 ## Learning outcomes {#learning-outcomes}
 
-{% include slides/learning-outcomes.md %}
+- [COMP4350 Sound and Music Computing](https://programsandcourses.anu.edu.au/2023/course/COMP4350)
+- [COMP8350 Sound and Music Computing](https://programsandcourses.anu.edu.au/2023/course/COMP8350)
 
 ## Class Summaries
 
-- [COMP3710 Topics in Computer Science: Laptop Ensemble (Semester 2, 2022)](https://programsandcourses.anu.edu.au/course/COMP3710/Second%20Semester/5161)
+- [COMP4350 Sound and Music Computing (Semester 1, 2023)](https://programsandcourses.anu.edu.au/course/COMP4350/First%20Semester/4474)
+- [COMP8350 Sound and Music Computing (Semester 1, 2023)](https://programsandcourses.anu.edu.au/course/COMP8350/First%20Semester/4470)
 
-- [COMP6470 Special Topics in Computing: Laptop Ensemble (Semester 2, 2022)](https://programsandcourses.anu.edu.au/course/COMP6470/Second%20Semester/5439)
+## Semester 1 2023 details
 
-## Semester 2 2022 details
+The course expectations and structure can be found in the Class Summaries
+linked above.
 
-- **Mode of Delivery:** on-campus
-- **Prerequisites:** 12 units of 2000-level courses from computing (COMP coded) courses or 12 units of 2000-level courses from a creative arts discipline. 
-- **Course Convener:** Charles Martin
-- **Second Examiner:** Alexander Hunter
-- **Tutors:** Yichen Wang and Brent Schuetze
+Please note that this course is designed for in-person delivery only due to the
+interactive nature of lectures and collaborative workshops. Hybrid or remote
+participation is not supported in this course.
 
+Students are expected to have full attendence at all learning activities
+(lectures, workshops, concert). If you have any reason that you cannot attend a
+certain activity, you must communicate this with your tutor well in advance.
 
