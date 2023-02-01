@@ -11,11 +11,11 @@
 # Site Info #
 #############
 
-title: Laptop Ensemble
-short_title: COMP3710/COMP6470
+title: Sound and Music Computing
+short_title: COMP4350/8350
 subbrand: ANU School of Computing
 
-description: Laptop Ensemble - a course in sound and music computing
+description: A collaborative course on creating sound and performing music with computers.
 url: https://comp.anu.edu.au
 date_format: "%b %-d, %Y"
 permalink: pretty
@@ -68,7 +68,7 @@ defaults:
     values:
       layout: default
       show_anchor_headings: true
-      image: assets/photos/2019-rehearsal-weitong.jpg
+      image: assets/photos/2022-lh.jpg
       image-tint: "medium"
   -
     scope:
@@ -85,7 +85,7 @@ revealify:
 
 
 # show CC license info in footer
-cc_license: true
+cc_license: false
 
 ## moar Jekyll config
 markdown: kramdown

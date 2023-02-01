@@ -1,7 +1,6 @@
 ---
-title: ANU Laptop Ensemble 
-tagline: A collaborative course in sound and music computing
-image: /assets/photos/2019-rehearsal2.jpg
+title: Sound and Music Computing
+tagline: A collaborative course in making sound and creating music with computers 
 hidden: true
 no_breadcrumb: true
 layout: feature
@@ -17,48 +16,47 @@ This is the course for you!
 
 This course is an introduction to the fundamental concepts of music computing,
 including digital synthesis, algorithmic composition, and musical interface
-design. Students will develop their knowledge by creating computer musical
+design. You will develop your knowledge by creating computer musical
 instruments in music programming languages and developing new computer music
 works to present in concert with an ensemble of other students. 
 
 Modern music technology exists at the forefront of computing practice and
 involves new live programming paradigms, human interface design, digital signal
-processing, networking, and machine learning. Students will gain experience in
+processing, networking, and machine learning. You will gain experience in
 these concepts and learn how to conceptualise and realise new computer music
 instruments, compositions, and performances.
 
+{:.warn-box} 
+This is the course formerly known as Laptop Ensemble! The website is currently being (slightly) revised for 2023!
+
 ## How to enrol
 
-ANU Laptop Ensemble runs as a "Special Topics" course in the ANU School of
-Computing. Two course codes are available:
-[COMP3710](https://programsandcourses.anu.edu.au/2022/course/comp3710) and
-[COMP6470](https://programsandcourses.anu.edu.au/2022/course/comp6470).
+Two course codes are available:
+[COMP4350](https://programsandcourses.anu.edu.au/course/comp4350) and
+[COMP8350](https://programsandcourses.anu.edu.au/course/comp8350).
 
-{:.warn-box} 
-Laptop Ensemble is now full and applications have closed. Accepted applicants will receive a permission code from CECS Student Services.
+SMC is open to students from computing, as well as those who meet the
+prerequisites from creative arts and other areas of the ANU.
 
-{% comment %}
-Enrolment for ANU Laptop Ensemble is by permission code, and there are two steps:
+If you have any issues with enrolment, please follow the instructions on [this
+page](https://cecc.anu.edu.au/current-students/policies-and-resources/enrolling-cecs-courses)
+to ask for a permission code.
 
-- ~~Fill in the [expression of interest form
-  (link)](https://forms.office.com/r/UVJBTZfLVU), we will let you know when the
-  first LENS workshop is scheduled.~~
-
-- ~~Show up in the first week and we will arrange a permission code for your
-  enrolment.~~
-{% endcomment %}
-
-If you've got questions about enrolling in Laptop Ensemble, get in touch with [Charles
+If you've got questions about enrolling in the course, get in touch with [Charles
 Martin](mailto:charles.martin@anu.edu.au).
 
-## What does the ANU Laptop Ensemble do?
+## What happens in SMC?
 
-The best way to see what we do is to watch the student's performances in the
-[final gig video](https://www.youtube.com/watch?v=A0NG-T8y7gM) here (hot off
-the [LENS Youtube
-Channel](https://www.youtube.com/channel/UCIU6SqIS02GJlnLOPqlwmpA)).
+Each week you will attend an interactive lecture and try out SMC concepts with
+Charles, and a collaborative workshop where you will create musical
+performances with your small ensemble of 4-5 new computer musicians. You will
+create a sound/music piece every week and perform as the "ANU Laptop Ensemble" in the end-of-semester
+concert series.
 
-{% include youtube.html id="A0NG-T8y7gM" %}
+The best way to see what we do is to watch previous student's performances in the
+[on our YouTube channel](https://www.youtube.com/watch?v=2EdxJ_aJRHA&list=PLKm3iGh1D7Mur62hvm6BHBNqlObABGDgY). 
+
+{% include youtube.html id="5xd5vVD4920" %}
 
 ## Who is this for?
 
@@ -78,7 +76,7 @@ This course is open to students in computer science, music, art, and elsewhere
 at ANU. You should have a strong interest in making sound and music using computers, a
 willingness to learn new approaches to music and computer programming, and be
 must be able to attend the [weekly workshop session]({% link _workshops/index.md
-%}) perform at the [end-of-semester LENS gig]({% link
+%}) perform at the [end-of-semester performance]({% link
 _assessments/04-lens-performance.md %}).
 
 If you've got any questions (including [how to
