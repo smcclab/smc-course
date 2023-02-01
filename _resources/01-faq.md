@@ -5,57 +5,17 @@ permalink: /resources/faq/
 show_toc: true
 ---
 
-{:.warn-box}
-This is the course FAQ---we'll update it as the semester goes along.
-
 {% include youtube.html id="24YMz90b6bo" %}
 
-## What's LENS?
+## What's Sound and Music Computing?
 
-More concretely, LENS is a course in computer music making and laptop
+Sound and Music Computing is a course in computer music making and laptop
 performance open to ANU students in music, art, computer science, and anywhere
 on campus you can take a COMP elective.
 
-Laptop Ensemble links:
+During the course you will create small pieces of computer music weekly while collaborating with your peers to learn about sound and music computing.
 
-- [Youtube Channel](https://www.youtube.com/channel/UCIU6SqIS02GJlnLOPqlwmpA)
-- [Facebook Page](https://www.facebook.com/ANULaptopEnsemble/)
-
-You can see more vids of the ensemble at work on their
-[YouTube channel](https://www.youtube.com/channel/UCIU6SqIS02GJlnLOPqlwmpA).
-
-{% comment %}
-## Which ANU course code does this course run under?
-
-You can take this course under the following (computing) course codes:
-
-- [COMP3710](https://programsandcourses.anu.edu.au/2022/course/COMP3710)
-- [COMP6470](https://programsandcourses.anu.edu.au/2022/course/COMP6470)
-
-The course content and assessment is the same for the undergraduate (COMP3710) and
-masters (COMP6740) versions of the course.
-
-## How do I enrol in Laptop Ensemble? {#how-to-enrol}
-
-Enrolment for ANU Laptop Ensemble is by permission code, and there are two steps:
-
-- Fill in the [expression of interest form
-  (link)](https://forms.office.com/r/UVJBTZfLVU), we will let you know when the
-  first LENS workshop is scheduled.
-
-- Show up in the first week and we will arrange a permission code for your
-  enrolment.
-
-If you've got questions about enrolling in Laptop Ensemble, get in touch with [Charles
-Martin](mailto:charles.martin@anu.edu.au).
-
-## Are there any prerequisites?
-
-This course is pitched at a third year (3000) level and so in order to enrol we
-ask that you have completed at least two (6 unit) second year (2000-level) course in your
-discipline. If you don't meet this requirement but believe that you should be
-allowed to join in anyway, please get in touch to discuss it.
-{% endcomment %}
+At the end of the course, you will present a concert of collaborative laptop music works as the "ANU Laptop Ensemble". You can see the final performances from other students here on our [Youtube Channel](https://www.youtube.com/channel/UCIU6SqIS02GJlnLOPqlwmpA)
 
 ## What reference format is used in this course? {#reference-format}
 
@@ -77,19 +37,31 @@ Some example references are as follows:
 
 ## What music background is required?
 
-There are no specific music pre-requisites, and we will teach things from the
+There are no specific music pre-requisites, and we will teach any musical concepts required from the
 ground up. Although some music experience is useful, we use musical concepts
 that are not taught in a standard music curriculum.
 
 Obviously, if you've never done anything with music/sound before then there'll
-be some extra reading (and noise-making!) to do to stay on top of things, but if
+be reading (and noise-making!) to do to stay on top of things, but if
 you're willing to put in the work it shouldn't be an un-manageable workload.
 
 ## What computing background is required?
 
 If you have a background outside of computing, we will teach things from the
 ground up. However, we recommend COMP1720 Art and Interaction Computing as an
-appropriate starting point for a creative computer journey.
+appropriate starting point for a creative computing journey.
+
+
+## Is there anything I can do before the course starts to get prepared?
+
+Yes!
+
+1. Enrol in the course on ISIS and sign up for a [workshop]({% link _workshops/index.md %})
+2. Make sure you have a [laptop]({% link 01-policies.md %}) and commit to attending all lectures and workshops.
+3. Read through the [tools]({% link _resources/02-tools.md %}) page and install things on your laptop that you might need. Test them out and see if you can make a sound.
+4. Have a look at the [references]({% link _resources/04-references.md %}) page and browse through some of the reference material to start a head start on learning about sound and music computing.
+
+**Then show up in week 1 ready to make some computer music!**
 
 ## I'm a musician/programmer and I'm worried that I don't have the required programming/music skills---will I be ok?
 
@@ -99,7 +71,7 @@ Still, one key question to ask yourself is do you _like_ the thing you're
 worried about not having the required skills in, and do you want to learn more
 about it?
 
-If you're a muso, do you _like_ thinking about patterns, structure &
+If you're a musician, do you _like_ thinking about patterns, structure &
 "compositional rules"? Do you want to learn more about programming and computers
 and use them in your creative practice?
 
@@ -111,19 +83,18 @@ to create music?
 If the answers to these questions are yes, then I think you'll be fine. You'll
 be motivated to learn the things you don't know already, and you might surprise
 yourself about how much you enjoy learning about how to put computers to work in
-making your own music. Imagine actually enjoying & being motivated to learn
-something---who'd have thought that uni could be like that 😜?
+making your own music. 
 
 ## Who _shouldn't_ take this course?
 
-In LENS believe that computing (including creative computing) is
+In SMC, we believe that computing (including creative computing) is
 [for everyone](https://twitter.com/search?q=%23cs4all), and so no-one should
 rule themselves out because they think they're not "technical" or "musical"
 enough to make music with computers.
 
 Having said that, this isn't a standard CS course, so if you're expecting:
 
-- nice, "one right answer" assignments where you just write code to pass a bunch
+- simplistic, "one right answer" assignments where you just write code to pass a bunch
   of unit tests
 - a "closed" syllabus where everything you'll need to get a good grade is a fact
   you can memorise from the lecture slides
@@ -131,48 +102,13 @@ Having said that, this isn't a standard CS course, so if you're expecting:
   is a _collaborative_ course)
 
 then this probably isn't the course for you. No hard feelings, but if you sign
-up for LENS then you've been warned!
-
-## What does this course look like, week-to-week? {#what-does-this-course-look-like-week-to-week}
-
-Each week, you'll:
-
-- learn about a particular computer music concept (_in your own time_)
-- make & submit a creative response which explores that concept (_in your
-  own time_)
-- listen to, play with & discuss the things that you and your classmates have
-  made (_during the class workshop timeslot_)
-
-In addition, over the course of the semester you'll:
-
-- create a software/hardware tool for making music in a laptop ensemble context
-- write a report reflecting on your design process
-- perform (live!) with your tool and ensemble classmates at the end-of-semeseter
-  LENS concert
+up for SMC then you've been warned!
 
 ## Do I _have_ to do a live performance if I take this course?
 
-Yes, the main course assessment is to use the computer music instrument/system
-that you've built in a group performance alongside some of your LENS
-classmates. The "present it in concert" part of that is one of the course
-[learning outcomes]({% link 02-outline.md %}#learning-outcomes).
-
-## What are the time commitments for LENS? {#what-are-the-time-commitments-for-lens}
-
-The primary weekly contact hours are the 2-hour [workshop session]({% link
-_workshops/index.md %}). If you're enrolled in the class, you must be there every week.
-
-Outside of that workshop, the class will be delivered in "flipped" mode; we'll
-give you some reading material & videos to look at, then you'll create something
-in response (as described
-[above](#what-does-this-course-look-like-week-to-week)).
-
-This is a standard 6-unit course, so the [ANU expectation is around 130 hours
-of work over the
-semester](https://policies.anu.edu.au/ppl/document/ANUP_000691) (around 11
-hours/week, on average). This means that you need to make the time every week
-to read the workshop material in advance, think about which bits make sense and
-where you have questions, and make some noise.
+Yes, the biggest course assessment is to use the computer music instrument/system
+that you've built in a group performance alongside some of your 
+classmates.
 
 ## Can I take this course if I'm a remote student?
 

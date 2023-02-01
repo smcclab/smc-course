@@ -26,4 +26,9 @@ your final performance and artifact at the end of semester.
 | [Portfolio 2]({% link _assessments/02-portfolio.md %})             | 23:59 17/10/2022 (Monday of week 11)             | 15%                | 1,2,3 |
 | [LENS performance]({% link _assessments/04-lens-performance.md %}) | Concert: TBA, Artefact: 14/11/2022         | 50%                | 2,3,4 |
 
+Read the course [policies]({% link 01-policies.md %}) for information on submission, extensions, special consideration, and appeals.
+
+## Assessment Pages
+
+{% include collection-listing.html show_search=false no_images=false %}
 

@@ -2,6 +2,7 @@
 title: LENS lab equipment
 summary: A list of gear that the LENS lab owns and you can use in class.
 permalink: /resources/equipment/
+hidden: true
 show_toc: true
 ---
 

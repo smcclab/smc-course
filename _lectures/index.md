@@ -2,6 +2,7 @@
 title: Lectures
 layout: default
 permalink: /lectures/
+hidden: true
 show_collection: true
 show_toc: true
 ---
@@ -32,4 +33,15 @@ explorations remotely or asynchronously.
    Data]({% link _lectures/03-algorithmic-composition.md %})
 4. [Musical Interfaces in Pure
    Data]({% link _lectures/04-new-interfaces-for-musical-expression.md %})
+
+
+## Lecture Slides
+
+The lecture slides are all available below as web pages. 
+
+{% comment %}
+PDF versions are available [here (link)]({{ site.lecture_pdf_url }}).
+{% endcomment %}
+
+{% include page-cards.html cards=site.lectures %}
 

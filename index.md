@@ -27,7 +27,7 @@ these concepts and learn how to conceptualise and realise new computer music
 instruments, compositions, and performances.
 
 {:.warn-box} 
-This is the course formerly known as Laptop Ensemble! The website is currently being (slightly) revised for 2023!
+This is the course formerly known as **Laptop Ensemble**! You're joining at a great time because we're expanding to cater for more students (equals more fun) and adding more content for 2023!
 
 ## How to enrol
 
