@@ -1,19 +1,20 @@
 ---
 title: Computer music diary
-summary: Develop your skills and discuss in class.
-permalink: /assessments/lens-diary/
+tagline: Develop your skills and discuss in class.
+image: assets/photos/samer-khodeir-He3TV66yUEI-unsplash.jpg
+image_alt: Photo by Samer Khodeir on Unsplash
+permalink: /assessments/diary/
 show_toc: true
 ---
 
 ## Outline
 
-- **Due date:**23:59 every Tuesday in weeks 2--8, 10 
+- **Due date:** 09:00 every Monday in weeks 2--6, 8--10 
 - **Mark weighting:** 0% but required for portfolio
 - **Submission:** submit your videos & portfolio submissions according to the
   instructions below
 - **Policies:** late submissions not accepted without an extension.
 - **GitLab Repo:** <https://gitlab.cecs.anu.edu.au/laptop-ensemble/2022/laptop-ensemble-2022-submissions>
-- **MS Stream Group:** [link](https://web.microsoftstream.com/group/576eed06-09b9-47a9-bb90-9c1ffb8cd5dd?view=channels)
 
 ## Description
 
@@ -21,7 +22,7 @@ Your computer music diary is a way to try out sound and music computing ideas an
 
 Each week you'll work through pre-reading, -watching, and -listening material in the workshops and respond to a creative provocation in your diary entry.
 
-The due date is set to the day before class and the very next day we will watch the videos in class together together to discuss the ideas you have explored.
+The due date is set to Monday morning (before all workshops for the week) and in your workshop session we will watch the videos in together together to discuss the ideas you have explored.
 
 You can find the specific pre-workshop instructions on each workshop page under the heading "Pre-Workshop Tasks"
 
@@ -75,8 +76,8 @@ everyone's patch files will be shared (just within this LENS cohort).
 
 ## Submission process {#weekly-videos-submission-process}
 
-1. record your video (use [OBS Studio](https://obsproject.com), Zoom or Quicktime
-2. upload your 60sec (or 180sec for group weeks) video through Microsoft Stream to our group (see above)
+1. record your video (use [OBS Studio](https://obsproject.com)
+2. upload your 60sec (or 180sec for group weeks) video through Teams (see above)
 3. add your reflection text and materials to the GitLab repository
 
 If you're familiar with git & GitLab, then you can do this however you like---as

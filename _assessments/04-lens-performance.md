@@ -1,35 +1,47 @@
 ---
-title: LENS performance
-summary: This is it - your chance to make some noise.
+title: LENS Performance
+tagline: Now's the time to make some noise.
 permalink: /assessments/lens-performance/
 show_toc: true
+image: assets/photos/2022-lh3.jpg
+image_alt: Photo by Charles Martin
 ---
 
 ## Outline
 
-- **Performance Dates:** 3 (11am, 3pm), 4 (11am, 3pm), 7 (3pm) November 2022 
-- **Artefact Submission Date:** 23:59 14/11/2022
-- **Mark weighting:** 50%
+- **Performance Dates:** TBA (during the exam period) 
+- **Artefact Submission Date:** 23:59 2/6/2023
+- **Mark weighting:** 40%
 - **Submission:** submit your assignment according to the
   [instructions below](#submission-process)
-- **Policies:** Late submission not permitted.
+- **Policies:** Late submission not permitted. 
 
 ## Description
 
-At the end of semester your **LENS performance** will be assessed in terms of
-quality of the artefact itself and through a live performance. 
+The LENS (Laptop Ensemble) performance is the major project for this course.
+You will create a computer music system that can be performed live by a group
+of students at a live concert. This could take the form of a new computer music
+instrument or composition that a group of performers can control.
 
-We are looking for performances (and associated artefacts) that are
-sophisticated in terms of fundamental concepts in music computing, have a high
-design/compositional quality, and that allow a high level of expression and
-collaboration during performance.
+Your performance must be sophisticated in terms of fundamental concepts in
+music computing, have high technical quality as a coherent performance, and
+demonstrate a high level of expression and collaboration by the performers. 
+
+In order to create your LENS Performance, you will be assigned to a laptop
+ensemble during the semester  and you must involve all members of the ensemble
+in your performance.
+
+You will also submit all of your performance materials (code) and a readme PDF
+explaining how your performance works after your concert.
+
+In summary, your LENS performance consists of:
 
 ## Specification
 
 Your LENS performance consists of:
 
 1. an in-person **ensemble performance** that you will participate in with your group
-2. **performance materials** submitted through GitLab
+2. **performance materials** PDF submitted through Wattle
 
 There are two representations of your LENS performance: the **ensemble
 performance** at the final gig, and the **performance materials** you'll submit
@@ -51,10 +63,8 @@ Your ensemble performance:
 We'll make a video & audio recording of the performances for archival purposes and also
 to put on the YouTube channel.
 
-{:.info}
-You will perform a concert with the members of your group. Each group member must present their own work and be prepared to participate in at least two other pieces. By default we expeect everybody in the group to be in everybody else's pieces.
-
-
+{:.info-box}
+You will perform a concert with the members of your group. Each group member must present their own work and be prepared to participate in everybody else's piece.
 
 ### Performance materials
 
@@ -62,45 +72,26 @@ You must submit your **performance materials** through GitLab in the `final-perf
 
 Your performance materials:
 
-- **must** be submitted on Gitlab
-- **must** include all patches, code, sound files, scores, instructions required to produce your performance
-- **must** include a `README.md` file explaining how to get your performance up and running.
+- **must** include all patches, code, sound files, scores, instructions required to produce your performance (upload to GitLab)
+- **must** include a `README.md` file explaining how to get your performance up and running and including screenshots and code listings of the important part of this performance.
+- you **must** download the PDF artefact of the README file and upload to wattle by the due date. 
+
+The primary part of your performance materials is the PDF uploaded to Wattle. We _may_ check your Gitlab repository if further information is required about your performance, but basically your work should be represented clearly in your PDF file.
 
 {:.info}
 Please use good judgement about the size of media files you upload to GitLab. It's ok if you _need_ to upload large files (e.g., up to 100MB or so), but better if you can keep sound files smaller.
+
+{:.warn} The performance materials due date is the same for everybody in the class, but may be before your performance. Your readme PDF upload needs to be finalised by the due date, but you may make changes to your gitlab repository up to your performance day.
 
 ## Process {#submission-process}
 
 ### Performance Times
 
-{% comment %}
-Performances will be scheduled as part of the ANU School of Music end of semester performances during the exam period (TBA), most likely during business hours. You will have a performance time with **your ensemble**.
+TBA.
 
-Multiple times will be available, each ensemble must work out a time that they are avialable to complete their performance. You should expect to require a 3-hour block: 1 hour technical setup, 1 hour run through, (up to) 1 hour performance. 
-{% endcomment %}
-
-| Date  | Time | Group        |
-|-------|------|--------------|
-| Nov 3 | 11am | Prophets     |
-| Nov 3 | 3pm  | Volcas       |
-| Nov 4 | 11am | Etherwaves   |
-| Nov 4 | 3pm  | 808 Cowbells |
-| Nov 7 | 3pm  | DX7s         |
-
-- Venue is Llewellyn Hall, ANU School of Music for all performances
-- 2 hours before performance time: You can access the venue to plug in, get comfy and make sure all sound and vision is working.
-- 1 hour before performance time: run-through in reverse order
-- We will start at 5-minutes after the performance time (in case audience arrives and wants to sit down etc)
 
 {:.info}
 Concert day is likely to be intense, try to get good sleep, eat properly, and bring a water bottle.
-
-{% comment %}
-The venue will be one of:
-
-- [Larry Sitsky Recital Room (LSRR)](https://services.anu.edu.au/campus-environment/facilities-maps/larry-sitsky-recital-room) - ANU School of Music, Building 100, Ground Floor.
-- [Big Band Room (BBR)](https://services.anu.edu.au/campus-environment/facilities-maps/big-band-room) - Peter Karmel Building 121, Ground Floor.
-{% endcomment %}
 
 {:.info}
 Your performance will be a public event! Feel free to advertise it, create a poster, and invite up to 100 of your best friends and foes.
@@ -109,37 +100,42 @@ Your performance will be a public event! Feel free to advertise it, create a pos
 
 We will provide for each laptop:
 
-- HDMI input
-- 3.5mm stereo (headphone) cable 
+- HDMI input (for your video and sound)
 - power point
 
 We will also provide a WiFi router with internet.
 
-You need to provide whatever **adapters or cables** that are necessary to connect _HDMI_ and a _3.5mm headphone jack_ to your computer, you should also bring your **power adapter**.
+You need to provide whatever **adapters or cables** that are necessary to connect _HDMI_ to your computer, you should also bring your **power adapter**.
 
-By default, we expect every member of the ensemble to connect their laptop to all of: _HDMI_, _3.5mm headphone jack_, and a power point and leave it plugged in for the duration of your setup, run through and performance.
+By default, we expect every member of the ensemble to connect their laptop to all of: _HDMI_  and a power point and leave it plugged in for the duration of your setup, run through and performance.
 
 - We will provide a big PA system and foldback speakers in the venue.
-- There will be technical support available at the performance (from our staff and and School of Music technical staff), support is limited to connectivity issues, not stability of your piece :-)
+- There will be technical support available at the performance, support is limited to connectivity issues, not stability of your piece :-)
 - You will need to confirm the **order of works** in your group's concert and any special instructions for the **HDMI** and **audio** inputs by the week 12 workshop.
 
 {:.info}
-If you have trouble getting your laptop to output HDMI or audio over a 3.5mm headphone jack, please sort this out well before the final performance.
+If you have trouble getting your laptop to output video and audio over HDMI please sort this out well before the final performance.
 
 ## Marking criteria {#marking}
 
 Your LENS artefact will be assessed based on the representations above. The
 marking criteria are:
 
-- (50%) sophistication and ambition with regards to **sound and music computing concepts**
+- Sophistication of application of fundamental concepts in sound and music computing. (50%)
+- Technical Quality (20%)
+- Demonstrated capacity for expression and collaboration (20%)
+- Presentation and communication through performance materials (10%)
 
-- (20%) **technical quality** (e.g., stability, level of polish, absence of bugs/jankiness, staging)
+## Marking Rubric {#rubric}
 
-- (20%) demonstrated capacity for **expression** (creative control) and **collaboration** during live performance
+| Criteria | HD | D | CR | P | N |
+|---|---|---|---|---|---|
+| Sophistication of application of fundamental concepts in sound and music computing. (50%) | Excellent to outstanding SMC implementations going beyond learning materials. | Very good application of SMC concepts, but not beyond learning materials. | Application of SMC at level of learning materials. May have gaps in some areas. | Some effort to replicate SMC learning materials resulting in functional SMC software. May have only applied some SMC concepts covered. | Very little SMC software or software that is below the level of learning materials. |
+| Technical Quality (20%) | A performance showing an outstanding level of stability, technical polish, and consideration of staging. | A performance showing an very good level of stability and technical polish with good consideration of staging. | A performance showing a good level of stability but some lack of technical polish. Staging has been considered. | A performance that may have some issues with stability but lacks technical polish. Staging considerations may be lacking. | A performance with serious stability issues and a lack of technical polish. Staging considerations may be lacking. |
+| Demonstrated capacity for expression and collaboration (20%) | Performance demonstrates an excellent to outstanding capacity for expression (creative control) by all performers and collaboration that goes beyond learning materials. | A performance that shows very good capacity for expression and creative control by the performers. Collaboration is demonstrated and necessary for the performance. | A performance that shows some capacity for expression and creative control by the performers. A good capacity for collaboration is demonstrated but it may not be completely necessary. | A performance with some capacity for expression by the performers, but it may not lead to fully collaborative creative control. | Performance does not demonstrate a capacity for expression (creative control) by the performers and the level of collaboration is below acceptable standards. |
+| Presentation and communication through performance materials (10%) | An outstanding presentation of performance materials clearly communicating the submissions and performance procedure. | A very good presentation of performance materials clearly communicating the submissions and performance procedure. | A good presentation of performance materials. The submission and performance procedure may not be fully communicated. | A satisfactory presentation of the performance materials. The submission and performance procedure may be only weakly communicated. | Unsatisfactory performance materials that may have minimal or no communication of the performance and submission.  |
 
-- (10%) presentation and communication through **performance materials**
-
-### Reference format {#reference-format}
+## Reference format {#reference-format}
 
 We prefer ACM reference format: <https://www.acm.org/publications/authors/reference-formatting>
 

@@ -5,7 +5,11 @@ summary:
   performance.
 permalink: /assessments/demo/
 show_toc: true
+hidden: true
 ---
+
+{:.warn-box}
+This assessment has been removed, if you're here then you might have gotten lost.
 
 ## Outline
 
