@@ -57,8 +57,6 @@ menu:
     page: _resources/index.md
   - name: Policies
     page: 01-policies.md
-  - name: Outline
-    page: 02-outline.md
 
 
 # default layouts for different pages

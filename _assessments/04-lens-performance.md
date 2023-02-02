@@ -129,8 +129,7 @@ If you have trouble getting your laptop to output HDMI or audio over a 3.5mm hea
 ## Marking criteria {#marking}
 
 Your LENS artefact will be assessed based on the representations above. The
-marking criteria (based on the [course learning outcomes]({{site.baseurl}}{%
-link 02-outline.md %})) are:
+marking criteria are:
 
 - (50%) sophistication and ambition with regards to **sound and music computing concepts**
 
@@ -139,22 +138,6 @@ link 02-outline.md %})) are:
 - (20%) demonstrated capacity for **expression** (creative control) and **collaboration** during live performance
 
 - (10%) presentation and communication through **performance materials**
-
-{% comment %}
-- sophistication and ambition of your artefact/performance with regards to the
-  fundamental concepts in music computing covered in this course
-
-- technical quality of your artefact and performance (e.g., stability, level of
-  polish, absence of bugs/jankiness, staging)
-
-- demonstrated capacity for expression during live performance, i.e., level of
-  creative control made available to the performers
-
-- demonstrated capacity for collaboration with other ensemble members
-
-- presentation and communication of your LENS artefact through performance
-  materials
-{% endcomment %}
 
 ### Reference format {#reference-format}
 

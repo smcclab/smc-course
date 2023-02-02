@@ -93,8 +93,7 @@ by 11:59pm on the due date.
 ### Marking criteria {#marking}
 
 Each stage of your portfolio is worth 15% of your total mark, and will be
-assessed based on the output PDF from your GitLab repository. The marking criteria (based
-on the [course learning outcomes]({% link 02-outline.md %})) are:
+assessed based on the output PDF from your GitLab repository. The marking criteria are:
 
 - (50%) Sophistication of articulation and application of fundamental concepts in sound and music computing.
 - (20%) Sophistication of critical reflections obtained through collaboration.

@@ -64,8 +64,7 @@ Presentation schedule:
 
 ## Marking criteria {#marking}
 
-Your demo will be assessed based the following marking criteria (based on the
-[course learning outcomes]({% link 02-outline.md %})):
+Your demo will be assessed based the following marking criteria:
 
 - (50%) technical quality & ambition of your artefact/performance with regards to the
   [fundamental concepts in music computing]({% link _workshops/index.md %})
