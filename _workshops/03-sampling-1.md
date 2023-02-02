@@ -1,7 +1,9 @@
 ---
 title: "Week 3: sampling 1"
-summary: working with pre-recorded sound material
+tagline: working with pre-recorded sound material
 show_toc: true
+image: assets/workshops/recorder-charles-martin.jpg
+image_alt: Photo by Charles Martin
 ---
 
 {:.warn-box}

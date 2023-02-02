@@ -51,7 +51,7 @@ timeline as much as possible.
 
 ## Content {#workshop-content}
 
-{% include page-cards.html cards=site.workshops no_images=true %}
+{% include page-cards.html cards=site.workshops no_images=false %}
 
 
 

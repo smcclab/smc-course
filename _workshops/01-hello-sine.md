@@ -1,7 +1,9 @@
 ---
 title: "Week 1: hello sine"
-summary: your first beeps and boops
+tagline: your first beeps and boops
 show_toc: true
+image: assets/workshops/doug-baney-daADC54moaU-unsplash.jpg  
+image_alt: Photo by Doug Baney on Unsplash 
 ---
 
 This first workshop is called "hello sine" because making

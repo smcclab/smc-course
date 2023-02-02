@@ -1,6 +1,8 @@
 ---
-title: "Welcome to LENS 2021"
-lecturer: Dr Charles Martin and Dr Alec Hunter
+title: "Digital Sound"
+lecturer: Dr Charles Martin
+image: 2022-lh2.jpg 
+image_alt: Photo by Charles Martin
 ---
 
 {% include slides/title.html %}

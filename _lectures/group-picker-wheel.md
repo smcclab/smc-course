@@ -2,6 +2,7 @@
 title: LENS group picker
 permalink: /group-picker-wheel/
 layout: reveal
+hidden: true
 ---
 
 ## Group picker wheel

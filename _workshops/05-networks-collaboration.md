@@ -1,7 +1,9 @@
 ---
 title: "Week 5: networks & collaboration"
-summary: making computer music with multiple computers & musicians
+tagline: making computer music with multiple computers & musicians
 show_toc: true
+image: assets/photos/2019-rehearsal-rohan.jpg
+image_alt: Photo by Charles Martin
 ---
 
 {:.diary-provocation-box}

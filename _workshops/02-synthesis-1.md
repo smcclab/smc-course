@@ -1,7 +1,9 @@
 ---
 title: "Week 2: synthesis 1"
-summary: so what types of beeps and boops can we make, actually?
+tagline: so what types of beeps and boops can we make, actually?
 show_toc: true
+image: assets/workshops/synths-charles-martin.jpg
+image_alt: Photo by Charles Martin
 ---
 
 {:.warn-box}
