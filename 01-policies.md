@@ -175,28 +175,11 @@ on it. You definitely need a laptop because the classrooms for this course do no
 computers provided and you need to use your computer in every lecture and
 workshop.
 
-In general, any Apple or Windows laptop purchased in the last five years
-will be fine and many older laptops will also work very well. Laptops with
-Linux are also usually fine but can have some issues with audio[^2]. 
-
-You **must** have an HDMI output for your laptop either on the laptop itself or
-with an adapter (e.g., you might have a [USB
-type-C](https://amzn.asia/d/8zh11mq), [Mini-DP](https://amzn.asia/d/bxJ2c11) or
-other port on your laptop). The reason for this is that HDMI is the main way to
-get audio and video out of your computer in class. I would suggest buying
-**two** adapters, and keeping at least one in your bag at all times.
-
 If you have any trouble with getting the software installed & working on your
-machine then there will be **many opportunities** to fix problems (especially early
-in the course). However, it's **your responsibility** to make sure that the
-software works and that these issues are sorted out. 
+machine then there will be **many opportunities** to fix problems (especially
+early in the course). However, it's **your responsibility** to make sure that
+the software works and that these issues are sorted out. 
 
 Software/hardware issues happen in performances (ask Charles for stories). You are
 expected be organised enough so that your setup is working and reliable before
 any assessment task is due.
-
-[^2]: Linux audio is one of humankind's greatest intellectual challenges. As a
-  Linux user in this course you have bravely signed up for your turn to face
-  it. Glory to you, courageous warrior of the one true OS.
-
-

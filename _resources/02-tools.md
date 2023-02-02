@@ -1,28 +1,49 @@
 ---
 title: Tools
-summary:
-  What tools (software & hardware) do you need to take part in SMC? Let's take
-  a look.
+tagline:
+  The software and hardware tools you need to take part in SMC.
+image: assets/photos/2022-lens-kambri.jpg
+image-tint: "medium"
 permalink: /resources/tools/
 show_toc: true
 ---
 
+Here are the software and hardware tools you'll need for SMC.
+
 {:.info-box}
 
-If you're having trouble getting things working on your machine, remember that
-you can ask for help in the `#techsupport` channel on Teams (if there's a
-deadline approaching make sure you don't leave it to the last minute).
+If you're having trouble getting things working on your machine, 
+ask for help in the `#techsupport` channel on Teams. If there's a
+deadline approaching, don't leave it to the last minute.
 
 ## Laptop
 
-SMC involves using a laptop in class and for the assessments as all of our
-classes are scheduled in rooms with no computers provided. During classes (e.g.
-the [workshop sessions]({% link _workshops/index.md %})) we expect you to bring
-your laptop (and charger), and some headphones (see reccomendations below).
+SMC involves using a laptop in class and for the assessments, and you will have
+to install some software listed below. All of our classes are scheduled in
+rooms with no computers provided so you must bring your own to participate in class.
+
+You should also bring:
+
+- your laptop charger
+- some headphones (any are fine, but we also have reccomendations below)
+- an HDMI adapter[^hdmi] (if there isn't a regular HDMI port on your laptop).
+  E.g., you might need a [USB type-C](https://amzn.asia/d/8zh11mq) or
+  [Mini-DP](https://amzn.asia/d/bxJ2c11) adapter. I suggest buying
+  [**two**](https://www.forbes.com/sites/work-in-progress/2011/06/21/two-is-one-and-one-is-none/)
+  and having them in your bag at all times.
+
+In general, any Apple or Windows laptop purchased in the last five years will
+be fine and many older laptops will also work very well. Laptops with Linux are
+also usually fine but can have some issues with audio[^2]. 
 
 If you have an issue where you need a loaner laptop for a short time (e.g., one
 class), we may be able to help, but in general, ANU students are expected to be
 able to bring a computer to on-campus classes.
+
+[^2]: Linux audio is one of humankind's greatest intellectual challenges. As a Linux user in this course you have bravely signed up for your turn to face it. Glory to you, courageous warrior of the one true OS.
+
+[^hdmi]: HDMI output is the main way that we will record video and audio from multiple laptops during class and in the assessments. If you don't have an HDMI adapter you won't be able to participate in these activities.
+
 
 ## Software {#software}
 
@@ -32,11 +53,6 @@ There are two primary computer music software environments we'll use in SMC
 [Gibber](https://gibber.cc)
 
 ### Pure Data (Pd) {#pure-data}
-
-{:.info-box}
-
-We'll be installing & using Pd on our laptops from week 1, so if you want to get
-a head start you could even download & install it now.
 
 Pd is a visual computer music environment. It's just a regular piece of software
 which runs on your computer, although there are also versions which run on
@@ -81,11 +97,6 @@ version of "vanilla" Pd for your platform (as shown in the screenshot).
   than understanding the use of these things in a SMC context, so we won't
   cover the more maths-y stuff in this course.
 
-- [Cambridge Companion to Electronic
-  Music](https://www-cambridge-org.virtual.anu.edu.au/core/books/cambridge-companion-to-electronic-music/51F366EA55DAE2CBCCB191E2D8349C9F)
-  (available through ANU library online). A great resource that covers all the
-  concepts in this course with chapters written by current computer music
-  composers and researchers.
 
 ### Gibber {#gibber}
 
@@ -182,7 +193,7 @@ Here are a few things you might like to look at:
   [Akai LPD8](https://www.storedj.com.au/akai-lpd8-ultra-portable-pad-controller-w-8-pads)
   gives you knobs and pads, but not sliders.
 
-We don't really recommend "keyboard"-style interfaces for this class, as they
+We don't recommend "keyboard"-style interfaces for this class, as they
 tend to distract from rather than enhance the kind of computer music
 interactions we study.
 
@@ -195,20 +206,9 @@ Here's what's not required for this class:
 
 ## Other books {#other-books}
 
-There are other computer music languages & software packages as well, and
-you're always welcome to mess around with whatever creative tools you like.
-However, for the SMC curriculum we'll cover those two, and you're also expected
-to use one or the other as the foundation for your final [performance]({% link
-_assessments/04-lens-performance.md %}). Still, if you're keen to explore
-further here area a few good options.
-
-- _Collins, N._
-  [Supercollider Tutorial](http://composerprogrammer.com/teaching/supercollider/sctutorial/tutorial.html#chapter1)
-  (free online)
-
-- _Müller, M._
-  [Fundamentals of Music Processing](https://link.springer.com/book/10.1007/978-3-319-21945-5).
-  Springer International Publishing, Switzerland (2015)
+Here's a few other books that you might find useful for your exploration. These
+are about more general computer music techniques and artistic practices rather
+than guides to specific programming systems.
 
 - _Dean, R.T. and McLean, A._
   [The Oxford Handbook of Algorithmic Music](https://www.oxfordhandbooks.com/view/10.1093/oxfordhb/9780190226992.001.0001/oxfordhb-9780190226992).
@@ -218,6 +218,17 @@ further here area a few good options.
 - _Rowe, R._
   [Interactive Music Systems: Machine Listening and Composing](https://wp.nyu.edu/robert_rowe/text/interactive-music-systems-1993/chapter-1-interactive-music-systems/).
   The MIT Press (1993) (free online)
+
+- [Cambridge Companion to Electronic
+  Music](https://www-cambridge-org.virtual.anu.edu.au/core/books/cambridge-companion-to-electronic-music/51F366EA55DAE2CBCCB191E2D8349C9F)
+  (available through ANU library online). A great resource that covers all the
+  concepts in this course with chapters written by current computer music
+  composers and researchers.
+
+
+- _Müller, M._
+  [Fundamentals of Music Processing](https://link.springer.com/book/10.1007/978-3-319-21945-5).
+  Springer International Publishing, Switzerland (2015)
 
 
 {% comment %}
