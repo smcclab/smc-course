@@ -18,13 +18,13 @@ your final performance and artifact at the end of semester.
 
 ## Assessment List
 
-| Assessment                                                         | Due                                        | Weighting          | LOs |
-| ------------------------------------------------------------------ | ------------------------------------------ | ------------------ | --- |
-| [Computer Music Diary]({% link _assessments/01-diary.md %})        | 23:59 every Tuesday in weeks 2--8, 10      | 0%, required for portfolio | NA |
-| [Portfolio 1]({% link _assessments/02-portfolio.md %})             | 23:59 29/8/2022 (Monday of week 6)               | 15%                | 1,2,3 |
-| [Demo Presentation]({% link _assessments/03-demo-presentation.md %})    | 5/10/2022 (week 9)                | 20%                | 1,3   |
-| [Portfolio 2]({% link _assessments/02-portfolio.md %})             | 23:59 17/10/2022 (Monday of week 11)             | 15%                | 1,2,3 |
-| [LENS performance]({% link _assessments/04-lens-performance.md %}) | Concert: TBA, Artefact: 14/11/2022         | 50%                | 2,3,4 |
+| Assessment                                                         | Due                                     | Weighting          |
+| ------------------------------------------------------------------ | --------------------------------------- | ------------------ |
+| [Computer Music Diary]({% link _assessments/01-diary.md %})        | 09:00 every Monday in weeks 2--8, 10    | 0%, required for portfolio |
+| [Portfolio 1]({% link _assessments/02-portfolio.md %})             | 23:59 27/3/2023                         | 20% |
+| [Solo Performance]({% link _assessments/03-demo-presentation.md %})    | 23:59 17/4/2023                     | 20% | 
+| [Portfolio 2]({% link _assessments/02-portfolio.md %})             | 23:59 15/5/2023                         | 20% |
+| [LENS performance]({% link _assessments/04-lens-performance.md %}) | Concert: TBA, Artefact: 2/6/2023        | 40% |
 
 Read the course [policies]({% link 01-policies.md %}) for information on submission, extensions, special consideration, and appeals.
 

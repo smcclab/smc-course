@@ -1,5 +1,6 @@
 ---
 title: Policies
+tagline: Expectations and rules for aspects of the course
 permalink: /policies/
 toc: true
 ext_app_link: https://apps.powerapps.com/play/47a1ecd3-6c23-44d7-bf39-70e3ebab3dd2?tenantId=e37d725c-ab5c-4624-9ae5-f0533e486437
@@ -7,8 +8,24 @@ ext_app_link: https://apps.powerapps.com/play/47a1ecd3-6c23-44d7-bf39-70e3ebab3d
 
 This page extends and gives further context to information on the class
 summaries provided on [Programs and
-Courses](https://programsandcourses.anu.edu.au), and the ANU policies that
+Courses](#class-summary), and the ANU policies that
 cover all courses and student conduct. 
+
+## Course Outlines {#outline}
+
+The official course outline can be found on programs and courses.
+
+- [COMP4350 Sound and Music Computing](https://programsandcourses.anu.edu.au/2023/course/COMP4350)
+- [COMP8350 Sound and Music Computing](https://programsandcourses.anu.edu.au/2023/course/COMP8350)
+
+## Class Summaries {#class-summary}
+
+The official class summary can be found on programs and courses. These official documents set out the content and assessment expectations for the course.
+
+- [COMP4350 Sound and Music Computing (Semester 1, 2023)](https://programsandcourses.anu.edu.au/course/COMP4350/First%20Semester/4474)
+- [COMP8350 Sound and Music Computing (Semester 1, 2023)](https://programsandcourses.anu.edu.au/course/COMP8350/First%20Semester/4470)
+
+
 
 ## Code of conduct {#code-of-conduct}
 
@@ -40,6 +57,20 @@ during your time as an ANU student, in particular students are expected to:
 
 [^1]: This code of conduct was adapted from the COMP1110 Code of Conduct, and originally developed by Evan Peck of Bucknell University. Portions of this code of conduct are adapted from Dr. Lorena A. Barba
 
+
+## Attendance {#attendance}
+
+This course is designed for in-person delivery only due to the interactive
+nature of lectures and collaborative workshops. Remote participation is not
+supported in this course. Students are expected to have **full attendence** at all
+learning activities (lectures, workshops, concerts). 
+
+If you have any reason that you cannot attend a certain activity, you must
+[communicate](#communication) this with your tutor well in advance. If you cannot attend campus
+due to illness but are able to work from home, you may be able to have limited participation in workshops and collaborate
+with your group using the class's Microsoft Team.
+
+
 ## Communication {#communication}
 
 Any communication in this course will happen over one of two channels:
@@ -56,6 +87,10 @@ If you need to ask a question about the course, here's how to do it:
 - Extensions are handled through a special website, see below.
 - If you need to get in touch with the course convenor directly to discuss a private matter (and it really is private): firstname.lastname@anu.edu.au
 - Disrespectful, harassing, or discriminatory posting or messaging this course is **not acceptable** and will not be tolerated (see the code of conduct).
+
+Please not that the course staff are not likely to respond to messages or
+emails outside of ANU working hours or if they are on leave. Posting on the
+Teams channel is the best way to get an answer from any available staff member.
 
 ## Late Submissions {#late-submission}
 
