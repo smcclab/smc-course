@@ -24,24 +24,10 @@ needs the lecture audio and video will be recorded and available on Echo360
 however you will not be able to take part in the lecture discussions or
 explorations remotely or asynchronously.
 
-## Preliminary Lecture List:
-
-1. [Welcome to LENS]({% link _lectures/01-lens-welcome.md %})
-2. [Digital Synthesis with Pure
-   Data]({% link _lectures/02-lens-digitalsynth.md %})
-3. [Algorithmic Composition with Pure
-   Data]({% link _lectures/03-algorithmic-composition.md %})
-4. [Musical Interfaces in Pure
-   Data]({% link _lectures/04-new-interfaces-for-musical-expression.md %})
-
 
 ## Lecture Slides
 
 The lecture slides are all available below as web pages. 
-
-{% comment %}
-PDF versions are available [here (link)]({{ site.lecture_pdf_url }}).
-{% endcomment %}
 
 {% include page-cards.html cards=site.lectures %}
 

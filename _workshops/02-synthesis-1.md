@@ -57,7 +57,7 @@ https://youtu.be/AC7-MpwIZ8w
 
 Here are some links:
 
-- [Charles' slides about synthesis in Pd]({% link _lectures/02-lens-digitalsynth.md %}) (these slides actually cover weeks 1-4)
+- [Charles' slides about synthesis in Pd]({% link _lectures/index.md %}) 
 - [Charles' examples from the video](https://github.com/cpmpercussion/ComputerMusicIntro)
 - the
   [Programming Electronic Music in Pd](https://www.pd-tutorial.com/english/index.html)

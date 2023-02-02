@@ -1,7 +1,10 @@
 ---
 title: Network Music Making
+tagline: Connecting computer musicians together.
 lecturer: Dr Charles Martin
 ---
+
+
 
 ## What is network music making?
 

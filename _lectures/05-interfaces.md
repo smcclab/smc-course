@@ -1,5 +1,6 @@
 ---
-title: "Musical Interfaces in Pure Data"
+title: Musical Interfaces 
+tagline: Controlling computer instruments
 lecturer: Dr Charles Martin
 ---
 

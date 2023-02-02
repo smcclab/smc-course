@@ -1,5 +1,6 @@
 ---
-title: "Algorithmic Composition with Pure Data"
+title: Algorithmic Composition 
+tagline: Programs to compose for you.
 lecturer: Dr Charles Martin
 ---
 

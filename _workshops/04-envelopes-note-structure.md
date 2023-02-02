@@ -40,7 +40,7 @@ wave.]({{site.baseurl}}/assets/digital-synthesis/envelope-sound.png){:style="wid
 ## Pd resources
 
 - [Charles' Pd examples (start with `11-EnvelopeGenerator.pd`)](https://github.com/cpmpercussion/ComputerMusicIntro)
-- The envelopes section of the [digital synth]({% link _lectures/02-lens-digitalsynth.md %}) lecture.
+- The envelopes section of the [digital synth]({% link _lectures/index.md %}) lecture.
 - [PureData tutorials - rich synthesis (2) - simple envelopes](https://www.youtube.com/watch?v=gqpvIwYko3o)
 - the Pd help for the `line~` & `vline~` objects, as well as the `bang` and
   `metro` objects for triggering your envelopes

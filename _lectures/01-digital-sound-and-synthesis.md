@@ -1,7 +1,8 @@
 ---
-title: "Digital Sound"
+title: Digital Sound and Synthesis 
+tagline: First steps in making sound with computers.
 lecturer: Dr Charles Martin
-image: 2022-lh2.jpg 
+image: assets/photos/2022-lh2.jpg 
 image_alt: Photo by Charles Martin
 ---
 
