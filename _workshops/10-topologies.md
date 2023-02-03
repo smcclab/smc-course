@@ -1,15 +1,13 @@
 ---
 title: "Week 10: topologies"
-summary: "Thinking about the parts of your performance and how they fit together"
+tagline: "Thinking about the parts of your performance and how they fit together"
 show_toc: true
+image: assets/workshops/2014-setup-charles-martin.jpg 
+image_alt: Photo by Charles Martin
 ---
 
 {:.warn-box} 
 **Solo Diary**: Think about the _topology_ of your final performance and sketch out a minimum example of how different data sources can connect. You don't have to use multiple computers/performers in your sketch, just create multiple patches in Pd or code blocks in gibber and create a simple 1-minute musical example of how information flows between them. If you're thinking of creating visuals as well as music, now is a good time to try out a first idea!
-
-{:.info-box style="margin-bottom:2rem;"}
-
-This is the final diary entry for the semester! 
 
 "Topology" is the way in which a set of _things_ is connected or arranged. In
 the context of computer music, we can imagine a performance involving
@@ -111,7 +109,7 @@ We will provide a wireless + wired router for the final performance. You should 
   machine (e.g. a mixdown of the output of the other participants) then there
   are ways to handle audio input in Pd/Gibber
 
-## Things to think about
+## Creative Notes
 
 - you still get to exercise your own creative agency in your diary---you get to
   select which specific aspect(s) of your classmates' work you'll try and pay
@@ -137,4 +135,3 @@ The goal of this activity is to clarify for yourself what roles everybody in you
 3. Explain roles to everybody else in your performance group.
 
 4. Other people in the group: If it's not clear what you are supposed to do in each performance, ask for more details until you know!
-

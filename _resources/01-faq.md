@@ -1,8 +1,10 @@
 ---
 title: FAQ
-summary: Some questions which come up, well... frequently
+tagline: Some questions which come up, well... frequently
 permalink: /resources/faq/
 show_toc: true
+image: assets/photos/2019-rehearsal2.jpg
+image_alt: Photo by Charles Martin
 ---
 
 {% include youtube.html id="24YMz90b6bo" %}

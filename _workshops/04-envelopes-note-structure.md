@@ -1,7 +1,9 @@
 ---
 title: "Week 4: envelopes, notes and compositions"
-summary: shaping sound in the short (and long) term
+tagline: Shaping sound in the short (and long) term
 show_toc: true
+image: assets/workshops/2013-balloon-charles-martin.jpg
+image_alt: Photo by Charles Martin
 ---
 
 {:.warn-box}
@@ -37,7 +39,7 @@ wave.]({{site.baseurl}}/assets/digital-synthesis/envelope-sound.png){:style="wid
 
 3. to start using processing sound with more effects.
 
-## Pd resources
+## Resources
 
 - [Charles' Pd examples (start with `11-EnvelopeGenerator.pd`)](https://github.com/cpmpercussion/ComputerMusicIntro)
 - The envelopes section of the [digital synth]({% link _lectures/index.md %}) lecture.
@@ -58,7 +60,7 @@ like reverb can help to make synth sounds _sound better_, or blend perceptually
 with other sounds. The Pd examples features a few demo effects, try adding one
 or two to your work to see whether they help with your ideas for this week.
 
-## Things to think about
+## Creative Notes
 
 - does an envelope have to control the _amplitude_ of a sound source? or can it
   control other things? can envelopes control other envelopes?

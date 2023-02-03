@@ -1,6 +1,6 @@
 ---
 title: "Week 2: synthesis 1"
-tagline: so what types of beeps and boops can we make, actually?
+tagline: So what types of beeps and boops can we make, actually?
 show_toc: true
 image: assets/workshops/synths-charles-martin.jpg
 image_alt: Photo by Charles Martin
@@ -42,7 +42,7 @@ signal and hearing what those transformations sound like.
 3. to begin to understand how the different types of things in Pd (objects,
    numbers, messages) work together
 
-## Pd resources {#pd-resources}
+## Resources {#resources}
 
 Here's a video lecture about Pd to get you started with additive synthesis. 
 
@@ -87,7 +87,7 @@ round. This week the coding stuff is pretty simple (we're only in week 2, after
 all) but if you're not sure _what_ frequencies and wave shapes to use and why
 then we want to point you in good directions 😊
 
-## Things to think about
+## Creative Notes
 
 - what does "low" or "high" frequency mean in the context of synthesis? what's
   the useful frequency range of an oscillator?

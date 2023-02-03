@@ -2,6 +2,8 @@
 title: Algorithmic Composition 
 tagline: Programs to compose for you.
 lecturer: Dr Charles Martin
+image: assets/workshops/2013-visualisation-charles-martin.jpg
+image_alt: Photo by Charles Martin
 ---
 
 {% include slides/title.html %}

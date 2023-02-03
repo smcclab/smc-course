@@ -2,9 +2,8 @@
 title: Network Music Making
 tagline: Connecting computer musicians together.
 lecturer: Dr Charles Martin
+image: assets/lectures/2014-metatone.jpg
 ---
-
-
 
 ## What is network music making?
 

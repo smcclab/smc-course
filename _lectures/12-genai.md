@@ -2,7 +2,7 @@
 title: Generative AI and Computer Music
 tagline: The robots who steal our jobs may be disappointed.
 lecturer: Dr Charles Martin
-image: assets/photos/2022-lh2.jpg 
+image: assets/lectures/2018-gpu-charles-martin.jpg 
 image_alt: Photo by Charles Martin
 ---
 

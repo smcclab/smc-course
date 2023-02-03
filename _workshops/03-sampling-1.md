@@ -1,14 +1,13 @@
 ---
 title: "Week 3: sampling 1"
-tagline: working with pre-recorded sound material
+tagline: Working with pre-recorded sound material
 show_toc: true
 image: assets/workshops/recorder-charles-martin.jpg
 image_alt: Photo by Charles Martin
 ---
 
 {:.warn-box}
-**Solo Diary**: create a piece using sampled sounds which says something about
-_you_
+**Solo Diary**: create a piece using sampled sounds which says something about _you_
 
 If [synthesis]({% link _workshops/02-synthesis-1.md %}) is about creating sound
 from nothing, then sampling is about
@@ -23,12 +22,12 @@ recording "real"[^real] sounds and playing them back.
 2. to understand some of the different creative options (and controls) available
    to you when working with sampled sounds
 
-## Pd resources
+## Resources
 
 - [Charles' Pd examples (from no. 11 onwards)](https://github.com/cpmpercussion/ComputerMusicIntro)
 - [Section 3.4 of the _Programming Electronic Music in Pd_ book](https://www.pd-tutorial.com/english/ch03s04.html)
 
-## Things to think about
+## Creative Notes
 
 Working with samples is really fun and has a huge range of possibilities, so
 here are a few thoughts to get you started. This was a slide deck once upon a

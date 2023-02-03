@@ -2,12 +2,8 @@
 title: The Birth of Electronic Music up to 1959
 tagline: Electronic music before computers
 lecturer: Dr Charles Martin
-image: assets/photos/2022-lh2.jpg 
+image: assets/lectures/2021-synths-charles-martin.jpg
 image_alt: Photo by Charles Martin
----
-
----
-lecturer: Dr Charles Martin
 ---
 
 {% include slides/title.html %}

@@ -1,8 +1,13 @@
 ---
 title: "Week 6: interfaces"
-summary: Building interfaces for musical expression
+tagline: Building interfaces for musical expression
 show_toc: true
+image: assets/workshops/2010-interface-charles-martin.jpg
+image_alt: Photo by Charles Martin
 ---
+
+{:.warn-box}
+**Solo Diary**: Pick [someone else's patch/code from a previous workshop](https://gitlab.cecs.anu.edu.au/laptop-ensemble/2021/2021-av-diary-materials), put a new interface on it, and play something.
 
 You've implicitly been building interfaces every week (every Pd patch is an
 interface, and so is even a piece of live code that you interact with during a
@@ -24,16 +29,10 @@ you have explored Pd's various bang/toggle/slider/radio/etc. objects. You can ab
 build an interface with those things, but this week you'll need to think more deeply
 about what it actually means to design an interface for your patches.
 
-{:.warn-box}
-
-**Solo Diary**: pick
-[someone else's patch/code from a previous workshop](https://gitlab.cecs.anu.edu.au/laptop-ensemble/2021/2021-av-diary-materials),
-put a new interface on it, and play something
-
 **Note**: the "start with someone else's work" aspect of this week's provocation
 is super important; you shouldn't have to spend any time this week doing the
 actual "sound generation" work, you should be exclusively thinking about new
-ways of controlling the noisemaking infrastructure that's already there.
+ways of controlling the synthesis infrastructure that's already there.
 
 ## Goals for this week
 
@@ -56,7 +55,7 @@ ways of controlling the noisemaking infrastructure that's already there.
   check out the [NIME community website](https://www.nime.org), including the
   [full archive of papers submitted to the NIME conference](https://www.nime.org/archives/)
 
-## Things to think about
+## Creative Notes
 
 - what is an interface, exactly? thinking back over your previous Pd work (e.g.
   your AV Diary submissions), is each part of your patch equally "interface-y"?

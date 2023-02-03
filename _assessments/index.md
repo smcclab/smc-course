@@ -1,5 +1,6 @@
 ---
-title: Deliverables
+title: Assessments
+tagline: Portfolios and performances that you submit.
 permalink: /assessments/
 hidden: true
 show_collection: true

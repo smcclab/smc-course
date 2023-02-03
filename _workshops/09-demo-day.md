@@ -1,7 +1,10 @@
 ---
 title: "Week 9: demo day"
-summary: "Show the rest of the LENS what you're working on for your end-of-semester performance."
+tagline: Showing off your plans for the LENS performance
 show_toc: true
+image: assets/workshops/2013-lever-charles-martin.jpg 
+image_alt: Photo by Charles Martin
+hidden: true
 ---
 
 {:.warn-box}

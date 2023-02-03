@@ -1,5 +1,6 @@
 ---
 title: Lectures
+tagline: Interactive sessions with the whole class together.
 layout: default
 permalink: /lectures/
 hidden: true

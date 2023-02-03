@@ -1,10 +1,13 @@
 ---
 title: "Week 1: hello sine"
-tagline: your first beeps and boops
+tagline: Your first beeps and boops
 show_toc: true
 image: assets/workshops/doug-baney-daADC54moaU-unsplash.jpg  
 image_alt: Photo by Doug Baney on Unsplash 
 ---
+
+{:.warn-box}
+**No Diary**: No computer music diary this week.
 
 This first workshop is called "hello sine" because making
 [pure sine wave](https://en.wikipedia.org/wiki/Pure_tone) is pretty much the
@@ -27,7 +30,7 @@ if you don't have that working then you won't be able to participate in this cou
 3. fork and clone the workshop repository, install Visual Studio Code and Git.
 4. start making some ensemble music.
 
-## Pd resources
+## Resources
 
 - [installing Pd on your laptop]({% link _resources/02-tools.md %}#pure-data)
 
@@ -40,10 +43,10 @@ if you don't have that working then you won't be able to participate in this cou
 
 If you get stuck, try asking for help in the `#techsupport` channel on Teams.
 
-## Things to think about
+## Creative Notes
 
-Just for inspo, have a look at some of the most famous Laptop Orchestras (the
-cool kids call them <em>LOrk</em>s) perform live.
+Just for inspiration, have a look at some of the most famous Laptop Orchestras (the
+cool kids call them _LOrks_) perform live.
 
 - [Stanford Laptop Orchestra - Twilight (2013)](https://www.youtube.com/watch?v=chA-4GRCb-I)
 - [Princeton Laptop Orchestra - Interference (2019)](https://www.youtube.com/watch?v=C-5P3hXuGfs)

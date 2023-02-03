@@ -1,7 +1,9 @@
 ---
 title: Bibliography
-summary: What reference are suggested for Laptop Ensemble?
+tagline: Textbooks, resources, and further reading.
 permalink: /resources/bibliography/
+image: assets/photos/2019-rehearsal-weitong.jpg
+image_alt: Photo by Charles Martin
 show_toc: true
 ---
 

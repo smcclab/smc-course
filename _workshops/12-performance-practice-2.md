@@ -1,11 +1,13 @@
 ---
 title: "Week 12: performance practice 2"
-summary: "Practice & feedback for final performances"
+tagline: "Practice & feedback for final performances"
 show_toc: true
+image: assets/workshops/2010-ultrasonic-charles-martin.jpg 
+image_alt: Photo by Charles Martin
 ---
 
 {:.warn-box}
-**No diary**: your diary entries are all done 😁
+**No Diary**: No computer music diary this week--your diaries are all done!
 
 This week we'll have space in the workshop for you to practice your final LENS
 performances. Half the class will go this week, the other half the next week
@@ -26,3 +28,7 @@ If you're up for your practice performance this week, you'll get a chance to:
    ensemble configuration as possible
 
 3. get an idea of what works & what doesn't (while there's still time to make fixes)
+
+## Resources
+
+## Creative Notes

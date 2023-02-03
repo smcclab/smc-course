@@ -1,10 +1,11 @@
 ---
 title: Resources
+tagline: Tools, tips, and further reading.
 permalink: /resources/
 hidden: true
 show_collection: true
 ---
 
-If you have any problems/suggestions for these resources pages (or you want to
-write a new one on a topic that you think could do with one) then get in touch
-and we can make it happen.
+The pages below have extra resources available for this course. It's a good idea to browse through these before the course starts to gain some context for what we will cover.
+
+{% include page-cards.html cards=site.resources %}

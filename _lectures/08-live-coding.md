@@ -2,7 +2,7 @@
 title: Live Coding
 tagline: Programming as performance
 lecturer: Dr Charles Martin
-image: assets/photos/2022-lh2.jpg 
+image: assets/workshops/2022-live-coding-charles-martin.jpg
 image_alt: Photo by Charles Martin
 ---
 

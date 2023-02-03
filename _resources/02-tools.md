@@ -3,6 +3,7 @@ title: Tools
 tagline:
   The software and hardware tools you need to take part in SMC.
 image: assets/photos/2022-lens-kambri.jpg
+image_alt: Photo by Charles Martin
 image-tint: "medium"
 permalink: /resources/tools/
 show_toc: true

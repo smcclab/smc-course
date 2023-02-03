@@ -1,13 +1,12 @@
 ---
 title: "Week 5: networks & collaboration"
-tagline: making computer music with multiple computers & musicians
+tagline: Making computer music with multiple computers & musicians
 show_toc: true
 image: assets/photos/2019-rehearsal-rohan.jpg
 image_alt: Photo by Charles Martin
 ---
 
-{:.diary-provocation-box}
-
+{:.warn-box}
 **Group Diary**: create a 3min piece where every member controls a different
 aspect of the sound (note the longer duration for group diaries)
 
@@ -40,7 +39,7 @@ different tools) when sending them over the network, so this week's
 
 N.B.: option two **could** involve using hi-tech network connections, **or** could involve lo-tech collaborative solutions, or could be in the middle. In any case you will have to use some creativity to develop a collaboration workflow that works for your group.
 
-## Pd Resources {#pd-resources}
+## Resources {#resources}
 
 - Charles' 2020
   [presentation on network music making](https://youtu.be/1J7EAu5g5zw)
@@ -105,7 +104,7 @@ few different options as well.
 - [JamRTC](https://github.com/lminiero/jamrtc) (pre-alpha) is an attempt to
   create a simple prototype for doing jam sessions using WebRTC.
 
-## Things to think about
+## Creative Notes
 
 - how is your group going to meet & chat? if it's going to be online, then you
   should get it set up for your first discussion ASAP---if you need us to create

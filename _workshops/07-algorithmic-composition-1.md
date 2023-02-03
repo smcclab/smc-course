@@ -1,8 +1,13 @@
 ---
 title: "Week 7: algorithmic composition 1"
-summary: triggering events in pitch & time using algorithmic processes
+tagline: Triggering events in pitch and time using algorithmic processes
 show_toc: true
+image: assets/workshops/2013-visualisation-charles-martin.jpg
+image_alt: Photo by Charles Martin
 ---
+
+{:.warn-box}
+**Solo Diary**: write a piece with Gibber that has three algorithmic parts: drums, bass and lead.
 
 This week we flip the switch to making computer music with a _text_-based programming
 system. Depending on your background, this could feel freeing, confusing or a bit of both.
@@ -32,9 +37,6 @@ to create music with multiple parts. To get started on this task we suggest
 running through a [Gibber
 tutorial](https://charlesmartin.au/blog/2021/01/10/laptop-music-workshop) which
 introduces the music making concepts.
-
-{:.warn-box}
-**Solo AVD**: write a piece with three algorithmic parts: drums, bass and lead.
 
 ## Goals for this week 
 
@@ -68,7 +70,7 @@ Pd and Gibber are both great systems for musical expression but their design ten
 Why are there six repos? Gibber is provides much higher level musical tools than Pd as well as graphics. If we provided Pd, plus Gem (Pd's usual graphical sidekick), plus 5-6 externals, plus the `ComputerMusicIntro` repo, there would be a lot of code to get across as well!
 
 
-## Background
+## Resources
 
 - Nick Collins et al. 2003. [Live Coding in Laptop Performance](https://slab.org/writing/laptop_performance.pdf)
 
@@ -135,82 +137,5 @@ A few more places to get ideas for algorithmic composition:
   [kindohm/Mike Hodnick](https://kindohm.com),
   [William Fields](https://williamfields.com)
 
-
-{% comment %}
- 1. download, install & make a sound with **Extempore** (the
-   [VSCode Quickstart page](https://extemporelang.github.io/docs/overview/quickstart/)
-   is probably a good place to start) (make sure you can get the sound out of
-   Extempore and into your video recording, too)
-
-
-## Extempore resources
-
-{:.info-box}
-
-Lots of new stuff this week, although because of the two week lecture-free
-period you actually have a bit longer to get on top of it. Don't be
-overwhelmed---we'll guide you through some example code which will (hopefully)
-be fun to play with, and don't worry if you don't understand everything about it
-at first. And **if you have questions, hit us up on Teams**.
-
-### Quickstart
-
-The best way to get started with Extmpore is to follow the
-[Quickstart](https://extemporelang.github.io/docs/overview/quickstart/); it'll
-help you download & install Extempore and also a text editor (VSCode) which
-you'll need to write Extempore code.
-
-After that's all working, all you need to do is create a new `.xtm` file, start
-& connect Extempore (as you learned to do in the _Quickstart_ guide) and you're
-off and racing.
-
-### Launch points
-
-Extempore (like Pd) can do lots of things, and the best way to learn is probably
-to dive in and start making noise. Here's a good place to start:
-
-- The
-  [Extempore Pattern Language](https://extemporelang.github.io/docs/guides/pattern-language/),
-  as well as looking at all the covers in the `examples/sharedsystem/covers/`
-  directory
-
-After that, what you do (and what parts of the documentation & sample code are
-relevant) will depend on what you're trying to do. A few potential "launch
-points":
-
-- The pattern language isn't the only way to make loops in Extempore---you can
-  also use regular Scheme code and a design pattern called
-  [temporal recursion](https://extemporelang.github.io/docs/overview/time/), and
-  check out e.g. the fmsynth example (`examples/core/fmsynth.xtm`) or the
-  electrofunk example (`examples/external/electrofunk.xtm`)
-
-- If you're more interested in making algorithmic beats & rhythms, then the
-  Extempore sharedsystem loads up a sampler which has some drum samples in it
-  (an 808 in bank 3 and an acoustic kit in bank 4)---have a look at the
-  [sampler](https://extemporelang.github.io/docs/guides/sampler/) guide and
-  maybe even load in and trigger your _own_ samples
-
-- Extempore has a few different ways of generating random numbers; e.g. explore
-  the differences between these random calls:
-
-```extempore
-;; option 1
-(random)
-
-;; option 2
-(random 10 100)
-
-;; option 3
-(random '(60 63 64 67))
-
-;; option 4
-;; for this one you need to (sys:load "libs/core/pc_ivl.xtm") first
-(pc:random 60 72 '(0 2 3 5 7))
-```
-
-Seriously, though, if you've got an idea and are wondering about how to make it
-happen then hit us up on Teams and we can probably point you in the right
-direction.
-
-{% endcomment %}
+## Creative Notes
 

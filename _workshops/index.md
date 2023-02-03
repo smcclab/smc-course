@@ -1,5 +1,6 @@
 ---
 title: Workshops
+tagline: Small group classes for collaboration and critique.
 permalink: /workshops/
 hidden: true
 show_collection: true
