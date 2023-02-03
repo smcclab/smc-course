@@ -7,15 +7,7 @@ show_collection: true
 show_toc: true
 ---
 
-{:.warn-box}
-The due dates below are for semester 2, 2022. The LENS performance date is still TBA but is usually sometime in the period between end of week 12 and the end of the exam period.
-
-## Overview
-
-Half of your assessment for this course is based on your analysis & reflection
-on the key computer music concepts presented in the course, as demonstrated
-through your portfolio and your demo presentation. The other half is based on
-your final performance and artifact at the end of semester. 
+These are the assessments for Sound and Music Computing, Semester 1 2023.
 
 ## Assessment List
 
@@ -28,6 +20,9 @@ your final performance and artifact at the end of semester.
 | [LENS performance]({% link _assessments/04-lens-performance.md %}) | Concert: TBA, Artefact: 2/6/2023        | 40% |
 
 Read the course [policies]({% link 01-policies.md %}) for information on submission, extensions, special consideration, and appeals.
+
+{:.warn-box}
+The LENS performance date is still TBA but will take place in the exam period.
 
 ## Assessment Pages
 

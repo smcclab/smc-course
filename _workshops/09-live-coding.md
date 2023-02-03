@@ -6,8 +6,10 @@ image: assets/workshops/2022-live-coding-charles-martin.jpg
 image_alt: Photo by Charles Martin
 ---
 
+It's another group week! Get organised early so that you can find a time to work with your ensemble.
+
 {:.warn-box}
-**Solo Diary**: TODO
+**Group Diary**: start big, then "remove" things with filters & algorithms (3 minutes)
 
 ## Goals for this week
 

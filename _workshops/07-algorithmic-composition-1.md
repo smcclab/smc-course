@@ -7,7 +7,7 @@ image_alt: Photo by Charles Martin
 ---
 
 {:.warn-box}
-**Solo Diary**: write a piece with Gibber that has three algorithmic parts: drums, bass and lead.
+**No Diary**: No computer music diary this week.
 
 This week we flip the switch to making computer music with a _text_-based programming
 system. Depending on your background, this could feel freeing, confusing or a bit of both.
