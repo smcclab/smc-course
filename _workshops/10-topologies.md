@@ -7,7 +7,7 @@ image_alt: Photo by Charles Martin
 ---
 
 {:.warn-box} 
-**Solo Diary**: Think about the _topology_ of your final performance and sketch out a minimum example of how different data sources can connect. You don't have to use multiple computers/performers in your sketch, just create multiple patches in Pd or code blocks in gibber and create a simple 1-minute musical example of how information flows between them. If you're thinking of creating visuals as well as music, now is a good time to try out a first idea!
+**Solo Diary**: Sketch a minimum example of the **topology** of your final performance (can be all in one computer).
 
 "Topology" is the way in which a set of _things_ is connected or arranged. In
 the context of computer music, we can imagine a performance involving
@@ -16,16 +16,16 @@ members, etc.
 
 This week we'll zoom out and think about the topology of a laptop ensemble
 performance. We will particularly think about what the topology of your final
-performance is, and what you might be able to do to make it more interesting.
+performance is, and what you might be able to do to make it more interesting. To experiment with this concept, you don't have to use multiple computers/performers in your sketch, you could just create multiple patches in Pd or code blocks in gibber and create a simple 1-minute musical example of how information flows between them. If you're thinking of creating visuals as well as music, this week is the time to try out a first prototype.
 
 Before this week's workshop, have a think about:
 
-- **what are the components of your final gig topology?** this includes people
+- **What are the components of your final gig topology?** This includes people
   (your ensemble-mates, audience), software (Pd, Gibber, Processing, web
-  things) hardware (laptops, midi controllers, Goon-a-trons) and the
-  infrastructure required to connect them all
+  things) hardware (laptops, midi controllers, hand-made sensor blankets) and the
+  infrastructure required to connect them all.
 
-- **what are the flows of information in this topology?** this includes audio
+- **What are the flows of information in this topology?** This includes audio
   signals (both digital and carried over wires, plus what's coming out of the PA
   loudspeakers), data/control messages (MIDI, OSC, FB Messenger chats), visual
   information (HDMI streams, data projectors and audience eyeballs, non-verbal

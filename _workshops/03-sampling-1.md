@@ -7,7 +7,7 @@ image_alt: Photo by Charles Martin
 ---
 
 {:.warn-box}
-**Solo Diary**: create a piece using sampled sounds which says something about _you_
+**Solo Diary**: Create a piece using sampled sounds which say something about _you_.
 
 If [synthesis]({% link _workshops/02-synthesis-1.md %}) is about creating sound
 from nothing, then sampling is about

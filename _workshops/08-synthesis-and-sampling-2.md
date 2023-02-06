@@ -7,9 +7,7 @@ image_alt: Photo by Charles Martin
 ---
 
 {:.warn-box}
-**Solo Diary**: write a piece with Gibber that has three algorithmic parts: drums, bass and lead.
-
-
+**Solo Diary**: Write a piece with Gibber that has three algorithmic parts: drums, bass and lead.
 
 ## Goals for this week
 

@@ -7,8 +7,8 @@ image_alt: Photo by Charles Martin
 ---
 
 {:.warn-box}
-**Group Diary**: create a 3min piece where every member controls a different
-aspect of the sound (note the longer duration for group diaries)
+**Group Diary**: Create a **3min** piece where every member controls a different
+aspect of the sound (note the longer duration for group diaries).
 
 This is the first **group diary** and the first experience with your new "ensemble" of four or five people. Your main task this week is to start developing a way of working with your ensemble. Don't leave this to the last minute, working with people takes time.
 
