@@ -73,6 +73,8 @@ If you have enrolled in SMC, or are thinking about it, and want to get started, 
    and browse through some of the readings to get a head start on
    learning about sound and music computing.
 
+If you have any questions, check out the [FAQ]({% link _resources/01-faq.md %}) to see they have already been answered.
+
 **Then show up in week 1 ready to make some computer music!**
 
 ## Who is this for?
@@ -83,6 +85,8 @@ If you have enrolled in SMC, or are thinking about it, and want to get started, 
 {% anu_icon 006/41 %}
 </div>
 
+<!-- TODO: figure out if this section makes sense. -->
+
 In this course you'll learn fundamental skills of sound and music computing, including
 **digital synthesis**, **algorithmic composition**, and **musical interface
 design**. You'll put these skills to use creating a **computer musical
@@ -90,12 +94,5 @@ instrument**, **composition**, or **interactive sound artwork** to perform---at 
 live gig---at the end of the course.
 
 This course is open to students in computer science, music, art, and elsewhere
-at ANU. You should have a strong interest in making sound and music using computers, a
-willingness to learn new approaches to music and computer programming, and be
-must be able to attend the [weekly workshop session]({% link _workshops/index.md
-%}) perform at the [end-of-semester performance]({% link
-_assessments/04-lens-performance.md %}).
-
-If you've got any questions (including [how to
-enrol](resources/faq/#how-to-enrol)), the [course FAQ]({% link
-_resources/01-faq.md %}) might answer them for you.
+at ANU. You should have a strong interest in making sound and music using computers and a
+willingness to learn new approaches to music and computer programming.
