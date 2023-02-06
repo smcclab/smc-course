@@ -12,8 +12,7 @@ image_alt: Photo by Charles Martin
 ## What's Sound and Music Computing?
 
 Sound and Music Computing is a course in computer music making and laptop
-performance open to ANU students in music, art, computer science, and anywhere
-on campus you can take a COMP elective.
+performance open to ANU students in computing, music, art, and anywhere else on campus who meet the prerequisites.
 
 During the course you will create small pieces of computer music weekly while collaborating with your peers to learn about sound and music computing.
 

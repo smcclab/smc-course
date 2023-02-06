@@ -202,3 +202,16 @@ Go find more!
 
 <iframe src="https://player.vimeo.com/video/92575444" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 <p><a href="https://vimeo.com/92575444">Reality Denied Comes Back to Haunt</a> from <a href="https://vimeo.com/danieliglesia">Daniel Iglesia</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+## Beyond Pd...
+
+Fun note, you can use Pd patches in other projects using...
+
+- [libpd](https://github.com/libpd) - just the internal parts of Pd as an
+  embeddable library for other software.
+- [pd-party](https://danomatika.com/code/pdparty) - an iOS app for performing
+  with Pd patches
+- [mobmuplat](https://danieliglesia.com/mobmuplat/) - an iOS/Android app for
+  performing with Pd Patches.
+
+![](https://danieliglesia.com/mobmuplat/MMP_flow1.png)

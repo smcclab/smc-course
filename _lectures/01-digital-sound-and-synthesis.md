@@ -12,17 +12,54 @@ image_alt: Photo by Charles Martin
 
 # Sound
 
+![]({% link assets/lectures/sound-diagram.png %}){: style="width:90%;"}
+
 # Digital Sound
 
-## Digital Sound
+![]({% link assets/lectures/diagram-digital-sound.png %}){: style="width:90%;"}
 
-- Monty Montgomery (Xiph.org) [Youtube](https://xiph.org/video/vid2.shtml)
+## Why does digital sound work?
+
+{:.fragment}
+Q: How do we get the dots from a regular sound wave (voltage on a wire)
+
+{:.fragment}
+A: An ADC---analogue digital converter---reads the voltage at regular time intervals (sampling rate)
+
+{:.fragment}
+Q: How does the space between the dots get filled in?
+
+{:.fragment}
+A: smoothed out by a DAC---digital analogue converter. Simple way: one part holds the dot value for the sampling rate, next part reacts to changes slowly.
+
+{:.fragment}
+Q: How does the DAC know the _right_ waveform?
+
+{:.fragment}
+A: sampling only works for a _limited_ frequency range. There's only one right answer up to a certain frequency.
+
+{:.fragment}
+Q: how do we know that?
+
+## Nyquist-Shannon Theorem
+
+> A signal containing only frequencies lower than _B_ Hz can be (perfectly) reconstructed from samples taken at _2B_ Hz.
+
+We hear sound up to ~20KHz, therefore most DACs operate a bit above 40Khz: 44.1KHz (standard) or 48KHz (video).
+
+## Does this _really_ work?
+
+Yep. Check out these demonstrations:
+
+![]({% link assets/digital-synthesis/digital-sound.png %}){: style="width:80%;"}
+
+- Monty Montgomery (Xiph.org) [Youtube](https://youtu.be/cIQ9IXSUzuM)
   [Original Video](https://xiph.org/video/vid2.shtml)
 - Technology Connections Nyquist-Shannon [Youtube](https://youtu.be/pWjdWCePgvA)
 
-![]({{site.baseurl}}/assets/digital-synthesis/digital-sound.png)
-
 # Unit Generators
+
+
 
 # Additive Synthesis
 
@@ -106,7 +143,6 @@ What if the "vibrato" was **really** fast? Like in the audio range?
 
 ![]({{site.baseurl}}/assets/digital-synthesis/pd-fmsynth.png)
 
-
 ## Links
 
 - [Charles' ComputerMusicIntro workshop examples (Pd)](https://github.com/cpmpercussion/ComputerMusicIntro)
@@ -117,17 +153,3 @@ Books:
 - [Excerpt from Designing Sound by Andy Farnell](https://aspress.co.uk/ds/pdf/pd_intro.pdf)
 - [More tutorial links](https://puredata.info/docs/tutorials)
 - [RjLib patches](https://github.com/rjdj/rjlib)
-
-## Beyond Pd...
-
-Fun note, you can use Pd patches in other projects using...
-
-- [libpd](https://github.com/libpd) - just the internal parts of Pd as an
-  embeddable library for other software.
-- [pd-party](https://danomatika.com/code/pdparty) - an iOS app for performing
-  with Pd patches
-- [mobmuplat](https://danieliglesia.com/mobmuplat/) - an iOS/Android app for
-  performing with Pd Patches.
-
-![](https://danieliglesia.com/mobmuplat/MMP_flow1.png)
-
