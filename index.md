@@ -14,9 +14,16 @@ Do you want to create sound and music with your computer? Do you want to build
 new kinds of musical instruments? Do you want to be a part of a laptop band?
 This is the course for you! 
 
+<div class="grid grid--3">
+{% anu_icon 003/49 %}
+{% anu_icon 006/23 %}
+{% anu_icon 006/41 %}
+</div>
+
+
 This course is an introduction to the fundamental concepts of music computing,
-including digital synthesis, algorithmic composition, and musical interface
-design. You will develop your knowledge by creating computer musical
+including **digital synthesis**, **algorithmic composition**, and musical **interface
+design**. You will develop your knowledge by creating computer musical
 instruments in music programming languages and developing new computer music
 works to present in concert with an ensemble of other students. 
 
@@ -77,22 +84,3 @@ If you have any questions, check out the [FAQ]({% link _resources/01-faq.md %}) 
 
 **Then show up in week 1 ready to make some computer music!**
 
-## Who is this for?
-
-<div class="grid grid--3">
-{% anu_icon 003/49 %}
-{% anu_icon 006/23 %}
-{% anu_icon 006/41 %}
-</div>
-
-<!-- TODO: figure out if this section makes sense. -->
-
-In this course you'll learn fundamental skills of sound and music computing, including
-**digital synthesis**, **algorithmic composition**, and **musical interface
-design**. You'll put these skills to use creating a **computer musical
-instrument**, **composition**, or **interactive sound artwork** to perform---at a
-live gig---at the end of the course.
-
-This course is open to students in computer science, music, art, and elsewhere
-at ANU. You should have a strong interest in making sound and music using computers and a
-willingness to learn new approaches to music and computer programming.
