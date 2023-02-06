@@ -36,3 +36,43 @@ control-click).
 
 You might want to try the `metro` object to generate a sequence of "bangs" to
 keep triggering your envelope generator.
+
+# Effects
+
+## Reverb?
+
+![]({% link /assets/digital-synthesis/pd-reverb.png %}){: style="width:50%;
+float: right;" }
+
+What's reverb?
+
+Can we simulate it?
+
+## Distortion?
+
+![]({% link /assets/digital-synthesis/pd-distortion.png %}){: style="width:50%;
+float: right;" }
+
+Distortion is when a signal is "clipped" resulting in _undesirable_ extra
+sounds.
+
+Are they really undesirable?
+
+1. amplify signal---a lot! (e.g., `*~ 150`)
+
+2. clip! Either with `clip~` (hard clipping) or the `tanh` function (soft
+   clipping).
+
+## Compression?
+
+![]({% link /assets/digital-synthesis/pd-compression.png %}){: style="width:50%;
+float: right;" }
+
+A compressor turns down the volume if a signal rises above a threshold.
+
+## Exercise:
+
+Try adding some **effects** to your synthesiser.
+
+Maybe you could set up a signal chain that control the level and parameters of
+each effect?
