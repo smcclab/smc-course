@@ -1,5 +1,5 @@
 ---
-title: "Week 8: synthesis & sampling 2"
+title: "Week 8: synth design"
 tagline: Getting deeper into synthesis design
 show_toc: true
 image: assets/workshops/2013-rpi-charles-martin.jpg 

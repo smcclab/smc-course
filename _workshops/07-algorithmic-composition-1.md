@@ -1,5 +1,5 @@
 ---
-title: "Week 7: algorithmic composition 1"
+title: "Week 7: algorithmic composition"
 tagline: Triggering events in pitch and time using algorithmic processes
 show_toc: true
 image: assets/workshops/2013-visualisation-charles-martin.jpg

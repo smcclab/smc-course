@@ -1,5 +1,5 @@
 ---
-title: "Week 2: synthesis 1"
+title: "Week 2: digital synthesis"
 tagline: So what types of beeps and boops can we make, actually?
 show_toc: true
 image: assets/workshops/synths-charles-martin.jpg
