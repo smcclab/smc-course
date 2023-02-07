@@ -27,6 +27,20 @@ These books help with the Pure Data computer music environment:
 
 - Puckette, M. [Theory and Technique of Electronic Music](http://msp.ucsd.edu/techniques.htm) (2007). _available free online_
 
+## Gibber Resources:
+
+Gibber is a complicated system with a number of layers that you can experiment with. The high-level interface for normal computer music making is "gibber" which is an interactive web-based live coding system.
+
+- Main [gibber.cc playground](https://gibber.cc)
+
+Below Gibber, there are some libraries that you can experiment with separately:
+
+- [genish.js playground](http://www.charlie-roberts.com/genish/playground/index.html) (for DSP experiments)
+
+- [genish.js tutorial](http://www.charlie-roberts.com/genish/tutorial/index.html)
+
+- [Gibberish website](http://charlie-roberts.com/gibberish/)
+
 ## SuperCollider and Live Coding Books and Resources
 
 These books help with the SuperCollider computer music environment:

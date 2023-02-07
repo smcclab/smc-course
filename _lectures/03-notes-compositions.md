@@ -37,6 +37,22 @@ control-click).
 You might want to try the `metro` object to generate a sequence of "bangs" to
 keep triggering your envelope generator.
 
+# Modulation
+
+The idea of modulation is to change a parameter of a _ugen_ in time.
+
+We can do this by running the output of a ugen into a different ugen.
+
+Let's make some digital effects, vibrato and tremolo.
+
+![]({% link assets/digital-synthesis/pd-vibrato-tremolo.png %})
+
+## Modulation Synthesis
+
+What if the "vibrato" was **really** fast? Like in the audio range?
+
+![]({% link assets/digital-synthesis/pd-fmsynth.png %})
+
 # Effects
 
 ## Reverb?

@@ -38,10 +38,9 @@ Q: How does the DAC know the _right_ waveform?
 {:.fragment}
 A: sampling only works for a _limited_ frequency range. There's only one right answer up to a certain frequency.
 
-{:.fragment}
-Q: how do we know that?
+## How do we know?
 
-## Nyquist-Shannon Theorem
+Nyquist-Shannon Theorem:
 
 > A signal containing only frequencies lower than _B_ Hz can be (perfectly) reconstructed from samples taken at _2B_ Hz.
 
@@ -59,34 +58,46 @@ Yep. Check out these demonstrations:
 
 # Unit Generators
 
+Computer music algorithms are usually built from a network of modules that we often call "unit generators".
 
+![]({% link assets/lectures/diagram-ugens.png %}){: style="width:80%;"}
 
-# Additive Synthesis
-
-# Waveforms
-
-# Modulation
+The point here is that sound and music programming involves organising modules so that a signals flow through each part. This can be done with text or graphically.
 
 ## Pure Data (Pd)
+
+![]({% link assets/digital-synthesis/pd-blankscreen.png %}){: style="width:70%;float:right;"}
 
 Free tool for making computer music
 
 Developed by Miller Puckette, maintained by MSP and the community
-([download](https://puredata.info/downloads)).
+([download](https://puredata.info/downloads)). 
 
-![]({{site.baseurl}}/assets/digital-synthesis/pd-blankscreen.png)
+"Old" (circa 1997).
+
+Graphical programming environment.
 
 {% include slides/background-image.html image="digital-synthesis/steve-harvey-unsplash.jpg" heading="patching to make sound" %}
 
+## Gibber
 
+![]({% link assets/lectures/gibber-screen.png %}){: style="width:70%;float:right;"}
 
+Free tool for making computer music---in your web browser.
 
+Developed by [Charlie Roberts](https://charlie-roberts.com). "New" (circa 2013), under _active_ development.
 
-## Digital to Analogue Conversion
+Start using it at [gibber.cc](https://gibber.cc).
+
+{% include slides/background-image.html image="photos/2022-lh2.jpg" heading="coding to make sound" %}
+
+## Let's go do it.
+
+Let's make a Pd patch. I'll use the "Put" menu to create an object and type in the object I want: `dac~`
 
 this is the bit that turns "dots" into sounds... let's try it.
 
-![]({{site.baseurl}}/assets/digital-synthesis/pd-messing-with-dac.png)
+![]({% link assets/digital-synthesis/pd-messing-with-dac.png %})
 
 ## Making a Sound
 
@@ -94,24 +105,99 @@ this is the "hello world" of computer music
 
 ![]({{site.baseurl}}/assets/digital-synthesis/pd-hellosine.png)
 
-## Changing the volume?
+`osc~` here is a ugen that outputs a cosine wave at the frequency given by its argument.
 
-what changes the volume here?
+`*~ 0.1` is changing the amplitude to 10% of the maximum.
+
+## Change volume with `*`
+
+Multiplying a sound by a constant changes the volume (amplitude).
 
 ![]({{site.baseurl}}/assets/digital-synthesis/pd-hellosine-volume.png)
 
 For making different kinds of boxes, try the "put" menu, and **try the key
 combinations...**
 
-## Playing two sounds at once
+## Pd has lots of "things"
+
+![]({% link assets/lectures/pd-kinds-of-things.png %}){: style="width:80%;"}
+
+"Objects" are the primary element of programming in Pd, you can find a list of built-in objects in "Help" menu.
+
+Objects with a `~` in the name are related to audio processing and have audio-rate inputs or outputs.
+
+## Do it in code...
+
+Ok, let's go to [gibber.cc/playground](https://gibber.cc/playground) and try the same thing:
+
+{:. style="font-size:.85em;"}
+
+```
+def = {
+  name:'Example',
+  type:'Ugen',
+  constructor: function() {
+    const g = Gibberish.genish
+    const graph = g.mul(
+      g.cycle( 220 ),
+      0.25)
+    return graph
+  }
+}
+ExampleSynth = Make( def )
+s = ExampleSynth()
+
+s.connect()
+s.disconnect()
+```
+
+## Why is this more complicated?
+
+"Gibber" is actually the top-level interactive environment / web application.
+
+There are layers below it (different JavaScript libraries) for managing synth definitions and signal processing.
+
+- [Gibberish.js](http://www.charlie-roberts.com/gibberish/): synthesis definitions and scheduling (>)
+
+- [Genish.js](http://www.charlie-roberts.com/genish/): signal processing definitions.
+
+Most of the code on the previous slides was to punch through the layers to get to underlying `genish` ugens like `cycle`.
+
+The important bit is: `g.mul(g.cycle( 220 ), 0.25)`
+
+## Pd vs Gibber
+
+Pd and Gibber are good at different things (if not, I wouldn't explain both!)
+
+**Pd**: nice graphical display of signal flow, easy to experiment with synth design, possible to connect to hardware controllers, bonus built in graphics programming
+
+**Gibber**: works in a browser, built in collaborative editing, easy to access sequencing and scheduling components.
+
+# Additive Synthesis
+
+"Adding" one sound to another is the same as mixing them.
 
 To play two notes at once, just plug both outputs into one input.
 
 ![]({{site.baseurl}}/assets/digital-synthesis/pd-twonotes.png)
 
+Q: What would this look like on the spectrogram?
+
 ## Additive Synthesis
 
+We can mix simple sounds to create a complex sound.
+
 ![]({{site.baseurl}}/assets/digital-synthesis/pd-additive.png)
+
+## Sound/Music terminology
+
+**Pitch**: **frequency**, or how high or low a sound appears to be.
+
+**Loudness**: **amplitude**, or how loud or soft a sound is. We also use the term "dynamics", as in "dynamic range". In _music_, this is so important that we use special Italian words (forte, piano, fortissimo, crescendo, diminuendo, a niente, etc).
+
+**Timbre**: **sound colour**, **klangfarbe**, _everything else_ about a sound that isn't pitch or loudness. Timbre is how you know the difference between bassoon and bagpipes even though they might play the same note.
+
+In general acoustic music, the best way to change _timbre_ is to change instrument. In computer music, this is _not true_! In computer instruments, _timbre_ possibilities are very wide!
 
 ## Playing some "notes"
 
@@ -119,37 +205,75 @@ To play two notes at once, just plug both outputs into one input.
 
 ![]({{site.baseurl}}/assets/digital-synthesis/pd-additive-notes.png)
 
+## Overtones and Harmonics
+
+- Generally we call the "lowest" frequency component of a sound the _fundamental_  
+
+- The others frequency components are _overtones_
+
+- Integer multiple of the fundamental are _harmonic overtones_ or just "harmonics"
+
+- Not-integer multiples are called _inharmonic overtones_
+
+## Consonance and Dissonance in Mixing Sounds
+
+The relationship between frequencies has an important impact on how we perceive sounds.
+
+Adding a frequency multiplied by a simple ratio (e.g., 2, 1.5) provides a _consonant_ sound.
+
+> for those musically inclined: x2 is an octave, x3/2 is a perfect fifth,  x4/3 is a fourth.
+
+Complicated ratios or multiplication by non-rational numbers leads to _dissonant_ sounds.
+
+> e.g., a tritone (augmented fourth) is x45/32
+
+Dissonance isn't bad! 
+
+Inharmonic overtones are a super important part of great sounds like bells, cymbals, triangles, etc (well I am a percussionist...).
+
+
+
+# Frequency Domain
+
+![]({% link assets/lectures/spectrogram.png %}){: style="width:25%;float:right;"}
+
+So far, we have represented sounds as a waveform---this is also known as the "time domain" representation.
+
+An alternative representation shows the frequency information (spectrum) in a sound---this is called the "frequency domain" and we can plot it as a spectrogram.
+
+To obtain frequency domain we use a technique called Fourier analysis (more on this later).
+
+[try out the Chrome Experiment "Spectrogram"](https://musiclab.chromeexperiments.com/Spectrogram/)
+
+# Waveforms
+
+![]({% link assets/lectures/pd-waveforms.png %}){: style="width:80%;"}
+
+Synthesisers often have different "waveforms" or wave shapes that can provide different timbres. Here are some classics. The "harshness" of these reflects more harmonic overtones.
+
+## How does this work?
+
+- the `phasor~` object creates a sawtooth wave between 0 and 1 (half the full range of -1 to 1).
+
+- `phasor~` is usually the _start_ of a signal chain, or for driving other sound making processes.
+
+- Notice how we used `*~` and `-~` to scale and centre the waves. 
+
+- `clip~` can be used to remove part of a wave
+
+- if `phasor~` has a negative frequency it produces the reverse slope
+
+- the second input of `phasor~` controls _phase_ (what does this do?)
+
 ## Exercise:
 
 Make an additive synth with a couple of `osc~` objects. Try different
 "multipliers" on the frequency to create interesting sounds!
 
-You might want to try practicing with number boxes and `s` (send) and `r`
-(receive) boxes to eliminate some patch cables.
-
-## Modulation
-
-The idea of modulation is to change a parameter of a _ugen_ in time.
-
-We can do this by running the output of a ugen into a different ugen.
-
-Let's make some digital effects, vibrato and tremolo.
-
-![]({{site.baseurl}}/assets/digital-synthesis/pd-vibrato-tremolo.png)
-
-## Modulation Synthesis
-
-What if the "vibrato" was **really** fast? Like in the audio range?
-
-![]({{site.baseurl}}/assets/digital-synthesis/pd-fmsynth.png)
-
-## Links
+## Reading and Links
 
 - [Charles' ComputerMusicIntro workshop examples (Pd)](https://github.com/cpmpercussion/ComputerMusicIntro)
 
-Books:
+- Dannenberg, R. B. [Introduction to Computer Music](https://www.cs.cmu.edu/~music/icm-online/icm-text-rbd-2021.pdf): Chapters 1--2
 
-- [Programming Electronic Music in Pd - Johannes Kreidler](https://www.pd-tutorial.com/english/index.html)
-- [Excerpt from Designing Sound by Andy Farnell](https://aspress.co.uk/ds/pdf/pd_intro.pdf)
-- [More tutorial links](https://puredata.info/docs/tutorials)
-- [RjLib patches](https://github.com/rjdj/rjlib)
+- Kreidler, J. [Programming Electronic Music in Pd](http://www.pd-tutorial.com): Chapters 3.2, 3.5
