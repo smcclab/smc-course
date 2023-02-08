@@ -55,11 +55,11 @@ There are two primary computer music software environments we'll use in SMC
 
 ### Pure Data (Pd) {#pure-data}
 
-Pd is a visual computer music environment. It's just a regular piece of software
-which runs on your computer, although there are also versions which run on
-Android/iOS phones and tablets and even on Raspberry Pi!
+Pd is a visual computer music programming system. You download the Pd program to your computer and open it to start programming computer music.
 
-Pd is freely available and works on Windows, macOS & Linux. To install it, go to
+The programming concept in Pd involves making visual diagram for flow of signals and data. This is a bit different to text programming, but quite easy and fun for experimenting.
+
+Pd is free software and works on Windows, macOS & Linux. To install it, go to
 the [Pd downloads page](https://puredata.info/downloads) and get the latest
 version of "vanilla" Pd for your platform (as shown in the screenshot).
 
