@@ -57,7 +57,7 @@ There are two primary computer music software environments we'll use in SMC
 
 Pd is a visual computer music programming system. You download the Pd program to your computer and open it to start programming computer music.
 
-The programming concept in Pd involves making visual diagram for flow of signals and data. This is a bit different to text programming, but quite easy and fun for experimenting.
+The programming concept in Pd involves making visual diagram for flow of signals and data. We call this activity "patching" as it recalls using physical wires (patch cables) to connect different pieces of electronic equipment. This is a bit different to text programming, but quite easy and fun for experimenting.
 
 Pd is free software and works on Windows, macOS & Linux. To install it, go to
 the [Pd downloads page](https://puredata.info/downloads) and get the latest
@@ -71,13 +71,9 @@ version of "vanilla" Pd for your platform (as shown in the screenshot).
   to use them. You can access this help browser using the `Help > Browser...`
   menu.
 
-- Charles has written a series of introductory examples to Pure Data:
-  [ComputerMusicIntro examples](https://github.com/cpmpercussion/ComputerMusicIntro)
+- Charles has written a series of introductory examples to Pure Data which can help you to grasp the basics: [ComputerMusicIntro examples](https://github.com/cpmpercussion/ComputerMusicIntro)
 
-- You can also find lots of great Pd examples in the
-  [rjlib library](https://github.com/rjdj/rjlib/)
-
-- Nick Collins' [SuperCollider tutorial](https://composerprogrammer.com/teaching/supercollider/sctutorial/tutorial.html) has lots of good SuperCollider Examples.
+- [rjlib is a library of "pure Pd" patches](https://github.com/rjdj/rjlib/) with typical synth, effect, and sequencer designs. This is a great resource for learning but many of the patches will need to be adapted to be used in your own work.
 
 #### Books
 
