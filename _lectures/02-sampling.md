@@ -7,6 +7,17 @@ image_alt: Photo by Charles Martin
 
 {% include slides/title.html %}
 
+## Where do your sounds come from?
+
+Last week: creating sound from scratch (basic waveforms/shapes).
+
+Today: finding sounds from the real world.
+
+## Stockhausen vs Schaeffer
+
+## What's a sound file?
+
+
 
 ## Playing back sound files
 
