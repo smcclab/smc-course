@@ -14,12 +14,13 @@ Do you want to create sound and music with your computer? Do you want to build
 new kinds of musical instruments? Do you want to be a part of a laptop band?
 This is the course for you! 
 
+{% comment %}
 <div class="grid grid--3">
 {% anu_icon 003/49 %}
 {% anu_icon 006/23 %}
 {% anu_icon 006/41 %}
 </div>
-
+{% endcomment %}
 
 This course is an introduction to the fundamental concepts of music computing,
 including **digital synthesis**, **algorithmic composition**, and musical **interface
@@ -82,5 +83,5 @@ If you have enrolled in SMC, or are thinking about it, and want to get started, 
 
 If you have any questions, check out the [FAQ]({% link _resources/01-faq.md %}) to see they have already been answered.
 
-**Then show up in week 1 ready to make some computer music!**
+**Finally, show up in week 1 ready to make some computer music!**
 

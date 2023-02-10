@@ -5,6 +5,11 @@ image: assets/workshops/recorder-charles-martin.jpg
 image_alt: Photo by Charles Martin
 ---
 
+{% comment %}
+Daphne Oram: https://www.daphneoram.org/
+{% endcomment %}
+
+
 {% include slides/title.html %}
 
 {% include slides/background-image.html image="lectures/radigue.jpg" heading="so far: synthesisers" %}
@@ -20,7 +25,6 @@ creating sound from scratch with basic waveforms/shapes
    link="[listen: Trilogie de la Mort](https://xirecords.bandcamp.com/album/trilogie-de-la-mort)"
 %}
 
-
 {% include slides/background-image.html image="lectures/GRM1.jpg" heading="now: recordings" %}
 
 {:.fragment}
@@ -33,11 +37,26 @@ finding sounds from the real world, recording and manipulating
    link="[listen: Études de bruits (1948)](https://youtu.be/CTf0yE15zzI)"
 %}
 
-# Musique Concrete
+# Musique Concrète
 
-## Stockhausen vs Schaeffer
+![]({% link assets/lectures/phonogene-manning-2003.jpg %}){: style="width:40%;float:right;"}
 
-- Musique Concrete (Charles notes)
+- Musique Concrète was an artistic movement focussed on using recorded sounds.
+- Pierre Schaeffer (and team) in France, Post WW2 (1945-1960)
+- First using 78RPM records
+- Then manipulation of tape
+- GRM (Groupe de Recherches Musicales) [still exists!](https://inagrm.com/en)
+
+{:. style="font-size:.85em;"}
+Source: Manning, P. (2003). The Influence of Recording Technologies on the Early Development of Electroacoustic Music. Leonardo Music Journal 13, 5-10. <https://www.muse.jhu.edu/article/50703>
+
+## Why make _musique Concrète_?
+
+recordings are a _rich_ sound material
+
+recordings relate to the _real world_
+
+recordings are _flexible_ and _interesting_ at different scales
 
 {% include slides/background-image.html image="workshops/recorder-charles-martin.jpg" heading="getting some sound" %}
 
@@ -45,37 +64,154 @@ Why does sampling work?
 
 What information is there in the sound file?
 
+How do _we_ get some sounds?
+
 # Sampling Theory
 
 ![]({% link assets/lectures/example-bouncing-ball.png %})
 
 What is the possible path that the ball can take?
 
+## There's only one solution!
 
+As long as the ball doesn't bounce too fast.
 
+remember the Nyquist-Shannon Theorem:
 
+> A signal containing only frequencies lower than _B_ Hz can be (perfectly) reconstructed from samples taken at _2B_ Hz.
 
+## What does it mean for a sound to have frequencies in it?
 
+![]({% link assets/lectures/spectrogram.png %}){: style="width:25%;float:right;"}
 
+- We can think of complex sounds as combinations of basic sounds.
 
-# Sampling Theory 
+- The _most_ basic sound is the sine wave (or sinusoid) that we played last week.
 
-- (Dannenberg Chapter 3)
+- _All sound_ can be represented as a combination of sinusoids with different frequencies, amplitudes (and phases).
 
-## What's a sound file?
+- _Sounds change over time_, which means the amplitudes move up and down.
 
-## Frequency domain FFT
+## Defining the _most basic sound_
 
-- Freq domain FFT (DC3)
+![]({% link assets/lectures/diagram-phasor.png %}){: style="width:100%;"}
 
-## Granular Synthesis
+Imagine fixing a point on a spoke of a bicycle wheel as it spins. The _height_ of the moving point from the centre follows a sine wave.
 
-- Granular Synthesis (DC6.2)
+We can write down the height as a function: $h(t) = sin(2 \times \pi \times t)$
 
-## Sampling Synthesis
+## Changing the sinusoid
 
-- Sampling Synthesis (DC7)
+There's three parameters we can modify in the sinusoid:
 
+- frequency (how fast the wheel spins in cycles per second) 
+- amplitude (radius of the wheel)
+- phase (the point where we started spinning)
+
+We can extend the function: $h(t) = A \times sin(v \times 2\pi t + \phi)$
+
+This formulation is called a _phasor_.
+
+## Changing sinusoids
+
+![]({% link assets/lectures/diagram-sinusoids.png %})
+
+$h(t) = A \times sin(v \times 2\pi t + \phi)$
+
+What would the perceptual effect of these changes be on a sound wave?
+
+## Fourier Transform
+
+- In around ~1800, Jean Baptiste Fourier figured out that any "periodic" function can be expressed as the sum of a series of sine and cosine terms (i.e., a series of sinusoids).
+
+- A consequence of this is that you can find out the amplitude and phase of the sinusoidal component at a _certain frequency_.
+
+You can do this with the "Fourier Transform" formulas.
+
+- **Warning:** maths notation incoming: if you haven't done 1st year university maths, this will look _very_ confusing.
+- The good news is it's the _concept_ that is important, the maths iss presented for completeness and 
+
+## Fourier Transform Formulas
+
+ Given a function $f(t)$ and a frequency $\omega$
+
+- The sine amplitude is: $R(\omega) = \int_{-\inf}^{\inf} f(t)cos(\omega t)dt$
+- and cosine amplitude is: $X(\omega) = - \int_{-\inf}^{\inf} f(t)sin(\omega t)dt$
+
+The above give us _two_ amplitudes, for out-of-phase sine and cosine waves. These can be rewritten to the amplitude and phase for a sine wave:
+
+- Amplitude: $A(\omega) = \sqrt{R(\omega)^2 + X(\omega)^2}$
+- Phase: $\theta(\omega) = arctan(X(\omega) / W(\omega))$
+
+These equations integrate over all _t_ values (time)---so information about _time_ is lost!
+
+## Fourier Takeaways
+
+- All sounds can be deconstructed into sinusoids
+
+- Sinusoids have three parameters: amplitude, frequency, and phase
+
+- We can use maths to find the amplitude and phase for a given frequency in an audio signal
+
+- The (big) tradeoff is that information about _time_ is lost.
+
+Everything said above relates to infinitely long continuous signals, not sampled signals. We will come later to details about how to do this in the 
+
+See Dannenberg Chapter 3 for reference.
+
+## Sampling and the Frequency Domain
+
+![]({% link assets/lectures/diagram-sampling.png %}){: style="width:40%; float: right;" }
+
+You can look at sampling as a time domain operation.
+
+Create a series of impulses and multiply with the signal to be sampled.
+
+The result is the sampled information.
+
+_We hope_ that in the frequency domain the spectrum of our sound has been preserved.
+
+## Spectrum of a sampled signal
+
+![]({% link assets/lectures/diagram-sampling-spectrum-overlap.png %}){: style="width:80%;" }
+
+The frequency domain of the sampled signal is _really weird_.
+
+It turns out the spectrum of the signal copied at each multiple of the sampling rate. This is _bad_ because the copied frequencies interfere with spectrum that we want.
+
+## Solution:
+
+- Recorded sound contains _all kinds_ of frequencies that we can and can't hear.
+
+- Analogue-digital converters _filter_ the sound to make sure that only frequencies below the Nyquist frequency (half the sample rate) are sampled.
+
+- This avoids aliasing in the sampled signal messing up frequencies that we want.
+
+## Quantisation Noise
+
+Sampling also involves "rounding" the analogue signal to a digital number.
+
+Digital numbers have a concept of "precision" (how many possible values can be represented).
+
+- An 8-bit number (a byte) can only represent $2^8$ or 256 values
+- a 16-bit number can represent $2^16$ or 65536 values.
+
+The effect of rounding our samples is to introduce **noise** into the signal. 
+
+- We can measure the difference between the potential amplitude of a signal and the (always present) noise as a _signal-to-noise ratio_ in decibels (dB).
+- In practice: **16-bit** sample depth gives sufficient SNR that you can't perceive noise.
+
+## CD Quality Audio:
+
+Now you know why digital audio is often recorded at 44.1kHz sample rate and 16bit sample depth:
+
+- 44.1kHz: more than double 20kHz which is the maximum frequency humans can perceive to avoid audible aliasing.
+
+- 16-bit sample depth: gives ~98dB SNR so that we can't hear noise in a well-prepared signal.
+
+These values are often called "CD quality" audio as they were specified for the CD digital format. They give _extremely_ high-quality audio.
+
+# Making music with sound files
 
 ## Playing back sound files
 
@@ -116,3 +252,11 @@ Load in some of your own audio to make it unique.
 
 Check out the help "Browser" in Pd's help menu to see all the cool patches the
 creators have left for us to explore...
+
+## Granular Synthesis
+
+- Granular Synthesis (DC6.2)
+
+## Sampling Synthesis
+
+- Sampling Synthesis (DC7)
