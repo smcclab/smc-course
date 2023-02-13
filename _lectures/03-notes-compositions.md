@@ -33,6 +33,8 @@ What defines a "note"?  A beginning, and end, and a shape over time.
 
 The shape can be made by changing amplitude, but in computer music we can adjust other properties as well.
 
+
+
 ## shapes over time
 
 `line`, `line~`, `vline` and `vline~`
