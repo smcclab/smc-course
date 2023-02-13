@@ -8,11 +8,34 @@ image_alt: Photo by Charles Martin
 
 {% include slides/title.html %}
 
+## So far:
+
+- making sound from nothing (synthesis)
+- making sound from recordings (sampling)
+
+Is this enough?
+
+{% include slides/background-image.html image="lectures/poeme-electronique.jpg" heading="Organising Sound" %}
+
+we now turn our attention to making "music", not just "sound"
+
+in this class, we're open in terms of defining "music", it doesn't have to follow a particular style or emphasise traditional aspects such as melody and harmony.
+
+broadly, we follow Edgard Varese's idea of music as ["organised sound"](https://doi.org/10.2307/832385).
+
+today we look at methods for _organising_ sound in time, allowing us to start to define compositions
+
 ## Shaping a note
 
-Notes need a dynamic shape over time right?
+What defines a "note"?  A beginning, and end, and a shape over time.
 
 ![]({{site.baseurl}}/assets/digital-synthesis/envelope-sound.png){:style="width:95%;"}
+
+The shape can be made by changing amplitude, but in computer music we can adjust other properties as well.
+
+## shapes over time
+
+`line`, `line~`, `vline` and `vline~`
 
 
 ## envelopes
