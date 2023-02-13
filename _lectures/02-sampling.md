@@ -294,7 +294,93 @@ making an _oscillator_ from a soundfile
 - See `B13.sampler.overlap` in the Pd help for a better version.
 - See Dannenberg Chapter 6.2 for more.
 
+## Sampling in Genish
+
+```
+data('./resources/audiofiles/amen.wav').then( soundData => {
+  let sliceLength = soundData.dim / 10
+  let startPoint = 6 * sliceLength
+  let speed = 0.8
+  let sliceCounter = counter( speed, 0, sliceLength )
+  let pos = add(sliceCounter, startPoint)
+  let bufferOut = peek(soundData, pos, {mode:'samples'}) 
+  play(bufferOut)
+})
+```
+
+Try this code at <http://www.charlie-roberts.com/genish/playground/>
+
+{% comment %}
+```
+data('./resources/audiofiles/amen.wav').then( soundData => {
+  sliceLength = soundData.dim / 10
+  startPoint = 6 * sliceLength
+  speed = 0.8
+  sliceCounter = counter( speed, 0, sliceLength )
+  pos = add(sliceCounter, startPoint)
+  bufferOut = peek(soundData, pos, {mode:'samples'}) 
+  play(bufferOut)
+})
+```
+
+// dirt/juno/09_juno_pad_c_minor_filter.wav
+
+def = {
+  name:'Example',
+  type:'Ugen',
+  constructor: function() {
+   const g = Gibberish.genish
+   g.data('openhat.wav').then( soundData => {
+      let sliceLength = soundData.dim / 10
+      let startPoint = 6 * sliceLength
+      let speed = 0.8
+      let sliceCounter = g.counter( speed, 0, sliceLength )
+      let pos = g.add(sliceCounter, startPoint)
+      let graph = g.peek(soundData, pos, {mode:'samples'})       
+      return graph
+   })
+  }
+}
+ExampleSynth = Make( def )
+s = ExampleSynth()
+
+s.connect()
+s.disconnect()
+{% endcomment %}
+
+
 ## Sampling in Gibber
+
+```
+// create Sampler and load sound
+s = Sampler('dirt/juno/09_juno_pad_c_minor_filter.wav')
+s.start = 0.1 // set sample start position
+s.end = 0.7 // set sample end position
+s.note(0.3) // set rate and play note
+```
+
+Try this one at <https://gibber.cc/playground/>
+
+## Granular Synthesis in Gibber
+
+```
+s = Sampler('breaks.120bpm/188553__mika55__120bpm-drum-loop.wav')
+s.start = gen(0.5 + cycle(0.1) * 0.3)
+s.end = gen(0.52 + cycle(0.2) * 0.3)
+s.rate = gen( 0.5+ cycle(0.2) * 0.75)
+s.trigger.seq( 1, 1/32 )
+```
+
+Try this one at <https://gibber.cc/playground/>
+
+## Checklist for the day:
+
+Have you:
+
+- played back your own soundfile in Pd **and** Gibber?
+- tried out `tabread4~` in Pd and understood how to control it with `line~` and `phasor~`?
+- tried out the granular synthesis patch in Pd?
+- experimented with the Sampler tutorial in Gibber?
 
 ## Links and References for the day:
 
@@ -302,3 +388,6 @@ making an _oscillator_ from a soundfile
 - Dannenberg Chapter 6.2 "Granular Synthesis"
 - Kreidler Chapter 3.4 "Sampling" (Pd examples)
 - Kreidler Chapter 3.6 "Granular Synthesis" (Pd examples)
+- [Sound on Sound Apr. 98. Synth School, Part 7: Transitional Synthesis](https://web.archive.org/web/20150606061932/http:/www.soundonsound.com/sos/apr98/articles/synthschool.html)
+- [Seeing Circles, Sines, and Signals](https://jackschaedler.github.io/circles-sines-signals/index.html) - a primer on DSP (if you want to start knowing more about FT and sampled audio)
+- **Gibber Sampler tutorial**: It's in the Gibber examples dropdown or [here](https://github.com/gibber-cc/gibber/blob/main/playground/examples/sampler.js)
