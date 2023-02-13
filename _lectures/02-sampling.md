@@ -25,6 +25,19 @@ creating sound from scratch with basic waveforms/shapes
    link="[listen: Trilogie de la Mort](https://xirecords.bandcamp.com/album/trilogie-de-la-mort)"
 %}
 
+{% include slides/background-image.html image="lectures/steven-weeks-NNGyAvsmAnk-unsplash.jpg" heading="now: recordings" %}
+
+{:.fragment}
+finding sounds from the real world, recording and manipulating
+
+{:.fragment}
+first explored in the analogue era, e.g., [Études de bruits (1948)](https://youtu.be/CTf0yE15zzI)
+
+{% include slides/image-credit.html
+   artist="Photo by Steven Weeks on Unsplash"
+%}
+
+{% comment %}
 {% include slides/background-image.html image="lectures/GRM1.jpg" heading="now: recordings" %}
 
 {:.fragment}
@@ -36,6 +49,7 @@ finding sounds from the real world, recording and manipulating
    year="1972"
    link="[listen: Études de bruits (1948)](https://youtu.be/CTf0yE15zzI)"
 %}
+{% endcomment %}
 
 # Musique Concrète
 
@@ -50,7 +64,7 @@ finding sounds from the real world, recording and manipulating
 {:. style="font-size:.85em;"}
 Source: Manning, P. (2003). The Influence of Recording Technologies on the Early Development of Electroacoustic Music. Leonardo Music Journal 13, 5-10. <https://www.muse.jhu.edu/article/50703>
 
-## Why make _musique Concrète_?
+## Why make _Musique Concrète_?
 
 recordings are a _rich_ sound material
 
@@ -92,7 +106,7 @@ remember the Nyquist-Shannon Theorem:
 
 - _Sounds change over time_, which means the amplitudes move up and down.
 
-## Defining the _most basic sound_
+## Defining a sinusoid: the _most basic sound_
 
 ![]({% link assets/lectures/diagram-phasor.png %}){: style="width:100%;"}
 
@@ -129,14 +143,14 @@ What would the perceptual effect of these changes be on a sound wave?
 You can do this with the "Fourier Transform" formulas.
 
 - **Warning:** maths notation incoming: if you haven't done 1st year university maths, this will look _very_ confusing.
-- The good news is it's the _concept_ that is important, the maths iss presented for completeness and 
+- The good news is it's the _concept_ that is important, the maths is presented for completeness
 
 ## Fourier Transform Formulas
 
  Given a function $f(t)$ and a frequency $\omega$
 
-- The sine amplitude is: $R(\omega) = \int_{-\inf}^{\inf} f(t)cos(\omega t)dt$
-- and cosine amplitude is: $X(\omega) = - \int_{-\inf}^{\inf} f(t)sin(\omega t)dt$
+- The sine amplitude is: $R(\omega) = \int_{-\infty}^{\infty} f(t)cos(\omega t)dt$
+- and cosine amplitude is: $X(\omega) = - \int_{-\infty}^{\infty} f(t)sin(\omega t)dt$
 
 The above give us _two_ amplitudes, for out-of-phase sine and cosine waves. These can be rewritten to the amplitude and phase for a sine wave:
 
@@ -155,7 +169,7 @@ These equations integrate over all _t_ values (time)---so information about _tim
 
 - The (big) tradeoff is that information about _time_ is lost.
 
-Everything said above relates to infinitely long continuous signals, not sampled signals. We will come later to details about how to do this in the 
+Everything said above relates to infinitely long continuous signals, not sampled signals. We will come later to details about how to do this with time-limited digital signals.
 
 See Dannenberg Chapter 3 for reference.
 
@@ -198,8 +212,8 @@ Digital numbers have a concept of "precision" (how many possible values can be r
 
 The effect of rounding our samples is to introduce **noise** into the signal. 
 
-- We can measure the difference between the potential amplitude of a signal and the (always present) noise as a _signal-to-noise ratio_ in decibels (dB).
-- In practice: **16-bit** sample depth gives sufficient SNR that you can't perceive noise.
+- We can measure the difference between the potential amplitude of a signal and the (always present) noise as a _signal-to-noise ratio_ (SNR) in decibels (dB).
+- Roughly 6dB per bit.
 
 ## CD Quality Audio:
 
@@ -209,54 +223,82 @@ Now you know why digital audio is often recorded at 44.1kHz sample rate and 16bi
 
 - 16-bit sample depth: gives ~98dB SNR so that we can't hear noise in a well-prepared signal.
 
-These values are often called "CD quality" audio as they were specified for the CD digital format. They give _extremely_ high-quality audio.
+These values are often called "CD quality" audio as they were specified for the [CD digital format](https://en.wikipedia.org/wiki/Compact_Disc_Digital_Audio) (in 1982). They give _extremely_ high-quality audio.
 
-# Making music with sound files
+{% include slides/background-image.html image="workshops/recorder-charles-martin.jpg" heading="let's go do it" %}
 
-## Playing back sound files
+
+time to make some Musique Concrète with soundfiles in Pd
+
+we need a sound in WAV format...
+
+let's find one: <https://freesound.org/browse/random/>
+
+other options: record a sound on your phone
+
+## Simply playing back sound files
 
 You can use `readsf~` to open and play back a sound file. Is that enough??
 
 ![pd-soundfile-open]({% link /assets/digital-synthesis/pd-soundfile-open.png %})
 
-## More fun to "perform" with a sound file
+- `readsf~` is easy and convenient, but limited
+
+- reads from your hard drive
+
+- can't change speed or playback position (crucial for Musique Concrète)
+
+## More sophistication and fun: reading a sound file array
+
+Best way to make music with sound files:
+
+1. load the data into an array variable using the `soundfiler` object
+   - Make a graphical array from the "Put" menu
+   - Make an array with no GUI with the `array` object: `[array define {array-name}]`
+2. use the `tabread4~` (table read) to play audio data from any point in the array
+
+`tabread4~` is like the read head of a tape machine: it just accesses the data, it doesn't move the tape
+
+need to use other objects (e.g., `phasor~` or `line~`) to "move" `tabread4~` up and down the tape.
+
+## Musique Conrète with `tabread4~`
 
 ![]({% link /assets/digital-synthesis/pd-soundfile-perform.png %}){:
 style="width:50%; float: right;" }
 
-1. load file into a "table" with `soundfiler`
+1. load file into an _array_ with `soundfiler`
 2. set up a `tabread4~` object to access the table
 3. use a `phasor~`, or any other audio rate object to playback bits of the file.
 4. you can even just scribble around in the file with `line~`
 
-## Wavetables
+## Wavetable-lookup synthesis 
+
+making an _oscillator_ from a soundfile
 
 ![]({% link assets/digital-synthesis/pd-wavetable.png %}){: style="width:90%;"}
 
-`tabosc4~` scrolls through a table at a certain frequency.
+- `tabosc4~` scrolls through a (whole) array at a certain frequency.
+- this is a _basic_ way of doing [wavetable synthesis](https://en.wikipedia.org/wiki/Wavetable_synthesis) which includes the idea of _evolving_ the array over time (in some way)
+- read up on [classic wavetable synthesis](https://web.archive.org/web/20150606061932/http:/www.soundonsound.com/sos/apr98/articles/synthschool.html) if you want.
 
-## Grains of Audio
+## Looping Grains of Audio
+
+![]({% link assets/lectures/diagram-granular-synthesis.png %})
+
+## Granular Synthesis in Pd
 
 ![]({% link assets/digital-synthesis/pd-grains.png %}){: style="width:50%;float: right;" }
 
-Try just reading a bit of a soundfile over and over to make a continuous sound.
+- Loop a _bit_ of a soundfile over and over to make a continuous sound.
+- Note the `cos~` bit here to avoid clicks at the start and end of the looped section.
+- See `B13.sampler.overlap` in the Pd help for a better version.
+- See Dannenberg Chapter 6.2 for more.
 
-Note the `cos~` bit here, what does that do?
+## Sampling in Gibber
 
-See `B13.sampler.overlap` in the Pd help for a better version.
+## Links and References for the day:
 
-## Exercise:
-
-Make an synth with the uses soundfiles or try modifying the granular example.
-Load in some of your own audio to make it unique.
-
-Check out the help "Browser" in Pd's help menu to see all the cool patches the
-creators have left for us to explore...
-
-## Granular Synthesis
-
-- Granular Synthesis (DC6.2)
-
-## Sampling Synthesis
-
-- Sampling Synthesis (DC7)
+- Dannenberg Chapter 3 "Sampling Theory Introduction"
+- Dannenberg Chapter 6.2 "Granular Synthesis"
+- Kreidler Chapter 3.4 "Sampling" (Pd examples)
+- Kreidler Chapter 3.6 "Granular Synthesis" (Pd examples)
