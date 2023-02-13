@@ -121,13 +121,13 @@ Look at the [assessments page]({% link _assessments/index.md %}) or the [class s
 
 ## expectations
 
-**Show up.** Seriously, this course doesn't work if you are not here.
+1. **Show up**: Seriously, this course doesn't work if you are not here.
 
-**The only rule is work** ([rule 7](https://www.corita.org/tenrules)): this means, do your weekly diary videos!
+2. **The only rule is work** ([rule 7](https://www.corita.org/tenrules)): this means, do your weekly diary videos!
 
-**Trust us** to help you succeed. We have all the resources needed for you to create a [great performance](https://www.youtube.com/watch?v=2EdxJ_aJRHA&list=PLKm3iGh1D7Mur62hvm6BHBNqlObABGDgY).
+3. **Trust us** to help you succeed: We have all the resources needed for you to create a [great performance](https://www.youtube.com/watch?v=2EdxJ_aJRHA&list=PLKm3iGh1D7Mur62hvm6BHBNqlObABGDgY), just like all the previous LENSers who were just like you!
 
-**Read** the [website]({% link index.md %}) for more info!
+**Read** the [website]({% link index.md %}) for more info.
 
 ## last thing: referencing
 

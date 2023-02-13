@@ -25,32 +25,58 @@ broadly, we follow Edgard Varese's idea of music as ["organised sound"](https://
 
 today we look at methods for _organising_ sound in time, allowing us to start to define compositions
 
+## _Slope_ is the key
+
+`/` + `\` 
+
+In programming we are used to having _static_ variables
+
+Now we want _dynamic_ numbers that are _scheduled_ to change in specific ways.
+
 ## Shaping a note
 
-What defines a "note"?  A beginning, and end, and a shape over time.
+What defines a "note"?  A beginning, an end, and a shape over time.
 
 ![]({{site.baseurl}}/assets/digital-synthesis/envelope-sound.png){:style="width:95%;"}
 
 The shape can be made by changing amplitude, but in computer music we can adjust other properties as well.
 
-
-
 ## shapes over time
 
 `line`, `line~`, `vline` and `vline~`
 
+- `line` is a slope generator
+- You provide it with a destination (a number) and a time (in ms) and it changes it's output over time.
 
-## envelopes
+## What does the tilde mean in `line~` vs `line`?
+
+Pd has two kinds of "connections" between objects:
+
+1. audio
+2. messages
+
+Audio connections are processed at the audio frame rate: fast enough to get blocks of 64 samples to the DAC at 44.1kHz.
+
+Message processing is [interleaved with block processing](https://msp.puredata.info/Pd_documentation/x2.htm) which usually happens every 1.45ms. 
+
+Objects with a `~` in the title, output or operate with audio connections. Those without `~` are the message variants.
+
+## line and `line~`
+
+- `line`: outputs numbers as _messages_ at a (default) rate of one ever 20ms (slow!)
+- `line~`: outputs an audio rate signal.
+
+If you make a volume control with `line` you will have audible clicks as the volume changes 50 times per second. You need to use `line~` for smooth sounding control over audio.
+
+## `vline~`
 
 combining `vline~` and `*~` turns the sound up and down to shape a note.
 
 ![]({{site.baseurl}}/assets/digital-synthesis/pd-envelope.png)
 
-
 ## vline envelope
 
 ![]({{site.baseurl}}/assets/digital-synthesis/pd-using-vline.png){:style="width:80%;"}
-
 
 ## Exercise:
 

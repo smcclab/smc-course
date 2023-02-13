@@ -48,51 +48,32 @@ Composers like Varèse, Antheil, caught this idea.
 
 Maybe Intonarumori would have gone further, but WWI intervened.
 
-## THE AGE OF INVENTION!
+## The Age of Invention 1880s---1939ish
 
-1880s---1939ish
+{:. style="font-size:.75em;"}
+- 1700s: experiments with static electricity produced by friction
+- 1799: Volta constructs first chemical “battery”
+- 1809: first demonstration of an arc lamp
+- 1831: Faraday constructs electrical dynamo (generator)
+- 1836-7: early telegraphs (wired)
+- 1876: Bell patents telephone
+- 1877: Edison produces mechanical phonograph (with cylinders)
+- 1878: Edison produces practical incandescent lightbulb
+- 1880s: Westinghouse (Tesla) electricity distribution with AC current
+- 1897: Marconi demonstrates wireless telegraphy
+- 1910s: development of valve amplification circuits
+- 1920s: start of public radio broadcasts
+- 1930s: practical, high quality tape recorders developed in Germany
 
----
-
-1700s: experiments with static electricity produced by friction
-
-1799: Volta constructs first chemical “battery”
-
-1809: first demonstration of an arc lamp
-
-1831: Faraday constructs electrical dynamo (generator)
-
-1836-7: early telegraphs (wired)
-
-1876: Bell patents telephone
-
-1877: Edison produces mechanical phonograph (with cylinders)
-
-1878: Edison produces practical incandescent lightbulb
-
-1880s: Westinghouse (Tesla) electricity distribution with AC current
-
-1897: Marconi demonstrates wireless telegraphy
-
-1910s: development of valve amplification circuits
-
-1920s: start of public radio broadcasts
-
-1930s: practical, high quality tape recorders developed in Germany
-
-## Singing Arc
-
-W. Duddell 1899
-
-Arc lamps sometimes made an annoying sound; Duddell appointed to figure this out.
-
-Managed to control oscillations
-
-made a novelty keyboard instrument.
-
-dangerous way to make some noise:  <https://youtu.be/bzND4EF1XIo>
+## Singing Arc (1899)
 
 ![](img/Birth%20of%20Electronic%20Music0.gif)
+
+- W. Duddell 1899
+- Arc lamps sometimes made an annoying sound; Duddell appointed to figure this out.
+- Managed to control oscillations
+- made a novelty keyboard instrument.
+- dangerous way to make some noise:  <https://youtu.be/bzND4EF1XIo>
 
 ## Telharmonium - Cahill (1906)
 
@@ -121,7 +102,7 @@ dangerous way to make some noise:  <https://youtu.be/bzND4EF1XIo>
 
 <https://vimeo.com/78681312>
 
-## Ondes Martenot(1928-1988)
+## Ondes Martenot (1928-1988)
 
 - Maruice Martenot was a Cellist
 - Instrument emphasises direct control of pitch, volume, and timbre.
@@ -145,7 +126,7 @@ dangerous way to make some noise:  <https://youtu.be/bzND4EF1XIo>
 
 ## Gibson ES-150 (1936)
 
-- First  _successful_   _commercial_  electric guitar
+- First  _successful commercial_  electric guitar
 - single coil pickup
 - followed by much experimentation and improvement…
 
@@ -175,9 +156,9 @@ dangerous way to make some noise:  <https://youtu.be/bzND4EF1XIo>
 - what inventions of this period had a lasting impact?
 - what technologies had been repurposed?
 - what’s the distinction between electro-mechanical and electronic musical instruments?
-- beginning of separation between  _control_  and  _sound production_ .
+- beginning of separation between  _control_  and  _sound production_.
 
-## Start of the electronic studio era
+# Start of the electronic studio era
 
 1945-1959
 
@@ -230,16 +211,14 @@ dangerous way to make some noise:  <https://youtu.be/bzND4EF1XIo>
 
 ## Columbia-Princeton Electronic Music Cente
 
-1950s - Milton Babbitt et al.
-
-RCA Mark II Synth (1957),
+- 1950s - Milton Babbitt et al.
+- RCA Mark II Synth (1957),
 
 ## EM 1945-1959
+
+![](img/Birth%20of%20Electronic%20Music1.jpg)
 
 - what were the turning points?
 - what were the inventions? what was repurposed?
 - to these composers, new sounds needed new notations
 - relationship to radio engineering suggested a scientific level of detail in composition
-
-![](img/Birth%20of%20Electronic%20Music1.jpg)
-
