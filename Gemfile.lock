@@ -1,9 +1,9 @@
 GIT
   remote: git@gitlab.anu.edu.au:jekyll-anu/gems/jekyll-plugins-anu.git
-  revision: 3740206291754867c8dd8e21df3d35bf10fbce02
-  tag: v2.2.1
+  revision: 1cb31f70d6dfc8fb6e3cb5e27f15eb788287218c
+  tag: v2.4.0
   specs:
-    jekyll-plugins-anu (2.2.1)
+    jekyll-plugins-anu (2.4.0)
       classifier-reborn
       html-proofer
       jekyll
@@ -11,6 +11,7 @@ GIT
       jekyll-fontawesome-svg
       jekyll-seo-tag
       mini_racer
+      nokogiri
 
 GIT
   remote: git@gitlab.anu.edu.au:jekyll-anu/gems/jekyll-revealify-plugin.git
