@@ -283,7 +283,7 @@ making an _oscillator_ from a soundfile
 
 ## Looping Grains of Audio
 
-![]({% link assets/lectures/diagram-granular-synthesis.png %})
+![]({% link assets/lectures/diagram-granular-synthesis.png %}){: style="width:80%;"}
 
 ## Granular Synthesis in Pd
 
