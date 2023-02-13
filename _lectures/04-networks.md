@@ -5,6 +5,8 @@ lecturer: Dr Charles Martin
 image: assets/lectures/2014-metatone.jpg
 ---
 
+{% include slides/title.html %}
+
 ## What is network music making?
 
 - Do music makers use networks everyday? 🤔
