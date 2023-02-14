@@ -30,6 +30,14 @@ GIT
     jekyll-theme-anu (2.4.29)
       jekyll
 
+GIT
+  remote: https://github.com/silkkycloud/jekyll-autoprefixer-re.git
+  revision: 8f80c28fedc0091147b7047f9b83bf9af93a7f5c
+  branch: master
+  specs:
+    jekyll-autoprefixer-re (1.0.2)
+      autoprefixer-rails (~> 10.2.5.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -92,8 +100,6 @@ GEM
       safe_yaml (~> 1.0)
       terminal-table (>= 1.8, < 4.0)
       webrick (~> 1.7)
-    jekyll-autoprefixer-re (1.0.2)
-      autoprefixer-rails (~> 10.2.5.1)
     jekyll-fontawesome-svg (0.3.4)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
@@ -115,7 +121,7 @@ GEM
     mini_portile2 (2.8.1)
     mini_racer (0.6.3)
       libv8-node (~> 16.10.0.0)
-    nokogiri (1.14.1)
+    nokogiri (1.14.2)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     pathutil (0.16.2)
@@ -156,10 +162,10 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 4.3.1)
+  jekyll-autoprefixer-re!
   jekyll-plugins-anu!
   jekyll-revealify-plugin!
   jekyll-theme-anu!
-  webrick
 
 BUNDLED WITH
    2.2.32
