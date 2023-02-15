@@ -39,9 +39,9 @@ they might use light, new materials, custom electronics, to make their statement
 {% include slides/background-image.html image="lectures/setups/construction-fifthvolt-2022.jpg" heading="5th Volt, Smith's Alternative, 2022" %}
 {% include slides/background-image.html image="lectures/setups/construction-nime2016-radios.jpg" heading="Oliver Bown, NIME2016" %}
 {% include slides/background-image.html image="lectures/setups/construction-nime2019-steamsynth.jpg" heading="Steam Synth, Steve Harhai, NIME2019" %}
-{% include slides/background-image.html image="lectures/setups/constructions-nime2017-light.jpg" heading="Dianne Verdonk: Bellyhorn, NIME2017" %}
+{% include slides/background-image.html image="lectures/setups/constructions-nime2017-light.jpg" heading="Sabina Hyoju Ahn: Breath, NIME2017" %}
 {% include slides/background-image.html image="lectures/setups/constructions-nime2017-worm.jpg" heading="Marije Baalman: Chrysalis, NIME2017" %}
-{% include slides/background-image.html image="lectures/setups/constructions-nime2017.jpg" heading="Sabina Hyoju Ahn: Breath, NIME2017" %}
+{% include slides/background-image.html image="lectures/setups/constructions-nime2017.jpg" heading="Dianne Verdonk: Bellyhorn, NIME2017" %}
 
 ## Face to Face
 
@@ -83,10 +83,10 @@ _headgear_ also includes other head-mounted musical modalities...
 {% include slides/background-image.html image="lectures/setups/headgear-yichen2022.jpg" heading="Cubing Sound, Yichen Wang NIME2022" %}
 {% include slides/background-image.html image="lectures/setups/headgear-nime2020-listening.jpg" heading="Listening to Listening NIME2020" %}
 {% include slides/background-image.html image="lectures/setups/headgear-acmc2019.jpg" heading="AR performance ACMC2019" %}
-{% include slides/background-image.html image="lectures/setups/headgear-nime2018-vr.jpeg" heading="VR performance NIME2018" %}
+{% include slides/background-image.html image="lectures/setups/headgear-nime2018-vr.jpeg" heading="Forgetfulness: Zachary Duer, Ivica Ico Bukvic & Meaghan Dee, NIME2018" %}
 {% include slides/background-image.html image="lectures/setups/headgear-nime2015.jpg" heading="PHOX Ears: Rebecca Kleinberger NIME2015" %}
-{% include slides/background-image.html image="lectures/setups/headgear-nime2016.jpg" heading="Mystery Interface (model: Skot McDonald) NIME2016"  bgsize="contain" %}
-{% include slides/background-image.html image="lectures/setups/headgear-nime2018.jpg" heading="Sensor helmet? NIME2018"  bgsize="contain"  %}
+{% include slides/background-image.html image="lectures/setups/headgear-nime2016.jpg" heading="Focal: Stewart Greenhill and Cathie Travers NIME2016"  bgsize="contain" %}
+{% include slides/background-image.html image="lectures/setups/headgear-nime2018.jpg" heading="Circles: Barry Moon, NIME2018"  bgsize="contain"  %}
 
 ## HyperInstruments
 
