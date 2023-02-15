@@ -8,7 +8,7 @@ image_alt: Photo by Charles Martin
 
 {% include slides/title.html %}
 
-# Computer Music Setups I have known
+# Computer music setups I have known
 
 Not sure if meme or serious lecture (?)
 
@@ -22,11 +22,11 @@ these performers want the audience to see what they see and they want it to be _
 
 the human may not be important here, but the visuals are an integral part of the show.
 
-{% include slides/background-image.html image="lectures/setups/bigscreen-lmtd.jpg" heading="Last Man to Die (2010)" %}
+{% include slides/background-image.html image="lectures/setups/bigscreen-lmtd.jpg" heading="Last Man to Die: C Martin, H Cormick, B Forster (2010)" %}
 {% include slides/background-image.html image="lectures/setups/bigscreen-nime2013-brain.jpg" heading="‘it’s almost a song...’ For Brain-Player and Clarinet NIME2013" %}
 {% include slides/background-image.html image="lectures/setups/bigscreen-nime2013-whistle.jpg" heading="Whistle Interface NIME2013" %}
-{% include slides/background-image.html image="lectures/setups/bigscreen-strikeonstage.jpg" heading="Strike on Stage NIME2010" %}
-{% include slides/background-image.html image="lectures/setups/bigscreen-touchinterface.jpg" heading="Touch Interface (2010)" %}
+{% include slides/background-image.html image="lectures/setups/bigscreen-strikeonstage.jpg" heading="Strike on Stage: Charles Martin and Chi Hsia Lai NIME2010" %}
+{% include slides/background-image.html image="lectures/setups/bigscreen-touchinterface.jpg" heading="Touch Interface: Charles Martin (2010)" %}
 
 ## The Construction
 

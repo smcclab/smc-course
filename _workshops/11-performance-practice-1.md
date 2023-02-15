@@ -10,9 +10,7 @@ image_alt: Photo by Charles Martin
 **No Diary**: No computer music diary this week--your diaries are all done!
 
 This week we'll have space in the workshop for you to practice your final LENS
-performances. Half the class will go this week, the other half the next week
-(the exact order will be determined by [spinning the wheel]({% link
-_lectures/group-picker-wheel.md %}), as usual).
+performances. Half the class will go this week, the other half the next week.
 
 After the performances we'll have a discussion about our works-in-progress in
 relation to the [marking criteria]({% link _assessments/04-lens-performance.md
