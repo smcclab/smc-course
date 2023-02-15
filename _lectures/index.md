@@ -1,5 +1,5 @@
 ---
-title: Lectures
+title: Lectorials
 tagline: Interactive sessions with the whole class together.
 layout: default
 permalink: /lectures/
@@ -9,10 +9,10 @@ show_toc: true
 ---
 
 {:.info-box}
-Lectures for SMC are new this year and still under development!
+In SMC we have _lectorials_, part lecture, part lab for active learning, discussion, and experimentation. We have 60 seats in the room. If you want to succeed in this course, show up on time, and be ready to go.
 
-Lectures for SMC will be interactive and involve you coding along with Charles
-to try out different Sound and Music Techniques. The lecture space has
+Lectorials for SMC will be interactive and involve you coding along with Charles
+to try out different sound and music techniques. The lecture space has
 collaborative seating and displays at each desk so that you can try out
 examples with other students.
 

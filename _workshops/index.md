@@ -10,13 +10,11 @@ show_toc: true
 {:.info-box}
 SMC workshop times are available on [ANU MyTimetable](https://www.anu.edu.au/students/program-administration/timetabling/student-access-and-support-for-mytimetable). These workshops are on-campus only. Please sign-up for a workshop as soon as possible.
 
-
-
 | Day | Time  | Location   | Tutors                           |
 |-----|-------|------------|----------------------------------|
-| Mon | 12-14 | Birch 1.09 | Madelyn Fardell, Xinran Yuan     |
+| Mon | 12-14 | Birch 1.09 | Madelyn Fardell, Rachel Schroder |
 | Tue | 12-14 | Birch 1.33 | Sandy Ma, Mingrui Gao            |
-| Thu | 11-13 | Birch 1.29 | Rachel Schroder, Madelyn Fardell |
+| Thu | 11-13 | Birch 1.29 | Xinran Yuan, Madelyn Fardell     |
 
 The weekly workshop sessions are the **most important learning activity** in SMC.
 If you're enrolled in the class you must attend (in person) every week.
