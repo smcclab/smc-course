@@ -14,14 +14,6 @@ Do you want to create sound and music with your computer? Do you want to build
 new kinds of musical instruments? Do you want to be a part of a laptop band?
 This is the course for you! 
 
-{% comment %}
-<div class="grid grid--3">
-{% anu_icon 003/49 %}
-{% anu_icon 006/23 %}
-{% anu_icon 006/41 %}
-</div>
-{% endcomment %}
-
 This course is an introduction to the fundamental concepts of music computing,
 including **digital synthesis**, **algorithmic composition**, and musical **interface
 design**. You will develop your knowledge by creating computer musical
