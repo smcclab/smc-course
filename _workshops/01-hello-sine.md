@@ -4,6 +4,7 @@ tagline: Your first beeps and boops
 show_toc: true
 image: assets/workshops/doug-baney-daADC54moaU-unsplash.jpg  
 image_alt: Photo by Doug Baney on Unsplash 
+template_repo: https://gitlab.cecs.anu.edu.au/laptop-ensemble/2023/SMC-2023-submissions
 ---
 
 {:.warn-box}
@@ -16,19 +17,24 @@ computer music.
 
 ## Pre-Workshop Content
 
-There isn't much pre-reading for week 1, since the class hasn't really started
-yet.
+There's no pre-reading for week 1, since the class hasn't really started
+yet. Make sure you attend the lecture, and sign up for a workshop before week 1.
 
 ## Goals for this week
 
-The main purpose of the first workshop is to get [Pd]({% link
-_resources/02-tools.md %}#pure-data) up and running on everyone's laptop---because
-if you don't have that working then you won't be able to participate in this course.
+The main purpose of the first workshop is to get software for the class up and running on everyone's laptop---because
+if you don't have that working then you won't be able to participate in this course. THe second goal is to start making some ensemble music as a group with Pd!
 
-1. to be able to make a noise with Pd
-2. to be able to make a screen recording (with sound!)
-3. fork and clone the workshop repository, install Visual Studio Code and Git.
+1. make a noise with [Pd]({% link _resources/02-tools.md %}#pure-data)
+2. make a screen recording (with sound) with [OBS]({% link _resources/02-tools.md %}#screen-recording-software)
+3. install [Visual Studio Code]({% link _resources/02-tools.md %}#vscode)
+4. install [git]({% link _resources/02-tools.md %}#git)
+3. fork and clone the [workshop repository]({{ page.template_repo }})
 4. start making some ensemble music.
+
+Your tutors will help you install the above software if you haven't tried it already and make the OBS recording. 
+
+For the last 40 minutes of the workshop you will be placed into a group of 4 students to make a quick computer music improvisation!
 
 ## Resources
 

@@ -59,11 +59,18 @@ Pd is a visual computer music programming system. You download the Pd program to
 
 The programming concept in Pd involves making visual diagram for flow of signals and data. We call this activity "patching" as it recalls using physical wires (patch cables) to connect different pieces of electronic equipment. This is a bit different to text programming, but quite easy and fun for experimenting.
 
-Pd is free software and works on Windows, macOS & Linux. To install it, go to
-the [Pd downloads page](https://puredata.info/downloads) and get the latest
+Pd is free software and works on Windows, macOS & Linux. 
+
+To install it, go to
+the [Pd downloads page](http://msp.ucsd.edu/software.html) and get the latest
 version of "vanilla" Pd for your platform (as shown in the screenshot).
 
-![download box on the Pd website]({% link assets/resources/pd-download-box.png %})
+{:.info-box}
+N.B., Pd v0.53-1 has [issues on MacOS 13 (late 2022 release)](https://github.com/pure-data/pure-data/issues/1857). The test release Pd 0.53-2test1 should be used until a new stable version is released. 
+
+You may also find Pd downloads (and lots of extra related goodies) on [puredata.info](https://puredata.info/), but we don't recommend browsing here until you have completed a few workshops. The _latest test releases_ are generally on Miller Puckette's [website](http://msp.ucsd.edu/software.html).
+
+<!-- ![download box on the Pd website]({% link assets/resources/pd-download-box.png %}) -->
 
 #### Example code/patches
 
@@ -73,7 +80,11 @@ version of "vanilla" Pd for your platform (as shown in the screenshot).
 
 - Charles has written a series of introductory examples to Pure Data which can help you to grasp the basics: [ComputerMusicIntro examples](https://github.com/cpmpercussion/ComputerMusicIntro)
 
+
+- [puredata.info](https://puredata.info/) has the main pure data community resources, e.g., forums, downloads, mailing list.
+
 - [rjlib is a library of "pure Pd" patches](https://github.com/rjdj/rjlib/) with typical synth, effect, and sequencer designs. This is a great resource for learning but many of the patches will need to be adapted to be used in your own work.
+
 
 #### Books
 
@@ -149,6 +160,35 @@ A few more tips:
    ---you might need to use something like
    [BlackHole](https://github.com/ExistentialAudio/BlackHole) to route the audio
    into OBS so that it records properly.
+
+### Visual Studio Code {#vscode}
+
+For editing Markdown or Javascript code in Sound and Music Computing, we will use [Visual
+Studio Code](https://code.visualstudio.com/) (we'll usually call it **VSCode**
+for short). VSCode is a generic text editor, which means that it's really good
+at editing text, but doesn't care too much what that text is/represents.
+
+You will specifically use VSCode to edit your class repository and add diary reflections each week.
+
+THere's only one step to install VSCode:
+
+1. [download & install VSCode](https://code.visualstudio.com/) (works on macOS,
+   Linux & Windows)
+
+
+## git {#git}
+
+[Git](https://git-scm.com/) is an amazing bit of software for storing and
+tracking changes to source code; you can think of it as Dropbox (or Google Drive
+or iCloud etc.) on steroids. It's also the way you'll keep track of your diary reflections, patches, and code, and generate your assignment submissions.
+
+Luckily, the people who make Git provide a couple of convenient ways to get everything installed on your computer:
+
+- If you're on Windows, you can install Git by going to the [Windows download section](https://git-scm.com/download/win) then downloading and running the `.exe` file.
+- If you're on macOS, the easiest way to download Git is to use the ["Binary Installer"](https://sourceforge.net/projects/git-osx-installer/) linked on the [macOS download page](https://git-scm.com/download/mac).
+
+{:.warn-box}
+After installing Git, you'll need to close and re-open VSCode!
 
 ## Hardware {#hardware}
 
