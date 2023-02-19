@@ -140,7 +140,7 @@ What we mark:
 
 We prefer ACM reference format: <https://www.acm.org/publications/authors/reference-formatting>
 
-Some example references are as follows:
+Some example references in Markdown format are as follows:
 
 ```
 # References
@@ -153,4 +153,3 @@ Some example references are as follows:
 6. Aaron Wu. 2018. Boat Photo on Unsplash. Retrieved from: <https://unsplash.com/photos/_8rjlHwN4uk>
 7. Wikipedia. 2022. J M W Turner Article. Retrieved from: <https://en.wikipedia.org/wiki/J._M._W._Turner>
 ```
-

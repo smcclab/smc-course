@@ -22,18 +22,18 @@ At the end of the course, you will present a concert of collaborative laptop mus
 
 We prefer ACM reference format: <https://www.acm.org/publications/authors/reference-formatting>
 
-Some example references are as follows:
+Some example references in Markdown format are as follows:
 
 ```
 # References
 
 1. Alice McGuffing. 2022. Ideas for creating the animated ripple effect
 2. Jerry Wang. 2022. Background Artwork (artwork.jpg)
-3. Howzit (StackOverflow user). 2018. p5js-image-array (CC BY-SA 2.5). Retrieved from: https://stackoverflow.com/questions/51233447/p5js-image-array
-4. p5 Reference. No Date. MouseWheel Example (CC BY-NC 4.0). Retrieved from: https://p5js.org/reference/#/p5.Element/mouseWheel
-5. Scott Bauer. 2004. Photo of Potatoes (Public Domain). Retrieved from: https://en.wikipedia.org/wiki/Potato#/media/File:Patates.jpg
-6. Aaron Wu. 2018. Boat Photo on Unsplash. Retrieved from: https://unsplash.com/photos/_8rjlHwN4uk
-7. Wikipedia. 2022. J M W Turner Article. Retrieved from: https://en.wikipedia.org/wiki/J._M._W._Turner
+3. Howzit (StackOverflow user). 2018. p5js-image-array (CC BY-SA 2.5). Retrieved from: <https://stackoverflow.com/questions/51233447/p5js-image-array>
+4. p5 Reference. No Date. MouseWheel Example (CC BY-NC 4.0). Retrieved from: <https://p5js.org/reference/#/p5.Element/mouseWheel>
+5. Scott Bauer. 2004. Photo of Potatoes (Public Domain). Retrieved from: <https://en.wikipedia.org/wiki/Potato#/media/File:Patates.jpg>
+6. Aaron Wu. 2018. Boat Photo on Unsplash. Retrieved from: <https://unsplash.com/photos/_8rjlHwN4uk>
+7. Wikipedia. 2022. J M W Turner Article. Retrieved from: <https://en.wikipedia.org/wiki/J._M._W._Turner>
 ```
 
 ## What music background is required?
