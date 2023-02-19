@@ -41,7 +41,7 @@ Here's the few questions to help you get started:
 
 You must:
 
-- complete the `lens-artefact-proposal.md` [file](https://gitlab.cecs.anu.edu.au/laptop-ensemble/2022/laptop-ensemble-2022-submissions/-/blob/main/demo-presentation/lens-artefact-proposal.md) in your laptop ensemble repo.
+- complete the `lens-artefact-proposal.md` file in your laptop ensemble repo.
 - include at least one image or code snippet in the proposal file to reflect what you plan to create.
 - present your LENS artefact in a 5 minute in-class demo (recorded).
 - answer questions for another 5 minutes

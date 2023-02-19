@@ -5,6 +5,7 @@ permalink: /assessments/lens-performance/
 show_toc: true
 image: assets/photos/2022-lh3.jpg
 image_alt: Photo by Charles Martin
+template_repo: https://gitlab.cecs.anu.edu.au/laptop-ensemble/2023/SMC-2023-submissions
 ---
 
 ## Outline
@@ -15,6 +16,8 @@ image_alt: Photo by Charles Martin
 - **Submission:** submit your assignment according to the
   [instructions below](#submission-process)
 - **Policies:** Late submission not permitted. 
+- **GitLab Repo:** [link]({{ page.template_repo }})
+
 
 ## Description
 

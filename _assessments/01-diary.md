@@ -5,6 +5,7 @@ image: assets/photos/samer-khodeir-He3TV66yUEI-unsplash.jpg
 image_alt: Photo by Samer Khodeir on Unsplash
 permalink: /assessments/diary/
 show_toc: true
+template_repo: https://gitlab.cecs.anu.edu.au/laptop-ensemble/2023/SMC-2023-submissions
 ---
 
 ## Outline
@@ -14,7 +15,7 @@ show_toc: true
 - **Submission:** submit your videos & portfolio submissions according to the
   instructions below
 - **Policies:** late submissions not accepted without an extension.
-- **GitLab Repo:** <https://gitlab.cecs.anu.edu.au/laptop-ensemble/2022/laptop-ensemble-2022-submissions>
+- **GitLab Repo:** [link]({{ page.template_repo }})
 
 ## Description
 

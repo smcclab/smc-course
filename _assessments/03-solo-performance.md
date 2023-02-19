@@ -4,6 +4,7 @@ tagline: Create some music in your bedroom.
 permalink: /assessments/solo-performance/
 image: assets/photos/2019-laptop-setup.jpg
 show_toc: true
+template_repo: https://gitlab.cecs.anu.edu.au/laptop-ensemble/2023/SMC-2023-submissions
 ---
 
 ## Outline
@@ -14,6 +15,8 @@ show_toc: true
   [instructions below](#submission-process)
 - Late submission is **not permitted** for this assessment.
 - This is an **individual** assessment task.
+- **GitLab Repo:** [link]({{ page.template_repo }})
+
 
 ## Description
 
