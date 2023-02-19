@@ -161,6 +161,16 @@ A few more tips:
    [BlackHole](https://github.com/ExistentialAudio/BlackHole) to route the audio
    into OBS so that it records properly.
 
+### Big Counter
+
+This website is just a big countdown timer, it's useful for jams in class and rehearsal
+
+- <https://big-counter.netlify.app>
+
+You change the length of time for the countdown with a URL parameter `seconds`, e.g.: <https://big-counter.netlify.app/?seconds=150>
+
+The source code is on github here: <https://github.com/cpmpercussion/big-counter> feel free to make it better and submit a pull request.
+
 ### Visual Studio Code {#vscode}
 
 For editing Markdown or Javascript code in Sound and Music Computing, we will use [Visual
