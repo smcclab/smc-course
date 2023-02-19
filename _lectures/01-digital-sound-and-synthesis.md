@@ -124,13 +124,19 @@ combinations...**
 
 "Objects" are the primary element of programming in Pd, you can find a list of built-in objects in "Help" menu.
 
-Objects with a `~` in the name are related to audio processing and have audio-rate inputs or outputs.
+Objects with a `~` in the name have audio inputs or outputs.
+
+## Try it...
+
+1. install Pure Data
+2. recreate the sine tone patch
+3. try changing volume with a `*` and a vertical slider
 
 ## Do it in code...
 
 Ok, let's go to [gibber.cc/playground](https://gibber.cc/playground) and try the same thing:
 
-{:. style="font-size:.85em;"}
+{:. style="font-size:.8em;"}
 
 ```
 def = {
@@ -165,6 +171,16 @@ Most of the code on the previous slides was to punch through the layers to get t
 
 The important bit is: `g.mul(g.cycle( 220 ), 0.25)`
 
+## Try it...
+
+1. go to <https://gibber.cc/playground>
+2. clear the sample code
+3. type in the example synth 
+4. select all the text and use the `Ctrl` + `Enter` key combination to run it.
+5. use the `Ctrl` + `.` key combination to stop the sound.
+
+In future we will write key combinations as `Ctrl+Enter` meaning "hold the control key, then press the enter key, then release both".
+
 ## Pd vs Gibber
 
 Pd and Gibber are good at different things (if not, I wouldn't explain both!)
@@ -181,7 +197,7 @@ To play two notes at once, just plug both outputs into one input.
 
 ![]({{site.baseurl}}/assets/digital-synthesis/pd-twonotes.png)
 
-Q: What would this look like on the spectrogram?
+Q: How do our brains know there are two sounds even though the waves get mixed together?
 
 ## Additive Synthesis
 
