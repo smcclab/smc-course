@@ -26,7 +26,7 @@ The main purpose of the first workshop is to get software for the class up and r
 if you don't have that working then you won't be able to participate in this course. THe second goal is to start making some ensemble music as a group with Pd!
 
 1. make a noise with [Pd]({% link _resources/02-tools.md %}#pure-data)
-2. make a screen recording (with sound) with [OBS]({% link _resources/02-tools.md %}#screen-recording-software)
+2. make a screen recording (with sound) with [OBS (link)]({% link _resources/02-tools.md %}#screen-recording-software)
 3. install [Visual Studio Code]({% link _resources/02-tools.md %}#vscode)
 4. install [git]({% link _resources/02-tools.md %}#git)
 3. fork and clone the [workshop repository]({{ page.template_repo }})
