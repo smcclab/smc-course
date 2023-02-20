@@ -47,13 +47,6 @@ Here's a video lecture about Pd to get you started with additive synthesis.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AC7-MpwIZ8w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Go through the slides (linked above) to
-
-{% comment %}
-{% include video.html video="lecture-recordings/2021/week-2-hello-sine" %}
-https://youtu.be/AC7-MpwIZ8w
-{% endcomment %}
-
 Here are some links:
 
 - [Charles' slides about synthesis in Pd]({% link _lectures/index.md %}) 

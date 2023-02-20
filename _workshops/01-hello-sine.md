@@ -38,12 +38,16 @@ For the last 40 minutes of the workshop you will be placed into a group of 4 stu
 
 ## Resources
 
-- [installing Pd on your laptop]({% link _resources/02-tools.md %}#pure-data)
+Here's some resources to help in this lecture, if you feel like you "aren't making enough interesting sounds" _today_, don't worry too much as we will learn a lot more for the week 2 workshop, but here are some links to help extend your knowledge today:
 
+- [installing Pd on your laptop]({% link _resources/02-tools.md %}#pure-data)
 - getting started with Pd (Charles) ([YouTube](https://youtu.be/AC7-MpwIZ8w))
   (don't worry if you don't follow all of the stuff in this video---it includes
   a lot of the things we'll cover [next week]({% link
   _workshops/02-synthesis-1.md %}) as well)
+- [Charles' slides about digital synthesis in Pd]({% link _lectures/01-digital-sound-and-synthesis.md %}) 
+
+- [Charles' examples from the video](https://github.com/cpmpercussion/ComputerMusicIntro)
 
 {:.info-box}
 
