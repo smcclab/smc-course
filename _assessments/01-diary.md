@@ -10,7 +10,7 @@ template_repo: https://gitlab.cecs.anu.edu.au/laptop-ensemble/2023/SMC-2023-subm
 
 ## Outline
 
-- **Due date:** 09:00 every Monday in weeks 2--6, 8--10 
+- **Due date:** 09:00 on the day of your workshop in weeks 2--6, 8--10 
 - **Mark weighting:** 0% but required for portfolio
 - **Submission:** submit your videos & portfolio submissions according to the
   instructions below
@@ -21,11 +21,11 @@ template_repo: https://gitlab.cecs.anu.edu.au/laptop-ensemble/2023/SMC-2023-subm
 
 Your computer music diary is a way to try out sound and music computing ideas and techniques through short videos and reflections that you create each week.
 
-Each week you'll work through pre-reading, -watching, and -listening material in the workshops and respond to a creative provocation in your diary entry.
+Each week **before your workshop** you will read through the workshop material and respond to a creative provocation in your diary entry.
 
-The due date is set to Monday morning (before all workshops for the week) and in your workshop session we will watch the videos in together together to discuss the ideas you have explored.
+The due date is set to 09:00 on the morning of your workshop and in your workshop session we will watch the videos in together together to discuss the ideas you have explored.
 
-You can find the specific pre-workshop instructions on each workshop page under the heading "Pre-Workshop Tasks"
+You can find the specific pre-workshop instructions on each workshop page under the heading "Solo Diary" or "Group Diary".
 
 The rest of this page is dedicated to the technical specification for your computer music diary submissions. Make sure you read this carefully and get set up in GitLab in week 1.
 
@@ -36,7 +36,7 @@ Your computer music diary is the _main task_ you need to complete each week as p
 
 Each week's submission must include:
 
-- a 60 second video of your own work exploring the week's theme, which
+- a 60 second video of your own work exploring the week's topic, which
   - has the filename `uid-week-N.[mp4,mov,mkv]`
   - has been uploaded to the **Files** area on Teams, to the correct week folder.
   - has sound (obviously)
@@ -55,25 +55,20 @@ It doesn't matter how the files are named in your `materials/` folder, the refle
 
 It's a good idea to include a screenshot or a code snippet of the "main" thing you worked on this week in your reflection.
 
-
 ## Example {#example}
 
 As an example, for week 2 your folder structure should look something like this:
 
 ```plaintext
-├── week-2
+├── week-02
 │   ├── materials
 │   │   ├── README.md
 │   │   └── week-2.pd
-│   ├── week-2-reflection.md
+│   ├── week-02-reflection.md
 ```
 
 This might seem complicated, but we've created (blank) template files for you in
 the GitLab repo---you just need to modify them.
-
-Note: if you're _not_ willing to share your patch files & other materials with
-other LENSers, let the course convenor know asap. The default will be that
-everyone's patch files will be shared (just within this LENS cohort).
 
 ## Submission process {#weekly-videos-submission-process}
 

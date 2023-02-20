@@ -22,8 +22,9 @@ yet. Make sure you attend the lecture, and sign up for a workshop before week 1.
 
 ## Goals for this week
 
-The main purpose of the first workshop is to get software for the class up and running on everyone's laptop---because
-if you don't have that working then you won't be able to participate in this course. THe second goal is to start making some ensemble music as a group with Pd!
+The main purpose of the first workshop is to get software for the class up and running on everyone's laptop so that you are ready to submit your [first computer music diary in week 2]({% link _assessments/01-diary.md %}). The second goal is to start making some ensemble music as a group with Pd!
+
+Here's what you need to do:
 
 1. make a noise with [Pd]({% link _resources/02-tools.md %}#pure-data)
 2. make a screen recording (with sound) with [OBS (link)]({% link _resources/02-tools.md %}#screen-recording-software)
@@ -36,9 +37,14 @@ Your tutors will help you install the above software if you haven't tried it alr
 
 For the last 40 minutes of the workshop you will be placed into a group of 4 students to make a quick computer music improvisation!
 
+{:.warn-box}
+
+Remember: you need to **read and understand the [computer music diary page]({% link _assessments/01-diary.md %})**. 
+You will need to read the week 2 workshop content _before_ the workshop, complete and upload your computer music diary _before_ the workshop, **then** attend the workshop.
+
 ## Resources
 
-Here's some resources to help in this lecture, if you feel like you "aren't making enough interesting sounds" _today_, don't worry too much as we will learn a lot more for the week 2 workshop, but here are some links to help extend your knowledge today:
+Here's some resources to help in this workshop, if you feel like you "aren't making enough interesting sounds" _today_, don't worry too much as we will learn a lot more for the week 2 workshop. If you _really_ want to make some more cool sounds, here are some links to help extend your knowledge:
 
 - [installing Pd on your laptop]({% link _resources/02-tools.md %}#pure-data)
 - getting started with Pd (Charles) ([YouTube](https://youtu.be/AC7-MpwIZ8w))
@@ -50,7 +56,6 @@ Here's some resources to help in this lecture, if you feel like you "aren't maki
 - [Charles' examples from the video](https://github.com/cpmpercussion/ComputerMusicIntro)
 
 {:.info-box}
-
 If you get stuck, try asking for help in the `#techsupport` channel on Teams.
 
 ## Creative Notes
