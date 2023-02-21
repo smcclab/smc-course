@@ -59,7 +59,7 @@ all aspects of the performance.
 Your ensemble performance:
 
 - **must** involve at least three LENS members (but hopefully all members of your group)
-- **must** be created with one of the computer music languages studied this semester
+- **must** be created with one of the computer music languages **studied this semester**
 - **must** be 5-7 minutes in length
 - **must** be presented at a LENS performance in the exam period
 
@@ -67,6 +67,7 @@ We'll make a video & audio recording of the performances for archival purposes a
 to put on the YouTube channel.
 
 {:.info-box}
+
 You will perform a concert with the members of your group. Each group member must present their own work and be prepared to participate in everybody else's piece.
 
 ### Performance materials
@@ -82,9 +83,12 @@ Your performance materials:
 The primary part of your performance materials is the PDF uploaded to Wattle. We _may_ check your Gitlab repository if further information is required about your performance, but basically your work should be represented clearly in your PDF file.
 
 {:.info}
+
 Please use good judgement about the size of media files you upload to GitLab. It's ok if you _need_ to upload large files (e.g., up to 100MB or so), but better if you can keep sound files smaller.
 
-{:.warn} The performance materials due date is the same for everybody in the class, but may be before your performance. Your readme PDF upload needs to be finalised by the due date, but you may make changes to your gitlab repository up to your performance day.
+{:.warn-box} 
+
+The performance materials due date is the same for everybody in the class, but may be before your performance. Your readme PDF upload needs to be finalised by the due date, but you may make changes to your gitlab repository up to your performance day.
 
 ## Process {#submission-process}
 

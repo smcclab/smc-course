@@ -82,7 +82,7 @@ Any communication in this course will happen over one of two channels:
 If you need to ask a question about the course, here's how to do it:
 
 - Ask on the Teams channel, and any of the course staff or students will be able to help you.
-- We prefer public posts, not direct messages. If you need to get a particular person's attention, `@` them in the main chat.
+- Use public posts, not direct messages. If you need to get a particular person's attention, `@` them in the main chat.
 - If you need help with a software problem, any assessment item, or just want to vent, see above, we're here for it :-)
 - Extensions are handled through a special website, see below.
 - If you need to get in touch with the course convenor directly to discuss a private matter (and it really is private): firstname.lastname@anu.edu.au
