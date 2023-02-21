@@ -25,14 +25,6 @@ broadly, we follow Edgard Varese's idea of music as ["organised sound"](https://
 
 today we look at methods for _organising_ sound in time, allowing us to start to define compositions
 
-## _Slope_ is the key
-
-`/` + `\` 
-
-In programming we are used to having _static_ variables
-
-Now we want _dynamic_ numbers that are _scheduled_ to change in specific ways.
-
 ## Shaping a note
 
 What defines a "note"?  A beginning, an end, and a shape over time.
@@ -41,7 +33,17 @@ What defines a "note"?  A beginning, an end, and a shape over time.
 
 The shape can be made by changing amplitude, but in computer music we can adjust other properties as well.
 
+## _Slope_ is the key
+
+`/` + `\` 
+
+In programming we are used to having _static_ variables
+
+Now we want _dynamic_ numbers that are _scheduled_ to change in specific ways.
+
 ## shapes over time
+
+![]({% link assets/lectures/pd-line.png %}){:style="width:55%;float:right"}
 
 `line`, `line~`, `vline` and `vline~`
 
@@ -63,30 +65,67 @@ Objects with a `~` in the title, output or operate with audio connections. Those
 
 ## line and `line~`
 
+![]({% link assets/lectures/pd-smooth-volume.png %}){:style="width:40%;float:right"}
+
 - `line`: outputs numbers as _messages_ at a (default) rate of one ever 20ms (slow!)
 - `line~`: outputs an audio rate signal.
 
 If you make a volume control with `line` you will have audible clicks as the volume changes 50 times per second. You need to use `line~` for smooth sounding control over audio.
 
-## `vline~`
+## An envelope has more than one slope!
 
-combining `vline~` and `*~` turns the sound up and down to shape a note.
+![]({% link assets/lectures/adsr.png %}){:style="width:40%;float:right"}
 
-![]({{site.baseurl}}/assets/digital-synthesis/pd-envelope.png)
+Note envelopes typically have:
+
+- _A_: an attack phase (ramp up)
+- _R_: a release phase (ramp down)
+
+You can add some extra phases:
+
+- _D_: decay (ramp down a **bit** just after attack)
+- _S_: sustain (don't ramp for the note duration)
+
+You could call the whole thing an "ADSR" envelope.
+
+## `vline~`: deluxe `line~`
+
+![]({% link assets/digital-synthesis/pd-envelope.png%}){:style="width:30%;float:right"}
+
+`vline~` can be programmed with a comma-separated sequence of ramps of the form `value ramp-time initial-delay`
+
+- this lets you schedule all the phases of an envelope in one message
+- `0 1000 10` means "ramp to 0 over 1000ms after 10ms"
+- the ramp starts from wherever it was previously
+- note that all the ramps are scheduled from the starting point
+- you should combine `vline~` with `*~` to turn the sound up and down to shape a note.
 
 ## vline envelope
 
-![]({{site.baseurl}}/assets/digital-synthesis/pd-using-vline.png){:style="width:80%;"}
+![]({{site.baseurl}}/assets/digital-synthesis/pd-using-vline.png){:style="width:50%;"}
 
-## Exercise:
+Source: Puckette, M. [Theory and Technique of Electronic Music (2007).](http://msp.ucsd.edu/techniques.htm)
 
-Make an modulation or subtractive synth with an envelope generator.
+## Try it:
+
+> Create an envelope generator with `vline~` in Pd with a sound source you have already created.
 
 Make sure you know how to use get **help** about an object by right-clicking (or
 control-click).
 
 You might want to try the `metro` object to generate a sequence of "bangs" to
 keep triggering your envelope generator.
+
+# Sequencing
+
+
+
+## `delay` and `metro`
+
+`delay` is an object that repeats whatever message it receives after a certain number of milliseconds.
+
+N.B., `delay` is _not_ an audio delay, these work differently.
+
 
 # Modulation
 

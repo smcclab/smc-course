@@ -72,3 +72,7 @@ ways of controlling the synthesis infrastructure that's already there.
 - since you're starting with someone else's work, think about what _they_ might
   consider their patch's interface to be? can you do something with their patch
   which might really surprise them?
+
+### Videos and Sound
+
+- [Adam Parkinson and Atau Tanaka: 4 Hands iPhone](https://youtu.be/jkXAFP9IGV0)

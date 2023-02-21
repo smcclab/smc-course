@@ -16,3 +16,14 @@ It's another group week! Get organised early so that you can find a time to work
 ## Resources
 
 ## Creative Notes
+
+### Videos and Sounds
+
+- [Volca Drum Techno Session](https://youtu.be/Io4cAqBeT_M)
+
+- [Sam Aaron live coding an ambient electro set w/ Sonic Pi](https://youtu.be/G1m0aX9Lpts)
+
+- [DJ_Dave & Char Stiles Livecoding Performance @ Algowave Algorave](https://youtu.be/7qfCeIgtllY)
+
+- [Algorave: algorithmic dance culture Alex McLean TEDxHull](https://youtu.be/nAGjTYa95HM)
+
