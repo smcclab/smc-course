@@ -118,30 +118,112 @@ keep triggering your envelope generator.
 
 # Sequencing
 
+![]({% link assets/lectures/pd-sequenced-music.png %}){:style="width:30%;float:right"}
 
+_Sequencing_ in electronic music means scheduling events (e.g., notes) to happen in the future.
 
+A composition represented in music notation (sheet music) is like a schedule for a musician showing them which note to play, and when in time.
+
+In Pd, there are lots of ways to represent scheduling information (arrays, text files, long message boxes).
+
+If you were patient enough you can use the tools you have already to organise a whole composition, just like _Poeme Electronique_
+ 
 ## `delay` and `metro`
 
-`delay` is an object that repeats whatever message it receives after a certain number of milliseconds.
+![]({% link assets/lectures/pd-delay-metro.png %}){:style="width:30%;float:right"}
+
+- `delay` is an object that repeats whatever message it receives after a certain number of milliseconds.
 
 N.B., `delay` is _not_ an audio delay, these work differently.
 
+- `metro` emits a bang regularly after a certain number of milliseconds.
+
+N.B., you have to _start_ a `metro` by sending it a 1 or connecting it to a toggle box.
+
+{% include slides/background-image.html image="lectures/cone-trees-wyCLULw34uQ-unsplash.jpg" heading="Step Sequencers" %}
+
+One style of sequencer divides time into a number of equal divisions or [steps](https://en.wikipedia.org/wiki/Music_sequencer#Step_sequencers) (e.g., 16) with zero or more musical events occurring at each step.
+
+The sequence then repeats over and over again.
+
+This is how most _drum machines_ work; it's a convenient way to make loop-based music.
+
+{% include slides/image-credit.html
+   title="Photo by Cone Trees on Unsplash"
+%}
+
+## Counters and Select
+
+![]({% link assets/lectures/pd-counter-select.png %}){:style="width:30%;float:right"}
+
+- We need a counter to make a step sequencer
+- You can make one in pd with `metro`, `f` (a nameless float variable) and `+ 1`
+- The trick: the right inlet of `f` _sets_ its value but doesn't send anything to the output.
+- The left inlet of `f` can receive a bang to spiit out the output.
+- `select` lets us route different actions based on a number (like `switch` in many programming languages)
+
+(one more trick here: `s` and `r`)
+
+## A basic step sequencer
+
+![]({% link assets/lectures/pd-step-sequencer.png %}){:style="width:50%;float:right"}
+
+What's new here?
+
+- `spigot`, only passes messages if right inlet is set to 1
+- set "send" symbol in properties of buttons
+- use subpatch (`pd ...`) to hide counter logic
+- basic bass drum synth (AR envelope controls frequency _and_ amplitude of an `osc~`)
+
+Even better: hide drum synth in sub-patch, use graph-on-parent to hide sequencer logic _except_ for toggle boxes.
 
 # Modulation
 
-The idea of modulation is to change a parameter of a _ugen_ in time.
+- idea: change the parameter of a _ugen_ in time
 
-We can do this by running the output of a ugen into a different ugen.
+- usually modulation means to change it "regularly", not every now and then like an envelope
+
+- we can do this by running the output of a ugen into a different ugen.
+
+## Modulation Effects: Vibrato and Tremolo
+
+![]({% link assets/lectures/pd-vibrato-tremolo.png %}){:style="width:50%;float:right"}
 
 Let's make some digital effects, vibrato and tremolo.
 
-![]({% link assets/digital-synthesis/pd-vibrato-tremolo.png %})
+- Connect a (slow) `osc~` to the input of another `osc~`, need to do some maths to convert the output range (-1, 1) to something useful (e.g., 437-443)
+
+- Connect a (slow) `osc~` to the volume control, similarly change the output range.
+
+- You could call the "sounding" osc the _carrier_ and the not-sounding osc the _modulation_ oscillator.
 
 ## Modulation Synthesis
 
 What if the "vibrato" was **really** fast? Like in the audio range?
 
-![]({% link assets/digital-synthesis/pd-fmsynth.png %})
+We actually end up changing the _timbre_ of the sound.
+
+You can think of it as modifying the frequency domain.
+
+We can use this to make interesting sounds _without_ lots of oscillators for additive synthesis.
+
+## Amplitude Modulation: AM Synthesis
+
+![]({% link assets/lectures/pd-am-synthesis.png %}){:style="width:50%;float:right"}
+
+AM synthesis results in _two tones_.
+
+The original spectrum is shifted up and down by the modulation frequency.
+
+This is called "ring modulation" and the metallic sound is quite striking.
+
+## Frequency Modulation: FM Synthesis
+
+![]({% link assets/digital-synthesis/pd-fmsynth.png %}){:style="width:50%;float:right"}
+
+FM Synthesis results in... _complicated sounds_...
+
+
 
 # Effects
 
