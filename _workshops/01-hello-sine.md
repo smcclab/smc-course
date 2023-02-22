@@ -30,8 +30,10 @@ Here's what you need to do:
 2. make a screen recording (with sound) with [OBS (link)]({% link _resources/02-tools.md %}#screen-recording-software)
 3. install [Visual Studio Code]({% link _resources/02-tools.md %}#vscode)
 4. install [git]({% link _resources/02-tools.md %}#git)
-3. fork and clone the [workshop repository]({{ page.template_repo }})
-4. start making some ensemble music.
+5. fork and clone the [workshop repository]({{ page.template_repo }})
+6. make sure you can access the course Team, make a post introducing yourself in the channel for your workshop.
+7. post about any issues you might have had installing software in the `techsupport` channel on the course Team.
+8. start making some ensemble music.
 
 Your tutors will help you install the above software if you haven't tried it already and make the OBS recording. 
 

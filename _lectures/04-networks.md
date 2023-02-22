@@ -190,3 +190,11 @@ Or why networked music is NOT doomed.
 
 ![]({% link assets/lectures/network/network-music-making67.jpg %})
 
+## Collaborative Pd Systems
+
+Control sharing vs audio sharing.
+
+- [netpd (2013) Roman Haefeli](https://www.netpd.org/netpd-lac2013-paper.pdf)
+
+- 
+
