@@ -219,26 +219,81 @@ This is called "ring modulation" and the metallic sound is quite striking.
 
 ## Frequency Modulation: FM Synthesis
 
-![]({% link assets/digital-synthesis/pd-fmsynth.png %}){:style="width:50%;float:right"}
+![]({% link assets/lectures/pd-fm-synth.png %}){:style="width:50%;float:right"}
 
-FM Synthesis results in... _complicated sounds_...
+- Three parameters: _C_ the carrier frequency, _M_ the modulation frequency and _D_ the depth of modulation.
+
+- FM Synthesis results in extra frequencies appearing above and below the carrier frequency at multiples of the modulation frequency.
+
+- All three sliders change the timbre. (could be bad - why?)
+
+## Better FM Synthesis
+
+![]({% link assets/lectures/pd-better-fm.png %}){:style="width:50%;float:right"}
+
+Better to have timbre separate from (fundamental) pitch. We want the shape of the spectrum to stay the same as we change carrier frequency.
+
+- In practice, define harmonicity $H = M/C$ and index $I = D/M$
+
+- If $H$ is rational, tend to get _harmonic_ sounds ($H = 2$ has odd harmonics and sounds kindof like a clarinet)
+
+- If $H$ is irrational, we get dense inharmonic spectra, good for gongs or sound effects.
+
+## Phase Modulation
+
+![]({% link assets/lectures/pd-phase-mod.png %}){:style="width:50%;float:right"}
+
+In practice, many "FM" algorithms actually use _phase modulation_ 
+
+Note in the patch that the carrier oscillator is split up into a `phasor~` and `cos~` operator.
+
+...it boils down to the same effect.
+
+_PM_ implementation works better in a multiple-operator context, e.g., Yamaha DX7 and Korg Volca FM have 6-oscillators that can be interconnected in different ways (why?)
 
 
+{% include slides/background-image.html image="lectures/yeh-che-wei-pw8i1n7Jt20-unsplash.jpg" heading="Effects" %}
 
-# Effects
+We have timbre and notes, but what else can we use?
 
-## Reverb?
+Synths can sound better with a bit of _processing_ of the output sound.
 
-![]({% link /assets/digital-synthesis/pd-reverb.png %}){: style="width:50%;
+We can emulate an acoustic space (smooth out the sound), get the sound a bit _dirty_ with distortion/clipping, or modify the amplitude to help mix things together.
+
+## Delay (the audio kind)
+
+![]({% link assets/lectures/pd-delread.png %}){: style="width:50%;float:right;" }
+
+To _delay_ some audio means to hold it back from playing for a certain amount of time.
+
+- use `delwrite~` to define a delay line (of a certain length in milliseconds), and send audio into it
+
+- use `delread~` to get audio out of the delay line at any point.
+
+imagine rolling marbles down a pipe and cutting a hole in it to access ones you rolled down previously... (kind of).
+
+typical "delay" effects probably have controls for _delay time_, _feedback_, _effect volume_ and _direct volume_.
+
+- sometimes we call the non-effected sound _dry_ and the effected sound _wet_
+
+## Reverb
+
+![]({% link assets/digital-synthesis/pd-reverb.png %}){: style="width:50%;
 float: right;" }
 
-What's reverb?
+Reverberation is (more or less) lots of little echoes in a room or space that add up to smear out a sound.
 
-Can we simulate it?
+- We can simulate this with delays!
 
-## Distortion?
+- This one is borrowed from `G08.reverb.pd`.
 
-![]({% link /assets/digital-synthesis/pd-distortion.png %}){: style="width:50%;
+- There's also `rev2~` and `rev3~` included in Pd that have early reflections and other niceties.
+
+There's a _completely different_ approach to reverb using _convolution_, but that's another story.
+
+## Distortion
+
+![]({% link assets/digital-synthesis/pd-distortion.png %}){: style="width:50%;
 float: right;" }
 
 Distortion is when a signal is "clipped" resulting in _undesirable_ extra
@@ -251,12 +306,40 @@ Are they really undesirable?
 2. clip! Either with `clip~` (hard clipping) or the `tanh` function (soft
    clipping).
 
-## Compression?
+## Compression
 
-![]({% link /assets/digital-synthesis/pd-compression.png %}){: style="width:50%;
+![]({% link assets/digital-synthesis/pd-compression.png %}){: style="width:50%;
 float: right;" }
 
 A compressor turns down the volume if a signal rises above a threshold.
+
+- useful to mix sounds of different volumes 
+- or to help amplify a quieter sound without getting surprised by sudden increases in volume.
+
+
+## Filters
+
+
+![]({% link assets/digital-synthesis/pd-filter.png %}){: style="width:40%;float:right;"}
+
+Filters "remove" parts of a sound that correspond to certain frequencies.
+
+- `lop~`: low-pass filter, `hip~`: high-pass filter, `bp~`: band-pass filter.
+
+- `vcf~` is a low-pass filter designed to be dyanmically controlled (e.g., with an envelope)
+
+- `bob~` is almost the same as `vcf~` but specifically modelled on filters in Moog analogue synths.
+
+Lots of filters---Must be important.
+
+## Shaping a sound with filters
+
+![]({% link assets/digital-synthesis/pd-subtractive-chime.png %}){:style="width:60%;
+float:right;"}
+
+1. Start with `noise~`
+2. Add filters to remove lots of sound
+3. Profit!
 
 ## Exercise:
 
