@@ -10,8 +10,7 @@ image_alt: Photo by Charles Martin
 
 ## What's this?
 
-![]({% link /assets/algocomp/formalized-music.jpg %}){: style="width:25%; float:
-right;" }
+![]({% link assets/algocomp/formalized-music.jpg %}){: style="width:25%; float:right;" }
 
 Algorithmic composition: using a program to make choices for musical parameters
 (e.g., pitch, rhythm, timbre).
@@ -20,8 +19,7 @@ Existed since before computers...
 
 ## A few extra objects...
 
-![]({% link /assets/algocomp/control-objects.png %}){: style="width:50%; float:
-right;" }
+![]({% link assets/algocomp/control-objects.png %}){: style="width:50%; float:right;" }
 
 there's a few useful control objects in the put menu.
 
@@ -31,8 +29,7 @@ you can encapsulate something complicated in a `pd` object (aka a subpatch).
 
 ## Random Numbers
 
-![]({% link /assets/algocomp/random-notes.png %}){: style="width:50%; float:
-right;" }
+![]({% link assets/algocomp/random-notes.png %}){: style="width:50%; float:right;" }
 
 you can use `random` numbers to create pitches.
 
@@ -43,8 +40,7 @@ want to trigger different things randomly? try `select`
 
 ## Rhythms with Metro
 
-![]({% link /assets/algocomp/metro-and-random.png %}){: style="width:30%; float:
-right;" }
+![]({% link assets/algocomp/metro-and-random.png %}){: style="width:30%; float:right;" }
 
 we can schedule repeating notes with `metro`
 
@@ -52,21 +48,19 @@ you have to supply the number of milliseconds in between bangs.
 
 ## Making a Composition with Random
 
-![]({% link /assets/algocomp/random-composition.png %}){: style="width:80%;" }
+![]({% link assets/algocomp/random-composition.png %}){: style="width:80%;" }
 
 ## Using Scales
 
-![]({% link /assets/algocomp/scale-maker.png %}){: style="width:70%; text-align:
-center;" }
+![]({% link assets/algocomp/scale-maker.png %}){: style="width:70%; text-align:center;" }
 
 ## Composing with Scales
 
-![]({% link /assets/algocomp/fmcomp.png %}){: style="width:100%; float: right" }
+![]({% link assets/algocomp/fmcomp.png %}){: style="width:100%; float: right" }
 
 ## Controlled Randomness
 
-![]({% link /assets/algocomp/weighted-random.png %}){: style="width:30%; float:
-right" }
+![]({% link assets/algocomp/weighted-random.png %}){: style="width:30%; float:right" }
 
 Suppose you want to take one action 20% of the time, and another 80% of the
 time?
@@ -77,8 +71,7 @@ This extends to more weighted decisions if you want.
 
 ## Markov Process
 
-![]({% link /assets/algocomp/markov-sequence.png %}){: style="width:75%; float:
-right" }
+![]({% link assets/algocomp/markov-sequence.png %}){: style="width:75%; float:right" }
 
 What about having a different weighted decision depending on what the last
 decision was?
@@ -97,7 +90,7 @@ left" }
     <source data-src="{% link /assets/algocomp/faderjam-demo.mp4 %}" type="video/mp4"/>
 </video>
 
-![]({% link /assets/algocomp/faderjam-action.jpg %}){: style="width:25%; float:
+![]({% link assets/algocomp/faderjam-action.jpg %}){: style="width:25%; float:
 left" }
 
 ## Further directions...

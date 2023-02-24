@@ -37,11 +37,10 @@ Your computer music diary is the _main task_ you need to complete each week as p
 Each week's submission must include:
 
 - a 60 second video of your own work exploring the week's topic, which
-  - has the filename `uid-week-N.[mp4,mov,mkv]`
+  - has the filename `uid-week-N.[mp4,mov,mkv]`, e.g., `u1234567-week-3.mp4`
   - has been uploaded to the **Files** area on Teams, to the correct week folder.
   - has sound (obviously)
-  - uses one of the [computer music software environments we're covering in this
-    course]({% link _resources/02-tools.md %}#software)
+  - uses one of the [computer music software environments we're covering in this course]({% link _resources/02-tools.md %}#software)
 
 - all files (e.g., patches, source code files, sound files &
   other assets) required to re-produce your submission (in a subfolder called
@@ -55,7 +54,29 @@ It doesn't matter how the files are named in your `materials/` folder, the refle
 
 It's a good idea to include a screenshot or a code snippet of the "main" thing you worked on this week in your reflection.
 
-## Example {#example}
+### Example Teams Upload {#teams}
+
+Here's an example of how to upload the file in Teams, you can find step-by-step instructions below.
+
+![An example of how to drag a file into the Teams interface]({% link assets/teams-upload-example.png %})
+
+1. record your video file.
+
+2. change the name of your recorded file ot `uid-week-N.[mp4,mov,mkv]`, e.g., `u1234567-week-3.mp4`
+
+3. open Teams and go to the "SMC 2023 Team" and click the "General" channel in the sidebar.
+
+4. click "Files" on the tab bar at the top
+
+5. click the "diary-submissions" folder
+
+6. click the correct diary week folder, e.g., "diary-week-02"
+
+7. drag your video file in there, you should see a bunch of other video files from other students (unless you are the first one!)
+
+Please follow these steps carefully as we need your video to be in the right place to play it back correctly in the workshop.
+
+### Example GitLab Structure {#example}
 
 As an example, for week 2 your folder structure should look something like this:
 
