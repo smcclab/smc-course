@@ -15,7 +15,7 @@ template_repo: https://gitlab.cecs.anu.edu.au/laptop-ensemble/2023/SMC-2023-subm
 - **Submission:** submit your videos & portfolio submissions according to the
   instructions below
 - **Policies:** late submissions not accepted without an extension.
-- **GitLab Repo:** [link]({{ page.template_repo }})
+- **GitLab Template Repo:** [link]({{ page.template_repo }})
 
 ## Description
 
