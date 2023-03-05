@@ -284,12 +284,13 @@ imagine rolling marbles down a pipe and cutting a hole in it to access ones you 
 
 ## Delay Effect Parameters
 
+![A typical digital delay pedal]({% link assets/lectures/digital-delay.jpg %}){: style="width:35%;float:right;" }
+
 typical "delay" effects probably have controls for: 
 
-- _delay time_, 
-- _feedback_, 
 - _effect volume_ 
-- _direct volume_.
+- _feedback_
+- _delay time_
 
 sometimes we call the non-effected sound _dry_ and the effected sound _wet_
 
