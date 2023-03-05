@@ -50,6 +50,7 @@ Your submission:
 You should **not**:
 
 - Use music software / programming systems that are not used in the course.
+- Use external hardware controllers/sequencers/sound sources (apart from your computer keyboard and mouse) to control your piece.
 - Mix multiple recordings or create layers in video editing software.
 - Upload a 10 minute recording; you only get 3.5 minutes maximum.
 
