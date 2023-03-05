@@ -45,7 +45,7 @@ Now we want _dynamic_ numbers that are _scheduled_ to change in specific ways.
 
 ![]({% link assets/lectures/pd-line.png %}){:style="width:55%;float:right"}
 
-`line`, `line~`, `vline` and `vline~`
+`line`, `line~`, and `vline~`
 
 - `line` is a slope generator
 - You provide it with a destination (a number) and a time (in ms) and it changes it's output over time.
@@ -63,6 +63,16 @@ Message processing is [interleaved with block processing](https://msp.puredata.i
 
 Objects with a `~` in the title, output or operate with audio connections. Those without `~` are the message variants.
 
+## Message boxes vs Object boxes
+
+We're starting to get serious with our Pd programming so make sure you understand the difference!
+
+- object boxes (rectangular) set out different Pd objects. First word is the object, other words are creation arguments.
+
+- message boxes (rectangular with a triangle cutout on the right side) define a _message_ to be sent (the text in the box) when the box is _activated_ by a mouse click or an incoming bang.
+
+Messages boxes are actually _programmable_: they can receive arguments and incorporate them into the message string ( `$1`, `$2`...), you can set them with messages starting with `set`. Read the _help_ patch for a message box to see some examples. 
+
 ## line and `line~`
 
 ![]({% link assets/lectures/pd-smooth-volume.png %}){:style="width:40%;float:right"}
@@ -74,7 +84,7 @@ If you make a volume control with `line` you will have audible clicks as the vol
 
 ## An envelope has more than one slope!
 
-![]({% link assets/lectures/adsr.png %}){:style="width:40%;float:right"}
+![]({% link assets/lectures/adsr.png %}){:style="width:55%;float:right"}
 
 Note envelopes typically have:
 
@@ -266,15 +276,24 @@ We can emulate an acoustic space (smooth out the sound), get the sound a bit _di
 
 To _delay_ some audio means to hold it back from playing for a certain amount of time.
 
-- use `delwrite~` to define a delay line (of a certain length in milliseconds), and send audio into it
+- `delwrite~` : define a delay line (length in milliseconds), and send audio into it
 
-- use `delread~` to get audio out of the delay line at any point.
+- `delread~` : get audio out of the delay line at any point.
 
 imagine rolling marbles down a pipe and cutting a hole in it to access ones you rolled down previously... (kind of).
 
-typical "delay" effects probably have controls for _delay time_, _feedback_, _effect volume_ and _direct volume_.
+## Delay Effect Parameters
 
-- sometimes we call the non-effected sound _dry_ and the effected sound _wet_
+typical "delay" effects probably have controls for: 
+
+- _delay time_, 
+- _feedback_, 
+- _effect volume_ 
+- _direct volume_.
+
+sometimes we call the non-effected sound _dry_ and the effected sound _wet_
+
+**Let's go do it:** make a delay effect with GUI objects for these four parameters.
 
 ## Reverb
 
@@ -306,6 +325,8 @@ Are they really undesirable?
 2. clip! Either with `clip~` (hard clipping) or the `tanh` function (soft
    clipping).
 
+Remember to boost the input gain a LOT for sweet distorted goodness.
+
 ## Compression
 
 ![]({% link assets/digital-synthesis/pd-compression.png %}){: style="width:50%;
@@ -330,7 +351,9 @@ Filters "remove" parts of a sound that correspond to certain frequencies.
 
 - `bob~` is almost the same as `vcf~` but specifically modelled on filters in Moog analogue synths.
 
-Lots of filters---Must be important.
+- and **many** more...
+
+Lots of filters---Must be important. ([read (a lot) more...](http://msp.ucsd.edu/techniques/latest/book-html/node127.html))
 
 ## Shaping a sound with filters
 
@@ -343,7 +366,13 @@ float:right;"}
 
 ## Exercise:
 
-Try adding some **effects** to your synthesiser.
+Time to add some **effects** to your synthesiser. Here are some options:
 
-Maybe you could set up a signal chain that control the level and parameters of
-each effect?
+- create a delay unit with the parameters discussed.
+
+- add a `vcf~` filter to a sawtooth oscillator. Use a second envelope to control the filter frequency.
+
+- create a really long reverb and use it with very short synth sounds (use a short attack-release envelope)
+
+- create _multiple_ effects in a signal chain and use GUI objects to control how much of each one is present in the output sound.
+
