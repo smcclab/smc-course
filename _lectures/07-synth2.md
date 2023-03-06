@@ -1,5 +1,5 @@
 ---
-title: Synthesis 2
+title: Advanced Synth Design 
 tagline: Getting deeper into sutractive and modulation synthesis
 lecturer: Dr Charles Martin
 image: assets/workshops/2013-rpi-charles-martin.jpg
@@ -7,6 +7,15 @@ image_alt: Photo by Charles Martin
 ---
 
 {% include slides/title.html %}
+
+## Outline
+
+- Filters (analogue, digital, `vcf~`, `bob~`, filter math (light)
+- Subtractive Synthesis (from phasor to Moog Model-D clone)
+- FM Synthesis (recall week 3, feedback, algorithms, operator-based design)
+- Phase Vocoder + spectral synthesis.
+
+# Filters
 
 # Subtractive Synthesis
 
@@ -16,19 +25,10 @@ Let's take a complex sound and **remove** some content.
 
 ![]({{site.baseurl}}/assets/digital-synthesis/pd-filterfm.png)
 
-## Filters and EQ
 
-Filters "remove" parts of a sound that correspond to certain frequencies.
+# FM Synthesis
 
-`lop~`: low-pass filter, `hip~`: high-pass filter, `bp~`: band-pass filter.
 
-![]({{site.baseurl}}/assets/digital-synthesis/pd-filter.png)
+# Phase Vocoder
 
-## Shaping a sound with filters
 
-![]({{site.baseurl}}/assets/digital-synthesis/pd-subtractive-chime.png){:style="width:60%;
-float:right;"}
-
-1. Start with `noise~`
-2. Add filters to remove lots of sound
-3. Profit!

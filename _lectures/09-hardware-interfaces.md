@@ -8,4 +8,7 @@ image_alt: Photo by Charles Martin
 
 {% include slides/title.html %}
 
-## Todo
+## Outline
+
+TODO
+
