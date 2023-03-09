@@ -39,6 +39,40 @@ wave.]({{site.baseurl}}/assets/digital-synthesis/envelope-sound.png){:style="wid
 
 3. to start using processing sound with more effects.
 
+4. **to get your laptop ensemble assignment for the rest of the semester!**
+
+
+### Laptop Ensemble Assignment
+
+So far you have been jamming with a new group of computer musicians each week getting to know lots of people in your workshop.
+Now that you are settled in your workshop we are going to divide you into _laptop ensembles_ that you will work with for the rest of the semester. 
+In particular, you will collaborate with this ensemble for your _laptop ensemble_ assessment, and for the two _group_ computer music diaries.
+The reason we **set** these groups now is so that you have time to get to know everybody over the two low-stakes group diaries before you need to prepare your assessment. 
+This doesn't mean you will never speak to the rest of the class (we still do randomised jams each week), just that you have your own close collaborators to learn from over the semester.
+
+Laptop Ensembles in SMC have **four or five** students in them. This means that in your workshop group of 20--25 students there will be 5 or 6 ensembles.
+Your tutors already know the number and size of each group based on the number of people in your workshop so the task in week 4 workshop is to:
+
+1. fill the ensemble groups appropriately
+2. give each laptop ensemble a name
+3. decide on a time to create and record your week 5 _group computer music diary_
+
+{:.warn-box}
+**Don't miss this workshop!** You need to be at the week 4 workshop in person to have a say in what ensemble you are assigned to. 
+If you can't make it for any reason, **use your workshop channel on Teams to talk to your tutors**, explain why you can't attend and answer their questions so that they can help put you in an appropriate group.
+If you don't actively participate in this lab and miss the next computer music diary you **will lose marks in your first portfolio** as you can't make up a group entry at the last minute.
+
+Your tutors will help fill ensembles up by following some flexible criteria:
+
+1. **ensembles should be new**: We don't want super close friends / work colleagues forming groups or to have the same group as you might have in a different class. Your laptop ensemble should be mainly people you don't know (yet!), you have the whole semester to build a great new group of computer music colleagues!
+2. **groups should show diversity**: We _do_ want to have a range of gender identities, backgrounds, academic levels (under-/post-grad), interests, and style preferences in each group. Groups should have some "note" people and some "sound" people, some people who like techno, some who like classical, some who run Linux and some who run Windows.
+3. **groups should be (a bit) comfortable**: We don't want to isolate people by putting them in a certain group. If someone looks like they will be lonely or uncomfortable we might rebalance groups so that they can have a productive experience
+4. **groups should be practical**: groups will need to start working together _this week_ so schedules and life circumstances will need to be discussed **today**. Find a time to record your group diary in the next seven days. If you can't then you won't be able to later in the semester and the group will need to change.
+
+If you have _any_ concerns about the group formation process you can let your tutor know during the workshop. If you have a concern that you don't want to make to your tutor, please email the course convenor to raise it and we can help :-)
+
+
+
 ## Resources
 
 - [Charles' Pd examples (start with `11-EnvelopeGenerator.pd`)](https://github.com/cpmpercussion/ComputerMusicIntro)
