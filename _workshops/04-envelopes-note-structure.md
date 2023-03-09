@@ -69,7 +69,8 @@ Your tutors will help fill ensembles up by following some flexible criteria:
 3. **groups should be (a bit) comfortable**: We don't want to isolate people by putting them in a certain group. If someone looks like they will be lonely or uncomfortable we might rebalance groups so that they can have a productive experience
 4. **groups should be practical**: groups will need to start working together _this week_ so schedules and life circumstances will need to be discussed **today**. Find a time to record your group diary in the next seven days. If you can't then you won't be able to later in the semester and the group will need to change.
 
-If you have _any_ concerns about the group formation process you can let your tutor know during the workshop. If you have a concern that you don't want to make to your tutor, please email the course convenor to raise it and we can help :-)
+If you have _any_ concerns about the group formation process you can let your tutor know during the workshop. 
+If you have a concern that you don't want to bring to your tutor, please email the course convenor to raise it and we can help :-)
 
 
 
