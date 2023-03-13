@@ -69,12 +69,55 @@ style="width:25%; float:right" }
 
 ![]({% link /assets/nimes/midi-message.png %}){: style="width:100%;" }
 
+## MIDI status byte
+
+MIDI messages have specific meanings defined by the [MIDI Association](https://www.midi.org/specifications-old/item/table-2-expanded-messages-list-status-bytes). The upper nibble of the status byte defines the meaning. The lower nibble defines the _channel_ that these apply to (1-16).
+
+| Status Nibble Binary | Decimal | Function                                    |
+|---------------|-----|---------------------------------------------|
+| `0b1000`        | 8   | Note Off                                    |
+| `0b1001`        | 9   | Note On                                     |
+| `0b1010`        | 10  | Polyphonic Aftertouch                       |
+| `0b1011`        | 11  | Control/Mode Change                         |
+| `0b1100`        | 12  | Program Change                              |
+| `0b1101`        | 13  | Channel Aftertouch                          |
+| `0b1110`        | 14  | Pitch Bend Change                           |
+| `0b1111`        | 15  | System Exclusive, song control, tempo, etc  |
+
+## MIDI message formats
+
+The Note on/off messsages have the same pattern of data bytes: (pitch value, velocity). 
+
+Because the top bit must be `0` for a data message, you get 7-bit resolution.
+
+Other messages have different formats, e.g., 
+
+- Pitch bend change has two data bytes combined into a 14-bit number (although most devices only use the upper 7 bits).
+ 
+- Control change (CC) messages are for non-note control data and are of the form (function, value). 
+
+
+## Control Change Messages
+
+- Some of the CC functions are specified the MIDI standard, e.g. (1) modulation wheel, (64) sustain pedal, (2) breath controller.
+
+- Many control change numbers are only partly specificed (e.g., 12 "Effect Control 1"), or "undefined" (14, 15, 20-31).
+
+- Pd isn't a "synthesiser" so doesn't respond to MIDI messages, it passes them to you to action.
+
+- Hardware interfaces will often use specific CC controls or allow you to specify them.
+
+- Hardware synths usually respond in specific (often nonstandard) ways to CC messages (you'll have to read the manual)
+
 ## MIDI in Pd
 
 ![]({% link /assets/nimes/midi-in-pd.png %}){: style="width:50%; float: right;"
 }
 
-- Note-on and -off: `notein`, `noteout`
+Pd has lots of MIDI objects for interchanging MIDI with a hardware or software port.
+
+- Raw MIDI bytes: `midiin`, `midiout`
+- Note messages: `notein`, `noteout`
 - Control changes: `ctlin`, `ctlout`
 
 ## Receiving from controllers...
@@ -184,11 +227,14 @@ microphone, etc).
 you can use `mobmuplat` or `PdParty` to run Pd patches on a mobile, and use
 these sensors for great good!
 
-## Challenge for the day:
+## Go do it:
 
 Make an `interface` to your composition/synth.
 
 You can use the MIDI keyboards, sound input, or anything else you might want.
+
+
+{% comment %}
 
 ## Real Composers
 
@@ -196,7 +242,6 @@ You can use the MIDI keyboards, sound input, or anything else you might want.
 
 [Tomie Hahn](https://www.arts.rpi.edu/~hahnt/interactive.html)
 
-Go find more!
 
 ## Mobmuplat in action
 
@@ -214,4 +259,4 @@ Fun note, you can use Pd patches in other projects using...
 - [mobmuplat](https://danieliglesia.com/mobmuplat/) - an iOS/Android app for
   performing with Pd Patches.
 
-![](https://danieliglesia.com/mobmuplat/MMP_flow1.png)
+{% endcomment %}
