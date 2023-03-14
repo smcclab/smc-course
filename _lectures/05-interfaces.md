@@ -50,15 +50,20 @@ image_alt: Photo by Charles Martin
 
 ![]({% link /assets/nimes/nime-workflow.png %}){: style="width:100%" }
 
-## MIDI
+
+# MIDI
 
 ![]({% link /assets/nimes/Synth_rack_Choking_Sun_Studio.jpg %}){:
 style="width:25%; float:right" }
+
+Default way to get information in and out of Pd
 
 - "Musical Instrument Digital Interface" (1981)
 - A way to send musical "instructions" to a synthesiser.
 - E.g., (CC BY 2.0, Blurred Ren)
 - "note on", "note off", "control change", "pitch shift", "aftertouch"...
+
+MIDI can be hardware (RS232 serial, USB, Bluetooth) or software (RTP-MIDI over a network).
 
 ## MIDI messages
 
@@ -126,20 +131,31 @@ Pd has lots of MIDI objects for interchanging MIDI with a hardware or software p
 
 ## Making MIDI notes
 
-![]({% link /assets/nimes/makenote-pd.png %}){: style="width:100%; float:
+![]({% link /assets/nimes/makenote-pd.png %}){: style="width:30%; float:
 right;" }
 
 `makenote` can handle timing for notes with duration
 
+- the three inputs are _pitch_, _velocity_, and _duration_
+- outputs are _pitch_ and _velocity_
+- after the duration, the velocity output will change to zero (for that pitch)
+
+You can combine _pitch_, _velocity_ and _duration_ in one message as shown if you want.
+
 ## A bit about lists...
 
-![]({% link /assets/nimes/list-packing-pd.png %}){: style="width:25%; float:
+![]({% link /assets/nimes/list-packing-pd.png %}){: style="width:20%; float:
 right;" }
 
 - messages in Pd can contain multiple values (as you know!)
-- you can append or prepend values to a `list`...
-- and `pack` or `split` values.
-- there's a bit of weirdness about this.
+- you can `append` or `prepend` values to a `list`...
+- `split` lists in two, or `trim` the `list` symbol
+- `pack` or `unpack` values (all at once)
+- `store` lists and then `set` or `get` certain elements
+
+There's a bit of weirdness about lists (e.g., some lists have `list` at the start to disambiguate them from ones with some other symbol). But using `$1` arguments and list packing is _crucial_ to advanced Pd patching.
+
+How else are you going to handle the 12-stage envelopes you want to create?
 
 ## Advanced list packing...
 
@@ -150,6 +166,10 @@ Use `list append` and `list prepend` to add items to a list.
 
 Good way to accumulate an envelope message, or all the parameters for a synth
 note...
+
+# Beyond MIDI... making generic network messages
+
+
 
 ## OSC (open sound control)
 
