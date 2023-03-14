@@ -3,7 +3,8 @@ title: Policies
 tagline: Expectations and rules for aspects of the course
 permalink: /policies/
 show_toc: true
-ext_app_link: https://apps.powerapps.com/play/47a1ecd3-6c23-44d7-bf39-70e3ebab3dd2?tenantId=e37d725c-ab5c-4624-9ae5-f0533e486437
+ext_app_link: http://quicklink.anu.edu.au/hsjk
+
 ---
 
 This page extends and gives further context to information on the class
