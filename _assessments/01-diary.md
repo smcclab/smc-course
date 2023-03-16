@@ -102,7 +102,7 @@ As an example, for week 2 your folder structure should look something like this:
 This might seem complicated, but we've created (blank) template files for you in
 the GitLab repo---you just need to modify them.
 
-### Extra Notes for Group Submissions {#group-weeks}
+### Extra Notes for Group Submissions {#group-diary}
 
 Two of your diary entries will be completed with _your_ laptop ensemble (assignment happens in the week 4 workshop). For these diaries the process is a little different:
 
@@ -116,6 +116,8 @@ You can create your group video in any way you choose as long as it shows all th
 - Get all the laptops on a table and record with a phone (hopefully on a tripod or stand)
 - Record all individual screens in OBS and add the videos together in some video editing software (e.g., can Canva do this?)
 - Connect all the laptops to an HDMI switcher and record the 4-up view (available in second half of the course and for final performance).
+
+For inspiration, we have some videos of past group diaries [here (2022 - Pd)](https://youtu.be/PEiIa8RfKSY) and [here (2022 - Gibber)](https://youtu.be/0C-MTrt4Ahs). 
 
 ## Submission process {#weekly-videos-submission-process}
 

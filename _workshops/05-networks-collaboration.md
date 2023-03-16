@@ -7,12 +7,21 @@ image_alt: Photo by Charles Martin
 ---
 
 {:.warn-box}
-**Group Diary**: Create a **3min** piece where every member controls a different
-aspect of the sound (note the longer duration for group diaries).
+**Group Diary**: Create a **3min** piece as a group where every member controls
+a different aspect of the sound (note the longer duration for group diaries).
+The process for creating uploading your group diary is a **bit different**,
+look on the [computer music diary]({% link _assessments/01-diary.md
+%}#group-diary) page.
 
-This is the first **group diary** and the first experience with your new "ensemble" of four or five people. Your main task this week is to start developing a way of working with your ensemble. Don't leave this to the last minute, working with people takes time.
+This is the first **group diary** and the first experience with your new
+"ensemble" of four or five people. Your main task this week is to start
+developing a way of working with your ensemble. Don't leave this to the last
+minute, working with people takes time.
 
-This is a good time to start thinking about how you could use **networks** to assist with collaboration by sending information in between the individual laptops in a laptop ensemble. This could involve audio and video data (e.g., connecting via Zoom, Teams, or other tools) or _control_ data.
+This is a good time to start thinking about how you could use **networks** to
+assist with collaboration by sending information in between the individual
+laptops in a laptop ensemble. This could involve audio and video data (e.g.,
+connecting via Zoom, Teams, or other tools) or _control_ data.
 
 Network connections are used to connect musicians together from different
 locations, to connect devices together in one studio, and to connect different
@@ -39,10 +48,17 @@ different tools) when sending them over the network, so this week's
 
 N.B.: option two **could** involve using hi-tech network connections, **or** could involve lo-tech collaborative solutions, or could be in the middle. In any case you will have to use some creativity to develop a collaboration workflow that works for your group.
 
+{:.info-box}
+
+For inspiration, we have some videos of past group diaries [here (2022 - Pd)](https://youtu.be/PEiIa8RfKSY) and [here (2022 - Gibber)](https://youtu.be/0C-MTrt4Ahs). 
+As you can see, there are lots of different ways of accomplishing a collaborative 3-minute diary, you need to work out the best method to suit your group's interests.
+
+
 ## Resources {#resources}
 
-- Charles' 2020
-  [presentation on network music making](https://youtu.be/1J7EAu5g5zw)
+- Network music lecture [notes]({% link _lectures/04-networks.md %})
+
+- Charles' 2020 [presentation on network music making](https://youtu.be/1J7EAu5g5zw)
 
 - [Network Music (Cambridge Companion to Electronic Music)](https://www-cambridge-org.virtual.anu.edu.au/core/services/aop-cambridge-core/content/view/C2A04A1DAE6EDE05909CF97DFEAD8B86/9781316459874c8_p138-153_CBO.pdf/network_music.pdf)
 
