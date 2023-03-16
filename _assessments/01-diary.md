@@ -102,6 +102,21 @@ As an example, for week 2 your folder structure should look something like this:
 This might seem complicated, but we've created (blank) template files for you in
 the GitLab repo---you just need to modify them.
 
+### Extra Notes for Group Submissions {#group-weeks}
+
+Two of your diary entries will be completed with _your_ laptop ensemble (assignment happens in the week 4 workshop). For these diaries the process is a little different:
+
+1. you upload a _single video_ as a group with the file name `GXX-week-N.mp4`, where `XX` is your group ID number (01-16) you will be able to find your group ID in the group list for your lab. For example if you are in group 04 and it's the week 5 diary, your file should be called `G04-week-5.mp4`.
+
+2. You upload an individual reflection on the group diary creation experience in the same manner as other weeks. Make sure you refer to how collaboration assisted with your diary creation.
+
+You can create your group video in any way you choose as long as it shows all the contributions of indivudal people (their screens) and we can hear each individual performer in the video. Here's some examples:
+
+- Do a big Zoom/Teams call with each member and one person records it (make sure sound comes through)
+- Get all the laptops on a table and record with a phone (hopefully on a tripod or stand)
+- Record all individual screens in OBS and add the videos together in some video editing software (e.g., can Canva do this?)
+- Connect all the laptops to an HDMI switcher and record the 4-up view (available in second half of the course and for final performance).
+
 ## Submission process {#weekly-videos-submission-process}
 
 1. record your video (use [OBS Studio](https://obsproject.com)
