@@ -119,6 +119,14 @@ You can create your group video in any way you choose as long as it shows all th
 
 For inspiration, we have some videos of past group diaries [here (2022 - Pd)](https://youtu.be/PEiIa8RfKSY) and [here (2022 - Gibber)](https://youtu.be/0C-MTrt4Ahs). 
 
+{:.warn-box}
+The group diaries require you to organise with your group to find a time, place, and method of creating your group diary.
+It's really important to show up and communicate with your group.
+You are (collectively) responsible for making the group work, it's not acceptable to ignore or exclude a group member even if they seem to be the one not showing up. Please do everything you can to get everybody involved but it needs to be positive communication and not [harrassment](({% link 01-policies.md %}#code-of-conduct). 
+If a group member ends up not participating despite your efforts, please let your tutors know.
+Similarly if you feel excluded or uncomfortable in a group, please let your tutors know privately.
+
+
 ## Submission process {#weekly-videos-submission-process}
 
 1. record your video (use [OBS Studio](https://obsproject.com)
