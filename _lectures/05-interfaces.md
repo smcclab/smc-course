@@ -85,16 +85,42 @@ _interfaces_ can be based in hardware as well:
 
 # Software Interfaces
 
+![some software GUI interfaces]({% link assets/lectures/interfaces/computermusic-screen.jpg %}){: style="width:60%"}
+
 
 ## Pd GUI Objects
 
-- `vslider`, `hslider`
+![the GUI objects in Pd]({% link assets/lectures/interfaces/pd-gui-objects.png %}){: style="width:40%;float:right"}
 
-TODO
+- Buttons: `bang`, `toggle`, `message`
+- Sliders/Faders: `vslider`, `hslider`
+- Selectors: `Vradio`, `Hradio`
+- Documentation: `comment`, labels on other objects.
+
+Try right-clicking sliders, bang or toggle to customise size, change colour, add labels.
 
 ## Subpatches and Graph-on-Parent
 
-TODO
+![basic and advanced sub patches in Pd]({% link assets/lectures/interfaces/pd-subpatch.png %}){: style="width:30%;float:right"}
+
+To make sufficiently complicated Pd programs "neat", you need to use subpatches and/or define your own objects.
+
+- **Subpatch**: type `pd` and then the name for an object
+- **Own object**: save a patch as a separate `pd` file, e.g., `charlespatch.pd`, then insert in another patch with it's filename: `charlespatch`.
+
+Use `inlet`, `inlet~`, `outlet`, `outlet~` to get information in and out, and `$0` to uniquely identify.
+
+Use "graph-on-parent" (right-click properties) to make parts of a patch show up on the parent.
+
+## Cool Pd Interfaces are Good
+
+![a cool pd interface]({% link assets/lectures/interfaces/xtouch-interface.png %}){: style="width:45%;float:right"}
+
+It's worth spending time on your Pd interfaces!
+
+Clear and refined interfaces help _others_ use your creativity support tools.
+
+This is crucial for _ensemble performance_.
 
 ## Interface in Processing
 
@@ -112,7 +138,7 @@ Use graph-on-parent and subpatching to hide the DSP components, lets see the sli
 
 # Hardware Interfaces
 
-
+![students with hardware interfaces]({% link assets/photos/2019-laptop-setup.jpg %}){: style="width:60%"}
 
 ## Human Interface Devices in Pd
 
