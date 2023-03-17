@@ -46,6 +46,9 @@ different tools) when sending them over the network, so this week's
 2. with your group, design and carry out a collaboration workflow which allows
    you to deliver a **3min** diary entry by the week 5 workshop slot
 
+3. **share** some sound-making patches on your workshop's Teams channel so that
+   you will be able to complete the week-6 workshop! (required!)
+
 N.B.: option two **could** involve using hi-tech network connections, **or** could involve lo-tech collaborative solutions, or could be in the middle. In any case you will have to use some creativity to develop a collaboration workflow that works for your group.
 
 {:.info-box}
