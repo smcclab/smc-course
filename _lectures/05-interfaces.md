@@ -21,6 +21,11 @@ But how do we control any of it?
 
 {% include slides/background-image.html image="lectures/interfaces/vienna-acousmonium.jpg" heading="No performers: The Acousmonium (not in this class!)" %}
 
+{% include slides/background-image.html image="lectures/interfaces/stockhausen-poster.jpg" heading="There is always an interface!" bgsize="contain" %}
+
+Someone always has to press "play".
+
+What kinds of interfaces are there? 
 
 ## Software Interfaces
 
@@ -41,8 +46,17 @@ _interfaces_ can be based in hardware as well:
 - custom HID: microcontroller (e.g., MicroBit or Arduino) plus sensors
 - separate interface computer: Raspberry Pi or smart phone with custom hardware/software communicating over a network connection
 
+## NIME community
 
-{% include slides/background-image.html image="lectures/interfaces/stockhausen-poster.jpg" heading="There is always an interface!" bgsize="contain" %}
+"New Interfaces for Musical Expression": <https://nime.org>
+
+- ...new kinds of musical instruments...
+- ...new kinds of music making...
+- ...and new kinds of music?
+
+![]({% link /assets/nimes/nime.jpg %}){: style="width:80%" }
+
+
 
 {% include slides/background-image.html
            image="nimes/arduino-heartbeat.jpg"  %}
@@ -69,17 +83,55 @@ _interfaces_ can be based in hardware as well:
 {% include slides/background-image.html
            image="nimes/mad_interface.jpg"  %}
 
-## The [NIME community](https://nime.org)
+# Software Interfaces
 
-- ...new kinds of musical instruments...
-- ...new kinds of music making...
-- ...and new kinds of music?
 
-![]({% link /assets/nimes/nime.jpg %}){: style="width:100%" }
+## Pd GUI Objects
 
-## Typical NIME workflow...
+- `vslider`, `hslider`
 
-![]({% link /assets/nimes/nime-workflow.png %}){: style="width:100%" }
+TODO
+
+## Subpatches and Graph-on-Parent
+
+TODO
+
+## Interface in Processing
+
+## Custom Live Code Interfaces
+
+e.g., low level Python 
+
+
+## Go do it in software
+
+Make a a Pd software `interface` for a composition composition/synth.
+
+Use graph-on-parent and subpatching to hide the DSP components, lets see the sliders!
+
+
+# Hardware Interfaces
+
+
+
+## Human Interface Devices in Pd
+
+
+
+## Interfacing with audio...
+
+![]({% link /assets/nimes/fiddle-bonk-pd.png %}){: style="width:50%; float:
+right;" }
+
+- easy way to get some NOISE into your system, try interfacing with audio.
+- pitch detection: `fiddle`
+- onset detection: `bonk`
+- try with voice, contact microphones, input from other performers, mix-down of
+  the performance.
+
+## Camera and Wekinator
+
+[Wekinator](https://wekinator.org)
 
 
 ## Connecting interfaces
@@ -92,35 +144,10 @@ right;" }
 - digital mixing desks and other equipment sometimes uses OSC over _ethernet_
 - some DIY interfaces use _serial over USB_
 
-## Connecting ensembles...
 
-![]({% link /assets/nimes/LPN-vs-EDA.png %}){: style="width:50%;" }
+## NIME Microcontroller Workflow...
 
-## Local connections
-
-- MIDI-over-network: `RTP-MIDI` (easy in MacOS)
-- OSC connections (need to specify IP addresses...)
-- OSC messages to broadcast addresses (e.g., _192.168.255.255_ - not always
-  allowed by library/router)
-
-Need to use local router or wired connections...
-
-## Server solutions
-
-- Run one computer as "server" to look after ensemble
-- Run a virtual server or web service on the internet to look after ensemble
-  (hard mode)
-
-## Interfacing with audio...
-
-![]({% link /assets/nimes/fiddle-bonk-pd.png %}){: style="width:50%; float:
-right;" }
-
-- easy way to get some NOISE into your system, try interfacing with audio.
-- pitch detection: `fiddle`
-- onset detection: `bonk`
-- try with voice, contact microphones, input from other performers, mix-down of
-  the performance.
+![]({% link /assets/nimes/nime-workflow.png %}){: style="width:100%" }
 
 ## Ensemble Feedback Instruments?
 
@@ -141,11 +168,21 @@ microphone, etc).
 you can use `mobmuplat` or `PdParty` to run Pd patches on a mobile, and use
 these sensors for great good!
 
-## Go do it:
+## Go do it in hardware
 
-Make an `interface` to your composition/synth.
+Make a _hardware_ interface for your Pd patch. You can use either:
 
-You can use the MIDI keyboards, sound input, or anything else you might want.
+- keyboard or mouse movements in Pd
+- sound input using `fiddle~` and `bonk~`
+- webcam tracking in processing + OSC
+
+## More on this later...
+
+We will return to these topics in more depth!
+
+- Live coding
+- Hardware interfaces with the microbit
+- Machine learning and AI in computer music interfaces
 
 
 {% comment %}
@@ -172,5 +209,20 @@ Fun note, you can use Pd patches in other projects using...
   with Pd patches
 - [mobmuplat](https://danieliglesia.com/mobmuplat/) - an iOS/Android app for
   performing with Pd Patches.
+
+## Local connections
+
+- MIDI-over-network: `RTP-MIDI` (easy in MacOS)
+- OSC connections (need to specify IP addresses...)
+- OSC messages to broadcast addresses (e.g., _192.168.255.255_ - not always
+  allowed by library/router)
+
+Need to use local router or wired connections...
+
+## Server solutions
+
+- Run one computer as "server" to look after ensemble
+- Run a virtual server or web service on the internet to look after ensemble
+  (hard mode)
 
 {% endcomment %}
