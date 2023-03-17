@@ -22,6 +22,28 @@ But how do we control any of it?
 {% include slides/background-image.html image="lectures/interfaces/vienna-acousmonium.jpg" heading="No performers: The Acousmonium (not in this class!)" %}
 
 
+## Software Interfaces
+
+_interfaces_ can be based in software, e.g., 
+
+- Graphical User Interface (GUI) elements in Pd
+- Graphical interface design app (e.g., TouchOSC) running on tablet/phone (connected via network)
+- Custom graphical UI created in Processing, p5.js, Unity, etc (talk to Pd via MIDI or network)
+- Custom programming language to control Pd (over a local network): _live coding_ systems
+
+## Hardware Interfaces
+
+_interfaces_ can be based in hardware as well:
+
+- traditional human interface devices (HID): mouse, keyboard, joystick, dual-stick game controller
+- non-traditional HID: webcam, microphone, laptop "drop sensor"
+- commercial music interface devices: small piano keyboards, drum pads, fader/knob interfaces
+- custom HID: microcontroller (e.g., MicroBit or Arduino) plus sensors
+- separate interface computer: Raspberry Pi or smart phone with custom hardware/software communicating over a network connection
+
+
+{% include slides/background-image.html image="lectures/interfaces/stockhausen-poster.jpg" heading="There is always an interface!" bgsize="contain" %}
+
 {% include slides/background-image.html
            image="nimes/arduino-heartbeat.jpg"  %}
 
@@ -50,7 +72,7 @@ But how do we control any of it?
 ## The [NIME community](https://nime.org)
 
 - ...new kinds of musical instruments...
-- ...new kinds of musicianship...
+- ...new kinds of music making...
 - ...and new kinds of music?
 
 ![]({% link /assets/nimes/nime.jpg %}){: style="width:100%" }
@@ -59,142 +81,6 @@ But how do we control any of it?
 
 ![]({% link /assets/nimes/nime-workflow.png %}){: style="width:100%" }
 
-
-# MIDI
-
-![]({% link /assets/nimes/Synth_rack_Choking_Sun_Studio.jpg %}){: style="width:25%; float:right" }
-
-Default way to get information in and out of Pd
-
-- "Musical Instrument Digital Interface" (1981)
-- A way to send musical "instructions" to a synthesiser.
-- E.g., (CC BY 2.0, Blurred Ren)
-- "note on", "note off", "control change", "pitch shift", "aftertouch"...
-
-MIDI can be hardware (RS232 serial, USB, Bluetooth) or software (RTP-MIDI over a network).
-
-## MIDI messages
-
-- One status byte, one or more data bytes
-- Status byte has a "status" (4 bits) and (usually) a channel or address (4
-  bits)
-- Data byte is a `0` followed by a 7 bit number.
-
-![]({% link /assets/nimes/midi-message.png %}){: style="width:100%;" }
-
-## MIDI status byte
-
-MIDI messages have specific meanings defined by the [MIDI Association](https://www.midi.org/specifications-old/item/table-2-expanded-messages-list-status-bytes). The upper nibble of the status byte defines the meaning. The lower nibble defines the _channel_ that these apply to (1-16).
-
-| Status Nibble Binary | Decimal | Function                                    |
-|---------------|-----|---------------------------------------------|
-| `0b1000`        | 8   | Note Off                                    |
-| `0b1001`        | 9   | Note On                                     |
-| `0b1010`        | 10  | Polyphonic Aftertouch                       |
-| `0b1011`        | 11  | Control/Mode Change                         |
-| `0b1100`        | 12  | Program Change                              |
-| `0b1101`        | 13  | Channel Aftertouch                          |
-| `0b1110`        | 14  | Pitch Bend Change                           |
-| `0b1111`        | 15  | System Exclusive, song control, tempo, etc  |
-
-## MIDI message formats
-
-The Note on/off messsages have the same pattern of data bytes: (pitch value, velocity). 
-
-Because the top bit must be `0` for a data byte, you get 7-bit resolution (128 values).
-
-Other messages have different formats, e.g., 
-
-- Pitch bend change has two data bytes combined into a 14-bit number (although most devices only use the upper 7 bits).
- 
-- Control change (CC) messages are for non-note control data and are of the form (function, value). 
-
-
-## Control Change Messages
-
-- Some of the CC functions are specified the MIDI standard, e.g. (1) modulation wheel, (64) sustain pedal, (2) breath controller.
-
-- Many control change numbers are only partly specificed (e.g., 12 "Effect Control 1"), or "undefined" (14, 15, 20-31).
-
-- Pd isn't a "synthesiser" so doesn't respond to MIDI messages, it passes them to you to action.
-
-- Hardware interfaces will often use specific CC controls or allow you to specify them.
-
-- Hardware synths usually respond in specific (often nonstandard) ways to CC messages (you'll have to read the manual)
-
-## MIDI in Pd
-
-![]({% link /assets/nimes/midi-in-pd.png %}){: style="width:50%; float: right;"
-}
-
-Pd has lots of MIDI objects for interchanging MIDI with a hardware or software port.
-
-- Raw MIDI bytes: `midiin`, `midiout`
-- Note messages: `notein`, `noteout`
-- Control changes: `ctlin`, `ctlout`
-
-## Receiving from controllers...
-
-![]({% link /assets/nimes/korg-controller-pd.png %}){: style="width:100%;" }
-
-## Making MIDI notes
-
-![]({% link /assets/nimes/makenote-pd.png %}){: style="width:30%; float:
-right;" }
-
-`makenote` can handle timing for notes with duration
-
-- the three inputs are _pitch_, _velocity_, and _duration_
-- outputs are _pitch_ and _velocity_
-- after the duration, the velocity output will change to zero (for that pitch)
-
-You can combine _pitch_, _velocity_ and _duration_ in one message as shown if you want.
-
-## A bit about lists...
-
-![]({% link /assets/nimes/list-packing-pd.png %}){: style="width:20%; float:
-right;" }
-
-- messages in Pd can contain multiple values (as you know!)
-- you can `append` or `prepend` values to a `list`...
-- `split` lists in two, or `trim` the `list` symbol
-- `pack` or `unpack` values (all at once)
-- `store` lists and then `set` or `get` certain elements
-
-There's a bit of weirdness about lists (e.g., some lists have `list` at the start to disambiguate them from ones with some other symbol). But using `$1` arguments and list packing is _crucial_ to advanced Pd patching.
-
-How else are you going to handle the 12-stage envelopes you want to create?
-
-## Advanced list packing...
-
-![]({% link /assets/nimes/list-packing-pd2.png %}){: style="width:30%; float:
-right;" }
-
-Use `list append` and `list prepend` to add items to a list.
-
-Good way to accumulate an envelope message, or all the parameters for a synth
-note...
-
-# Beyond MIDI... making our own protocols
-
-
-
-## OSC (open sound control)
-
-- standard way to send messages between synth software over (local) network
-  connections
-- normally UDP messages...
-- one message can have many pieces of data, both numbers and text
-
-![]({% link /assets/nimes/osc-message-structure.png %}){: style="width:100%;" }
-
-## Sending and receiving OSC in Pd.
-
-- very simple OSC implementation... (but it works)
-- address chunks and all arguments end up in a list: up to you to do what you
-  want with them.
-
-![]({% link /assets/nimes/osc-in-pd.png %}){: style="width:60%;" }
 
 ## Connecting interfaces
 
