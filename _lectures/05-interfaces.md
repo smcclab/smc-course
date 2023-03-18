@@ -23,8 +23,13 @@ But how do we control any of it?
 
 {% include slides/background-image.html image="lectures/interfaces/stockhausen-poster.jpg" heading="There is always an interface!" bgsize="contain" %}
 
+{:.fragment}
 Someone always has to press "play".
 
+{:.fragment}
+We define an interface here as "software or hardware for controlling electronic music performance"
+
+{:.fragment}
 What kinds of interfaces are there? 
 
 ## Software Interfaces
@@ -122,12 +127,23 @@ Clear and refined interfaces help _others_ use your creativity support tools.
 
 This is crucial for _ensemble performance_.
 
-## Interface in Processing
+## Graphical Interface in Processing
+
+![]({% link assets/lectures/interfaces/processing-pd-demo.png %}){: style="width:45%;float:right"}
+
+[Processing](https://processing.org) is a good way to create a quick custom graphical interface.
+
+Track the mouse, access a webcam, create game-like experiences, etc, with the _power of Java_.
+
+Use the `OscP5` library to send OSC messages.
+
+N.B., this is highly related to, but not the same as `p5.js`.
 
 ## Custom Live Code Interfaces
 
 e.g., low level Python 
 
+TODO
 
 ## Go do it in software
 
@@ -142,6 +158,7 @@ Use graph-on-parent and subpatching to hide the DSP components, lets see the sli
 
 ## Human Interface Devices in Pd
 
+TODO
 
 
 ## Interfacing with audio...
@@ -155,9 +172,23 @@ right;" }
 - try with voice, contact microphones, input from other performers, mix-down of
   the performance.
 
-## Camera and Wekinator
+## Camera
 
-[Wekinator](https://wekinator.org)
+Pd can't access a computer camera, but Processing can.
+
+_better_ interfaces might use some computer vision techniques (wait for week 12)
+
+## Commercial MIDI Controllers
+
+Cool, but not always relevant to this class. These are mainly focussed on music production in a DAW (e.g., Ableton).
+
+Keyboards: requires piano skills to be "good", melodic music doesn't always work well in LENS performances.
+
+Remember that in computer music:
+
+- _buttons_ (binary discrete data) tend to less interesting
+- sliders, faders, accelerometers, light sensors etc. which have _rich, continuous data_ are more interesting
+
 
 
 ## Connecting interfaces
