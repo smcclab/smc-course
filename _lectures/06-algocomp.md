@@ -60,7 +60,16 @@ Try _randomising_ LFO speeds or controlling the LFO with an LFO.
 
 ## Euclidean patterns
 
-Eurodance in a box.
+![]({% link assets/lectures/algocomp/euclidean-rhythms.png %}){: style="width:40%; float:right;"}
+
+Eurodance in a box: 
+[Algorithm](https://en.wikipedia.org/wiki/Euclidean_rhythm) to space notes evenly in a sequence of fixed duration spaces.
+
+Produces common and useful patterns, e.g., clave patterns, that sound great in EDM and are used all the time.
+
+- watch [Andrew Brown's video](https://youtu.be/lCcGeVXHkbE)
+- try odd numbers less than the number of steps (e.g., 5, 7, 9, 11, 13...) 
+
 
 # Variation
 
