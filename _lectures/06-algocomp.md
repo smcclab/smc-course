@@ -250,9 +250,7 @@ Harmony is complicated and there are lots of ways of notating and explaining har
 - Many people use Roman numerals for chords. The numeral matches the scale degree that the chord comes from. 
 - We use capital letters for a major chord, lower case for minor (and other symbols for... extra details)
 
-So our chord progression `[1, 2, 6, 5]` on a major scale would be:
-
-- I, ii, vi, V (the major/minor-ness is taken from the notes of the scale here)
+So our chord progression `[1, 2, 6, 5]` on a major scale would be: `I, ii, vi, V` (the major/minor-ness is taken from the notes of the scale here)
 
 # Decisions and directions
 
