@@ -139,11 +139,17 @@ Use the `OscP5` library to send OSC messages.
 
 N.B., this is highly related to, but not the same as `p5.js`.
 
-## Custom Live Code Interfaces
+## Live Code Interfaces
 
-e.g., low level Python 
+![]({% link assets/lectures/interfaces/2014-live-coding.jpg %}){: style="width:45%;float:right"}
 
-TODO
+Just as we used Processing to control Pd over OSC, we could just use any programming environment with real-time execution. E.g.,:
+
+- terminal, use [sendosc](https://github.com/yoggy/sendosc) or just [pdsend](https://manpages.debian.org/testing/puredata-utils/pdsend.1.en.html)
+- python, use [python-osc](https://pypi.org/project/python-osc/)
+- any other [live coding music system](https://github.com/pjagielski/awesome-live-coding-music)
+
+There more detail on live coding later in this course.
 
 ## Go do it in software
 
@@ -158,8 +164,18 @@ Use graph-on-parent and subpatching to hide the DSP components, lets see the sli
 
 ## Human Interface Devices in Pd
 
-TODO
+![]({% link assets/lectures/interfaces/pd-keyboard-mouse.png %}){: style="width:40%;float:right;"}
 
+Keyboard is easy: `key`, `keyup`, `keyname`.
+
+Mouse--not so easy:
+
+- weird hacks overlaying `hslider` and an `array` of size 1
+- [xy.pd](https://forum.pdpatchrepo.info/topic/10854/xy-abstraction-to-get-mouse-click-and-drag-coordinates-vanilla) for a 2D mousing area abstraction
+
+Used to be an external called `hid` but it's _very_ old.
+
+(suggest looking at [Processing](https://processing.org) for HID interactions)
 
 ## Interfacing with audio...
 
@@ -174,13 +190,21 @@ right;" }
 
 ## Camera
 
+![]({% link assets/lectures/setups/bigscreen-strikeonstage2.jpg %}){: style="width:50%;float:right;"}
+
 Pd can't access a computer camera, but Processing can.
 
-_better_ interfaces might use some computer vision techniques (wait for week 12)
+(I was _super_ into webcam controllers ~2009)
+
+_better_ interfaces might use some computer vision techniques (own research or wait for week 12)
+
+{% include slides/background-image.html image="lectures/interfaces/charlesrig-2008.jpg" heading="MIDI Controllers (2008)" %}
+
+{% include slides/background-image.html image="lectures/interfaces/charlesrig-2022.jpg" heading="MIDI Controllers (2022)" %}
 
 ## Commercial MIDI Controllers
 
-Cool, but not always relevant to this class. These are mainly focussed on music production in a DAW (e.g., Ableton).
+I _love_ MIDI controllers, but they are not always relevant to this class---mainly focussed on music production in a DAW (e.g., Ableton).
 
 Keyboards: requires piano skills to be "good", melodic music doesn't always work well in LENS performances.
 
@@ -197,33 +221,56 @@ Remember that in computer music:
 right;" }
 
 - most commercial interfaces use MIDI over _USB_
-- some fancy things use MIDI over _Bluetooth_
+- some modern devices use MIDI over _Bluetooth_
+- phones/tablets connect using OSC over _WiFi_
 - digital mixing desks and other equipment sometimes uses OSC over _ethernet_
-- some DIY interfaces use _serial over USB_
+- DIY option: _serial over USB_ then translate to MIDI/OSC
 
+## Phones and OSC interfaces
+
+![]({% link assets/lectures/interfaces/phone-gui-demo.jpg %}){: style="width:40%;float:right;"}
+
+A mobile device is a _great_ controller:
+
+- easy to hold
+- amazing touch screen
+- sensors (accelerometer and others)
+
+Options:
+
+- [TouchOSC app](https://hexler.net/touchosc)
+- DIY with [MobMuPlat](https://danieliglesia.com/mobmuplat/) (works by running Pd on your phone with a special app to design a GUI)
+- DIY with [PdParty](http://danomatika.com/code/pdparty) (just runs Pd patches on your phone)
 
 ## NIME Microcontroller Workflow...
 
 ![]({% link /assets/nimes/nime-workflow.png %}){: style="width:100%" }
 
-## Ensemble Feedback Instruments?
+## Best practices for DIY interfaces
 
-![]({% link /assets/nimes/ensemble-feedback-diagram.png %}){: style="width:60%;
+![]({% link assets/lectures/interfaces/diy-wearable-interface.jpg %}){: style="width:40%; float:right"}
+
+The best way to control Pd with a microcontroller is to make it speak MIDI.
+
+- Arduino [MIDIUSB library](https://github.com/arduino-libraries/MIDIUSB)
+- Teensy [USB\_MIDI example](https://www.pjrc.com/teensy/td_midi.html)
+
+Alternatively, you can use a serial connection and [translate to MIDI](https://projectgus.github.io/hairless-midiserial/).
+
+## Interfaces and Ensembles
+
+![]({% link /assets/nimes/ensemble-feedback-diagram.png %}){: style="width:50%;
 float: right;" }
 ![]({% link /assets/nimes/ensemble-feedback-instruments.png %}){:
-style="width:60%; float: right;" }
+style="width:50%; float: right;" }
 
-Cite: Ensemble Feedback Instruments, Rosli et al., NIME 2015.
+Interfaces for one are fun, but what about collaborating with interface data on a network (of some kind).
 
-## Mobiles and Pd
+_Collaborative_ interfaces _require_ multiple musicians: just what you need for your LENS performance! 
 
-![mobmuplat](https://danieliglesia.com/mobmuplat/MMP_flow1.png){:style="width:60%;float:right;"}
+In [Ensemble Feedback Instruments (Rosli et al. 2015)](https://doi.org/10.5281/zenodo.1179170), _sound_ was passed around a group in a feedback network. Wild stuff.
 
-mobile devices already have a lot of sensors (touchscreen, accelerometer,
-microphone, etc).
 
-you can use `mobmuplat` or `PdParty` to run Pd patches on a mobile, and use
-these sensors for great good!
 
 ## Go do it in hardware
 
