@@ -156,3 +156,39 @@ Some example references in Markdown format are as follows:
 6. Aaron Wu. 2018. Boat Photo on Unsplash. Retrieved from: <https://unsplash.com/photos/_8rjlHwN4uk>
 7. Wikipedia. 2022. J M W Turner Article. Retrieved from: <https://en.wikipedia.org/wiki/J._M._W._Turner>
 ```
+
+## Downloading your Portfolio PDF from Gitlab {#gitlab-pdf}
+
+When you add text and images to the markdown template files in your SMC GitLab repository, PDFs are automatically created for your portfolio. You need to download these PDFs and upload them to Wattle to submit your portfolio assessments.
+
+Downloading your PDF takes a few clicks (annoyingly), but it's not hard and you should do it regularly to check that your PDF is looking the way you expect. These instructions are for "portfolio 1" but they process is almost the same for the other PDF-based assessments.
+
+If there's something about your PDF that you don't understand, ask on the course Team **well before the assignment deadline**---ideally, on a week day!
+
+### Step 1
+
+Go to your repo and click on the little tick/exclamation mark/cross icon shown here. This takes you to the CI jobs associated with your latest commit.
+
+![]({% link assets/resources/gitlab-portfolio/portfolio-download-1.png %})
+
+### Step 2
+
+Click the "portfolio 1" button (text or icon---doesn't matter which.  
+
+![]({% link assets/resources/gitlab-portfolio/portfolio-download-2.png %})
+
+### Step 3
+
+You should see the terminal output from the CI job that creates your portfolio 1 PDF (any errors will be shown here). Click the "Browse" button under "Job Artifacts".
+
+![]({% link assets/resources/gitlab-portfolio/portfolio-download-3.png %})
+
+### Step 4
+
+You should see the `pdf` file for your portfolio, click it's name to download it.
+
+![]({% link assets/resources/gitlab-portfolio/portfolio-download-4.png %})
+
+You did it! Now check the PDF carefully for errors or issues and then submit it when you are happy on Wattle. Here's [an example]({% link assets/resources/gitlab-portfolio/SMC-2023-submissions-u4110680-portfolio-1.pdf %}) portfolio 1 showing how it _might_ look.
+
+
