@@ -158,6 +158,14 @@ $extensionColour: #9b59b6;
         }
     }
 
+    &[data-background-image] {
+        ul {
+	    background-color: adjust-color($text-color, $alpha: -0.25);
+	    color: $background-color;
+	    display: table;
+	}
+    }
+
 	// lists
 
 	ul,ol { padding-left: 1rem; }

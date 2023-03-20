@@ -31,7 +31,9 @@ Algorithmic composition: using a program to make choices for musical parameters
 
 Existed since before computers...
 
-## Algorithmic Composition - repetition and variation
+
+{% include slides/background-image.html image="lectures/algocomp/charles-martin-belconnen-ceiling.jpg"
+heading="Algocomp: Repetition and Variation" %}
 
 Repetition
 
@@ -47,6 +49,8 @@ Variation
 - Markov processes
 
 ## Low frequency oscillators
+
+![]({% link assets/lectures/algocomp/lfo.png %}){: style="width:50%;float:right;"}
 
 Counters and `cos`, a quick LFO.
 
@@ -71,9 +75,9 @@ Produces common and useful patterns, e.g., clave patterns, that sound great in E
 - try odd numbers less than the number of steps (e.g., 5, 7, 9, 11, 13...) 
 
 
-# Variation
+{% include slides/background-image.html image="lectures/algocomp/anton-shuvalov-WFIoD6zWn98-unsplash.jpg" heading="Variation" %}
 
-We’ve touched on random previously, now we’re going to process random values in difference ways.
+We’ve touched on random previously, now we’re going to process random values in difference ways:
 
 - Frequency
 - Pitches
@@ -93,7 +97,12 @@ want to trigger different things randomly? try `select`
 
 ## Random sequences
 
+![]({% link assets/lectures/algocomp/random-sequence.png %}){: style="width:50%;float:right"}
+
 Try using `random` to control the steps of a sequencer. 
+
+- use `random 2` to create either a 0 or 1
+- use this value to update a `spigot`
 
 Good for making quick, interesting patterns!
 
@@ -111,6 +120,8 @@ We end up with pitches that _sound_ even and logarithmic scale of frequencies.
 
 To convert, use `mtof` or `ftom` in Pd or look at [this table](https://newt.phys.unsw.edu.au/jw/notes.html).
 
+In Pd, we use MIDI numbers, not note names. 60 == C4, 61 == C#4, etc...
+
 ## 12-Tone Equal Temperament
 
 In European and Chinese music (among others) we tend to divide the octave into 12 pitches with a ratio of $2^\frac{1}{12}$ between the frequencies.
@@ -126,6 +137,8 @@ Other schemes are possible, used in practice and sound super cool, e.g.:
 
 ## Random MIDI Pitches
 
+![]({% link assets/lectures/algocomp/random-pitch-class.png %}){: style="width:30%;float:right;"}
+
 Using the same `random` object, but with different values, we can create MIDI pitch numbers (0-127).
 
 You might want to use a nice "musical" range, e.g.,
@@ -133,9 +146,7 @@ You might want to use a nice "musical" range, e.g.,
 - from 36 (2 octaves below middle C)
 - to 84 (2 octaves above middle C)
 
-Let's abstract things a bit by using two random choices one to choose pitch, one for octave.
-
-
+Let's abstract things a bit by using two random choices one to choose pitch, one for octave. We can separate out a nice parameter for the _base_ pitch.
 
 ## Rhythms with `metro`
 
@@ -146,6 +157,8 @@ You know how to schedule repeating notes with `metro`
 you have to supply the number of milliseconds in between bangs.
 
 ## Random rhythms
+
+![]({% link assets/lectures/algocomp/random-metronome.png %}){: style="width:40%; float:right;" }
 
 How about randomising the `metro`'s time after each bang?
 
