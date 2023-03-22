@@ -17,16 +17,108 @@ image_alt: Photo by Charles Martin
 
 # Filters
 
-# Subtractive Synthesis
+
+
+
+{% include slides/background-image.html image="lectures/synth-design/ismael-paramo-7LQ9b9V-Ffo-unsplash.jpg" heading="Subtractive Synthesis" %}
+
+
 
 ## Subtractive Synthesis
 
 Let's take a complex sound and **remove** some content.
 
-![]({{site.baseurl}}/assets/digital-synthesis/pd-filterfm.png)
+![]({% link assets/digital-synthesis/pd-filterfm.png %})
 
 
-# FM Synthesis
+
+## Popular Subtractive Synths
+
+
+Subtractive synthesis is often used in analogue synth designs, particular with those associated with [Bob Moog (famous synth designer)](https://en.wikipedia.org/wiki/Robert_Moog).
+
+E.g.,:
+
+- Minimoog Model-D (1970)
+- Moog Mother 32 (2015) _~AUD1100_
+- Korg Volca Keys (2013) _~AUD250_
+- Arturia Microfreak (2014) _~AUD550_
+
+It's good for _analogue_ designs because you can get a lot of timbral variation out of few (2 or 3) basic oscillators.
+
+## Subtractive Synth Layout
+
+![]({% link assets/lectures/synth-design/diagram-subtractive-synth.png %}){: style="width:70%"}
+
+- Sound is produced by 1+ summed oscillators and/or noise generator, processed by filter
+- Two envelope generators: output volume and to change the filter cut-off frequency
+- Missing: low frequency oscillator for modulation
+
+## Minimoog in Pd
+
+![]({% link assets/lectures/synth-design/subtractive-design.png %}){: style="width:30%;float:right;"}
+
+Here's a basic design for an analogue synthesiser with two sawtooth oscillators.
+
+- "detune" changes the frequency of the second oscillator, try a number close to 1, e.g., 1.05 for a rich phase-y sound.
+- the filter env gives the sound a nice changing timbre over a note
+- for extra fun, try the `bob~` object. Similar to `vcf~` but modelled on actual Moog filter designs.
+
+N.B.: the _synthesis_ part here is quite simple, but processing note information is tricky and requires lots of supporting objects.
+
+
+{% include slides/background-image.html image="lectures/synth-design/monika-sojcakova-ehZ9Aeu2Elo-unsplash.jpg" heading="FM Synthesis" %}
+
+## Simple two-oscillator FM
+
+![]({% link assets/lectures/synth-design/simple-fmsynth.png %}){:style="width:30%;float:right"}
+
+We introduced FM synthesis earlier in the course as a way to make interesting sounds with just two oscillators.
+
+This `fmsynth.pd` patch has been used a lot!
+
+- `$1` is harmonicity (modulation frequency divided by carrier frequency)
+- `$2` is the index (modulation depth divided by modulation frequency)
+
+This allows us to create a consistent timbre for any frequency input. Can we do more with more oscillators?
+
+## Revision: Phase Modulation 
+
+![]({% link assets/lectures/pd-phase-mod.png %}){:style="width:50%;float:right"}
+
+Let's just revise how "frequency modulation" works.
+
+- FM can be implemented by modifying the _phase_ of an oscillator.
+- In this patch, the phase is modified in between the `phasor~` and `cos~` objects.
+
+
+## FM Operators
+
+![]({% link assets/lectures/synth-design/diagram-fm-algorithm.png %}){: style="width:30%;float:right;"}
+
+We can take the concept of a phase-modulation oscillator and abstract to a reuseable unit: an FM operator.
+
+- An _op_ can serve as a carrier, or as a modulator.
+- An _op_ can self-modulate (crazy sounds).
+
+Combining multiple oscillators allows lots of sounds to work together. Typical FM synths will have 4 or 6 operators.
+
+In FM lingo, the wiring diagram between operators is called an _algorithm_.
+
+## Implementing 6-op FM
+
+![]({% link assets/lectures/synth-design/diagram-fm-algorithm.png %}){: style="width:30%;float:right;"}
+
+Each operator needs:
+
+- an envelope generator
+- amplitude and envelope parameters
+- some pitch-ratio control 
+- pitch ratio parameters
+
+This gets complicated quickly... 
+
+Volca FM has 23 parameters per operator, and 16 global parameters, that's 154 params for one patch!
 
 
 # Spectral Synthesis
