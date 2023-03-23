@@ -15,11 +15,6 @@ image_alt: Photo by Charles Martin
 - FM Synthesis (recall week 3, feedback, algorithms, operator-based design)
 - Phase Vocoder + spectral synthesis.
 
-# Filters
-
-
-
-
 {% include slides/background-image.html image="lectures/synth-design/ismael-paramo-7LQ9b9V-Ffo-unsplash.jpg" heading="Subtractive Synthesis" %}
 
 
@@ -146,6 +141,32 @@ Op-based FM is _very popular_. The Yamaha DX7 was the first **successful** digit
 
 See _dexed_ for free FM synth fun.
 
+# String Synthesis
+
+[Karplus-Strong string synthesis](https://en.wikipedia.org/wiki/Karplus–Strong_string_synthesis) is a famous algorithm for creating a string-like sound with a noise source, a delay and a filter.
+
+It can be considered a special case of [digital waveguide synthesis](https://en.wikipedia.org/wiki/Digital_waveguide_synthesis), used for string, tube, and membrane sounds.
+
+K-S synthesis is quite common in digital synthesisers (e.g., Arturia Microfreak) and it's fun to do in Pd.
+
+## Pd String Synthesis
+
+![]({% link assets/lectures/synth-design/pd-string-synth.png %}){: style="width:45%;float:right;"}
+
+Here's a simple Karplus-Strong implementation.
+
+- Noise source is some lightly filtered `noise~`
+- `vline~` controls noise entering the delay loop
+- the `delread~` and `delwrite~` define the delay loop
+- the filter is a `lop~`, and the loop has feedback of `0.999`
+- changing the length of the delay loop changes the pitch, so this is adjusted by the frequency input
+
+## Physical Modelling Synthesis
+
+Physical modelling synthesis is an interesting area with lots of possibilities and challenges.
+
+Have a look at Julius O Smith's [Stanford Courses (Music 420A)](https://ccrma.stanford.edu/~jos/pasp/) to learn more.
+
 # Fourier Resynthesis
 
 ![]({% link assets/lectures/synth-design/fft-resynthesis-puckette.png %}){: style="width:25%;float:right;"}
@@ -220,6 +241,17 @@ The two outputs give you the real and imaginary part of the signal. You can also
 Similarly, you can do an inverse FFT with `rifft~` and `ifft~`.
 
 In Pd, `N` is the same as the "block size" (number of samples processed at once), so Pd patches often adjust block size _just_ for the FFT patch to get the right number of FFT bins.
+
+## Basic Resynthesis
+
+
+![]({% link assets/lectures/synth-design/pd-fourier-resynthesis-fft.png %}){: style="width:40%;float:right;"}
+
+Here's a fun way to modify the spectrum of "noise".
+
+
+![]({% link assets/lectures/synth-design/pd-fourier-resynthesis.png %}){: style="width:40%;"}
+
 
 ## Timbre Stamp
 
