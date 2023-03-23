@@ -107,7 +107,7 @@ In FM lingo, the wiring diagram between operators is called an _algorithm_.
 
 ## Implementing 6-op FM
 
-![]({% link assets/lectures/synth-design/diagram-fm-algorithm.png %}){: style="width:30%;float:right;"}
+![]({% link assets/lectures/synth-design/fm-operator.png %}){: style="width:45%;float:right;"}
 
 Each operator needs:
 
@@ -120,10 +120,43 @@ This gets complicated quickly...
 
 Volca FM has 23 parameters per operator, and 16 global parameters, that's 154 params for one patch!
 
+## Operator Layout
 
-# Spectral Synthesis
+![]({% link assets/lectures/synth-design/6op-synth.png %}){: style="width:50%;float:right;"}
 
+And here's how you could wire them together...
 
+- note that every op gets the pitch and velocity signals
+- using `r` and `route` to send freq scaling and envelope parameters
+- `throw~` and `catch~` for the feedback loop on operator 6.
+
+This is a fixed configuration, could you design a way to control the FM _algorithm_ with parameters?
+
+## Commercial FM Synths
+
+![]({% link assets/lectures/synth-design/dexed.png %}){: style="width:30%;float:right;"}
+
+Op-based FM is _very popular_. The Yamaha DX7 was the first **successful** digital synthesiser in 1983 and Yamaha's FM sound chips were found in computers and video game consoles throughout the late 80s and 90s.
+
+- Yamaha DX7 (1983)
+- Yamaha reface DX (2015) ~AUD600
+- Korg Volca FM (2016) ~AUD250
+- Elektron Digitone (2017) ~AUD1350
+- [dexed FM Plugin](https://asb2m10.github.io/dexed/) (modeled on DX7) AUD0
+
+See _dexed_ for free FM synth fun.
+
+# Fourier Resynthesis
+
+![]({% link assets/lectures/synth-design/fft-resynthesis-puckette.png %}){: style="width:25%;float:right;"}
+
+One form of synthesis that is usually limited to computers involves modifying the frequency domain of a sound and recreating new versions.
+
+Spectral manipulation is something that Pd is quite good at doing!
+
+We return a bit to the Fourier transform mentioned early in the course.
+
+For the full story, see [Fourier Analysis and Resynthesis in Miller Puckette's book.](http://msp.ucsd.edu/techniques/latest/book-html/node163.html)
 
 ## Back to the frequency domain
 
@@ -156,7 +189,6 @@ N.B.: the frequency "resolution" is limited by the length of the signal we are a
 
 ## FFT on a long signal
 
-
 ![]({% link assets/lectures/diagram-STDFT-windowing.png %}){: style="width:35%;float:right;"}
 
 Typically we want to apply FFT to a "chunk" of a signal rather than the whole thing.
@@ -181,9 +213,27 @@ It _is_ important when doing an FFT to cope with the sine **and** cosine element
 
 ## FFT in Pd
 
-Pure Data can do an
+Pure Data can perform a STDFT with the `fft~` object (yes it's that easy).
+
+The two outputs give you the real and imaginary part of the signal. You can also do `rfft~` just to get the real output (saves CPU).
+
+Similarly, you can do an inverse FFT with `rifft~` and `ifft~`.
+
+In Pd, `N` is the same as the "block size" (number of samples processed at once), so Pd patches often adjust block size _just_ for the FFT patch to get the right number of FFT bins.
 
 ## Timbre Stamp
 
+![]({% link assets/lectures/synth-design/timbre-stamp-fft.png %}){: style="width:40%;float:right;"}
+
+The "timbre stamp" algorithm modulates a signal by the spectral envelope of another sound.
+
+see `I06.timbre.stamp.pd`
+
 ## Phase Vocoder
+
+![]({% link assets/lectures/synth-design/phase-vocoder-fft.png %}){: style="width:40%;float:right;"}
+
+The "phase vocoder" is an algorithm for stretching or compressing the time and frequency axes of a recorded sound.
+
+see `I07.phase.vocoder.pd`
 
