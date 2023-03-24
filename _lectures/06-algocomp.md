@@ -18,7 +18,7 @@ Choosing is hard!
 
 ## How do we choose the next sound?
 
-![]({% link assets/algocomp/formalized-music.jpg %}){: style="width:25%; float:right;" }
+![]({% link assets/lectures/algocomp/formalized-music.jpg %}){: style="width:25%; float:right;" }
 
 Can we get some help making all these choices?
 
@@ -81,12 +81,13 @@ We’ve touched on random previously, now we’re going to process random values
 
 - Frequency
 - Pitches
-- Pitch classes (scale degrees)
+- Scale degrees
+- Chords
 - Sample points
 
 ## Random Numbers
 
-![]({% link assets/algocomp/random-notes.png %}){: style="width:50%; float:right;" }
+![]({% link assets/lectures/algocomp/random-notes.png %}){: style="width:50%; float:right;" }
 
 you can use `random` numbers to create frequencies for a synth.
 
@@ -150,7 +151,7 @@ Let's abstract things a bit by using two random choices one to choose pitch, one
 
 ## Rhythms with `metro`
 
-![]({% link assets/algocomp/metro-and-random.png %}){: style="width:30%; float:right;" }
+![]({% link assets/lectures/algocomp/metro-and-random.png %}){: style="width:30%; float:right;" }
 
 You know how to schedule repeating notes with `metro`
 
@@ -167,7 +168,7 @@ We can make a "random" metronome with a maximum and minimum time.
 
 ## Making a composition with random `metro`
 
-![]({% link assets/algocomp/random-composition.png %}){: style="width:60%;float:right" }
+![]({% link assets/lectures/algocomp/random-composition.png %}){: style="width:60%;float:right" }
 
 This composition uses additive synthesis to create:
 
@@ -190,7 +191,7 @@ This can let us:
 
 ## Using pitch collections
 
-![]({% link assets/algocomp/scale-maker.png %}){: style="width:60%;float:right;" }
+![]({% link assets/lectures/algocomp/pd-scale-table.png %}){: style="width:60%;float:right;" }
 
 It can sound nice to use a subset of the 12 pitches.
 
@@ -219,6 +220,8 @@ Scales have lots of interesting patterns and properties but we won't go into fur
 
 ## Scale objects
 
+![]({% link assets/lectures/algocomp/pd-aeolian.png %}){: style="width:30%;float:right;" }
+
 Pd doesn't have any built in knowledge about scales.
 
 It's straightforward to create objects for scales you might want to use, see the `aeolian.pd` as an example.
@@ -228,11 +231,22 @@ It's straightforward to create objects for scales you might want to use, see the
 
 ## Composing with scales
 
-![]({% link assets/algocomp/fmcomp.png %}){: style="width:95%;" }
+![]({% link assets/lectures/algocomp/pd-fmcomp.png %}){: style="width:95%;" }
 
 Here's an example with `aeolian` generating FM pad sounds.
 
+## Go do it: make a composition with a scale
+
+Copy `5-Scales.pd` from the board and use it as the basis for a composition.
+
+- set up a table to store the notes
+- add the notes to the table
+- make a sequencer
+- read out the notes one by one and use them to play a synth
+
 # Harmony
+
+![]({% link assets/lectures/algocomp/diagram-interval-resolution.png %}){: style="width:30%;float:right;" }
 
 We've talked about _consonant_ and _dissonant_ combinations of frequencies before.
 
@@ -244,6 +258,8 @@ Structured changes between combinations of frequencies is called _harmony_. It's
 
 ## Root notes
 
+![]({% link assets/lectures/algocomp/pd-comp-root.png %}){: style="width:50%;float:right;" }
+
 Now that we understand scales, we can call the _first_ note of a scale the "root".
 
 It's often where we start a melody and where we return. (not always!!)
@@ -252,11 +268,9 @@ You can emphasise a scale by using the root note as a second part (e.g., a repea
 
 ## Chords from a scale
 
-The other notes (or degrees) from a scale can be used for a bass line as well.
+The other notes (or degrees) from a scale can be used for a bass line as well. E.g.,
 
-E.g.,
-
-- create a repeating sequence in a scale
+- create a repeating sequence from a scale
 - play repeating bass line with scale degree `[1, 2, 6, 5]`
 
 This changes how we hear the original sequence!
@@ -274,6 +288,22 @@ Harmony is complicated and there are lots of ways of notating and explaining har
 
 So our chord progression `[1, 2, 6, 5]` on a major scale would be: `I, ii, vi, V` (the major/minor-ness is taken from the notes of the scale here)
 
+## Composition with Bass and Chords
+
+![]({% link assets/lectures/algocomp/pd-comp-chords.png %}){: style="width:50%;float:right;" }
+
+Here's something simple:
+
+- first chord: notes `[1, 3, 5]` from the scale
+- other chords: same spacing, transposed up
+- progression is `[1, 2, 6, 5]`
+- LH synth: chord notes in sequence (arpeggio)
+- RH synth: root note bass
+- sequencer moves forward through the chords 
+
+_just add drums and we have techno!_
+
+
 # Decisions and directions
 
 Our decisions have, so far been low level: "I want to play a note, but which one?"
@@ -285,7 +315,7 @@ What about some higher level decision making:
 
 ## Controlled randomness
 
-![]({% link assets/algocomp/weighted-random.png %}){: style="width:30%; float:right" }
+![]({% link assets/lectures/algocomp/weighted-random.png %}){: style="width:30%; float:right" }
 
 Suppose you want to take one action 20% of the time, and another 80% of the
 time?
@@ -302,7 +332,7 @@ My hardware synth and drum machine have this feature!
 
 ## Markov Process
 
-![]({% link assets/algocomp/markov-sequence.png %}){: style="width:75%; float:right" }
+![]({% link assets/lectures/algocomp/pd-markov-sequence.png %}){: style="width:60%; float:right" }
 
 What about having a different weighted decision depending on what the last
 decision was?
@@ -314,28 +344,40 @@ Maybe try `c_markov.pd` in `rjlib`.
 
 ## Fader jam
 
-![]({% link /assets/algocomp/fader-jam-screen.png %}){: style="width:60%; float:
+![]({% link /assets/lectures/algocomp/fader-jam-screen.png %}){: style="width:60%; float:
 left" }
 
 <video controls style="width:20%; float:right;">
-    <source data-src="{% link /assets/algocomp/faderjam-demo.mp4 %}" type="video/mp4"/>
+    <source data-src="{% link /assets/lectures/algocomp/faderjam-demo.mp4 %}" type="video/mp4"/>
 </video>
 
-![]({% link assets/algocomp/faderjam-action.jpg %}){: style="width:25%; float:
+![]({% link assets/lectures/algocomp/faderjam-action.jpg %}){: style="width:25%; float:
 left" }
 
+{% comment %}
 ## Further directions for exploration...
 
 - rule-based compositions
 - [functional programming for composition](https://functional-art.org)
 - evolutionary algorithms for music composition (e.g.,
   [darwintunes](https://darwintunes.org),
-  [evolutionary music slides](https://igm.rit.edu/~jabics/EvoMusic/BilesEvoMusicSlides.pdf))
+  [evolutionary music slides](https://igm.rit.edu/~jabics/EvoMusic/BilesEvoMusicSlides.pdf %}))
 - AI/ML composition (e.g., [Magenta project](https://magenta.tensorflow.org))
 
-Live coding... kind of doing algorithmic composition in the moment?
 
-## Exercise: Today you make an algorithmic composition.
+## Links
+
+- Oxford Handbook of Algorithmic Music
+  ([available online through ANU Library](https://www.oxfordhandbooks.com/view/10.1093/oxfordhb/9780190226992.001.0001/oxfordhb-9780190226992))
+- D. Herremans, C.-H. Chuan, and E. Chew. A functional taxonomy of music
+  generation systems. ACM Comput. Surv., 50(5):69:1–69:30, Sept. 2017.
+  [DOI:10.1145/3108242](https://doi.acm.org/10.1145/3108242)
+- [Getting Starting with Algorithmic Composition: Donya Quick](https://donyaquick.com/algorithmic-composing-advice/)
+- [Wolfram Tones](https://tones.wolfram.com)
+
+{% endcomment %}
+
+## Go do it: make an algorithmic composition
 
 Get started, you have to make something today that includes:
 
@@ -348,12 +390,3 @@ Want some extra tools?
 - [ComputerMusicIntro examples](https://github.com/cpmpercussion/ComputerMusicIntro)
 - [rjlib](https://github.com/rjdj/rjlib/)
 
-## Links
-
-- Oxford Handbook of Algorithmic Music
-  ([available online through ANU Library](https://www.oxfordhandbooks.com/view/10.1093/oxfordhb/9780190226992.001.0001/oxfordhb-9780190226992))
-- D. Herremans, C.-H. Chuan, and E. Chew. A functional taxonomy of music
-  generation systems. ACM Comput. Surv., 50(5):69:1–69:30, Sept. 2017.
-  [DOI:10.1145/3108242](https://doi.acm.org/10.1145/3108242)
-- [Getting Starting with Algorithmic Composition: Donya Quick](https://donyaquick.com/algorithmic-composing-advice/)
-- [Wolfram Tones](https://tones.wolfram.com)
