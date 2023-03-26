@@ -1,4 +1,4 @@
-image: docker.io/anucecsit/anu-jekyll-build:v2.4.0
+image: prod-repo.cecs.anu.edu.au:443/jekyll-anu/docker/anu-jekyll-build:v2.4.0
 
 variables:
   STAGING_DIR: /srv/gitlab-ce-pages/staging
