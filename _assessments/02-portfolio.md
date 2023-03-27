@@ -99,7 +99,7 @@ Here's a few tips to make a better looking and more readable portfolio:
 - Have a read about [markdown](https://www.markdownguide.org/) to revise the
   syntax and update your knowledge.
 - We mark portfolios from your PDF and diary videos, don't assume we can dive
-  into your repo and make sure your PDF loks the way you expect.
+  into your repo and make sure your PDF looks the way you expect.
 - Please include a record of the "main thing" you did in each week's reflection
   either as a screenshot (if Pd) or a code listing (if Gibber). You can store
   images directly in any of the `week-N` or `portfolio-N` folders. The code
@@ -113,24 +113,12 @@ Here's a few tips to make a better looking and more readable portfolio:
   and the [PDF
   file](https://gitlab.cecs.anu.edu.au/u4110680/laptop-ensemble-2022-submissions/-/jobs/3211703/artifacts/file/laptop-ensemble-2022-submissions-u4110680-portfolio-1.pdf).
 
-## Marking criteria {#marking}
-
-Each stage of your portfolio is worth 15% of your total mark, and will be
-assessed based on the output PDF from your GitLab repository. The marking criteria are:
-
-- Sophistication of articulation and application of fundamental concepts in sound and music computing. (50%)
-- Sophistication of critical reflections obtained through collaboration. (20%)
-- Sophistication of critical examination of responses to computer music diary prompts. (20%)
-- Clarity of communication including adherence to submission formats and specifications for the diary and portfolio. (10%) 
-
-What we mark:
-
-- Your mark is primarily derived from the PDF document of your portfolio, exported from
-  GitLab. Make sure it looks nice and has screenshots/code listings.
-- To understand the context of your comments, we may review the video of your
-  diary entries (make sure they exist).
 
 ## Marking Rubric {#rubric}
+
+- We primarily mark the PDF document of your portfolio as submitted. 
+- To understand the context of your comments, we may review the video of your
+  diary entries, and code/patches uploaded into gitlab (make sure they exist).
 
 | Criteria | HD | D | CR | P | N |
 |---|---|---|---|---|---|
@@ -202,4 +190,16 @@ For images to work in your portfolio, check the following:
 3. Your images are in jpg or png format and have file extension `.jpg`, `.png`, `.jpeg` in lower case letters (capital letters like `image.JPG` won't work)
 
 If in doubt, look at how it is done in the sample portfolio repo: <https://gitlab.cecs.anu.edu.au/u4110680/SMC-2023-submissions>
+
+### Images are showing up in different locations {#image-order}
+
+This expected behaviour, the tool chain ([pandoc](https://pandoc.org/) and
+[LaTeX](https://en.wikipedia.org/wiki/LaTeX)) does not let you specify image
+locations specifically.
+
+Make sure you give each image a descriptive caption and refer to it in your
+text (see sample repo above). 
+
+You may have better results with wider landscape-format images than tall narrow
+images in terms of LaTeX finding a sensible placement.
 
