@@ -12,3 +12,5 @@ group :jekyll_plugins do
   gem "jekyll-autoprefixer-re", :git => "https://github.com/silkkycloud/jekyll-autoprefixer-re.git", :branch => "master"
 end
 
+# ## temporary fix for the old jekyll-autoprefixer-re gem, which is no longer on rubygems.org 
+# gem "jekyll-autoprefixer-re", :git => "https://github.com/silkkycloud/jekyll-autoprefixer-re.git", :branch => "master"
