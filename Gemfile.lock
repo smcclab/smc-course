@@ -24,10 +24,10 @@ GIT
 
 GIT
   remote: git@gitlab.anu.edu.au:jekyll-anu/gems/jekyll-theme-anu.git
-  revision: c5284c6d23f74e0a3b84013bd79f78c68c5123f7
+  revision: 28e4ae9ffd33f1353a8ddba5d2eaf7f5931cca0a
   branch: master
   specs:
-    jekyll-theme-anu (2.4.29)
+    jekyll-theme-anu (2.4.34)
       jekyll
 
 GIT
@@ -42,10 +42,10 @@ GEM
   remote: https://rubygems.org/
   specs:
     Ascii85 (1.1.0)
-    addressable (2.8.1)
+    addressable (2.8.4)
       public_suffix (>= 2.0.2, < 6.0)
     afm (0.2.2)
-    async (2.3.1)
+    async (2.5.0)
       console (~> 1.10)
       io-event (~> 1.1)
       timers (~> 4.1)
@@ -55,7 +55,7 @@ GEM
       fast-stemmer (~> 1.0)
       matrix (~> 0.4)
     colorator (1.1.0)
-    concurrent-ruby (1.2.0)
+    concurrent-ruby (1.2.2)
     console (1.16.2)
       fiber-local
     em-websocket (0.5.3)
@@ -69,9 +69,9 @@ GEM
     ffi (1.15.5)
     fiber-local (1.0.0)
     forwardable-extended (2.6.0)
-    google-protobuf (3.21.12)
+    google-protobuf (3.22.2)
     hashery (2.1.2)
-    html-proofer (5.0.4)
+    html-proofer (5.0.6)
       addressable (~> 2.3)
       async (~> 2.1)
       nokogiri (~> 1.13)
@@ -83,7 +83,7 @@ GEM
     http_parser.rb (0.8.0)
     i18n (1.12.0)
       concurrent-ruby (~> 1.0)
-    io-event (1.1.6)
+    io-event (1.1.7)
     jekyll (4.3.2)
       addressable (~> 2.4)
       colorator (~> 1.0)
@@ -143,7 +143,7 @@ GEM
     rouge (4.1.0)
     ruby-rc4 (0.1.5)
     safe_yaml (1.0.5)
-    sass-embedded (1.58.0)
+    sass-embedded (1.61.0)
       google-protobuf (~> 3.21)
       rake (>= 10.0.0)
     terminal-table (3.0.2)
