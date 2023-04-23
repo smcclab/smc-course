@@ -11,7 +11,7 @@ image_alt: Photo by Charles Martin
 ## Outline
 
 - Filters (analogue, digital, `vcf~`, `bob~`, filter math (light)
-- Subtractive Synthesis (from phasor to Moog Model-D clone)
+- Subtractive Synthesis (from phasor to Moog Model-D clone))
 - FM Synthesis (recall week 3, feedback, algorithms, operator-based design)
 - Phase Vocoder + spectral synthesis.
 
@@ -191,7 +191,7 @@ We _can_ use a similar construction called: Short-Time Discrete Fourier Transfor
 
 - _discrete_: operates on sampled information
 
-We often refer to DSTFT as _FFT_, or "fast Fourier transform" (e.g., the `fft~` object in Pd). 
+We often refer to SDTFT as _FFT_, or "fast Fourier transform" (e.g., the `fft~` object in Pd). 
 FFT is actually a clever algorithm for accomplishing a DSTFT quickly, so it's ok to use the acronyms interchangeably.
 
 ## Short-Time Discrete Fourier Transform
@@ -230,7 +230,7 @@ The exclamation mark is doing a lot of work here! _Imagine what we can do with f
 
 In fact, the IFFT algorithm is almost identical to the FFT algorithm
 
-It _is_ important when doing an FFT to cope with the sine **and** cosine elements (or the _real_ and _complex_ outputs of a frequency. These interact in a certain way to make the ouput sound "work".
+It _is_ important when doing an FFT to cope with the sine **and** cosine elements (or the _real_ and _complex_ outputs of a frequency. These interact in a certain way to make the ouput sound "work".)
 
 ## FFT in Pd
 
