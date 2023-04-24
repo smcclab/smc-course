@@ -24,9 +24,6 @@ image_alt: Photo by Charles Martin
    compositional possibilities of _manipulating_ pre-recorded sounds during
    playback
 
-4. discuss any special tech/setup requirements for the [demo presentation]({% link
-   _assessments/03-demo-presentation.md %}) presentations
-
 ## Resources
 
 - **Download and run Gibber from your computer**: Clone the [repo](https://github.com/gibber-cc/gibber), open in VSCode and use the Live Server Extension (ask on Teams if you haven't done this before).
