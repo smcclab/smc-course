@@ -21,7 +21,7 @@ You've created a few piece of music with Gibber now so you should have a good gr
 
 3. Look at the [`making synths` tutorial](https://github.com/gibber-cc/gibber/blob/main/playground/examples/make.js) and create your own synth design in Gibber using the Genish DSP library.
 
-5. Try the `tidalcycles` tutorial for a different (some would say better) way of defining sequences in Gibber.
+5. Try the `tidalcycles` tutorial for a different (some would say better) way of defining sequences in Gibber. The full syntax for tidalcycles mininotation is [here](http://tidalcycles.org/docs/reference/mini_notation/).
 
 4. Use Gibber's built-in collaboration features to create a group performance with your ensemble!
 
