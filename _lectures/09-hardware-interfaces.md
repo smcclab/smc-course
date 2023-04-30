@@ -10,13 +10,20 @@ image_alt: Photo by Charles Martin
 
 ## Outline
 
-## Recap: Incorporating Hardware Interface in Pd
+- High-level concepts and discussion about physical computer instruments
+- Two appoarches: instrumental and compositional (adapted from "Composing Interactions" - Marije Baalman)
+- The question of mapping
+- Micro:bit live demo making a simple movement-based MIDI interface
 
+## Recap: Incorporating Soft-/Hardware Interfaces in Pd
+
+- Buttons, sliders, selectors.
 - Keyboard: `key`, `mouse`, `joystick`, etc.
 - External library: Processing
 
-![]({% link assets/lectures/hardware-interface/yichen-pd-processing-interface.jpg %}){: style="width:50%;"}
+![]({% link assets/lectures/hardware-interface/yichen-pd-processing-interface.jpg %}){: style="width:40%;"}
 
+{:.fragment}
 More interaction options beyond your computer?
 
 ## Hardware Interface Devices
@@ -38,8 +45,6 @@ More interaction options beyond your computer?
 
 ## Instrumental Approach
 
-<!-- examples discussion ...! -->
-
 - Inspired by the acoustic instrument and well-established music tradition
 - Task-oriented interface design
 
@@ -49,19 +54,33 @@ More interaction options beyond your computer?
   - Instrument-inspired gestural controllers: inspired by acoustic ones + new configuration
   - Alternate gestural controllers: not directly modeled or inspired (say - "imaginary")
 
+{% include slides/background-image.html image="https://d3i71xaburhd42.cloudfront.net/2d72f5d4d42ff1e5789d6320148302b7bb39c467/5-Figure6-1.png" heading="The extended clarinet (2016) / Carl Normark et al. " bgsize="contain" %}
+
+{:.fragment}
+Digital sound layer
+
+{:.fragment}
+Preserve the interaction complexity and playing virtuosity
+
+{:.fragment}
+Extending the [clarinet's bell](https://zenodo.org/record/1176090#.ZEnG_i8RpCA) through the performer's motion and gestures
+
+{:.fragment}
+Extra pitch bending and note playback options with visuals
+
 {% include slides/background-image.html image="https://blog.bela.io/images/nime2020/svampolin.jpg" heading="Svampolin (2019) / Laurel S. Pardue et al. " %}
 
 {:.fragment}
-Augmented musical instrument
+A custom-designed electrodynamic pickup capturing the velocity of each string
 
 {:.fragment}
 
 [Separating sound from source: sonic transformation of the violin through electrodynamic pickups and acoustic actuation, NIME2019](http://instrumentslab.org/data/laurel/sound-from-source.pdf)
 
-{% include slides/background-image.html image="http://instrumentslab.org/images/research/accessible/Strummi-all-versions.png" heading="The Adapted Bass Guitar and The Strummi / Jacob Harrison " %}
+{% include slides/background-image.html image="http://instrumentslab.org/images/research/accessible/Strummi-all-versions.png" heading="The Adapted Bass Guitar and The Strummi (2015 & 2018)/ Jacob Harrison " %}
 
 {:.fragment}
-Accessible guitar instrument
+Accessible guitar instrument - touch screen guitar (?!)
 
 {:.fragment}
 
@@ -73,36 +92,50 @@ heading="Phaserings (2015) / Charles Martin " %}
 {:.fragment}
 Percussion-inspired?
 
+{:.fragment}
+A granular synthesis component in Pd
+
 {% include slides/background-image.html image="lectures/hardware-interface/yichen-ozchi.jpeg"
 heading="Cubing Sound (2022) / Yichen Wang" bgsize="contain"%}
 
 {:.fragment}
-Imaginary ?
+Freehand gestures and embodiment
+
+{:.fragment}
+Imaginary? 
 
 {:.fragment}
 ... or I haven't clearly figured out yet!
+
+## Other cool physical computer instruments
+
+- [Multi Rubbing Tactile Instrument](https://zenodo.org/record/1176084#.ZEnHBy8RpCA)
+- [An Easily Removable, wireless Optical Sensing System (EROSS) for the Trumpet](https://zenodo.org/record/1178562#.ZEnG9i8RpCA)
+- [Kontrol: Hand Gesture Recognition for Music and Dance Interaction](https://zenodo.org/record/1178496#.ZE32HC8RphE) - more like an interface?
+- [nime.org](https://www.nime.org/archives/) for more
 
 ## Compositional Approach
 
 - Focuses on the concept of a performance
 - You are the _composer_
 - Week 6: algorithmic composition and interactive music system
+- "From providing instructions for performers to create music, to creating contexts for performances in which music may be experienced" - Marije Baalman
 
+{% include slides/background-image.html image="https://charlesmartin.au/assets/projects/lmtd/Benjamin-codes-and-Hanna-sets-the-masks.jpg"
+heading="Vital LMTD (2009) / Lat Man to Die" %}
+
+Exploring three art forms: acting, percussion, and drawing through new interactive technologies and experimental performance
+
+[Video](https://vimeo.com/14152601) and [more](https://charlesmartin.au/projects/lmtd/)
 
 {% include slides/background-image.html image="https://i.ytimg.com/vi/chA-4GRCb-I/maxresdefault.jpg"
 heading="Twilight (2013) / SLOrk" %}
 
 {:.fragment}
-[Video](https://vimeo.com/100624271)
-
-{:.fragment}
 Inspired by the classic science-fiction short story “Twilight” by John W. Campbell
 
 {:.fragment}
-Another description
-
-{% include slides/background-image.html image="https://i.ytimg.com/vi/chA-4GRCb-I/maxresdefault.jpg"
-heading="Synesthetic" %}
+[Video](https://vimeo.com/100624271)
 
 ## The Question of Mapping
 
@@ -115,18 +148,21 @@ heading="Synesthetic" %}
   - What is the representation od sound and music that you are working with?
     - FM synth
     - String synth
-    - Sequenced-based melody (Gibber)
+    - Sequence-based melody (Gibber)
 
 ## Steps in Mapping
 
 - Gesture/Input action
-- Sensor
+- Sensor and electronic handware
 - Accessing data from hardware (sometimes over network and can be tricky!)
-- Computational model (E.g.,algorithmic composition, synth mechanism, sampling)
+- Computational model (E.g., algorithmic composition, synth mechanism, sampling)
 - Sound output
 
 {% include slides/background-image.html image="https://usercontent.one/wp/www.captaincredible.com/wp-content/uploads/2021/11/cleanPatA.png"
 heading="Live demo: Micro:bit + Pd making interactive musical system"%}
+
+{:.fragment}
+Check out [Captain Credible](https://www.captaincredible.com/microbit-orchestra/) for more Micro:bit works/ideas!
 
 ## Live demo: steps in mapping
 
@@ -134,8 +170,8 @@ heading="Live demo: Micro:bit + Pd making interactive musical system"%}
 
 1. Gesture/Input action - hold micro:bit and move around
 2. Sensor -  Micro:bit sensors
-3. Accessing data from Micro:bit hardware and to Pd over radio
-4. Computational model - Simple osc
+3. Accessing _MIDI data_ from Micro:bit hardware and to Pd over radio
+4. Computational model - Playing different pitches of an osc (envelope parameters, FM synthese, etc)
 5. Sound output - Pd
 
 ## Micro:bit
@@ -206,8 +242,12 @@ midi.setTransport(function (data: Buffer) {
 - Pd midi set-up
 - [More](https://vulpestruments.com/2018/11/21/how-to-connect-your-mini-mu-to-puredata/)
 
-## Midi and sound process in Pd
+## MIDI and sound process in Pd
 
+![]({% link assets/lectures/hardware-interface/microbit-midi-example.png %}){: style="width: 40%; float: right; "}
+
+- Read MIDI data
+- Transform it to other forms ...
 
 ## If you want to try Arduino
 
