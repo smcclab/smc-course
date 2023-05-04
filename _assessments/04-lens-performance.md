@@ -37,8 +37,6 @@ in your performance.
 You will also submit all of your performance materials (code) and a readme PDF
 explaining how your performance works after your concert.
 
-In summary, your LENS performance consists of:
-
 ## Specification
 
 Your LENS performance consists of:
@@ -69,6 +67,9 @@ to put on the YouTube channel.
 {:.info-box}
 
 You will perform a concert with the members of your group. Each group member must present their own work and be prepared to participate in everybody else's piece.
+
+{:.warn-box}
+**Computer Music Languages studied this semester** are: Pure Data and Gibber. Your performance is expected to work in Pd-vanilla and `gibber.cc/playground`. If extensions or libraries are required, these **must** be documented in your performance materials.
 
 ### Performance materials
 

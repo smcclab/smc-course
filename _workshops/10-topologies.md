@@ -7,7 +7,7 @@ image_alt: Photo by Charles Martin
 ---
 
 {:.warn-box} 
-**Solo Diary**: Sketch a minimum example of the **topology** of your final performance (can be all in one computer).
+**Solo Diary**: Sketch a minimum example of your final performance that tests the **topology**, or the connections between different performers and partst  (can be all in one computer).
 
 "Topology" is the way in which a set of _things_ is connected or arranged. In
 the context of computer music, we can imagine a performance involving
@@ -16,7 +16,12 @@ members, etc.
 
 This week we'll zoom out and think about the topology of a laptop ensemble
 performance. We will particularly think about what the topology of your final
-performance is, and what you might be able to do to make it more interesting. To experiment with this concept, you don't have to use multiple computers/performers in your sketch, you could just create multiple patches in Pd or code blocks in gibber and create a simple 1-minute musical example of how information flows between them. If you're thinking of creating visuals as well as music, this week is the time to try out a first prototype.
+performance is, and what you might be able to do to make it more interesting.
+To experiment with this concept, you don't have to use multiple
+computers/performers in your sketch, you could just create multiple patches in
+Pd or code blocks in gibber and create a simple 1-minute musical example of how
+information flows between them. If you're thinking of creating visuals as well
+as music, this week is the time to try out a first prototype.
 
 Before this week's workshop, have a think about:
 
