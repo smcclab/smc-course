@@ -10,7 +10,7 @@ template_repo: https://gitlab.cecs.anu.edu.au/laptop-ensemble/2023/SMC-2023-subm
 
 ## Outline
 
-- **Performance Dates:** TBA (during the exam period) 
+- **Performance Dates:** June 2, 5, 6 (**in person assessment only**).
 - **Artefact Submission Date:** 23:59 2/6/2023
 - **Mark weighting:** 40%
 - **Submission:** submit your assignment according to the
