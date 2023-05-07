@@ -9,23 +9,9 @@ image_alt: Photo by Charles Martin
 {:.warn-box}
 **No Diary**: No computer music diary this week--your diaries are all done!
 
-This week we'll have space in the workshop for you to practice your final LENS
-performances. Half the class will go this week, the other half the next week.
-
-After the performances we'll have a discussion about our works-in-progress in
-relation to the [marking criteria]({% link _assessments/04-lens-performance.md
-%}#marking) for the final performances.
 
 ## Goals for this week
 
-If you're up for your practice performance this week, you'll get a chance to:
-
-1. submit the tech rider for your final performance
-
-2. practice bump-in and bump-out with something that's as close to your final
-   ensemble configuration as possible
-
-3. get an idea of what works & what doesn't (while there's still time to make fixes)
 
 ## Resources
 
