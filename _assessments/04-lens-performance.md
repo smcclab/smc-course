@@ -97,7 +97,6 @@ The performance materials due date is the same for everybody in the class, but m
 
 TBA.
 
-
 {:.info}
 Concert day is likely to be intense, try to get good sleep, eat properly, and bring a water bottle.
 
@@ -123,6 +122,34 @@ By default, we expect every member of the ensemble to connect their laptop to al
 
 {:.info}
 If you have trouble getting your laptop to output video and audio over HDMI please sort this out well before the final performance.
+
+### External Equipment
+
+You are allowed to use equipment external to your laptop for the purpose of controlling your computer music software in the final performance. This includes MIDI controllers, human-interface devices, microbits, etc. There are a few caveats:
+
+- You may not use any equipment that requires AC power (that is, USB-powered or battery powered equipment only).
+- You may not use any equipment that requires more than one person to carry.
+- You may not use any equipment that creates sound which is used in your performance (i.e., external synthesisers, DJ decks, samplers are not allowed).
+
+Keep in mind that you are creatinng an _ensemble_ performance and any equipment used should contribute to how your ensemble works together to create music. Any external equipment you use must be clearly documented annd listed **as a referennce** in your performance materials.
+
+
+### External Software
+
+- You are allowed to use libraries or extensions for the comupter music systems used in the course, but these should be clearly documented and listed **as a reference** in your performance materials.
+
+- You are allowed to use middleware that goes in between computer music software and an external or internal hardware interface (e.g., Osculator, Wekinator or MobMuPlat).
+
+- You are not allowed to use music production software such as Ableton Live,
+ProTools or Logic in your performance. 
+
+- Any external libraries that you use
+should be used in a sophisticated, original, and independent way in order to
+show your attainment of the learning outcomes.
+
+{:.warn-box}
+Use of non-referenced software in your performance is a breach of [academic integrity](https://services.anu.edu.au/learning-teaching/academic-integrity/academic-integrity-best-practice-principles-for-learners) at ANU. Investigating such a breach, even unintentional mistakes, is time consuming and stressful for both the student and course convenor. It could delay your completion of this class. Please be very careful about your references and the software you have used.
+
 
 ## Marking criteria {#marking}
 
