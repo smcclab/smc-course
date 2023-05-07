@@ -1,6 +1,6 @@
 ---
-title: "Week 12: performance practice 2"
-tagline: "Practice & feedback for final performances"
+title: "Week 12: composition and improvisation"
+tagline: "Refining your composition and improvisation palns for the final performance"
 show_toc: true
 image: assets/workshops/2010-ultrasonic-charles-martin.jpg 
 image_alt: Photo by Charles Martin
