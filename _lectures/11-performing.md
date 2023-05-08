@@ -45,14 +45,26 @@ these musicians are taking a back seat to systems that play themselves, feed bac
 they might use light, new materials, custom electronics, to make their statement.
 
 {% include slides/background-image.html image="lectures/setups/construction-fifthvolt-2022.jpg" heading="5th Volt, Smith's Alternative, 2022" %}
-{% include slides/background-image.html image="lectures/setups/construction-nime2016-radios.jpg" heading="Oliver Bown, NIME2016" %}
+
+[link](https://youtu.be/h-C7mDJVNdA)
+
+{% include slides/background-image.html image="lectures/setups/construction-nime2016-radios.jpg" heading="DIADs - The Ford Transit..., Oliver Bown, NIME2016" %}
+
+
+
 {% include slides/background-image.html image="lectures/setups/construction-nime2019-steamsynth.jpg" heading="Steam Synth, Steve Harhai, NIME2019" %}
+
 {% include slides/background-image.html image="lectures/setups/constructions-nime2017-light.jpg" heading="Sabina Hyoju Ahn: Breath, NIME2017" %}
+
+[link](http://sabinaahn.com/index.php/project/breath/)
+
 {% include slides/background-image.html image="lectures/setups/constructions-nime2017-worm.jpg" heading="Marije Baalman: Chrysalis, NIME2017" %}
 
 [link](https://vimeo.com/183344106)
 
 {% include slides/background-image.html image="lectures/setups/constructions-nime2017.jpg" heading="Dianne Verdonk: Bellyhorn, NIME2017" %}
+
+[link](https://dianneverdonk.com/bellyhorn/)
 
 ## Face to Face
 
@@ -108,9 +120,19 @@ _headgear_ also includes other head-mounted musical modalities...
 [link](https://youtu.be/ZFg1pXzWS78?t=313)
 
 {% include slides/background-image.html image="lectures/setups/headgear-acmc2019.jpg" heading="AR performance ACMC2019" %}
+
 {% include slides/background-image.html image="lectures/setups/headgear-nime2018-vr.jpeg" heading="Forgetfulness: Zachary Duer, Ivica Ico Bukvic & Meaghan Dee, NIME2018" %}
+
+[link](http://ico.bukvic.net/Video/ForgetfulnessVR.mp4)
+
 {% include slides/background-image.html image="lectures/setups/headgear-nime2015.jpg" heading="PHOX Ears: Rebecca Kleinberger NIME2015" %}
+
+[link](https://rebeccakleinberger.com/portfolio_page/phoxs-ears/)
+
 {% include slides/background-image.html image="lectures/setups/headgear-nime2016.jpg" heading="Focal: Stewart Greenhill and Cathie Travers NIME2016"  bgsize="contain" %}
+
+[link](http://stewartgreenhill.com/articles/focal/)
+
 {% include slides/background-image.html image="lectures/setups/headgear-nime2018.jpg" heading="Circles: Barry Moon, NIME2018"  bgsize="contain"  %}
 
 ## HyperInstruments
@@ -123,14 +145,27 @@ they load their instrument with sensors, microphones, noise makers, screens, lig
 
 they follow hundreds of years of tradition with new techniques and a brand new sound
 
-{% include slides/background-image.html image="lectures/setups/hyperinstrument-nime2016-clarinet.jpg" heading="Extended Clarinet NIME2016"  bgsize="contain" %}
+{% include slides/background-image.html image="lectures/setups/hyperinstrument-nime2016-clarinet.jpg" heading="Extended Clarinet NIME2016, Carl Robert Normark, Robert Ek"  bgsize="contain" %}
+
+[link](https://youtu.be/anE8Xp-KeZU)
+
 {% include slides/background-image.html image="lectures/setups/hyperinstrument-nime2016-guitar.jpg" heading="BladeAxe Romain Michon NIME2016" bgsize="contain" %}
+
+[link](https://youtu.be/tyPOhLmRBXc)
+
 {% include slides/background-image.html image="lectures/setups/hyperinstrument-nime2016-piano.jpg" heading="Piano with Objects NIME2016"  bgsize="contain"  %}
+
+
+
+
 {% include slides/background-image.html image="lectures/setups/hyperinstrument-nime2017-cellos.jpg" heading="Feedback Cellos (Alice Eldrige and Chris Kiefer) NIME2017" %}
 
 [link](https://youtu.be/E_wkeie3qJ4)
 
 {% include slides/background-image.html image="lectures/setups/hyperinstrument-nime2019-violin.jpg" heading="Hybrid Violin, Laurel Pardue NIME2019"  bgsize="contain"  %}
+
+[link](https://youtu.be/aicbGuxBmws)
+
 {% include slides/background-image.html image="lectures/setups/hyperinstrument-vibes2011.jpg" heading="Extended Vibraphone, Charles Martin, NIME2013" %}
 
 [link](https://youtu.be/wNW5EN0eCd8)
@@ -146,14 +181,24 @@ this performance is about software and communication
 the real world bows to the dominance of their soundworld and the metaverse beyond
 
 {% include slides/background-image.html image="lectures/setups/semicircle-lens2019.jpg" heading="ANU Laptop Ensemble 2019" %}
+
+[link](https://youtu.be/0nzNdM5RCjY)
+
 {% include slides/background-image.html image="lectures/setups/semicircle-lens22.jpg" heading="ANU Laptop Ensemble 2022" %}
+
+[link](https://youtu.be/xixlJ9WtqNo)
+
 {% include slides/background-image.html image="lectures/setups/semicircle-metatone2014.jpg" heading="Ensemble Metatone 2014" %}
 
 [link](https://youtu.be/ICeHWlNRsgU)
 
 {% include slides/background-image.html image="lectures/setups/semicircle-nime2013-tablets.jpg" heading="Vox Tactum Meets Chorus Digitalis: Seven Years of Singing Surfaces NIME2013" %}
 
+[link](https://youtu.be/d4TV-IcK8c8)
+
 {% include slides/background-image.html image="lectures/setups/semicircle-nime2015.jpg" heading="Ensemble Feedback Instruments: Muhammad Hafiz Wan Rosli NIME2015" %}
+
+
 
 ## Unplugged
 
