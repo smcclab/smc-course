@@ -108,13 +108,13 @@ Your performance will be a public event! Feel free to advertise it, create a pos
 We will provide for each laptop:
 
 - HDMI input (for your video and sound)
-- power point
+- power outlet (for your laptop power adapter)
 
 We will also provide a WiFi router with internet.
 
 You need to provide whatever **adapters or cables** that are necessary to connect _HDMI_ to your computer, you should also bring your **power adapter**.
 
-By default, we expect every member of the ensemble to connect their laptop to all of: _HDMI_  and a power point and leave it plugged in for the duration of your setup, run through and performance.
+By default, we expect every member of the ensemble to connect their laptop to all of: _HDMI_  and a power outlet and leave it plugged in for the duration of your setup, run through and performance.
 
 - We will provide a big PA system and foldback speakers in the venue.
 - There will be technical support available at the performance, support is limited to connectivity issues, not stability of your piece :-)
