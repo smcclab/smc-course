@@ -97,3 +97,12 @@ Structure Spreadsheet
 | Narrative idea             | Opening onto a meadow | Is the bad guy coming in? | Bad guy comes in |                      |
 | Motives*                   | X                     | X Y                       | Y                |                      |
 | Timbres?                   |                       |                           |                  |                      |
+
+## Rules for Freeform Improvisation
+
+Bill Cahn. Creative Music Making
+
+**Rule 1:** Performers may play (or not play) anything they wish on any available instrument of their own choosing--there are no mistakes.
+
+**Rule 2:** Performers should listen as deeply as possible to themselves and to the other performers, but it's important to be perfectly clear to all participants--players and listeners alike--that there is no penalty for breaking this rule.
+
