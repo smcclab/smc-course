@@ -8,86 +8,69 @@ image_alt: Photo by Charles Martin
 
 {% include slides/title.html %}
 
-# Composing 
 
+## Organising Sound
 
-Where are your piece's 'key nodes of interest' and how do you transition to and from them?
+Remember our definition for "music" in this class: Edgard Varese's idea of music as ["organised sound"](https://doi.org/10.2307/832385).
 
-How much freedom and input do you want from your performers in rehearsal and in performance?
+In week :
 
-What are the coolest parts of your piece that you really want the audience to enjoy and how do you make sure they 'get it'?
+> in this class, we're open in terms of defining "music", it doesn't have to follow a particular style or emphasise traditional aspects such as melody and harmony.
 
-What are the most enjoyable parts of your piece for each of the ensemble members?
+today we look at methods for _organising_ sound in time, this means making decisions about what kinds of sounds to make, when.
 
-What kinds of coordination do you need between musicians? Hand signals? Eye contact? Something in the software? Live commenting in the code?
+## Communicating decisions
 
-Instructions don't have to be 'do this' but you can provide constraints so they just don't or can't do certain things and give them really basic guidelines
+The big problem we have is a two-parter:
 
-Think of what the 'unacceptable outcomes' might be for each of your instruments/musicians and build constraints into the piece and the instruments to prevent them
+> How to **communicate** these decisions to others in your group?
 
-Think about how your performers are going to communicate during the piece, eye contact and hand signals are great
+> How to **find out what to do** in the other pieces in your concert?
 
-You might want to think of your piece like a game - you set up rules and conditions and do some world-building and then let them play it out (either for a set period of time or until some conditions are met)
+## Decision making for organising sound 
 
-Do all the players have similar roles? Are you a sort of conductor or Dungeon Master? Are all the instructions/conditions set at the start, or, like D&D, are you making decisions about how to guide them in real time - or some mix of the two?
+A key framework is _who_ is making decisions and _when_:
 
-What is the context for your work? What other pieces and musicians are you drawing inspiration from? Who else would be on a mixtape with you? What ideas can you borrow/adapt, and how does your piece stand out?
+- **Composition**: You make decisions ahead of time and communicate them to your ensemble (somehow)
+- **Improvisation**: You let your ensemble decide _during the performance_.
 
-Do you want performances of your piece to be the same every time? Or should each one be a different version of the piece? How can you build the piece and the notation to work towards this?
+N.B.: this is about **you** defining the original music for your piece. Don't play other people's music!
 
-What do you want each performer to see?
+{% include slides/background-image.html image="lectures/poeme-electronique.jpg" heading="Composition" %}
 
-What do you want the audience to see? Some version of what you see? Or something else?
+{% include slides/background-image.html image="lectures/improvisation.jpg" heading="Improvisation" %}
 
-Sometimes looking at a group people staring at laptops and pushing buttons is less than super compelling on stage. What can you do to help the audience experience your piece?
+## What this is not.
 
-Also think about how visible or hidden you want the structure of the piece and/or the communication between players to be.
+- Composition does _not_ equal "traditional music notation": don't use this in your piece!
+- Composition is _not_ playing other people's music!
+- Composition _is_ about making decisions and communicating them (somehow) to your ensemble.
+- Improvisation is _not_ equal to "jazz improvisation", or any other idiom: this is a specific type of performance!
+- Improvisation is about performers making decisions.
 
-## Collaboration
+**Most** laptop ensemble performances have a combination of composed and improvised aspects.
 
-Let's talk about ideas for collaboration models, and remember that you can use more than one (what other thoughts do you have?):
- 
+{% include slides/background-image.html image="lectures/creative-music-making.jpg" heading="Rules for Freeform Improvisation" %}
 
+(Bill Cahn: Creative Music Making)
 
+> **Rule 1:** Performers may play (or not play) anything they wish on any available instrument of their own choosing--there are no mistakes.
 
-A bunch of people sending information to (co-controlling) a single instrument
+> **Rule 2:** Performers should listen as deeply as possible to themselves and to the other performers, but it's important to be perfectly clear to all participants--players and listeners alike--that there is no penalty for breaking this rule.
 
-A bunch of people with their own version of the same instruments
+## Rules and your performance
 
-A bunch of people with different instruments
+We used these rules in our weekly in-class jams. You should be familiar with this "anything goes" formula.
 
-Some people controlling parts of other people's instruments (hijacking)?
+- Should you use them in your final performance?
+- Wrinkle is: you want (need) to show off _specific_ aspects of your synths/interfaces/sequencers etc.
+- Good to have **some** composed elements for your ensemble.
 
-Getting some data from and interaction with the audience
+"Composed" doesn't just mean _notes_, you can compose timbres, decisions, expressions, gestures, all musical concepts.
 
-abstract interaction - eg: moving a ball around a GUI and using the location output of that to feed into sequencers (see Peter Baker's 2020 LENS cohort example). 
-	
-Interaction with microphone input (other people playing non-laptop-based instruments)
+## Planned improvisation --- use a spreadsheet
 
-## Notation Ideas
-
-And what about notation ideas? Again, different sections of your piece might need really different kinds of notation, and different members of your ensemble might need different kinds of notation. Any other ideas/thoughts?
- 
-
-
-
-Text instructions in time
-
-Graphic instructions/notation in time
-
-Frame notation (time boxes)
-
-If, then notation (when you hear/see this, do that) - can be different in different sections
-
-Live soundtrack improvisation (project a video and give them very little notation)
-
-A score can be like a board game - players either have the same goal, a collaborative goal, different goals, etc.
-
-## Make a Plan
-
-Structure Spreadsheet
-
-|                            | A - 0-1:00            | Transition 1:00 - 1:30    | B - 1:30-3:00    | C - 3:00-?           |
+|                            | A - 0-1:00            | Transition 1:00 - 2:00    | B - 2:00-4:00    | C - 4:00-6:00        |
 |----------------------------|-----------------------|---------------------------|------------------|----------------------|
 | Texture (activity density) | Sparse                | Sparse                    | A bit denser     | Really dense         |
 | Synth 1                    | High register         | High                      | Higher           |                      |
@@ -96,13 +79,108 @@ Structure Spreadsheet
 | Melodic emphasis           |                       |                           |                  |                      |
 | Narrative idea             | Opening onto a meadow | Is the bad guy coming in? | Bad guy comes in |                      |
 | Motives*                   | X                     | X Y                       | Y                |                      |
-| Timbres?                   |                       |                           |                  |                      |
+| Timbres                    | Deep, Filtered        | Opening filters           | Metallic, inharmonic | Glassy, High pass    |
 
-## Rules for Freeform Improvisation
+## Planning your improvisation
 
-Bill Cahn. Creative Music Making
+Things that you _could_ plan.
 
-**Rule 1:** Performers may play (or not play) anything they wish on any available instrument of their own choosing--there are no mistakes.
+- activity density
+- harmony info
+- melody/sequence info
+- instructions for specific instruments/players
+- timbral info
 
-**Rule 2:** Performers should listen as deeply as possible to themselves and to the other performers, but it's important to be perfectly clear to all participants--players and listeners alike--that there is no penalty for breaking this rule.
+## Structure
+
+This is the number of "sections" or "ideas" in your piece. For 5 minutes, you only need 3-4.
+
+- Where are your piece's main points of interest?
+- How do you transition to and from different section?
+- What are the coolest parts of your piece; how do you make sure we notice them?
+- How can your piece go wrong? How can you stop that happening? 
+- Do you want performances of your piece to be the same every time? 
+- What are the most enjoyable parts of your piece for each of the ensemble members?
+
+Think about what is interesting _inside_ each section and _between_ the sections.
+
+## Coordination
+
+Don't _controlling_ your ensemble (impossible), think about _guiding_ them.
+
+- How much freedom and input do you want from your performers in rehearsal and in performance?
+- What kinds of coordination do you need between musicians? 
+- Hand signals? Eye contact? Something in the software? Live commenting in the code?
+- Instructions don't have to be 'do this' but could be "constraints"
+- What do you want each performer to see?
+
+Don't make this too complicated. Your ensemble will need to keep this info in their head.
+
+## Game Piece
+
+This means pieces that you "play like a game", not just playing Zelda's Lullaby
+
+- What are the rules of the game? Can you win or lose?
+- Do all players have similar roles? Is there a conductor or Dungeon Master? 
+- Are all the instructions/conditions set at the start, or do you create them somehow? 
+- **Important**: How do you make _sure_ there is interest throughout your work? (Don't make it boring)
+
+Game pieces can involve simple pen+paper rules, or a complex networked game
+(e.g., created in Pd). LENS students have even had text adventures in live
+coding systems.
+
+## The Audience
+
+Think about the audience's perspective on your work?
+
+- What do you want the audience to see? Some version of what you see? Or something else?
+- How will the audience understand what you are doing?
+- What experience do you want the audience to have?
+- How visible will the "structure" and "communication" be in your piece?
+
+(Note that "audience participation" is unlikely to work.)
+
+## Collaboration
+
+What is the collaboration model for your piece (is this an interface question?)
+
+- People sending information to (co-controlling) a single instrument
+- People with their own version of the same instruments
+- People with different instruments
+- People controlling parts of other people's instruments (hijacking)?
+- abstract/gamelike interactions
+
+Something else? There are lots of possibilities here.
+
+## Notation Ideas
+
+DON'T use "traditional western notation". What will work for the members of your group?
+ 
+- Text instructions in time
+- Graphic instructions/notation in time
+- Instructions/Graphics inside Pd/interface
+- "If, then" notation (when you hear/see this, do that) - can be different in different sections
+- Live soundtrack improvisation (provide some video/graphics and play along somehow)
+- "Rules of a game" to be memorised at the start of performance.
+
+Many possibilities here, but keep it clear and concise. If you are writing
+something down make it 1 A4 page (including all info for the group).
+
+## High level tips
+
+- Make decisions now and adjust them (with feedback from your group)
+- Don't try to do too much in 5 minutes. 3-4 big ideas.
+- Follow the marking guidelines, show me: SMC concepts, collaboration, creative control, technical quality.
+- Show who is doing what 
+- Think beyond **notes**: organise timbres, expressions, envelopes, other stuff!
+- Don't play someone else's music
+- You can do this!
+
+{% include slides/background-image.html image="lectures/llewellyn-blur.jpg" heading="Break a leg!" %}
+
+We made it!
+
+Thanks for coming on this journey with me!
+
+Make plenty of time over the next few weeks for meeting your ensemble and have a great concert!
 
