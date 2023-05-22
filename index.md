@@ -14,6 +14,28 @@ Do you want to create sound and music with your computer? Do you want to build
 new kinds of musical instruments? Do you want to be a part of a laptop band?
 This is the course for you! 
 
+{:.warn-box} 
+The **ANU Laptop Ensemble 2023 Concert Series** will take place on June 2, 5, and 6 at Llewllyn Hall, ANU School of Music.
+Our students will perform 14 concerts over these three days. All concerts are **open to the public** and **free of charge**.
+
+![ANU LENS23 Concert Series Poster]({% link assets/posters/ANU-LENS23.jpg %})
+
+The **ANU Laptop Ensemble Concert Series** is the final assessment for our Sound
+and Music Computing students in 2023. Each concert will be around **40 minutes** in
+length with **4-5 pieces of original ensemble computer music** created by our
+students. These works involve custom music software, new interfaces for musical
+expression, novel modes of networked collaboration, and creative algorithms for
+composing music. Above all, these are creative experiments at the limits of current
+music technology.
+
+To see previous performances by the ANU Laptop Ensemble in previous years, take
+a look at our [YouTube Channel](https://www.youtube.com/@anulens).
+
+If you're a student in the class, practical information about the concert
+series is [here]({% link _assessments/04-lens-performance.md %}).
+
+## What is Sound and Music Computing?
+
 This course is an introduction to the fundamental concepts of music computing,
 including **digital synthesis**, **algorithmic composition**, and musical **interface
 design**. You will develop your knowledge by creating computer musical
@@ -25,9 +47,6 @@ involves new live programming paradigms, human interface design, digital signal
 processing, networking, and machine learning. You will gain experience in
 these concepts and learn how to conceptualise and realise new computer music
 instruments, compositions, and performances.
-
-{:.warn-box} 
-This is the course formerly known as **Laptop Ensemble**! You're joining at a great time because we're expanding to cater for more students (equals more fun) and adding more content for 2023!
 
 ## How to enrol
 
