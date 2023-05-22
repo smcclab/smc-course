@@ -151,26 +151,7 @@ show your attainment of the learning outcomes.
 Use of non-referenced software in your performance is a breach of [academic integrity](https://services.anu.edu.au/learning-teaching/academic-integrity/academic-integrity-best-practice-principles-for-learners) at ANU. Investigating such a breach, even unintentional mistakes, is time consuming and stressful for both the student and course convenor. It could delay your completion of this class. Please be very careful about your references and the software you have used.
 
 
-## Marking criteria {#marking}
-
-Your LENS artefact will be assessed based on the representations above. The
-marking criteria are:
-
-- Sophistication of application of fundamental concepts in sound and music computing. (50%)
-- Technical Quality (20%)
-- Demonstrated capacity for expression and collaboration (20%)
-- Presentation and communication through performance materials (10%)
-
-## Marking Rubric {#rubric}
-
-| Criteria | HD | D | CR | P | N |
-|---|---|---|---|---|---|
-| Sophistication of application of fundamental concepts in sound and music computing. (50%) | Excellent to outstanding SMC implementations going beyond learning materials. | Very good application of SMC concepts, but not beyond learning materials. | Application of SMC at level of learning materials. May have gaps in some areas. | Some effort to replicate SMC learning materials resulting in functional SMC software. May have only applied some SMC concepts covered. | Very little SMC software or software that is below the level of learning materials. |
-| Technical Quality (20%) | A performance showing an outstanding level of stability, technical polish, and consideration of staging. | A performance showing an very good level of stability and technical polish with good consideration of staging. | A performance showing a good level of stability but some lack of technical polish. Staging has been considered. | A performance that may have some issues with stability but lacks technical polish. Staging considerations may be lacking. | A performance with serious stability issues and a lack of technical polish. Staging considerations may be lacking. |
-| Demonstrated capacity for expression and collaboration (20%) | Performance demonstrates an excellent to outstanding capacity for expression (creative control) by all performers and collaboration that goes beyond learning materials. | A performance that shows very good capacity for expression and creative control by the performers. Collaboration is demonstrated and necessary for the performance. | A performance that shows some capacity for expression and creative control by the performers. A good capacity for collaboration is demonstrated but it may not be completely necessary. | A performance with some capacity for expression by the performers, but it may not lead to fully collaborative creative control. | Performance does not demonstrate a capacity for expression (creative control) by the performers and the level of collaboration is below acceptable standards. |
-| Presentation and communication through performance materials (10%) | An outstanding presentation of performance materials clearly communicating the submissions and performance procedure. | A very good presentation of performance materials clearly communicating the submissions and performance procedure. | A good presentation of performance materials. The submission and performance procedure may not be fully communicated. | A satisfactory presentation of the performance materials. The submission and performance procedure may be only weakly communicated. | Unsatisfactory performance materials that may have minimal or no communication of the performance and submission.  |
-
-## Reference format {#reference-format}
+### Reference format {#reference-format}
 
 We prefer ACM reference format: <https://www.acm.org/publications/authors/reference-formatting>
 
@@ -187,3 +168,99 @@ Some example references in Markdown format are as follows:
 6. Aaron Wu. 2018. Boat Photo on Unsplash. Retrieved from: <https://unsplash.com/photos/_8rjlHwN4uk>
 7. Wikipedia. 2022. J M W Turner Article. Retrieved from: <https://en.wikipedia.org/wiki/J._M._W._Turner>
 ```
+
+## Marking
+
+### Marking criteria {#marking}
+
+Your LENS artefact will be assessed based on the representations above. The
+marking criteria are:
+
+- Sophistication of application of fundamental concepts in sound and music computing. (50%)
+- Technical Quality (20%)
+- Demonstrated capacity for expression and collaboration (20%)
+- Presentation and communication through performance materials (10%)
+
+### Marking Rubric {#rubric}
+
+| Criteria | HD | D | CR | P | N |
+|---|---|---|---|---|---|
+| Sophistication of application of fundamental concepts in sound and music computing. (50%) | Excellent to outstanding SMC implementations going beyond learning materials. | Very good application of SMC concepts, but not beyond learning materials. | Application of SMC at level of learning materials. May have gaps in some areas. | Some effort to replicate SMC learning materials resulting in functional SMC software. May have only applied some SMC concepts covered. | Very little SMC software or software that is below the level of learning materials. |
+| Technical Quality (20%) | A performance showing an outstanding level of stability, technical polish, and consideration of staging. | A performance showing an very good level of stability and technical polish with good consideration of staging. | A performance showing a good level of stability but some lack of technical polish. Staging has been considered. | A performance that may have some issues with stability but lacks technical polish. Staging considerations may be lacking. | A performance with serious stability issues and a lack of technical polish. Staging considerations may be lacking. |
+| Demonstrated capacity for expression and collaboration (20%) | Performance demonstrates an excellent to outstanding capacity for expression (creative control) by all performers and collaboration that goes beyond learning materials. | A performance that shows very good capacity for expression and creative control by the performers. Collaboration is demonstrated and necessary for the performance. | A performance that shows some capacity for expression and creative control by the performers. A good capacity for collaboration is demonstrated but it may not be completely necessary. | A performance with some capacity for expression by the performers, but it may not lead to fully collaborative creative control. | Performance does not demonstrate a capacity for expression (creative control) by the performers and the level of collaboration is below acceptable standards. |
+| Presentation and communication through performance materials (10%) | An outstanding presentation of performance materials clearly communicating the submissions and performance procedure. | A very good presentation of performance materials clearly communicating the submissions and performance procedure. | A good presentation of performance materials. The submission and performance procedure may not be fully communicated. | A satisfactory presentation of the performance materials. The submission and performance procedure may be only weakly communicated. | Unsatisfactory performance materials that may have minimal or no communication of the performance and submission.  |
+
+## Practical Matters for the Concert {#practical-matters}
+
+Here is some more practical information about the LENS performance assessment concerts.
+
+Make sure you have read **all** the information on this page, and in the ["Concert" lecture]({% link _lectures/13-concert.md %}) so that you are aware of our expectations and standards.
+
+### Place
+
+All concerts will take place at **Llewellyn Hall, ANU School of Music, Building 100**.
+
+### Date and Time
+
+Concerts are on June 2, 5, 6. The time for your group is in the following table:
+
+| **Date** | **Concert Time** | **Group** | **Group Name**       | **Arrival Time** |
+|----------|------------------|-----------|----------------------|------------------|
+| 2 Jun    | 12:00            | G02       | CyberSymphony        | 11:00            |
+| 2 Jun    | 13:00            | G07       | Beat Bots            | 12:00            |
+| 2 Jun    | 15:00            | G08       | Binary Beats Brigade | 14:00            |
+| 2 Jun    | 16:00            | G14       | Techno Troupe        | 15:00            |
+| 5 Jun    | 10:00            | G11       | Digital Domain       | 09:00            |
+| 5 Jun    | 11:00            | G04       | Glitch Garden        | 10:00            |
+| 5 Jun    | 12:00            | G16       | Circuitry Symphony   | 11:00            |
+| 5 Jun    | 14:00            | G12       | Sonic Algorithms     | 13:00            |
+| 5 Jun    | 15:00            | G15       | Audio Architects     | 14:00            |
+| 5 Jun    | 16:00            | G13       | Electro Ensemble     | 15:00            |
+| 6 Jun    | 11:00            | G06       | ElectroPhonic        | 10:00            |
+| 6 Jun    | 12:00            | G01       | Machine Musician     | 11:00            |
+| 6 Jun    | 14:00            | G10       | Pixelated Players    | 13:00            |
+| 6 Jun    | 15:00            | G09       | Midi Masters         | 14:00            |
+
+### Arrival and Warmup
+
+You must arrive at the School of Music **60 minutes before your scheduled performance time**. A tutor will meet you at the entrance and guide your group to a [greenroom](https://www.dictionary.com/browse/greenroom) where you can test your setups and get ready with your group. This tutor will stay with you throughout your concert experience to make sure you know where to go.
+
+The schedule for each ensemble is as follows (times in minutes relative to your performance time).
+
+- -60m **Arrive at School of Music**, meet your tutor at the front, move to "green room" to test setups and get ready
+- -30m **Pack up in green room** and get ready to move to Llewellyn Hall
+- -20m **arrive at Llewellyn Hall** and get ready to walk carefully on stage when previous group finishes
+- -15m when other group is finished, come onto stage and plug in laptops (HDMI + power supplies)
+- -10m - Confirm sound and video coming out of each laptop 
+- 00m! (Concert time), stop testing, get ready for first piece
+- 5m - Start of your concert
+	- Each piece is played in order given on poster
+	- 3min pause for changeover between each piece
+	- Confirm ready to start each piece with the stage manager  Brent before starting (he will be right in front)
+- ~45m - finish concert, unplug, move off stage (ready for next group)
+
+### Concert order and procedures
+
+The order of pieces in the concert is as given on the posters available on Teams and in the [concert lecture]({% link _lectures/13-concert.md %}).
+
+This is not up for discussion, you may not change the concert order. My worst
+nightmare is assessing the wrong person so please make sure you get the order
+correct.
+
+During the concert, you will be guided by your tutor and stage manager Brent
+about when to start each piece. Brent will confirm with you who the author of
+each piece is so that you perform in the correct order.
+
+### Supporting each other and being awesome
+
+I know that everybody in the class wants to help each other. In the stress
+leading up to the concert, you may find yourself a bit more frustrated with
+your group if and when things go a bit wrong. Please keep in mind how important
+supporting each other is for learning. You gain a lot from the experience of
+helping others when they need it and going through a difficult assessment with
+a team is a memorable and worthwhile experience. 
+
+Please be your best self and act respectfully in all interactions over the next
+few weeks.
+
+
