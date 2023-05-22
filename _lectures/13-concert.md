@@ -8,19 +8,29 @@ image_alt: Photo by Charles Martin
 
 {% include slides/title.html %}
 
-# Addendum: Final Performance Planning
-
 ## LENS Performance
+
+This lecture is about practical matters for the final LENS performance.
 
 - Final assessment for this course (40%)
 - an in-person ensemble performance that you will participate in with your group
 - **individual** assessment, one performance per ensemble member.
 
+## What you are making
+
+> You will create a computer music system that can be performed live by a group of students at a live concert. This could take the form of a new computer music instrument or composition that a group of performers can control.
+
+This means:
+
+a computer music system **created by you** performing **original music** with your group.
+
+Do not play covers or music created by other people. That is not acceptable in this assessment or this course.
+
 ## Your Ensemble Performance
 
 Your ensemble performance:
 
-- **must** involve at least three LENS members (but hopefully all members of your group)
+- **must** involve all members of your LENS ensemble 
 - **must** be created with one of the computer music languages **studied this semester**
 - **must** be 5-7 minutes in length
 - **must** be presented at a LENS performance in the exam period
@@ -43,13 +53,13 @@ Your ensemble performance:
 
 ## Concerts
 
-- Each group gets **one** timeslot to perform each of your pieces (4-5) in one 40 minute concert.
-- You must be prepared to play each piece in sequence with little changeover time.
+- Each group gets **one** timeslot to perform each of your pieces (4-5) in one 45 minute concert.
+- You must be prepared to play each piece in sequence with little changeover time (<3mins changeover).
 - Technical setup will be very strictly controlled.
 
 We will have some arrangement to test your setup on a duplicate system in the hour before the concert.
 
-We will have bookable rehearsal times from Monday--Thursday before the first concert for rehearsals.
+We will have bookable rehearsal times from Tuesday--Thursday before the first concert for rehearsals.
 
 ## Allocation
 
@@ -64,7 +74,7 @@ You will need to be flexible and organised. We cannot guarantee you won't have a
 We will provide for each laptop:
 
 - **HDMI input** (for your video and sound)
-- power point
+- power outlet for your laptop
 
 We will also provide a WiFi router with internet.
 
@@ -73,6 +83,7 @@ You need to provide whatever **adapters or cables** that are necessary to connec
 By default, we expect every member of the ensemble to connect their laptop to
 all of: _HDMI_  and a power point and leave it plugged in for the duration of
 your setup and performance.
+You may not move your laptop during the concert.
 
 ## External Equipment
 
@@ -118,25 +129,45 @@ Don't claim other's work is your own---even by accident!!
 The big challenge in a LENS performance:
 
 - ~~writing some synths that sound cool~~
-
 - figuring out who does what
+- figuring out how to structure a performance (= organised sound, composition)
 
 Give each performer **less** to do than you think you need to. Expect performers to think and communicate. Give performers **creative control**. Good performance is **risky!**
 
 ## Getting started
 
 - **week 10**: create a minimal idea for your diary, explain the topology to your group.
-
 - **week 11**: work on expression and interfaces with your group.
-
 - **week 12**: work on composition and improvisation with your group.
-
 - **week 13**: final rehearsals, make sure it all works.
 
 CONCERT DAY!
 
-# Posters
+## Procedure on the day: Pre-Concert
 
+(times relative to your concert time)
+
+- -60m **Arrive at School of Music**, meet your tutor at the front, move to "green room" to test setups and get ready
+- -30m **Pack up in green room** and get ready to move to Llewellyn Hall
+- -20m **arrive at Llewellyn Hall** and get ready to walk carefully on stage when previous group finishes
+- -15m when other group is finished, come onto stage and plug in laptops (HDMI + power supplies)
+- -10m - Confirm sound and video coming out of each laptop 
+
+## Procedure on the day: Your Concert!
+
+- 00m! (Concert time), stop testing, get ready for first piece
+- 5m - Start of your concert
+	- Each piece is played in order given on poster
+	- 3min pause for changeover between each piece
+	- Confirm ready to start each piece with the stage manager  Brent before starting (he will be right in front)
+- ~45m - finish concert, unplug, move off stage (ready for next group)
+
+N.B.: Concert order is on the posters (see following slides), this is not negotiable.
+
+Groups with 5 will get a little more time in their concert, we have capacity to flex the start times a bit as needed.
+
+
+# Posters
 
 {% include slides/background-image.html image="posters/G1.jpg" heading="ANU Laptop Ensemble 1: CyberSymphony" %}
 

@@ -56,7 +56,7 @@ all aspects of the performance.
 
 Your ensemble performance:
 
-- **must** involve at least three LENS members (but hopefully all members of your group)
+- **must** involve all members of your LENS ensemble
 - **must** be created with one of the computer music languages **studied this semester**
 - **must** be 5-7 minutes in length
 - **must** be presented at a LENS performance in the exam period
@@ -95,7 +95,7 @@ The performance materials due date is the same for everybody in the class, but m
 
 ### Performance Times
 
-TBA.
+See the practical information [below]({% link _assessments/04-lens-performance.md %}/#practical-matters).
 
 {:.info}
 Concert day is likely to be intense, try to get good sleep, eat properly, and bring a water bottle.
