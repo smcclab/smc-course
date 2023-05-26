@@ -17,12 +17,12 @@ These are the assessments for Sound and Music Computing, Semester 1 2023.
 | [Portfolio 1]({% link _assessments/02-portfolio.md %})             | 23:59 27/3/2023                         | 20% |
 | [Solo Performance]({% link _assessments/03-solo-performance.md %}) | 23:59 17/4/2023                         | 20% | 
 | [Portfolio 2]({% link _assessments/02-portfolio.md %})             | 23:59 15/5/2023                         | 20% |
-| [LENS performance]({% link _assessments/04-lens-performance.md %}) | Concert: TBA, Artefact: 2/6/2023        | 40% |
+| [LENS performance]({% link _assessments/04-lens-performance.md %}) | Concert: see page, Artefact: 2/6/2023        | 40% |
 
 Read the course [policies]({% link 01-policies.md %}) for information on submission, extensions, special consideration, and appeals.
 
 {:.warn-box}
-The LENS performance date is still TBA but will take place in the exam period.
+The LENS performance dates are June 2, 5, and 6, 2023. Please see the LENS Performance page for your individiual group's concert time and make sure you have read the procedure for attending and completing your assessment.
 
 ## Assessment Pages
 
