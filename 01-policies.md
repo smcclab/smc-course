@@ -121,13 +121,20 @@ Note that:
 - We do not process extensions every day, but will attend to your request within a few days. Do not send multiple messages.
 - Extensions of more than two weeks are not generally granted except in exceptional circumstances.
 
+{:.warn-box}
+N.B.: The "LENS Performance" Assessment is arranged as a non-centrally
+administered exam. If have an extenuating circumstance that prevents you from
+attending your LENS Performance, please apply for [Deferred Examination]({% link 01-policies.md %}#scda). If you
+do so, please inform the course convenor and provide your documentation to them
+as well.
+
 ## Word limits {#word-limits}
 
 Max word count limits are provided for the written assessment tasks in this
 course and we expect you to stay within those limits. You won't lose marks
 until you exceed a word limit by more than 10%
 
-## Special Consideration and Deferred Assessment
+## Special Consideration and Deferred Assessment {#scda}
 
 If you have any unexpected and unavoidable issues that has affected your
 performance in the course (e.g., sickness, or unexpected caring/work
@@ -138,8 +145,10 @@ to document your issue.
 
 - Special Consideration is **not for extensions**. If you need an extension see above.
 
-Sound and Music Computing does not have exams so the procedures for Deferred Assessment do
-not apply in this course.
+If you have any unexpected and unavoidable issue on the day of an exam (e.g.,
+you are sick) which means you can't do the exam on that day, please apply for
+[Deferred Examination
+(link)](https://www.anu.edu.au/students/program-administration/assessments-exams/deferred-examinations).
 
 If you are confused about how Special Consideration or Deferred Examinations
 work, have a look at the [quick guide

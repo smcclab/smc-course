@@ -15,7 +15,7 @@ template_repo: https://gitlab.cecs.anu.edu.au/laptop-ensemble/2023/SMC-2023-subm
 - **Mark weighting:** 40%
 - **Submission:** submit your assignment according to the
   [instructions below](#submission-process)
-- **Policies:** Late submission not permitted. 
+- **Policies:** Late submission not permitted.
 - **GitLab Repo:** [link]({{ page.template_repo }})
 
 
@@ -263,4 +263,15 @@ a team is a memorable and worthwhile experience.
 Please be your best self and act respectfully in all interactions over the next
 few weeks.
 
+### Deferred Examination
+
+The "LENS Performance" Assessment is arranged as a non-centrally administered
+exam. If have an extenuating circumstance that prevents you from attending your
+LENS Performance, please apply for [Deferred Examination]({% link
+01-policies.md %}#scda). This is defined as circumstances that are unexpected
+and unavoidable and must be a serious matter that would prevent you from
+physically attending your performance assessment.
+
+If you apply for deferred examination in this course, please inform the course
+convenor and provide your documentation to them as well.
 
