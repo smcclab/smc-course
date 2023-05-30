@@ -15,7 +15,7 @@ template_repo: https://gitlab.cecs.anu.edu.au/laptop-ensemble/2023/SMC-2023-subm
 - **Mark weighting:** 40%
 - **Submission:** submit your assignment according to the
   [instructions below](#submission-process)
-- **Policies:** Late submission not permitted.
+- **Policies:** Late submission not permitted, this an individual assessment (you create one performance for your group to play)
 - **GitLab Repo:** [link]({{ page.template_repo }})
 
 
