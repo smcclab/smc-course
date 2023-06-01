@@ -204,22 +204,22 @@ All concerts will take place at **Llewellyn Hall, ANU School of Music, Building 
 
 Concerts are on June 2, 5, 6. The time for your group is in the following table:
 
-| **Date** | **Concert Time** | **Group** | **Group Name**       | **Arrival Time** |
-|----------|------------------|-----------|----------------------|------------------|
-| 2 Jun    | 12:00            | G02       | CyberSymphony        | 11:00            |
-| 2 Jun    | 13:00            | G07       | Beat Bots            | 12:00            |
-| 2 Jun    | 15:00            | G08       | Binary Beats Brigade | 14:00            |
-| 2 Jun    | 16:00            | G14       | Techno Troupe        | 15:00            |
-| 5 Jun    | 10:00            | G11       | Digital Domain       | 09:00            |
-| 5 Jun    | 11:00            | G04       | Glitch Garden        | 10:00            |
-| 5 Jun    | 12:00            | G16       | Circuitry Symphony   | 11:00            |
-| 5 Jun    | 14:00            | G12       | Sonic Algorithms     | 13:00            |
-| 5 Jun    | 15:00            | G15       | Audio Architects     | 14:00            |
-| 5 Jun    | 16:00            | G13       | Electro Ensemble     | 15:00            |
-| 6 Jun    | 11:00            | G06       | ElectroPhonic        | 10:00            |
-| 6 Jun    | 12:00            | G01       | Machine Musician     | 11:00            |
-| 6 Jun    | 14:00            | G10       | Pixelated Players    | 13:00            |
-| 6 Jun    | 15:00            | G09       | Midi Masters         | 14:00            |
+| **Date** | **Concert Time** | **Group** | **Group Name**       | **Arrival Time** | **Tutor** |
+|----------|----------|-----------|----------------------|-------------|-----------|
+| 2 Jun    | 12:00    | G02       | CyberSymphony        | 11:00       | Mingrui   |
+| 2 Jun    | 13:00    | G07       | Beat Bots            | 12:00       | Xinran    |
+| 2 Jun    | 15:00    | G08       | Binary Beats Brigade | 14:00       | Madelyn   |
+| 2 Jun    | 16:00    | G14       | Techno Troupe        | 15:00       | Rachel    |
+| 5 Jun    | 10:00    | G11       | Digital Domain       | 09:00       | Madelyn   |
+| 5 Jun    | 11:00    | G04       | Glitch Garden        | 10:00       | Sandy     |
+| 5 Jun    | 12:00    | G16       | Circuitry Symphony   | 11:00       | Madelyn   |
+| 5 Jun    | 14:00    | G12       | Sonic Algorithms     | 13:00       | Xinran    |
+| 5 Jun    | 15:00    | G15       | Audio Architects     | 14:00       | Sandy     |
+| 5 Jun    | 16:00    | G13       | Electro Ensemble     | 15:00       | Rachel    |
+| 6 Jun    | 11:00    | G06       | ElectroPhonic        | 10:00       | Rachel    |
+| 6 Jun    | 12:00    | G01       | Machine Musician     | 11:00       | Mingrui   |
+| 6 Jun    | 14:00    | G10       | Pixelated Players    | 13:00       | Sandy     |
+| 6 Jun    | 15:00    | G09       | Midi Masters         | 14:00       | Mingrui   |
 
 ### Arrival and Warmup
 
