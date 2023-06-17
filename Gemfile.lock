@@ -1,4 +1,12 @@
 GIT
+  remote: git@gitlab.anu.edu.au:jekyll-anu/gems/jekyll-autoprefixer-re.git
+  revision: 8f80c28fedc0091147b7047f9b83bf9af93a7f5c
+  branch: master
+  specs:
+    jekyll-autoprefixer-re (1.0.2)
+      autoprefixer-rails (~> 10.2.5.1)
+
+GIT
   remote: git@gitlab.anu.edu.au:jekyll-anu/gems/jekyll-plugins-anu.git
   revision: 1cb31f70d6dfc8fb6e3cb5e27f15eb788287218c
   tag: v2.4.0
@@ -29,14 +37,6 @@ GIT
   specs:
     jekyll-theme-anu (2.4.34)
       jekyll
-
-GIT
-  remote: https://github.com/silkkycloud/jekyll-autoprefixer-re.git
-  revision: 8f80c28fedc0091147b7047f9b83bf9af93a7f5c
-  branch: master
-  specs:
-    jekyll-autoprefixer-re (1.0.2)
-      autoprefixer-rails (~> 10.2.5.1)
 
 GEM
   remote: https://rubygems.org/
