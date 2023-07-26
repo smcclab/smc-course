@@ -122,7 +122,7 @@ Imaginary?
 - "From providing instructions for performers to create music, to creating contexts for performances in which music may be experienced" - Marije Baalman
 
 {% include slides/background-image.html image="https://charlesmartin.au/assets/projects/lmtd/Benjamin-codes-and-Hanna-sets-the-masks.jpg"
-heading="Vital LMTD (2009) / Lat Man to Die" %}
+heading="Vital LMTD (2009) / Last Man to Die" %}
 
 Exploring three art forms: acting, percussion, and drawing through new interactive technologies and experimental performance
 
