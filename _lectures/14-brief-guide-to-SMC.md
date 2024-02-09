@@ -50,6 +50,8 @@ two big goals:
 
 4. go to <https://gibber.cc> to start coding music
 
+see these slides: <https://bit.ly/coding-music-slides>
+
 ⚠️⚠️ the lab computers use an operating system called _linux_ that you might not be familiar with! You might need help finding _Chromium_ and the _volume control_. ⚠️⚠️
 
 ## Gibber
@@ -68,7 +70,16 @@ Start using it at [gibber.cc](https://gibber.cc).
 
 [Madelyn Fardell (2022)](https://youtu.be/xixlJ9WtqNo)
 
-## So you've made a piece in Gibber...
+[Wenshilan Ren (2023)](https://youtu.be/LqYNjvo2qvc)
+
+[Evangeline Sturges (2023)](https://youtu.be/gQch_vbFqHo)
+
+{% include slides/impact.html %}
+
+who has a question right now?
+
+
+## Later... so you've made a piece in Gibber...
 
 1. Dive deeper into the synth designs provided in Gibber (well, in [gibberish](https://github.com/gibber-cc/gibberish/tree/v3/js/instruments) actually, see below). Create sounds with a synth you haven't used before such as `fm` or `karplusstrong`.
 
@@ -80,7 +91,7 @@ Start using it at [gibber.cc](https://gibber.cc).
 
 4. Use Gibber's built-in collaboration features to create a group performance with your ensemble!
 
-## music and code resources
+## Much later... music and code resources
 
 0. ANU Sound and Music Computing [student performances.](https://www.youtube.com/watch?v=2EdxJ_aJRHA&list=PLKm3iGh1D7Mur62hvm6BHBNqlObABGDgY)
 1. The [gibber playground](https://github.com/gibber-cc/gibber): Gibber's user interface, clone this repo to run Gibber locally.
@@ -89,8 +100,3 @@ Start using it at [gibber.cc](https://gibber.cc).
 4. [gibber.core.lib](https://github.com/charlieroberts/gibber.core.lib): A few shared objects and function for Gibber, mostly for sequencing. `euclid`, `seq`, and `tidal` are defined here.
 5. [gibberish](https://github.com/gibber-cc/gibberish): a "fast JavaScript DSP library". If you want to know where `Synth` or `Sampler` are defined, look here (actually look in `gibberish/js/instruments`).
 6. [genish](https://github.com/charlieroberts/genish.js): this is a lower-level DSP library for doing "per-sample audio processing" (inspired by the `gen~` object from Max/MSP). To understand why this is cool, look at the [genish tutorial](http://www.charlie-roberts.com/genish/tutorial/index.html).
-
-{% include slides/impact.html %}
-
-who has a question?
-
