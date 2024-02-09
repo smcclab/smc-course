@@ -2,7 +2,7 @@
 title: A brief guide to live coding music
 tagline: Creating music and art with computer programming in real-time.
 lecturer: Dr Charles Martin
-image: assets/lectures/welcome/raspi-duo.jpg
+image: assets/photos/2022-lh2.jpg
 image_alt: Photo by Charles Martin
 ---
 
