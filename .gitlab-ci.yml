@@ -1,9 +1,9 @@
-image: prod-repo.cecs.anu.edu.au:443/jekyll-anu/docker/anu-jekyll-build:v2.4.0
+image: prod-repo.cecs.anu.edu.au:443/jekyll-anu/docker/anu-jekyll-build:v20230712-stable
 
 variables:
   STAGING_DIR: /srv/gitlab-ce-pages/staging
-  BUILD_DIR: $STAGING_DIR/$CI_PIPELINE_ID/$CI_BUILD_REF_NAME/$CI_PROJECT_PATH
-  DEPLOY_DIR: $STAGING_DIR/$CI_BUILD_ID/$CI_BUILD_REF_NAME
+  BUILD_DIR: $STAGING_DIR/$CI_PIPELINE_ID/$CI_COMMIT_REF_NAME/$CI_PROJECT_PATH
+  DEPLOY_DIR: $STAGING_DIR/$CI_JOB_ID/$CI_COMMIT_REF_NAME
 
 # this step taken from https://docs.gitlab.com/ee/ci/ssh_keys/
 before_script:
