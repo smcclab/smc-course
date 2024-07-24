@@ -15,8 +15,7 @@ new kinds of musical instruments? Do you want to be a part of a laptop band?
 This is the course for you! 
 
 {:.warn-box} 
-The **ANU Laptop Ensemble 2023 Concert Series** will take place on June 2, 5, and 6 at Llewllyn Hall, ANU School of Music.
-Our students will perform 14 concerts over these three days. All concerts are **open to the public** and **free of charge**.
+[COMP4350/8350](https://programsandcourses.anu.edu.au/2024/course/COMP4350) Sound and Music Computing will next take place in Semester 1, 2025. For now, you can read the class materials from 2023 and enjoy [previous performances](https://www.youtube.com/@anulens) from our talented students.
 
 ![ANU LENS23 Concert Series Poster]({% link assets/posters/ANU-LENS23.jpg %})
 
