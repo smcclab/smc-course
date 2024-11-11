@@ -24,6 +24,7 @@ baseurl: "/courses/comp4350"
 
 theme: jekyll-theme-anu
 
+
 contacts:
   responsible_officer:
     name: School Director
