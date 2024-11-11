@@ -4,6 +4,7 @@ variables:
   STAGING_DIR: /srv/gitlab-ce-pages/staging
   BUILD_DIR: $STAGING_DIR/$CI_PIPELINE_ID/$CI_COMMIT_REF_NAME/$CI_PROJECT_PATH
   DEPLOY_DIR: $STAGING_DIR/$CI_JOB_ID/$CI_COMMIT_REF_NAME
+  GIT_DEPTH: 1
 
 # this step taken from https://docs.gitlab.com/ee/ci/ssh_keys/
 before_script:
@@ -39,7 +40,7 @@ page-build:
   stage: build
   script:
     - bundle install
-    - bundle exec jekyll build -d $BUILD_DIR
+    - JEKYLL_ENV=production bundle exec jekyll build -d $BUILD_DIR
   only:
     - master
 
