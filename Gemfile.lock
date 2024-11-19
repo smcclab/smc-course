@@ -31,8 +31,8 @@ GIT
 
 GIT
   remote: git@gitlab.anu.edu.au:jekyll-anu/gems/jekyll-revealify-plugin.git
-  revision: 2acca1626a9bc6100da24e994d049f9aa9fb5ca9
-  branch: master
+  revision: 808c4a4846b03f7d27ee9a7873b5594f2c42f734
+  ref: 808c4a48
   specs:
     jekyll-revealify-plugin (2.1.0)
       jekyll
