@@ -97,7 +97,7 @@ This is the fun part: an open environment where you will work together to make m
 
 ## step 3
 
-Collaborate and perform in the ANU LENS (laptop ensemble).
+Collaborate and perform in an ensemble
 
 - work with an ensemble of 4-5 students
 

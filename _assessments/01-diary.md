@@ -104,13 +104,13 @@ the GitLab repo---you just need to modify them.
 
 ### Extra Notes for Group Submissions {#group-diary}
 
-Two of your diary entries will be completed with _your_ laptop ensemble (assignment happens in the week 4 workshop). For these diaries the process is a little different:
+Two of your diary entries will be completed with _your_ ensemble (assignment happens in the week 4 workshop). For these diaries the process is a little different:
 
 1. you upload a _single video_ as a group with the file name `GXX-week-N.mp4`, where `XX` is your group ID number (01-16) you will be able to find your group ID in the group list for your lab. For example if you are in group 04 and it's the week 5 diary, your file should be called `G04-week-5.mp4`.
 
 2. You upload an individual reflection on the group diary creation experience in the same manner as other weeks. Make sure you refer to how collaboration assisted with your diary creation.
 
-You can create your group video in any way you choose as long as it shows all the contributions of indivudal people (their screens) and we can hear each individual performer in the video. Here's some examples:
+You can create your group video in any way you choose as long as it shows all the contributions of individual people (their screens) and we can hear each individual performer in the video. Here's some examples:
 
 - Do a big Zoom/Teams call with each member and one person records it (make sure sound comes through)
 - Get all the laptops on a table and record with a phone (hopefully on a tripod or stand)
@@ -124,8 +124,7 @@ The group diaries require you to organise with your group to find a time, place,
 It's really important to show up and communicate with your group.
 You are (collectively) responsible for making the group work, it's not acceptable to ignore or exclude a group member even if they seem to be the one not showing up. Please do everything you can to get everybody involved but it needs to be positive communication and not [harrassment](({% link 01-policies.md %}#code-of-conduct). 
 If a group member ends up not participating despite your efforts, please let your tutors know.
-Similarly if you feel excluded or uncomfortable in a group, please let your tutors know privately.
-
+Similarly if you feel excluded or uncomfortable in a group, please let your tutor or the course convenor know privately.
 
 ## Submission process {#weekly-videos-submission-process}
 
@@ -159,8 +158,8 @@ Here's some general tips for completing the diary videos and reflections.
 
 1. small & focussed is ok---you don't have to build a huge thing every week
 
-2. think deeply about the provocation: brainstorm 10 ideas, try out 3 of them,
-   pick the best 1 (this will help with the "small & focussed" aspect as well)
+2. think deeply about the provocation: brainstorm 10 ideas, try out three of them,
+   pick the best one
 
 3. you don't have to record it all in one take---you can record several
    short parts and cut them together if you want (but this will take longer)

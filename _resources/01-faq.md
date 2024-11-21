@@ -16,7 +16,7 @@ performance open to ANU students in computing, music, art, and anywhere else on 
 
 During the course you will create small pieces of computer music weekly while collaborating with your peers to learn about sound and music computing.
 
-At the end of the course, you will present a concert of collaborative laptop music works as the "ANU Laptop Ensemble". You can see the final performances from other students here on our [Youtube Channel](https://www.youtube.com/channel/UCIU6SqIS02GJlnLOPqlwmpA)
+At the end of the course, you will present a concert of collaborative laptop music works with your ensemble. You can see the final performances from other students here on our [Youtube Channel](https://www.youtube.com/channel/UCIU6SqIS02GJlnLOPqlwmpA)
 
 ## What reference format is used in this course? {#reference-format}
 

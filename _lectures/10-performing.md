@@ -79,7 +79,7 @@ we're not playing to the audience, but they get to look over our shoulder
 
 [related](https://youtu.be/D3OvQDTiOkw)
 
-{% include slides/background-image.html image="lectures/setups/face-to-face-lens22.jpg" heading="ANU Laptop Ensemble 2022" %}
+{% include slides/background-image.html image="lectures/setups/face-to-face-lens22.jpg" heading="ANU LENS 2022" %}
 {% include slides/background-image.html image="lectures/setups/face-to-face-metatone2013.jpg" heading="Ensemble Metatone, 2013" %}
 
 [related](https://youtu.be/NqdxCteYRFk)

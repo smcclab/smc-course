@@ -40,13 +40,11 @@ The main resources for this week are the Gibber playground and the built in tuto
 
 - This is your _second_ chance to work with your group. Think about your experience last time. Is there a way to collaborate more effectively and efficiently?
 
-- It's a good time to remember that we don't put people in "boxes" in this course. Nobody is the boss in a laptop ensemble and the best performances will have big contributions from each member. Even if you think you are a beginner, we value your contribution. "Beginner's mind" can sometimes be an advantage for creativity.
+- It's a good time to remember that we don't put people in "boxes" in this course. Nobody is the boss in a laptop ensemble and the best performances will have big contributions from each member. Even if you think you are a beginner, we value your contribution. Beginner's mind can sometimes be an advantage for creativity.
 
 - Gibber makes it quick and easy to load up advanced synth designs like the `monosynth`, `FM`, and `karplusstrong` synths. Given that everybody has access to these synths, how are you going to sound "unique" in your group?
 
 - Now that you've made a lot of computer music, look back at the examples of laptop ensemble performances from [week 1]({% link _workshops/01-hello-sine.md %}). Do these performance make more sense now?
-
-
 
 ### Videos and Sounds
 

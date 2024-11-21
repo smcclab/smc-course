@@ -19,15 +19,15 @@ This is the course for you!
 
 ![ANU LENS23 Concert Series Poster]({% link assets/posters/ANU-LENS23.jpg %})
 
-The **ANU Laptop Ensemble Concert Series** is the final assessment for our Sound
-and Music Computing students in 2023. Each concert will be around **40 minutes** in
+The **Sound and Music Computing Concert Series** is the final assessment for our students 
+in 2023. Each concert is around **40 minutes** in
 length with **4-5 pieces of original ensemble computer music** created by our
 students. These works involve custom music software, new interfaces for musical
 expression, novel modes of networked collaboration, and creative algorithms for
 composing music. Above all, these are creative experiments at the limits of current
 music technology.
 
-To see previous performances by the ANU Laptop Ensemble in previous years, take
+To see previous performances by the Sound and Music Computing in previous years, take
 a look at our [YouTube Channel](https://www.youtube.com/@anulens).
 
 If you're a student in the class, practical information about the concert
@@ -67,8 +67,8 @@ Martin](mailto:charles.martin@anu.edu.au).
 
 Each week you will attend an interactive lecture and try out SMC concepts with
 Charles, and a collaborative workshop where you will create musical
-performances with your small ensemble of 4-5 new computer musicians. You will
-create a sound/music piece every week and perform as the "ANU Laptop Ensemble" in the end-of-semester
+performances with a small ensemble of 4-5 new computer musicians. You will
+create a sound/music piece every week and perform with your ensemble in the end-of-semester
 concert series.
 
 The best way to see what we do is to watch previous student's performances in the
