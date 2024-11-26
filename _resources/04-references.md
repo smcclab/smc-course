@@ -19,6 +19,8 @@ These books will be used frequently in the lectures and workshops. You should ge
 
 - Puckette, M. [Theory and Technique of Electronic Music](http://msp.ucsd.edu/techniques.htm) (2007). _available free online_
 
+- Blackwell, A. F. et al. [Live Coding: A User's Manual](https://livecodingbook.toplap.org) (2022). _available free online_
+
 ## Pd Books and Resources:
 
 These books help with the Pure Data computer music environment:
@@ -26,6 +28,20 @@ These books help with the Pure Data computer music environment:
 - Kreidler, J. [Programming Electronic Music in Pd](http://www.pd-tutorial.com) (2013). _available free online_
 
 - Puckette, M. [Theory and Technique of Electronic Music](http://msp.ucsd.edu/techniques.htm) (2007). _available free online_
+
+## Strudel Resources:
+
+
+
+- Main [strudel.cc REPL](https://strudel.cc)
+
+- Strudel [documentation](https://strudel.cc/workshop/getting-started/)
+
+- Making new [sounds in strudel](https://strudel.cc/technical-manual/sounds/)
+
+- Strudel [source code](https://github.com/tidalcycles/strudel)
+
+- Paper: ["Strudel: Live Coding Patterns on the Web"](https://zenodo.org/records/7842142)
 
 ## Gibber Resources:
 
@@ -40,14 +56,6 @@ Below Gibber, there are some libraries that you can experiment with separately:
 - [genish.js tutorial](http://www.charlie-roberts.com/genish/tutorial/index.html)
 
 - [Gibberish website](http://charlie-roberts.com/gibberish/)
-
-## SuperCollider and Live Coding Books and Resources
-
-These books help with the SuperCollider computer music environment:
-
-- Wilson S, Cottle D & Collins N. [The SuperCollider Book](https://library.anu.edu.au/record=b7381372). MIT Press. (2011). ([ANU Library link](https://library.anu.edu.au/record=b7381372))
-
-- Collins, N. [SuperCollider Tutorial](http://composerprogrammer.com/teaching/supercollider/sctutorial/tutorial.html) _available free online_
 
 ## General Computer Music Books
 
@@ -72,4 +80,11 @@ These are general reference and research texts on Computer Music, we won't refer
 
 - Sorensen, A, Swift, B, and Riddell, A. [The Many Meanings of Live Coding](https://benswift.me/assets/documents/preprints/sorensen_et_al_2014_the_many_meanings_of_live_coding.pdf)
 
+## SuperCollider Books and Resources
+
+These books help with the SuperCollider computer music environment:
+
+- Wilson S, Cottle D & Collins N. [The SuperCollider Book](https://library.anu.edu.au/record=b7381372). MIT Press. (2011). ([ANU Library link](https://library.anu.edu.au/record=b7381372))
+
+- Collins, N. [SuperCollider Tutorial](http://composerprogrammer.com/teaching/supercollider/sctutorial/tutorial.html) _available free online_
 

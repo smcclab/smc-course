@@ -14,8 +14,7 @@ Here are the software and hardware tools you'll need for SMC.
 {:.info-box}
 
 If you're having trouble getting things working on your machine, 
-ask for help in the `#techsupport` channel on Teams. If there's a
-deadline approaching, don't leave it to the last minute.
+ask for help in the `#techsupport` channel on Teams.
 
 ## Laptop
 
@@ -26,7 +25,7 @@ rooms with no computers provided so you must bring your own to participate in cl
 You should also bring:
 
 - your laptop charger
-- some headphones (any are fine, but we also have reccomendations below)
+- some headphones (any are fine, but we also have recommendations below)
 - an HDMI adapter[^hdmi] (if there isn't a regular HDMI port on your laptop).
   E.g., you might need a [USB type-C](https://amzn.asia/d/8zh11mq) or
   [Mini-DP](https://amzn.asia/d/bxJ2c11) adapter. I suggest buying
