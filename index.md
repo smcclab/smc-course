@@ -6,16 +6,18 @@ no_breadcrumb: true
 layout: feature
 ---
 
+
+
+## What is Sound and Music Computing?
+
+{:.warn-box} 
+[COMP4350/8350](https://programsandcourses.anu.edu.au/2024/course/COMP4350) Sound and Music Computing will next take place in Semester 1, 2025.
+
+{% comment %}
+
 ---
 
 {: .lead .subtitle}
-
-Do you want to create sound and music with your computer? Do you want to build
-new kinds of musical instruments? Do you want to be a part of a laptop band?
-This is the course for you! 
-
-{:.warn-box} 
-[COMP4350/8350](https://programsandcourses.anu.edu.au/2024/course/COMP4350) Sound and Music Computing will next take place in Semester 1, 2025. For now, you can read the class materials from 2023 and enjoy [previous performances](https://www.youtube.com/@anulens) from our talented students.
 
 ![ANU LENS23 Concert Series Poster]({% link assets/posters/ANU-LENS23.jpg %})
 
@@ -32,12 +34,11 @@ a look at our [YouTube Channel](https://www.youtube.com/@anulens).
 
 If you're a student in the class, practical information about the concert
 series is [here]({% link _assessments/04-lens-performance.md %}).
-
-## What is Sound and Music Computing?
+{% endcomment %}
 
 This course is an introduction to the fundamental concepts of music computing,
 including **digital synthesis**, **algorithmic composition**, and musical **interface
-design**. You will develop your knowledge by creating computer musical
+design**. You will create computer musical
 instruments in music programming languages and developing new computer music
 works to present in concert with an ensemble of other students. 
 
@@ -57,7 +58,7 @@ SMC is open to students from computing, as well as those who meet the
 prerequisites from creative arts and other areas of the ANU.
 
 If you have any issues with enrolment, please follow the instructions on [this
-page](https://cecc.anu.edu.au/current-students/policies-and-resources/enrolling-cecs-courses)
+page](https://cecc.anu.edu.au/students/continuing/enrolling/)
 to ask for a permission code.
 
 If you've got questions about enrolling in the course, get in touch with [Charles
@@ -80,7 +81,7 @@ The best way to see what we do is to watch previous student's performances in th
 
 If you have enrolled in SMC, or are thinking about it, and want to get started, here's what to do:
 
-1. Enrol in the course on ISIS and sign up for a [workshop]({% link
+1. [Enrol in the course on ISIS](https://cecc.anu.edu.au/students/continuing/enrolling/) and sign up for a [workshop]({% link
    _workshops/index.md %}) on MyTimetable.
 2. Make sure you have a [laptop]({% link 01-policies.md %}#laptop) and commit to
    attending all lectures and workshops.
