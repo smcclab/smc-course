@@ -80,8 +80,6 @@ defaults:
 revealify:
   theme: assets/revealthemes/charles1720-dark.scss
 
-
-
 # show CC license info in footer
 cc_license: false
 
