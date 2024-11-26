@@ -3,7 +3,7 @@ title: Policies
 tagline: Expectations and rules for aspects of the course
 permalink: /policies/
 show_toc: true
-ext_app_link: http://quicklink.anu.edu.au/hsjk
+ext_app_link: https://quicklink.anu.edu.au/101o
 
 ---
 
@@ -69,8 +69,9 @@ learning activities (lectures, workshops, concerts).
 If you have any reason that you cannot attend a certain activity, you must
 [communicate](#communication) this with your tutor well in advance. If you cannot attend campus
 due to illness but are able to work from home, you may be able to have limited participation in workshops and collaborate
-with your group using the class's Microsoft Team.
+with your group using Microsoft Teams.
 
+If you have accessibility issues that impact your attendance or ability to access the learning activities, you **must** discuss this with the course convenor at the start of the course or as soon as these issues are known.
 
 ## Communication {#communication}
 
@@ -84,7 +85,7 @@ If you need to ask a question about the course, here's how to do it:
 
 - Ask on the Teams channel, and any of the course staff or students will be able to help you.
 - Use public posts, not direct messages. If you need to get a particular person's attention, `@` them in the main chat.
-- If you need help with a software problem, any assessment item, or just want to vent, see above, we're here for it :-)
+- If you need help with a software problem, any assessment item, or just want to vent about writing loops in Pd, post on Teams
 - Extensions are handled through a special website, see below.
 - If you need to get in touch with the course convenor directly to discuss a private matter (and it really is private): firstname.lastname@anu.edu.au
 - Disrespectful, harassing, or discriminatory posting or messaging this course is **not acceptable** and will not be tolerated (see the code of conduct).
@@ -99,15 +100,14 @@ Late submissions for assessment tasks are not accepted without an extension.
 
 ## Extensions {#extensions}
 
-<a class="button--outline" href="{{page.ext_app_link}}">Link to the School of
-Computing Extension App</a>
+<a class="button--outline" href="{{page.ext_app_link}}">Link to the Assessment Adjustment Form</a>
 
 If you have any issues that would prevent you handing in work on time, please
-use the School of [Computing Extension App]({{page.ext_app_link}}).
+use the [Assessment Adjustment Form]({{page.ext_app_link}}).
 
 - **In most cases it is easy to arrange a short extension**.
 
-The School of Computer Extension App has built in instructions to help you provide correct information.
+The [Assessment Adjustment Form]({{page.ext_app_link}}) has built in instructions to help you provide correct information.
 You will be asked to include your student number (UID), a short statement of
 your situation and when you think you can get the work completed.
 
@@ -124,7 +124,7 @@ Note that:
 {:.warn-box}
 N.B.: The "LENS Performance" Assessment is arranged as a non-centrally
 administered exam. If have an extenuating circumstance that prevents you from
-attending your LENS Performance, please apply for [Deferred Examination]({% link 01-policies.md %}#scda). If you
+attending your LENS Performance, please apply for [Deferred Examination]({% link 01-policies.md %}#eca). If you
 do so, please inform the course convenor and provide your documentation to them
 as well.
 
@@ -134,37 +134,31 @@ Max word count limits are provided for the written assessment tasks in this
 course and we expect you to stay within those limits. You won't lose marks
 until you exceed a word limit by more than 10%
 
-## Special Consideration and Deferred Assessment {#scda}
+## Extenuating Circumstances Application {#eca}
 
 If you have any unexpected and unavoidable issues that has affected your
-performance in the course (e.g., sickness, or unexpected caring/work
-responsibilities during assessment tasks), please think about applying for
-[Special Assessment Consideration
-(link)](https://www.anu.edu.au/students/program-administration/assessments-exams/special-assessment-consideration)
-to document your issue.
+performance in the course (e.g., sickness, hardship or essential duties during assessment tasks), please think about applying for
+adjustment due to [extenuating circumstances
+(link)]({{page.ext_app_link}}) to document your issue.
 
-- Special Consideration is **not for extensions**. If you need an extension see above.
+- The [Assessment Adjustment form]({{page.ext_app_link}}) can help you figure out whether to apply for an **extension** or **extenuating circumstances**. For short extensions on non-exams, it's almost always better to apply for an extension.
 
 If you have any unexpected and unavoidable issue on the day of an exam (e.g.,
 you are sick) which means you can't do the exam on that day, please apply for
-[Deferred Examination
-(link)](https://www.anu.edu.au/students/program-administration/assessments-exams/deferred-examinations).
-
-If you are confused about how Special Consideration or Deferred Examinations
-work, have a look at the [quick guide
-(link)](https://www.anu.edu.au/files/resource/SCDE_Student_Quick_Guide.pdf).
+[Extenuating Circumstances
+(link)]({{page.ext_app_link}}).
 
 ## Appeals {#appeals}
 
 From the date that your marks for any assessment item are released
-electronically you have a period of two weeks in which to make an **informal
+electronically you have a period of 10 working days in which to make an **informal
 appeal** of your mark to the course convenor.
 
 An **informal appeal** requires some explanation about why the original mark was
 not correct (e.g., the marker accidentally missed a particular aspect of your
 assignment).
 
-You should submit an informal appeal in a private message to instructiors by email. Please include your student number (UID), a short statement
+You should submit an informal appeal in a private message to the course convenor by email. Please include your student number (UID), a short statement
 of why you think your mark was not correct referring to the marking criteria
 for the assignment.
 
@@ -181,12 +175,10 @@ assessment item may be an assignment, a written exam or an oral exam. To pass
 this assessment item, you must demonstrate a "good" attainment of the learning
 outcomes, generally equivalent to a mark of 60/100.
 
-
 ## Academic integrity {#academic-integrity}
 
-At the ANU [we take academic integrity
-seriously](http://academichonesty.anu.edu.au/). In Sound and Music Computing all the ANU
-academic integrity principles apply.
+At the ANU [we take academic integrity seriously](http://academichonesty.anu.edu.au/). 
+In Sound and Music Computing all the ANU academic integrity principles apply.
 
 In particular:
 
@@ -205,7 +197,7 @@ colleague is a basic act of respect in a network of peers.
 
 As a basic measure, we expect everyone to have at least two references in each
 assessment showing that you are aware of how to work
-independentently in a studio environment and acknowledge sources.
+independently in a studio environment and acknowledge sources.
 
 If you act against the principles of academic integrity in this course, it's
 very likely you'll get caught. At a minimum, this could delay your completion
@@ -223,7 +215,7 @@ workshop.
 If you have any trouble with getting the software installed & working on your
 machine then there will be **many opportunities** to fix problems (especially
 early in the course). However, it's **your responsibility** to make sure that
-the software works and that these issues are sorted out. 
+the software works and that these issues are sorted out.
 
 Software/hardware issues happen in performances (ask Charles for stories). You are
 expected be organised enough so that your setup is working and reliable before

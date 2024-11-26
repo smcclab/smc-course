@@ -20,7 +20,7 @@ At the end of the course, you will present a concert of collaborative laptop mus
 
 ## What reference format is used in this course? {#reference-format}
 
-We prefer ACM reference format: <https://www.acm.org/publications/authors/reference-formatting>
+We use ACM reference format: <https://www.acm.org/publications/authors/reference-formatting>
 
 Some example references in Markdown format are as follows:
 
@@ -40,22 +40,16 @@ Some example references in Markdown format are as follows:
 
 There are no specific music pre-requisites, and we will teach any musical concepts required from the
 ground up. Although some music experience is useful, we use musical concepts
-that are not taught in a standard music curriculum.
-
-Obviously, if you've never done anything with music/sound before then there'll
-be reading (and noise-making!) to do to stay on top of things, but if
-you're willing to put in the work it shouldn't be an un-manageable workload.
+that are often not taught in a standard music curriculum.
 
 ## What computing background is required?
 
-If you have a background outside of computing, we will teach things from the
-ground up. However, we recommend COMP1720 Art and Interaction Computing as an
-appropriate starting point for a creative computing journey.
+You will need some background in either coding, creative computing, or human-computer interaction to complete Sound and Music Computing. 
+While we use programming languages that are not taught in other courses, it is a lot to take on if you haven't learned any programming or computing at university.
 
+If you have not taken any computing courses at ANU, we recommend Art and Interaction Computing [COMP1720](https://programsandcourses.anu.edu.au/course/comp1720)/[COMP6720](https://programsandcourses.anu.edu.au/course/comp6720) as an appropriate starting point for a creative computing journey.
 
 ## Is there anything I can do before the course starts to get prepared?
-
-Yes!
 
 1. Enrol in the course on ISIS and sign up for a [workshop]({% link _workshops/index.md %})
 2. Make sure you have a [laptop]({% link 01-policies.md %}) and commit to attending all lectures and workshops.
@@ -64,63 +58,17 @@ Yes!
 
 **Then show up in week 1 ready to make some computer music!**
 
-## I'm a musician/programmer and I'm worried that I don't have the required programming/music skills---will I be ok?
-
-After reading the previous answers you still might be worried. And
-everyone's different, so it's hard to give a definitive answer to this question.
-Still, one key question to ask yourself is do you _like_ the thing you're
-worried about not having the required skills in, and do you want to learn more
-about it?
-
-If you're a musician, do you _like_ thinking about patterns, structure &
-"compositional rules"? Do you want to learn more about programming and computers
-and use them in your creative practice?
-
-If you're a programmer, do you _like_ music? Do you like thinking about patterns
-in art & music and always wondered if that structure could be expressed in a
-computer program? Do you want to learn how to use your computing & logic skills
-to create music?
-
-If the answers to these questions are yes, then I think you'll be fine. You'll
-be motivated to learn the things you don't know already, and you might surprise
-yourself about how much you enjoy learning about how to put computers to work in
-making your own music. 
-
-## Who _shouldn't_ take this course?
-
-In SMC, we believe that computing (including creative computing) is
-[for everyone](https://twitter.com/search?q=%23cs4all), and so no-one should
-rule themselves out because they think they're not "technical" or "musical"
-enough to make music with computers.
-
-Having said that, this isn't a standard CS course, so if you're expecting:
-
-- simplistic, "one right answer" assignments where you just write code to pass a bunch
-  of unit tests
-- a "closed" syllabus where everything you'll need to get a good grade is a fact
-  you can memorise from the lecture slides
-- to work as a "lone wolf" without having to interact with your classmates (this
-  is a _collaborative_ course)
-
-then this probably isn't the course for you. No hard feelings, but if you sign
-up for SMC then you've been warned!
-
 ## Do I _have_ to do a live performance if I take this course?
 
-Yes, the biggest course assessment is to use the computer music instrument/system
+Yes. The final and biggest course assessment is to use the computer music instrument/system
 that you've built in a group performance alongside some of your 
 classmates.
 
-## Can I take this course if I'm a remote student?
-
-Unfortunately not, this course is only offered in-person on ANU campus.
-
 ## What music software will we be using in the course?
 
-In this course you'll learn to use both:
+In this course you'll learn to use:
 
 - [Pure Data (Pd)](http://msp.ucsd.edu/software.html)
+- [Strudel](https://strudel.cc)
+- [Flok](https://flok.cc)
 - [Gibber](https://gibber.cc) 
-
-Which one you use for your final performance is up to you; you'll get to decide
-what fits your creative purposes best as the semester progresses.
