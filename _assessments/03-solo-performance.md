@@ -9,14 +9,13 @@ template_repo: https://gitlab.cecs.anu.edu.au/laptop-ensemble/2023/SMC-2023-subm
 
 ## Outline
 
-- **Due date:** 17/04/2023 23:59AEST
+- **Due date:** 14/04/2025 23:59AEST
 - **Mark weighting:** 20%
 - **Submission:** submit your assignment according to the
   [instructions below](#submission-process)
 - Late submission is **not permitted** for this assessment.
 - This is an **individual** assessment task.
 - **GitLab Repo:** [link]({{ page.template_repo }})
-
 
 ## Description
 

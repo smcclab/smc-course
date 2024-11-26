@@ -10,7 +10,7 @@ template_repo: https://gitlab.cecs.anu.edu.au/laptop-ensemble/2023/SMC-2023-subm
 
 ## Outline
 
-- **Due date:** 09:00 on the day of your workshop in weeks 2--6, 8--10 
+- **Due date:** 09:00 Monday in weeks 2--6, 8--10 (09:00 Tuesday if MOnday is a Public Holiday)
 - **Mark weighting:** 0% but required for portfolio
 - **Submission:** submit your videos & portfolio submissions according to the
   instructions below

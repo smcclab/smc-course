@@ -17,13 +17,12 @@ This page is about _two_ assessments: Portfolio 1, and Portfolio 2 which have th
 ## Outline {#outline}
 
 - **Due dates:**
-  - Portfolio 1: 27/03/2023 23:59AEDT  
-  - Portfolio 2: 15/05/2023 23:59AEST
+  - Portfolio 1: 24/03/2025 23:59AEDT
+  - Portfolio 2: 12/05/2025 23:59AEST
 - **Mark weighting:** Portfolio 1: 20%, Portfolio 2: 20% 
 - **Submission:** PDF upload on Wattle
 - **Policies:** Late submissions not accepted without an extension; this is an individual task.
 - **GitLab Repo:** [link]({{ page.template_repo }})
-
 
 ## Specification {#portfolio-spec}
 

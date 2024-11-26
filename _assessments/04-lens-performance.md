@@ -10,14 +10,13 @@ template_repo: https://gitlab.cecs.anu.edu.au/laptop-ensemble/2023/SMC-2023-subm
 
 ## Outline
 
-- **Performance Dates:** June 2, 5, 6 (**in person assessment only**).
-- **Artefact Submission Date:** 23:59 2/6/2023
+- **Performance Dates:** May 28--30, 2025 (**in person assessment only**).
+- **Artefact Submission Date:** 30/5/2025 23:59 AEST
 - **Mark weighting:** 40%
 - **Submission:** submit your assignment according to the
   [instructions below](#submission-process)
 - **Policies:** Late submission not permitted, this an individual assessment (one performance per ensemble member)
 - **GitLab Repo:** [link]({{ page.template_repo }})
-
 
 ## Description
 
@@ -198,11 +197,14 @@ Make sure you have read **all** the information on this page, and in the ["Conce
 
 ### Place
 
-All concerts will take place at **Llewellyn Hall, ANU School of Music, Building 100**.
+All concerts will take place at the **[Big Band Room 1.55](https://studentvip.com.au/anu/main/maps/140822)**, **[Peter Karmel Building 121](https://studentvip.com.au/anu/main/maps/140745)**.
 
 ### Date and Time
 
-Concerts are on June 2, 5, 6. The time for your group is in the following table:
+Concerts are on May 28, 29, 30. Specific group times will be arranged by Week 10.
+
+{% comment %}
+The time for your group is in the following table:
 
 | **Date** | **Concert Time** | **Group** | **Group Name**       | **Arrival Time** | **Tutor** |
 |----------|----------|-----------|----------------------|-------------|-----------|
@@ -220,16 +222,17 @@ Concerts are on June 2, 5, 6. The time for your group is in the following table:
 | 6 Jun    | 12:00    | G01       | Machine Musician     | 11:00       | Mingrui   |
 | 6 Jun    | 14:00    | G10       | Pixelated Players    | 13:00       | Sandy     |
 | 6 Jun    | 15:00    | G09       | Midi Masters         | 14:00       | Mingrui   |
+{% endcomment %}
 
 ### Arrival and Warmup
 
-You must arrive at the School of Music **60 minutes before your scheduled performance time**. A tutor will meet you at the entrance and guide your group to a [greenroom](https://www.dictionary.com/browse/greenroom) where you can test your setups and get ready with your group. This tutor will stay with you throughout your concert experience to make sure you know where to go.
+You must arrive at the venue **60 minutes before your scheduled performance time**. A tutor will meet you at the entrance and guide your group to a [greenroom](https://www.dictionary.com/browse/greenroom) where you can test your setups and get ready with your group. This tutor will stay with you throughout your concert experience to make sure you know where to go.
 
 The schedule for each ensemble is as follows (times in minutes relative to your performance time).
 
-- -60m **Arrive at School of Music**, meet your tutor at the front, move to "green room" to test setups and get ready
-- -30m **Pack up in green room** and get ready to move to Llewellyn Hall
-- -20m **arrive at Llewellyn Hall** and get ready to walk carefully on stage when previous group finishes
+- -60m **Arrive at venue**, meet your tutor at the front, move to "green room" to test setups and get ready
+- -30m **Pack up in green room** and get ready to move to the venue
+- -20m **arrive at the venue** and get ready to walk carefully on stage when previous group finishes
 - -15m when other group is finished, come onto stage and plug in laptops (HDMI + power supplies)
 - -10m - Confirm sound and video coming out of each laptop 
 - 00m! (Concert time), stop testing, get ready for first piece
@@ -267,11 +270,10 @@ few weeks.
 
 The "LENS Performance" Assessment is arranged as a non-centrally administered
 exam. If have an extenuating circumstance that prevents you from attending your
-LENS Performance, please apply for [Deferred Examination]({% link
-01-policies.md %}#scda). This is defined as circumstances that are unexpected
+LENS Performance, please apply for [Extenuating Circumstances]({% link
+01-policies.md %}). This is defined as circumstances that are unexpected
 and unavoidable and must be a serious matter that would prevent you from
 physically attending your performance assessment.
 
 If you apply for deferred examination in this course, please inform the course
 convenor and provide your documentation to them as well.
-
