@@ -119,6 +119,8 @@ Here's a few tips to make a better looking and more readable portfolio:
 - To understand the context of your comments, we may review the video of your
   diary entries, and code/patches uploaded into gitlab (make sure they exist).
 
+The marking rubric for this task is the same for COMP4350 and COMP8350 (see [the links to programs and courses]({% link 01-policies.md %})).
+
 | Criteria | HD | D | CR | P | N |
 |---|---|---|---|---|---|
 | Sophistication of articulation and application of fundamental concepts in sound and music computing. (50%) | Excellent to outstanding SMC implementations going beyond learning materials. | Very good application of SMC concepts, but not beyond learning materials. | Application of SMC at level of learning materials. May have gaps in some areas. | Some effort to replicate SMC learning materials resulting in functional SMC software. May have only applied some SMC concepts covered. | Very little SMC software or software that is below the level of learning materials. |

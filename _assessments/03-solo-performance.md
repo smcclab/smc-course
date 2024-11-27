@@ -76,18 +76,20 @@ Here's some tips:
 
 You will get clear feedback from this assessment so it's a good chance to try out ideas that you might like to use in the final performance.
 
-## Marking criteria {#marking}
+## Marking Rubric {#rubric}
 
-Your solo performance will be assessed based the following marking criteria:
+The marking rubric for this task is different between COMP4350 and COMP8350 as these courses have different learning outcomes (see [the links to Class Summaries]({% link 01-policies.md %})).
 
-- Sophistication of application of fundamental concepts in sound and music computing. (50%)
-
-- Sophistication as a solo performance with a computer music instrument, of a computer music composition or as an interactive media work. (50%)
-
-## Rubric {#rubric}
+### COMP4350 Rubric
 
 | CRITERIA | HD | D | CR | P | N |
 |---|---|---|---|---|---|
 | Sophistication of application of fundamental concepts in sound and music computing. (50%) | Excellent to outstanding SMC implementations going beyond learning materials. | Very good application of SMC concepts, but not beyond learning materials. | Application of SMC at level of learning materials. May have gaps in some areas. | Some effort to replicate SMC learning materials resulting in functional SMC software. May have only applied some SMC concepts covered. | Very little SMC software or software that is below the level of learning materials. |
 | Sophistication as a solo performance with a computer music instrument, of a computer music composition or as an interactive media work. (50%) | Excellent to outstanding performance. Sophisticated interaction and presentation demonstrating in-depth exploration of SMC software. Excellent adherence to the submission format. | Very good as a computer music performance with detailed interaction and presentation that demonstrates the SMC software. Excellent adherence to the submission format. | A good computer music performance that may not show sophisticated interaction and presentation of the SMC software. Good adherence to the submission format. | A satisfactory performance that may have limited interaction and weak presentation of the SMC software. The adherence to the submission format may be poor. | Below acceptable standards as a performance. May have very poor adherence to submission format. |
 
+### COMP8350 Rubric
+
+| Criteria | HD | D | CR | P | N |
+|---|---|---|---|---|---|
+| Sophistication of application of fundamental concepts in sound and music computing. (50%) | Excellent to outstanding SMC implementations going beyond learning materials that reflects recent developments in SMC. | Very good application of SMC concepts, but not beyond learning materials. Reflects recent developments in SMC. | Application of SMC at level of learning materials. May have gaps in some areas. May not fully reflect recent developments in SMC. | Some effort to replicate SMC learning materials resulting in functional SMC software. May have only applied some SMC concepts covered and may not reflect recent developments in SMC. | Very little SMC software or software that is below the level of learning materials. May not reflect recent developments in SMC. |
+| Sophistication as a solo performance with a computer music instrument, of a computer music composition or as an interactive media work. (50%) | Excellent to outstanding performance. Sophisticated interaction and presentation demonstrating in-depth exploration of SMC software.  Excellent adherence to the submission format. | Very good as a computer music performance with detailed interaction and presentation that demonstrates the SMC software. Excellent adherence to the submission format. | A good computer music performance that may not show sophisticated interaction and presentation of the SMC software. Good adherence to the submission format. | A satisfactory performance that may have limited interaction and weak presentation of the SMC software. The adherence to the submission format may be poor. | Below acceptable standards as a performance. May have very poor adherence to submission format. |
