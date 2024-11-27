@@ -18,9 +18,7 @@ image_alt: Photo by Charles Martin
 
 # What is live coding
 
-
-  - [TOPLAP manifesto 2004](https://tidalcycles.org/docs/around_tidal/toplap_manifesto/)
-
+- [TOPLAP manifesto 2004](https://tidalcycles.org/docs/around_tidal/toplap_manifesto/)
 
 # Live coding history
 

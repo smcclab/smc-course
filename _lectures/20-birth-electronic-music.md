@@ -4,6 +4,7 @@ tagline: Electronic music before computers
 lecturer: Dr Charles Martin
 image: assets/lectures/2021-synths-charles-martin.jpg
 image_alt: Photo by Charles Martin
+hidden: true
 ---
 
 {% include slides/title.html %}

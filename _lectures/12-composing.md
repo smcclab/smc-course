@@ -8,12 +8,18 @@ image_alt: Photo by Charles Martin
 
 {% include slides/title.html %}
 
+## Last Lecture for Sound and Music Computing!
+
+Today:
+
+- Planning your LENS Performance composition
+- Understanding the technical setup for the concert
+- What to expect on concert day
+- How to submit and structure your performance materials
 
 ## Organising Sound
 
 Remember our definition for "music" in this class: Edgard Varese's idea of music as ["organised sound"](https://doi.org/10.2307/832385).
-
-In week :
 
 > in this class, we're open in terms of defining "music", it doesn't have to follow a particular style or emphasise traditional aspects such as melody and harmony.
 
