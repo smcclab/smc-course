@@ -128,7 +128,7 @@ Objects with a `~` in the name have audio inputs or outputs.
 
 ## Try it...
 
-1. install Pure Data
+1. install Pure Data (Vanilla)
 2. recreate the sine tone patch
 3. try changing volume with a `*` and a vertical slider
 

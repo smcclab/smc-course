@@ -68,7 +68,7 @@ to put on the YouTube channel.
 You will perform a concert with the members of your group. Each group member must present their own work and be prepared to participate in everybody else's piece.
 
 {:.warn-box}
-**Computer Music Languages studied this semester** are: Pure Data and Gibber. Your performance is expected to work in Pd-vanilla and `gibber.cc/playground`. If extensions or libraries are required, these **must** be documented in your performance materials.
+**Computer Music Languages studied this semester** are: Pure Data (Vanilla) and Gibber. Your performance is expected to work in Pd-vanilla and `gibber.cc/playground`. If extensions or libraries are required, these **must** be documented in your performance materials.
 
 ### Performance materials
 

@@ -49,10 +49,10 @@ able to bring a computer to on-campus classes.
 
 Learning the basics of computer music programming is a core part of this course.
 There are two primary computer music software environments we'll use in SMC
- [Pure Data (Pd)](https://puredata.info) and
+ [Pure Data (Pd Vanilla)](https://puredata.info) and
 [Gibber](https://gibber.cc)
 
-### Pure Data (Pd) {#pure-data}
+### Pure Data (Pd Vanilla) {#pure-data}
 
 Pd is a visual computer music programming system. You download the Pd program to your computer and open it to start programming computer music.
 
@@ -65,7 +65,7 @@ the [Pd downloads page](http://msp.ucsd.edu/software.html) and get the latest
 version of "vanilla" Pd for your platform (as shown in the screenshot).
 
 {:.info-box}
-N.B., Pd v0.53-1 has [issues on MacOS 13 (late 2022 release)](https://github.com/pure-data/pure-data/issues/1857). The test release Pd 0.53-2test1 should be used until a new stable version is released. 
+N.B., please don't use Purr Data (Pd-l2ork). This contains many external libraries that you will not be able to reference.
 
 You may also find Pd downloads (and lots of extra related goodies) on [puredata.info](https://puredata.info/), but we don't recommend browsing here until you have completed a few workshops. The _latest test releases_ are generally on Miller Puckette's [website](http://msp.ucsd.edu/software.html).
 
