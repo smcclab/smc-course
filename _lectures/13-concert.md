@@ -2,7 +2,7 @@
 title: The LENS Performance
 tagline: Details and Expectations
 lecturer: Dr Charles Martin
-image: assets/lectures/2021-synths-charles-martin.jpg
+image: assets/lectures/yichen-sandy-nime2024.jpg
 image_alt: Photo by Charles Martin
 ---
 
@@ -33,14 +33,14 @@ Your ensemble performance:
 - **must** involve all members of your LENS ensemble 
 - **must** be created with one of the computer music languages **studied this semester**
 - **must** be 5-7 minutes in length
-- **must** be presented at a LENS performance in the exam period
+- **must** be presented at a LENS performance
 
 ## Dates, Times, Location
 
-- Location: **Llewellyn Hall, ANU School of Music, Childers St**
-- Dates: June 2, 5, 6. (Friday, Monday, Tuesday).
+- Location: **Big Band Room, Peter Karmel Building, Childers St**
+- Dates: May 28, 29, 30. (Wednesday, Thursday, Friday).
 
-| Time | 2/6   | 5/6   | 6/6   |
+| Time | 28/5   | 29/5   | 30/5   |
 |------|-------|-------|-------|
 | 900  | setup | setup | setup |
 | 1000 | setup | C5    | C11   |

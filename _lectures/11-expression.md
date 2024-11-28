@@ -2,21 +2,21 @@
 title: Interfaces and Expression
 tagline: Not what to do, but how to do it. 
 lecturer: Dr Charles Martin
-image: assets/workshops/2010-tanaka-charles-martin.jpg 
+image: assets/lectures/synth-objects.jpg
 image_alt: Photo by Charles Martin
 ---
 
 {% include slides/title.html %}
 
-## Extra Lecture!
+## What? There's more?
 
-Things are a bit freeform at this part of the course, but I'm feeling inspired.
+The last two weeks of course will help you directly with planning your final performance. **Not** extra topics or extension.
 
 This week is **interfaces and expression**.
 
 Next week is **composition in improvisation**.
 
-These lectures are meant to help you directly with planning your final performance. Not extra topics or extension.
+These are crucial topics for turning the technical and ensemble knowledge you have developed into a convincing performance.
 
 ## Interfaces
 
@@ -32,33 +32,34 @@ This is an important research topic for the [New Interfaces for Musical Expressi
 
 What is a musical interface for?
 
-{:.fragment}
-Enabling performers' to express themselves. That is, giving them creative control over the sounds that occur in a performance.
+- Enabling performers to express themselves; that is, giving them creative control over the sounds that occur in a performance.
 
-{:.fragment}
-Expression can be defined as "conveying feelings", but maybe to avoid unwanted romance we can define it as "conveying complex information".
+- Expression can be defined as _"conveying feelings"_, but maybe to avoid unwanted romance we can define it as _"conveying complex information"_.
 
+**So:** Effective musical interface give performers **creative control**, and let them **convey complex information**.
 
 ## The Mapping Problem
 
-Electronic instruments have an important **seperation** between the control parts and the sound making parts (not so for most acoustic instruments).
+Electronic instruments have an important **separation** between the control parts and the sound making parts (not so for most acoustic instruments).
 
-Many different types of interfaces (or controllers) can control many types of synthesiser design.
+- Many different types of interfaces (or controllers) can control many types of synthesiser design.
 
-Working out how to map different signals from a controller to the parameters of a synthesiser is an **important design decision**.
+- Working out how to map different signals from a controller to the parameters of a synthesiser is an **important design decision**.
 
-Hunt, Wanderley, and Paradis (2003) explored mapping and determined that simply having one slider for each synth parameter is probably not a good idea.
+- [Hunt, Wanderley, and Paradis (2003)](http://dx.doi.org/10.1076/jnmr.32.4.429.18853) explored mapping and determined that simply having one slider for each synth parameter is probably not a good idea.
 
+We now know that interface _mappings_ need to be _designed_. The same interface and synth can have different levels of success depending on how the mapping design supports expression.
+
+{% comment %}
 Citation: Andy Hunt, Marcelo M. Wanderley & Matthew Paradis (2003) The Importance of Parameter Mapping in Electronic Instrument Design, Journal of New Music Research, 32:4, 429-440 <http://dx.doi.org/10.1076/jnmr.32.4.429.18853>
+{% endcomment %}
 
 ## Mapping and Utility
 
 > Imagine a one-button interface that triggers all the sequences a completes the whole performance. **What is wrong with this?**
 
-{:.fragment}
-It's very user-friendly! Easy to learn! Low-effort! High likelihood of success! What is wrong with it?
+It's very user-friendly! Easy to learn! Low-effort! High likelihood of success! **What is wrong with it?**
 
-{:.fragment}
 But it's missing something! The risk-free design means we don't get complex information from the _performer_ (just from the button designer).
 
 ## Mapping and Accuracy
@@ -76,9 +77,9 @@ It's missing something! The system doesn't have any constraints and would be imp
 
 ## Continuous not Discrete 
 
-Sasha Lietman (2017) says: "use continuous sensors"! Why?
+[Sasha Lietman (2017)](http://doi.org/10.5281/zenodo.1176197) says: "use continuous sensors"! Why?
 
-- continuosu sensors allow nuanced performance
+- continuous sensors allow nuanced performance
 - discrete sensors tend to become sample playback buttons (cliche)
 
 **Charles advice**: give performers "somewhere to go" in every moment. With a button you have nowhere to go (after hitting it). With a continuous controller you can, go up, go down, stop moving, change speed, change direction, etc.
@@ -126,7 +127,7 @@ Charles Patrick Martin, Alexander Refsum Jensenius, and Jim Torresen. 2018. Comp
 
 ## The one-knob synth
 
-A synth with one-button is a bit silly (or [is it](http://www.nime.org/proceedings/2010/nime2010_106.pdf)), but can one knob work to control?
+A synth with one-button is a bit silly (or [is it](http://www.nime.org/proceedings/2010/nime2010_106.pdf)). Is one knob enough to make an _expressive interface_?
 
 The trick is to _not_ have it sound all the time (rhythm is important).
 
@@ -176,6 +177,3 @@ def hello():
 
 hello()
 ```
-
-
-
