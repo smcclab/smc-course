@@ -53,22 +53,6 @@ AR musician, photographer
 
 [@yichenwangs](https://twitter.com/yichenwangs)
 
-{% comment %}
-{% include slides/background-image.html image="lectures/welcome/alec-hunter.jpg" heading="Alec Hunter" %}
-
-[ANU School of Music](https://music.cass.anu.edu.au/people/dr-alexander-hunter)
-
-[Performer, composer](https://alexanderhunter.co.uk/)
-
-{% include slides/background-image.html image="lectures/welcome/ben-smiths-sounscapes.jpg" heading="Ben Swift" %}
-
-[livecoder](https://benswift.me/livecoding/index.html)
-
-[ANU School of Cybernetics](https://cybernetics.anu.edu.au/people/ben-swift)
-
-[@benswift](https://twitter.com/benswift)
-{% endcomment %}
-
 {% include slides/impact.html %}
 
 how does this work?
