@@ -45,7 +45,6 @@ Your submission:
 - must have _excellent_ sound quality.
 - must be uploaded to **Wattle** by the due date.
 
-
 You should **not**:
 
 - Use music software / programming systems that are not used in the course.
@@ -59,7 +58,7 @@ You should **not**:
 2. record a screencast of yourself doing the performance with OBS (max 3.5 minutes)
 3. check that the video is clear and sound quality is _excellent_
 4. upload it to wattle.
-5. store any and all performance materials (patches, code, sounds, video, etc) in your Gitlab repository (not marked, but good practice)
+5. store any and all performance materials (patches, code, sounds, etc) in your Gitlab repository including references to any external libraries or code used in your performance.
 
 ## Creative notes {#notes}
 
@@ -73,6 +72,7 @@ Here's some tips:
 - Stop playing and look at your screen. Will we understand how your system works just by watching your video? How can you make it communicate more clearly?
 - Watch your video: does it show your best work? If can't see it or hear it, you won't get marks for it.
 - Read the rubric below to see what we are looking for in marking.
+- Be very careful about referencing external libraries or objects in your performance. Using lots of external libraries is not likely to help demonstrate sophisticated SMC knowledge. Not referencing code that you didn't create is a breach of [Academic Integrity]({% link 01-policies.md %}#academic-integrity).
 
 You will get clear feedback from this assessment so it's a good chance to try out ideas that you might like to use in the final performance.
 

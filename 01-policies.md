@@ -16,8 +16,8 @@ cover all courses and student conduct.
 
 The official course outline can be found on programs and courses.
 
-- [COMP4350 Sound and Music Computing](https://programsandcourses.anu.edu.au/2023/course/COMP4350)
-- [COMP8350 Sound and Music Computing](https://programsandcourses.anu.edu.au/2023/course/COMP8350)
+- [COMP4350 Sound and Music Computing](https://programsandcourses.anu.edu.au/2025/course/COMP4350)
+- [COMP8350 Sound and Music Computing](https://programsandcourses.anu.edu.au/2025/course/COMP8350)
 
 ## Class Summaries {#class-summary}
 
@@ -25,8 +25,6 @@ The official class summary can be found on programs and courses. These official 
 
 - [COMP4350 Sound and Music Computing (Semester 1, 2023)](https://programsandcourses.anu.edu.au/course/COMP4350/First%20Semester/4474)
 - [COMP8350 Sound and Music Computing (Semester 1, 2023)](https://programsandcourses.anu.edu.au/course/COMP8350/First%20Semester/4470)
-
-
 
 ## Code of conduct {#code-of-conduct}
 
@@ -200,9 +198,9 @@ assessment showing that you are aware of how to work
 independently in a studio environment and acknowledge sources.
 
 If you act against the principles of academic integrity in this course, it's
-very likely you'll get caught. At a minimum, this could delay your completion
-of the course (and your graduation), and could have very serious consequences
-for your enrolment at ANU in serious cases. 
+very likely you'll get caught. At a minimum, this will delay your feedback for
+an assignment. It might delay your completion of the course (and your graduation), 
+and could have very serious consequences for your enrolment at ANU in serious cases.
 
 ## Laptop Policy {#laptop}
 

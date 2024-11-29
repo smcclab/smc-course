@@ -10,7 +10,7 @@ template_repo: https://gitlab.cecs.anu.edu.au/laptop-ensemble/2023/SMC-2023-subm
 
 ## Outline
 
-- **Due date:** 09:00 Monday in weeks 2--6, 8--10 (09:00 Tuesday if MOnday is a Public Holiday)
+- **Due date:** 09:00 Monday in weeks 2--6, 8--10 (09:00 Tuesday if Monday is a Public Holiday)
 - **Mark weighting:** 0% but required for portfolio
 - **Submission:** submit your videos & portfolio submissions according to the
   instructions below
@@ -19,11 +19,11 @@ template_repo: https://gitlab.cecs.anu.edu.au/laptop-ensemble/2023/SMC-2023-subm
 
 ## Description
 
-Your computer music diary is a way to try out sound and music computing ideas and techniques through short videos and reflections that you create each week.
+Your computer music diary is where you will learn and try out core sound and music computing concepts.
 
-Each week **before your workshop** you will read through the workshop material and respond to a creative provocation by creating a short piece of computer music and writing a short reflection.
+Each week **before your workshop** you will read through the workshop material, create a short piece of computer music and write a short reflection.
 
-The due date is set to 09:00 on the morning of your workshop and in your workshop session we will watch the videos in together together to discuss the ideas you have explored.
+The due date is set to 09:00 on the morning of your workshop. In your workshop session we will watch the videos in together together to discuss the ideas you have explored.
 
 You can find the specific pre-workshop instructions on each workshop page under the heading "Solo Diary" or "Group Diary".
 
@@ -50,14 +50,10 @@ Each week's submission must include:
   - has been uploaded to your fork of the SMC repo in the correct folder
   - has been pushed to GitLab
 
-- all files (e.g., patches, source code files, sound files &
-  other assets) required to re-produce your submission  which
-  - is in a subfolder called `materials` in the correct week folder of your SMC repo fork
-  - has been pushed to gitlab to GitLab
+- other files (patches, source code, etc) used in your computer music piece
+  - in a subfolder called `materials` in the correct folder
+  - pushed to GitLab
 
-It doesn't matter how the files are named in your `materials/` folder, the reflection files are pre-created for you, so you can just add your text (in Markdown format).
-
-It's a good idea to include a screenshot or a code snippet of the "main" thing you worked on this week in your reflection.
 
 {:.info-box}
 Please follow the above instructions about file names carefully! Your video needs to have that exact name format to be picked up by our systems and played back in class.
@@ -70,7 +66,7 @@ Here's an example of how to upload your video file in Teams, you can find step-b
 
 1. record your video file.
 
-2. change the name of your recorded file ot `uid-week-N.[mp4,mov,mkv]`, e.g., `u1234567-week-3.mp4` (careful to get your UID and the filename exactly correct)
+2. change the name of your recorded file to `uid-week-N.[mp4,mov,mkv]`, e.g., `u1234567-week-3.mp4` (careful to get your UID and the filename exactly correct)
 
 3. open Teams and go to the "SMC 2023 Team" and click the "General" channel in the sidebar.
 
@@ -85,7 +81,7 @@ Here's an example of how to upload your video file in Teams, you can find step-b
 Please follow these steps carefully as we need your video to be in the right place to play it back correctly in the workshop.
 
 {:.warn-box}
-Don't delete any files from the Team (even your own diary). We want to keep a record of everybody's work over the semester as part of your portfolio assessment. The point is not to be mean about early ideas/video but to show your improvement in understanding and growth over the semester.
+Don't delete any files from the Team (even your own diary). We need to keep a record of everybody's work over the semester as part of your portfolio assessment. The point is not to be mean about early ideas/video but to show your improvement in understanding and growth over the semester.
 
 ### Example GitLab Structure {#example}
 
@@ -126,62 +122,35 @@ You are (collectively) responsible for making the group work, it's not acceptabl
 If a group member ends up not participating despite your efforts, please let your tutors know.
 Similarly if you feel excluded or uncomfortable in a group, please let your tutor or the course convenor know privately.
 
-## Submission process {#weekly-videos-submission-process}
-
-1. record your video (use [OBS Studio](https://obsproject.com)
-2. upload your 60sec (or 180sec for group weeks) video through Teams (see above)
-3. add your reflection text and materials to the GitLab repository
-
-If you're familiar with git & GitLab, then you can do this however you like---as
-long as the reflection document is pushed to GitLab before the submission time.
-
-(NB, the next paragraph is from last year and might be not completely correct)
-
-If you're new to this sort of thing, here are a couple of walkthrough videos showing how to use [VSCode](https://code.visualstudio.com) to edit the
-`week-2-reflection.md` file, commit the `week-2.mkv` video file and push it to
-GitLab. If there's any language in there that's not familiar that's completely
-ok---hit us up on Teams to ask questions, we'd love to help you out.
-
-### How to fork the project
-
-{% include video.html video="lecture-recordings/2021/lens-fork-av-diary-project" %}
-
-### How to add your reflection document & push it to GitLab
-
-{% include video.html video="lecture-recordings/2021/lens-add-av-diary-video-and-push" %}
-
 ## Creative Tips
 
 Here's some general tips for completing the diary videos and reflections.
 
 ### Video
 
-1. small & focussed is ok---you don't have to build a huge thing every week
+1. You really only need one small and focussed idea to make 1 minute of music.
 
-2. think deeply about the provocation: brainstorm 10 ideas, try out three of them,
-   pick the best one
+2. Try more than one idea: brainstorm 10 ideas, try out three of them,
+   pick the best one.
 
-3. you don't have to record it all in one take---you can record several
-   short parts and cut them together if you want (but this will take longer)
-
-4. think about the layout of your patch (font size, object positions, comments,
+3. Think about the layout of your patch (font size, object positions, comments,
    etc.) to make sure it's going to be interesting _viewing_ (as well as
-   listening)
+   listening).
 
-5. if you saw something interesting in a classmate's video the previous week,
+4. If you saw something interesting in a classmate's video the previous week,
    ask them (on Teams) how they did it (yes, collaboration is ok as long as you cite your sources!)
 
-6. have a look at the ["screen recording software" section of the Tools page]({%
-   link _resources/02-tools.md %}#screen-recording-software)
+5. Have a look at the ["screen recording software" section of the Tools page]({%
+   link _resources/02-tools.md %}#screen-recording-software).
 
 ### Reflection
 
-1. Briefly state _what_ you have done, but spend more time on _how_ you did it and _why_.
+1. Briefly state _what_ you have done then spend more time on _how_ you did it and _why_.
 
-2. it's ok to mention the inspiration (either an abstract concept, or a specific
-   thing you saw/listened to) for your work
+2. Discuss your process for addressing the diary prompt and the resources you used to create your submission.
 
-3. discuss any particular challenges or tensions you felt between competing
-   ideas/priorities (if there were any)
+3. If it's a group week make sure you discuss how the collaboration influenced your work.
 
-4. don't overthink it---maximum length is 200 words, but you should aim for at least 100 words for it to be a reasonable reflection.
+4. Was your work successful? What were the qualities that did/didn't work, and how did you know?
+
+5. Don't forget to use proper citation.

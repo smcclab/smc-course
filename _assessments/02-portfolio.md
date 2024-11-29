@@ -13,7 +13,6 @@ Remember that your portfolio relies on your weekly computer music diary for cont
 
 This page is about _two_ assessments: Portfolio 1, and Portfolio 2 which have the same structure but cover different workshops.
 
-
 ## Outline {#outline}
 
 - **Due dates:**
@@ -48,7 +47,7 @@ the class (references to work you didn't create should be listed in the referenc
 
 You must include figures, screenshots and code excerpts of your SMC software in
 your documents to demonstrate your understanding of computer music concepts
-covered during the specified weeks. Each portfolio should be 1000-1500 words
+covered during the specified weeks. Each portfolio should be 1000--1500 words
 (including the four weekly reflections). This task should be completed in
 markdown format in the GitLab template repository and submitted as a PDF
 through Wattle.
