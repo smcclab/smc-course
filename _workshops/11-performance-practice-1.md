@@ -1,5 +1,5 @@
 ---
-title: "Week 11: interfaces and expression"
+title: "Week 11: Drop-In Class"
 tagline: "Developing the interface for your final performance and using them for creative control"
 show_toc: true
 image: assets/workshops/2011-nime-charles-martin.jpg 
@@ -9,8 +9,19 @@ image_alt: Photo by Charles Martin
 {:.warn-box}
 **No Diary**: No computer music diary this week--your diaries are all done!
 
-The aim for this week (and next week) is to develop and refine your final performance-in-progress with your ensemble. To guide your discussions, the theme this week is _interfaces and expression_. 
-We want you to spend some time in this workshop showing your ensemble your performance and hopefully rehearsing a section to test how it works . We also have provided a short exercise focussed on the theme for the week.
+The last two weeks of workshops are **drop-in** classes for you to develop and refine your final performance with your ensemble. 
+Your tutor will be present to listen to your work and discuss any aspect of the course.
+It's important to these classes and to seek feedback from your tutor and peers to make sure that your ensemble performances are ready and will meet our standards.
+
+Your goals for this drop-in is to:
+
+1. show your ensemble your performance
+2. rehearse your performance with them to make sure it works (use the HDMI switcher)
+3. seek feedback from your ensemble and your tutor
+
+## Idea for the week
+
+To help guide your discussions, the idea for this week is _interfaces and expression_. 
 
 Interface(s) are obviously crucial to performing with your ensemble, but it's easy to implement interfaces that have a high _utility_ or _usability_ without being very _expressive_. As an extreme example, you could implement a system where everybody hits one button at the start of the performance and sits back to enjoy the music---it's very easy to use, but doesn't provide any musical expression.
 
@@ -19,7 +30,7 @@ It's worth thinking about how interfaces give your ensemble-mates _creative cont
 {:.info-box}
 You'll need an HDMI output from your laptop in this week's workshop to test out the HDMI switcher!
 
-## Goals for this week
+## Exercise for the week
 
 - write down the _interfaces_ and modes of _expression_ in your final performance.
 - discuss with your group what kinds of interfaces will be in use during your concert.
@@ -42,10 +53,3 @@ Questions for group discussions:
 - What does the following exercise help us?
 - How does it hold us back?
 - Can we perform without interfaces?
-
-## Resources
-
-## Creative Notes
-
-
-

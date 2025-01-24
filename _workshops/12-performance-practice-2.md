@@ -1,5 +1,5 @@
 ---
-title: "Week 12: composition and improvisation"
+title: "Week 12: Drop-In Class"
 tagline: "Refining your composition and improvisation palns for the final performance"
 show_toc: true
 image: assets/workshops/2010-ultrasonic-charles-martin.jpg 
@@ -9,34 +9,29 @@ image_alt: Photo by Charles Martin
 {:.warn-box}
 **No Diary**: No computer music diary this week--your diaries are all done!
 
-This week we focus on the composition and improvisation aspects of your final performance pieces.
-You should now have a reasonable initial idea for your piece (acknowledging that folks usually work hard up to the deadline).
-The goal for this week is to communicate this idea to everybody in your ensemble.
+The week is a **drop-in** class for you to develop and refine your final performance with your ensemble. 
+Your tutor will be present to listen to your work and discuss any aspect of the course.
+It's important to these classes and to seek feedback from your tutor and peers to make sure that your ensemble performances are ready and will meet our standards.
 
-More specifically, today you will have to gather information about each piece in your concert from everybody else. You will be answering the question "what am **I** supposed to do in **your** piece?"
-At the end of the day, you should have a clearer view of how your concert will look and sound and what your role will be throughout.
-
-If you haven't seend them yet, check out the lectures slides on "Compositions and Improvisations" to get some ideas for how to structure your piece and what instructions or constraints you could put in place to help your ensemble work together.
-
-{:.info-box}
-You'll need an HDMI output from your laptop in this week's workshop to test out the HDMI switcher!
-
-
-## Goals for this week
-
-
-{:.info-box}
-By now you should know when your LENS concert is and what the order of performances will be. Read the [lecture on the final LENS concert]({% link _lectures/13-concert.md %}) for these details. You should be at the venue **1 hour** before your performance time.
+Your goals for this drop-in is to:
 
 1. Understand what **your** job will be in each other piece in your concert.
 2. Discuss **roles** for different performers in your group in each piece.
 3. Figure out how you will get information from the creator of each piece in your group. Will you get some kind of instructions? Information during the piece?
 4. Figure out how **you** are getting information to all the people playing **your** piece.
 
-This week you need to work out how your concert is actually going to work. It's best to do this from a "what I have to do" perspective. Do you know what your job is in each piece in your group? I didn't think so.
-Today's main task is to figure that out, here's the exercise for the day.
+More specifically, today you need to gather information about each piece in your concert from everybody else. You will be answering the question "what am **I** supposed to do in **your** piece?"
+At the end of the day, you should have a clearer view of how your concert will look and sound and what your role will be throughout.
 
-### My jobs in the concert worksheet
+{:.info-box}
+You'll need an HDMI output from your laptop in this week's workshop to test out the HDMI switcher!
+
+
+## Idea for the week
+
+This week is about how your concert is actually going to work. It's best to do this from a "what I have to do" perspective. Do you know what your job is in each piece in your group? I didn't think so. Here's a worksheet you could write to figure this out:
+
+## Performance Worksheet
 
 - Make a new document and put the name of each person in your group on a different page (follow the order for your concert -- see the lecture)
 - For each person's piece, hae the following headings:
@@ -85,4 +80,3 @@ You should re-read lecture notes for the week but remember the hot tips at the e
 - Think beyond **notes**: organise timbres, expressions, envelopes, other stuff!
 - Don't play someone else's music
 - You can do this!
-
