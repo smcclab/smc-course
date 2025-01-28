@@ -9,6 +9,9 @@ image_alt: Photo by Charles Martin
 {:.warn-box}
 **No Diary**: No computer music diary this week.
 
+{:.warn-box}
+This workshop is yet-to-be-updated for 2025 where we will use [Strudel](https://strudel.cc) as the live-coding language.
+
 This week we flip the switch to making computer music with a _text_-based programming
 system. Depending on your background, this could feel freeing, confusing or a bit of both.
 

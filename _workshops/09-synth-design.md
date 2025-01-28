@@ -9,9 +9,12 @@ image_alt: Photo by Charles Martin
 It's another group week! Get organised early so that you can find a time to work with your ensemble.
 
 {:.warn-box}
-**Group Diary**: Create a piece in Gibber with a focus on _modulation_ where each performer has a different role (**3min**).
+**Group Diary**: Create a piece in Strudel with a focus on _modulation_ where each performer has a different role (**3min**).
 
-You've created a few piece of music with Gibber now so you should have a good grasp of the basics. This week you need to go deeper, completing most (if not all) of the tutorials in the Gibber playground. You will need to apply the synth design concept "modulation" in your group diary. Think about all the aspects of a computer music performance: sounds, synths, notes, rhythms, sequences, patterns. All of these things can be distorted, warped, mutated and evolved over time and it's your job to find ways to do that with your group. When you're puting your group together, make sure everybody has a different role (although everybody should be modulating something).
+{:.warn-box}
+This workshop is yet-to-be-updated for 2025 where we will use [Strudel](https://strudel.cc) as the live-coding language.
+
+You've created a few piece of music with Strudel now so you should have a good grasp of the basics. This week you need to go deeper, completing most (if not all) of the tutorials in the Strudel website. You will need to apply the synth design concept "modulation" in your group diary. Think about all the aspects of a computer music performance: sounds, synths, notes, rhythms, sequences, patterns. All of these things can be distorted, warped, mutated and evolved over time and it's your job to find ways to do that with your group. When you're putting your group together, make sure everybody has a different role (although everybody should be modulating something).
 
 ## Goals for this week
 

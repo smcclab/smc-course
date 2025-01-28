@@ -7,7 +7,10 @@ image_alt: Photo by Charles Martin
 ---
 
 {:.warn-box}
-**Solo Diary**: Write a piece with Gibber that has three algorithmic parts: drums, bass and lead.
+**Solo Diary**: Write a piece with Strudel that has three algorithmic parts: drums, bass and lead.
+
+{:.warn-box}
+This workshop is yet-to-be-updated for 2025 where we will use [Strudel](https://strudel.cc) as the live-coding language.
 
 ## Goals for this week
 

@@ -20,7 +20,7 @@ ask for help in the `#techsupport` channel on Teams.
 
 SMC involves using a laptop in class and for the assessments, and you will have
 to install some software listed below. All of our classes are scheduled in
-rooms with no computers provided so you must bring your own to participate in class.
+rooms with no computers provided so **you must bring your laptop** to participate in class.
 
 You should also bring:
 
@@ -36,21 +36,19 @@ In general, any Apple or Windows laptop purchased in the last five years will
 be fine and many older laptops will also work very well. Laptops with Linux are
 also usually fine but can have some issues with audio[^2]. 
 
-If you have an issue where you need a loaner laptop for a short time (e.g., one
-class), we may be able to help, but in general, ANU students are expected to be
-able to bring a computer to on-campus classes.
-
 [^2]: Linux audio is one of humankind's greatest intellectual challenges. As a Linux user in this course you have bravely signed up for your turn to face it. Glory to you, courageous warrior of the one true OS.
 
 [^hdmi]: HDMI output is the main way that we will record video and audio from multiple laptops during class and in the assessments. If you don't have an HDMI adapter you won't be able to participate in these activities.
 
-
 ## Software {#software}
 
-Learning the basics of computer music programming is a core part of this course.
-There are two primary computer music software environments we'll use in SMC
- [Pure Data (Pd Vanilla)](https://puredata.info) and
-[Gibber](https://gibber.cc)
+There are two computer music software environments we'll use in SMC: 
+[Pure Data (Pd Vanilla)](https://msp.ucsd.edu/software.html) and
+[Strudel](https://strudel.cc)
+
+{:.warn-box}
+
+**Note:** We change the tools and software for this course regularly. For 2025 we will use [Pure Data](https://msp.ucsd.edu/software.html) and [Strudel](https://strudel.cc). There may be references to other systems in the website but these will be fixed by the time we get to them in the course.
 
 ### Pure Data (Pd Vanilla) {#pure-data}
 
@@ -58,18 +56,15 @@ Pd is a visual computer music programming system. You download the Pd program to
 
 The programming concept in Pd involves making visual diagram for flow of signals and data. We call this activity "patching" as it recalls using physical wires (patch cables) to connect different pieces of electronic equipment. This is a bit different to text programming, but quite easy and fun for experimenting.
 
-Pd is free software and works on Windows, macOS & Linux. 
+Pd is free software and works on Windows, macOS and Linux. 
 
-To install it, go to
+To install it, go to 
 the [Pd downloads page](http://msp.ucsd.edu/software.html) and get the latest
 version of "vanilla" Pd for your platform (as shown in the screenshot).
 
 {:.info-box}
-N.B., please don't use Purr Data (Pd-l2ork). This contains many external libraries that you will not be able to reference.
-
-You may also find Pd downloads (and lots of extra related goodies) on [puredata.info](https://puredata.info/), but we don't recommend browsing here until you have completed a few workshops. The _latest test releases_ are generally on Miller Puckette's [website](http://msp.ucsd.edu/software.html).
-
-<!-- ![download box on the Pd website]({% link assets/resources/pd-download-box.png %}) -->
+N.B., please **don't** use Purr Data (Pd-l2ork) in this class. 
+Purr Data contains many external libraries that you will not be able to reference or include properly in your assignment submissions.
 
 #### Example code/patches
 
@@ -79,64 +74,48 @@ You may also find Pd downloads (and lots of extra related goodies) on [puredata.
 
 - Charles has written a series of introductory examples to Pure Data which can help you to grasp the basics: [ComputerMusicIntro examples](https://github.com/cpmpercussion/ComputerMusicIntro)
 
-
 - [puredata.info](https://puredata.info/) has the main pure data community resources, e.g., forums, downloads, mailing list.
 
 - [rjlib is a library of "pure Pd" patches](https://github.com/rjdj/rjlib/) with typical synth, effect, and sequencer designs. This is a great resource for learning but many of the patches will need to be adapted to be used in your own work.
 
-
 #### Books
+
+- _Puckette, M._ [Theory and Technique of Electronic
+  Music](http://msp.ucsd.edu/techniques.htm) (2007). This is a book by the
+  creator of Pd. It's focussed on computer music theory and digital signal processing more than making music.
 
 - _Kreidler, J._ [Programming Electronic Music in
   Pd](http://www.pd-tutorial.com) (2013). This book is freely available online,
   and is a good "from the ground up" introduction to how to make music in Pd.
-  Some of the screenshots are a bit out of date, but since Pd hasn't changed
-  very much since it was written the actual content is still quite current and
-  useful.
 
-- _Puckette, M._ [Theory and Technique of Electronic
-  Music](http://msp.ucsd.edu/techniques.htm) (2007). This is a book by the
-  creator of Pd, and even though it uses Pd for all the examples it's really a
-  more general book about how computer music works. It covers a bunch of the
-  mathematical & signal processing foundations of the techniques you'll learn
-  in the course, and if you're into that sort of thing then you might enjoy
-  this book. However, in this course understanding the maths is less important
-  than understanding the use of these things in a SMC context, so we won't
-  cover the more maths-y stuff in this course.
+### Strudel
 
+[Strudel](https://strudel.cc) is a live coding language written in JavaScript and based on a famous live coding system called [Tidal Cycles](https://tidalcycles.org/). You use it by going to a  website (<https://strudel.cc>) in a web browser and typing code in there.
 
-### Gibber {#gibber}
+Strudel is a text-based programming language (so unlike Pd, but like JavaScript, Python, Java, or other languages you may be used to). Coding music in Strudel involves opening a website, typing in cyclic patterns in a text box and then modifying the patterns over time to create a performance.
 
-[Gibber](https://gibber.cc) is a live-coding in-browser music programming
-system created with JavaScript. Unlike Pd, Gibber works entirely within a web
-browser so you don't have to download or install anything to get started, just
-head to <https://gibber.cc>.
+Strudel is one of many live coding music programming languages, an exciting area of experimentation and research that combines programming language development with music.
 
-Actually, you _might_ find that Gibber works best with Chrome/Chromium so you
-might want to install one of those browsers for your Gibber experiments.
-
-Gibber actually involves quite a few moving parts and is under active
-development by the author, [Charlie Roberts](https://charlie-roberts.com) and
-the live coding community. During the course you may hear about components of
-gibber like `genish`, `gibberish` and `gibber.audio.lib` which you can read
-about
-[here](https://gist.github.com/charlieroberts/67a0eb9db0b346c159f33f72d6a228a1).
+For this class we will also explore [Flok](https://flok.cc), a system for collaborative live coding that supports several languages (including Strudel). We'll probably set up our own Flok server. Fun times!
 
 #### Example Code
 
-- See the examples within the Gibber [playground interface](https://gibber.cc/playground/index.html)
+- The [Strudel Docs](https://strudel.cc/workshop/getting-started/) have many cool examples and workshop materials.
 
 #### References
 
-- Gibber's [resources page](https://gibber.cc/resources.html) 
-- [A brief description of genish, gibberish, and gibber.audio.lib](https://gist.github.com/charlieroberts/67a0eb9db0b346c159f33f72d6a228a1).
+- Strudel source code: <https://github.com/tidalcycles/strudel>
+- Strudel: Live Coding Patterns on the Web [paper](https://iclc.toplap.org/2023/catalogue/paper/strudel-live-coding-patterns-on-the-web.html)
+- [Blog post](https://algorithmicpattern.org/2023/05/15/strudel-live-coding-patterns-on-the-web/) on Strudel by Alex McLean
+- Flok source code: <https://github.com/munshkr/flok>
+- McLean A, Sicchio K. Live Notation for Patterns of Movement. TDR: The Drama Review. 2024;68(1):104-116. doi:[10.1017/S1054204323000576](https://doi.org/10.1017/S1054204323000576)
 
 ### OBS {#screen-recording-software}
 
 Recording videos of your computer screen (with audio) is a crucial part of this course, you'll be doing
-it every week for your diary submissions. 
+it every week. 
 
-We will use [OBS](https://obsproject.com) (free, macOS/Windows/Linux) to record
+We use [OBS](https://obsproject.com) (free, macOS/Windows/Linux) to record
 your screen in this course. This is the absolute best way to record your screen
 and include audio. It works across all macOS, Windows, and Linux.
 
@@ -184,20 +163,10 @@ THere's only one step to install VSCode:
 1. [download & install VSCode](https://code.visualstudio.com/) (works on macOS,
    Linux & Windows)
 
+## git and GitLab {#git}
 
-## git {#git}
-
-[Git](https://git-scm.com/) is an amazing bit of software for storing and
-tracking changes to source code; you can think of it as Dropbox (or Google Drive
-or iCloud etc.) on steroids. It's also the way you'll keep track of your diary reflections, patches, and code, and generate your assignment submissions.
-
-Luckily, the people who make Git provide a couple of convenient ways to get everything installed on your computer:
-
-- If you're on Windows, you can install Git by going to the [Windows download section](https://git-scm.com/download/win) then downloading and running the `.exe` file.
-- If you're on macOS, the easiest way to download Git is to use the ["Binary Installer"](https://sourceforge.net/projects/git-osx-installer/) linked on the [macOS download page](https://git-scm.com/download/mac).
-
-{:.warn-box}
-After installing Git, you'll need to close and re-open VSCode!
+We use git and [ANU Teaching GitLab](https://gitlab.cecs.anu.edu.au/) in this course for assignment submissions and distributing code templates. 
+You probably have seen these systems already but if you haven't or want a refresher on how to use them [we have student-focussed docs here](https://comp.anu.edu.au/docs/gitlab/).
 
 ## Hardware {#hardware}
 
@@ -243,7 +212,7 @@ We don't recommend "keyboard"-style interfaces for this class, as they
 tend to distract from rather than enhance the kind of computer music
 interactions we study.
 
-Here's what's not required for this class:
+Here's what's _not_ required for this class:
 
 - **Expensive synthesisers, Ableton Live, Eurorack systems, etc.** Well all of
   this stuff is awesome and fun, but you can do a lot of learning and music
@@ -278,6 +247,32 @@ than guides to specific programming systems.
 
 
 {% comment %}
+### Gibber {#gibber}
+
+[Gibber](https://gibber.cc) is a live-coding in-browser music programming
+system created with JavaScript. Unlike Pd, Gibber works entirely within a web
+browser so you don't have to download or install anything to get started, just
+head to <https://gibber.cc>.
+
+Actually, you _might_ find that Gibber works best with Chrome/Chromium so you
+might want to install one of those browsers for your Gibber experiments.
+
+Gibber actually involves quite a few moving parts and is under active
+development by the author, [Charlie Roberts](https://charlie-roberts.com) and
+the live coding community. During the course you may hear about components of
+gibber like `genish`, `gibberish` and `gibber.audio.lib` which you can read
+about
+[here](https://gist.github.com/charlieroberts/67a0eb9db0b346c159f33f72d6a228a1).
+
+#### Example Code
+
+- See the examples within the Gibber [playground interface](https://gibber.cc/playground/index.html)
+
+#### References
+
+- Gibber's [resources page](https://gibber.cc/resources.html) 
+- [A brief description of genish, gibberish, and gibber.audio.lib](https://gist.github.com/charlieroberts/67a0eb9db0b346c159f33f72d6a228a1).
+
 ### SuperCollider {#supercollider}
 
 [SuperCollider](https://supercollider.github.io/) is a text-based computer music environment often used for live coding.
