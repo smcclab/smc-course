@@ -65,7 +65,7 @@ Learn and experiment with computer audio in the **lecture**.
   [Pd](https://puredata.info)
 
 - reinforce and extend your knowledge by live-coding in
-  [Gibber](https://gibber.cc)
+  [Strude](https://strudel.cc)
 
 There will be new material and challenges every week.
 

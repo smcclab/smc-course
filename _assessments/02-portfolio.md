@@ -99,7 +99,7 @@ Here's a few tips to make a better looking and more readable portfolio:
 - We mark portfolios from your PDF and diary videos, don't assume we can dive
   into your repo and make sure your PDF looks the way you expect.
 - Please include a record of the "main thing" you did in each week's reflection
-  either as a screenshot (if Pd) or a code listing (if Gibber). You can store
+  either as a screenshot or a code listing. You can store
   images directly in any of the `week-N` or `portfolio-N` folders. The code
   won't count towards your word count.
 - The PDF works best with headings starting from one-pound-sign-level (e.g., `#

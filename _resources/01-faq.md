@@ -71,4 +71,3 @@ In this course you'll learn to use:
 - [Pure Data (Pd Vanilla)](http://msp.ucsd.edu/software.html)
 - [Strudel](https://strudel.cc)
 - [Flok](https://flok.cc)
-- [Gibber](https://gibber.cc) 
