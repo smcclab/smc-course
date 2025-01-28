@@ -79,15 +79,15 @@ Graphical programming environment.
 
 {% include slides/background-image.html image="digital-synthesis/steve-harvey-unsplash.jpg" heading="patching to make sound" %}
 
-## Gibber
+## Strudel
 
-![]({% link assets/lectures/gibber-screen.png %}){: style="width:70%;float:right;"}
+![]({% link assets/lectures/strudel-screen.png %}){: style="width:70%;float:right;"}
 
 Free tool for making computer music---in your web browser.
 
-Developed by [Charlie Roberts](https://charlie-roberts.com). "New" (circa 2013), under _active_ development.
+Developed by [Felix Roos](https://loophole-letters.vercel.app) and [Alex McLean](https://en.wikipedia.org/wiki/Alex_McLean). "New" (circa 2022), under _active_ development.
 
-Start using it at [gibber.cc](https://gibber.cc).
+Start using it at [strudel.cc](https://strudel.cc).
 
 {% include slides/background-image.html image="photos/2022-lh2.jpg" heading="coding to make sound" %}
 
@@ -181,13 +181,13 @@ The important bit is: `g.mul(g.cycle( 220 ), 0.25)`
 
 In future we will write key combinations as `Ctrl+Enter` meaning "hold the control key, then press the enter key, then release both".
 
-## Pd vs Gibber
+## Pd vs Strudel
 
-Pd and Gibber are good at different things (if not, I wouldn't explain both!)
+Pd and Strudel are good at different things (if not, I wouldn't explain both!)
 
 **Pd**: nice graphical display of signal flow, easy to experiment with synth design, possible to connect to hardware controllers, bonus built in graphics programming
 
-**Gibber**: works in a browser, built in collaborative editing, easy to access sequencing and scheduling components.
+**Strudel**: works in a browser, collaborative editing with [flok.cc](https://flok.cc), easy to access sequencing and scheduling components.
 
 # Additive Synthesis
 

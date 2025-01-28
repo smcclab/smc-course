@@ -147,9 +147,9 @@ CONCERT DAY!
 
 (times relative to your concert time)
 
-- -60m **Arrive at School of Music**, meet your tutor at the front, move to "green room" to test setups and get ready
-- -30m **Pack up in green room** and get ready to move to Llewellyn Hall
-- -20m **arrive at Llewellyn Hall** and get ready to walk carefully on stage when previous group finishes
+- -60m **Arrive at School of Music**, meet your tutor outside the Big Band Room, move to "green room" to test setups and get ready
+- -30m **Pack up in green room** and get ready to move to the Big Band Room
+- -20m **arrive at Big Band Room** and get ready to walk carefully on stage when previous group finishes
 - -15m when other group is finished, come onto stage and plug in laptops (HDMI + power supplies)
 - -10m - Confirm sound and video coming out of each laptop 
 

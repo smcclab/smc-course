@@ -9,7 +9,7 @@ image_alt: Photo by Charles Martin
 {:.warn-box}
 **No Diary**: No computer music diary this week--your diaries are all done!
 
-The last two weeks of workshops are **drop-in** classes for you to develop and refine your final performance with your ensemble. 
+The week is a **drop-in** class for you to develop and refine your final performance with your ensemble. 
 Your tutor will be present to listen to your work and discuss any aspect of the course.
 It's important to these classes and to seek feedback from your tutor and peers to make sure that your ensemble performances are ready and will meet our standards.
 
@@ -19,16 +19,16 @@ Your goals for this drop-in is to:
 2. rehearse your performance with them to make sure it works (use the HDMI switcher)
 3. seek feedback from your ensemble and your tutor
 
+{:.info-box}
+You'll need an HDMI output from your laptop in this week's workshop to test out the HDMI switcher!
+
 ## Idea for the week
 
-To help guide your discussions, the idea for this week is _interfaces and expression_. 
+The idea for this week is _interfaces and expression_. 
 
 Interface(s) are obviously crucial to performing with your ensemble, but it's easy to implement interfaces that have a high _utility_ or _usability_ without being very _expressive_. As an extreme example, you could implement a system where everybody hits one button at the start of the performance and sits back to enjoy the music---it's very easy to use, but doesn't provide any musical expression.
 
 It's worth thinking about how interfaces give your ensemble-mates _creative control_ during a performance. The plan for today is to explore this concept in discussion with your ensemble and make some critical comparisons. 
-
-{:.info-box}
-You'll need an HDMI output from your laptop in this week's workshop to test out the HDMI switcher!
 
 ## Exercise for the week
 
