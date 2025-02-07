@@ -63,7 +63,7 @@ We will have bookable rehearsal times from Tuesday--Thursday before the first co
 
 ## Allocation
 
-- Discuss with your group on Teams what your time constraints are (i.e. other exams)
+- Discuss with your group what your time constraints are (i.e. other exams)
 - In week 10 workshop, submit times that your group is available.
 - We will organise a roster based on that information on Thursday 11/5.
 
