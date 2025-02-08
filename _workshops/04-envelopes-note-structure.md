@@ -59,7 +59,7 @@ Your tutors already know the number and size of each group based on the number o
 
 {:.warn-box}
 **Don't miss this workshop!** You need to be at the week 4 workshop in person to have a say in what ensemble you are assigned to. 
-If you can't make it for any reason, **use your workshop channel on Teams to talk to your tutors**, explain why you can't attend and answer their questions so that they can help put you in an appropriate group.
+If you can't make it for any reason, **use your workshop channel on the forum to talk to your tutors**, explain why you can't attend and answer their questions so that they can help put you in an appropriate group.
 If you don't actively participate in this lab and miss the next computer music diary you **will lose marks in your first portfolio** as you can't make up a group entry at the last minute.
 
 Your tutors will help fill ensembles up by following some flexible criteria:

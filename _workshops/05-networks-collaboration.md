@@ -46,7 +46,7 @@ different tools) when sending them over the network, so this week's
 2. with your group, design and carry out a collaboration workflow which allows
    you to deliver a **3min** diary entry by the week 5 workshop slot
 
-3. **share** some sound-making patches on your workshop's Teams channel so that
+3. **share** some sound-making patches on your workshop's forum chat so that
    you will be able to complete the week-6 workshop! (required!)
 
 N.B.: option two **could** involve using hi-tech network connections, **or** could involve lo-tech collaborative solutions, or could be in the middle. In any case you will have to use some creativity to develop a collaboration workflow that works for your group.
@@ -126,8 +126,7 @@ few different options as well.
 ## Creative Notes
 
 - how is your group going to meet & chat? if it's going to be online, then you
-  should get it set up for your first discussion ASAP---if you need us to create
-  a separate Teams channel for you then just ask
+  should get it set up for your first discussion ASAP.
 
 - which parts of the collaborative workflow need to be synchronous, and which
   parts could be async? do you want to collaborate sequentially, or in parallel?
@@ -142,7 +141,7 @@ few different options as well.
 
 - what does networked music even mean? did it exist before computers? when
   looking for famous examples, how far back can you go? if you find anything
-  cool, drop a link in the #inspo channel on Teams
+  cool, drop a link on the forum
 
 - remember that you can send control messages over the network, or audio, or
   both, or a signal that's somewhere in between, or something else entirely---be

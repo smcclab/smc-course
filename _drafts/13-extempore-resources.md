@@ -21,7 +21,7 @@ Lots of new stuff this week, although because of the two week lecture-free
 period you actually have a bit longer to get on top of it. Don't be
 overwhelmed---we'll guide you through some example code which will (hopefully)
 be fun to play with, and don't worry if you don't understand everything about it
-at first. And **if you have questions, hit us up on Teams**.
+at first.
 
 ### Quickstart
 
@@ -77,10 +77,6 @@ points":
 ;; for this one you need to (sys:load "libs/core/pc_ivl.xtm") first
 (pc:random 60 72 '(0 2 3 5 7))
 ```
-
-Seriously, though, if you've got an idea and are wondering about how to make it
-happen then hit us up on Teams and we can probably point you in the right
-direction.
 
 ## Extempore Resources 2
 

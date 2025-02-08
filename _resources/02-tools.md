@@ -14,7 +14,7 @@ Here are the software and hardware tools you'll need for SMC.
 {:.info-box}
 
 If you're having trouble getting things working on your machine, 
-ask for help in the `#techsupport` channel on Teams.
+ask for help on the forum.
 
 ## Laptop
 
