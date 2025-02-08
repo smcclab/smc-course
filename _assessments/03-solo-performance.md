@@ -5,6 +5,7 @@ permalink: /assessments/solo-performance/
 image: assets/photos/2019-laptop-setup.jpg
 show_toc: true
 template_repo: https://gitlab.cecs.anu.edu.au/laptop-ensemble/2023/SMC-2023-submissions
+hidden: true
 ---
 
 ## Outline

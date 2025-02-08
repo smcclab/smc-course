@@ -6,6 +6,7 @@ image_alt: Photo by Samer Khodeir on Unsplash
 permalink: /assessments/diary/
 show_toc: true
 template_repo: https://gitlab.cecs.anu.edu.au/laptop-ensemble/2023/SMC-2023-submissions
+hidden: true
 ---
 
 ## Outline

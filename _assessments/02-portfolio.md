@@ -5,7 +5,8 @@ image: assets/photos/2020-portfolio.jpg
 image_alt: Photo by Charles Martin 
 permalink: /assessments/portfolio/
 show_toc: true
-template_repo: https://gitlab.cecs.anu.edu.au/laptop-ensemble/2023/SMC-2023-submissions
+template_repo: https://gitlab.cecs.anu.edu.au/laptop-ensemble/2023/SMC-2023-submissions/
+hidden: true
 ---
 
 {:.info-box}
