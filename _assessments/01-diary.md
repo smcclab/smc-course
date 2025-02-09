@@ -59,7 +59,7 @@ Each week's submission must include:
 {:.info-box}
 Please follow the above instructions about file names carefully! Your video needs to have that exact name format to be picked up by our systems and played back in class.
 
-### Example GitLab Upload {#teams}
+### Example GitLab Upload {#gitlab}
 
 Can upload your videos, reflections, and materials to GitLab directly through the website or from a local copy of your git repository.
 
@@ -145,7 +145,7 @@ Here's some general tips for completing the diary videos and reflections.
    listening).
 
 4. If you saw something interesting in a classmate's video the previous week,
-   ask them (on Teams) how they did it (yes, collaboration is ok as long as you cite your sources!)
+   ask them (on the forum) how they did it (yes, collaboration is ok as long as you cite your sources!)
 
 5. Have a look at the ["screen recording software" section of the Tools page]({%
    link _resources/02-tools.md %}#screen-recording-software).
