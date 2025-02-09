@@ -4,7 +4,7 @@ tagline: Create some music in your bedroom.
 permalink: /assessments/solo-performance/
 image: assets/photos/2019-laptop-setup.jpg
 show_toc: true
-template_repo: https://gitlab.cecs.anu.edu.au/laptop-ensemble/2023/SMC-2023-submissions
+template_repo: https://gitlab.cecs.anu.edu.au/comp4350/2025/comp4350-2025-solo-performance
 hidden: true
 ---
 

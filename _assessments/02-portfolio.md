@@ -5,7 +5,8 @@ image: assets/photos/2020-portfolio.jpg
 image_alt: Photo by Charles Martin 
 permalink: /assessments/portfolio/
 show_toc: true
-template_repo: https://gitlab.cecs.anu.edu.au/laptop-ensemble/2023/SMC-2023-submissions/
+template_repo_1: https://gitlab.cecs.anu.edu.au/comp4350/2025/comp4350-2025-portfolio-1
+template_repo_2: https://gitlab.cecs.anu.edu.au/comp4350/2025/comp4350-2025-portfolio-2
 hidden: true
 ---
 
@@ -22,7 +23,7 @@ This page is about _two_ assessments: Portfolio 1, and Portfolio 2 which have th
 - **Mark weighting:** Portfolio 1: 20%, Portfolio 2: 20% 
 - **Submission:** PDF upload on Wattle
 - **Policies:** Late submissions not accepted without an extension; this is an individual task.
-- **GitLab Repo:** [link]({{ page.template_repo }})
+- **GitLab Template Repos:** [weeks 1--5]({{ page.template_repo_1 }}) and [weeks 6--10]({{ page.template_repo_2 }})
 
 ## Specification {#portfolio-spec}
 
