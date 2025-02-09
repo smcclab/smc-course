@@ -115,7 +115,7 @@ Two of your diary entries will be completed with _your_ ensemble (assignment hap
 
 You can create your group video in any way you choose as long as it shows all the contributions of individual people (their screens) and we can hear each individual performer in the video. Here's some examples:
 
-- Do a big Zoom/Teams call with each member and one person records it (make sure sound comes through)
+- Do a big video call with each member and one person records it (make sure sound comes through)
 - Get all the laptops on a table and record with a phone (hopefully on a tripod or stand)
 - Record all individual screens in OBS and add the videos together in some video editing software (e.g., can Canva do this?)
 - Connect all the laptops to an HDMI switcher and record the 4-up view (available in second half of the course and for final performance).

@@ -203,7 +203,7 @@ The schedule for each ensemble is as follows (times in minutes relative to your 
 
 ### Concert order and procedures
 
-The order of pieces in the concert is as given on the posters available on Teams and in the [concert lecture]({% link _lectures/13-concert.md %}).
+The order of pieces in the concert is as given in the [concert lecture]({% link _lectures/13-concert.md %}).
 
 This is not up for discussion, you may not change the concert order. My worst
 nightmare is assessing the wrong person so please make sure you get the order
