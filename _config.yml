@@ -92,5 +92,4 @@ sass:
 
 # TODO need to fix the errors which come up, and then use this
 # jekyll_proofer: error
-course_ed_discussion: https://edstem.org/au/courses/21142/discussion
-course_sharepoint_upload: https://anu365.sharepoint.com/sites/SMC2025/Shared%20Documents/Forms/AllItems.aspx?FolderCTID=0x012000A6B020786091464983965D6C4123A3AD&id=%2Fsites%2FSMC2025%2FShared%20Documents%2FGeneral%2Fdiary%2Dsubmissions&viewid=85ae45cc%2Db06b%2D4d6c%2D87a0%2Df2e8961b9918
+course_forum: https://edstem.org/au/courses/21142/discussion

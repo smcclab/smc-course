@@ -146,7 +146,7 @@ Here's some general tips for completing the diary videos and reflections.
    listening).
 
 4. If you saw something interesting in a classmate's video the previous week,
-   ask them (on the forum) how they did it (yes, collaboration is ok as long as you cite your sources!)
+   ask them ([on the forum](({{ site.course_forum }}))) how they did it (yes, collaboration is ok as long as you cite your sources!)
 
 5. Have a look at the ["screen recording software" section of the Tools page]({%
    link _resources/02-tools.md %}#screen-recording-software).

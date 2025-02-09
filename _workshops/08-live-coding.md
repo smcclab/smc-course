@@ -29,7 +29,7 @@ This workshop is yet-to-be-updated for 2025 where we will use [Strudel](https://
 
 ## Resources
 
-- **Download and run Gibber from your computer**: Clone the [repo](https://github.com/gibber-cc/gibber), open in VSCode and use the Live Server Extension (ask on the forum if you haven't done this before).
+- **Download and run Gibber from your computer**: Clone the [repo](https://github.com/gibber-cc/gibber), open in VSCode and use the Live Server Extension (ask on the [forum]({{ site.course_forum }}) if you haven't done this before).
 
 - **Look through the Sampler tutorial**: It's in the Gibber examples dropdown or [here](https://github.com/gibber-cc/gibber/blob/main/playground/examples/sampler.js)
 

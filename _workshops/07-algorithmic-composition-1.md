@@ -57,7 +57,7 @@ Pd and Gibber are both great systems for musical expression but their design ten
 
 - Gibber has no concept of "saving" code, we suggest you create some text files in your laptop ensemble GitLab repository to store your work. Gibber uses the javascript programming language so you could create files like "2022-09-01-live-coding.js".
 
-- Gibber can do a lot of exciting stuff, but it's a bit experimental and the documentation is still in progress. Be gentle on it and yourself and if you can't work something out, ask on the forum.
+- Gibber can do a lot of exciting stuff, but it's a bit experimental and the documentation is still in progress. Be gentle on it and yourself and if you can't work something out, ask on the [forum]({{ site.course_forum }}).
 
 - Gibber works fine on the web (Chrome/Chromium preferred, then other modern browsers), but if you want to run it locally, you can clone the [github repository](https://github.com/gibber-cc/gibber), and use VSCode's live server. This is the preferred method for loading your own samples (next week).
 

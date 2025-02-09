@@ -58,7 +58,7 @@ Here's some resources to help in this workshop, if you feel like you "aren't mak
 - [Charles' examples from the video](https://github.com/cpmpercussion/ComputerMusicIntro)
 
 {:.info-box}
-If you get stuck, try asking for help on the forum.
+If you get stuck, try asking for help on the [forum]({{ site.course_forum }}).
 
 ## Creative Notes
 

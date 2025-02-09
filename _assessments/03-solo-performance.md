@@ -44,7 +44,7 @@ Your submission:
 - must be a screencast from your computer showing the SMC software you have created in use.
 - must be 180s-210s in length (3-3.5 minutes).
 - must have _excellent_ sound quality.
-- must be uploaded to **Wattle** by the due date.
+- must be uploaded to **GitLab** by the due date.
 
 You should **not**:
 
@@ -58,7 +58,7 @@ You should **not**:
 1. create a performance using the programming systems studied in the course.
 2. record a screencast of yourself doing the performance with OBS (max 3.5 minutes)
 3. check that the video is clear and sound quality is _excellent_
-4. upload it to wattle.
+4. upload it to your fork of the [solo performance template repository]({{ page.template_repo }}) in GitLab.
 5. store any and all performance materials (patches, code, sounds, etc) in your Gitlab repository including references to any external libraries or code used in your performance.
 
 ## Creative notes {#notes}

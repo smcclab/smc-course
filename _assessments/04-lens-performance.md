@@ -42,7 +42,7 @@ explaining how your performance works after your concert.
 Your LENS performance consists of:
 
 1. an in-person **ensemble performance** that you will participate in with your group
-2. **performance materials** PDF submitted through Wattle
+2. **performance materials** uploaded through GitLab
 
 There are two representations of your LENS performance: the **ensemble
 performance** at the final gig, and the **performance materials** you'll submit
@@ -79,9 +79,9 @@ Your performance materials:
 
 - **must** include all patches, code, sound files, scores, instructions required to produce your performance (upload to GitLab)
 - **must** include a `README.md` file explaining how to get your performance up and running and including screenshots and code listings of the important part of this performance.
-- you **must** download the PDF artefact of the README file and upload to wattle by the due date. 
+- you **must** download the PDF artefact.
 
-The primary part of your performance materials is the PDF uploaded to Wattle. We _may_ check your Gitlab repository if further information is required about your performance, but basically your work should be represented clearly in your PDF file.
+The primary part of your performance materials is the PDF created in your GitLab repository. We _may_ check the other files in GitLab if further information is required about your performance, but basically your work should be represented clearly in your PDF file.
 
 {:.info}
 

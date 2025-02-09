@@ -67,7 +67,7 @@ learning activities (lectures, workshops, concerts).
 If you have any reason that you cannot attend a certain activity, you must
 [communicate](#communication) this with your tutor well in advance. If you cannot attend campus
 due to illness but are able to work from home, you may be able to have limited participation in workshops and collaborate
-with your group using the course forum.
+with your group using the [course forum]({{ site.course_forum }}).
 
 If you have accessibility issues that impact your attendance or ability to access the learning activities, you **must** discuss this with the course convenor at the start of the course or as soon as these issues are known.
 
@@ -76,21 +76,21 @@ If you have accessibility issues that impact your attendance or ability to acces
 Any communication in this course will happen over one of two channels:
 
 1. your student email account
-2. the course forum (you will be added to this in this in the week 1
+2. the [course forum]({{ site.course_forum }}) (you will be added to this in this in the week 1
    lecture)
 
 If you need to ask a question about the course, here's how to do it:
 
-- Ask on the forum, and any of the course staff or students will be able to help you.
+- Ask on the [forum](({{ site.course_forum }})), and any of the course staff or students will be able to help you.
 - Use public posts, not direct messages. If you need to get a particular person's attention, `@` them in the main chat.
-- If you need help with a software problem, any assessment item, or just want to vent about writing loops in Pd, post on forum
+- If you need help with a software problem, any assessment item, or just want to vent about writing loops in Pd, [post on the forum](({{ site.course_forum }}))
 - Extensions are handled through a special website, see below.
 - If you need to get in touch with the course convenor directly to discuss a private matter (and it really is private): firstname.lastname@anu.edu.au
 - Disrespectful, harassing, or discriminatory posting or messaging this course is **not acceptable** and will not be tolerated (see the code of conduct).
 
 Please not that the course staff are not likely to respond to messages or
 emails outside of ANU working hours or if they are on leave. Posting on the
-forum is the best way to get an answer from any available staff member.
+[forum](({{ site.course_forum }})) is the best way to get an answer from any available staff member.
 
 ## Late Submissions {#late-submission}
 

@@ -21,7 +21,7 @@ This page is about _two_ assessments: Portfolio 1, and Portfolio 2 which have th
   - Portfolio 1: 24/03/2025 23:59AEDT
   - Portfolio 2: 12/05/2025 23:59AEST
 - **Mark weighting:** Portfolio 1: 20%, Portfolio 2: 20% 
-- **Submission:** PDF upload on Wattle
+- **Submission:** upload via GitLab
 - **Policies:** Late submissions not accepted without an extension; this is an individual task.
 - **GitLab Template Repos:** [weeks 1--5]({{ page.template_repo_1 }}) and [weeks 6--10]({{ page.template_repo_2 }})
 
@@ -51,8 +51,7 @@ You must include figures, screenshots and code excerpts of your SMC software in
 your documents to demonstrate your understanding of computer music concepts
 covered during the specified weeks. Each portfolio should be 1000--1500 words
 (including the four weekly reflections). This task should be completed in
-markdown format in the GitLab template repository and submitted as a PDF
-through Wattle.
+markdown format in the GitLab template repository and marked through the PDF that is automatically created in Gitalb..
 
 Your portfolio submissions:
 
@@ -66,9 +65,8 @@ Your portfolio submissions:
 
 ## Submission process
 
-1. Write your portfolio in the provided template markdown file in your gitlab repository.
-2. Download the PDF artefact to check that it looks the way you want.
-3. Upload the PDF to Wattle by the deadline.
+1. Write your portfolio in the provided template markdown file in your GitLab repository.
+2. Download the PDF artefact to check that it looks the way you want and update it in GitLab by the deadline.
 
 ## Creative Notes
 
@@ -151,7 +149,7 @@ Some example references in Markdown format are as follows:
 
 ### Downloading your Portfolio PDF from Gitlab {#gitlab-pdf}
 
-When you add text and images to the markdown template files in your SMC GitLab repository, PDFs are automatically created for your portfolio. You need to download these PDFs and upload them to Wattle to submit your portfolio assessments.
+When you add text and images to the markdown template files in your SMC GitLab repository, PDFs are automatically created for your portfolio. You need to download these PDFs to check that they are created correctly.
 
 Downloading your PDF takes a few clicks (annoyingly), but it's not hard and you should do it regularly to check that your PDF is looking the way you expect. These instructions are for "portfolio 1" but they process is almost the same for the other PDF-based assessments.
 
@@ -181,7 +179,7 @@ You should see the `pdf` file for your portfolio, click it's name to download it
 
 ![]({% link assets/resources/gitlab-portfolio/portfolio-download-4.png %})
 
-You did it! Now check the PDF carefully for errors or issues and then submit it when you are happy on Wattle. Here's [an example]({% link assets/resources/gitlab-portfolio/SMC-2023-submissions-u4110680-portfolio-1.pdf %}) portfolio 1 showing how it _might_ look.
+You did it! Now check the PDF carefully for errors or issues and then update your GitLab repository as necessary. Here's [an example]({% link assets/resources/gitlab-portfolio/SMC-2023-submissions-u4110680-portfolio-1.pdf %}) portfolio 1 showing how it _might_ look.
 
 ### Images not working in portfolio {#images}
 
