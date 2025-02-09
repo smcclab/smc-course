@@ -21,7 +21,7 @@ minute, working with people takes time.
 This is a good time to start thinking about how you could use **networks** to
 assist with collaboration by sending information in between the individual
 laptops in a laptop ensemble. This could involve audio and video data (e.g.,
-connecting via Zoom, Teams, or other tools) or _control_ data.
+connecting via Zoom, or other tools) or _control_ data.
 
 Network connections are used to connect musicians together from different
 locations, to connect devices together in one studio, and to connect different
