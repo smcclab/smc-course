@@ -39,7 +39,7 @@ Each week's submission must include:
 
 - a 60 second video of a computer music piece exploring the week's topic, which
   - has the filename `uid-week-N.[mp4,mov,mkv]`, e.g., `u1234567-week-3.mp4`
-  - has been uploaded to the **Files** area on Teams, to the correct week folder.
+  - has been uploaded to the correct week folder in your portfolio GitLab repository.
   - has sound (obviously)
   - uses one of the [computer music software environments we're covering in this course]({% link _resources/02-tools.md %}#software)
 
@@ -59,30 +59,32 @@ Each week's submission must include:
 {:.info-box}
 Please follow the above instructions about file names carefully! Your video needs to have that exact name format to be picked up by our systems and played back in class.
 
-### Example Teams Upload {#teams}
+### Example GitLab Upload {#teams}
 
-Here's an example of how to upload your video file in Teams, you can find step-by-step instructions below.
+Can upload your videos, reflections, and materials to GitLab directly through the website or from a local copy of your git repository.
 
-![An example of how to drag a video file into the Teams interface]({% link assets/teams-upload-example.png %})
+If you want to upload and edit files directly from [the website](https://gitlab.cecs.anu.edu.au), here's an example with  step-by-step instructions.
+
+![An example of how to upload a file into the GitLab interface]({% link assets/gitlab-example-upload.png %})
 
 1. record your video file.
 
-2. change the name of your recorded file to `uid-week-N.[mp4,mov,mkv]`, e.g., `u1234567-week-3.mp4` (careful to get your UID and the filename exactly correct)
+2. change the name of your recorded file to `week-NN.[mkv,mp4,mov]`, e.g., `week-03.mkv` (be careful to get the filename exactly correct)
 
-3. open Teams and go to the "SMC 2023 Team" and click the "General" channel in the sidebar.
+3. open _your fork_ of the correct gitlab repo, and click on the correct week folder, e.g., `week-03`.
 
-4. click "Files" on the tab bar at the top
+4. click the "+" at the top
 
-5. click the "diary-submissions" folder
+5. click "Upload file".
 
-6. click the correct diary week folder, e.g., "diary-week-02"
+7. drag your video file in there to upload it.
 
-7. drag your video file in there, you should see a bunch of other video files from other students (unless you are the first one!)
+8. verify that your video is uploaded correctly (check CI Jobs under Build/Pipelines)
 
-Please follow these steps carefully as we need your video to be in the right place to play it back correctly in the workshop.
+Please follow these steps carefully as we need your video to be in the right place so that we can retrieve it for the workshop and marking.
 
 {:.warn-box}
-Don't delete any files from the Team (even your own diary). We need to keep a record of everybody's work over the semester as part of your portfolio assessment. The point is not to be mean about early ideas/video but to show your improvement in understanding and growth over the semester.
+N.B.: Every week we will watch our diary videos together during the workshop, so make sure that it is something you're comfortable sharing. The point is not to be mean about early ideas/video but to show your improvement in understanding and growth over the semester.
 
 ### Example GitLab Structure {#example}
 
@@ -92,7 +94,9 @@ As an example, for week 2 your folder structure should look something like this:
 ├── week-02
 │   ├── materials
 │   │   ├── README.md
-│   │   └── week-2.pd
+│   │   ├── my-great-pd-patch.pd
+│   │   └── whatever-other-files.pd/.wav
+│   ├── week-02.mkv
 │   ├── week-02-reflection.md
 ```
 
@@ -101,11 +105,13 @@ the GitLab repo---you just need to modify them.
 
 ### Extra Notes for Group Submissions {#group-diary}
 
-Two of your diary entries will be completed with _your_ ensemble (assignment happens in the week 4 workshop). For these diaries the process is a little different:
+Two of your diary entries will be completed with _your_ ensemble (assignment happens in the week 4 workshop). For these diaries the process is slightly different:
 
-1. you upload a _single video_ as a group with the file name `GXX-week-N.mp4`, where `XX` is your group ID number (01-16) you will be able to find your group ID in the group list for your lab. For example if you are in group 04 and it's the week 5 diary, your file should be called `G04-week-5.mp4`.
+1. your group needs to create _a single video_ (e.g., `week-05.mkv`). The group video must show all group members working together.
 
-2. You upload an individual reflection on the group diary creation experience in the same manner as other weeks. Make sure you refer to how collaboration assisted with your diary creation.
+2. each member of the group uploads the video to their individual gitlab repository.
+
+3. You upload an individual reflection on the group diary creation experience in the same manner as other weeks. Make sure you refer to how collaboration assisted with your diary creation.
 
 You can create your group video in any way you choose as long as it shows all the contributions of individual people (their screens) and we can hear each individual performer in the video. Here's some examples:
 
