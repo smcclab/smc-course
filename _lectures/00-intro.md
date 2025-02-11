@@ -10,8 +10,6 @@ image_alt: Photo by Charles Martin
 
 {% include slides/acknowledgecountry.html %}
 
-# Course Introduction
-
 ## Sound and Music Computing
 
 two big goals:
@@ -20,10 +18,10 @@ two big goals:
 
 2. learning to create computer _music_ in a group
 
-{% include slides/background-image.html image="photos/2015-ems-workshop.jpg" %}
-{% include slides/background-image.html image="photos/2018-lens-showcase.jpg" %}
-{% include slides/background-image.html image="photos/2019-rehearsal-rohan.jpg" %}
+{% include slides/background-image.html image="photos/2022-workshop.jpg" %}
 {% include slides/background-image.html image="photos/2020-brent-performance.jpg" %}
+{% include slides/background-image.html image="photos/2022-rehearsing.jpg" %}
+{% include slides/background-image.html image="photos/2019-rehearsal-rohan.jpg" %}
 {% include slides/background-image.html image="photos/2021-yichen-performance.jpg" %}
 {% include slides/background-image.html image="photos/2022-lh.jpg" %}
 
@@ -39,9 +37,7 @@ computer musician, percussionist
 
 [homepage](https://charlesmartin.au)
 
-[SMCCLAB: Sound, Music, and Creative Computing Lab](https://charlesmartin.au/lab)
-
-[@charlesmartin@aus.social](https://aus.social/@charlesmartin)
+[SMCCLAB: Sound, Music, and Creative Computing Lab](https://smcclab.github.io)
 
 {% include slides/background-image.html image="lectures/welcome/yichen-wang.jpg" heading="Yichen Wang" %}
 
@@ -50,8 +46,6 @@ PhD researcher, ANU School of Computing
 AR musician, photographer
 
 [homepage](https://yichenwangs.github.io)
-
-[@yichenwangs](https://twitter.com/yichenwangs)
 
 {% include slides/impact.html %}
 
@@ -65,7 +59,7 @@ Learn and experiment with computer audio in the **lecture**.
   [Pd](https://puredata.info)
 
 - reinforce and extend your knowledge by live-coding in
-  [Strude](https://strudel.cc)
+  [Strudel](https://strudel.cc)
 
 There will be new material and challenges every week.
 
@@ -75,7 +69,7 @@ Level up _music computing_ skills in the **workshop**.
 
 - a workshop each week for collaboration and critique
 
-- create and discuss 10 short computer music pieces over the semester
+- **create and discuss** 10 short computer music pieces over the semester
 
 This is the fun part: an open environment where you will work together to make music from week 1.
 
@@ -85,9 +79,10 @@ Collaborate and perform in an ensemble
 
 - work with an ensemble of 4-5 students
 
-- everybody creates a computer music work to perform at their final concert
+- everybody creates an (individual) computer music work to perform at their final concert
 
-After 12 weeks of tinny laptop speakers, playing on a big PA system will blow your mind.
+Big challenge, but big reward to perform in a concert with big speakers!
+
 
 ## assessments
 
@@ -95,13 +90,17 @@ Look at the [assessments page]({% link _assessments/index.md %}) or the [class s
 
 ## computer music diary
 
+0% assessment, but required for your portfolios, main way to learn and get feedback.
+
 - Look at the workshop content well _before_ the workshop.
 
-- Record a short piece of computer music following the weekly provocations, upload by Monday.
+- Record a short piece of computer music following the weekly provocations, upload by 09:00 Monday.
 
 - There are solo and group diaries.
 
-- Watching & discussing diary videos is half of what we do in the workshop time.
+- In the workshop: **watch and discuss** your work!
+
+**First diary is due next Monday!!**
 
 ## expectations
 
@@ -109,13 +108,13 @@ Look at the [assessments page]({% link _assessments/index.md %}) or the [class s
 
 2. **The only rule is work** ([rule 7](https://www.corita.org/tenrules)): this means, do your weekly diary videos!
 
-3. **Trust us** to help you succeed: We have all the resources needed for you to create a [great performance](https://www.youtube.com/watch?v=2EdxJ_aJRHA&list=PLKm3iGh1D7Mur62hvm6BHBNqlObABGDgY), just like all the previous LENSers who were just like you!
+3. **Trust us** to help you succeed: We have all the resources needed for you to create a [great performance](https://www.youtube.com/watch?v=2EdxJ_aJRHA&list=PLKm3iGh1D7Mur62hvm6BHBNqlObABGDgY), just like all the previous students who were just like you!
 
 **Read** the [website]({% link index.md %}) for more info.
 
 ## last thing: referencing
 
-Every submission you make has a place for references.
+Every assessment submission has a place for references.
 
 You **must** provide at least two references
 
