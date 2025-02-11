@@ -1,15 +1,22 @@
 ---
 ---
 
+// This is Charles' default dark reveal theme.
+
 // fonts and typography
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
 
-// @import "./variables.scss";
+/* SCSS HEX */
+$charcoal: #264653ff;
+$persian-green: #2a9d8fff;
+$saffron: #e9c46aff;
+$sandy-brown: #f4a261ff;
+$burnt-sienna: #e76f51ff;
+
 $text-color: #fafafa;
-$background-color: #333;
-$anu-blue: #80a2cc;
-$highlight-color: #956937;
-$link-color: $highlight-color;
+$background-color: $charcoal;
+$highlight-color: $sandy-brown;
+$link-color: $burnt-sienna;
 $text-grey: #777;
 
 // Box colours
