@@ -227,7 +227,6 @@ These values are often called "CD quality" audio as they were specified for the 
 
 {% include slides/background-image.html image="workshops/recorder-charles-martin.jpg" heading="let's go do it" %}
 
-
 time to make some Musique Concrète with soundfiles in Pd
 
 we need a sound in WAV format...
@@ -294,84 +293,35 @@ making an _oscillator_ from a soundfile
 - See `B13.sampler.overlap` in the Pd help for a better version.
 - See Dannenberg Chapter 6.2 for more.
 
-## Sampling in Genish
+## Sampling in Strudel
 
+How can we play back sounds in Strudel?
+
+```javascript
+// Load a sample (shortcut method for GitHub)
+samples({'field':'1-digital-synthesis/fieldrecording-30s.wav'},
+        'github:cpmpercussion/ComputerMusicIntro')
+// Play back from different starting points
+s("field").begin("<0 .25 .5 .75>").clip(1)
 ```
-data('./resources/audiofiles/amen.wav').then( soundData => {
-  let sliceLength = soundData.dim / 10
-  let startPoint = 6 * sliceLength
-  let speed = 0.8
-  let sliceCounter = counter( speed, 0, sliceLength )
-  let pos = add(sliceCounter, startPoint)
-  let bufferOut = peek(soundData, pos, {mode:'samples'}) 
-  play(bufferOut)
-})
+This shows just one way to [load a custom sound](https://strudel.cc/learn/samples/#loading-custom-samples) (from GitHub) and one way to play back different sections.
+
+## Granular Synthesis in Strudel
+
+It's not easy to replicate the Pd example _exactly_ in Strudel, but we can do other cool stuff...
+
+{:. style="font-size:.7em;"}
+```javascript
+samples({'field':'1-digital-synthesis/fieldrecording-30s.wav'},
+        'github:cpmpercussion/ComputerMusicIntro')
+
+note("60").slow(2)
+  .add(note("0,.63")) 
+  .s("field").begin(rand.range(0,0.9)).clip(1).speed(rand2)
+  .lpq(8).lpf(400).lpa(.2).lpenv(4)
+  .room(.5)
 ```
-
-Try this code at <http://www.charlie-roberts.com/genish/playground/>
-
-{% comment %}
-```
-data('./resources/audiofiles/amen.wav').then( soundData => {
-  sliceLength = soundData.dim / 10
-  startPoint = 6 * sliceLength
-  speed = 0.8
-  sliceCounter = counter( speed, 0, sliceLength )
-  pos = add(sliceCounter, startPoint)
-  bufferOut = peek(soundData, pos, {mode:'samples'}) 
-  play(bufferOut)
-})
-```
-
-// dirt/juno/09_juno_pad_c_minor_filter.wav
-
-def = {
-  name:'Example',
-  type:'Ugen',
-  constructor: function() {
-   const g = Gibberish.genish
-   g.data('openhat.wav').then( soundData => {
-      let sliceLength = soundData.dim / 10
-      let startPoint = 6 * sliceLength
-      let speed = 0.8
-      let sliceCounter = g.counter( speed, 0, sliceLength )
-      let pos = g.add(sliceCounter, startPoint)
-      let graph = g.peek(soundData, pos, {mode:'samples'})       
-      return graph
-   })
-  }
-}
-ExampleSynth = Make( def )
-s = ExampleSynth()
-
-s.connect()
-s.disconnect()
-{% endcomment %}
-
-
-## Sampling in Gibber
-
-```
-// create Sampler and load sound
-s = Sampler('dirt/juno/09_juno_pad_c_minor_filter.wav')
-s.start = 0.1 // set sample start position
-s.end = 0.7 // set sample end position
-s.note(0.3) // set rate and play note
-```
-
-Try this one at <https://gibber.cc/playground/>
-
-## Granular Synthesis in Gibber
-
-```
-s = Sampler('breaks.120bpm/188553__mika55__120bpm-drum-loop.wav')
-s.start = gen(0.5 + cycle(0.1) * 0.3)
-s.end = gen(0.52 + cycle(0.2) * 0.3)
-s.rate = gen( 0.5+ cycle(0.2) * 0.75)
-s.trigger.seq( 1, 1/32 )
-```
-
-Try this one at <https://gibber.cc/playground/>
+This plays notes starting at random points in `field` at random speeds with a filter envelope, reverb, and detuning to enhance the timbre.
 
 ## Checklist for the day:
 

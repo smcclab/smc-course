@@ -116,7 +116,8 @@ You could call the whole thing an "ADSR" envelope.
 
 Source: Puckette, M. [Theory and Technique of Electronic Music (2007).](http://msp.ucsd.edu/techniques.htm)
 
-## Try it:
+## Time to have a go...
+{:.activity}
 
 > Create an envelope generator with `vline~` in Pd with a sound source you have already created.
 
@@ -186,6 +187,15 @@ What's new here?
 - basic bass drum synth (AR envelope controls frequency _and_ amplitude of an `osc~`)
 
 Even better: hide drum synth in sub-patch, use graph-on-parent to hide sequencer logic _except_ for toggle boxes.
+
+## Do it!
+{:.activity}
+
+Let's try making a step sequencer together:
+
+- start with a counter that output increasing numbers triggered by a metro
+- add a `%` operator to get numbers in a specific range
+- use select and checkboxes to see the steps
 
 # Modulation
 
@@ -260,6 +270,15 @@ Note in the patch that the carrier oscillator is split up into a `phasor~` and `
 ...it boils down to the same effect.
 
 _PM_ implementation works better in a multiple-operator context, e.g., Yamaha DX7 and Korg Volca FM have 6-oscillators that can be interconnected in different ways (why?)
+
+## What does this sound like?
+{:.questions}
+
+These FM synths make some _strange sounds_.
+
+How could you use them in a computer music diary or performance?
+
+What parameters can be manipulated, how, and what would the outcome be?
 
 
 {% include slides/background-image.html image="lectures/yeh-che-wei-pw8i1n7Jt20-unsplash.jpg" heading="Effects" %}
@@ -365,7 +384,8 @@ float:right;"}
 2. Add filters to remove lots of sound
 3. Profit!
 
-## Exercise:
+## Do it!
+{:.activity}
 
 Time to add some **effects** to your synthesiser. Here are some options:
 
@@ -377,3 +397,14 @@ Time to add some **effects** to your synthesiser. Here are some options:
 
 - create _multiple_ effects in a signal chain and use GUI objects to control how much of each one is present in the output sound.
 
+## Recap
+{:.questions}
+
+Today we looked at:
+
+- Shaping notes and envelopes
+- Making a step sequencer
+- Modulation and (basic) FM synthesis
+- Effects: Delay, Reverb, Distortion, Compression, Filters
+
+Who has a question?

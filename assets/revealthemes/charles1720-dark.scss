@@ -16,6 +16,7 @@ $burnt-sienna: #e76f51ff;
 $text-color: #fafafa;
 $background-color: $charcoal;
 $activity-background: $persian-green;
+$questions-background: $burnt-sienna;
 $highlight-color: $sandy-brown;
 $link-color: $burnt-sienna;
 $text-grey: #777;
@@ -68,6 +69,13 @@ $extensionColour: #9b59b6;
 	.activity {
 		h2 {
 			background-color: $activity-background;
+			padding: 0.2em 0.4em;
+			border: none;
+		}
+	}
+	.questions {
+		h2 {
+			background-color: $questions-background;
 			padding: 0.2em 0.4em;
 			border: none;
 		}
