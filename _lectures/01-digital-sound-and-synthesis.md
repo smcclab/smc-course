@@ -134,46 +134,53 @@ Objects with a `~` in the name have audio inputs or outputs.
 
 ## Do it in code...
 
-Ok, let's go to [gibber.cc/playground](https://gibber.cc/playground) and try the same thing:
+Ok, let's go to <https://strudel.cc> and try the same thing:
 
-{:. style="font-size:.8em;"}
-
-```
-def = {
-  name:'Example',
-  type:'Ugen',
-  constructor: function() {
-    const g = Gibberish.genish
-    const graph = g.mul(
-      g.cycle( 220 ),
-      0.25)
-    return graph
-  }
-}
-ExampleSynth = Make( def )
-s = ExampleSynth()
-
-s.connect()
-s.disconnect()
+```javascript
+freq(220).sound("sine").gain("1");
 ```
 
-## Why is this more complicated?
+## Too easy! What's really going on?
 
-"Gibber" is actually the top-level interactive environment / web application.
+{:. style="font-size:.7em;"}
+```javascript
+registerSound(
+  'charlessine',
+  (time, value, onended) => {
+    let { freq } = value;
+    const ctx = getAudioContext();
+    const o = new OscillatorNode(ctx, { type: 'sine', frequency: Number(freq) });
+    o.start(time);
+    const g = new GainNode(ctx, { gain: 0.3 });
+    const node = o.connect(g);
+    const stop = (time) => o.stop(time);
+    o.addEventListener('ended', () => {
+      o.disconnect();
+      g.disconnect();
+      onended();
+    });
+    return { node, stop };
+  },
+  { type: 'synth' },
+);
+// play it!
+freq(220, 440).s('charlessine');
+```
 
-There are layers below it (different JavaScript libraries) for managing synth definitions and signal processing.
+## Why look at complicated things?
 
-- [Gibberish.js](http://www.charlie-roberts.com/gibberish/): synthesis definitions and scheduling (>)
+Strudel is a high-level interactive environment / web application that lets you make music by coding _live_.
 
-- [Genish.js](http://www.charlie-roberts.com/genish/): signal processing definitions.
+There are layers below it that you can program if you want to! Its JavaScript all the way down.
 
-Most of the code on the previous slides was to punch through the layers to get to underlying `genish` ugens like `cycle`.
+The _actual_ code that makes the sound is a [Web Audio API `OscillatorNode`](https://developer.mozilla.org/en-US/docs/Web/API/OscillatorNode) with type `sine`.
 
-The important bit is: `g.mul(g.cycle( 220 ), 0.25)`
+- [Strudel Sound Docs](https://strudel.cc/technical-manual/sounds/)
+- [Strudel Source](https://github.com/tidalcycles/strudel)
 
 ## Try it...
 
-1. go to <https://gibber.cc/playground>
+1. go to <https://strudel.cc>
 2. clear the sample code
 3. type in the example synth 
 4. select all the text and use the `Ctrl` + `Enter` key combination to run it.
