@@ -171,6 +171,9 @@ $extensionColour: #9b59b6;
             display: table;
             padding: 0.2em 0.4em;
         }
+				// header {
+				// 	padding: 0.2em 0.4em;
+				// }
     }
 
     &[data-background-image] {
@@ -200,7 +203,7 @@ $extensionColour: #9b59b6;
 			h1,p {
 				border: none;
 				margin: 0;
-				padding: 0 0 0.5rem 0;
+				padding: 0.2em 0.4em;
 			}
 			border-bottom-color: $highlight-color;
 			border-bottom-style: solid;
