@@ -15,6 +15,7 @@ $burnt-sienna: #e76f51ff;
 
 $text-color: #fafafa;
 $background-color: $charcoal;
+$activity-background: $persian-green;
 $highlight-color: $sandy-brown;
 $link-color: $burnt-sienna;
 $text-grey: #777;
@@ -63,6 +64,12 @@ $extensionColour: #9b59b6;
 	}
 	.extension-box {
 		@include lab-content-box($extensionColour);
+	}
+	.activity {
+		h2 {
+			background-color: $activity-background;
+			border: none;
+		}
 	}
 }
 
