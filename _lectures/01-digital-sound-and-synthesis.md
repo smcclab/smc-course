@@ -91,7 +91,8 @@ Start using it at [strudel.cc](https://strudel.cc).
 
 {% include slides/background-image.html image="photos/2022-lh2.jpg" heading="coding to make sound" %}
 
-## Let's go do it.
+## Do it!
+{:.activity}
 
 Let's make a Pd patch. I'll use the "Put" menu to create an object and type in the object I want: `dac~`
 
@@ -126,15 +127,16 @@ combinations...**
 
 Objects with a `~` in the name have audio inputs or outputs.
 
-## Try it...
+## Do it!
+{:.activity}
 
 1. install Pure Data (Vanilla)
 2. recreate the sine tone patch
 3. try changing volume with a `*` and a vertical slider
 
-## Do it in code...
+## What about in code?
 
-Ok, let's go to <https://strudel.cc> and try the same thing:
+Ok, let's go to <https://strudel.cc> and try the same thing in a live coding language.
 
 ```javascript
 freq(220).sound("sine").gain("1");
@@ -178,7 +180,8 @@ The _actual_ code that makes the sound is a [Web Audio API `OscillatorNode`](htt
 - [Strudel Sound Docs](https://strudel.cc/technical-manual/sounds/)
 - [Strudel Source](https://github.com/tidalcycles/strudel)
 
-## Try it...
+## Do it!
+{:.activity}
 
 1. go to <https://strudel.cc>
 2. clear the sample code
@@ -270,7 +273,7 @@ To obtain frequency domain we use a technique called Fourier analysis (more on t
 
 # Waveforms
 
-![]({% link assets/lectures/pd-waveforms.png %}){: style="width:80%;"}
+![]({% link assets/lectures/pd-waveforms.png %}){: style="width:65%;"}
 
 Synthesisers often have different "waveforms" or wave shapes that can provide different timbres. Here are some classics. The "harshness" of these reflects more harmonic overtones.
 
@@ -288,7 +291,8 @@ Synthesisers often have different "waveforms" or wave shapes that can provide di
 
 - the second input of `phasor~` controls _phase_ (what does this do?)
 
-## Exercise:
+## Do it!
+{:.activity}
 
 Make an additive synth with a couple of `osc~` objects. Try different
 "multipliers" on the frequency to create interesting sounds!
