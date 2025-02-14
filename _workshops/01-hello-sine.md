@@ -4,7 +4,7 @@ tagline: Your first beeps and boops
 show_toc: true
 image: assets/workshops/doug-baney-daADC54moaU-unsplash.jpg  
 image_alt: Photo by Doug Baney on Unsplash 
-template_repo: https://gitlab.cecs.anu.edu.au/laptop-ensemble/2023/SMC-2023-submissions
+template_repo: https://gitlab.cecs.anu.edu.au/comp4350/2025/comp4350-2025-portfolio-1
 ---
 
 {:.warn-box}
@@ -27,13 +27,12 @@ The main purpose of the first workshop is to get software for the class up and r
 Here's what you need to do:
 
 1. make a noise with [Pd]({% link _resources/02-tools.md %}#pure-data)
-2. make a screen recording (with sound) with [OBS (link)]({% link _resources/02-tools.md %}#screen-recording-software)
+2. make a `.mkv` screen recording (with sound) with [OBS (link)]({% link _resources/02-tools.md %}#screen-recording-software)
 3. install [Visual Studio Code]({% link _resources/02-tools.md %}#vscode)
 4. install [git]({% link _resources/02-tools.md %}#git)
-5. fork and clone the [workshop repository]({{ page.template_repo }})
-6. make sure you can access the course Team, make a post introducing yourself in the channel for your workshop.
-7. post about any issues you might have had installing software in the `techsupport` channel on the course Team.
-8. start making some ensemble music.
+5. fork and clone the [portfolio 1 repository]({{ page.template_repo }})
+6. make sure you can access the course Forum
+7. start making some ensemble music.
 
 Your tutors will help you install the above software if you haven't tried it already and make the OBS recording. 
 

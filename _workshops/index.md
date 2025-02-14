@@ -10,14 +10,6 @@ show_toc: true
 {:.info-box}
 SMC workshop times are available on [ANU MyTimetable](https://www.anu.edu.au/students/program-administration/timetabling/student-access-and-support-for-mytimetable). These workshops are on-campus only. Please sign-up for a workshop as soon as possible.
 
-{% comment %}
-| Day | Time  | Location   | Tutors                           |
-|-----|-------|------------|----------------------------------|
-| Mon | 12-14 | Birch 1.09 | Madelyn Fardell, Rachel Schroder |
-| Tue | 12-14 | Birch 1.33 | Sandy Ma, Mingrui Gao            |
-| Thu | 11-13 | Ian Ross 107 | Xinran Yuan, Madelyn Fardell     |
-{% endcomment %}
-
 The weekly workshop sessions are the **most important learning activity** in SMC.
 If you're enrolled in the class you must attend (in person) every week.
 
@@ -46,7 +38,7 @@ items. Plan to not miss a single one.
 
 ## Workshop Timeline 
 
-The timeline for each 2-hour workshop is:
+Each workshop will include 1.5 hours of teaching and 0.5 hours of individual consultation time.
 
 |  time | activity                                   |
 | ----- | ------------------------------------------ |
@@ -60,6 +52,8 @@ The timeline for each 2-hour workshop is:
 
 Time is precious and we don't want to waste yours so we will stick to this
 timeline as much as possible.
+
+In the consultation time you can feel free to talk to the tutor about your work, keep working in the classroom with your ensemble, or leave the classroom if you want.
 
 ## Content {#workshop-content}
 
