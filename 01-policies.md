@@ -62,7 +62,7 @@ during your time as an ANU student, in particular students are expected to:
 This course is designed for in-person delivery only due to the interactive
 nature of lectures and collaborative workshops. Remote participation is not
 supported in this course. Students are expected to have **full attendence** at all
-learning activities (lectures, workshops, concerts). 
+learning activities (lectures, workshops, concerts).
 
 If you have any reason that you cannot attend a certain activity, you must
 [communicate](#communication) this with your tutor well in advance. If you cannot attend campus
