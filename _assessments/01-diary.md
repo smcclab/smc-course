@@ -61,7 +61,7 @@ Please follow the above instructions about file names carefully! Your video need
 
 You will need to record a video every week and most of them can be a simple screen recording. In this class we use [OBS]({% link _resources/02-tools.md %}#screen-recording-software) to record our screens for the computer music diary which works well in macOS, Windows, and Linux, we do not support use of any other screen recording software.
 
-![Using OBS to record a composition in Pd](obs-screenrecording.png)
+![Using OBS to record a composition in Pd]({% link assets/obs-screenrecording.png %}) 
 
 You **must** deliver your diary videos as a 1920x1080 `.mkv` file'. Other file types, such as `mp4`, `mov`, `wmv`, `avi`, `webm`, and literally anything else is not acceptable. Just `mkv`.
 
