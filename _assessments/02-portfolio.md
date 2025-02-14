@@ -7,7 +7,7 @@ permalink: /assessments/portfolio/
 show_toc: true
 template_repo_1: https://gitlab.cecs.anu.edu.au/comp4350/2025/comp4350-2025-portfolio-1
 template_repo_2: https://gitlab.cecs.anu.edu.au/comp4350/2025/comp4350-2025-portfolio-2
-hidden: true
+hidden: false
 ---
 
 {:.info-box}

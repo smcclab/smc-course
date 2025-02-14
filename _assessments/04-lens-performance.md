@@ -6,7 +6,7 @@ show_toc: true
 image: assets/photos/2022-lh3.jpg
 image_alt: Photo by Charles Martin
 template_repo: https://gitlab.cecs.anu.edu.au/comp4350/2025/comp4350-2025-lens-performance
-hidden: true
+hidden: false
 ---
 
 ## Outline
