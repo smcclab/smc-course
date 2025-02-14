@@ -14,8 +14,7 @@ hidden: false
 
 - **Due date:** 09:00 Monday in weeks 2--6, 8--10 (09:00 Tuesday if Monday is a Public Holiday)
 - **Mark weighting:** 0% but required for portfolio
-- **Submission:** submit your videos & portfolio submissions according to the
-  instructions below
+- **Submission:** submit your videos and reflections on GitLab
 - **Policies:** late submissions not accepted without an extension.
 - **GitLab Template Repos:** [weeks 1--5]({{ page.template_repo_1 }}) and [weeks 6--10]({{ page.template_repo_2 }})
 
@@ -25,7 +24,7 @@ Your computer music diary is where you will learn and try out core sound and mus
 
 Each week **before your workshop** you will read through the workshop material, create a short piece of computer music and write a short reflection.
 
-The due date is set to 09:00 on the morning of your workshop. In your workshop session we will watch the videos in together together to discuss the ideas you have explored.
+The due date is set to 09:00 every Monday (Tuesday if Monday is a public holiday). In your workshop session we will watch the videos in together together to discuss the ideas you have explored.
 
 You can find the specific pre-workshop instructions on each workshop page under the heading "Solo Diary" or "Group Diary".
 
@@ -39,48 +38,61 @@ Your computer music diary is the _main task_ you need to complete each week as p
 Each week's submission must include:
 
 - a 60 second video of a computer music piece exploring the week's topic, which
-  - has the filename `uid-week-N.[mp4,mov,mkv]`, e.g., `u1234567-week-3.mp4`
-  - has been uploaded to the correct week folder in your portfolio GitLab repository.
   - has sound (obviously)
   - uses one of the [computer music software environments we're covering in this course]({% link _resources/02-tools.md %}#software)
+  - has the filename `week-NN.mkv`, e.g., `week-03.mkv`
+  - has been pushed to the correct week folder in your portfolio GitLab repository, e.g., `week-03/week-03.mkv`
 
 - a reflection on how your work responds to the weekly provocation which
   - is a [markdown](https://www.markdownguide.org) file
   - is a maximum of 200 words and minimum of 100 words 
-  - has the filename `week-N-reflection.md`)
+  - has the filename `week-NN-reflection.md` and is in the correct week folder
   - includes a screenshot or a code snippet of the "main" thing you worked on this week
-  - has been uploaded to your fork of the SMC repo in the correct folder
   - has been pushed to GitLab
 
 - other files (patches, source code, etc) used in your computer music piece
-  - in a subfolder called `materials` in the correct folder
+  - in a subfolder called `materials` in the correct week folder
   - pushed to GitLab
 
-
 {:.info-box}
-Please follow the above instructions about file names carefully! Your video needs to have that exact name format to be picked up by our systems and played back in class.
+Please follow the above instructions about file names carefully! Your video needs to have that exact name format to be picked up by our systems and played back in class. The GitLab repositories have CI jobs to help check that you have all the file names correct.
+
+### Recording a video {#video-recording}
+
+You will need to record a video every week and most of them can be a simple screen recording. In this class we use [OBS]({% link _resources/02-tools.md %}#screen-recording-software) to record our screens for the computer music diary which works well in macOS, Windows, and Linux, we do not support use of any other screen recording software.
+
+![Using OBS to record a composition in Pd](obs-screenrecording.png)
+
+You **must** deliver your diary videos as a 1920x1080 `.mkv` file'. Other file types, such as `mp4`, `mov`, `wmv`, `avi`, `webm`, and literally anything else is not acceptable. Just `mkv`.
+
+Thankfully, `mkv` is the default recording format for OBS. So we won't have any trouble if you _also_ use OBS.
+
+Here's what to do in OBS to get set up:
+
+1. In Settings -> Output, in the "Recording" area, make sure the "Recording Format" is set to "Matroska Video (.mkv)"
+2. In Settings -> Video, make sure the "Output (Scaled) Resolution" is set to 1920x1080.
+3. In the main interface, in the "Sources" pane, press the "+" symbol and add a Screen Capture source.
+4. Drag the screen area around and scale it until the bit of the screen you want to record is in the output frame.
+5. Verify that when you make sound in your computer music software, the audio meters for your Screen Capture source move around
+6. Hit "Start Recording" and record a video! OBS even has a timer on the bottom status bar so you know how long your recording is! Press "Stop Recording" when you are done!
+
+That's not so hard!
 
 ### Example GitLab Upload {#gitlab}
 
 Can upload your videos, reflections, and materials to GitLab directly through the website or from a local copy of your git repository.
 
-If you want to upload and edit files directly from [the website](https://gitlab.cecs.anu.edu.au), here's an example with  step-by-step instructions.
+If you want to upload and edit files directly from [the website](https://gitlab.cecs.anu.edu.au), here's an example with step-by-step instructions.
 
 ![An example of how to upload a file into the GitLab interface]({% link assets/gitlab-example-upload.png %})
 
 1. record your video file.
-
-2. change the name of your recorded file to `week-NN.[mkv,mp4,mov]`, e.g., `week-03.mkv` (be careful to get the filename exactly correct)
-
+2. change the name of your recorded file to `week-NN.mkv`, e.g., `week-03.mkv` (be careful to get the filename exactly correct)
 3. open _your fork_ of the correct gitlab repo, and click on the correct week folder, e.g., `week-03`.
-
 4. click the "+" at the top
-
 5. click "Upload file".
-
 7. drag your video file in there to upload it.
-
-8. verify that your video is uploaded correctly (check CI Jobs under Build/Pipelines)
+8. verify that your video is uploaded correctly (check Pipelines under Build and click on each stage to check which jobs have passed)
 
 Please follow these steps carefully as we need your video to be in the right place so that we can retrieve it for the workshop and marking.
 
@@ -102,16 +114,14 @@ As an example, for week 2 your folder structure should look something like this:
 ```
 
 This might seem complicated, but we've created (blank) template files for you in
-the GitLab repo---you just need to modify them.
+the GitLab repo, you just need to modify them and upload your video.
 
 ### Extra Notes for Group Submissions {#group-diary}
 
 Two of your diary entries will be completed with _your_ ensemble (assignment happens in the week 4 workshop). For these diaries the process is slightly different:
 
 1. your group needs to create _a single video_ (e.g., `week-05.mkv`). The group video must show all group members working together.
-
-2. each member of the group uploads the video to their individual gitlab repository.
-
+2. each member of the group uploads the video to their individual GitLab repository.
 3. You upload an individual reflection on the group diary creation experience in the same manner as other weeks. Make sure you refer to how collaboration assisted with your diary creation.
 
 You can create your group video in any way you choose as long as it shows all the contributions of individual people (their screens) and we can hear each individual performer in the video. Here's some examples:
