@@ -22,7 +22,7 @@ hidden: false
 ## Description
 
 The LENS (Laptop Ensemble) performance is the major project for this course.
-You will create a computer music system that can be performed live by a group
+You will individually create a computer music system that can be performed live by a group
 of students at a live concert. This could take the form of a new computer music
 instrument or composition that a group of performers can control.
 
@@ -31,11 +31,11 @@ music computing, have high technical quality as a coherent performance, and
 demonstrate a high level of expression and collaboration by the performers. 
 
 In order to create your LENS Performance, you will be assigned to a laptop
-ensemble during the semester  and you must involve all members of the ensemble
+ensemble during the semester and you must involve all members of the ensemble
 in your performance.
 
-You will also submit all of your performance materials (code) and a readme PDF
-explaining how your performance works after your concert.
+You will also submit all of your performance materials (code) and a readme document
+explaining how your performance works.
 
 ## Specification
 
@@ -69,7 +69,7 @@ to put on the YouTube channel.
 You will perform a concert with the members of your group. Each group member must present their own work and be prepared to participate in everybody else's piece.
 
 {:.warn-box}
-**Computer Music Languages studied this semester** are: Pure Data (Vanilla) and Strudel. Your performance is expected to work in Pd-vanilla and `strudel.cc`. If extensions or libraries are required, these **must** be documented in your performance materials.
+**Computer Music Languages studied this semester** are: Pure Data (Vanilla) and Strudel. Your performance is expected to work in Pd-vanilla, `strudel.cc` or Flok in Strudel mode. If extensions or libraries are required, these **must** be documented in your performance materials.
 
 ### Performance materials
 
@@ -92,7 +92,7 @@ Please use good judgement about the size of media files you upload to GitLab. It
 ### Performance Dates and Times
 
 See the practical information [below]({% link _assessments/04-lens-performance.md %}/#practical-matters).
-Your performance will be a public event! Feel free to advertise it, create a poster, and invite your friends.
+Your performance will be a public event! Feel free to invite your friends.
 
 ### Technical Setup
 

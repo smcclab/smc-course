@@ -41,7 +41,7 @@ presentation.
 Your submission:
 
 - must be a video file with resolution no larger than 1920x1080 pixels.
-- must be a screencast from your computer showing the SMC software you have created in use.
+- must be a screencast (screen recording) from your computer showing the SMC software you have created in use.
 - must be 180s-210s in length (3-3.5 minutes).
 - must have _excellent_ sound quality.
 - must be uploaded to **GitLab** by the due date.
@@ -52,6 +52,7 @@ You should **not**:
 - Use external hardware controllers/sequencers/sound sources (apart from your computer keyboard and mouse) to control your piece.
 - Mix multiple recordings or create layers in video editing software.
 - Upload a 10 minute recording; you only get 3.5 minutes maximum.
+- Perform music created by others (e.g., covers of video game sound tracks) in your work
 
 ## Submission process {#submission-process}
 
@@ -63,17 +64,18 @@ You should **not**:
 
 ## Creative notes {#notes}
 
-**Don't over think this one.** You have created short computer music pieces every week for your diary and in every workshop class. This should be a _natural_ progression from what you have been creating. This should not be a super stressful completely new project starting from scratch. In particular, you don't have to suddenly become an expert note-based music composer if you don't have a strong background in music theory. This probably should be more like an explorative improvisation showing off your computer music patches/code.
+**Don't over think this one.** You have created short computer music pieces every week for your diary and in every workshop class. This should be a _natural_ progression from what you have been creating. This should not be a super stressful completely new project starting from scratch. In particular, you don't have to suddenly become an expert note-based music if you don't have a strong background in music theory. This probably should be more like an explorative improvisation showing off your computer music patches/code.
 
 Here's some tips:
 
 - Start with the code and patches you have created so far in the course and choose elements that you like and think work together, try making some music with these elements together.
 - What techniques did you hear about but haven't had time to try. Can you use these to make your code/patches more sophisticated?
-- Think about how you can extend these elements to make them something that is personal and customised. This is a good way to show your artistic as well as technical growth.
+- Think about how you can extend these elements to make them something that is personal. This is a good way to show your artistic as well as technical growth.
 - Stop playing and look at your screen. Will we understand how your system works just by watching your video? How can you make it communicate more clearly?
-- Watch your video: does it show your best work? If can't see it or hear it, you won't get marks for it.
+- Watch your video: does it show your best work? If we can't see it or hear it, you won't get marks for it.
 - Read the rubric below to see what we are looking for in marking.
 - Be very careful about referencing external libraries or objects in your performance. Using lots of external libraries is not likely to help demonstrate sophisticated SMC knowledge. Not referencing code that you didn't create is a breach of [Academic Integrity]({% link 01-policies.md %}#academic-integrity).
+- Don't try to play covers or arrangements of pop or video game music here, that is unlikely to show sophistication of SMC concepts.
 
 You will get clear feedback from this assessment so it's a good chance to try out ideas that you might like to use in the final performance.
 
