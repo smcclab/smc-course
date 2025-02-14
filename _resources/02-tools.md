@@ -112,18 +112,14 @@ For this class we will also explore [Flok](https://flok.cc), a system for collab
 
 ### OBS {#screen-recording-software}
 
-Recording videos of your computer screen (with audio) is a crucial part of this course, you'll be doing
-it every week. 
-
 We use [OBS](https://obsproject.com) (free, macOS/Windows/Linux) to record
-your screen in this course. This is the absolute best way to record your screen
-and include audio. It works across all macOS, Windows, and Linux.
-
-Here's some helpful links for OBS:
+your screen in this course. Here's some helpful links for OBS:
 
 - [Record Your Computer Screen with OBS (Windows 11)](https://youtu.be/oCpRIH0k8NM)
 - [How to Record Screen With Desktop Audio on Mac Using OBS - macOS Ventura or Newer (2022)](https://youtu.be/WIpqoK6zYlQ)
 - [Set Up OBS to Record Computer Audio and Microphone - Ubuntu 20.04.3](https://youtu.be/ZfPS9XPZ2Vw)
+
+Make sure that you configure OBS to record video in 1920x1080 resolution and `.mkv` file format.
 
 It's a good idea to set up OBS and test a screen recording with computer audio before the course starts so that you know how to do it.
 
