@@ -116,7 +116,7 @@ Here's a few tips to make a better looking and more readable portfolio:
 
 - We primarily mark the PDF document of your portfolio as submitted. 
 - To understand the context of your comments, we may review the video of your
-  diary entries, and code/patches uploaded into gitlab (make sure they exist).
+  diary entries, and code/patches uploaded into GitLab.
 
 The marking rubric for this task is the same for COMP4350 and COMP8350 (see [the links to programs and courses]({% link 01-policies.md %})).
 
@@ -179,7 +179,7 @@ You should see the `pdf` file for your portfolio, click it's name to download it
 
 ![]({% link assets/resources/gitlab-portfolio/portfolio-download-4.png %})
 
-You did it! Now check the PDF carefully for errors or issues and then update your GitLab repository as necessary. Here's [an example]({% link assets/resources/gitlab-portfolio/SMC-2023-submissions-u4110680-portfolio-1.pdf %}) portfolio 1 showing how it _might_ look.
+You did it! Now check the PDF carefully for errors or issues and then update your GitLab repository as necessary. Here's [an example](https://gitlab.cecs.anu.edu.au/u4110680/comp4350-2025-portfolio-1/-/jobs/6480020/artifacts/file/comp4350-2025-portfolio-1-u4110680-portfolio-1.pdf) portfolio 1 showing how it _might_ look.
 
 ### Images not working in portfolio {#images}
 
@@ -189,7 +189,7 @@ For images to work in your portfolio, check the following:
 2. You referred to your images in your reflections/portfolio just by their filename (no folders/path), e.g., `![my great work in week 2](week-2-patch.png)`
 3. Your images are in jpg or png format and have file extension `.jpg`, `.png`, `.jpeg` in lower case letters (capital letters like `image.JPG` won't work)
 
-If in doubt, look at how it is done in the sample portfolio repo: <https://gitlab.cecs.anu.edu.au/u4110680/SMC-2023-submissions>
+If in doubt, look at how it is done in the sample portfolio repo: <https://gitlab.cecs.anu.edu.au/u4110680/comp4350-2025-portfolio-1>
 
 ### Images are showing up in different locations {#image-order}
 
