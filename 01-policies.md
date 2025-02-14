@@ -23,8 +23,8 @@ The official course outline can be found on programs and courses.
 
 The official class summary can be found on programs and courses. These official documents set out the content and assessment expectations for the course.
 
-- [COMP4350 Sound and Music Computing (Semester 1, 2023)](https://programsandcourses.anu.edu.au/course/COMP4350/First%20Semester/4474)
-- [COMP8350 Sound and Music Computing (Semester 1, 2023)](https://programsandcourses.anu.edu.au/course/COMP8350/First%20Semester/4470)
+- [COMP4350 Sound and Music Computing (Semester 1, 2025)](https://programsandcourses.anu.edu.au/course/COMP4350/First%20Semester/3842)
+- [COMP8350 Sound and Music Computing (Semester 1, 2025)](https://programsandcourses.anu.edu.au/course/COMP8350/First%20Semester/3819)
 
 ## Code of conduct {#code-of-conduct}
 
