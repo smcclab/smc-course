@@ -39,6 +39,19 @@ computer musician, percussionist
 
 [SMCCLAB: Sound, Music, and Creative Computing Lab](https://smcclab.github.io)
 
+## Tutors
+
+- **Yichen Wang**, PhD Researcher, ANU School of Computing ([homepage](https://yichenwangs.github.io))
+
+- **Sandy Ma**, PhD Researcher, ANU School of Computing ([homepage](https://snud.me))
+
+- **Ethan Teber-Rossi**, Final year ANU BSEng Student
+
+- **Minsik Choi**, PhD Researcher, ANU School of Computing ([homepage](https://yorkcla.github.io))
+
+Members of the [ANU Sound, Music and Creative Computing Lab](https://smcclab.github.io)
+
+{% comment %}
 {% include slides/background-image.html image="lectures/welcome/yichen-wang.jpg" heading="Yichen Wang" %}
 
 PhD researcher, ANU School of Computing
@@ -46,6 +59,8 @@ PhD researcher, ANU School of Computing
 AR musician, photographer
 
 [homepage](https://yichenwangs.github.io)
+{% endcomment %}
+
 
 {% include slides/impact.html %}
 
