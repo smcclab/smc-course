@@ -30,21 +30,21 @@ GIT
       nokogiri (= 1.15.1)
 
 GIT
-  remote: git@gitlab.anu.edu.au:jekyll-anu/gems/jekyll-revealify-plugin.git
-  revision: 808c4a4846b03f7d27ee9a7873b5594f2c42f734
-  tag: v2.1.0.dark-theme
-  specs:
-    jekyll-revealify-plugin (2.1.0)
-      jekyll
-      nokogiri
-
-GIT
   remote: git@gitlab.anu.edu.au:jekyll-anu/gems/jekyll-theme-anu.git
   revision: a279d60dfbe6b1d98658ebaa0b1fc4390ab39a49
   tag: v2.4.34
   specs:
     jekyll-theme-anu (2.4.34)
       jekyll
+
+GIT
+  remote: https://gitlab.anu.edu.au/u4110680/jekyll-revealify-plugin.git
+  revision: 808c4a4846b03f7d27ee9a7873b5594f2c42f734
+  ref: 808c4a48
+  specs:
+    jekyll-revealify-plugin (2.1.0)
+      jekyll
+      nokogiri
 
 GEM
   remote: https://rubygems.org/
