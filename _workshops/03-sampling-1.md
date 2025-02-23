@@ -7,7 +7,7 @@ image_alt: Photo by Charles Martin
 ---
 
 {:.warn-box}
-**Solo Diary**: Create a piece using sampled sounds which say something about _you_.
+**Solo Diary**: Create a piece using one or more sampled sounds which say something about _you_.
 
 If [synthesis]({% link _workshops/02-synthesis-1.md %}) is about creating sound
 from nothing, then sampling is about
@@ -29,14 +29,14 @@ recording "real"[^real] sounds and playing them back.
 
 ## Creative Notes
 
-Working with samples is really fun and has a huge range of possibilities, so
-here are a few thoughts to get you started. This was a slide deck once upon a
-time, but I think it's still useful as a bunch of subheadings on a webpage.
+Working with samples leads to many possibilities: Musique Concrete, ambient, 
+hip hop, noise, etc. 
+Here's a few ideas to help you get started.
 
 ### Why use found sounds, sampling and field recordings?
 
 - introduce new and dynamic melodic/sonic and rhythmic material
-- create a sense of space/place
+- create a sense of space or place
 - build a context (maybe nostalgia)
 - inject meaning via speech or recognisable sounds
 - intertextual references and postmodern juxtapositions
@@ -70,10 +70,9 @@ time, but I think it's still useful as a bunch of subheadings on a webpage.
 
 ### Content/copyright
 
-- in this course (and maybe even in your own practice), go for it!
+- always reference your sources in this course and any other situation.
 
-- in general, in an academic context, where there is no money flowing, use
-  whatever you want, apart from:
+- be mindful of whether your use of content is ethical and appropriate. Take care with: 
 
   1. _cultural appropriation_; is the material you're working with culturally
      sensitive? do you have the right/permission to take those sounds out of

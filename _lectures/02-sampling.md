@@ -208,7 +208,7 @@ Sampling also involves "rounding" the analogue signal to a digital number.
 Digital numbers have a concept of "precision" (how many possible values can be represented).
 
 - An 8-bit number (a byte) can only represent $2^8$ or 256 values
-- a 16-bit number can represent $2^16$ or 65536 values.
+- a 16-bit number can represent $2^{16}$ or 65536 values.
 
 The effect of rounding our samples is to introduce **noise** into the signal. 
 
