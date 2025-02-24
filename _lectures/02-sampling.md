@@ -124,7 +124,9 @@ There's three parameters we can modify in the sinusoid:
 
 We can extend the function: $h(t) = A \times sin(v \times 2\pi t + \phi)$
 
-This formulation is called a _phasor_.
+This formulation is called a _phasor_. 
+
+(a bit of a simplification, but ok for this course! for more, see [ENGN4537](https://programsandcourses.anu.edu.au/2025/course/ENGN4537))
 
 ## Changing sinusoids
 
