@@ -301,8 +301,6 @@ Make an additive synth with a couple of `osc~` objects. Try different
 
 - [Charles' ComputerMusicIntro workshop examples (Pd)](https://github.com/cpmpercussion/ComputerMusicIntro)
 
-- Dannenberg, R. B. [Introduction to Computer Music](https://wattlecourses.anu.edu.au/mod/resource/view.php?id=3403137&forceview=1): Chapters 1--2
-
-<!-- https://www.cs.cmu.edu/~music/icm-online/icm-text-rbd-2021.pdf -->
+- Dannenberg, R. B. [Introduction to Computer Music](https://amzn.asia/d/7WyxUcr): Chapters 1--2 ([online here](https://compmus.com/icm-online/text/))
 
 - Kreidler, J. [Programming Electronic Music in Pd](http://www.pd-tutorial.com): Chapters 3.2, 3.5
