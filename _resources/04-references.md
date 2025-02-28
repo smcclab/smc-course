@@ -15,7 +15,9 @@ All of these resources are freely available on the web or available free (to you
 
 These books will be used frequently in the lectures and workshops. You should get to know them.
 
-- Dannenberg, R. B. [Introduction to Computer Music (2nd Edition)](https://www.cs.cmu.edu/~music/icm-online/icm-text-rbd-2021.pdf) (2021). _available free online_
+- Dannenberg, R. B. [Introduction to Computer Music](https://wattlecourses.anu.edu.au/mod/resource/view.php?id=3403137&forceview=1)
+
+<!-- https://www.cs.cmu.edu/~music/icm-online/icm-text-rbd-2021.pdf -->
 
 - Puckette, M. [Theory and Technique of Electronic Music](http://msp.ucsd.edu/techniques.htm) (2007). _available free online_
 
