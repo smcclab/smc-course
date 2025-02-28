@@ -173,7 +173,7 @@ These equations integrate over all _t_ values (time)---so information about _tim
 
 Everything said above relates to infinitely long continuous signals, not sampled signals. We will come later to details about how to do this with time-limited digital signals.
 
-See Dannenberg Chapter 3 for reference.
+See [Dannenberg](https://compmus.com/icm-online/text/) Chapter 3 for reference.
 
 ## Sampling and the Frequency Domain
 
@@ -293,7 +293,7 @@ making an _oscillator_ from a soundfile
 - Loop a _bit_ of a soundfile over and over to make a continuous sound.
 - Note the `cos~` bit here to avoid clicks at the start and end of the looped section.
 - See `B13.sampler.overlap` in the Pd help for a better version.
-- See Dannenberg Chapter 6.2 for more.
+- See [Dannenberg](https://compmus.com/icm-online/text/) Chapter 6.2 for more.
 
 ## Sampling in Strudel
 
@@ -336,8 +336,8 @@ Have you:
 
 ## Links and References for the day:
 
-- Dannenberg Chapter 3 "Sampling Theory Introduction"
-- Dannenberg Chapter 6.2 "Granular Synthesis"
+- [Dannenberg](https://compmus.com/icm-online/text/) Chapter 3 "Sampling Theory Introduction"
+- [Dannenberg](https://compmus.com/icm-online/text/) Chapter 6.2 "Granular Synthesis"
 - Kreidler Chapter 3.4 "Sampling" (Pd examples)
 - Kreidler Chapter 3.6 "Granular Synthesis" (Pd examples)
 - [Sound on Sound Apr. 98. Synth School, Part 7: Transitional Synthesis](https://web.archive.org/web/20150606061932/http:/www.soundonsound.com/sos/apr98/articles/synthschool.html)
