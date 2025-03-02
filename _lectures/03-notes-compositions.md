@@ -77,7 +77,7 @@ Messages boxes are actually _programmable_: they can receive arguments and incor
 
 ![]({% link assets/lectures/pd-smooth-volume.png %}){:style="width:40%;float:right"}
 
-- `line`: outputs numbers as _messages_ at a (default) rate of one ever 20ms (slow!)
+- `line`: outputs numbers as _messages_ at a (default) rate of one every 20ms (slow!)
 - `line~`: outputs an audio rate signal.
 
 If you make a volume control with `line` you will have audible clicks as the volume changes 50 times per second. You need to use `line~` for smooth sounding control over audio.
@@ -96,7 +96,7 @@ You can add some extra phases:
 - _D_: decay (ramp down a **bit** just after attack)
 - _S_: sustain (don't ramp for the note duration)
 
-You could call the whole thing an "ADSR" envelope.
+We call the whole thing an "ADSR" envelope.
 
 ## `vline~`: deluxe `line~`
 
@@ -121,7 +121,7 @@ Source: Puckette, M. [Theory and Technique of Electronic Music (2007).](http://m
 
 > Create an envelope generator with `vline~` in Pd with a sound source you have already created.
 
-Make sure you know how to use get **help** about an object by right-clicking (or
+Make sure you know how to get **help** about an object by right-clicking (or
 control-click).
 
 You might want to try the `metro` object to generate a sequence of "bangs" to
@@ -287,7 +287,11 @@ We have timbre and notes, but what else can we use?
 
 Synths can sound better with a bit of _processing_ of the output sound.
 
-We can emulate an acoustic space (smooth out the sound), get the sound a bit _dirty_ with distortion/clipping, or modify the amplitude to help mix things together.
+We can:
+
+- emulate an acoustic space (smooth out the sound), 
+- get the sound a bit _dirty_ with distortion/clipping, 
+- or modify the amplitude to help mix things together.
 
 ## Delay (the audio kind)
 
