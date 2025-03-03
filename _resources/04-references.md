@@ -29,6 +29,8 @@ These books help with the Pure Data computer music environment:
 
 - Puckette, M. [Theory and Technique of Electronic Music](http://msp.ucsd.edu/techniques.htm) (2007). _available free online_
 
+- Martin, C. [Introduction to Computer Music with Pure Data](https://github.com/cpmpercussion/ComputerMusicIntro) (2014). _available free online_: <https://github.com/cpmpercussion/ComputerMusicIntro> (examples used in lectures)
+
 ## Strudel Resources:
 
 
