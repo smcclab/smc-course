@@ -11,9 +11,8 @@ image_alt: Photo by Charles Martin
 
 If [synthesis]({% link _workshops/02-synthesis-1.md %}) is about creating sound
 from nothing, then sampling is about
-recording "real"[^real] sounds and playing them back.
+recording sounds and playing them back.
 
-[^real]: the quote marks are doing a bunch of semantic heavy lifting here
 
 ## Goals for this week
 
