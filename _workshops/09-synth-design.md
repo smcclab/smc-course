@@ -9,7 +9,7 @@ image_alt: Photo by Charles Martin
 It's another group week! Get organised early so that you can find a time to work with your ensemble.
 
 {:.warn-box}
-**Group Diary**: Create a piece in Strudel with a focus on _modulation_ where each performer has a different role (**3min**).
+**Group Diary**: Create a **3-minute** piece in Strudel with a focus on _modulation_ where each performer has a different role.
 
 {:.warn-box}
 This workshop is yet-to-be-updated for 2025 where we will use [Strudel](https://strudel.cc) as the live-coding language.

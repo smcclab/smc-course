@@ -7,7 +7,7 @@ image_alt: Photo by Charles Martin
 ---
 
 {:.warn-box}
-**Solo Diary**: Create a piece using one or more sampled sounds which say something about _you_.
+**Solo Diary**: Create a piece in Pure Data (Pd) using one or more sampled sounds which say something about _you_.
 
 If [synthesis]({% link _workshops/02-synthesis-1.md %}) is about creating sound
 from nothing, then sampling is about

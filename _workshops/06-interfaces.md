@@ -7,7 +7,7 @@ image_alt: Photo by Charles Martin
 ---
 
 {:.warn-box}
-**Solo Diary**: Pick [someone else's patch/code from a previous workshop](https://gitlab.cecs.anu.edu.au/laptop-ensemble/2021/2021-av-diary-materials), put a new interface on it, and play something.
+**Solo Diary**: Pick someone else's Pure Data patch from a previous workshop, put a new interface on it, and play something.
 
 You've implicitly been building interfaces every week (every Pd patch is an
 interface, and so is even a piece of live code that you interact with during a

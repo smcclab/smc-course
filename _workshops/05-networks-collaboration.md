@@ -7,7 +7,7 @@ image_alt: Photo by Charles Martin
 ---
 
 {:.warn-box}
-**Group Diary**: Create a **3min** piece as a group where every member controls
+**Group Diary**: Create a **3min** piece  in Pure Data (Pd) as a group where every member controls
 a different aspect of the sound (note the longer duration for group diaries).
 The process for creating uploading your group diary is a **bit different**,
 look on the [computer music diary]({% link _assessments/01-diary.md
