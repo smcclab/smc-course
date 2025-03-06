@@ -7,7 +7,7 @@ image_alt: Photo by Charles Martin
 ---
 
 {:.warn-box} 
-**Solo Diary**: Sketch a minimum example of your final performance that tests the **topology**, or the connections between different performers and parts (can be all in one computer).
+**Solo Diary**: Sketch a minimum example of your final performance that tests the **topology**, or the connections between different performers and parts (can be all in one computer). You can use either Pure Data, Strudel, or both.
 
 "Topology" is the way in which a set of _things_ is connected or arranged. In
 the context of computer music, we can imagine a performance involving
