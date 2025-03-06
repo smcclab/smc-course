@@ -58,15 +58,18 @@ Your ensemble performance:
 
 - **must** involve all members of your LENS ensemble
 - **must** be created with one of the computer music languages **studied this semester**
-- **must** be 5-7 minutes in length
-- **must** be presented at a LENS performance
+- **must** be 4-5 minutes in length (i.e., 240--300 seconds)
+- **must** be presented at a LENS performance and recorded through our HDMI mixer system.
 
-We'll make a recording of the performances for archival purposes and also
-to put on the YouTube channel.
+We make recordings of all performances, including performer's screens and faces
+for grading and archival purposes. Your performance must be recorded through
+our system with all performers present and all screens visible to be graded.
 
 {:.info-box}
 
-You will perform a concert with the members of your group. Each group member must present their own work and be prepared to participate in everybody else's piece.
+You will perform a concert with the members of your group. Each group member
+must present their own work and be prepared to participate in everybody else's
+piece.
 
 {:.warn-box}
 **Computer Music Languages studied this semester** are: Pure Data (Vanilla) and Strudel. Your performance is expected to work in Pd-vanilla, `strudel.cc` or Flok in Strudel mode. If extensions or libraries are required, these **must** be documented in your performance materials.
@@ -92,7 +95,6 @@ Please use good judgement about the size of media files you upload to GitLab. It
 ### Performance Dates and Times
 
 See the practical information [below]({% link _assessments/04-lens-performance.md %}/#practical-matters).
-Your performance will be a public event! Feel free to invite your friends.
 
 ### Technical Setup
 
@@ -112,14 +114,14 @@ You are allowed to use equipment external to your laptop for the purpose of cont
 
 - You may not use any equipment that requires AC power (that is, USB-powered or battery powered equipment only).
 - You may not use any equipment that requires more than one person to carry.
-- You may not use any equipment that creates sound which is used in your performance (i.e., external synthesisers, DJ decks, samplers are not allowed).
-- Any external equipment you use must be clearly documented and listed **as a referennce** in your performance materials.
+- **You may not use any equipment that creates sound** which is used in your performance (i.e., external synthesisers, DJ decks, samplers are not allowed).
+- Any external equipment you use must be clearly documented and listed **as a reference** in your performance materials.
 
 ### External Software
 
 - You are allowed to use libraries or extensions for the computer music systems used in the course, but these should be clearly documented and listed **as a reference** in your performance materials.
 - You are allowed to use middleware that goes in between computer music software and an external or internal hardware interface (e.g., Osculator, Wekinator, MobMuPlat, Python scripts).
-- You are not allowed to use music production software such as Ableton Live, ProTools or Logic in your performance. 
+- **You are not allowed to use music production software such as Ableton Live, ProTools or Logic in your performance.** 
 - Any external libraries that you use should be used in a sophisticated, original, and independent way in order to show your attainment of the learning outcomes.
 
 {:.warn-box}
@@ -223,6 +225,11 @@ a team is a memorable and worthwhile experience.
 
 Please be your best self and act respectfully in all interactions over the next
 few weeks.
+
+If folks do not meet our expectations for behaviour in terms of the ANU Student
+Code of Conduct, they may be subject to investigation which would, at the very
+least, delay their assessment and completion of this course.
+
 
 ### Deferred Assessment
 
