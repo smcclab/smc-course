@@ -38,7 +38,7 @@ network messages might...
 - interchange parameters or settings
 - provide information to the musicians
 
-{% include slides/background-image.html image="lectures/setups/semicircle-lens22.jpg" heading="What kind of software you creating?" %}
+{% include slides/background-image.html image="lectures/setups/semicircle-lens22.jpg" heading="What kind of software are you creating?" %}
 
 
 ## Creativity Support Tools
