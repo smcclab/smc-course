@@ -293,6 +293,20 @@ You could try tethering to one phone if you don't have a spare router.
 
 UDP over WiFi loses packets! (by definition)
 
+{% include slides/background-image.html image="lectures/arm/serial-experiments-charles.jpg" heading="Who has a question?" %}
+
+If you question is "How do you live code MIDI sending in bare metal ARM assembly?" then the answer is to [watch this video](https://www.youtube.com/live/Cn4ExxkjIfY?si=qIKR_VpnZki9omKA&t=4565)
+
+{% include slides/background-video.html
+id="microbit-midi-demo"
+video="lectures/arm/midi-demo-720.mp4"
+bgcol="#000000"
+opacity="1.0"
+heading="Spoiler: Notes!"
+h2="true"
+%}
+
+
 
 {% comment %}
 

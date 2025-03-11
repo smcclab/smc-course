@@ -1,11 +1,12 @@
 <section
     {% if include.id %}id="{{ include.id }}"{% endif %}
     data-background-video="{% if include.video contains "http" %}{{include.video}}{%else%}{% link assets/{{include.video}} %}{% endif %}"
-    data-background-size="cover"
-    data-background-video-muted="true"
-    data-background-video-loop="true"
+    data-background-size="{{ include.bgsize | default: "cover" }}"
+    {% if include.muted %}data-background-video-muted="{{ include.muted }}"{% endif %}
+    data-background-video-loop="{{ include.loop | default:"true" }}"
+    data-background-oopacity="{{ include.opacity | default: "1.0" }}"
 >
   {% if include.heading %}
-  <h2>{{include.heading}}</h2>
+  {% if include.h2 %}<h2>{% else %}<h1>{% endif %}{{include.heading}}{% if include.h2 %}</h2>{% else %}</h1>{% endif %}
   {% endif %}
 </section>
