@@ -7,7 +7,7 @@ image_alt: Photo by Charles Martin
 ---
 
 {:.warn-box}
-**Solo Diary**: Pick someone else's Pure Data patch from a previous workshop, put a new interface on it, and play something.
+**Solo Diary**: Pick someone else's Pure Data patch from a previous workshop, put a new interface on it, and create a piece.
 
 You've implicitly been building interfaces every week (every Pd patch is an
 interface, and so is even a piece of live code that you interact with during a
