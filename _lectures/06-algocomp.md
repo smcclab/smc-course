@@ -236,6 +236,8 @@ It's straightforward to create objects for scales you might want to use, see the
 Here's an example with `aeolian` generating FM pad sounds.
 
 ## Go do it: make a composition with a scale
+{:.activity}
+
 
 Copy `5-Scales.pd` from the board and use it as the basis for a composition.
 
@@ -324,12 +326,6 @@ You can split random numbers with the `moses` object to achieve this.
 
 This extends to more weighted decisions if you want.
 
-## Probabalistic sequencer
-
-Try using a probability instead of a toggle on each step of a sequencer.
-
-My hardware synth and drum machine have this feature!
-
 ## Markov Process
 
 ![]({% link assets/lectures/algocomp/pd-markov-sequence.png %}){: style="width:60%; float:right" }
@@ -378,6 +374,7 @@ left" }
 {% endcomment %}
 
 ## Go do it: make an algorithmic composition
+{:.activity}
 
 Get started, you have to make something today that includes:
 
