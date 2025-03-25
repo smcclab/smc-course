@@ -27,8 +27,8 @@ with a computer-based sound artwork.
 
 This assessment will take the form of a screencast recorded as a single-take.
 This means that you should not be mixing multiple recordings or creating layers
-in video editing software. Your performance must be between 180s and 210s in
-length (3-3.5 minutes). The video must be no larger than 1920x1080 (Full HD)
+in video editing software. Your performance must be between 120s and 150s in
+length (2-2.5 minutes). The video must be no larger than 1920x1080 (Full HD)
 and sound quality must be excellent.
 
 Your work should demonstrate sophisticated application of fundamental concepts
@@ -42,25 +42,27 @@ Your submission:
 
 - must be a video file with resolution no larger than 1920x1080 pixels.
 - must be a screencast (screen recording) from your computer showing the SMC software you have created in use.
-- must be 180s-210s in length (3-3.5 minutes).
+- must be 120s-150s in length (2-2.5 minutes).
 - must have _excellent_ sound quality.
-- must be uploaded to **GitLab** by the due date.
+- must be uploaded to [your fork of the solo performance template on **GitLab**]({{ template_repo }}) as a file named `solo-performance.mkv` by the due date.
 
 You should **not**:
 
 - Use music software / programming systems that are not used in the course.
 - Use external hardware controllers/sequencers/sound sources (apart from your computer keyboard and mouse) to control your piece.
 - Mix multiple recordings or create layers in video editing software.
-- Upload a 10 minute recording; you only get 3.5 minutes maximum.
+- Upload a 10 minute recording; you only get 2.5 minutes maximum.
 - Perform music created by others (e.g., covers of video game sound tracks) in your work
 
 ## Submission process {#submission-process}
 
 1. create a performance using the programming systems studied in the course.
-2. record a screencast of yourself doing the performance with OBS (max 3.5 minutes)
+2. record a screencast of yourself doing the performance with OBS (max 2.5 minutes)
 3. check that the video is clear and sound quality is _excellent_
-4. upload it to your fork of the [solo performance template repository]({{ page.template_repo }}) in GitLab.
-5. store any and all performance materials (patches, code, sounds, etc) in your Gitlab repository including references to any external libraries or code used in your performance.
+4. give your video the name `solo-performance.mkv`
+5. upload it to your fork of the [solo performance template repository]({{ page.template_repo }}) in GitLab.
+6. store any and all performance materials (patches, code, sounds, etc) in your Gitlab repository including references to any external libraries or code used in your performance.
+7. check that the tests pass on your fork of the Gitlab solo performance repository.
 
 ## Creative notes {#notes}
 
