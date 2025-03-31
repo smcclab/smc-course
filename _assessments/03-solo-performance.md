@@ -20,8 +20,8 @@ hidden: false
 
 ## Description
 
-Create a piece of individual computer music using the SMC programming systems
-studied in the course so far. You can frame your work as an improvisation with
+Create a piece of individual computer music using the SMC programming system
+studied in the course so far (Pure Data). You can frame your work as an improvisation with
 a new computer music instrument, a computer music composition, or interaction
 with a computer-based sound artwork.
 
@@ -41,7 +41,7 @@ presentation.
 Your submission:
 
 - must be a video file with resolution no larger than 1920x1080 pixels.
-- must be a screencast (screen recording) from your computer showing the SMC software you have created in use.
+- must be a screencast (screen recording) from your computer showing the SMC software you have created in use. (Pure Data)
 - must be 120s-150s in length (2-2.5 minutes).
 - must have _excellent_ sound quality.
 - must be uploaded to [your fork of the solo performance template on **GitLab**]({{ template_repo }}) as a file named `solo-performance.mkv` by the due date.
