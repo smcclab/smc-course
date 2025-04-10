@@ -47,6 +47,8 @@ ways of controlling the synthesis infrastructure that's already there.
   [`3-new-interfaces` folder in the ComputerMusicIntro project](https://github.com/cpmpercussion/ComputerMusicIntro)
   has some cool patches for getting started with OSC, MIDI, etc.
 
+- use the Pd Manual to level up your knowledge of [subpatches](https://msp.ucsd.edu/Pd_documentation/resources/chapter2.htm#s2.8), and [advanced patch editing](https://msp.ucsd.edu/Pd_documentation/resources/chapter2.htm#s2.3)
+
 - if you've got a smartphone, there are a bunch of configurable OSC apps which
   (combined with your knowledge from last week) you can probably turn into an
   interface if you like

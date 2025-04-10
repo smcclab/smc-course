@@ -14,6 +14,7 @@ This workshop is yet-to-be-updated for 2025 where we will use [Strudel](https://
 
 ## Goals for this week
 
+
 1. revisit the basic synthesis & sampling concepts we covered in [week 2]({%
    link _workshops/02-synthesis-1.md %}) and [week 3]({% link
    _workshops/03-sampling-1.md %}), this time in Gibber
