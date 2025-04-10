@@ -10,68 +10,82 @@ image_alt: Photo by Charles Martin
 **No Diary**: No computer music diary this week.
 
 {:.warn-box}
-This workshop is yet-to-be-updated for 2025 where we will use [Strudel](https://strudel.cc) as the live-coding language.
+This workshop is the first time we will use [Strudel](https://strudel.cc) in this course. This workshop will get you up to speed on Strudel so that you're ready to make music with it for next week's diary.
 
 This week we flip the switch to making computer music with a _text_-based programming
 system. Depending on your background, this could feel freeing, confusing or a bit of both.
 
-The programmng system we will use now is called [Gibber](https://gibber.cc).
-It's a web-based programming system for live-coding music. Gibber first
+The programming system will use now is called [Strudel](https://strudel.cc).
+Strudel is a web-based programming system for live coding music. Strudel first
 [appeared in
-2012](http://www.charlie-roberts.com/pubs/Gibber_charles_roberts_icmc_2012.pdf),
-but it's still under development as the capabilities of web audio have changed
-a lot since then (in contrast, Pd, released in 1996, hasn't changed all that
-much over the last 10 years).
+2022](https://algorithmicpattern.org/2023/05/15/strudel-live-coding-patterns-on-the-web/)
+and it's under [fairly active
+development](https://github.com/tidalcycles/strudel). In contrast, Pd, released
+in 1996, hasn't changed all that much over the last 10 years.
 
-The broad idea of live-coding is to set up musical processes in a
-text-based programming system, and then edit your program over time to create a
-changing piece of music. Rather than triggering notes and sounds directly with
-a keyboard, they are likely to be triggered by an algorithm, so you'll be
-making _algorithmic music_.
+The broad idea of live-coding is to set up musical processes in a text-based
+programming system, and then edit your program over time to create a changing
+piece of music. Rather than triggering notes and sounds directly with a
+keyboard, they are likely to be triggered by an algorithm, so you'll be making
+_algorithmic music_.
 
-Music making in Gibber tends to be at a somewhat higher level than in Pd.
-Gibber comes with pre-made synths and the craft of live-coding tends to be in
+Music making in Strudel tends to be at a somewhat higher level than in Pd.
+Strudel comes with pre-made synths and the craft of live-coding tends to be in
 creating algorithms to control those synths. You can still build your own
 synths from the ground up, just like in Pd (and it's pretty interesting), but
 that's not our focus this week.
 
-In this week's workshop you will use some of Gibber's algorithmic music feature
-to create music with multiple parts. To get started on this task we suggest
-running through a [Gibber
-tutorial](https://charlesmartin.au/blog/2021/01/10/laptop-music-workshop) which
-introduces the music making concepts.
+In this week's workshop you will use some of Strudel's algorithmic music feature
+to create music with multiple parts. 
+
+To get started on this task we suggest running through the [Strudel
+Workshop](https://strudel.cc/workshop/first-sounds/) which introduces the music
+making concepts.
+
 
 ## Goals for this week 
 
-1. complete the Gibber tutorial [here](https://charlesmartin.au/blog/2021/01/10/laptop-music-workshop).
+1. complete the Strudel tutorial [here](https://strudel.cc/workshop/first-sounds/)
 
-2. see how musical concepts (pitch, velocity, duration) can be represented &
+2. see how musical concepts (pitch, loudness, duration) can be represented &
    manipulated in a textual computer music language
 
-3. create some algorithmic processes which generates music and modifies the musical concepts listed above.
+3. create algorithmic music with multiple parts (e.g., drums, bass, lead, and freaky noises) that you can manipulate in real time. Now you're a live coder!
 
 {:.info-box}
-Pd and Gibber are both great systems for musical expression but their design tends to emphasis different kinds of music. It might be better to lean into _Gibber-y_ music this week rather than to replicate what you were doing in Pd.
+Pd and Strudel are both great systems for musical expression but their design tends to emphasis different kinds of music. It might be better to lean into _Strudel-y_ music this week rather than to replicate what you were doing in Pd.
 
 ## Hints for live coding
 
-- Gibber has no concept of "saving" code, we suggest you create some text files in your laptop ensemble GitLab repository to store your work. Gibber uses the javascript programming language so you could create files like "2022-09-01-live-coding.js".
+- It's a good idea to create some text files in your portfolio 2 repository to store your work. Strudel uses the JavaScript programming language so you coudl create files like "2025-05-01-live-coding.js".
 
-- Gibber can do a lot of exciting stuff, but it's a bit experimental and the documentation is still in progress. Be gentle on it and yourself and if you can't work something out, ask on the [forum]({{ site.course_forum }}).
+- Strudel can do a lot of exciting stuff, but it's a bit experimental and some parts are not well documented. Be gentle on it and yourself and if you can't work something out, ask on the [forum]({{ site.course_forum }}).
 
-- Gibber works fine on the web (Chrome/Chromium preferred, then other modern browsers), but if you want to run it locally, you can clone the [github repository](https://github.com/gibber-cc/gibber), and use VSCode's live server. This is the preferred method for loading your own samples (next week).
+- Strudel works fine on the web (Chrome/Chromium preferred), but if you want to run it locally, you can clone the [github repository](https://github.com/tidalcycles/strudel), and follow the instructions to run a development server on your computer. 
 
-- Gibber's source code is a bit confusing. There are (at least) six important repositories:
+- Strudel's source code is probably not too hard to modify if you want to start hacking. There's some [technical documentation](https://github.com/tidalcycles/strudel/wiki/Technical-Manual) introducing the main concepts.
 
-1. The [gibber playground](https://github.com/gibber-cc/gibber): Gibber's user interface, clone this repo to run Gibber locally.
-2. [gibber.audio.lib](https://github.com/charlieroberts/gibber.audio.lib): Audio components for Gibber, most of this wraps `gibberish` (see below), but it does include the [presets](https://github.com/charlieroberts/gibber.audio.lib/tree/main/js/presets).
-3. [gibber.graphics.lib](https://github.com/charlieroberts/gibber.graphics.lib): Graphics components for Gibber.
-4. [gibber.core.lib](https://github.com/charlieroberts/gibber.core.lib): A few shared objects and function for Gibber, mostly for sequencing. `euclid`, `seq`, and `tidal` are defined here.
-5. [gibberish](https://github.com/gibber-cc/gibberish): a "fast JavaScript DSP library". If you want to know where `Synth` or `Sampler` are defined, look here (actually look in `gibberish/js/instruments`).
-6. [genish](https://github.com/charlieroberts/genish.js): this is a lower-level DSP library for doing "per-sample audio processing" (inspired by the `gen~` object from Max/MSP). To understand why this is cool, look at the [genish tutorial](http://www.charlie-roberts.com/genish/tutorial/index.html).
+{:.info-box} Strudel is actually a JavaScript port of
+[Tidal](https://tidalcycles.org/) created by Alex Mclean who popularised the
+idea of [live coding
+music](https://www.perl.com/pub/2004/08/31/livecode.html/). Tidal itself is
+written in Haskell. At this point somebody is about to start asking on the
+forum "Whyyyyyy can't we just live code in Haskell???!". Well. Tidal is
+awesome, but by using a web-based system, we get a lot of convenience and
+access to collaborative tools like [Flok](https://flok.cc/) which we will
+explore next week.
 
-Why are there six repos? Gibber is provides much higher level musical tools than Pd as well as graphics. If we provided Pd, plus Gem (Pd's usual graphical sidekick), plus 5-6 externals, plus the `ComputerMusicIntro` repo, there would be a lot of code to get across as well!
+### Strudely Links
 
+- Main [strudel.cc REPL](https://strudel.cc)
+
+- Strudel [documentation](https://strudel.cc/workshop/getting-started/)
+
+- Making new [sounds in strudel](https://strudel.cc/technical-manual/sounds/)
+
+- Strudel [source code](https://github.com/tidalcycles/strudel)
+
+- Paper: ["Strudel: Live Coding Patterns on the Web"](https://zenodo.org/records/7842142)
 
 ## Resources
 

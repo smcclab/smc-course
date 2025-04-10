@@ -14,16 +14,15 @@ This workshop is yet-to-be-updated for 2025 where we will use [Strudel](https://
 
 ## Goals for this week
 
-
 1. revisit the basic synthesis & sampling concepts we covered in [week 2]({%
    link _workshops/02-synthesis-1.md %}) and [week 3]({% link
-   _workshops/03-sampling-1.md %}), this time in Gibber
+   _workshops/03-sampling-1.md %}), this time in Strudel
 
 2. begin to learn what the different synthesis "building blocks" (oscillators,
    filters, effects, as well as new samples) _sound_ like in a musical sound
    design context
 
-3. to be able to load in and play with recorded sounds in Gibber, including
+3. to be able to load in and play with recorded sounds in Strudel, including
    going beyond just triggering pre-recorded "one-shot" samples, to explore the
    compositional possibilities of _manipulating_ pre-recorded sounds during
    playback

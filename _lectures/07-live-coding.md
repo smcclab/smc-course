@@ -1,7 +1,7 @@
 ---
 title: Live Coding
 tagline: Programming as performance
-lecturer: Yichen Wang & Dr Charles Martin
+lecturer: Dr Charles Martin
 image: assets/workshops/2022-live-coding-charles-martin.jpg
 image_alt: Photo by Charles Martin
 ---
@@ -14,7 +14,7 @@ image_alt: Photo by Charles Martin
 - Live coding history
 - Live coding present
 - The big concepts
-- Demos and Technology in Gibber
+- Demos and Technology in Strudel
 
 # What is live coding
 
@@ -29,6 +29,7 @@ image_alt: Photo by Charles Martin
 
 # Live coding present
 
+- Strudel
 - Gibber, 
 - Extempore (?), 
 - Glicol, 
@@ -51,6 +52,16 @@ What are the _technical_ turning points of live coding? How can we integrate int
 - real-time systems
 
 Live coding is the most "core CS" part of computer music (e.g., JIT in Extempore was/is cutting edge), but it's not discussed as such.
+
+# Tidal Mini-Notation
+
+Mini-Notation is a custom language for writing rhythmic patterns with few characters. All of your sequences in Strudel are expressed in Mini-Notation!
+
+```javascript
+"<g3 b3 e4 [a3,c3,e4] [b3,d3,f#4]>*2"
+```
+Mini-notation uses strings with special punctuation to represent complex looping sequences. Unlike a step sequencer, you can change the rhythm inside a sequence and make dramatic musical changes with few edits.
+
 
 # Demos and Tech
 
