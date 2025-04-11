@@ -26,7 +26,7 @@ as music, this week is the time to try out a first prototype.
 Before this week's workshop, have a think about:
 
 - **What are the components of your final gig topology?** This includes people
-  (your ensemble-mates, audience), software (Pd, Gibber, Processing, web
+  (your ensemble-mates, audience), software (Pd, Strudel, Processing, web
   things) hardware (laptops, midi controllers, hand-made sensor blankets) and the
   infrastructure required to connect them all.
 
@@ -112,7 +112,7 @@ We will provide a wireless + wired router for the final performance. You should 
 
 - if you want a line _in_ to your
   machine (e.g. a mixdown of the output of the other participants) then there
-  are ways to handle audio input in Pd/Gibber
+  are ways to handle audio input in Pd/Strudel
 
 ## Creative Notes
 
