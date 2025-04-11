@@ -67,7 +67,7 @@ Here's a few links you might not have explored yet:
 
 - It's a good time to remember that we don't put people in "boxes" in this course. Nobody is the boss in a laptop ensemble and the best performances will have big contributions from each member. Even if you think you are a beginner, we value your contribution. Beginner's mind can sometimes be an advantage for creativity.
 
-- Strudel makes it quick and easy to load up advanced synth designs like the `fm`, `FM`, and `karplusstrong` synths. Given that everybody has access to these synths, how are you going to sound "unique" in your group?
+- Strudel makes it quick and easy to load up nice synths from an extensive list. Given that everybody has access to these synths, how are you going to sound "unique" in your group?
 
 - Now that you've made a lot of computer music, look back at the examples of laptop ensemble performances from [week 1]({% link _workshops/01-hello-sine.md %}). Do these performance make more sense now?
 
