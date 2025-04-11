@@ -47,12 +47,10 @@ making concepts.
 
 1. Complete the Strudel "Workshop" [here](https://strudel.cc/workshop/first-sounds/) ("First Sounds"---"Recap") so that you understand basic sound making and patterns in Strudel.
 
-2. Complete the Strudel "Making Sound" tutorials [starting here](https://strudel.cc/learn/samples/) so that you unnderstand samples, synths, effects, MIDI and OSC use in Strudel.
+2. Understand how musical concepts (pitch, loudness, duration, timbre, texture)
+   can be represented & manipulated in a textual computer music language
 
-3. Understannd how musical concepts (pitch, loudness, duration, timbre, texture) can be
-   represented & manipulated in a textual computer music language
-
-3. Create algorithmic music with multiple parts (e.g., drums, bass, lead, and freaky noises) that you can manipulate in real time. Now you're a live coder!
+3. Create algorithmic music using the mini notation pattern language that you can manipulate in real time to develop the concepts listed above over time. Now you're a live coder!
 
 {:.info-box}
 Pd and Strudel are both great systems for musical expression but their design tends to emphasis different kinds of music. It might be better to lean into _Strudel-y_ music this week rather than to replicate what you were doing in Pd.
