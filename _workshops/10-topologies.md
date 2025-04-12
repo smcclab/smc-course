@@ -53,7 +53,7 @@ the rest of your class during the workshop slot.
 
 ### Code
 
-- most of you folks must have tried Gabber for a live collaborative music performance and know the joy and pain :)
+- most of you folks must have tried [Flok](https://flok.cc) for a live collaborative music performance and know the joy and pain :)
 
 - alternatively, manually sharing code through a chat
   window (which is displayed to the audience) can be fine (great, even!) but
