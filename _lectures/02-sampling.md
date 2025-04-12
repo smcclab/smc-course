@@ -329,10 +329,9 @@ This plays notes starting at random points in `field` at random speeds with a fi
 
 Have you:
 
-- played back your own soundfile in Pd **and** Gibber?
+- played back your own soundfile in Pd?
 - tried out `tabread4~` in Pd and understood how to control it with `line~` and `phasor~`?
 - tried out the granular synthesis patch in Pd?
-- experimented with the Sampler tutorial in Gibber?
 
 ## Links and References for the day:
 
@@ -342,4 +341,3 @@ Have you:
 - Kreidler Chapter 3.6 "Granular Synthesis" (Pd examples)
 - [Sound on Sound Apr. 98. Synth School, Part 7: Transitional Synthesis](https://web.archive.org/web/20150606061932/http:/www.soundonsound.com/sos/apr98/articles/synthschool.html)
 - [Seeing Circles, Sines, and Signals](https://jackschaedler.github.io/circles-sines-signals/index.html) - a primer on DSP (if you want to start knowing more about FT and sampled audio)
-- **Gibber Sampler tutorial**: It's in the Gibber examples dropdown or [here](https://github.com/gibber-cc/gibber/blob/main/playground/examples/sampler.js)

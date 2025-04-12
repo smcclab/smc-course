@@ -149,9 +149,9 @@ Charles uses this technique _extensively_: e.g., PhaseRings app, EMPI synth, etc
 
 This week: think about creative control, complex information, and how your ensemble will use your interfaces.
 
-## Idea Gibber Websockets:
+## Idea JavaScript Websockets:
 
-Gibber code:
+JavaScript code:
 
 ```
 const socket = new WebSocket("ws://localhost:9080")

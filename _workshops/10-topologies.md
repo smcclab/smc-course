@@ -19,7 +19,7 @@ performance. We will particularly think about what the topology of your final
 performance is, and what you might be able to do to make it more interesting.
 To experiment with this concept, you don't have to use multiple
 computers/performers in your sketch, you could just create multiple patches in
-Pd or code blocks in gibber and create a simple 1-minute musical example of how
+Pd or code blocks in Strudel and create a simple 1-minute musical example of how
 information flows between them. If you're thinking of creating visuals as well
 as music, this week is the time to try out a first prototype.
 

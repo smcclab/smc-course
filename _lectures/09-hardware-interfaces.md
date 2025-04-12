@@ -148,7 +148,7 @@ Inspired by the classic science-fiction short story “Twilight” by John W. Ca
   - What is the representation od sound and music that you are working with?
     - FM synth
     - String synth
-    - Sequence-based melody (Gibber)
+    - Sequence-based melody
 
 ## Steps in Mapping
 

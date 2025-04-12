@@ -45,20 +45,6 @@ These books help with the Pure Data computer music environment:
 
 - Paper: ["Strudel: Live Coding Patterns on the Web"](https://zenodo.org/records/7842142)
 
-## Gibber Resources:
-
-Gibber is a complicated system with a number of layers that you can experiment with. The high-level interface for normal computer music making is "gibber" which is an interactive web-based live coding system.
-
-- Main [gibber.cc playground](https://gibber.cc)
-
-Below Gibber, there are some libraries that you can experiment with separately:
-
-- [genish.js playground](http://www.charlie-roberts.com/genish/playground/index.html) (for DSP experiments)
-
-- [genish.js tutorial](http://www.charlie-roberts.com/genish/tutorial/index.html)
-
-- [Gibberish website](http://charlie-roberts.com/gibberish/)
-
 ## General Computer Music Books
 
 These are general reference and research texts on Computer Music, we won't refer to these explicitly but they can give you further context and inspiration for your SMC journey.
