@@ -10,24 +10,37 @@ image_alt: Photo by Charles Martin
 
 ## Outline
 
-- What is live coding?
-- Live coding history
-- Live coding present
-- The big concepts
-- Demos and Technology in Strudel
+This is a pivot point in the course where we re-learn computer music with a text-based programming system.
+
+All the work you have done so far will be reinforced by seeing it in a different way!
+
+It's important to remember that visual and text programming have different advantages, both are valid ways to complete the course.
+
 
 # What is live coding
 
-- [TOPLAP manifesto 2004](https://tidalcycles.org/docs/around_tidal/toplap_manifesto/)
+[Live coding](https://en.wikipedia.org/wiki/Live_coding) is any form of programming where you can modify the code at the same time as the program is running.
 
-# Live coding history
+In terms of music, the program represents an ongoing musical process, that is, it defines, schedules, and executes organised sounds.
+
+This leads to interesting program language design and implementation decisions, particularly around representations of time.
+
+## Live Coding Music
+
+![]({% link assets/workshops/2022-live-coding-charles-martin.jpg %}){: style="width:50%;float:right;"}
+
+Live coding is also a _performance idiom_: a way of creating and enjoying computer music/art by improvising with code live (rather than setting it up before and palying back a pre-prepared program.
+
+An influential group of researchers called TOPLAP wrote a [manifesto in 2004](https://toplap.org/wiki/ManifestoDraft) that suggests "code should be seen as well as heard".
+
+## Live coding history
 
 - [hacking Perl in night clubs](https://www.perl.com/pub/2004/08/31/livecode.html/) 
 - [Tidal history](https://tidalcycles.org/docs/around_tidal/tidal_history)
 - SuperCollider
 - ixi
 
-# Live coding present
+## Live coding present
 
 - Strudel
 - Gibber, 
@@ -35,6 +48,8 @@ image_alt: Photo by Charles Martin
 - Glicol, 
 - Sema (or whatever those folks are doing these days, the ones where you make your own DSL)
 - sonic pi
+
+{% comment %}
 
 # The big concepts
 
@@ -52,6 +67,8 @@ What are the _technical_ turning points of live coding? How can we integrate int
 - real-time systems
 
 Live coding is the most "core CS" part of computer music (e.g., JIT in Extempore was/is cutting edge), but it's not discussed as such.
+
+{% endcomment %}
 
 # Learning Live Coding with Strudel
 
@@ -78,7 +95,7 @@ N.B.: The dot notation `xxx().yyy()` in Strudel can be interpreted as chaining f
 
 ## What are patterns made of?
 
-Functions. 
+Tidal and Strudel attempt to create a "pure functional representation of patterns"
 
 Pure [functional reactive programming](https://en.wikipedia.org/wiki/Functional_reactive_programming).
 
@@ -234,6 +251,8 @@ n("0 1 2 3").s("bd") // "n" is generic index or pattern of numbers
 ```
 `note` and `sound` are pretty clear. `n` is not. In this eexample, `n`'s indices select different bass drum samples. We also use `n` to select scale degrees.
 
+**N.B:** `sound` and `s` are synonyms. `note` and `n` are different!
+
 
 # Scales and Notes
 
@@ -247,19 +266,127 @@ The argument for `scale` is in the form `rootnote:scaletype` and the scale types
 
 For me, writing with **scale degrees** is a much easier way to conceptualise live-coding improvisations.
 
+## Do it: Write a pattern
+{:.activity}
+
+Using some of the examples on the previous slides, create a pattern with MIDI notes, note names, or scale degrees.
+
+
 # Choosing different sounds
 
+Most sounds in Strudel are accessible by changing the argument of `sound` or `s` (synonyms), e.g.:
+```javascript
+note("[c e g e]*4").s("kawai") // nice piano samples
+note("[c e g e]*4").s("triangle") // triangle wave
+```
 
-# Playing drums
+## The default sound
+
+Sometimes you can omit `s` when you are using the default synth (triangle wave):
+```javascript
+note("60*16") // just play with a triangle wave
+note("36*16").fm(4) // fm synthesis with the default triangle wave.
+```
+
+You can use parameters and effects to modify sounds as well. We'll look at this next time, but it's in the documentation for you to find as well.
+
+# Drum sounds
+
+Strudel uses Tidal's [tidal-drum-machines](https://github.com/geikha/tidal-drum-machines) library providing _lots_ of samples and a standard naming convention:
+
+{:. style="font-size:.4em;"}
+| **Drum**                        | **Abbreviation** |
+|-------------------------------------|--------------|
+| Bass drum, Kick drum                | bd           |
+| Snare drum                          | sd           |
+| Rimshot                             | rim          |
+| Clap                                | cp           |
+| Closed hi-hat                       | hh           |
+| Open hi-hat                         | oh           |
+| Crash                               | cr           |
+| Ride                                | rd           |
+| Shakers (and maracas, cabasas, etc) | sh           |
+| High tom                            | ht           |
+| Medium tom                          | mt           |
+| Low tom                             | lt           |
+| Cowbell                             | cb           |
+| Tambourine                          | tb           |
+| Other percussions                   | perc         |
+| Miscellaneous samples               | misc         |
+| Effects                             | fx           |
+{: .table}
+
+The best way to explore these is to look at the sounds tab in the REPL
+
+## Choosing drum sound banks
+
+For drum sounds, there are many samples of each type (i.e., lots of bass drums called `bd`) and you can address them with the `bank` function.
+```javascript
+s("bd hh sd oh") // default samples
+s("bd hh sd oh").bank("rolandtr909")
+```
+Using `bank` actually just prepends `rolandtr909_` to the sample name.
+
+
+## Drum Patterns
+
+Mini-notation is super useful for describing compact but interesting drum patterns, e.g. (borrowed from the docs):
+```javascript
+s("bd*4, [~ <sd cp>]*2, [~ hh]*4").bank("rolandtr909")
+```
+This example combines `,`, `< >`, `[ ]` and `*` to achieve a classic EDM beat in one line.
+
+
+## Do it: Write a drum pattern
+{:.activity}
+
+1. Create a basic drum pattern with some of the drum sounds available (`bd`, `sd`, `hh`, `cp`, etc)
+2. Experiment with different values for `bank` by checking what is avilable in the sounds tab of the Strudel REPL
 
 
 # Putting it together
 
+The Strudel REPL only lets you have one pattern! So how can we get different parts to work together. The trick is that your pattern can involve different sounds.
+```javascript
+stack(
+n("c e g e").sound("sine"),
+s("bd hh <sd cp> hh") 
+)
+```
+You can't define different sounds in mini-notation so you have to use `stack` which is what `,` in mini-notation expands to.
 
 
-# Make some techno
 
-Here's a poor example with a couple of extended concepts:
+## What do we know now
+
+We've covered a lot:
+
+- Representing patterns in mininotation
+- How to select different sounds
+- How to address drum sounds 
+- How to play parts together
+
+You will get to practice these concepts in the workshops this week where you will start going through [Strudel's tutorials](https://strudel.cc/workshop/getting-started).
+
+
+## Do it: Make some techno
+{:.activity}
+
+It’s been said that the minimum you need to make _techno_ is [drums, bass, a lead synth, and freaky noises](https://www.youtube.com/watch?v=4jCCzpWBsFs&t=160s&ab_channel=mylarmelodies). 
+
+So your task is:
+
+1. Use `stack` to create a pattern with different parts.
+2. One part should be drums
+3. One part should be bass (try notes below MIDI 48 or-7 in a scale)
+4. One part should be lead (try notes above MIDI 60 or 0 in a scale)
+5. One part should be freaky noises (find a weird sound and use that!)
+
+You'll do this again in a Computer Music diary...
+
+## Here's one I made earlier...
+
+Here's an example I'm not quite happy with that uses a couple of extended concepts:
 ```
 stack(
 n(sine.range(0,14).slow(1.5).euclid(5,16)).segment(16).scale("C:aeolian").s("supersaw"),
