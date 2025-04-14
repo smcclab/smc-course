@@ -346,16 +346,19 @@ This example combines `,`, `< >`, `[ ]` and `*` to achieve a classic EDM beat in
 
 # Putting it together
 
-The Strudel REPL only lets you have one pattern! So how can we get different parts to work together. The trick is that your pattern can involve different sounds.
+To make more complex music, we would like to have multiple patterns playing together. One way to layer patterns it to use stack:
 ```javascript
 stack(
-n("c e g e").sound("sine"),
+note("c e g e").sound("sine"),
 s("bd hh <sd cp> hh") 
 )
 ```
-You can't define different sounds in mini-notation so you have to use `stack` which is what `,` in mini-notation expands to.
-
-
+[Another way](https://strudel.cc/learn/strudel-vs-tidal/#evaluation) is to use `$:`
+```javascript
+$: note("c e g e").sound("sine")
+$: s("bd hh <sd cp> hh")
+```
+Actually you can use any name before the `:` so naming lines like `piano:` or `bass:` works. Any line with a name starting with `_` is **not** played so you can change the first character to mute a part.
 
 ## What do we know now
 
@@ -376,7 +379,7 @@ It’s been said that the minimum you need to make _techno_ is [drums, bass, a l
 
 So your task is:
 
-1. Use `stack` to create a pattern with different parts.
+1. Use `$:` to create a pattern with different parts.
 2. One part should be drums
 3. One part should be bass (try notes below MIDI 48 or-7 in a scale)
 4. One part should be lead (try notes above MIDI 60 or 0 in a scale)
