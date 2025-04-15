@@ -11,8 +11,8 @@ hidden: false
 
 ## Outline
 
-- **Performance Dates:** May 28--30, 2025 (**in person assessment only**).
-- **Artefact Submission Date:** 30/5/2025 23:59 AEST
+- **Performance Dates:** May 28--June 6, 2025 (**in person assessment only**).
+- **Repository Submission Date:** 6/6/2025 23:59 AEST
 - **Mark weighting:** 40%
 - **Submission:** submit your assignment according to the
   [instructions below](#submission-process)
@@ -41,14 +41,10 @@ explaining how your performance works.
 
 Your LENS performance consists of:
 
-1. an in-person **ensemble performance** that you will participate in with your group
+1. an in-person **ensemble performance** that you will participate in with your group with video uploaded through GitLab
 2. **performance materials** uploaded through GitLab
 
-There are two representations of your LENS performance: the **ensemble
-performance** at the final gig, and the **performance materials** you'll submit
-through GitLab.
-
-### Ensemble performance
+### (1) Ensemble performance
 
 Your performance is the primary representation of
 your work. As described in the [marking criteria](#marking) this includes
@@ -56,14 +52,16 @@ all aspects of the performance.
 
 Your ensemble performance:
 
-- **must** involve all members of your LENS ensemble
+- **must** involve all members of your LENS ensemble (at least 3 people)
 - **must** be created with one of the computer music languages **studied this semester**
 - **must** be 4-5 minutes in length (i.e., 240--300 seconds)
 - **must** be presented at a LENS performance and recorded through our HDMI mixer system.
+- **must** have the video uploaded into your GitLab repository by the due date.
 
 We make recordings of all performances, including performer's screens and faces
 for grading and archival purposes. Your performance must be recorded through
 our system with all performers present and all screens visible to be graded.
+We will provide you with the video of your whole concert via GitLab, and you should extract your part of the performance and upload it to your own fork of the gitlab template repo.
 
 {:.info-box}
 
@@ -74,7 +72,7 @@ piece.
 {:.warn-box}
 **Computer Music Languages studied this semester** are: Pure Data (Vanilla) and Strudel. Your performance is expected to work in Pd-vanilla, `strudel.cc` or Flok in Strudel mode. If extensions or libraries are required, these **must** be documented in your performance materials.
 
-### Performance materials
+### (2) Performance materials
 
 You must submit your **performance materials** through GitLab in the `final-performance` folder in your submission repo
 
@@ -82,13 +80,12 @@ Your performance materials:
 
 - **must** include all patches, code, sound files, scores, instructions required to produce your performance (upload to GitLab)
 - **must** include a `README.md` file explaining how to get your performance up and running and including screenshots and code listings of the important part of this performance.
-- you **must** download the PDF artefact.
 
-The primary part of your performance materials is the PDF created in your GitLab repository. We _may_ check the other files in GitLab if further information is required about your performance, but basically your work should be represented clearly in your PDF file.
+The primary part of your performance materials is the README file created in your GitLab repository. We _may_ check the other files in GitLab if further information is required about your performance, but basically your work should be represented clearly in your README file.
 
 {:.info}
 
-Please use good judgement about the size of media files you upload to GitLab. It's ok if you _need_ to upload large files (e.g., up to 100MB or so), but better if you can keep sound files smaller.
+Please use good judgement about the size of media files you upload to GitLab. It's ok if you _need_ to upload large files (e.g., up to 50MB or so), but better if you can keep sound files smaller.
 
 ## Rules
 
@@ -114,7 +111,7 @@ You are allowed to use equipment external to your laptop for the purpose of cont
 
 - You may not use any equipment that requires AC power (that is, USB-powered or battery powered equipment only).
 - You may not use any equipment that requires more than one person to carry.
-- **You may not use any equipment that creates sound** which is used in your performance (i.e., external synthesisers, DJ decks, samplers are not allowed).
+- **You may not use any equipment that creates sound** which is used in your performance (i.e., external synthesisers, DJ decks, samplers, electric guitars or other instruments are not allowed).
 - Any external equipment you use must be clearly documented and listed **as a reference** in your performance materials.
 
 ### External Software
@@ -149,70 +146,45 @@ The marking rubric for this task is different between COMP4350 and COMP8350 as t
 | Demonstrated capacity for expression and collaboration (20%) | Performance demonstrates an excellent to outstanding capacity for  expression (creative control) by all performers and collaboration that goes beyond learning materials. | A performance that shows very good capacity for expression and creative control by the performers. Collaboration is demonstrated and necessary for the performance. | A performance that shows some capacity for expression and creative control by the performers. A good capacity for collaboration is demonstrated but it may not be completely necessary. | A performance with some capacity for expression by the performers, but it may not lead to fully collaborative creative control. | Performance does not demonstrate a capacity for expression (creative control) by the performers and the level of collaboration is below acceptable standards. |
 | Presentation and communication through performance materials (10%) | An outstanding presentation of performance materials clearly communicating the submissions and performance procedure. Clearly articulates recent developments in SMC. | A very good presentation of performance materials clearly communicating the submissions and performance procedure. Clearly articulates recent developments in SMC. | A good presentation of performance materials. The submission and performance procedure may not be fully communicated. Articulates recent developments in SMC but may not be clear. | A satisfactory presentation of the performance materials. The submission and performance procedure may be only weakly communicated. May not articulate recent developments in SMC. | Unsatisfactory performance materials that may have minimal or no communication of the performance and submission. May not articulate recent developments in SMC. |
 
-## Practical Matters for the Concert {#practical-matters}
+## Assessment Process and Practical Information 
 
-Here is some more practical information about the LENS performance assessment concerts.
+Here's the process and practical information for completing your final assessment.
 
 Make sure you have read **all** the information on this page, and in the ["Concert" lecture]({% link _lectures/13-concert.md %}) so that you are aware of our expectations and standards.
 
-### Place
+### Preparation
 
-All concerts will take place at the **[Big Band Room 1.55](https://studentvip.com.au/anu/main/maps/140822)**, **[Peter Karmel Building 121](https://studentvip.com.au/anu/main/maps/140745)**.
+- Meet with your ensemble and make sure you are aware of how to perform each member's piece. You should know what your job is in your piece and in each piece from each person in your group.
+- Book at time for your concert by 23/5/2025 using our booking system _(link to be advised)_. 
+- Make sure you find out the **room** for your concerts. They all at the ANU School of Music but in different rooms on different days.
 
-### Date and Time
+Here are a list of the concert venues so you know how to find them:
 
-Concerts are on May 28, 29, 30. Specific group times will be arranged by Week 10.
+1. **[Big Band Room 1.55](https://studentvip.com.au/anu/main/maps/140822)**, Ground Floor, [Peter Karmel Building 121](https://studentvip.com.au/anu/main/maps/140745).
+2. **[Lecture Theatre 1](https://studentvip.com.au/anu/main/maps/139508) (LT1) Room 509, Level 5, [ANU School of Music Building 100](https://studentvip.com.au/anu/main/maps/139508).
 
-{% comment %}
-The time for your group is in the following table:
+### On the day of your concert
 
-| **Date** | **Concert Time** | **Group** | **Group Name**       | **Arrival Time** | **Tutor** |
-|----------|----------|-----------|----------------------|-------------|-----------|
-| 2 Jun    | 12:00    | G02       | CyberSymphony        | 11:00       | Mingrui   |
-| 2 Jun    | 13:00    | G07       | Beat Bots            | 12:00       | Xinran    |
-| 2 Jun    | 15:00    | G08       | Binary Beats Brigade | 14:00       | Madelyn   |
-| 2 Jun    | 16:00    | G14       | Techno Troupe        | 15:00       | Rachel    |
-| 5 Jun    | 10:00    | G11       | Digital Domain       | 09:00       | Madelyn   |
-| 5 Jun    | 11:00    | G04       | Glitch Garden        | 10:00       | Sandy     |
-| 5 Jun    | 12:00    | G16       | Circuitry Symphony   | 11:00       | Madelyn   |
-| 5 Jun    | 14:00    | G12       | Sonic Algorithms     | 13:00       | Xinran    |
-| 5 Jun    | 15:00    | G15       | Audio Architects     | 14:00       | Sandy     |
-| 5 Jun    | 16:00    | G13       | Electro Ensemble     | 15:00       | Rachel    |
-| 6 Jun    | 11:00    | G06       | ElectroPhonic        | 10:00       | Rachel    |
-| 6 Jun    | 12:00    | G01       | Machine Musician     | 11:00       | Mingrui   |
-| 6 Jun    | 14:00    | G10       | Pixelated Players    | 13:00       | Sandy     |
-| 6 Jun    | 15:00    | G09       | Midi Masters         | 14:00       | Mingrui   |
-{% endcomment %}
+- Show up to the concert venue 30 minutes before your scheduled time, a tutor or Charles will be in the venue coordinating the concerts.
+- At your scheduled time, spent 10 minutes plugging in your laptop and testing that you can hear the sound output and see video output from each laptop in the group.
+- When you're ready to start the concert, the tutor/Charles will press record on the HDMI mixer.
+- You will play the pieces by each member of your group in the same order as on the ensemble list. Remember that your piece must be 4-5 minutes in length (240s--300s).
+- Your whole concert should take 20-25 minutes. (3-4 pieces which are 4-5 minutes in length + 1 minute changeover in between each piece.)
+- At the end of the concert, pack up quickly so that the next group can get started.
 
-### Arrival and Warmup
+### After the concert but before the deadline
 
-You must arrive at the venue **60 minutes before your scheduled performance time**. 
-A tutor will meet you at the entrance and guide your group to a [greenroom](https://www.dictionary.com/browse/greenroom) where you can test your setups and get ready with your group. This tutor will stay with you throughout your concert experience to make sure you know where to go.
+- Download your concert recording from the [Diary Videos Repo](https://gitlab.cecs.anu.edu.au/comp4350/2025/comp4350-diary-videos) <https://gitlab.cecs.anu.edu.au/comp4350/2025/comp4350-diary-videos>.
+- Trim your concert video so that you just have the recording of _your piece_. Use [VLC (Windows, Linux)](https://www.youtube.com/watch?v=zZZpKUaJK-g) or [Quicktime (macOS)](https://www.youtube.com/watch?v=W7NrlhZin4M).
+- Upload your recording as a file called `lens-performance.mp4` in your fork of the [GitLab template repository]({{ template_repo }}). You can use the file extensions: `.mp4`, `.mov`, `.mkv`, or `.webm`. 
+- Ensure that you pass the `lens-performance-recording` CI test. Your video must be between 240s and 330s to pass the CI test.
+- Upload all the materials used to create your performance in your fork of the [GitLab template repository]({{ template_repo }}).
+- Complete the performance documentation in `README.md` in your fork of the [GitLab template repository]({{ template_repo }}).
+- Complete the references section in `README.md` in your fork of the [GitLab template repository]({{ template_repo }})
 
-The schedule for each ensemble is as follows (times in minutes relative to your performance time).
+{:.info-box}
 
-- -60m **Arrive at venue**, meet your tutor at the front, move to "green room" to test setups and get ready
-- -30m **Pack up in green room** and get ready to move to the venue
-- -20m **arrive at the venue** and get ready to walk carefully on stage when previous group finishes
-- -15m when other group is finished, come onto stage and plug in laptops (HDMI + power supplies)
-- -10m - Confirm sound and video coming out of each laptop 
-- 00m! (Concert time), stop testing, get ready for first piece
-- 5m - Start of your concert
-	- Each piece is played in order given on poster
-	- 3min pause for changeover between each piece
-	- Confirm ready to start each piece with the stage manager  Brent before starting (he will be right in front)
-- ~45m - finish concert, unplug, move off stage (ready for next group)
-
-### Concert order and procedures
-
-The order of pieces in the concert is as given in the [concert lecture]({% link _lectures/13-concert.md %}).
-
-This is not up for discussion, you may not change the concert order. My worst
-nightmare is assessing the wrong person so please make sure you get the order
-correct.
-
-During the concert, you will be guided by a tutor about when to start each piece. 
-The tutor will confirm the author of each piece with you before you begin.
+Once you have **(1)** completed your **in-person** concert, **(2)** uploaded the recording of your piece to gitlab, **(3)** uploaded materials, **(4)** documented your performance in `README.md` and **(5)** ensured that all tests pass on your fork of the [GitLab template repository]({{ template_repo }}) then you have completed this assessment task and the course! **Time to celebrate!** 🥳🥳🥳
 
 ### Supporting each other and being awesome
 
@@ -229,7 +201,6 @@ few weeks.
 If folks do not meet our expectations for behaviour in terms of the ANU Student
 Code of Conduct, they may be subject to investigation which would, at the very
 least, delay their assessment and completion of this course.
-
 
 ### Deferred Assessment
 
