@@ -1,7 +1,7 @@
 ---
 title: Advanced Synth Design 
 tagline: Getting deeper into sutractive and modulation synthesis
-lecturer: Yichen Wang & Dr Charles Martin
+lecturer: Dr Charles Martin
 image: assets/workshops/2013-rpi-charles-martin.jpg
 image_alt: Photo by Charles Martin
 ---
@@ -12,11 +12,12 @@ image_alt: Photo by Charles Martin
 
 - Filters (analogue, digital, `vcf~`, `bob~`, filter math (light)
 - Subtractive Synthesis (from phasor to Moog Model-D clone))
+- Audio and Pattern Effects in Strudel
 - FM Synthesis (recall week 3, feedback, algorithms, operator-based design)
 - Phase Vocoder + spectral synthesis.
 
-{% include slides/background-image.html image="lectures/synth-design/ismael-paramo-7LQ9b9V-Ffo-unsplash.jpg" heading="Subtractive Synthesis" %}
 
+{% include slides/background-image.html image="lectures/synth-design/ismael-paramo-7LQ9b9V-Ffo-unsplash.jpg" heading="Subtractive Synthesis" %}
 
 
 ## Subtractive Synthesis
@@ -26,9 +27,7 @@ Let's take a complex sound and **remove** some content.
 ![]({% link assets/digital-synthesis/pd-filterfm.png %})
 
 
-
 ## Popular Subtractive Synths
-
 
 Subtractive synthesis is often used in analogue synth designs, particular with those associated with [Bob Moog (famous synth designer)](https://en.wikipedia.org/wiki/Robert_Moog).
 
@@ -41,6 +40,7 @@ E.g.,:
 
 It's good for _analogue_ designs because you can get a lot of timbral variation out of few (2 or 3) basic oscillators.
 
+
 ## Subtractive Synth Layout
 
 ![]({% link assets/lectures/synth-design/diagram-subtractive-synth.png %}){: style="width:70%"}
@@ -48,6 +48,7 @@ It's good for _analogue_ designs because you can get a lot of timbral variation 
 - Sound is produced by 1+ summed oscillators and/or noise generator, processed by filter
 - Two envelope generators: output volume and to change the filter cut-off frequency
 - Missing: low frequency oscillator for modulation
+
 
 ## Minimoog in Pd
 
@@ -60,6 +61,112 @@ Here's a basic design for an analogue synthesiser with two sawtooth oscillators.
 - for extra fun, try the `bob~` object. Similar to `vcf~` but modelled on actual Moog filter designs.
 
 N.B.: the _synthesis_ part here is quite simple, but processing note information is tricky and requires lots of supporting objects.
+
+
+## Minimoog in Strudel
+
+We can create a similar synth in Strudel by using the `sawtooth` oscillator sound, and applying low pass filter and envelope effects.
+
+```javascript
+note("<[c2 c3]*4 [f2 f3]*4>".mul("[1,1.01]"))
+  .gain(0.5)
+  .sound("sawtooth") // also try "supersaw"
+  .lpf(300).lpq(20)
+  .lpa(.5).lpr(.5)
+  .lpenv("4")
+```
+`.lpf` and `.lpq` are the cutoff frequency and resonance of the low-pass filter effect.
+`.lpenv`, `.lpa` and `.lpr are envelope parameters for the filter frequency. 
+
+Remember that all the audio effects like `.lpf`, `.lpq`, `lpenv` can and should be sequenced to modulate them in interesting ways.
+
+# Effects in Strudel
+
+The previous example showed how to use some of the audio effects built into Strudel.
+
+In Strudel's functional design, effects are implemented by adding function calls to your pattern.
+
+Some effects modify the sound of a pattern and others modify the sequence. It's not always obvious which (e.g., does `rev` mean reverb or reverse the sequence?)
+
+*Note!* I'm not going to explain the whole API here, you have to use Strudel's [documentation]() and the "reference" tab in the REPL to understand what is available.
+
+## Audio Effects
+
+We introduced Strudel's [filters](https://strudel.cc/learn/effects/#filters) already, but let's look at the other typical effects. E.g., `gain` and `pan`:
+```javascript
+s("hh").gain("0.4|0.5|0.6").pan("0|.5|1").fast(16)
+```
+`delay`, `delaytime` and `delayfeedback` (N.B. shortcut in mininotation to all params)
+```javascript
+note("c a f e").delay(0.65).delaytime(0.27).delayfeedback(0.8)
+note("c a f e").delay("0.65:0.27:0.8")
+```
+Reverb `room` (reverb level) and `rsize` ("room" size), also with mininotation shortcuts.
+```javascript
+s("bd sd [bd bd] [sd bd], [hh*8]").room(.8).rsize(4)
+s("bd sd [bd bd] [sd bd], [hh*8]").room(".8:4")
+```
+
+
+## Pattern Effects
+
+These effects modify your pattern of notes giving you lots of options for variation and algorithmic composition, e.g., `rev` plays a pattern backwards:
+```javascript
+n("0 1 2 3 4 5 6 7").scale("C:minor").rev()
+n("0 1 2 3 4 5 6 7").scale("C:minor").jux(rev) // left: forward, right: backward
+```
+There are arithmetic effects `add`, `sub`, `mul`, `div`: (Note `.add` is effecting the mininotation!)
+```javascript
+n("0 1 2 3".add("<0 2 5 3>")).scale("C:minor")
+```
+Changing speed with `fast` or `slow`
+```javascript
+n("0 1 2 3 4 5 6 7").scale("C:minor").slow("1,1.5,4.5")
+```
+
+{% comment %}
+Offset (`off`) by a duration with a function applied:
+```
+n("0 1 2 3 4 5 6 7".off(1/16, x=>x.add(5))).scale("C:minor")
+```
+{% endcomment%}
+
+
+## Signal Patterns
+
+[Signal _patterns_](https://strudel.cc/learn/signals/#continuous-signals) are waveforms that you can use to modulate or generate patterns. 
+
+Use as a low frequency oscillator, e.g., `tri` controlling a lowpass filter cutoff frequency:
+```javascript
+note("c3*16").s("sawtooth")
+  .lpf(tri.range(100,8000).slow(2))
+```
+
+Use for note patterns, `n` creates a pattern of indices interpreted by `scale`, e.g.: 
+```javascript
+n(saw.range(0,15).segment(16)).scale("C:minor")
+n(tri.range(0,15).euclid(7,16)).scale("C:scriabin")
+```
+In the above, `segment` and `euclid` turn the signal into a discrete sequence.
+
+
+## Random Variations
+
+There's (at least) two kinds of useful randomness paradigms in Strudel: [random signals](https://strudel.cc/learn/signals/#rand), and [random modifiers](https://strudel.cc/learn/random-modifiers/). The signals work similarly to the regular signals: 
+```javascript
+n(irand(16).euclid(7,16)).scale("C:scriabin")
+n(perlin.range(-7,24).segment(16)).scale("C:scriabin").s("kawai")
+```
+Random modifiers like `sometimes`, `almostNever`, and `often` take an action _sometimes_.
+```
+note("c2".sometimesBy(.2, x=>x.add("12"))).fast(16)
+```
+Note the arrow function in there. Nice.
+
+*Don't forget:* you can still have randomness in mininotation with `|` and `?`
+
+
+
 
 
 {% include slides/background-image.html image="lectures/synth-design/monika-sojcakova-ehZ9Aeu2Elo-unsplash.jpg" heading="FM Synthesis" %}
