@@ -31,7 +31,7 @@ Do not play covers or music created by other people. That is not acceptable in t
 Your ensemble performance:
 
 - **must** involve all members of your LENS ensemble 
-- **must** be created with one of the computer music languages **studied this semester**
+- **must** be created with one or more of the computer music languages **studied this semester**
 - **must** be 5-7 minutes in length
 - **must** be presented at a LENS performance
 
@@ -39,17 +39,6 @@ Your ensemble performance:
 
 - Location: **Big Band Room, Peter Karmel Building, Childers St**
 - Dates: May 28, 29, 30. (Wednesday, Thursday, Friday).
-
-| Time | 28/5   | 29/5   | 30/5   |
-|------|-------|-------|-------|
-| 900  | setup | setup | setup |
-| 1000 | setup | C5    | C11   |
-| 1100 | setup | C6    | C12   |
-| 1200 | C1    | C7    | C13   |
-| 1300 | C2    | break | break |
-| 1400 | break | C8    | C14   |
-| 1500 | C3    | C9    | C15   |
-| 1600 | C4    | C10   | C16   |
 
 ## Concerts
 
@@ -134,34 +123,3 @@ The big challenge in a LENS performance:
 
 Give each performer **less** to do than you think you need to. Expect performers to think and communicate. Give performers **creative control**. Good performance is **risky!**
 
-## Getting started
-
-- **week 10**: create a minimal idea for your diary, explain the topology to your group.
-- **week 11**: work on expression and interfaces with your group.
-- **week 12**: work on composition and improvisation with your group.
-- **week 13**: final rehearsals, make sure it all works.
-
-CONCERT DAY!
-
-## Procedure on the day: Pre-Concert
-
-(times relative to your concert time)
-
-- -60m **Arrive at School of Music**, meet your tutor outside the Big Band Room, move to "green room" to test setups and get ready
-- -30m **Pack up in green room** and get ready to move to the Big Band Room
-- -20m **arrive at Big Band Room** and get ready to walk carefully on stage when previous group finishes
-- -15m when other group is finished, come onto stage and plug in laptops (HDMI + power supplies)
-- -10m - Confirm sound and video coming out of each laptop 
-
-## Procedure on the day: Your Concert!
-
-- 00m! (Concert time), stop testing, get ready for first piece
-- 5m - Start of your concert
-	- Each piece is played in order given on poster
-	- 3min pause for changeover between each piece
-	- Confirm ready to start each piece with the stage manager  Brent before starting (he will be right in front)
-- ~45m - finish concert, unplug, move off stage (ready for next group)
-
-N.B.: Concert order is on the posters (see following slides), this is not negotiable.
-
-Groups with 5 will get a little more time in their concert, we have capacity to flex the start times a bit as needed.

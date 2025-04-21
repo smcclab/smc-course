@@ -166,9 +166,6 @@ Note the arrow function in there. Nice.
 *Don't forget:* you can still have randomness in mininotation with `|` and `?`
 
 
-
-
-
 {% include slides/background-image.html image="lectures/synth-design/monika-sojcakova-ehZ9Aeu2Elo-unsplash.jpg" heading="FM Synthesis" %}
 
 ## Simple two-oscillator FM
@@ -207,6 +204,7 @@ Combining multiple oscillators allows lots of sounds to work together. Typical F
 
 In FM lingo, the wiring diagram between operators is called an _algorithm_.
 
+
 ## Implementing 6-op FM
 
 ![]({% link assets/lectures/synth-design/fm-operator.png %}){: style="width:45%;float:right;"}
@@ -222,6 +220,7 @@ This gets complicated quickly...
 
 Volca FM has 23 parameters per operator, and 16 global parameters, that's 154 params for one patch!
 
+
 ## Operator Layout
 
 ![]({% link assets/lectures/synth-design/6op-synth.png %}){: style="width:50%;float:right;"}
@@ -233,6 +232,7 @@ And here's how you could wire them together...
 - `throw~` and `catch~` for the feedback loop on operator 6.
 
 This is a fixed configuration, could you design a way to control the FM _algorithm_ with parameters?
+
 
 ## Commercial FM Synths
 
@@ -247,6 +247,90 @@ Op-based FM is _very popular_. The Yamaha DX7 was the first **successful** digit
 - [dexed FM Plugin](https://asb2m10.github.io/dexed/) (modeled on DX7) AUD0
 
 See _dexed_ for free FM synth fun.
+
+## Can we do this in Strudel?
+
+Not terribly easily (6-op synths are complicated) and Strudel itself isn't designed for creating new synths on the fly.
+
+For any "new" synth, i.e., where you want to build the signal graph yourself like in Pd, the two options would be:
+
+1. Extend Strudel with a new *sound* by [hacking web audio API](https://strudel.cc/technical-manual/sounds/#example)
+2. Using Strudel's CSound integration and write the synth in CSound instead
+
+Option **2** would be likely to be easier but involves learning another programming language.
+
+# CSound in Strudel
+
+CSound is among the oldest computer music languages (first released in 1985) and it's still used today. Although you would typically run CSound as a regular application, there's now an implementation [on the web](https://kunstmusik.github.io/icsc2022-csound-web/).
+
+Here's a simple CSound synth in Strudel:
+
+```javascript
+await loadCsound`
+instr charlessynth
+  iduration = p3
+  ifreq = p4
+  igain = p5
+  kenv = linen(igain, 0.1, iduration, 0.2)
+  asig = vco2(kenv, ifreq, 4, .5)
+  out(asig,asig)
+endin`
+
+"0 3 1 2 5@4"
+.scale('D minor')
+.note()
+.csound('charlessynth')
+```
+{:. style="font-size:.6em;"}
+
+##  CSound Instrument
+
+There's some weird stuff about CSound. It's original syntax looks like assembly and types of variables are determined by the first letter of their names.
+```c
+instr charlessynth
+  iduration = p3 ; CSound has special parameter variables, p3 is duration
+  ifreq = p4 ; p4 is frequency
+  igain = p5 ; p5 is volume
+  kenv = linen(igain, 0.1, iduration, 0.2) ; linen is a basic envelope
+  asig = poscil(kenv, ifreq) ; poscil is sine tone 
+  out(asig,asig) ; output the signal
+endin
+```
+There's two good resources for learning CSound, the [reference manual](https://csound.com/manual.html) and the [flossmanual](https://flossmanual.csound.com/sound-synthesis)
+
+## Why introduce CSound? To make complex synths in Strudel.
+
+It might seem a bit unhinged to introduce a new complete computer music system at this stage of the course.
+
+The point is: I want you to have the tools to explore computer music deeply.
+
+CSound in Strudel gives you a very good balance of convenience to depth for defining complex instruments in a live coding environment.
+
+There's a learning curve to understanding the syntax and getting a feel for the system, but it's not _that_ hard now that you know the concepts.
+
+**tl;dr: to do feedback phase-modulation synthesis in Strudel, you should [use CSound](https://flossmanual.csound.com/sound-synthesis/frequency-modulation#more-complex-fm-algorithms)**, and see [this paper](https://csound.com/icsc2019/proceedings/3.pdf)
+
+## Phase Modulation Feedback Synth in CSound
+
+```javascript
+await loadCSound`
+giSine ftgen 0, 0, 8192, 10, 1 ; makes a sine tone table
+
+instr feedback_PM
+ kCarFreq = p4
+ kFeedbackAmountEnv linseg 0, 2, 0.2, 0.1, 0.3, 0.8, 0.2, 1.5, 0
+ aAmpEnv expseg .001, 0.001, 1, 0.3, 0.5, 8.5, .001
+ aPhase phasor kCarFreq
+ aCarrier init 0 ; init for feedback
+ aCarrier tablei aPhase+(aCarrier*kFeedbackAmountEnv), giSine, 1, 0, 1
+ outs aCarrier*aAmpEnv, aCarrier*aAmpEnv
+endin`
+
+n(sine.range(0,15).segment(8).slow(16)).scale("C:minor")
+.csound('feedback_PM')
+```
+{:. style="font-size:.6em;"}
+This is just one operator with feedback controlled by an envelope (example adapted from the [CSound flossmanual](https://flossmanual.csound.com/sound-synthesis/frequency-modulation#more-complex-fm-algorithms))
 
 # String Synthesis
 
@@ -268,11 +352,42 @@ Here's a simple Karplus-Strong implementation.
 - the filter is a `lop~`, and the loop has feedback of `0.999`
 - changing the length of the delay loop changes the pitch, so this is adjusted by the frequency input
 
+## String Synthesis in CSound
+
+
+```javascript
+await loadCSound`
+instr kstest
+  ifreq = p4
+  iamp = p5
+  ipluck = 0.6   ; pluck position (0-1)
+  idamp = 0.999    ; damping factor (0-1)
+  idelaytime = 1 / ifreq  
+  anoise rand iamp
+  aexcite = anoise * ipluck
+  kenv linseg 1, 0.01, 0, 0.01, 0
+  ainitial = aexcite * kenv
+  afeedback init 0
+  adelay delay ainitial + afeedback, idelaytime
+  afilt = (adelay + delay1(adelay)) * 0.5 * idamp
+  afeedback = afilt
+  out afilt,afilt
+endin`
+
+n(sine.range(0,15).segment(8)).scale("C:minor")
+.csound('kstest')
+```
+{:. style="font-size:.6em;"}
+
+Note the simple LPF: `(adelay + delay1(adelay)) * 0.5`
+
 ## Physical Modelling Synthesis
 
 Physical modelling synthesis is an interesting area with lots of possibilities and challenges.
 
 Have a look at Julius O Smith's [Stanford Courses (Music 420A)](https://ccrma.stanford.edu/~jos/pasp/) to learn more.
+
+Note that you can do a lot of _awesome_ physical modelling synthesis in CSound. Take a [look at the book](https://flossmanual.csound.com/sound-synthesis/physical-modelling#the-karplus-strong-algorithm-plucked-string).
 
 # Fourier Resynthesis
 
@@ -298,7 +413,7 @@ We _can_ use a similar construction called: Short-Time Discrete Fourier Transfor
 
 - _discrete_: operates on sampled information
 
-We often refer to SDTFT as _FFT_, or "fast Fourier transform" (e.g., the `fft~` object in Pd). 
+We often refer to STDFT as _FFT_, or "fast Fourier transform" (e.g., the `fft~` object in Pd). 
 FFT is actually a clever algorithm for accomplishing a DSTFT quickly, so it's ok to use the acronyms interchangeably.
 
 ## Short-Time Discrete Fourier Transform
@@ -376,3 +491,13 @@ The "phase vocoder" is an algorithm for stretching or compressing the time and f
 
 see `I07.phase.vocoder.pd`
 
+## Phase Vocoder in CSound
+
+You can do similar procedures in CSound as outlined in the [manual](https://flossmanual.csound.com/sound-modification/fourier-analysis-spectral-processing)
+
+
+{% comment %}
+# Parting thoughts...
+
+This was a really quick review of a selection of classic synthesis methods.
+{% endcomment %}
