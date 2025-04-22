@@ -180,17 +180,23 @@ If folks do not meet our expectations for behaviour in terms of the ANU Student
 Code of Conduct, they may be subject to investigation which would, at the very
 least, delay their assessment and completion of this course.
 
-### Deferred Assessment
+### Deferred Assessment and Extensions
 
 This assessment is arranged as a non-centrally administered
 exam. If have an extenuating circumstance that prevents you from attending, 
-please apply for [Extenuating Circumstances]({% link 01-policies.md %}). 
+please apply for [Extenuating Circumstances]({% link 01-policies.md %}#eca). 
 This is defined as circumstances that are unexpected
 and unavoidable and must be a serious matter that would prevent you from
 physically attending your performance assessment.
 
 If you apply for extenuating circumstances in this course, please inform the course
 convenor.
+
+Note that deferred assessments will be arranged as soon as practical after the deferral
+period starting from the day of your scheduled performance assessment. That is,
+if a two-working-day deferral is approved, the assessment will, by default, be
+scheduled on the first available timeslot on the third working day after the
+original scheduled date.
 
 ## Marking Rubric {#rubric}
 

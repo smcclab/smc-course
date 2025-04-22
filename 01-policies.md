@@ -141,10 +141,9 @@ adjustment due to [extenuating circumstances
 
 - The [Assessment Adjustment form]({{page.ext_app_link}}) can help you figure out whether to apply for an **extension** or **extenuating circumstances**. For short extensions on non-exams, it's almost always better to apply for an extension.
 
-If you have any unexpected and unavoidable issue on the day of an exam (e.g.,
-you are sick) which means you can't do the exam on that day, please apply for
-[Extenuating Circumstances
-(link)]({{page.ext_app_link}}).
+If you have a serious, unexpected, and unavoidable issue on the day of an exam
+which means you can't do the exam on that day, please apply for [Extenuating
+Circumstances (link)]({{page.ext_app_link}}).
 
 ## Appeals {#appeals}
 
