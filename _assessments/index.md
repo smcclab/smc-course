@@ -17,12 +17,14 @@ These are the assessments for Sound and Music Computing, Semester 1 2025.
 | [Portfolio 1]({% link _assessments/02-portfolio.md %})             | 23:59 24/3/2025                         | 20% |
 | [Solo Performance]({% link _assessments/03-solo-performance.md %}) | 23:59 14/4/2025                         | 20% | 
 | [Portfolio 2]({% link _assessments/02-portfolio.md %})             | 23:59 12/5/2025                         | 20% |
-| [LENS performance]({% link _assessments/04-lens-performance.md %}) | Concert: 28-30/5/2025, Artefact: 23:59 30/5/2025        | 40% |
+| [LENS performance]({% link _assessments/04-lens-performance.md %}) | Concerts: 28/5/2025--6/6/2025, Artefact: 23:59 6/6/2025        | 40% |
 
 Read the course [policies]({% link 01-policies.md %}) for information on submission, extensions, special consideration, and appeals.
 
 {:.warn-box}
-The LENS performance dates are May 28, 29, and 30, 2025. The venue is the [Big Band Room 1.55](https://studentvip.com.au/anu/main/maps/140822), [Peter Karmel Building 121](https://studentvip.com.au/anu/main/maps/140745). Please see the LENS Performance page for your individual group's concert time and make sure you have read the procedure for attending and completing your assessment.
+
+The LENS performance submission dates were extended from 30/5/2025 to 6/6/2025 due to increased enrolment in the course and hence time required for this in-person assessment. Please see the instructions on the [LENS performances page]({% link _assessments/04-lens-performance.md %}).
+
 
 ## Assessment Pages
 
