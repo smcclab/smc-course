@@ -53,7 +53,7 @@ all aspects of the performance.
 Your ensemble performance:
 
 - **must** involve all members of your LENS ensemble (at least 3 people)
-- **must** be created with one of the computer music languages **studied this semester**
+- **must** be created with one or more of the computer music languages **studied this semester**
 - **must** be 4-5 minutes in length (i.e., 240--300 seconds)
 - **must** be presented at a LENS performance and recorded through our HDMI mixer system.
 - **must** have the video uploaded into your GitLab repository by the due date.
@@ -74,12 +74,13 @@ piece.
 
 ### (2) Performance materials
 
-You must submit your **performance materials** through GitLab in the `final-performance` folder in your submission repo
+You must submit your **performance materials** through GitLab in your fork of the [LENS performance repository]({{ page.template_repo }}).
 
 Your performance materials:
 
 - **must** include all patches, code, sound files, scores, instructions required to produce your performance (upload to GitLab)
 - **must** include a `README.md` file explaining how to get your performance up and running and including screenshots and code listings of the important part of this performance.
+- **must** include the video of your ensemble performance above.
 
 The primary part of your performance materials is the README file created in your GitLab repository. We _may_ check the other files in GitLab if further information is required about your performance, but basically your work should be represented clearly in your README file.
 
@@ -128,7 +129,7 @@ Use of non-referenced software in your performance is a breach of [academic inte
 
 Here's the process and practical information for completing your final assessment.
 
-Make sure you have read **all** the information on this page, and in the ["Concert" lecture]({% link _lectures/13-concert.md %}) so that you are aware of our expectations and standards.
+Make sure you have read **all** the information on this page so that you are aware of our expectations and standards.
 
 ### Preparation
 

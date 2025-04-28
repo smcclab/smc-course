@@ -1,7 +1,7 @@
 ---
 title: Making Hardware Interfaces
 tagline: Creating physical computer instruments
-lecturer: Yichen Wang & Dr Charles Martin
+lecturer: Dr Charles Martin
 image: assets/lectures/2015-arduino-charles-martin.jpg
 image_alt: Photo by Charles Martin
 ---
@@ -10,21 +10,158 @@ image_alt: Photo by Charles Martin
 
 ## Outline
 
+- Digression: LENS Performance Assessment
 - High-level concepts and discussion about physical computer instruments
 - Two appoarches: instrumental and compositional (adapted from "Composing Interactions" - Marije Baalman)
 - The question of mapping
 - Micro:bit live demo making a simple movement-based MIDI interface
 
+{% include slides/background-image.html image="lectures/yichen-sandy-nime2024.jpg" heading="Digression: LENS Performance Assessment" %}
+
+# LENS Performance
+
+Let's talk about practical matters for the final LENS performances.
+
+- Final assessment for this course (40%)
+- an in-person ensemble performance that you will participate in with your group
+- **individual** assessment, one performance per ensemble member.
+
+## What you are making
+
+> You will create a computer music system that can be performed live by a group of students at a live concert. This could take the form of a new computer music instrument or composition that a group of performers can control.
+
+This means:
+
+a computer music system **created by you** performing **original music** with your group.
+
+Do not play covers or music created by other people. That is not acceptable in this assessment or this course.
+
+## Part 1: Your Ensemble Performance
+
+- **must** involve all members of your LENS ensemble (at least 3 people)
+- **must** be created with one or more of the computer music languages **studied this semester**
+- **must** be 4-5 minutes in length (i.e., 240--300 seconds)
+- **must** be presented at a LENS performance and recorded through our HDMI mixer system.
+- **must** have the video uploaded into your GitLab repository by the due date.
+
+## Part 2: Your Performance Materials
+
+You must submit your **performance materials** through GitLab in your fork of the [LENS performance repository]({{ page.template_repo }}).
+
+Your performance materials:
+
+- **must** include all patches, code, sound files, scores, instructions required to produce your performance (upload to GitLab)
+- **must** include a `README.md` file explaining how to get your performance up and running and including screenshots and code listings of the important part of this performance.
+- **must** include the video of your ensemble performance from your concert.
+
+Everything is marked from the GitLab Repo; it's **all due on 6 June, 2025, 23:59**.
+
+## Concert Dates, Times, Location
+
+Dates and Times between **May 28 and June 6, 2025**.
+
+1. **[Big Band Room 1.55](https://studentvip.com.au/anu/main/maps/140822)**, Ground Floor, [Peter Karmel Building 121](https://studentvip.com.au/anu/main/maps/140745).
+2. **[Lecture Theatre 1](https://studentvip.com.au/anu/main/maps/139508)** (LT1) Room 509, Level 5, [ANU School of Music Building 100](https://studentvip.com.au/anu/main/maps/139508).
+
+⛔️ You **can't** complete your ensemble performance outside of our provided dates and times, this counts as an exam. ⛔️
+
+## Concerts
+
+![Concert]({% link assets/photos/2019-rehearsal-rohan.jpg %}){:style="width:50%;float:right"}
+
+- Each group gets `one` timeslot to perform each of your pieces (3-4) in one 45 minute concert.
+- You must be prepared to play each piece in sequence with little changeover time (<5mins changeover).
+- Technical setup will be very strictly controlled.
+
+You can test your computers on our HDMI system at drop-in sessions in Week 11 and 12.
+
+## Allocation
+
+![Concert]({% link assets/photos/2022-lens-kambri-hi.jpg %}){:style="width:50%;float:right"}
+
+- Discuss with your group what your time constraints are (i.e., other exams)
+- In week 10 workshop, book a time that your group is available.
+
+You will need to be flexible and organised. We cannot guarantee you won't have a concert on the same day as another exam.
+
+## Technical Setup
+
+![Technical Setup]({% link assets/photos/2023-tech-setup.jpg %}){:style="width:50%;float:right"}
+
+We will provide for each laptop:
+
+- **HDMI input** (for your video and sound)
+- power outlet for your laptop
+- WiFi router (hopefully with internet)
+
+You need to provide whatever **adapters or cables** are necessary to connect _HDMI_ to your computer, you should also bring your **power adapter**.
+
+## External Equipment
+
+You are allowed to use equipment external to your laptop for the purpose of controlling your computer music software in the final performance. This includes MIDI controllers, human-interface devices, arduinos, microbits, etc. There are a few caveats:
+
+- You may not use any equipment that requires AC power (that is, USB-powered or battery powered equipment only).
+- You may not use any equipment that requires more than one person to carry.
+- You may not use any equipment that creates sound which is used in your performance (i.e., external synthesisers, DJ decks, samplers are not allowed).
+
+Keep in mind that you are creating an _ensemble_ performance and any equipment used should contribute to how your ensemble works together to create music. 
+
+## External Software
+
+- You are allowed to use libraries or extensions for the computer music systems used in the course, but these should be clearly documented and listed **as a reference** in your performance materials.
+
+- You are allowed to use middleware that goes in between computer music software and an external or internal hardware interface (e.g., Osculator, Wekinator or MobMuPlat).
+
+- You are not allowed to use music production software such as Ableton Live,
+ProTools or Logic in your performance. 
+
+- Any external libraries that you use
+should be used in a sophisticated, original, and independent way in order to
+show your attainment of the learning outcomes.
+
+## Integrity
+
+Use of external non-referenced software in your performance is a breach of [academic
+integrity](https://services.anu.edu.au/learning-teaching/academic-integrity/academic-integrity-best-practice-principles-for-learners)
+at ANU. 
+
+You must reference:
+
+- any software not created by you
+- any hardware systems required for your performance
+- any software developed in collaboration with another student
+
+We **expect** collaboration in this course---the tradeoff is we **expect** precise and complete referencing.
+
+Don't claim other's work is your own---even by accident!!
+
+## Interactive Ensemble Music Making
+
+![Concert]({% link assets/photos/2019-city-pop.jpg %}){:style="width:50%;float:right"}
+
+The big challenge in a LENS performance:
+
+- ~~writing some synths that sound cool~~
+- figuring out who does what
+- figuring out how to structure a performance (= organised sound, composition)
+
+Give each performer **less** to do than you think you need to. Expect performers to think and communicate. Give performers **creative control**. Good performance is **risky!**
+
+{% comment %}
+On to the actual lecture content
+{% endcomment %}
+
+{% include slides/background-image.html image="lectures/2015-arduino-charles-martin.jpg" heading="Making Hardware Interfaces" %}
+
 ## Recap: Incorporating Soft-/Hardware Interfaces in Pd
 
+![]({% link assets/lectures/hardware-interface/yichen-pd-processing-interface.jpg %}){: style="width:40%;float:right"}
+
 - Buttons, sliders, selectors.
-- Keyboard: `key`, `mouse`, `joystick`, etc.
-- External library: Processing
+- Keyboard: `key`, `mouse`, etc.
+- External library [Processing](https://processing.org) for more complex interactions.
 
-![]({% link assets/lectures/hardware-interface/yichen-pd-processing-interface.jpg %}){: style="width:40%;"}
-
-{:.fragment}
-More interaction options beyond your computer?
+Are there more interaction options beyond your computer?
 
 ## Hardware Interface Devices
 

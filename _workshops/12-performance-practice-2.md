@@ -50,7 +50,6 @@ The **challenge** with this exercise is that most of your won't have a clear ide
 ## Resources
 
 - [lecture on composing your LENS performance]({% link _lectures/12-composing.md %})
-- [lecture on the final LENS concert]({% link _lectures/13-concert.md %})
 
 ## Creative Notes
 
