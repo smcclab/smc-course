@@ -416,7 +416,6 @@ This could be a whole course, can only give inspiration and basic introduction t
 
 Hardware is _hard_, systems like microbit and arduino do their best to make it a more forgiving process but it requires time investment to get things working.
 
-
 {% comment %}
 ## Radio Serial to Pd in your computer
 
