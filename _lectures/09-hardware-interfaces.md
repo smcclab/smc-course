@@ -165,31 +165,38 @@ Are there more interaction options beyond your computer?
 
 ## Hardware Interface Devices
 
-- Phones and OSC interfaces
-  - [TouchOSC app](https://hexler.net/touchosc)
-  - [Heartbeat sounds demo by Federico Visi](https://www.instagram.com/reel/CgXLQNWLNzx/?utm_source=ig_web_copy_link)
+![]({% link assets/nimes/2024-nime-soft.jpg %}){: style="width:40%;float:right"}
 
-- Microcontrollers + sensors
+- Phones/Tablets can talk to your laptop via OSC
+  - [TouchOSC app](https://hexler.net/touchosc)
+  - [MobMuPlat](https://www.danieliglesia.com/mobmuplat/)
+
+- Microcontrollers + sensors can talk via OSC, Serial, USB, Bluetooth, etc.
   - E.g., Micro:bit, Arduino, [Bela](https://learn.bela.io), etc.
   - [Dialogues in Space](https://youtu.be/3aZNt6G2dko) by Sandy Ma
-- You can also do something even [wilder](https://www.instagram.com/reel/CjK4XviOKv_/?utm_source=ig_web_copy_link) (not in this course!) with custom MIDI controllers, webcam and so on...
 
-## Recap: A Simple Workflow
+**Custom hardware:** Let's you experiment with _new kinds of computing interfaces_.
+
+## A Simple NIME Workflow
 
 ![]({% link /assets/nimes/nime-workflow.png %}){: style="width:100%" }
 
-{% include slides/background-image.html image="lectures/hardware-interface/yichen-ozchi-performance-2022.jpg" heading=" Where do I start ?" %}
+Some kind of sensors for input, microcontroller to process values and send serial/bluetooth/midi/OSC to your laptop.
+
+{% include slides/background-image.html image="lectures/hardware-interface/yichen-ozchi-performance-2022.jpg" heading="Designing New Musical Interfaces" %}
 
 ## Instrumental Approach
 
-- Inspired by the acoustic instrument and well-established music tradition
-- Task-oriented interface design
+Making things that are _like_ regular musical instruments. 
 
-- Classifications (Miranda and Wanderlay, 2006):
-  - Augmented musical instruments: extended by sensors and/or controllers
-  - Instrument-like gestural controllers: model an acoustic instrument as closely as possible
-  - Instrument-inspired gestural controllers: inspired by acoustic ones + new configuration
-  - Alternate gestural controllers: not directly modeled or inspired (say - "imaginary")
+Inspired by the acoustic instrument and well-established music tradition, design related to the task of making sound.
+
+Classifications ([Miranda and Wanderlay, 2006](https://archive.org/details/newdigitalmusica0021mira)):
+
+- **Augmented** musical instruments: extended by sensors and/or controllers
+- **Instrument-like** gestural controllers: model an acoustic instrument as closely as possible
+- **Instrument-inspired** gestural controllers: inspired by acoustic ones but with new configuration
+- **Alternate** gestural controllers: not directly modeled or inspired ("imaginary")
 
 {% include slides/background-image.html image="https://d3i71xaburhd42.cloudfront.net/2d72f5d4d42ff1e5789d6320148302b7bb39c467/5-Figure6-1.png" heading="The extended clarinet (2016) / Carl Normark et al. " bgsize="contain" %}
 
@@ -227,36 +234,46 @@ Accessible guitar instrument - touch screen guitar (?!)
 heading="Phaserings (2015) / Charles Martin " %}
 
 {:.fragment}
-Percussion-inspired?
+Percussion inspired: tap, rub, swirl gestures in a new kind of instrument.
 
 {:.fragment}
 A granular synthesis component in Pd
 
-{% include slides/background-image.html image="lectures/hardware-interface/yichen-ozchi.jpeg"
-heading="Cubing Sound (2022) / Yichen Wang" bgsize="contain"%}
+{:.fragment}
+[Paper](https://www.nime.org/proc/cmartin2015/), [Someone's review on Youtube](https://youtu.be/rLI-vE4wuJE?si=nKXHnb1VBbr6ZDPT)
+
+{% include slides/background-image.html image="nimes/2024-YichenCubingSound.jpg"
+heading="Cubing Sound (2022) / Yichen Wang" bgsize="cover"%}
 
 {:.fragment}
-Freehand gestures and embodiment
+Exploring "imaginary" augmented reality instruments with freehand gestures
 
 {:.fragment}
-Imaginary? 
+Performance practice around Canberra and beyond.
 
 {:.fragment}
-... or I haven't clearly figured out yet!
+[Paper and Videos](https://www.nime.org/proc/nime22_27/)
 
 ## Other cool physical computer instruments
+
+![]({% link assets/nimes/2024-xyborg.jpg %}){: style="width:40%;float:right"}
 
 - [Multi Rubbing Tactile Instrument](https://zenodo.org/record/1176084#.ZEnHBy8RpCA)
 - [An Easily Removable, wireless Optical Sensing System (EROSS) for the Trumpet](https://zenodo.org/record/1178562#.ZEnG9i8RpCA)
 - [Kontrol: Hand Gesture Recognition for Music and Dance Interaction](https://zenodo.org/record/1178496#.ZE32HC8RphE) - more like an interface?
-- [nime.org](https://www.nime.org/archives/) for more
+
+See [nime.org](https://www.nime.org/archives/) for more, and next week's lecture.
 
 ## Compositional Approach
 
-- Focuses on the concept of a performance
+![]({% link assets/lectures/setups/constructions-nime2017-worm.jpg %}){: style="width:30%;float:right"}
+
+Focuses on the concept of a musical composition, interface allows the composition to unfold.
+
+> "From providing instructions for performers to create music, to creating contexts for performances in which music may be experienced" - Marije Baalman
+
 - You are the _composer_
-- Week 6: algorithmic composition and interactive music system
-- "From providing instructions for performers to create music, to creating contexts for performances in which music may be experienced" - Marije Baalman
+- What systems, environments, connections, etc, are needed to enable your composition to be played?
 
 {% include slides/background-image.html image="https://charlesmartin.au/assets/projects/lmtd/Benjamin-codes-and-Hanna-sets-the-masks.jpg"
 heading="Vital LMTD (2009) / Last Man to Die" %}
@@ -274,26 +291,28 @@ Inspired by the classic science-fiction short story “Twilight” by John W. Ca
 {:.fragment}
 [Video](https://vimeo.com/100624271)
 
-## The Question of Mapping
+## The Mapping Problem
 
-- Connection between an action in the environment to sonic output
+![]({% link assets/lectures/interfaces/faderjam-prototype.jpg %}){: style="width:40%;float:right"}
 
-- Steps in Mapping:
-  - How do you want to control the sound & what is the interface?
-    - E.g., Micro:bit, computer keyboard
-  - What sonic / musical process is controlled by the interface?
-  - What is the representation od sound and music that you are working with?
-    - FM synth
-    - String synth
-    - Sequence-based melody
+Connection between an action to a sonic output. **Problem is that there are so many ways of connecting sensors to parameters!**
 
-## Steps in Mapping
+- How do you want to control the sound & what is the interface?
+- What sonic / musical process is controlled by the interface?
+- What is sound modality / synth process are working with?
 
-- Gesture/Input action
-- Sensor and electronic handware
-- Accessing data from hardware (sometimes over network and can be tricky!)
-- Computational model (E.g., algorithmic composition, synth mechanism, sampling)
-- Sound output
+## Important Questions
+
+![]({% link assets/lectures/setups/unplugged-bela.jpg %}){: style="width:40%;float:right"}
+
+- Are the actions _triggering_ sounds, _modifying_ them or _both_?
+- What parameters should be controlled?
+- What range should be controlled?
+- Is the mapping linear? Non-linear?
+- Should the parameter be restricted to the "interesting part"?
+- What about computational models with state? (e.g., algorithmic composition, synth mechanism, sampling)
+- How does the sound output work?
+
 
 {% include slides/background-image.html image="https://usercontent.one/wp/www.captaincredible.com/wp-content/uploads/2021/11/cleanPatA.png"
 heading="Live demo: Micro:bit + Pd making interactive musical system"%}
@@ -386,6 +405,8 @@ midi.setTransport(function (data: Buffer) {
 - Read MIDI data
 - Transform it to other forms ...
 
+{% comment %}
 ## If you want to try Arduino
 
 Thanks to Charles - he got you something to [start with](https://github.com/cpmpercussion/EMS-ArduinoTutorial).
+{% endcomment %}
