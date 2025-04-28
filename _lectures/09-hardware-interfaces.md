@@ -282,7 +282,7 @@ Exploring three art forms: acting, percussion, and drawing through new interacti
 
 [Video](https://vimeo.com/14152601) and [more](https://charlesmartin.au/projects/lmtd/)
 
-{% include slides/background-image.html image="https://i.ytimg.com/vi/chA-4GRCb-I/maxresdefault.jpg"
+{% include slides/background-image.html image="lectures/slork-twilight-2013.jpg"
 heading="Twilight (2013) / SLOrk" %}
 
 {:.fragment}
@@ -301,7 +301,7 @@ Connection between an action to a sonic output. **Problem is that there are so m
 - What sonic / musical process is controlled by the interface?
 - What is sound modality / synth process are working with?
 
-## Important Questions
+## Mapping Questions
 
 ![]({% link assets/lectures/setups/unplugged-bela.jpg %}){: style="width:40%;float:right"}
 
@@ -314,21 +314,19 @@ Connection between an action to a sonic output. **Problem is that there are so m
 - How does the sound output work?
 
 
-{% include slides/background-image.html image="https://usercontent.one/wp/www.captaincredible.com/wp-content/uploads/2021/11/cleanPatA.png"
+{% include slides/background-image.html image="lectures/desk-devices.jpg"
 heading="Live demo: Micro:bit + Pd making interactive musical system"%}
 
-{:.fragment}
-Check out [Captain Credible](https://www.captaincredible.com/microbit-orchestra/) for more Micro:bit works/ideas!
-
-## Live demo: steps in mapping
-
-{:.fragment}
+{% comment %}
+## Live demo: Steps in mapping
 
 1. Gesture/Input action - hold micro:bit and move around
 2. Sensor -  Micro:bit sensors
 3. Accessing _MIDI data_ from Micro:bit hardware and to Pd over radio
 4. Computational model - Playing different pitches of an osc (envelope parameters, FM synthese, etc)
 5. Sound output - Pd
+{% endcomment %}
+
 
 ## Micro:bit
 
@@ -339,12 +337,111 @@ Check out [Captain Credible](https://www.captaincredible.com/microbit-orchestra/
   - [Code examples](https://microbit.org/get-started/first-steps/sensors/)
 - [Radio communications](https://lancaster-university.github.io/microbit-docs/ubit/radio/)
 
+## Accelerometer to Serial
+
+{:. style="font-size:.5em;"}
+```python
+from microbit import *
+import math
+
+def norm_acc(x):
+    new = round(min(max((x + 2000)/4000, 0.0), 1.0), 4)
+    return new
+
+def send_accelerometer_data():
+    x, y, z = accelerometer.get_values()
+    accs = [norm_acc(x), norm_acc(y), norm_acc(z)]
+    out = ' '.join([str(i) for i in accs]) + ';'
+    print(out)
+    return accs
+
+def display_pixel_mapping(x):
+    return 4 - min(math.floor((x + 0.2) * 4), 4)
+
+def display_values(values):
+    display_values = [display_pixel_mapping(x) for x in values]
+    display.clear()
+    display.set_pixel(0, display_values[0], 9)
+    display.set_pixel(2, display_values[1], 9)
+    display.set_pixel(4, display_values[2], 9)
+
+uart.init(baudrate=115200)
+
+while True:
+    values = send_accelerometer_data()
+    display_values(values)
+```
+
+## Serial to Sound in Pd
+
+![]({% link assets/lectures/microbit-serial-receiver-pd.png %}){: style="width:40%;float:right"}
+
+We have programmed the microbit to send messages in [FUDI format](https://en.wikipedia.org/wiki/FUDI). So messages look like:
+```ascii
+0.435 0.211 0.988;\n
+```
+To receive from a serial port in Pure Data we need to:
+
+1. install the `comport` external
+2. figure out which serial port is our microbit
+3. read bytes in (yes bytes!)
+4. assemble bytes into lines
+5. decode lines from FUDI format to a list
+6. unpack the list
+7. **do something** with the values!
+
+## Serial to Sound in Strudel
+
+A bit harder, no serial support automatically in Strudel.
+
+But it's just Javascript, so use the [Web Serial API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Serial_API#examples)
+
+Would be good to have an example...
+
+## Arduino
+
+I have a little course in doing this hardware NIME design with Arduino:
+
+<https://github.com/cpmpercussion/EMS-ArduinoTutorial>
+
+(old stuff there...)
+
+## Outro 
+
+Anything else to do here?
+
+A lot! 
+
+This could be a whole course, can only give inspiration and basic introduction today.
+
+Hardware is _hard_, systems like microbit and arduino do their best to make it a more forgiving process but it requires time investment to get things working.
+
+
+{% comment %}
+## Radio Serial to Pd in your computer
+
+- MacOs: [SerialMidiBridge](https://github.com/RuudMulder/SerialMidiBridge)
+- Windows & Linux: [HairlessMIDI](http://projectgus.github.io/hairless-midiserial/) & loopMIDI
+- Pd midi set-up
+- [More](https://vulpestruments.com/2018/11/21/how-to-connect-your-mini-mu-to-puredata/)
+
+## MIDI and sound process in Pd
+
+![]({% link assets/lectures/hardware-interface/microbit-midi-example.png %}){: style="width: 40%; float: right; "}
+
+- Read MIDI data
+- Transform it to other forms ...
+{% endcomment %}
+
+{% comment %}
 ## Accessing data from Micro:bit and radio transmission
 
 - Get accelerometer data from Micro:bit
 - Sending data over radio communication
 - Receiving data at the laptop-end
 - Therefore, you need a sender & receiver
+
+
 
 ## Receiver
 
@@ -366,8 +463,7 @@ radio.onReceivedBuffer(function (buffer) {
 ## Sender
 
 {:. style="font-size:.7em;"}
-
-```
+```python
 radio.setGroup(1)
 let accelx = 0
 
@@ -376,37 +472,14 @@ let accelx_send = midi.channel(1)
 
 basic.forever(function () {
   // access accelerometer data
-    accelx = input.acceleration(Dimension.X)
+  accelx = input.acceleration(Dimension.X)
   // some sound representation
-  ...
-  // note "bang"
   accelx_send.noteOn(accelx_note)
-
 })
 
 // send midi messages over radio transmission
 midi.setTransport(function (data: Buffer) {
     radio.sendBuffer(data);
-
 })
-````
-
-## Radio Serial to Pd in your computer
-
-- MacOs: [SerialMidiBridge](https://github.com/RuudMulder/SerialMidiBridge)
-- Windows & Linux: [HairlessMIDI](http://projectgus.github.io/hairless-midiserial/) & loopMIDI
-- Pd midi set-up
-- [More](https://vulpestruments.com/2018/11/21/how-to-connect-your-mini-mu-to-puredata/)
-
-## MIDI and sound process in Pd
-
-![]({% link assets/lectures/hardware-interface/microbit-midi-example.png %}){: style="width: 40%; float: right; "}
-
-- Read MIDI data
-- Transform it to other forms ...
-
-{% comment %}
-## If you want to try Arduino
-
-Thanks to Charles - he got you something to [start with](https://github.com/cpmpercussion/EMS-ArduinoTutorial).
+```
 {% endcomment %}
