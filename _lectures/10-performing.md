@@ -24,17 +24,23 @@ the human may not be important here, but the visuals are an integral part of the
 
 {% include slides/background-image.html image="lectures/setups/bigscreen-lmtd.jpg" heading="Last Man to Die: C Martin, H Cormick, B Forster (2010)"  %}
 
-[link](https://vimeo.com/14152601)
+[video](https://vimeo.com/14152601)
 
 {% include slides/background-image.html image="lectures/setups/bigscreen-nime2013-brain.jpg" heading="‘it’s almost a song...’ For Brain-Player and Clarinet NIME2013" %}
-{% include slides/background-image.html image="lectures/setups/bigscreen-nime2013-whistle.jpg" heading="Whistle Interface NIME2013" %}
+
+[video (ZKM)](https://zkm.de/en/media/videos/ima-lab-no-10-kiyoshi-furukawa-brain-dreams-music)
+
+{% include slides/background-image.html image="lectures/setups/bigscreen-nime2013-whistle.jpg" heading="Whistle Interface NIME2013 (Roberto Morales)" %}
+
+[video (older)](https://www.youtube.com/watch?v=0lv6NbGRbyk)
+
 {% include slides/background-image.html image="lectures/setups/bigscreen-strikeonstage.jpg" heading="Strike on Stage: Charles Martin and Chi Hsia Lai NIME2010" %}
 
-[link](https://vimeo.com/14253118)
+[video](https://vimeo.com/14253118)
 
 {% include slides/background-image.html image="lectures/setups/bigscreen-touchinterface.jpg" heading="Touch Interface: Charles Martin (2010)" %}
 
-[link](https://vimeo.com/14152414)
+[video](https://vimeo.com/14152414)
 
 ## The Construction
 
@@ -46,7 +52,7 @@ they might use light, new materials, custom electronics, to make their statement
 
 {% include slides/background-image.html image="lectures/setups/construction-fifthvolt-2022.jpg" heading="5th Volt, Smith's Alternative, 2022" %}
 
-[link](https://youtu.be/h-C7mDJVNdA)
+[video](https://youtu.be/h-C7mDJVNdA)
 
 {% include slides/background-image.html image="lectures/setups/construction-nime2016-radios.jpg" heading="DIADs - The Ford Transit..., Oliver Bown, NIME2016" %}
 
@@ -56,15 +62,15 @@ they might use light, new materials, custom electronics, to make their statement
 
 {% include slides/background-image.html image="lectures/setups/constructions-nime2017-light.jpg" heading="Sabina Hyoju Ahn: Breath, NIME2017" %}
 
-[link](http://sabinaahn.com/index.php/project/breath/)
+[website](https://sabinaahn.com/breath)
 
 {% include slides/background-image.html image="lectures/setups/constructions-nime2017-worm.jpg" heading="Marije Baalman: Chrysalis, NIME2017" %}
 
-[link](https://vimeo.com/183344106)
+[video](https://vimeo.com/183344106)
 
 {% include slides/background-image.html image="lectures/setups/constructions-nime2017.jpg" heading="Dianne Verdonk: Bellyhorn, NIME2017" %}
 
-[link](https://dianneverdonk.com/bellyhorn/)
+[website](https://dianneverdonk.com/bellyhorn/)
 
 ## Face to Face
 
@@ -77,12 +83,12 @@ we're not playing to the audience, but they get to look over our shoulder
 {% include slides/background-image.html image="lectures/setups/face-to-face-emspiano.jpg" heading="ANU EMS 2016" %}
 {% include slides/background-image.html image="lectures/setups/face-to-face-in2change.jpg" heading="Charles Martin + Chi Hsia Lai, 2009" %}
 
-[related](https://youtu.be/D3OvQDTiOkw)
+[related video](https://youtu.be/D3OvQDTiOkw)
 
 {% include slides/background-image.html image="lectures/setups/face-to-face-lens22.jpg" heading="ANU LENS 2022" %}
 {% include slides/background-image.html image="lectures/setups/face-to-face-metatone2013.jpg" heading="Ensemble Metatone, 2013" %}
 
-[related](https://youtu.be/NqdxCteYRFk)
+[related video](https://youtu.be/NqdxCteYRFk)
 
 {% include slides/background-image.html image="lectures/setups/face-to-face-rpi2016.jpeg" heading="RPi, Charles Martin + Paul Heslin, 2016" %}
 {% include slides/background-image.html image="lectures/setups/face-to-face-spider2015.jpg" heading="Spider, EMS Workshop, ANU 2015" %}
@@ -99,7 +105,7 @@ these performances are all about getting maximum equipment and minimum complicat
 {% include slides/background-image.html image="lectures/setups/floor-ems2014.jpg" heading="experimental music studio, ANU, 2014" %}
 {% include slides/background-image.html image="lectures/setups/floor-nime2017.jpg" heading="Andrea Mancianti and Roberto Pugliese: Uroboro, NIME2017" %}
 
-[link](https://vimeo.com/robertofusco/quietspeakerpromo)
+[video](https://vimeo.com/robertofusco/quietspeakerpromo)
 
 ## Headgear
 
@@ -113,25 +119,25 @@ _headgear_ also includes other head-mounted musical modalities...
 
 {% include slides/background-image.html image="lectures/setups/headgear-yichen2022.jpg" heading="Cubing Sound, Yichen Wang NIME2022" %}
 
-[link](https://youtu.be/uR7LbpRMMVM)
+[video](https://youtu.be/uR7LbpRMMVM)
 
 {% include slides/background-image.html image="lectures/setups/headgear-nime2020-listening.jpg" heading="Listening to Listening NIME2020" %}
 
-[link](https://youtu.be/ZFg1pXzWS78?t=313)
+[video](https://youtu.be/ZFg1pXzWS78?t=313)
 
 {% include slides/background-image.html image="lectures/setups/headgear-acmc2019.jpg" heading="AR performance ACMC2019" %}
 
 {% include slides/background-image.html image="lectures/setups/headgear-nime2018-vr.jpeg" heading="Forgetfulness: Zachary Duer, Ivica Ico Bukvic & Meaghan Dee, NIME2018" %}
 
-[link](http://ico.bukvic.net/Video/ForgetfulnessVR.mp4)
+[video](http://ico.bukvic.net/Video/ForgetfulnessVR.mp4)
 
 {% include slides/background-image.html image="lectures/setups/headgear-nime2015.jpg" heading="PHOX Ears: Rebecca Kleinberger NIME2015" %}
 
-[link](https://rebeccakleinberger.com/portfolio_page/phoxs-ears/)
+[website](https://rebeccakleinberger.com/portfolio_page/phoxs-ears/)
 
 {% include slides/background-image.html image="lectures/setups/headgear-nime2016.jpg" heading="Focal: Stewart Greenhill and Cathie Travers NIME2016"  bgsize="contain" %}
 
-[link](http://stewartgreenhill.com/articles/focal/)
+[website](http://stewartgreenhill.com/articles/focal/)
 
 {% include slides/background-image.html image="lectures/setups/headgear-nime2018.jpg" heading="Circles: Barry Moon, NIME2018"  bgsize="contain"  %}
 
@@ -147,11 +153,11 @@ they follow hundreds of years of tradition with new techniques and a brand new s
 
 {% include slides/background-image.html image="lectures/setups/hyperinstrument-nime2016-clarinet.jpg" heading="Extended Clarinet NIME2016, Carl Robert Normark, Robert Ek"  bgsize="contain" %}
 
-[link](https://youtu.be/anE8Xp-KeZU)
+[video](https://youtu.be/anE8Xp-KeZU)
 
 {% include slides/background-image.html image="lectures/setups/hyperinstrument-nime2016-guitar.jpg" heading="BladeAxe Romain Michon NIME2016" bgsize="contain" %}
 
-[link](https://youtu.be/tyPOhLmRBXc)
+[video](https://youtu.be/tyPOhLmRBXc)
 
 {% include slides/background-image.html image="lectures/setups/hyperinstrument-nime2016-piano.jpg" heading="Piano with Objects NIME2016"  bgsize="contain"  %}
 
@@ -160,15 +166,15 @@ they follow hundreds of years of tradition with new techniques and a brand new s
 
 {% include slides/background-image.html image="lectures/setups/hyperinstrument-nime2017-cellos.jpg" heading="Feedback Cellos (Alice Eldrige and Chris Kiefer) NIME2017" %}
 
-[link](https://youtu.be/E_wkeie3qJ4)
+[video](https://youtu.be/E_wkeie3qJ4)
 
 {% include slides/background-image.html image="lectures/setups/hyperinstrument-nime2019-violin.jpg" heading="Hybrid Violin, Laurel Pardue NIME2019"  bgsize="contain"  %}
 
-[link](https://youtu.be/aicbGuxBmws)
+[video](https://youtu.be/aicbGuxBmws)
 
 {% include slides/background-image.html image="lectures/setups/hyperinstrument-vibes2011.jpg" heading="Extended Vibraphone, Charles Martin, NIME2013" %}
 
-[link](https://youtu.be/wNW5EN0eCd8)
+[video](https://youtu.be/wNW5EN0eCd8)
 
 ## Semicircle
 
@@ -182,19 +188,19 @@ the real world bows to the dominance of their soundworld and the metaverse beyon
 
 {% include slides/background-image.html image="lectures/setups/semicircle-lens2019.jpg" heading="ANU Laptop Ensemble 2019" %}
 
-[link](https://youtu.be/0nzNdM5RCjY)
+[video](https://youtu.be/0nzNdM5RCjY)
 
 {% include slides/background-image.html image="lectures/setups/semicircle-lens22.jpg" heading="ANU Laptop Ensemble 2022" %}
 
-[link](https://youtu.be/xixlJ9WtqNo)
+[video](https://youtu.be/xixlJ9WtqNo)
 
 {% include slides/background-image.html image="lectures/setups/semicircle-metatone2014.jpg" heading="Ensemble Metatone 2014" %}
 
-[link](https://youtu.be/ICeHWlNRsgU)
+[video](https://youtu.be/ICeHWlNRsgU)
 
 {% include slides/background-image.html image="lectures/setups/semicircle-nime2013-tablets.jpg" heading="Vox Tactum Meets Chorus Digitalis: Seven Years of Singing Surfaces NIME2013" %}
 
-[link](https://youtu.be/d4TV-IcK8c8)
+[video](https://youtu.be/d4TV-IcK8c8)
 
 {% include slides/background-image.html image="lectures/setups/semicircle-nime2015.jpg" heading="Ensemble Feedback Instruments: Muhammad Hafiz Wan Rosli NIME2015" %}
 
@@ -212,14 +218,20 @@ they're the modern string quartet or chamber music ensemble, ready to blow an au
 
 {% include slides/background-image.html image="lectures/setups/unplugged-bela.jpg" heading="Stillness Under Tension, 2017" %}
 
-[link](https://youtu.be/tDkJqoFpnF8)
+[video](https://youtu.be/tDkJqoFpnF8)
 
 {% include slides/background-image.html image="lectures/setups/unplugged-lens22.jpg" heading="ANU LENS 2022" %}
+
+[video](https://www.youtube.com/watch?v=hGe5A5NiPSU)
+
 {% include slides/background-image.html image="lectures/setups/unplugged-metatone2016.jpg" heading="Ensemble Metatone, ICAD2016" %}
 
-[link](https://youtu.be/aDEQMLwd8ok)
+[video](https://youtu.be/aDEQMLwd8ok)
 
 {% include slides/background-image.html image="lectures/setups/unplugged-nime2010-mopho.jpg" heading="Stanford MoPhO (Mobile Phone Orchestra) NIME2010" %}
+
+[related video](https://www.youtube.com/watch?v=uBo4JH-CPPM)
+
 {% include slides/background-image.html image="lectures/setups/unplugged-nime2018.jpg" heading="Mozartkebap: Nick Acorne and Takuto Fukuda NIME2018" %}
 
 [related](https://youtu.be/KCZV_Ts8NDc)
@@ -236,28 +248,27 @@ they're this generations concert pianist or solo violinist
 
 {% include slides/background-image.html image="lectures/setups/virtuoso-tstick2013.jpg" heading="Still Life, D Andrew Stewart, NIME2013" %}
 
-[link](https://vimeo.com/79965447)
+[video](https://vimeo.com/79965447)
 
 {% include slides/background-image.html image="lectures/setups/virtuoso-atau2010.jpeg" heading="Atau Tanaka, NIME2010" %}
 
-[related](https://youtu.be/jkXAFP9IGV0)
+[related video](https://youtu.be/jkXAFP9IGV0)
 
 {% include slides/background-image.html image="lectures/setups/virtuoso-synaesthesia.jpg" heading="Synaesthetic: Christina Hopgood, Charles Martin, Gisli Gretarsson 2017" %}
 
-[link](https://youtu.be/qwPCjI-jpZo)
+[video](https://youtu.be/qwPCjI-jpZo)
 
 {% include slides/background-image.html image="lectures/setups/virtuoso-nime2011-hands.jpg" heading="The Shells, Alex Nowitz, NIME2011" %}
 
-[link](https://vimeo.com/26661484)
+[video](https://vimeo.com/26661484)
 
 {% include slides/background-image.html image="lectures/setups/virtuoso-nime2013-donnarumma.jpeg" heading="Ominous, incarnated sound sculpture for Xth Sense: Marco Donnarumma, NIME2013" %}
 
-[link](https://youtu.be/v4jz_7PDVfo)
-
+[video](https://youtu.be/v4jz_7PDVfo)
 
 {% include slides/background-image.html image="lectures/setups/virtuoso-nime2017.jpg" heading="Ritual, Wayne Siegel, NIME2017" %}
 
-[related](https://vimeo.com/374126721)
+[related video](https://vimeo.com/374126721)
 
 ## Ideas
 
@@ -268,3 +279,4 @@ Which ones match up with the music you might like to make?
 Which ones do you think are _just bad_.
 
 What more do you need to know to create your dream performance?
+
