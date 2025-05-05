@@ -5,7 +5,8 @@ permalink: /assessments/lens-performance/
 show_toc: true
 image: assets/photos/2022-lh3.jpg
 image_alt: Photo by Charles Martin
-template_repo: https://gitlab.cecs.anu.edu.au/comp4350/2025/comp4350-2025-lens-performance
+template_repo: "https://gitlab.cecs.anu.edu.au/comp4350/2025/comp4350-2025-lens-performance"
+booking_info: "https://edstem.org/au/courses/21142/discussion/2640479"
 hidden: false
 ---
 
@@ -134,7 +135,7 @@ Make sure you have read **all** the information on this page so that you are awa
 ### Preparation
 
 - Meet with your ensemble (probably more than once!) and make sure you are aware of how to perform each member's piece. You should know what your job is in your piece and in each piece from each person in your group.
-- Book a time for your concert by 23/5/2025 using our booking system _(link to be advised)_.
+- Book a time for your concert by **23/5/2025** using our [booking system (link)]({{ page.booking_info }}).
 - Make sure you find out the **room** for your concerts. They all at the ANU School of Music but in different rooms on different days.
 
 Here are a list of the concert venues so you know how to find them:
