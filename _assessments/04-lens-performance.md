@@ -62,7 +62,7 @@ Your ensemble performance:
 We make recordings of all performances, including performer's screens and faces
 for grading and archival purposes. Your performance must be recorded through
 our system with all performers present and all screens visible to be graded.
-We will provide you with the video of your whole concert via GitLab, and you should extract your part of the performance and upload it to your own fork of the gitlab template repo.
+We will provide you with the video of your whole concert via GitLab, and you should **extract your part of the performance** and **upload it to your own fork of the gitlab template repo**.
 
 {:.info-box}
 
@@ -80,8 +80,8 @@ You must submit your **performance materials** through GitLab in your fork of th
 Your performance materials:
 
 - **must** include all patches, code, sound files, scores, instructions required to produce your performance (upload to GitLab)
-- **must** include a `README.md` file explaining how to get your performance up and running and including screenshots and code listings of the important part of this performance.
-- **must** include the video of your ensemble performance above.
+- **must** include a `documentation-and-reference.md` file explaining how to get your performance up and running and including screenshots and code listings of the important part of this performance.
+- **must** include the video of your ensemble performance above (filename: `lens-performance.mkv`)
 
 The primary part of your performance materials is the README file created in your GitLab repository. We _may_ check the other files in GitLab if further information is required about your performance, but basically your work should be represented clearly in your README file.
 
