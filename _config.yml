@@ -16,13 +16,17 @@ short_title: COMP4350/8350
 subbrand: ANU School of Computing
 
 description: A collaborative course on creating sound and performing music with computers.
-url: https://comp.anu.edu.au
+url: ""
 date_format: "%b %-d, %Y"
 permalink: pretty
 # sub-path of your site (/courses/COMPXXXX)
-baseurl: "/courses/comp4350"
+baseurl: ""
 
-theme: jekyll-theme-anu
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+
+theme: monophase
 
 contacts:
   responsible_officer:
