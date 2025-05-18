@@ -1,12 +1,8 @@
 ---
 title: Sound and Music Computing
 tagline: A collaborative course in making sound and creating music with computers 
-hidden: true
-no_breadcrumb: true
-layout: feature
+layout: default
 ---
-
-
 
 ## What is Sound and Music Computing?
 
