@@ -51,7 +51,7 @@ N.B.: this is about **you** defining the original music for your piece. Don't pl
 - Composition does _not_ equal "traditional music notation": don't use this in your piece!
 - Composition is _not_ playing other people's music!
 - Composition _is_ about making decisions and communicating them (somehow) to your ensemble.
-- Improvisation is _not_ equal to "jazz improvisation", or any other idiom: this is a specific type of performance!
+- Improvisation is _not_ equal to "jazz improvisation", or any other idiom: that is just one kind of improvisation.
 - Improvisation is about performers making decisions.
 
 **Most** laptop ensemble performances have a combination of composed and improvised aspects.
@@ -132,7 +132,7 @@ This means pieces that you "play like a game", not just playing Zelda's Lullaby
 - **Important**: How do you make _sure_ there is interest throughout your work? (Don't make it boring)
 
 Game pieces can involve simple pen+paper rules, or a complex networked game
-(e.g., created in Pd). LENS students have even had text adventures in live
+(e.g., created in Pd). SMC students have even had text adventures in live
 coding systems.
 
 ## The Audience
@@ -182,7 +182,7 @@ something down make it 1 A4 page (including all info for the group).
 - Don't play someone else's music
 - You can do this!
 
-{% include slides/background-image.html image="lectures/llewellyn-blur.jpg" heading="Break a leg!" %}
+{% include slides/background-image.html image="lectures/llewellyn-blur.jpg" heading="Chookas!" %}
 
 We made it!
 
