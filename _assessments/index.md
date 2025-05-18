@@ -28,5 +28,4 @@ The LENS performance submission dates were extended from 30/5/2025 to 6/6/2025 d
 
 ## Assessment Pages
 
-{% include collection-listing.html show_search=false no_images=false %}
-
+{% include page-cards.html cards=site.assessments %}
