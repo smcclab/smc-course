@@ -33,5 +33,5 @@ explorations remotely or asynchronously.
 
 The lecture slides are all available below as web pages. 
 
-{% include page-cards.html cards=site.lectures %}
+{% include basic_collection_list.html items=site.lectures %}
 

@@ -57,4 +57,4 @@ In the consultation time you can feel free to talk to the tutor about your work,
 
 ## Content {#workshop-content}
 
-{% include page-cards.html cards=site.workshops no_images=false %}
+{% include basic_collection_list.html items=site.workshops %}
